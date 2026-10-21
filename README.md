@@ -45,7 +45,7 @@ failures one by one, not only pass or fail.
    hashes measured numbers that move between replays). Four kinds of new failure are shown in the table but not
    counted, because two replays of one build on one runner disagreed on them: a responsiveness failure that is
    only about time (a first interaction that fetches code still counts), a control the exploration did not reach
-   ("not exercised"), and a new journey failure on a route main already has red on that dimension (one that logs
+   ("not exercised"), a new journey failure on a route main already has red on that dimension (one that logs
    a console error still counts), and a motion's duration (not its shape). A source map the checker fetches to
    name a source line is not a capture miss. A check that still varied after that is quarantined in its suite
    (`quarantine`, with the measured reason, an owner and an expiry at most two weeks out); an expired entry fails
