@@ -1,0 +1,240 @@
+# Every night on Markless main: every suite, the per-PR sample and every route, compared with the last night.
+# New reds open (or add to) an issue here; the night's results become the baseline pull requests compare with.
+# A dispatch runs any Markless ref without touching the baseline unless asked to.
+name: Nightly
+
+on:
+  schedule:
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: 'Markless branch, tag, commit, or pr/<number>'
+        required: true
+        type: string
+        default: main
+      suites:
+        description: 'Suites to run, separated by spaces, or all'
+        required: false
+        type: string
+        default: all
+      lanes:
+        description: 'Which lanes to run'
+        required: false
+        type: choice
+        default: both
+        options:
+          - both
+          - sample
+          - full
+      baseline:
+        description: 'Store the results as the baseline (only for main)'
+        required: false
+        type: boolean
+        default: false
+
+concurrency:
+  group: nightly-${{ inputs.ref || 'main' }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      sample: ${{ steps.plan.outputs.sample }}
+      full: ${{ steps.plan.outputs.full }}
+      ref: ${{ steps.plan.outputs.ref }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - id: plan
+        env:
+          REF: ${{ inputs.ref || 'main' }}
+          SUITES: ${{ inputs.suites || 'all' }}
+          LANES: ${{ inputs.lanes || 'both' }}
+        run: |
+          set -euo pipefail
+          empty='[]'
+          sample=$([ "$LANES" = full ] && echo "$empty" || node ecosystem-ci.ts list --matrix --lane sample $SUITES)
+          full=$([ "$LANES" = sample ] && echo "$empty" || node ecosystem-ci.ts list --matrix --lane full $SUITES)
+          echo "sample=${sample}" >> "$GITHUB_OUTPUT"
+          echo "full=${full}" >> "$GITHUB_OUTPUT"
+          echo "ref=${REF}" >> "$GITHUB_OUTPUT"
+          echo "sample jobs: ${sample}"
+          echo "full jobs: ${full}"
+
+  build:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.33.2
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Build and pack Markless
+        env:
+          REF: ${{ needs.plan.outputs.ref }}
+        run: node ecosystem-ci.ts build --ref "$REF" --packs packs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: markless-packs
+          path: packs
+          if-no-files-found: error
+          retention-days: 7
+
+  sample:
+    needs: [plan, build]
+    if: needs.plan.outputs.sample != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        include: ${{ fromJSON(needs.plan.outputs.sample) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/download-artifact@v4
+        with:
+          name: markless-packs
+          path: packs
+      - uses: ./.github/actions/setup
+      - name: Run the sample
+        env:
+          SUITE: ${{ matrix.suite }}
+          REF: ${{ needs.plan.outputs.ref }}
+        run: node ecosystem-ci.ts run "$SUITE" --packs packs --lane sample --results results --ref-label "$REF"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: sample-${{ matrix.suite }}
+          path: |
+            results
+            workspace/runs
+          if-no-files-found: warn
+          retention-days: 14
+
+  full:
+    needs: [plan, build]
+    if: needs.plan.outputs.full != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      matrix:
+        include: ${{ fromJSON(needs.plan.outputs.full) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/download-artifact@v4
+        with:
+          name: markless-packs
+          path: packs
+      - uses: ./.github/actions/setup
+      - name: Run every route
+        env:
+          SUITE: ${{ matrix.suite }}
+          SHARD: ${{ matrix.shard }}
+          REF: ${{ needs.plan.outputs.ref }}
+        run: node ecosystem-ci.ts run "$SUITE" --packs packs --lane full --shard "$SHARD" --results results --ref-label "$REF"
+      - name: Name the artifact after the shard
+        id: name
+        env:
+          SHARD: ${{ matrix.shard }}
+        run: echo "shard=${SHARD/\//-of-}" >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: full-${{ matrix.suite }}-${{ steps.name.outputs.shard }}
+          path: |
+            results
+            workspace/runs
+          if-no-files-found: warn
+          retention-days: 14
+
+  report:
+    needs: [plan, build, sample, full]
+    if: always() && needs.plan.result == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      # Commit the night's results as the baseline.
+      contents: write
+      # Open an issue on new reds.
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: sample-*
+          path: results/sample
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: full-*
+          path: results/full
+      - name: Compare with the last baseline
+        id: compare
+        env:
+          REF: ${{ needs.plan.outputs.ref }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          set +e
+          status=0
+          for lane in sample full; do
+            [ -d "results/${lane}" ] || continue
+            node ecosystem-ci.ts compare --results "results/${lane}" --lane "$lane" --markdown "report-${lane}.md" --title "Nightly ${lane} lane on Markless ${REF}" --run-url "$RUN_URL"
+            code=$?
+            [ "$code" = 0 ] || status=1
+            cat "report-${lane}.md" >> "$GITHUB_STEP_SUMMARY"
+          done
+          echo "status=${status}" >> "$GITHUB_OUTPUT"
+      - name: Open or add to the issue for new reds
+        if: steps.compare.outputs.status != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REF: ${{ needs.plan.outputs.ref }}
+        run: |
+          set -euo pipefail
+          cat report-*.md > issue.md
+          gh label create ecosystem-regression --color B60205 --description 'A nightly run found new reds' 2>/dev/null || true
+          open="$(gh issue list --label ecosystem-regression --state open --json number --jq '.[0].number // empty')"
+          if [ -n "$open" ]; then
+            gh issue comment "$open" --body-file issue.md
+          else
+            gh issue create --title "New reds on Markless ${REF} ($(date -u +%Y-%m-%d))" --label ecosystem-regression --body-file issue.md
+          fi
+      - name: Store the night's results as the baseline
+        if: github.event_name == 'schedule' || (inputs.baseline && inputs.ref == 'main')
+        run: |
+          set -euo pipefail
+          for lane in sample full; do
+            [ -d "results/${lane}" ] && node ecosystem-ci.ts baseline --results "results/${lane}" --lane "$lane"
+          done
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add baselines
+          if git diff --cached --quiet; then
+            echo "baselines unchanged"
+          else
+            git commit -m "baselines: nightly results on Markless main ($(date -u +%Y-%m-%d))"
+            git push origin HEAD:main
+          fi

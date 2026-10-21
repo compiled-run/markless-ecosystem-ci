@@ -1,0 +1,147 @@
+# Captures the old sites (and what Markless main's build of each site asks for) from the live network, then
+# replays the same lane twice to prove the capture is complete and stable, and commits it to captures/.
+# Run it when a suite is added, when markless-migrate's pin moves, or when a nightly reports capture misses.
+name: Record captures
+
+on:
+  workflow_dispatch:
+    inputs:
+      suites:
+        description: 'Suites to record, separated by spaces, or all'
+        required: true
+        type: string
+        default: all
+      lane:
+        description: 'The lane whose routes are recorded'
+        required: true
+        type: choice
+        default: sample
+        options:
+          - sample
+          - full
+
+concurrency:
+  group: record-captures
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      matrix: ${{ steps.plan.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - id: plan
+        env:
+          SUITES: ${{ inputs.suites }}
+          LANE: ${{ inputs.lane }}
+        run: echo "matrix=$(node ecosystem-ci.ts list --matrix --lane "$LANE" $SUITES)" >> "$GITHUB_OUTPUT"
+
+  build:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.33.2
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: node ecosystem-ci.ts build --ref main --packs packs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: markless-packs
+          path: packs
+          if-no-files-found: error
+          retention-days: 3
+
+  record:
+    needs: [plan, build]
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        include: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/download-artifact@v4
+        with:
+          name: markless-packs
+          path: packs
+      - uses: ./.github/actions/setup
+      - name: Record
+        env:
+          SUITE: ${{ matrix.suite }}
+          SHARD: ${{ matrix.shard }}
+          LANE: ${{ inputs.lane }}
+        run: node ecosystem-ci.ts run "$SUITE" --packs packs --lane "$LANE" --shard "$SHARD" --record --results results/record
+      - name: Replay twice
+        env:
+          SUITE: ${{ matrix.suite }}
+          SHARD: ${{ matrix.shard }}
+          LANE: ${{ inputs.lane }}
+        run: |
+          set -euo pipefail
+          for pass in 1 2; do
+            node ecosystem-ci.ts run "$SUITE" --packs packs --lane "$LANE" --shard "$SHARD" --results "results/replay-${pass}"
+          done
+          node scripts/stability.ts results/replay-1 results/replay-2 | tee -a "$GITHUB_STEP_SUMMARY"
+      - name: Name the artifact after the shard
+        id: name
+        env:
+          SHARD: ${{ matrix.shard }}
+        run: echo "shard=${SHARD/\//-of-}" >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: capture-${{ matrix.suite }}-${{ steps.name.outputs.shard }}
+          path: |
+            captures
+            results
+            workspace/runs
+          if-no-files-found: warn
+          retention-days: 14
+
+  commit:
+    needs: record
+    if: always() && needs.record.result != 'skipped'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      # Commit the captures.
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: capture-*
+          path: recorded
+      - name: Merge the captures and commit them
+        run: |
+          set -euo pipefail
+          node scripts/merge-captures.ts recorded captures
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add captures
+          if git diff --cached --quiet; then
+            echo "captures unchanged"
+          else
+            git commit -m "captures: recorded from the live network (run ${GITHUB_RUN_ID})"
+            git push origin HEAD:main
+          fi

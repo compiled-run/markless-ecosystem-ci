@@ -1,0 +1,19 @@
+{
+	"name": "markless-ecosystem-ci",
+	"private": true,
+	"type": "module",
+	"description": "The sites migrated to Markless, built against a Markless ref and checked against captures of their old sites",
+	"license": "MIT",
+	"engines": {
+		"node": ">=24.11.0"
+	},
+	"scripts": {
+		"ecosystem-ci": "node ecosystem-ci.ts",
+		"test": "node --test test/*.test.ts",
+		"typecheck": "tsc --noEmit"
+	},
+	"devDependencies": {
+		"@types/node": "^24.12.2",
+		"typescript": "^5.9.3"
+	}
+}
