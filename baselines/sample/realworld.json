@@ -1,0 +1,233 @@
+{
+	"suite": "realworld",
+	"lane": "sample",
+	"markless": {
+		"sha": "2e7152cdf3fc1d228edb096fcb2bf6dc2366be5e",
+		"version": "0.8.0",
+		"ref": "main"
+	},
+	"migrate": {
+		"sha": "64947b72a31d8ed0eeede38df9a587317426459c"
+	},
+	"recordedAt": "2026-10-21T19:13:30.282Z",
+	"steps": {
+		"install": "pass",
+		"build": "pass",
+		"test": "skipped",
+		"serve": "pass",
+		"check": "pass"
+	},
+	"routes": {
+		"/": {
+			"ok": false,
+			"failures": [
+				{
+					"id": "612a3231c7",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"1\""
+				},
+				{
+					"id": "2e96898199",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"2\""
+				},
+				{
+					"id": "6e4bba1836",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"3\""
+				},
+				{
+					"id": "aec252ed63",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Conduit\""
+				},
+				{
+					"id": "1c38eb1223",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Home\""
+				},
+				{
+					"id": "c92de3226a",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Sign in\""
+				},
+				{
+					"id": "422163f36b",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Sign up\""
+				},
+				{
+					"id": "24728da5b7",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Learning Rust as a JavaScript developer The borrow checker is your friend Read more... javascript rust\""
+				},
+				{
+					"id": "27d4e3db26",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"programming\""
+				},
+				{
+					"id": "656bd7984d",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"web\""
+				},
+				{
+					"id": "048897cd56",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"teams\""
+				},
+				{
+					"id": "32961cdb85",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"dragons\""
+				},
+				{
+					"id": "8b4b916df6",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"javascript\""
+				},
+				{
+					"id": "c593ad05d4",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"devops\""
+				},
+				{
+					"id": "0f08723625",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"writing\""
+				},
+				{
+					"id": "2a8edb37b8",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"history\""
+				},
+				{
+					"id": "0afe90e305",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"debugging\""
+				},
+				{
+					"id": "a9cf4b12ce",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"css\""
+				},
+				{
+					"id": "420d0fe155",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Conduit\" #2"
+				},
+				{
+					"id": "2524191e88",
+					"dimension": "navigation",
+					"check": "in place from /profile/ada: <html> class and data-* attributes, against the old app reached the same way"
+				},
+				{
+					"id": "fb9a237200",
+					"dimension": "rendered",
+					"check": "fresh load: <html> class and data-* attributes"
+				}
+			],
+			"weight": {
+				"downloaded": 224163,
+				"executed": 56896
+			},
+			"owner": "markless-migrate realworld port (thejackshelton)"
+		},
+		"/article/Notes-from-a-hackathon-16449bd5": {
+			"ok": false,
+			"failures": [
+				{
+					"id": "7f8236f752",
+					"dimension": "behaviour",
+					"check": "click link \"sign up\""
+				},
+				{
+					"id": "fd5c972bd9",
+					"dimension": "behaviour",
+					"check": "click link \"grace\""
+				},
+				{
+					"id": "8b6dbc47ef",
+					"dimension": "behaviour",
+					"check": "click link \"Home\""
+				},
+				{
+					"id": "4b72a3a58c",
+					"dimension": "rendered",
+					"check": "fresh load: <html> class and data-* attributes"
+				}
+			],
+			"weight": {
+				"downloaded": 232212,
+				"executed": 68662
+			},
+			"owner": "markless-migrate realworld port (thejackshelton)"
+		},
+		"/profile/ada": {
+			"ok": false,
+			"failures": [
+				{
+					"id": "eaa61fd3f2",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"1\", shared with /"
+				},
+				{
+					"id": "fbe9db9350",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Conduit\", shared with /"
+				},
+				{
+					"id": "afc129db6b",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Home\", shared with /"
+				},
+				{
+					"id": "01271169eb",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Sign in\", shared with /"
+				},
+				{
+					"id": "66a8a4ae82",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Sign up\", shared with /"
+				},
+				{
+					"id": "1ac81f88fc",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Conduit\" #2, shared with /"
+				},
+				{
+					"id": "75dc6ac8fd",
+					"dimension": "navigation",
+					"check": "back to /profile/ada after going in place from /profile/ada to /: <body> attributes"
+				}
+			],
+			"weight": {
+				"downloaded": 231508,
+				"executed": 59777
+			},
+			"owner": "markless-migrate realworld port (thejackshelton)"
+		},
+		"/tag/dragons": {
+			"ok": false,
+			"failures": [
+				{
+					"id": "6ddc79d49f",
+					"dimension": "behaviour",
+					"check": "click link \"Home\", in the layout shared with /article/Notes-from-a-hackathon-16449bd5"
+				},
+				{
+					"id": "0b04a30943",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Conduit\" #2, shared with /article/Notes-from-a-hackathon-16449bd5"
+				}
+			],
+			"weight": {
+				"downloaded": 228779,
+				"executed": 59189
+			},
+			"owner": "markless-migrate realworld port (thejackshelton)"
+		}
+	},
+	"misses": []
+}
