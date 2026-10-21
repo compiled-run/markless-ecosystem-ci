@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { describe, test } from 'node:test';
-import { compareSuite, type Baseline } from '../src/compare.ts';
+import { applyQuarantine, compareSuite, type Baseline } from '../src/compare.ts';
 import type { RouteRecord, Suite, SuiteResult } from '../src/types.ts';
 
 const suite: Suite = { name: 'site', app: 'examples/site', old: 'https://old.example', owner: 'the port', routes: { sample: [{ route: '/', covers: ['menu'] }, { route: '/b', covers: ['dialog'] }], full: ['/', '/b'] } };
@@ -90,5 +90,21 @@ describe('timing', () => {
 		const c = compareSuite(suite, result({ '/': slow, '/b': fetches }), baseline({ '/': route(true, []), '/b': route(true, []) }));
 		assert.deepEqual(c.timing.map((r) => r.route), ['/']);
 		assert.deepEqual(c.regressions.map((r) => r.route), ['/b']);
+	});
+});
+
+describe('quarantine', () => {
+	const flaky: Suite = { ...suite, quarantine: [{ route: '/', dimension: 'visual', check: 'visual:new', reason: 'one of two replays differed', owner: 'someone', until: '2026-11-04' }] };
+	const run = () => compareSuite(flaky, result({ '/': route(false, ['visual:new', 'http:other']), '/b': route(true, []) }), baseline({ '/': route(true, []), '/b': route(true, []) }));
+
+	test('holds a quarantined check out of the count until it expires; other checks still count', () => {
+		const held = applyQuarantine(run(), new Date('2026-10-25T00:00:00Z'));
+		assert.deepEqual(held.regressions.map((r) => r.detail), ['http: http:other']);
+		assert.equal(held.quarantined.length, 1);
+	});
+
+	test('an expired quarantine fails the run', () => {
+		const expired = applyQuarantine(run(), new Date('2026-11-05T00:00:00Z'));
+		assert.match(expired.regressions.at(-1)!.detail, /expired on 2026-11-04/);
 	});
 });

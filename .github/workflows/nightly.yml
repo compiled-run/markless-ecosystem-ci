@@ -114,15 +114,21 @@ jobs:
           name: markless-packs
           path: packs
       - uses: ./.github/actions/setup
+      - name: Name the artifact after the shard
+        id: name
+        env:
+          SHARD: ${{ matrix.shard }}
+        run: echo "shard=${SHARD/\//-of-}" >> "$GITHUB_OUTPUT"
       - name: Run the sample
         env:
           SUITE: ${{ matrix.suite }}
+          SHARD: ${{ matrix.shard }}
           REF: ${{ needs.plan.outputs.ref }}
-        run: node ecosystem-ci.ts run "$SUITE" --packs packs --lane sample --results results --ref-label "$REF"
+        run: node ecosystem-ci.ts run "$SUITE" --packs packs --lane sample --shard "$SHARD" --results results --ref-label "$REF"
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: sample-${{ matrix.suite }}
+          name: sample-${{ matrix.suite }}-${{ steps.name.outputs.shard }}
           path: |
             results
             workspace/runs
@@ -154,6 +160,7 @@ jobs:
           REF: ${{ needs.plan.outputs.ref }}
         run: node ecosystem-ci.ts run "$SUITE" --packs packs --lane full --shard "$SHARD" --results results --ref-label "$REF"
       - name: Name the artifact after the shard
+        if: always()
         id: name
         env:
           SHARD: ${{ matrix.shard }}
@@ -236,5 +243,6 @@ jobs:
             echo "baselines unchanged"
           else
             git commit -m "baselines: nightly results on Markless main ($(date -u +%Y-%m-%d))"
+            git pull --rebase origin main
             git push origin HEAD:main
           fi

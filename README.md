@@ -44,6 +44,14 @@ failures one by one, not only pass or fail.
    - the site makes a request main does not make (a capture miss main did not have).
    A route red on main too is a known red: it is listed with its owner and never fails a run.
 
+   Two failures are the same failure when their dimension, viewport and check match (the checker's own id also
+   hashes measured numbers that move between replays). Three kinds of new failure are shown in the table but not
+   counted, because two replays of one build on one runner disagreed on them: a responsiveness failure that is
+   only about time, a control the exploration did not reach ("not exercised"), and a new journey failure on a
+   route main already has red on that dimension. A check that still varied after that is quarantined in its suite
+   (`quarantine`, with the measured reason, an owner and an expiry at most two weeks out); an expired entry fails
+   every run. `scripts/stability.ts` compares two replays the way `compare` does, and the record workflow runs it.
+
 ## Lanes
 
 - **sample** (per pull request, release gate): a few routes per site, picked to cover the shapes that break:

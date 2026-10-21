@@ -45,9 +45,15 @@ export function renderMarkdown(comparison: Comparison, options: { title: string;
 			lines.push('');
 		}
 	}
+	const quarantined = comparison.suites.filter((c) => c.suite.quarantine?.length);
+	if (quarantined.length) {
+		lines.push('', '<details><summary>Quarantined checks (they vary between replays of one build; run and shown, not counted)</summary>', '', '| Suite | Route | Check | Owner | Until | Failed in this run |', '| --- | --- | --- | --- | --- | --- |');
+		for (const c of quarantined) for (const q of c.suite.quarantine!) lines.push(`| ${c.suite.name} | \`${q.route}\` | ${q.dimension}: ${q.check.replace(/\|/g, '\\|')} | ${q.owner} | ${q.until} | ${c.quarantined.some((r) => r.route === q.route && r.detail.includes(q.check)) ? 'yes' : 'no'} |`);
+		lines.push('', '</details>');
+	}
 	const timing = comparison.suites.filter((c) => c.timing.length);
 	if (timing.length) {
-		lines.push('', '<details><summary>Timing differences (reported, not counted: they vary between replays of the same build)</summary>', '');
+		lines.push('', '<details><summary>Differences that vary between replays of one build (timing, journeys explored): shown, not counted</summary>', '');
 		for (const c of timing) for (const t of c.timing.slice(0, 15)) lines.push(`- ${c.suite.name} \`${t.route}\` ${t.detail.replace(/\|/g, '\\|')}`);
 		lines.push('', '</details>');
 	}

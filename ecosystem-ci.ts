@@ -8,7 +8,7 @@ import { buildMarkless, readPacks } from './src/markless.ts';
 import { checkoutMigrate, readPin } from './src/migrate.ts';
 import { renderMarkdown } from './src/report.ts';
 import { runSuite } from './src/run-suite.ts';
-import { loadSuites, ROUTES_PER_SHARD, selectSuites, shard } from './src/suites.ts';
+import { loadSuites, ROUTES_PER_JOB, selectSuites, shard } from './src/suites.ts';
 import type { Lane, SuiteResult } from './src/types.ts';
 
 const root = import.meta.dirname;
@@ -22,7 +22,7 @@ const USAGE = `node ecosystem-ci.ts <command> [options]
       --packs <dir>          use (or write) packed tarballs here instead of building again
       --ref-label <ref>      the ref the packs were built from, for the report
       --lane sample|full     the per-PR route sample (default) or every route
-      --shard <i/n>          only this share of the suites (sample) or of each suite's routes (full)
+      --shard <i/n>          only this share of each suite's routes
       --route <path>         only this route (repeatable), for a closer look at one
       --record               capture the old sites from the live network instead of replaying
       --migrate-ref <sha>    markless-migrate at another commit than migrate.json pins
@@ -35,7 +35,7 @@ const USAGE = `node ecosystem-ci.ts <command> [options]
       --results <dir> --lane sample|full
   list [suite...]      print the suites, their sample routes and what they cover
       --json                 only the names of the suites that run, as a JSON array (for a CI matrix)
-      --matrix               the lane's CI jobs as a JSON array of { suite, shard }, the full lane split by routes
+      --matrix               the lane's CI jobs as a JSON array of { suite, shard }, each suite's routes split across jobs
 `;
 
 const { positionals, values } = parseArgs({
@@ -123,17 +123,17 @@ async function run(): Promise<void> {
 	await mkdir(workspace, { recursive: true });
 	await mkdir(resultsDir, { recursive: true });
 	const suites = await selectSuites(root, rest);
-	const lanes = lane === 'full' ? suites : shard(suites, values.shard);
+	const lanes = suites;
 	const packs = await markless(workspace);
 	const migrate = await checkoutMigrate(await readPin(root), workspace, values['migrate-ref']);
 	let failed = false;
 	for (const suite of lanes) {
 		const all = lane === 'sample' ? suite.routes.sample.map((r) => r.route) : [...suite.routes.full];
-		const routes = values.route?.length ? values.route : lane === 'full' ? shard(all, values.shard) : all;
+		const routes = values.route?.length ? values.route : shard(all, values.shard);
 		if (!routes.length) continue;
 		console.log(`[${suite.name}] ${lane} lane, ${routes.length} routes${values.shard ? `, shard ${values.shard}` : ''}`);
 		const result = await runSuite({ root, workspace, suite, lane, packs, migrate, seal: values.record ? 'record' : 'replay', routes, concurrency: Number(values.concurrency), ...(values['ref-label'] || values.ref ? { ref: values['ref-label'] ?? values.ref } : {}) });
-		const name = `${suite.name}${values.shard && lane === 'full' ? `.${values.shard.replace('/', '-of-')}` : ''}.result.json`;
+		const name = `${suite.name}${values.shard ? `.${values.shard.replace('/', '-of-')}` : ''}.result.json`;
 		await writeFile(join(resultsDir, name), `${JSON.stringify(result, null, '\t')}\n`);
 		const green = Object.values(result.routes).filter((r) => r.ok).length;
 		console.log(`[${suite.name}] ${Object.entries(result.steps).map(([k, v]) => `${k} ${v}`).join(', ')}; ${green} of ${Object.keys(result.routes).length} routes green; ${result.seal.misses.length} requests missing from the capture; ${Math.round(Object.values(result.timings).reduce((a, b) => a + b, 0) / 1000)} s`);
@@ -163,7 +163,8 @@ async function list(): Promise<void> {
 	const suites = await selectSuites(root, rest);
 	if (values.matrix) {
 		console.log(JSON.stringify(suites.filter((s) => !s.disabled).flatMap((s) => {
-			const count = lane === 'full' ? Math.max(1, Math.ceil(s.routes.full.length / ROUTES_PER_SHARD)) : 1;
+			const routes = lane === 'full' ? s.routes.full.length : s.routes.sample.length;
+			const count = Math.max(1, Math.ceil(routes / ROUTES_PER_JOB[lane]));
 			return Array.from({ length: count }, (_, i) => ({ suite: s.name, shard: `${i + 1}/${count}` }));
 		})));
 		return;

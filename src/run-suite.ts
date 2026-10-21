@@ -26,10 +26,14 @@ export interface RunSuiteOptions {
 }
 
 /**
- * How much each route is explored is fixed by count, not by time: with the default 120 s journey budget a slower
- * runner exercises fewer controls, and every control it did not reach reads as a new failure.
+ * The sample explores each route by count, not by time, so a slower runner explores the same journeys. The full
+ * lane keeps the checker's 120 s journey budget to fit every route into a night; controls it does not reach are
+ * not counted either way (see explorationOnly).
  */
-export const CHECK_DEFAULTS = ['--journey-budget', '3600', '--max-journeys', '40', '--timeout', '1800'];
+export const CHECK_DEFAULTS: Record<Lane, readonly string[]> = {
+	sample: ['--journey-budget', '3600', '--max-journeys', '40', '--timeout', '1800'],
+	full: ['--timeout', '1800'],
+};
 
 export function routesFor(suite: Suite, lane: Lane): string[] {
 	return lane === 'sample' ? suite.routes.sample.map((r) => r.route) : [...suite.routes.full];
@@ -205,7 +209,7 @@ export async function runSuite(options: RunSuiteOptions): Promise<SuiteResult> {
 			String(options.concurrency ?? 2),
 			'--new-source',
 			'.',
-			...CHECK_DEFAULTS,
+			...CHECK_DEFAULTS[lane],
 			...(suite.check ?? []),
 		];
 		const result = await time('check', () =>

@@ -85,6 +85,11 @@ jobs:
           name: markless-packs
           path: packs
       - uses: ./.github/actions/setup
+      - name: Name the artifact after the shard
+        id: name
+        env:
+          SHARD: ${{ matrix.shard }}
+        run: echo "shard=${SHARD/\//-of-}" >> "$GITHUB_OUTPUT"
       - name: Record
         env:
           SUITE: ${{ matrix.suite }}
@@ -102,11 +107,6 @@ jobs:
             node ecosystem-ci.ts run "$SUITE" --packs packs --lane "$LANE" --shard "$SHARD" --results "results/replay-${pass}"
           done
           node scripts/stability.ts results/replay-1 results/replay-2 | tee -a "$GITHUB_STEP_SUMMARY"
-      - name: Name the artifact after the shard
-        id: name
-        env:
-          SHARD: ${{ matrix.shard }}
-        run: echo "shard=${SHARD/\//-of-}" >> "$GITHUB_OUTPUT"
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -143,5 +143,6 @@ jobs:
             echo "captures unchanged"
           else
             git commit -m "captures: recorded from the live network (run ${GITHUB_RUN_ID})"
+            git pull --rebase origin main
             git push origin HEAD:main
           fi

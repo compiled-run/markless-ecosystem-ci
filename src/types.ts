@@ -31,8 +31,25 @@ export interface Suite {
 	};
 	/** Extra `markless-migrate check` flags. */
 	readonly check?: readonly string[];
+	/**
+	 * Checks whose result two replays of one build disagreed on: they run and are shown, not counted, until the
+	 * nondeterminism is fixed. Each needs an owner and an expiry at most two weeks out; expired, it fails every run.
+	 */
+	readonly quarantine?: readonly Quarantine[];
 	/** Why the suite is not run yet, when it is not; the reason shows in every report. */
 	readonly disabled?: string;
+}
+
+export interface Quarantine {
+	readonly route: string;
+	readonly dimension: string;
+	/** The start of the failure's check text. */
+	readonly check: string;
+	/** What varied, measured: which run had it and what it said. */
+	readonly reason: string;
+	readonly owner: string;
+	/** YYYY-MM-DD */
+	readonly until: string;
 }
 
 export interface SampleRoute {

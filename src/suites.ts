@@ -3,8 +3,11 @@ import { join } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import type { Suite } from './types.ts';
 
-/** Full-lane routes one CI job checks: about 40 minutes at the measured pace of a route. */
-export const ROUTES_PER_SHARD = 60;
+/**
+ * Routes one CI job checks. A sampled route takes 4 to 8 minutes to check on a runner (shadcn-admin /: 361 s), so
+ * two keep a per-PR job near a quarter of an hour; the nightly lane packs more into each job.
+ */
+export const ROUTES_PER_JOB = { sample: 2, full: 25 } as const;
 
 export async function loadSuites(root: string): Promise<Suite[]> {
 	const dir = join(root, 'suites');
@@ -22,7 +25,7 @@ export async function selectSuites(root: string, names: readonly string[]): Prom
 	return all.filter((suite) => names.includes(suite.name));
 }
 
-/** Shard `index` of `count` (1-based) of a lane's work: whole suites for the sample, routes for the full lane. */
+/** Shard `index` of `count` (1-based) of a suite's routes. */
 export function shard<T>(items: readonly T[], spec: string | undefined): T[] {
 	if (!spec) return [...items];
 	const [index, count] = spec.split('/').map(Number);

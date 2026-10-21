@@ -1,0 +1,2219 @@
+{
+	"version": 1,
+	"entries": {
+		"GET https://alpinejs.dev/__markless-migrate/": {
+			"status": 302,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1d39a7ddfae99-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:01:51 GMT",
+				"location": "http://alpinejs.dev/essentials/installation",
+				"server": "cloudflare",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6InJpSG53ZWg2Y2xYSVZFWnY0VS9Ya2c9PSIsInZhbHVlIjoiUzN2RnJSTmdHbStGbUhaYmlMeHZqaUZ5MU5iZjc3bU05Q0UxMUNOWkpiaEVvT0NXWkptS0o0WEV6azg3S09QNjVOd0QvamROQkdJR3RjaTBWd0tPb0xZejRVYzg2dUJVZ1dnSnIwZWhETnBkOS9UQlVxRzZnQTV5QU9BMHgvQVMiLCJtYWMiOiI5ZjllMTM0MDJiZTFlODAxMWYzYjNmYjIwYmM5ZmU5ZWY0MmEyOWE1NjJiODIyZDQ3MWY5ZDQ3Mzc3ZDM5YTE0IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:01:51 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IjdjQTBZUFJUOVBiMTA2KzRzVU44Q0E9PSIsInZhbHVlIjoiZEdXOEdZanBOTFN1dEZCQno1eWVIWG41ZzRzTkhFNXFGYU4rU2tQT2pDTGhtTTc4VlVMQnE2V29FY0ZKbkVUNVNZYkJsa0h0S0wrQm0yUDlXVFdJbFN4TVNXb3ppbUtWajE4SWQ1cjZNcGlsaERuSmd4dHJYcnFSK1ZIOURxS3giLCJtYWMiOiJhMDZlYjc4MDllYjdmZjVjNDQ3OTQwOWFmNGMwZGFjNTMxYWIzMTYxOGM1Y2RhMmQ2YjQxM2VkMWJmYTA5NDA5IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:01:51 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "806006062da3dbd9aebee6b3e559e96abd2db7e85e38ffbd4fdab6789d77279c"
+		},
+		"GET https://alpinejs.dev/__markless-migrate/requests?load=0f405a29-0fae-4586-9c64-56b5528f2c77": {
+			"status": 302,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1d485fcae33ed-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:02:28 GMT",
+				"location": "http://alpinejs.dev/essentials/installation",
+				"server": "cloudflare",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6Ikt6R05pem10RVYwTGMzWE5uem9QTXc9PSIsInZhbHVlIjoiMVJhQlpCZnNCSHM5UlpCeTI5YWgzUENjdWo0Vmg1S1lZK0JicnVPaUxReVRrN1F4cGlmUHZYblF6QjhHb3ZFTXpPQ3hpWmh5T0NvMC9JYVN4bUkvU0RPdFY1dS82RHA5SW9acUNqSUpidmt3Z2hDMWR0V3pNSk14M1piMzZGMTMiLCJtYWMiOiI3YmRjNDUzOTkxMWZkOGJjZDk2YzEzMzg1N2RlMjNkZjdkY2YzNjgwYTZlYmNiNDQwNTBkOGFiYzdlMGFkMmY0IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:02:28 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IkNRcXVFSWg2dWVtbS8zNGo3K2RpMUE9PSIsInZhbHVlIjoiOU8wUjdIL3Z3aFpuV3RpQTBHdjdtOHkwTjNHQWprUzlBRklseEZ4SUlyVzlrWTVSdXhLeEdmYk0xOXNyTlcvNXFlVm5MdjZUd1JxVk10Y3JyWVA0NS8wTkdldmRDcC9YdlpaVk03Q3I2bUZqOG1IbmtwVldxWi9QRWh1YUdsRnkiLCJtYWMiOiIzYjY2NzVjMzRmMWM0NmRiODM0OTY2ZGY5MDVjZjE5N2RhN2VmMWNlNjg2NjBjNWFhNDU3MTVkMzJkMDM0NGU4IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:02:28 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "806006062da3dbd9aebee6b3e559e96abd2db7e85e38ffbd4fdab6789d77279c"
+		},
+		"GET https://alpinejs.dev/__markless-migrate/requests?load=146a81e6-8bc7-43cb-812e-1c78233fc4ba": {
+			"status": 302,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1d430dd78ae99-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:02:15 GMT",
+				"location": "http://alpinejs.dev/essentials/installation",
+				"server": "cloudflare",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6InIyaWQ5eTRqdzNqUTMydGNseGpCeVE9PSIsInZhbHVlIjoiOHNtd1lvZkNldnp3NWlLUEh0dWV4UnI3RSt4alpZUFBLUU9WZTFZTXlBNnpOSVluL0dKK2NNbWtlWm81Vjd6T3RIeE5FenhGSjJZMTBnOGR1bXovZnk3cndGTXRXcnRScXpDbEM2SUhGM1YwOU91TTdNbU9DSFFrc3Fka21ZYTgiLCJtYWMiOiI1NDBlZGMxM2I2OTNhOGNhNWIxMjE2ZmQ5MTQxZDA4NDM3MmRmN2NiNjIzOTcxMTE3OTZmMDYwNTJlZmQyNTY2IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:02:15 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6ImRQRk1mSUxkK3AxZGFDZlZjRFByc2c9PSIsInZhbHVlIjoiWVB3cU1qMG9VWFJGQVdtQkx6OEYxREl0b3FLYU5WOGR5Ny9TdHZZbWdIZDc2YlpLRnBHYWk2STcvQzlKT3JiRlh2cml3eVE3RGlpVlI4bENlb25OMTNVTncrR3FsS0k1ZjlOT0MxNzRGL3A4U3cydXkwNkpMZ25Gb3luVU1oMmsiLCJtYWMiOiI0ODVlZTY5NWI2ZWUyZDFjZTM3MGU2NzVmNTQ0N2NiNzJjMmVmOGVhZTEzODZmN2JhOWM2MGZhNmNkNGRkODgzIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:02:15 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "806006062da3dbd9aebee6b3e559e96abd2db7e85e38ffbd4fdab6789d77279c"
+		},
+		"GET https://alpinejs.dev/__markless-migrate/requests?load=1c15ff44-6fce-4c77-b6c2-582aeaa46b00": {
+			"status": 302,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1d430db94f4c4-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:02:15 GMT",
+				"location": "http://alpinejs.dev/essentials/installation",
+				"server": "cloudflare",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IjNDMVdYLzJJaytYSCtrMy9FcHZjVlE9PSIsInZhbHVlIjoiaWtCTnhNTWRSNVdIVE9Rb2x1Ky9HMjNIYTVNamlVY1Z5Y3ppOU5WYzc2YlVvZkxFZUplZVFtbWh2YndZSnpUbkZIZ3ZOMU0yT0RvY0NGNW5Bb3RmakVCVWpVM1ExTDNWYmViMElWeGhFS1JFNU5yV1VSbFZKYUkrUWVSOWhkaGUiLCJtYWMiOiJjNmMzNTliMTc4ZmMwNWQ4ZTI5MjUyMGUyZDQxMTAwM2I1ODBmYzg5M2EzZTVmM2UxZTJlMTYzODRlYTViZTE4IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:02:15 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IklSTEJQbmdFWWpSVS9rc0JyRHh6amc9PSIsInZhbHVlIjoidWM5MXZKOEVqYmhxdEcyQzdGNW5ESnFHUHRkRG5BZ2wzdzdmSk1jalNYWEFWc25jSzZ4YkREaURnaDRkRi9sOXlpd3o4eUZxS2V1ZWxPeitka1NobDYycTVYVVdObEVES2syL1N0SzFXZmZaSTdVemZJd3hXSTFyekZ4V2dEL2siLCJtYWMiOiIxMWM4YzhkMDYyNjkzMTUwMDExNWY4Y2JhMWM1YTgwMTJlOTYzODEwMDEyZjZhNzc1OTc4ODVjNzFkODhjOGZjIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:02:15 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "806006062da3dbd9aebee6b3e559e96abd2db7e85e38ffbd4fdab6789d77279c"
+		},
+		"GET https://alpinejs.dev/__markless-migrate/requests?load=21eddcef-6b18-496d-93dc-9a74955ae3c3": {
+			"status": 302,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1e1a368125585-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:11:26 GMT",
+				"location": "http://alpinejs.dev/essentials/installation",
+				"server": "cloudflare",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IlBvLzl2V1dKblVBQnArU1lGRmJEU3c9PSIsInZhbHVlIjoiNytUZHRjVnYwUloyblhhT0kvcDVyc0plbFJiQ25xSldDdHh5TmxIdzBod2FFdzdYM0dDOU5UNnJDSFh4RTVGUHNqaHFpMU94VDZncHUrWHptZGtYRFRHeFVzaE1CTnA5QW5GdGp4WFZic1VsYmllakZxVXFxRTN6UVc1a1JkMFQiLCJtYWMiOiI4YWRjMTYwY2VlYmExMjE0NmJhYWFiMDgwNzdlZjYzYzJhYTVkNDg0MTQxZDBmNzI2NWQwM2Y0NThjYzgyYjM4IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:11:26 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6InZ6UnNCRXRrTnMvT1lQSlNiVkNWWEE9PSIsInZhbHVlIjoiazdZYUVyT042S3FJRnFhMldGKzdvNmJEd2hRVjVDamlNS285b0pmeTJRNzRzcFRRVnlMbzFUWnFpSFdPU1lwOWlISmpnUkRoaEE0d2U0cnNsTVMzWXV5L1VyTTRWVE9CVmt1d25GQVFkczh4dWZMS3Fnd01pbFJ2VTZyQUdNY1kiLCJtYWMiOiJkMzI4YzY3NGFlN2RmY2U2MTljZjg2MWEwYWY4MzI2Y2I5MGNhZWMwNjlmYjY1N2QxMmE2YjJjODc4MWRlMWE2IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:11:26 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "806006062da3dbd9aebee6b3e559e96abd2db7e85e38ffbd4fdab6789d77279c"
+		},
+		"GET https://alpinejs.dev/__markless-migrate/requests?load=27aa80a0-a850-44c8-bb19-5a05fc7e74be": {
+			"status": 302,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1e1b17d475585-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:11:28 GMT",
+				"location": "http://alpinejs.dev/essentials/installation",
+				"server": "cloudflare",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6Ikw0VzN4MWRUNFpjT0ZxTWxWLzl4ZXc9PSIsInZhbHVlIjoiYTZyeTY2MzBUZGdNS21UQWVqL2s1SUhFdStjUlIrbktFTlNFVmdRWDJDYm5YMDdVN3FYbDVDcnZPbFh2RmpwVUZmSXNneHFMa3BkR21EN05USGQ1bWtEL3dnZ0xDTmU5ZWF3UXVmQS8xWWlEU01SRlQ3dDRMZ0grdUxCQSsyWDUiLCJtYWMiOiJjZjQwMjMyMTRkOWMxMDI4ZWZiYjdlZDUxNDFlNzM4ZGNmNDA5MDE5NDA3MjUwODI5YzIxMjY4ZDk2ZTQ4MDdhIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:11:28 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IjdWWmo3ODQvVFI0b0lncy9mNWtUOEE9PSIsInZhbHVlIjoiWE9iK2FjUWZIdGhFcTV2NVlyc2VSVnY1UmRoOWRuVWg0ZnFzcFFWc1dJVi91ZXVNd2MyT2dxS3JSZ0FlVTJzdGpwOHMyOHREM2VHaTN1OU16WnpIbHNCSVRjVkJYQUV2ZGxSVkNReGZ1VHFyNlZ1eFh2V1paN200aTFWZHBpbGsiLCJtYWMiOiIyMWVmMzhjMzczMzk5ZDkzNDI4Y2U0ZTc3NjFlYjBjNWEzZDY3YTY1MGZhNjFmY2RlYzY5MGVjNTIyYmZiM2RmIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:11:28 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "806006062da3dbd9aebee6b3e559e96abd2db7e85e38ffbd4fdab6789d77279c"
+		},
+		"GET https://alpinejs.dev/__markless-migrate/requests?load=57aedd43-4876-4382-a12a-7809828f3f3e": {
+			"status": 302,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1e6413f4b5585-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:14:35 GMT",
+				"location": "http://alpinejs.dev/essentials/installation",
+				"server": "cloudflare",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IjU1RXY2bVlRNTZBK1pSRG1LNHF4OEE9PSIsInZhbHVlIjoiU0RVS25FcE1BRmZtdE9xSitjZmZTMTlWUHR3QTkrSC9YQmhGUDhmWnowNTFVcE1BQXV5NTB1aW1TbHhITWk0OVl5d09LaVVlSXRiRS95blVJZ0d3S0NRdnhhRUNJZ0VmQmFwR0FLSHNoZ1dJa1BjT0NWMW5JYmkxcUcrdWJDbG0iLCJtYWMiOiIxN2ZjM2NmYzU5MTY3ZTQyZjE1ZTk3M2ZmM2E1YTFjZTNjN2RiMDY1MDNmNTg4MDRjMDFiODFiZGQ1NThjMzdhIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:14:35 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6InkveFdzeVRYNTE0cWVUd1hNbEwvdlE9PSIsInZhbHVlIjoiT2JFTnovR2gzMDAwN1lsVHlxYzNEVEFZbG9NRjliK3liYXgwYzdIUzZSYUtCUkgxZzBvWHhseHBwNGhZbVFMMXJhVnhKL3JMZS9TLzUxRkxtTzNtK3kwWVFyZUtqZFE0SjRYRjJ3VFFvMHYvK3R5WDE1TGtsTTNGWHY3WGtjV1YiLCJtYWMiOiIzZDYyNTY2NjNhNzZjMGNiNGRiNDhkOTkwNTRiMDI1MWY0ZDZkNDc5MjI1YzAyNjk3MzJmYTJmNDZjMjkwYWFkIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:14:35 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "806006062da3dbd9aebee6b3e559e96abd2db7e85e38ffbd4fdab6789d77279c"
+		},
+		"GET https://alpinejs.dev/__markless-migrate/requests?load=7c5f19d4-75fa-4956-a0ad-2eab9fc0f9ab": {
+			"status": 302,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1e641393333ed-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:14:35 GMT",
+				"location": "http://alpinejs.dev/essentials/installation",
+				"server": "cloudflare",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6InJKc1FpbHI0UDdVeGk2b3BqZkw2SFE9PSIsInZhbHVlIjoiL29CWFVPVHhJZHRpV1JuejVIYUg0MGoxZVZvZHJsVFIrYXpRMkJWNVhjd2RlN1EySzFMbktSMS9YOFkwU00rcnZvRXVuck04VjZFSmlpU2svOFd3UWtqaUdBSVN6QnlzVGk4S3pjRGVrRENXRTNWMURwQ2tFK29DaytoSFJjczIiLCJtYWMiOiI5YjhiNWZkYWIwMTNmZjMwYTU0ZDg0NGE1NTIyZWZhZDYzZWYxY2U4M2ViZTdkZjAwYTk3YTU1MTY2ZWI1MGE2IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:14:35 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6ImJhUUxjZ1ZacUYzSTd4VDJ6RGk3ZVE9PSIsInZhbHVlIjoiNHRoVXFFa3NwbVB6RHNML1c3dVMySVpsV2NsM1UwRnFmVUpQMkZSK2pQdUNsYi9lS0U5WlR0bjZmdGhTOENCTWhta3RSZEJRSVliOGhwQ0RJREMzK1JSN1hmYURTSXdXQ0RJZWcwYlNod25BYUNVWnZ6enlEWE1CT1Z3WXMvR2wiLCJtYWMiOiIxNDc3MThmMjE5OWM3MjQwNGFhYjkzNzA2MmM1NTk1YmY3M2QyOTlkMDMzNjU0ZmJiMWU4NmYxMzY4OWRhYTgxIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:14:35 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "806006062da3dbd9aebee6b3e559e96abd2db7e85e38ffbd4fdab6789d77279c"
+		},
+		"GET https://alpinejs.dev/__markless-migrate/requests?load=9791b995-a7e9-4c84-b3e9-dc86e00e5e6c": {
+			"status": 302,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1dd49dc625585-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:08:27 GMT",
+				"location": "http://alpinejs.dev/essentials/installation",
+				"server": "cloudflare",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6InpmUHNNQVNrMXkrZ09DTGVod1c2R3c9PSIsInZhbHVlIjoiNTlSaGR1cjlLTkU0R0llSWs2RmhhcDZxQTRoWkwrRnViMG4zdVUxVzFlN1A0NVU1NjN1UTduVDJMSmtMUTJ3R0J6bXJkMERoYnY4VHc4TEkzZENrTHRzUi8zZW1UampJMUVFdW5kWnBGem10R0VsNVhnR29uSGg1ak50VmZWWmYiLCJtYWMiOiIwMTc5Yzk5MzRkODY1YTg1Y2QyZjMwMzNlYmU2OGMzZDljYjM2OGY2ZGQzYjE2ODgyNTU5OTk0NmVhYjA4MzEyIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:08:27 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IlR0Z3hzcDA1OC9CVkpMRUwyREJDcEE9PSIsInZhbHVlIjoiRGoraHV0bVJMWHFIM2hzdHVrU2RpYjVSVVZna2plWkdFSXJ3TkpMSWI5UXd4NDlyditZbitwRUl0ODlaWTZ0c2FpTnUwT2c0cFZKNmJKTWdUdEppNEdxL3dTTUZyRHNZVTdOTS8zbFZBUVp4T3dmWjFQSlR1ZTlDQy9US3I4QWIiLCJtYWMiOiI0NjIwZDJiMmY2MDMxNGNlNDY4MzBlNDE3NDhjNGMxMmNlM2I3YzM4Y2FkMzU5YzI3OWRmZjc1YmYxYzUwNWQzIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:08:27 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "806006062da3dbd9aebee6b3e559e96abd2db7e85e38ffbd4fdab6789d77279c"
+		},
+		"GET https://alpinejs.dev/__markless-migrate/requests?load=997cd954-d595-4dcf-9933-2dc2dc1174e5": {
+			"status": 302,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1d3a7e97aae99-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:01:53 GMT",
+				"location": "http://alpinejs.dev/essentials/installation",
+				"server": "cloudflare",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IlJrc0UvZ1piQ0Y0MkdsQjFrcG5IbHc9PSIsInZhbHVlIjoiUGxaNml4N1cwZldhYzUwdFk2Y1M5UE4xYzFwcE1JZktYclh2VjRKemJVT0x1MWJCZ241bE1PRlRuTko2T0Rna2Uvd2ZLcmN2Z3pkMmlkd3NTYmx6Nnh4a3J0QXd2Z3pkVkFBUmJUWGt6VmJYQTY1L3AvVG9WMWVEY2hXQ3VPZHUiLCJtYWMiOiI0NDU5NDZhMDZhZDcxZjlmNmVjNTYxMWI1ZTRkOTE5ZjNhNTFmOTFjNWVlYTJiZGYzNWY5MTM1NmJhMWVhZDdhIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:01:53 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6InR1M3RyMk1DbVQxT1JTeDQwNDNqbmc9PSIsInZhbHVlIjoickVSUDh1REZ2NXUvaVFyTkNHM2ZqWkRTQW8rWjFRVVl5bTYzNmlxTFJ2N1lpa0lKRHhTNzNCNnhLdnFZajZwbUJhRFlTOWEvVmI0c0djV01odEFNTjViTE1jS2xvLys4Z29XRi8yeFRkSkJhNkQyVkxVTGZYVElCK3ZKZ1hlTksiLCJtYWMiOiIzZTJmNDA3Y2NkYTkyNGVhN2NmMTZlODJmMGZjNjgyZjU5OGNjYTQ1YmM1ZmQzMDdmNWIyMjc0YTVlOTZjYjgxIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:01:53 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "806006062da3dbd9aebee6b3e559e96abd2db7e85e38ffbd4fdab6789d77279c"
+		},
+		"GET https://alpinejs.dev/__markless-migrate/requests?load=999b5098-e221-4d6e-91fd-8fa90c8311bb": {
+			"status": 302,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1d4860ae5ae00-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:02:28 GMT",
+				"location": "http://alpinejs.dev/essentials/installation",
+				"server": "cloudflare",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6ImIvd3cybVJVa0J4SjJwak90bWdtWXc9PSIsInZhbHVlIjoiZE02VkgyWngzVWY3OEVhTG5IYWlXMDJKM2p1SW9xYStBTFJuRFN2c3RidTg3aWtnM3RHSlBqbDZJZlVUd1I1ak1aemJnaE53U2FjempBQkthM05BZlVSS295ZlJwVldEOVBzOFJTQS9rbEJlWXkzcU03QzVRaVpTSXRLN3hRMTQiLCJtYWMiOiI0YzI2YjNhZmQ1NWI4Mzk4Y2I5MmVhODdiODkyYzFjODRlZjQyNzBkOGM3MzQ2OTA2OWMwOTFhMGNjNDUwMDUyIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:02:28 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6Im9zdzNpMy81ODRFVTloVVliMnBhS3c9PSIsInZhbHVlIjoic0xaQUZNQml3ZldFVnc5d0RpNnBUWXNxOUFOdGx2OGI0TjI2cml4cU5QUEpHanhmUVNKRm1JVkF5YlUwM2YvN3lqT2NMMkhGbDZzWDE5RktjQlRxdjJTK2ZiOEVwTjNvVDIzbGxGRndyam44UURqUnZ6Q0RFRERmNGtmL2NRblMiLCJtYWMiOiI0MzRkMDhmMTM3MjdhZjFmYTdhZjJmZTVlZTQ4Njc1YjMwMzBhNTA1ZjU3M2VjNTA1NzJmNTIzODEzZDM1OWZmIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:02:28 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "806006062da3dbd9aebee6b3e559e96abd2db7e85e38ffbd4fdab6789d77279c"
+		},
+		"GET https://alpinejs.dev/__markless-migrate/requests?load=a0128a2d-4144-463c-9ee2-32b87a3e5dd2": {
+			"status": 302,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1d422d841ae99-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:02:13 GMT",
+				"location": "http://alpinejs.dev/essentials/installation",
+				"server": "cloudflare",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IjVoc0hhekx5OHJLUit2RWVlUUJ2eHc9PSIsInZhbHVlIjoiQXFMVHRQejRMVTJhSkZpYlkrdis5d1FwSkdva1dKdXlUQnMxZEFPQmY4djVSRDJ4SjJiclQreTU1dHVBaVhTWWhiZ3UvUlU5UWhtdmk2WEY4eFdLR0l6eU1VOUJXeE1lQjUzU0hBWUpmZjYzVG41Qm1mOVp6UVloaDg2dVpOS2ciLCJtYWMiOiIxOGQyMGE4YWY5MDBjOWQ4MTY3ZDQ2ZjY0NTBhM2M3NDU1MWJkYmVjZTZlMjllZTI0OTJlYjA2MmIyMWRmNmQxIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:02:13 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IkVOVFY3ZHlZM3RSSmRLSGliY1pzWkE9PSIsInZhbHVlIjoiRUtmSGJIcGczMDhhNmpZN3dNNUJjSnNoNGNIczE1bzVWTGd4bTM4bnU5Y1ZCU3dJWllTbHhrcC9iaXlTVGkvTG9rWXlxRHQ1Zm0yQ0xRQ2JiT3ZPNUFhTWVXcEE5ODRMRE1NTTdOejBKaXd4SEwvZTJCSzlBdkRCVGFlM1BNQkMiLCJtYWMiOiI4ZmViZWRkNmViYzc5NjRiMzAzNzc1YWY2MTYzZmQzMDJlMmEyZjBlZWZlMzgwNzQ3ZTA3Y2Q5ZWYxMDYwMDI4IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:02:13 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "806006062da3dbd9aebee6b3e559e96abd2db7e85e38ffbd4fdab6789d77279c"
+		},
+		"GET https://alpinejs.dev/__markless-migrate/requests?load=ac582c0e-9770-49c8-9187-a9c56cf0fd14": {
+			"status": 302,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1d3a7fb355585-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:01:53 GMT",
+				"location": "http://alpinejs.dev/essentials/installation",
+				"server": "cloudflare",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IkhBNkgwMXJoYWNsRUhJS09DeTlIV0E9PSIsInZhbHVlIjoiQjRTYUVvZ3IzRGtjMWx4bDAxQTlmSVFJOGZWMDYvRS9uQVI3VDlNTWF4UUpGUTJ3TGtkOHBsMURxT3BDejdKOUR5V0VlakpXdGs2TjZHUlRla3NPcS9mVTJPQlRhN2dFWmZUcjVZOTJCejUwMTM5ZFVKWkd4VjNzK1dyRFBVTXEiLCJtYWMiOiI5ZTE1NWE3Y2VmMDNmZDQ1MGQ2ZmY3YzRkZDQzZjcyNDZmZTk5MWZkY2I2ZjRhNTQzMDdhNDllMTliNTNmMWU1IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:01:53 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6InJsUXFJQTZZYVRMcjlsTXV2L0RhL3c9PSIsInZhbHVlIjoiY2VOYVFnZGh1MWxPNFFhc21mamtmVEFFOHBNckFxVFo0QmRBcnBINWI0T0FQOUdmREQvY0JIS3YveUF6TVc4MUYvNEVHQU1MZFN2aXRsR2I3VXBabmlxaUN0MUNmWXQ2ZTNvL0x6MnFtMTZKRk1sVTJHN0NFNnBCcjd3YytLT2wiLCJtYWMiOiJhNzI2NzY1NTc5M2VjMGZlNWM2MTYzMzUxZWNhOTYxNTVkYWVkMzZmZmZiZDJiMmY4MzdkNmMwMmM5NWNlNjBlIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:01:53 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "806006062da3dbd9aebee6b3e559e96abd2db7e85e38ffbd4fdab6789d77279c"
+		},
+		"GET https://alpinejs.dev/__markless-migrate/requests?load=b005cccb-a5f9-448a-91d6-d51d7bbff693": {
+			"status": 302,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1ddb7d99d5585-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:08:45 GMT",
+				"location": "http://alpinejs.dev/essentials/installation",
+				"server": "cloudflare",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IkRwTTArVVh5M3BKV2VxRXBuSXJIMXc9PSIsInZhbHVlIjoiSG82dWJPZVpMMEFoL0FLQnJuZzNkdlIxYVQxMmx6dW1pQW1xNHdCV3RVcU8zQ3pqMHRxcWJ4QTVZTVJvQXo5NXpVZlBQZVRlQVp3VEpVNjd6Q1hLbFBvenZkVWhxVldxelZVbHRnZGRaQUhPR21HOXpRRk0xb3pIZWcwUGk0Y2oiLCJtYWMiOiI3MDFlMGU1YmUzMDg0YTAzMTYzNGEwYjVhODg5YTNmZTAzNGJkOWRhMTZjOWEyNmE1MDZmMTc2Mjg2Yjg1NDhiIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:08:45 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6ImFZSlhSUjlaT0ZyT1czeTg0cnpKdXc9PSIsInZhbHVlIjoiR3poQjBoV1BDSDRLRUNKZkN0ODE0Rnpwemk3eCtGUFdzdUZ2M2plZHk1TWJXZXlCU0pDQkZxNlc2RUFRcjFvY0hEbjI2a3pMMVk3QVdRZ09MNzZPZFRndHVPR0YvYlZkZzc5Yk05TnZVai9IQ29rd0VJYTlIMWdyQWJqRUg0bWYiLCJtYWMiOiI4MjA1MjJiMjRjYWRjZWEzNDg3MDJhOTE3NTVkNWI2YzAzNjNjNTA4YjY1NDE1MDkxZjEyYjlmZDM0YzMzN2VmIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:08:45 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "806006062da3dbd9aebee6b3e559e96abd2db7e85e38ffbd4fdab6789d77279c"
+		},
+		"GET https://alpinejs.dev/__markless-migrate/requests?load=b7cdf02f-3eb3-44e2-ad89-b623a5fe4225": {
+			"status": 302,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1d422db28f4c4-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:02:13 GMT",
+				"location": "http://alpinejs.dev/essentials/installation",
+				"server": "cloudflare",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IlpzaEtBR3ZMTUw3Z2ZXd2d6WWhBckE9PSIsInZhbHVlIjoidWJPcVNhRlA1ZVVQVGVXWlA5K1E3SUtWT1cvVlNPdUlYT0xlQTJ1TFF2a2ZacVdRNTBnbWhCZ0pPakp5aXpJSWdGSkFJcm9ZRkN6WHBycTRaWXJqdVE4dzVnMUpndnRybHQyTllJYW4zN0FFdHVXTjdENTd6MWFzTzEvYnhNOFQiLCJtYWMiOiIwNzUwNGExYzI2NGZlZjdkNTc4NjZhNjdiY2Y3NjcyMzU2YjkyYTk0YzUzNzM1MDE5YTBlN2Q0NTY4MjlkMTllIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:02:13 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6Iis2N1pOSFVpTk1DVUQvOSs1bVdZTEE9PSIsInZhbHVlIjoiTFdZM2tiV1hHMVp4aDEvUjdmd0E4QzlnYUN4a04vZnRRd0UzUUh1UitCZG13V2ZjZFlwY0c0TUw1SFlzRjZpT2liWE1TaWFFVjN5WDR4VlNqaDFTdGVyVnRYc09zckxQTUcrMzZqeUgrWE82VDdlR1BPdHMxU01RZEFmb05xUHYiLCJtYWMiOiIwNGM3MTg3OTMxNDg0MGQ2YmFiNzZjZGVlYzhiZjZhNGEzOWRkZmUzNWM3ZGJmOTBlZGQ4OTgxYmQzMTEzMDVjIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:02:13 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "806006062da3dbd9aebee6b3e559e96abd2db7e85e38ffbd4fdab6789d77279c"
+		},
+		"GET https://alpinejs.dev/__markless-migrate/requests?load=b90b70ed-b217-4b4c-9ee5-44bd6d5591e6": {
+			"status": 302,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1ddb7defa22f6-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:08:45 GMT",
+				"location": "http://alpinejs.dev/essentials/installation",
+				"server": "cloudflare",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IlJlSXNUUm9NR25uckcxL1l1MW1qOFE9PSIsInZhbHVlIjoicTNpaHluTWs5dUhsUWNYSFd0aEd1NXJZZTNud3hTZEhnN3g3aU0xZG5WVDlTQzZlRGVpTWdZclZ6SGxFUFBTWmE0bDA2L3VkMm11NW02UWd1TW9mU3VpNHZlMk5wSkg1MEt0Q0Z4T0xFLyt5TGM1RlBrbHljb1cyYWJ2VlBXRE8iLCJtYWMiOiI2N2I0MDEwNmVmNGU3N2RhMTgzYzk5NWUxNjY5YTA1MTRmNGVmYzg5ZjAxMjNjN2Q3OGU5ZWE5OGJlZjZjZjQzIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:08:45 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IkQxTG5ONUFoMllIYzBHU2NRRWRKQkE9PSIsInZhbHVlIjoiOVNLUFdSbklSTk1iZnVOTXMzV0dUUGdlNzhXVnNrTTArOEJRR3c2V2xHNExobDVKaVpMN2ZsVGUzTWlnQkx0b28wMURwcFRQOURITVI1VHAzVHkwajBYN0JwVnVBdER2eXU1ZzVoWUdJTjlRemNqa2VsUlc1cTVuRkpCQzV6bFAiLCJtYWMiOiJiNjNkZTcyOTc4NjM0NmI4ZGYxMGQxMTcyNzMwYzM5ZmU3MDJjNGExMjViMGVmNDg0ZGI4NGNiZjUwNTQwNjViIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:08:45 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "806006062da3dbd9aebee6b3e559e96abd2db7e85e38ffbd4fdab6789d77279c"
+		},
+		"GET https://alpinejs.dev/__markless-migrate/requests?load=b9b1fedb-d4e2-481a-a5cb-7072c9d70334": {
+			"status": 302,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1e5f3390633ed-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:14:22 GMT",
+				"location": "http://alpinejs.dev/essentials/installation",
+				"server": "cloudflare",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IllxcUhJbko4dzlxaXdDRkRsVEFockE9PSIsInZhbHVlIjoidWI1Q0pEc1ZjdWhoVzFhenNheEd1WHlXU3RWdzM0Z0ErREgxZ3VNbjZ3QWdEbjE0Q1JVNWVRQTVHRldiOWVkTUdHVVhpUTFwL1Q0bjVBSmJrazdMcHRnV0xNU2hEd3BtUk1SdytWb3ZsdzdzRTJyM29VN3EwbVFnY2g4amVsVlEiLCJtYWMiOiJiNzRlZGFhYzdjMTMzNjVhNzk0NDZjMGZjNmMyMDJjYmNmNWNiNDk2ZTFjZTk4M2Y2YTUyZTg1ZmE2NThlN2IwIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:14:22 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6ImZTOXd0VUZKSzBtbW4wUy9OeFRIRlE9PSIsInZhbHVlIjoiZ0ZZekQxV2VUNnQveGVySG02Z085djAyMm5MUVh1S21MVzRSUWtpR1dYdEtzTllMcEdhVlYvenlrZ0taeThDTkJyOGRQOXJreWVhMFZKTXdZbHQ3bG4rYXRwTmhVcWxUSHlJb0lBaVNoTFoyY0dQNUNjeEVpdTYvcUV0eXJTNFYiLCJtYWMiOiI5MGE2ZmJiOThlN2NjNDgwMDVkYjcwZDExNTllM2I2ZDQyMTNjNTEyZWEyMTA4MTRkMjNjYjRhZDQyYWYzYTcxIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:14:22 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "806006062da3dbd9aebee6b3e559e96abd2db7e85e38ffbd4fdab6789d77279c"
+		},
+		"GET https://alpinejs.dev/__markless-migrate/requests?load=bf078d89-bd1d-44d8-be54-37a25046ea76": {
+			"status": 302,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1e1ff59dc5585-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:11:40 GMT",
+				"location": "http://alpinejs.dev/essentials/installation",
+				"server": "cloudflare",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IkttT0llbHJNZUh2SXhEUlRUWVBFMEE9PSIsInZhbHVlIjoiNDJTa1VNaWVYdFlBek15QUNXaUx6ZG1maFhXbE5iZjRtNzIvQStMOW8wQVFNNGk0Q3RSK2VldngxNkduUVZxRkdoWWg4ODNkQmRMNCtxS1FxcEZWVStzdTFlT3RZN1ViNVFwei8xL1RvVWhtemtxMnkyRFZvVW5ubUt6VENKVzMiLCJtYWMiOiIyOWQ2NmQ2ZDk2MWE4NDcxMmFiYWI4MzZhMzEwZGUxYjJlMTBlYmQ5YTM1ODZiNWM1ZGVlOTkzNWY0Y2E2YTkxIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:11:40 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IlROaVh0UDFWNVV3TnYwcW1RY0RodHc9PSIsInZhbHVlIjoiWDMyM3QwSVJmbnAzNlJzSWlnMGlhNDdrdU1ZbllEaGxOTHpJWWorSlJKNXpVYktkWW45ZmlIZlRuVEpsK2krc1RoQXVUczNpNTAyQTJPSDQzTEpobWFzVkVNcjU3K3RHQTZPKzNLT1FuWjBobG4wbTlnbjIyOTk1eENXRzN5aHciLCJtYWMiOiJmOTE2Mzc2Mjk0Y2NhY2FjN2Q2ZjhiMGQxNWQ2YjI2OGUxZDg0MGMzMmE0OTY2Y2FhMjBhMTdlZTY2NzQzYjZkIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:11:40 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "806006062da3dbd9aebee6b3e559e96abd2db7e85e38ffbd4fdab6789d77279c"
+		},
+		"GET https://alpinejs.dev/__markless-migrate/requests?load=c2fd9fc1-a6ac-4f5c-836c-1b8507c129a5": {
+			"status": 302,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1dd49dd9a22f6-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:08:29 GMT",
+				"location": "http://alpinejs.dev/essentials/installation",
+				"server": "cloudflare",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6ImJ2MzBDUDRMU0ZwVE1JekFlaFNoSUE9PSIsInZhbHVlIjoib0xuUmRjSGUzQSt4b3NVV2lqeVRTWGFkckdweDNXYy9KU3puSEFyQVNjUXRKNlpETDNIY1Npa09vQm96bzBFWjlVSm1VRDlsNUthZXdvTEpqVHh5MXo1dmhIOHRqOUtZaGJxVjFqc2U5cFlWSjJUZTl4dkhiVXkxOGlXWGljczYiLCJtYWMiOiIyMzE0MWFkYjBiZjA4NmVhNmI1NTI0ZGRjNTY5MTlkMTNmNThmY2NjZDMwYjJiZGU3MzNjZjg2NTIxYjM2MWI4IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:08:29 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IjZGWTZnZXMyczh0YVhmYlBiKyt3b0E9PSIsInZhbHVlIjoiS0RtUjEwbVM5emZpakY5eG9WQkRzS3FVMTdtanNMMnBhRjY1ellKQWxCak90Z3JPYUpwOXFSMVJQcDRKbVN3c3UrTWVpd1k0NG1BbW55VEU0ZUdzcnYxZDNCelhVOEVKYnRod2ZuSkg3ZFc3RHV6QWl2cVQxWnUyb0x1RWpTZVMiLCJtYWMiOiIxMzMwMjBkMGQ5NDMzMWExMjVkODhmMTU0ZDk5NWUwNWVhZWNmZjk1NmI5NDkyZDY2MWExNzQ1YzE5ZTcxNDNjIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:08:29 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "806006062da3dbd9aebee6b3e559e96abd2db7e85e38ffbd4fdab6789d77279c"
+		},
+		"GET https://alpinejs.dev/__markless-migrate/requests?load=d3787758-4883-428b-8cc9-6e5543d0c893": {
+			"status": 302,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1d3a7ffa62953-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:01:53 GMT",
+				"location": "http://alpinejs.dev/essentials/installation",
+				"server": "cloudflare",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IkhPWDhDV0VNa052MTNRcnlycURyZlE9PSIsInZhbHVlIjoibUtiWTRBTExiMjFzMHcwTG41enk0RWhKTEJsUTNEQm03SlRGMGlsTlgyUENJaXdBNWc2QkFNdmtOWHFnVGpjS0dmWGtTODZHQXB0aGZvMmZpeDFBeTRGRVQ3U2QwczBoeFROOVppYzNiR08xOFYrd2lQMTRCdER0ZG9oYWxXeDQiLCJtYWMiOiJmNjUxNzI1NmVhZDY1MDlhNjMyY2M1Mjg2MTQyZGY5M2Q0YTk5N2M3Mjg0MzQ2MjY4OTdhYzJiNDQ4NTNhMDFhIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:01:53 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IkVnVzlpV1pNRy9UR0hESHZwZ1ZpNWc9PSIsInZhbHVlIjoiUzh3bEdkOUhrYUJJY2pNenpiNlY0OU5ZNUZoZkJWaytxNmFHb0tyNHRMTVhMZnpoSlM3UWdKQWF1QVNDQTI5K2JaVzhPN3FVbURCWkt2SytYWk10TTh1dFpGc3ZKUnR0Zzk1UWFqZ1NtTnU2c3l6bUFQUnNGSHZEbXJ6U1NORTgiLCJtYWMiOiI1MjkxOWI5YjQyMDgyY2I5MTdlOWViMGYwY2FiZjllMmFmNzUyMjE4OGFjYzhlMDcwNDczNzM5ZWQ1NDg2MjAxIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:01:53 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "806006062da3dbd9aebee6b3e559e96abd2db7e85e38ffbd4fdab6789d77279c"
+		},
+		"GET https://alpinejs.dev/__markless-migrate/requests?load=d901de0c-89e0-4763-92ec-518328f97a1b": {
+			"status": 302,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1e5f34b295585-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:14:22 GMT",
+				"location": "http://alpinejs.dev/essentials/installation",
+				"server": "cloudflare",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IjNSUzdnMHdLMVBDV1lXdUFvRk81QVE9PSIsInZhbHVlIjoiRXBsUXZGOWh3Vm5hM2ZFRlVIY1EvckxoVThBZzB5NjNrYndOcGhIZ0FCOE1CQ3pKSHNnUERVbXZUVWdJa1hFSnZ3Sms3bStZZGlzbHhRWXUvVHQ0Zk40SFVxRWI3WXZGdjExd24rK21HSjlQbmZVQ3lMZFJJY0l5S2dFMmdtRDQiLCJtYWMiOiI3YTI4ODIzYTc3OTUzYzZiYjUzODhiNDNjM2QzNjE3ODljNmRhMDBmZDEwZWEyYTQxNDI5ZjIzYWI4MDlkODQwIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:14:22 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6Ik52KzFwTWtuMDVxWFZPS2M2d0FDbXc9PSIsInZhbHVlIjoianh4YitYYnFVWVQrSy8wNSttU2NwdTBGenRYc3BaRUF3Tjg4cW8rSTZkc0hBVnYzREhta3pqZTlZY3FGb0F3UUFwM0Q1OGlVKzI1R1BYcmE5RlF0S1QrT3pscUIyTktVUHh3K2xmOHFkNkFHbW9tNG14LytyanB2QXN2NFBWTWUiLCJtYWMiOiI3ZTgyOGQ3ZTFhYWI2YTAzMWMxNzE1YzAwMzQ0YmJkZGRjYzM0Y2FhYzNlY2JhYjc1ODIxNmE0OTJmMzlmNjU5IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:14:22 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "806006062da3dbd9aebee6b3e559e96abd2db7e85e38ffbd4fdab6789d77279c"
+		},
+		"GET https://alpinejs.dev/__markless-migrate/requests?load=f72f98b2-33fb-4ca9-9b09-fad3fe3b50ed": {
+			"status": 302,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1d3a7fdfaf4c4-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:01:53 GMT",
+				"location": "http://alpinejs.dev/essentials/installation",
+				"server": "cloudflare",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6Im5OWTh0OXhqSHRjV2dvUHBuWTZuaGc9PSIsInZhbHVlIjoiYnR4UEI0aVhJaVNmd1FCemdJT1pQNEluOWhJOFVUTXhjaTFSTENJNysyK0h2OUF1SmN3enFiRytoOFRwU3BPdldwMTdCRFlqRUxyR2dySW5WNGFLWjNsWS9mQm01SStnTWN6UWRKTjIvaTNmRUY0QlBLSDRvRVV4ZWhUNFd3aHgiLCJtYWMiOiI3ZGU0YjVmZmZlOTZkOWZjYzFkMTcxYWVmMjk1Zjk1YWExYTk5Yzk1OGI5OTRkN2Y1ZjFmMmE2YmIxMzVjNjEwIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:01:53 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IklOR1NsR3pIUHZJWUdKY3crSU5RaHc9PSIsInZhbHVlIjoiRnZkQ3NUWkplVTJKVzZFNnBkZW1pQ2NLNG9iaUwyNEVyZVhCNEc2eFUwWXVIY3QwcUJ5MFNGUHg0alF5aUVhdUJOWGwyNDFvUmUxWXUrYW9GOS81U3pLYUJkV2NSczQ5SHVaeThYWTNXY2tabnFUV3o4RUtNdFQ5RzBnYzFyY08iLCJtYWMiOiI2Yzc1ZmE3MTgyMGUwZDg0ZGMwZmFhOWMzN2E0MmMxNDU4NTg0MTcxZjdlNWNkNTZhMzVjYjczNzEzYWVjNTc3IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:01:53 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "806006062da3dbd9aebee6b3e559e96abd2db7e85e38ffbd4fdab6789d77279c"
+		},
+		"GET https://alpinejs.dev/__markless-migrate/requests?load=fc1753c0-cf44-4bee-928b-0c0ea367d1c9": {
+			"status": 302,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1e1ff5a3533ed-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:11:40 GMT",
+				"location": "http://alpinejs.dev/essentials/installation",
+				"server": "cloudflare",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IjFrRlFxbFFMSU1nZHZFSVc2eXpaRVE9PSIsInZhbHVlIjoidXkyNnJSaHprcnA3b0tnL01MMHlLMTFmMFBGU0V1MSt6MUFVbUVvTExhTjh1L1BLcFh0RERFQXA0T0J3b0pJNFpiRWNnRlhWeGxhSmpTdVNRK1FsZDg3blQ1M2xKekxwRE9VMGJxVmUzckREaFhmTVY3ZjRUUUd2dW53VFN4L08iLCJtYWMiOiI0MjcxZWRmMzY0MWRkYjVmN2E3ZWJhZWNjZmEyM2M3NDU1NmZiYjcxMzEyMTI4YzM2ODcxYTRjMDQxYWUxM2M1IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:11:40 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6InkyMWdDVnVBQS8zd3BRSHVOdEtwWmc9PSIsInZhbHVlIjoiZG9uQ3hpVTZuUnRyV2xubklZaHBNdEh3ZVhMUFVmZ0FUbWtRRk13VFBPczljZmtKQkpsZTd1d2RETnZNWjYwcXdYK05uRmZIOUxNc2tLTkdmTittTWNpa2tDazE3SlJlK0ZzZ2UzSjVvWnJKOHJka0xUUnNNZGc1WElQR01vOUQiLCJtYWMiOiIyMmRjOWMxNGIxOWQ3NWMyNjU2MzA3NmRhYzkzZjI0NzliZDFhMGUzZGQzYzhhMzIzMTlmNzRlN2ZmNDE0Y2JiIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:11:40 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "806006062da3dbd9aebee6b3e559e96abd2db7e85e38ffbd4fdab6789d77279c"
+		},
+		"GET https://alpinejs.dev/alpine_long.svg": {
+			"status": 200,
+			"headers": {
+				"age": "718",
+				"cache-control": "max-age=14400",
+				"cf-cache-status": "HIT",
+				"cf-ray": "a4e1d4453b91ae99-SJC",
+				"content-type": "image/svg+xml",
+				"date": "Wed, 21 Oct 2026 17:02:18 GMT",
+				"etag": "\"60c25d7c-2022\"",
+				"last-modified": "Thu, 10 Jun 2021 18:44:12 GMT",
+				"server": "cloudflare",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "d820d96699395daec0914646415b00eb6bbb5c83b31590e82126657aed34201b"
+		},
+		"GET https://alpinejs.dev/alpine_long.svg ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "max-age=14400",
+				"cf-cache-status": "HIT",
+				"cf-ray": "a4e1d32f2afbf4c4-SJC",
+				"content-type": "image/svg+xml",
+				"date": "Wed, 21 Oct 2026 17:01:34 GMT",
+				"etag": "\"60c25d7c-2022\"",
+				"last-modified": "Thu, 10 Jun 2021 18:44:12 GMT",
+				"server": "cloudflare",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "d820d96699395daec0914646415b00eb6bbb5c83b31590e82126657aed34201b"
+		},
+		"GET https://alpinejs.dev/build/assets/app.742eb3c6.css": {
+			"status": 200,
+			"headers": {
+				"age": "278",
+				"cache-control": "max-age=14400",
+				"cf-cache-status": "HIT",
+				"cf-ray": "a4e1d4453b7cf4c4-SJC",
+				"content-type": "text/css",
+				"date": "Wed, 21 Oct 2026 17:02:18 GMT",
+				"etag": "\"6ad60ce6-13417\"",
+				"last-modified": "Mon, 19 Oct 2026 12:28:22 GMT",
+				"server": "cloudflare",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "742eb3c65a2b37d2014b20d590656c87067a0ecedb0a0174faaa7753db5836b3"
+		},
+		"GET https://alpinejs.dev/build/assets/app.742eb3c6.css ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"age": "234",
+				"cache-control": "max-age=14400",
+				"cf-cache-status": "HIT",
+				"cf-ray": "a4e1d32f192233ed-SJC",
+				"content-type": "text/css",
+				"date": "Wed, 21 Oct 2026 17:01:34 GMT",
+				"etag": "\"6ad60ce6-13417\"",
+				"last-modified": "Mon, 19 Oct 2026 12:28:22 GMT",
+				"server": "cloudflare",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "742eb3c65a2b37d2014b20d590656c87067a0ecedb0a0174faaa7753db5836b3"
+		},
+		"GET https://alpinejs.dev/build/assets/app.742eb3c6.css.map": {
+			"status": 404,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1d45a5bc9ae99-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:02:21 GMT",
+				"server": "cloudflare",
+				"vary": "Accept-Encoding"
+			},
+			"body": "8cbc10ee9755ef972000f666711a5c4d0e025d3cedf53079ba3bfd8f2b19a968"
+		},
+		"GET https://alpinejs.dev/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js": {
+			"status": 200,
+			"headers": {
+				"cache-control": "public",
+				"cf-ray": "a4e1d493dda133ed-SJC",
+				"content-type": "application/javascript",
+				"date": "Wed, 21 Oct 2026 17:02:31 GMT",
+				"expires": "Fri, 23 Oct 2026 17:02:31 GMT",
+				"server": "cloudflare",
+				"vary": "accept-encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "DENY"
+			},
+			"body": "2595496fe48df6fcf9b1bc57c29a744c121eb4dd11566466bc13d2e52e6bbcc8"
+		},
+		"GET https://alpinejs.dev/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "public",
+				"cf-ray": "a4e1d32f98325585-SJC",
+				"content-type": "application/javascript",
+				"date": "Wed, 21 Oct 2026 17:01:34 GMT",
+				"expires": "Fri, 23 Oct 2026 17:01:34 GMT",
+				"server": "cloudflare",
+				"vary": "accept-encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "DENY"
+			},
+			"body": "2595496fe48df6fcf9b1bc57c29a744c121eb4dd11566466bc13d2e52e6bbcc8"
+		},
+		"GET https://alpinejs.dev/component/accordion": {
+			"status": 200,
+			"headers": {
+				"cache-control": "max-age=0, must-revalidate, no-cache, no-store, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1e52b4ff5ae99-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:13:50 GMT",
+				"expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "cloudflare",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IlBZQ2NtWlpJN1VsdWhpTGhDb3BkUEE9PSIsInZhbHVlIjoibllIT291MVRGY25CMDM4T1l1bzhURDl3YkVIV05VOGhoV20ydm51N0o5WUJWWEE2V0x3cjAveTA3Nmd1UGhaWUlBS0hpMXhWWll4Vno4RmpTYWJFVjBOWFVhaWU2bGpidW4zRHlwdlRYelI0ZTk4dXEyNktNN1ZwVi9VOFdheVAiLCJtYWMiOiI4MzMxMzg4YzBmOTBmM2Y1ZWFkN2YwNTdmZjhiMWFlMDFkOWYxNTg5NDA5MWM5YzgxOThmZWIyNWMyMmYzZTcyIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:13:50 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IkVldzhmWnNHb2dwQmlncERoR3RrZkE9PSIsInZhbHVlIjoiNko5NlJlSHdyRmtMdWNNM0VIU2t2V1pRNGRjQ0l0WmJqdjZDbVhvd1lUTVY2emUzazVHL1VtbzJaRm5SMEt6c3UzamlXZGdVaDU1bmZmdnBRYUZEQ3g5QUQvT0JvaE1mTmNtT3MxVEo1N3EvK1Jja3hYN1FPaDNwT1hiaEhFZGwiLCJtYWMiOiI1YjY0Njg1ZDU1OTI5M2FmNGM2Yzg5NTM0YmYwOTc4NDcwMDlmZWY5YjBkMWIyNDU1M2EyNWU4ODNiZmMzOTUxIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:13:50 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "479864706497bd16fb3f39b1aecb80f291d3e14067d6bf213b110a49513984b0"
+		},
+		"GET https://alpinejs.dev/component/accordion ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "max-age=0, must-revalidate, no-cache, no-store, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1df0eed735585-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:09:40 GMT",
+				"expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=97,cfOrigin;dur=229",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6Im5URTNyeHFvVHJqdm9YazNJYXRSM1E9PSIsInZhbHVlIjoia0xvNUVaeGYwK21sOGF3T0NPNzVWS0VZWUF5UlR0RlExWnAxUjRlQ1VHblhSQUsyNTdvSExZMFJyMnFLclVmeUQwNHRsK0RCUjMzdWtWRDhldERqMXBpZkROTll5M2F2ZTUwTW1ja3BueW54cWxNcHEzOHYySTNnakRNOUlJK08iLCJtYWMiOiI0Y2U5MDc2Mjk1ODIzMjE2NzU3ZjJjZDZlN2FkNWY1ZDhjOTYyODEwMTY0ZmEyNjJjZGMxMTVlYTk0NGJmZmQ1IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:40 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IkxVTUtDVTZMeWhGYzRaSVF2M1gzbXc9PSIsInZhbHVlIjoiU2hBTWVlSmhqcFBva0paNkI5RzFhK20zL0tMV21mQ3k3SjQySjhhcms1UVAvU2tOMkFtWXd0bzBkdDl5RSsxakM4OG5rRGZQOXZ1SzZVU1lUdGtNSkgzdy93aWFINmY0V3pKTnBqc2g0ZFBnekF6ajBVUlRTdlpkc3hBRFlneDUiLCJtYWMiOiI2MzNlMTg4NmYyYTljOTFkODQ0YjdkOWZkOGExYTk5ZmU4Yjg3NWM5MTBkZTM2MDE5NWQ1MTcxNzk3Yjk4ZTY3IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:40 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "7a95c6fdfc5844bbb9123ec435238a27b965e11a2b421c7856d13303e9adf355"
+		},
+		"GET https://alpinejs.dev/component/apexcharts ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "max-age=0, must-revalidate, no-cache, no-store, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1df3e182e5585-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:09:48 GMT",
+				"expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=89,cfOrigin;dur=108",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6Ikt6RTArblVGZ0kyYkJCWlVqUHNzanc9PSIsInZhbHVlIjoiU0VyRFpIVzJVUjNFaG1MeVhBQ09jeXV3eHMvZlJPSXRIOXRwTHltb3dsRW4yM2pPK2VPN05pUURnQTYzODlFNjBGQ2dGS0VET2NERkY5amVpQnZkYVZ6MjMzalJ3R0F6K1lYbXVuR0pUbW0rTitBNDVjcnFXYkpJNTlXd2hZNEEiLCJtYWMiOiIzYTZmYWNiMTNiYjg2ZDVjZDA1YTk0ZjA3ZjBjZTViMWRhN2E3NjFiYzQyMTYxZjM5ZTM1MzhmZmMzYjc5ZmQ3IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:48 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IldITkF6TnkxTVVpZ1pKclRQNnlYbnc9PSIsInZhbHVlIjoieVpxcVBjTUlld1NFS2tFUHR6VFliQ2tLTnM2L3NFYUNaaGZSZWZGN21nNUZ6b0ZoTGJqeHdtQmZOQys5YVNRajByd3dhbnZxdEs2NkJwTGdZdHlyZGRsbGxWQjQxNFhocHBKamhmblpMTmJCT2luRlBqZHBlYng0a2hTRUFlelUiLCJtYWMiOiJhM2IyZjE2MjcyOGEzNmRlYWNkOGFlNjAwODc0NjdhNDM2NDRmNWY1NTg0YjViYjVhYTFlMmY5YjIxOTE0NjU2IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:48 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "9e659030b695c5d4348dcd649ac589eaf4f4b7b657f5f643c3c2d764b1603170"
+		},
+		"GET https://alpinejs.dev/component/carousel": {
+			"status": 200,
+			"headers": {
+				"cache-control": "max-age=0, must-revalidate, no-cache, no-store, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1e5559e5433ed-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:13:57 GMT",
+				"expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "cloudflare",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IjhjdFp1dnlHWkVJZXRXNFMvZytsSVE9PSIsInZhbHVlIjoidklQc2l6RkYzaThaMGxhNU1jb2ZVS0tVVk12SkpsT2dmWlBONnpySUFORTRHRm4vMmd6RFRHSXFIQjA0eHZSQ1RvWnhQYXhBZXJRK3N3K0Y4TEFQRlFQanhLOWxHR0ZKMXNCQnJCTjJLdHlqNHVac0V4Y3l0RHU3OFVoTnZFTEwiLCJtYWMiOiIxMzc2MDhiOTEyMTRlMTkwYTg0MTFhNTZhZjE1NGVlYjJhMzkwNGZmMDRiMTY1ZjUzODM3ODFhN2VjOGY5MDIzIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:13:57 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6Ik5OMlNDTkFGOGo4T1lvcW9xYjI1OEE9PSIsInZhbHVlIjoiWWtkSDA2UHRRTUgzZW1uRXhibDBvaW5tV3pVNy9vSVVOWmdNOTJ1c1lpVGJRVG9MQnl6bTlXdk85Uzg4bmhFZ0Flb1BlMmpML3dRZ1VnZHorM05hbXd5TUxMN09MbEJDWEdGZmFJVE5IbEp1bytMM2JKVjNVd3ZjQW5ZRHo4eUIiLCJtYWMiOiJkYWFhMTY3NDIwNWRmMzJjMDJlNTViMWQwNzhjMWFlYjAzZTU3Njg5YjAwNDQ3Njg4OWM2NDA2MmRlZGQ1Y2NkIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:13:57 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "062f08f485870fc1c216f1ec3eae06abc2dd1a85d81db643080f7ac720a6d146"
+		},
+		"GET https://alpinejs.dev/component/carousel ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "max-age=0, must-revalidate, no-cache, no-store, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1df0ecb6b22f6-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:09:40 GMT",
+				"expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=74,cfOrigin;dur=265",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6InlPcmVQdjJ6QVpSbUNGMy9hTDB6bGc9PSIsInZhbHVlIjoia2w4ZkViNlZKU216TXhUUHhhM2Rkd2dhRUtDaThmdlZabmZVTDczNzBxdmFrcGVab2RJMGFJR3EveXFZaDFRTGZFSjVRMk01aXo4RUV4S2Y2SFpHUWZLRENNakxvd096VURBY0pVTzBTdzNNLzZ0ZFVEQVRJZDdhcWNpWXlqYjEiLCJtYWMiOiI5ZGU1NzY4NjEzN2MzOWYzZjllMjZkODMwY2NlZmYzNjQ5ZWMwYTU4MjhmZjZhNzc5MjRlOWQwNmZkZmRiZGEzIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:40 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6Im9UdnlnZGVydmwxREJrWTlJQWJEMGc9PSIsInZhbHVlIjoicWdSM0tnRHB5MU5WU2FvUkFhV2RTdFM0MmRnbUx1bXdzVlZuWTBEQlpYZk5Mbm9YVktCblIyTkVyRUh4TEFpQmFGVG9WSzJIZDFGSXgwbVdLWHZaeG56STg5U2N3dDE1NGJ0VTFzQ0xUeVdaNDl0VmJ2ZWlYQWJPNzV0MVlwREciLCJtYWMiOiJmZGVjOWE4ZDY2MTE4NTliZGJiYjZkZGFhMDc4MjFiZDlkNTkzY2M3MmYyODA4M2Y3NjhmM2EyMDkzNzJkN2Y2IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:40 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "ee8a598bf4c89c61e4b3f462690c6f5f2144739f5cddab7c177efd02ad980c58"
+		},
+		"GET https://alpinejs.dev/component/chart-js ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "max-age=0, must-revalidate, no-cache, no-store, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1dfc9ce885585-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:10:10 GMT",
+				"expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=73,cfOrigin;dur=118",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IkZMd3ZNZEZJWmpZSHZ2RkQxdGJlZGc9PSIsInZhbHVlIjoiaWJ2MG1Vbkh6dFZoU2RZZllsOWlVTGN2ODhtS3lBWC9RdXhGNlFPUmxpOXEzSEhiSENQMmVyREIxVzNPUHo5bkdnSk9TL3dZdUpIWkVLWGZacVp2c3JITnBBbHIwd0tHS3VqUUpaWitpWWlWN2ZSWlFoUUJtanRLS3FmUkxBa3YiLCJtYWMiOiIzYWU3NjlmOTk5NDAxNWIxYjljZTJkZTZjODhkYzFhYzdmYzcyNDYyMDEwOWE3OGEwNjAwYTk1MTg0ZGVmODg3IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:10:10 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6Ijd3U2xTRVZXdWFacEw0SFd1UG90c1E9PSIsInZhbHVlIjoiRnZoZFd5MW9uWlVxUFNveW8vN1JXc3JNdHAzMHhMbGFXdzFyb3FXS252bG0xV1prMWxicG53YWFxQklETCs0bDhxVm41TkM1aTkrTkxsSHZwd3FQRUtUdVpFUGpxR2phYWVPeTEwS3dxTDJTREV5M0lqOFVoelQ2cXZCRFBqYWgiLCJtYWMiOiJkZjY2MzI1YTg0MTEwYjhkZjA1YjY2ODU2YmU3OTZiMzg2NmM2YTAwZDI2NDg2NmJkYjYwMGRkMmI0NmY1MGRiIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:10:10 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "b0d170b0261fa2fb89a9d67b968242c41317a22a86967efaf5e1dbc4f47845a5"
+		},
+		"GET https://alpinejs.dev/component/choices ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "max-age=0, must-revalidate, no-cache, no-store, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1df53ecfd22f6-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:09:51 GMT",
+				"expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=73,cfOrigin;dur=152",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IlJEbzFSTDJ1dXBYMllPdDRCWG1WWFE9PSIsInZhbHVlIjoid0w1TTFuUnZZbmNFbVdGQng0WXdKRlVCM3czTEQ2clNsNnIrdlFNNXhGUGZxT0w4YkJOK241RTRaRFNPaUdTaHprNU1TenJJV2Urcjc4aWNSdytNREtVbWZoWnpZS0I3bmladjB0TXFOeldKSW5YcStScW9CbldCUXUrcnRhYVEiLCJtYWMiOiJiN2Y1NTI3NGE3ZmQxMGVlY2FkZDQ3NTgxMDAyZDYxNDljNmVmOTlmYjY0ODJhM2RlNzgxZTc1MDc4MjU3MTBjIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:51 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6InBUR3pSUHV6VVJoL1ZxdGszbEd3dnc9PSIsInZhbHVlIjoiMmt5S0RudmdHQ01NbDAvait1WFQ5NkUrVlAvcHBWQzZqVWFpQTViaTFxMSsyTk9HZGFtWWliSFNnOFkya0NtVFlvTVdvdmhFSGdPVytxdUdrV3pubzBKVmdFVVgyQXJyMmtyR2czOUlRMHNycnZqYU45RmdwbndSU1hpUkdSZ20iLCJtYWMiOiI4OGFiMjBjZDk0Yzc0NDk3NTU0OWNjNzhiZDI2YzNmODBjYThiZGUzYTUzY2I3MjQ4ZjE1NzIwNjNjYzdiZmJjIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:51 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "e0a1fdaa5df17f08af27cef385d0a252147ae9feac0eb4106fd9e9a3e6d3132f"
+		},
+		"GET https://alpinejs.dev/component/date-range-picker ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "max-age=0, must-revalidate, no-cache, no-store, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1df58987122f6-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:09:52 GMT",
+				"expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=76,cfOrigin;dur=136",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IjRoS0c1T2hKdnloMkw3YllZM2Rrb1E9PSIsInZhbHVlIjoiMWVWaElNRmoxNWtDeUxlZHVoZk9jT011NktCRmpkSGZod1RjRFdjYWxyWkhqUG5zb1pnRnJTTEZXMjJGRjVwQndCUEcvOGUzaHlaNm0wbzNHNUFmTndDT3pCVUU4Q1JtRVBWM1hFMzJCMGVzTVBqcmdlT0Z5NHc5WThYOWRvNTYiLCJtYWMiOiJiNTM3MjdjZDMxNzYzMzhkMzQ2YjQ2YTI5MzQzZWRhZTUyMmZkY2RjMDZlMjk3NTc0MDk1MGRiYzNjMTc5ZjA4IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:52 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6Ik8vVklmSkw2OVNZRitpa0lHdm5IZ1E9PSIsInZhbHVlIjoidm42T3Z4RC9ZMWl5aHY4UmRkelNFS2h4dWFqell2MUthMjBPZlg3cncwYzNpL3pmWElwa1REcXpLbkY4VVJXTnV1dDI1ZWJRN29Cb0ZiU0VCWE5YU093aW5aeldqL0JWc1JzSFVLSUh4RzJQZzhGTTJoTjZRVy9kUzI5V0Y1K0giLCJtYWMiOiIyNjUwZjIzMGYyYjMwNDMxNmIwZGYzNGI0ZDZkZGNkODVjMWM1YWY2MWFmYWY4NjM4ZmRmYjdmOTllY2NjYzNjIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:52 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "8b9df57bf0c5a8222fb71284c8ec1f43d9336cfdbe0927365d48b90e21123196"
+		},
+		"GET https://alpinejs.dev/component/dropdown": {
+			"status": 200,
+			"headers": {
+				"cache-control": "max-age=0, must-revalidate, no-cache, no-store, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1e4d99ff6ae99-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:13:37 GMT",
+				"expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "cloudflare",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6Ilg4VENhSHp1TGZRbU9tYUxrNEhSZWc9PSIsInZhbHVlIjoiMS9oRnNaK21IOUNYUEZOaThuaEpHaTJmT3dtbmlsb2FCNzFvOU5Id01uR3EvMjBZbVFVa0RPSS96MmtNZHJKYXJuNWc1eUcwUzF2eHh6cXBTWWMrN2NFRXljVStld0hHSE5HaWU1S3RrWTVRWUpzL0VEOUpiUGRObEg1UkVqSlUiLCJtYWMiOiI0ZWRhYTkxN2UyOTU3NTNkN2RkYTNhNTQwNjkyODQ4ZTY3Njk4YzVkZTFmYmIzMjA2MDBmZjBiMjU4MDA2OTcyIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:13:37 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IjI2bTVGYUF5bmp0VEcwNWVZQWlzclE9PSIsInZhbHVlIjoiVmlYcDNLa3Q1U09mNW9IZENWTFVrbi9qRFFGTWVqN3hBOFpoTkhaeGpkcFBtS05JYzNPSm9TLytNbnNwclcyKzJ2RlV1Z0hDbjJmOFJDN0N6bHNzRkxEeC9HdHoxOXBWUTU5bUFZUW8rWHlXdnUrRFlVdnN4UlZWanBhajhnY1YiLCJtYWMiOiI3YmE1ZDA4ZGMwYjYwNDg3ODQyYTZmMmQwMjVkNDMwYTQ5YTM5ZDM2NzljYmQ4YTA3NDQ3OGRjMmVlMDExYmVhIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:13:37 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "544786fa484fea1b8a4e7354118a025e15148e744cb8952e9f47b5d93965f475"
+		},
+		"GET https://alpinejs.dev/component/dropdown ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "max-age=0, must-revalidate, no-cache, no-store, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1df0c098c22f6-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:09:39 GMT",
+				"expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=82,cfOrigin;dur=44",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6Ik9pR1BUWDBZV1l2MmtBK1pydm9yRGc9PSIsInZhbHVlIjoiWXRFbnhOeWNaWHlnRmhENjdnbnRKMmJsYUxQSkErazBYdDNBTndlVEUyY1pjYzdqcUd3ZU15R3hJM0dnbEVrWUFtVmJSMWo1bEtUUHZxTHpZOHdwWnowQWNFK1RxL24wOUNWZkdBWkNpdC9GTVZkLzd1Y0J2ZzdGQWxVaGI2ZVciLCJtYWMiOiI3ZTNhMGVjN2JiN2UwYmMzZjhmNWMyZDhhMzE5MGM1YjllNmZmOWVhNGUxYjVkMDJiODRhNWQyYWVjNWNjOTlkIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:39 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6ImN1U0s1cFFVdFo1TDhJNzl1Nm5ianc9PSIsInZhbHVlIjoiNzFLcUhCTHRBVDJKWHlWU1Z5VXZlQmNqTVV4VW40Z1M4UUE3NTJ6MkdUSDdiWGN4dDhMZkxmcEdEbjFTc3J4REtxRHIrZDBIdDZYZVNtVnExU3d5OHlQdFBFTkd0QkE5ZkR4akxrazVvZFNoMXV1N3NvVDRzdG9aMXA5S0svd08iLCJtYWMiOiJhMGEyMmMwN2I4NWNiNWU4OWE4MzA0NTRhYjM0NDdmYzAxYjAzNzUxMWRjOWZhNWZmOGIzZDE5MzE0NGJjYTM3IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:39 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "4ceae3ceddd5ef3a6ecff97e045a8575b263dccf73998aba2ef05ddfa9f8f0d7"
+		},
+		"GET https://alpinejs.dev/component/flatpickr ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "max-age=0, must-revalidate, no-cache, no-store, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1df58f99433ed-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:09:52 GMT",
+				"expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=94,cfOrigin;dur=110",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6InZxNHptRlk1ZS9obUZhU1k2Y3JKRHc9PSIsInZhbHVlIjoiZ1d6di90cnhXZmpNTHdsNnZMT3Y0b05PZVgwelFUTEFUNWhxTTRlMVRYdXphMWJrMFFJTEw0cW1zMVduNVRKNlhYRjhrL2VHa3pPU2cxUTNER2NlSEh4VkZmVW9YVzM1WGpoREhGeVVqSXgrV3VtNGxBaUZVVUNBRkFjNjdTa3kiLCJtYWMiOiI2ZGNjNDcyNWI4M2MxNDg4NjEyMzlkMDM0MjVmNzY5OWY2ODZiZDAzZWI5ZTc3YmVlODdhNmVhNWFmYzhkYTU1IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:52 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IjlidlArd1crMVVXK0lwOUsrOUFoRXc9PSIsInZhbHVlIjoiVExSQ3VMUnFNNThpZjZvVW16MGdtdjFUa1RyL0xQcUhEaFEwbXEzV1p0MGRFZ1ZudnluN2xkZHpXSVJheEhxVFVhdjhuUTZVTExIMnhWQWVidlMzVHhYN1ZWS0hXZXl0OVFldHdCcXByakRuaXRpMGNJTFVwenYraW1UUE1VaTQiLCJtYWMiOiI3YWVmNDJlZDUyYzljZjIzMzQ2MDY3YzA4ZjY3MzUxM2IyNmQ5NzJlOWYxNDAyYTVmYWFmNDg3ZGY0NTc0YjAxIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:52 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "886c8a3c8c71341f1339951fa2adb4867adeff0c131ba5756d58fab66102c048"
+		},
+		"GET https://alpinejs.dev/component/fullcalendar ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "max-age=0, must-revalidate, no-cache, no-store, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1df600ec122f6-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:09:53 GMT",
+				"expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=93,cfOrigin;dur=90",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IjZHQVdOZU9qYlpFdWRQK1pjb3RHZEE9PSIsInZhbHVlIjoiZWNCQnpDeDVZTSs2Y3FVcmtzR1ZQUElINU42SWFteTlrRTA3TVBxM0VEUGF0b0x5dU1kU1YxNmN3NGNiMHAzU2VQSjJjQmtKWk93UHdzWTJTVXpoVDF1ZTY1KzlmODc1M3JDSy9QVzlsYnBVSkxHZ2pjZDF4eEk0QnIxR1hiT1kiLCJtYWMiOiI0NTJjMzFjMWEyZGNmZTc2Nzk3MTU0NDllM2ZkNzMyN2NlYjM0MmRhNDlmNmY3YjMxYjZjNzJhZWIzNWI3OTEwIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:53 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IkYxS0NpclFseEJIS09wNFBWN2N6bVE9PSIsInZhbHVlIjoiSXQ1SDlTaWd6M1lWWk1pL0grUVRnM0NUY2VHRWpUY2dTNzA3Nm5SeUUvMi93VUpNUk02a09oZ1o0aFlTa1M3TjBFSFZINFRib1kxYWpxaTBlT0Q0OHpVV0ZsUis0L0pYNENqclQ2S2kvU1ZSR3pLNHdZOGtXZkszZWVXYjhUazIiLCJtYWMiOiI2YTIyMjlhMzgxMWViOTEyZDgwOTBjMGIyZTg2NjA1N2VhN2RjZjQ0ZWYwOWQyMGU2YmM3OWIzOTA5MTExZGVkIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:53 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "3d77da9afbe4b313ae6477785a1221d6da20a91abe4778772d348fc1db29b40d"
+		},
+		"GET https://alpinejs.dev/component/glide ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "max-age=0, must-revalidate, no-cache, no-store, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1df6248db22f6-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:09:53 GMT",
+				"expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=107,cfOrigin;dur=77",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IkMyTXIyZ0ZoeGV1bzZ3MHJFT0w1NUE9PSIsInZhbHVlIjoiYzRlOFlOaUMwUU9NeHRPN2lyTXBYYldhdCs5SXRZcktGcWhtbC9sQmt2eDFWRFVQRk5HWnc1WkU3bVFRTEN5bTM1dUlJejJCZ2lCVldmdklUZnk4WmtZRjhVc24rU0h0NE5BeWZZOXlNRlNHRVNsN0EySTRCNlJJV1kxVHZ4ZnciLCJtYWMiOiI5Njc5OTZjMDdmMWM3YTgxYjhkNTcwYTI2OWQ4NmY1ZWRiYmQyNzI2MzcxMTRhYzY3NzdiOGNkMTk0MWFlZGVhIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:53 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6Im1YRUJUenRwNW1ZMDNyc29ZaFdGWlE9PSIsInZhbHVlIjoiSGN6SGNkd0J0blNXVW85SXVDOXpKeU1aV2ZoV0pSUEVMNXVCSWtZRWVpWW95cFd1TisxeGwwbVQrUzFmRE52R3RHZlJ5OWJRTEwwT0pydGxmUUtPUmhqL0w3dXMvd0JqdlpHV3YzWWVkSG1CR1c5eW1aZU04Tzc5OUhGbVZYR2EiLCJtYWMiOiI4NmY2ZmE3OTllMzAzYzUyMjA2YjI5MWY1NDQxOTNlNWM1ZTc1ODZmMGUyMDFiNGNjYzgzYTk5YWExYzEyMjlhIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:53 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "a64a9c0956a21dface0451d8d2b653e8fde0685ab889a22018393c4c320af509"
+		},
+		"GET https://alpinejs.dev/component/modal": {
+			"status": 200,
+			"headers": {
+				"cache-control": "max-age=0, must-revalidate, no-cache, no-store, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1e4fd7a701587-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:13:43 GMT",
+				"expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "cloudflare",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IlBUK2tTcnBXdUpQOWlxNU1uMnNGSmc9PSIsInZhbHVlIjoiK0N2QXhNSHlUc3JodmxjZHZYK3JqcktYSmIwbW96Y2M2dnllZlJqdmJuUDFoV0FGcWhBczNmTEh2UThZRjQvajhUZVZ0MmVoMnpuM1JIemZPa2x2dUlvbk9wcDd0YWhlRG40NlNFZHYxMFVjOGpmaEtwZTBiM1l3d0hBUWxvVmwiLCJtYWMiOiJlYmY3ZjhlMGQ1OTk4ODdjMjNjMWQzZTZmZmRkNWViNTAyMmRkYjljY2UzM2FlOTliYjZhZmU1MDc5NzhjZTczIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:13:43 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6Iit5c1ZiOVZCczJBaTQ0NytEdThZclE9PSIsInZhbHVlIjoiSHBFRHNCUGpJVnNaN2xKVWlRd0VIamNFTVhYS1AzWi84RnB1SGdVeW01dURhZGs4ZmxwQW0wQUlVSTBqMnY0SU41QlBUakxsbGFpY0RkUWdoNkhGY3JZVXFNb1huV1dybmN1a0doYVBaU2NuaG4razhKTTFiUTkyaXlQVUN5QkQiLCJtYWMiOiI3NTg5MzA1M2FiZGNkNTk4MWE3ODY4ZWVmZWU1OTUzMWQ3MzUzNGMzNzI1OTg5MTIzZjcxYjMxMzNjMDA0YzY5IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:13:43 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "da6edb6f9de54caf31c280e8d193df57e979a85e742ff6cd18ad7f8411489453"
+		},
+		"GET https://alpinejs.dev/component/modal ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "max-age=0, must-revalidate, no-cache, no-store, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1df0efe6c2953-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:09:40 GMT",
+				"expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=90,cfOrigin;dur=307",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6ImIvTldhdm1sVkllNm8wWmhrSDdpZ3c9PSIsInZhbHVlIjoiRGdrdy9ZekJWTmg1V0UwNVdYUWV1M2p2V0I3QllpZmZaeVo5TzJMTDdsMCtEMVdIN2lXdC9scDVqSGNocnVmSGYwa1VwQ0pnTktqR0N6UHUzV3hySzQwNzAzaUhEME92RUQzWDhDTHRxVVpqQ09FTERzZGdaMTgvdkdPR2QwdnoiLCJtYWMiOiIzZDdkMDYyNzAxNzM4YjFjZDZjYmExMDllZDJlNTM0YTcxYjIzOWMxMDg1ZTAwYTdlNzg2Y2Q2YzVhNzVhNTNmIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:40 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6ImN6UCtqZXEwdVlOQ0xadDdDT3lvMWc9PSIsInZhbHVlIjoiUnJreG5YUFJmSTgrZWxlVG9KZVRGblIzYU96RklPWUU1OFcvbGYybVJsYTVNQll6V1hpUkdBV01Hbk85Um1LSk1sSzZOU2JzZkdoUm8rNzdFVUZNMkdnVmNuVDQxUjRhV3lvYTUvK1ViaDRpb2ZKcVVpai9WckRNMXRVb0pvNmciLCJtYWMiOiI2NDVkYzI4MDA0MTkzMTY4NTNhNDNiYTNjM2Q1YWNlYTBjZGE2YzJmNTZkZTI2MjQ5YjIwNDI4MTBjYmY0YjYzIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:40 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "19a22f2d029fde6176dcadabe5bacba624b6ed801c1ecf6b49be841b3409eeca"
+		},
+		"GET https://alpinejs.dev/component/notifications ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "max-age=0, must-revalidate, no-cache, no-store, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1df26c9205585-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:09:44 GMT",
+				"expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=87,cfOrigin;dur=95",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IjQrcERkVHpvcUJDY0FZeGlSU1htSWc9PSIsInZhbHVlIjoiMDRTWWxnWUNXQVZhazRvcDJTTTQ1QjJuY2dMbDdRSFMvako1aTllaDd3c3Q3ZDVmWTFqdEF2bjNITzgvRUE5SU43Y2ZhaUxtMytncGZ1MmR4T05GVlQ1d2p5d0ZVT3E2ZURuRjRpTnduYlZzSVZhOWdwdnB3eHExdFMycncxWmEiLCJtYWMiOiI1YTE0ZmVhM2E5YzA1ODIyMmJkYWMwYzU0NDlhMWFjNDBiYjI1OGY4ZWQ4MGFlYWQzNTdkM2IwYWMxYzNkMjdkIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:44 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IkFxK2k5ZWFFZ292TzhYZlUrZUlkY0E9PSIsInZhbHVlIjoiMWtlR0x3RmhONHdRV1g0eDR3MWF5bVRaemczTkVKLzFBNE9tNFM5OVBQbGcvU3l1Mk81SHB3T05mUDVTU0pJU29JQUxNYVBveVpBWEs2aHRQQUp4NTZsZzQvWmVFR2VPMklqL212cjV1a2dvRlJVWVpRZURYOHVJOW5QMUtMTE4iLCJtYWMiOiJmNzQ5ZGNlODNmMzRlYWJmNGQ2ODVlMTVjZmI0NmQyYzM3NmViMTJlNzRkNzA1YWNjYTZhMDQ1NTExYzNjNzBlIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:44 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "85f3b3e546318a29edb7f47c23831de7ca79b254427f6318ec7a7d524d529752"
+		},
+		"GET https://alpinejs.dev/component/quill ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "max-age=0, must-revalidate, no-cache, no-store, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1df406e4f22f6-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:09:48 GMT",
+				"expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=103,cfOrigin;dur=86",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6InhRQWNQMnVBa1gyeWRRU2VSRDY0eVE9PSIsInZhbHVlIjoiTk5wV05IUHl4bU1JU0dRb0tRU3lsdk9PNkRUWjNTZUpvTnB1WEt6YjB2SjVLSUhZYVlKbzA2VnFOUHFodWFTaXJjNlFybERYT0xoS2xvSnhFcUdKVm9EZUxSTVc1cmR6d05rZ2FaRElnMHU5OUFkOEh5VnFoVFNQcUN4NC9FaXAiLCJtYWMiOiIwMDkzODIxZDdkZTBjNTBhMTI3YjVlZDU4ZGE4MTdkZDY2YjMzMTU1NjJiMjQ1YzQyODVlZTQ3ZTU1ODY0YzM3IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:48 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IjVoTVRDaHRXQ1BEd3M4aE1FZ2hNc2c9PSIsInZhbHVlIjoiUnlzWm8zUGsvS0QyUnZJNmQ4Z2FCMjJQNHdsK29uNmRKaDdNUHNHa3h5SlVVd0ppYTcyVFd4WUcyZUxmTWlLajFGck9BU0pSdUtlNmJ4UHJqV1pYUnh2SWpWS0V2Y2dlSnJ2WXZnVkk4K09hNWp3UXNoYVlUM2R5R2JjT3duUDMiLCJtYWMiOiI3ZDcxNzgwMmFhZGM3ZWE0ZjdmZGZiZmRlY2Q0N2U4MjZjNzQ3M2RhODdhNjc4MWJjOThjNmVjMjk5YWJiYmI1IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:48 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "6ef67246e5f6518906cc1e3b44f0e2e023b17973fafb04decf8196490e95f99a"
+		},
+		"GET https://alpinejs.dev/component/radio-group ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "max-age=0, must-revalidate, no-cache, no-store, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1df32bcc322f6-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:09:46 GMT",
+				"expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=75,cfOrigin;dur=77",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6ImRiQmxOd0JPNzJiWG5ZY2RERWVrWGc9PSIsInZhbHVlIjoiMlc4cFNLVCtZYVQ0QkZrMEtTQnlkRk96TFoya2Q0eVFCVHF4REVSSktmaHR6dzJmTlp0cFBOUHJDWkFwOFAyMHdwekE4UVA1YW5aM2o4dituaUp4UlllRlgrNlRYM3dBVzBzUHNqOXB4ZFlaVkdKNGZJdkdldk5IL1FWM0ZzaDIiLCJtYWMiOiI4MThkYzdkYThjOTBkODg4NDFiZmIyMGNhNDU3NTE1YzE0YWMxNmUzNTA0NjZiMWZmOGY3YzdjMzQwYmIzY2Q0IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:46 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6InhscEZGZlJ1dUZLcTdXR3lwWC9SeWc9PSIsInZhbHVlIjoieFRySHBwa3lBNlVRdExUQ2dzYkx2SDBRelpyZWhsWEZYZ2RoNklFb0lhaU1nam05eXNLQis4QW55bVdMMzlOUVYxaFVMK2Fyd0kzNExtNmVhUjJSSGgrSmpKT1BBMWpvSTg3ZDhWUitzNktGOTBTbndjRk4rV3EvajVjL2pGZUgiLCJtYWMiOiI3NGRkMzJlMWU1NzI1ZDQwODMwMDhkNTFmYzhiNGU3YmI4MmQ2MjM5OTZhYzI4ZWRhZmI2ZmUxMWY3ZTM4Mzg0IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:46 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "c35d7d7d0ded3bbf5a58673b29edaba98b08c04df676a8b5d55d166beb6a9547"
+		},
+		"GET https://alpinejs.dev/component/select2 ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "max-age=0, must-revalidate, no-cache, no-store, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1df512ac722f6-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:09:51 GMT",
+				"expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=74,cfOrigin;dur=104",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IlZqUFIvM096L0krSTNUbWRUVSswbUE9PSIsInZhbHVlIjoieTRYcWlHQnhKUUNEL3FFZjUwNmpodFZoVUxYSU94ZFNRZDRmYjEvQm5oWnpiZklZeER4NFFZc0RmeS9xSEVzckJyOSswTDhuSVU0cWRac2IxbVFaakUwdGxiUTFXbVk3YU9vWkJjR3grcjJJVDR6amRUdXkxbU9HaCt0WjRnWlkiLCJtYWMiOiIyMzMzOGI5YzA5Y2RjMjg0NmEwZmJhZGMwNTE1MGE2ZWYzNDUzZGJjOTU4MTI3NjcyNWE4ZGYwYTY5N2Y0YWU5IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:51 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6InRGQlZpblFQNjljRXZtUEhDWWgwdFE9PSIsInZhbHVlIjoiSmlLdnNzN3dHMzI1Y1JDd3FLbmpmNmhmSXlSV3FLQjg1VXF2SjdSNHZrbHVxc2dvZjNNeElkOU5zVVZuaDFZYU15TVJLZzJVZGNIMjZpT0V2czJsVEZBWVZtYWdQKzZ5VVBDUGVTRlhoTGtkU1VTcUxjL1dPay9RaWk1NnlTSVIiLCJtYWMiOiJlZjI3OWNjNTk5MmJlNjkzNWE0MTU0YzhhMTY5NzVkOTZmYzc1YjhiOTBjMmI5MDVkOWU3NTQ3ZjRlZTBkNThjIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:51 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "68715ca90e1e7caf7322e6eb9dbeaae6315c12ebac9c90fcdd283f82c554783e"
+		},
+		"GET https://alpinejs.dev/component/simple-mde ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "max-age=0, must-revalidate, no-cache, no-store, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1df514bbb5585-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:09:52 GMT",
+				"expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=89,cfOrigin;dur=1173",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6ImhiSmcvNXRWQmttUHMwMVd6ZDAyZlE9PSIsInZhbHVlIjoiczdTMGlwRmhKQ1cvYkVWWW1OTGdzbWJrNjRST3A4cFhuNWVmQ295WE9SQXAyMzdVUVdkSHRWT2tmbDN1L290NzArM1FkTU5pZ2dwbk1ZY1RRVEVpL3RqMUlXRE4vaTJScS9Ea1lZQnM0SVFuY2xRWmFpYXNsaFVvTDg1dzFEbEciLCJtYWMiOiI2ZDc0MmVkODhlNzEwMGE3ZTI4YjkzODJmMTFjM2M4NWQ2MTg2NzgxMmE3ZmYxMDA2ZDg5NzE2Y2MzOTYxNWE5IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:52 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6Inhha3BqWmdidE55REhYaCtZNEdMS0E9PSIsInZhbHVlIjoicEFmL2YvRVNzbXcrNTgyMDJTa0J1ZkIvV2MwcFR4TXQ0WG5ZVC9hYjZSRGhNSmVxditnZjQ5S1BGNGwrQ1AxL1hxdEZlM3I3d2dLUUhxNm5kU0FTS2NDK01BdFBMZE1MNXFsOHIrdytxUUxMbEJjaWY4SEZWWE5TbGZwcjk4NHkiLCJtYWMiOiJhODc5MmU5NmNmYmVhMTk2MjJmMmRiM2Q5N2QxYWNjM2NmODhiMDQxZjNmYzFlZDRkOGE1N2M4YmM5YmZkODM5IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:52 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "fe511cae131ce9a65b25ae429fc1af8a870ec08fc70ba10d3c7f1a6bfd9a6457"
+		},
+		"GET https://alpinejs.dev/component/splide": {
+			"status": 200,
+			"headers": {
+				"cache-control": "max-age=0, must-revalidate, no-cache, no-store, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1e0952c7133ed-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:10:43 GMT",
+				"expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=84,cfOrigin;dur=180",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6InJGbHBwdFBXRHp3dk9hNGo1U05ZUFE9PSIsInZhbHVlIjoiRlRPc3NFM1dVNUJXK3p5K1RGYmVudHZCWTZsRUJPVE12VU9jQzdqMGlKRVFPN2V1VDF1UEVSM2JCNjJKa1hKViswR2FXcDdLUVE3dkNwdHRaMmk5bmtmQjV3TTJKd2FyZTNBUm9TRk4xWkp2TUhNcjk0N3dTRFJLVEtLV3dFTlAiLCJtYWMiOiI2NGY0OWQ1MDUzY2RlN2VkNDA0NjlkODFhOTFiMmYxNzE2MzE4YTk1YjQwOTAwMDRmZTQ3ODU5OTM1ODE1NTQ2IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:10:42 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IktlazRxZ0YyaFJqSTYwQzdRYVI2WUE9PSIsInZhbHVlIjoiNHFLdHp5Z2xKSk5rN0hhcHl4K2xoTlFEWWFPaGowTGI2TDVpZDhKQVcxUWRscEdodjd2clQzZVZYbHY4c0w5YkxxbE16QVZzQjFsMVFYYmdpK1dnMmVEUWx2bWoyaG5wdkgrNXRCN3psSmlPakpBTjVVTmcxOVM2U2VXSjQ1RWwiLCJtYWMiOiIxODI1YjUxNTY1YzZjNzI3MGMyOWUwOWE2NGIyZTJmY2FmYmU5ODViOWM5OTllYzVhMmZjYjhkYjZlODQ1NTE5IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:10:42 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "66f2693835cb4ad1c797c4e3a822bdd79482e42ea0c4d1dee9fea0cb620435b1"
+		},
+		"GET https://alpinejs.dev/component/splide ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "max-age=0, must-revalidate, no-cache, no-store, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1df6c1e7e5585-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:09:55 GMT",
+				"expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=85,cfOrigin;dur=168",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IkUvdFk3ajBSN3laMkQxRVdEeWszTGc9PSIsInZhbHVlIjoiYm9IU1g2SzBVNGx4emtNa1BMSC9VRDBES29lakttT3BGVFBqQ1BKVHR4NVVWRmFOK3d0T2oxSDVIcXA4ZHgzenRVYUJVK1JrdXRMdFBhYzZ3VVJTcnZNVEtyS3BtRDlrbXloQVcvRXVlQnI1Um90RnIzOHlHNGlHdVRwaFdPSUQiLCJtYWMiOiJjOGRlNzllNTc4ZGEzODQyZTA1MTRhOGNhZGJiOWFmZDIwY2YxNzQ0NmJlNGExYWFhY2IzNGNjYWY0M2VhMjk4IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:55 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IjQrM05KQkRxWE9STXNCT1RUaWZPVEE9PSIsInZhbHVlIjoieG8wck0rczhpSG10NTVtWmV6SC9uV0lHa0xZcldIUVk4RlFlTm1IVGpDSUVHUHZsd05mZlVSRERjQ0VEOWl0bCtvRmZqUXhWODl6Ymd4OTdadnZEeW9nbTYweThnMlp1WWczRXhsM004S3pySW5vdWNpQ29iQURIRzQ4N3Y0ZjMiLCJtYWMiOiIzMjQ0YTdjYmMwM2QzNjg1NmFhYzE3OTJjODMwNDI2NDU0YmU4NjVlMGY5YTllZTA5ZTZiZjM4OGVkZjBjYzAwIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:55 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "e0276771c16f6c6d71900c456c2774344953c36af656f4d9df33a6b12f9af335"
+		},
+		"GET https://alpinejs.dev/component/tabs ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "max-age=0, must-revalidate, no-cache, no-store, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1df0efabdae99-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:09:40 GMT",
+				"expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=87,cfOrigin;dur=235",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6Ikg3MXNmL1E1WlJKOVVTRDNmMk9yS0E9PSIsInZhbHVlIjoiTEo2WXVraU1rd2FINFI1amlqYm1Gb1p3UUxlMWM1bjErVTBOU200NEl6ampTczJUUXJyUDZoVVlPSmJZRHY5WllMazBXalpBUnh6V28zZGRIeFR5RUxJVHdHMGdFV05KVHo3NEVNZ1hCb0c0S3JaT2diKzJHcmI3UXdxdjdtWWgiLCJtYWMiOiIzMjAxOTI0ZDJlMjUyZmY4NzFiM2YwNWI1OWVlY2Q4ZjcyZDNjYWJmOGFjMzQxNzA3NTc0NjlhMjBlNjIzNzgzIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:40 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IjNnSXRzSEI1aHZkdUVlNHB0cFl3UGc9PSIsInZhbHVlIjoiN0t6alNLSXBXcmRtdHpJNzBFODRzdHNPYW00RkZDcU9XQ2UrV2x5NmZJQWR6NlpFUFpvYm1ibDVIU0ZJTDlVdCt1ZUhvQXlzbUtneFlrdjhHREh4cmo5c2tPYm1BZU83REZ2UjVzWnFrWkhUMm0vOWwxRmpTRlgyMWtrdWk4Uk8iLCJtYWMiOiI3YTlkZWIyYTU0N2YxYWQ5ODIyYTllMDU0Y2FlNWE5OTJkMWFhNWQ4NWMyNTNlZDU0MGYxYjQ3YzI1MzA1ZWEyIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:40 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "66fa8b0f759017e09400156f2ed350fcd247f91ab708f5807b051201093d195f"
+		},
+		"GET https://alpinejs.dev/component/toggle ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "max-age=0, must-revalidate, no-cache, no-store, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1df366f1622f6-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:09:46 GMT",
+				"expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=73,cfOrigin;dur=73",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IlFQaTVmNDB0cTRKS0ZkNkJsSnVMY3c9PSIsInZhbHVlIjoiR0dLbUZBQVNlbytScnJyKzlkcnJ3dFpzTVVXd1lhcmhyRVVVbk1SblNIYkRyanBBUnUydnVTeXdqVjdSMVVIOEkvOUhUU3FFTFNZREh3MktYU200WStXSlE1SG5TS1dJM2syK1pRSGdpbG5tWVZ3aTZVTFpMeGk3SndlUFo5bzciLCJtYWMiOiJlNTA3ZDNmNzczN2NjMzZkZGYyMzM1YTliZWE4NjZlNmNlZGQxNzFlZTNmYzAwNTUxMzcxZjVhNmJhNDgxZGNjIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:46 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IlE1d1ZSL2tzRWJJWFl2SXNyODhEY3c9PSIsInZhbHVlIjoiMU1KSTdxTHJpZ01YMGwvM3BpUjdUcDc3Tm16ME9HUzJIb2l6b2RJTmFrOGljTmRCVXJDMTIrVXI4VURvTWRWb0xLV2QvaUczZjNqMURweEowdlV5REtjM21MQ2tpK043OXVCeHFKRmZLQmpzcDJJZW5iMXpCb2ZvSXk2NXMxV2kiLCJtYWMiOiJjYzcwMTAwNjg1ZjgwN2E2ZGQ4YjYxMWU5NTNiZGU0NjFkZjA2NzlhOGM5YjUxMzE5YzQyZmY1NzUxMzE2YmQyIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:46 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "1149d823518a3b63c680ffe7a4945556de5e74b9f98d147fd037be4655438561"
+		},
+		"GET https://alpinejs.dev/component/tooltip ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "max-age=0, must-revalidate, no-cache, no-store, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1df3dec6422f6-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:09:48 GMT",
+				"expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=89,cfOrigin;dur=112",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IlBCOWxpS25paDFpdURuUWxISzdVUFE9PSIsInZhbHVlIjoiWE1rb2ZBNTdvYTBtT1o2ODZrVkx5SmNldkIrdmhqVll2Mk9oVnVzTEltVmpNK29MWSt6WmFrZ0toRVBWcnp1Qm5iT0hheDM0a3RVUFRNZG80S2hjN3h3eW5kYzQzZndUcTVRSzdPcVZ2T3dnT1krV21NTUVoZmFNZFljdzRIU1IiLCJtYWMiOiJkZjI4MmY3OTJkNzE4MDUyNTkxZDI0NGMyZjQ0YTZmOGQzY2ViZGY0MWY5NmE1NTVkMzU2ODQ1ZmViYjQwZjViIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:47 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IlpXQmhzQS9ZeGNMaG1NY01ZSXdHYnc9PSIsInZhbHVlIjoiQ1puS2VkSWN3cFJBOTFtZE5uMlFPRytDWE5aS3Z6VlJlVVd6RVRYWElrN0V5UmRLcHVHVG9JdUpSRGxTTVlUTWhvVU5nRGF1NS9XYVkrUHFKZUxMR29maUlXTzdTNUYwazQvTXg5dFZaZGQ4YlgveHVYQU0rME1jMmR6dll1RkciLCJtYWMiOiJiOWViYTI1NTMxOTJiYzY0NTYyYjBhNzZkNTUyMDI1MWQwZThhMGFiMTU5N2RlOGFkYjlkMWVkOTJhMWVjZDIxIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:47 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "67f6309ad042825b5e3c849dc99e89de25eb2da4da6957ba791103bc83650aaf"
+		},
+		"GET https://alpinejs.dev/component/trix ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "max-age=0, must-revalidate, no-cache, no-store, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1df419f9333ed-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:09:48 GMT",
+				"expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=86,cfOrigin;dur=83",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6Ii9IQkFmdzNjRzU5Q0E3djR3a1FQK1E9PSIsInZhbHVlIjoiYW5XbEJYZTB5ekdwTHlHdXF3Q2ZuSWpoK2tOT1JaSmQzTHhWSE1DcDE2RkVuaERYQllnMHp1bHlSNmlDT1JhUVZyYXpTZ3h6UW5rL1lydTZCTkQ3dGQ0VzgvQjdieW9rMWlTQ1dFZkVHOEZiazRoWEh1SkU2Wk41QjlxVlJ3QWwiLCJtYWMiOiI4OTI1NjZhY2IzNGM0NTQzYTRhZjdjY2NmNWEzYjE2NTk1OWYwOTg4MzBmYjJjZTJhMWMzMzZkZjkxYmM1MjJjIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:48 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6Ik5GU28xVVZqenRUK0dtVWUvbGNFMHc9PSIsInZhbHVlIjoiTzJ5UFVPcXlvaDI2MlRENnpoc01sTmtPYVBnUDFvcUZoTjRTQ0hrVzJEdjdIOUViWXJYU3N5ajVQRHUxa0ZQRUlDbDJ6d3FIUTRRKzUxUmZPVUUvaTIzTFRCSkhDRHlRSUU4WFBWd1RIaWVUK080Mm9kaDhlWGR1cUtDTmFkRjQiLCJtYWMiOiJlMDQ2MGYzNDljZjU5MjE3NDJjNzU2ZmMxOTBlMzBjOGU3MmM3ZjA0YTFkODUwNTM3ZjRmM2Y2ODkzZWIwYWUzIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:48 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "ec9bc9782b824e432ebeef2fb3725a80b1c184c7148e5dcd998ce4c417281b35"
+		},
+		"GET https://alpinejs.dev/components": {
+			"status": 200,
+			"headers": {
+				"cache-control": "max-age=0, must-revalidate, no-cache, no-store, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1d324b90cf4c4-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:01:32 GMT",
+				"expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "cloudflare",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6ImNZaFA3eWNqbW0yR2JLVlRpM0tzN3c9PSIsInZhbHVlIjoiR1ZCZjJyWnZYcDF6RkNBK05HKzZSUFFweTRISlRGTGU4RjY2QVZ1NzZVVHZZWTBwWE1QZ21EOXJmR1l3TXQrK1V5Q3hrMmRhekY2ZXBzSXVYVyt0YzZZM2h4WmY4Y3N4RWVIR0ZBY0x2VStsWnFEeFpRNWdPRDZQRklRdmJCNTUiLCJtYWMiOiJjZTM5YWZmYTkzMzJkYTJmNjE3YzMxYzQ4YzhkN2JmNTAwNjdhMWMxYWM1ZDg1OTYxZmMyYjdjZDUyNWFjMzhkIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:01:32 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6Im1vYlM4eDkyRHV2ZDdqMm5iclFoSUE9PSIsInZhbHVlIjoiSjJYUlR3aXdZbVFoVGdKM3cwWnd4dUl5TUdranVFemxyakUzNysrMlJxaER1Sk5STzF6T0ord1c2ckRMdFJUZDRTWHFhWHErcTNtQjhORkNQdkdmeTVTY3gxdldHbU8xU3pRcFY4VWtGTUo0NWVyWXBZUGd1RVFJZmdpdkpzZGQiLCJtYWMiOiI5MTMzNmFhNzA5MjQ4NmMwMjg2MWM1YWFjNmUzZGExYWQ5NzQ5NGY5OTEwMGMxYTg2Mjk5YWFiMzk5NDVmZDQ5IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:01:32 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "be75e64802e2cb055adf137d50efe85bb83abb121a3fa8e53d3dd6ece27baaca"
+		},
+		"GET https://alpinejs.dev/components ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "max-age=0, must-revalidate, no-cache, no-store, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1eceecd86ae99-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:19:08 GMT",
+				"expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=95,cfOrigin;dur=181",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6Ik1vOWx0dVFNWG5lTG5SMno5OG1oS1E9PSIsInZhbHVlIjoiVFN6OEFvSm9uUGNMeVZlQWYwaEpqV1FONWlkRlBIMVJEZUFockltcFd1cUxOUmxJR1FHK2NCY1BNY296VVkxdjdWd2VTR2hqOVZZWHR3dU8wejFOVmNsRmxHTXhRTkVKSGVvYk0rUzl4Q2UwWGZqS1NEYUQ3S3k1V3o4SHFEeXMiLCJtYWMiOiI2ZmQ0MTdhNGYxOGNiNWQ2Yzk4NWU2ZDU2YTViMTg3MmU0MDYyNmUyZTJjMWU1ZTBkMWQ1ZmY0YjIxNDY5NjcyIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:19:08 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IjBjRTUrOEFXVmk3bllvV1J5bndBbWc9PSIsInZhbHVlIjoiNEhmc055dFFhVnFUUFFMMXVtbW11OXNpRGU2aWppbEF4L1Z4OVNYR2RSOW92dE1XTG1aZENjbHp2Mld6RU5YR05BWTg1bWwxU3paVUpRL3k1VGRSRFdKUnl5SWFuemw0cExIOUFsNkpCb3ZRZ2VGc2RGaFRIK0NNaDNvbUl1WTYiLCJtYWMiOiI0ZTdkOGEwYjQ3MDg2MGRmYjA2NTM0ZWI4YzI4MTEwOGM4MmQ1ZDY0ZGRjYWVkMWM5ZWZhYzI5NTI4NDg4NWU5IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:19:08 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "b7aa27b88b17725be9dd7d2c17a2f62172283c063006c4dc4eefc77522fdb50c"
+		},
+		"GET https://alpinejs.dev/directives/data": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1df6c0a4522f6-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:09:55 GMT",
+				"server": "cloudflare",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IjJTT0VwelBhSGJ5MVFPR1pOYktzZ0E9PSIsInZhbHVlIjoiaEs0bzN5M3BNQXI1NExGWGVSSmZtVGVEUGl4LzFjdmY1TG43alBJeFpvdTNwa0VhVEMzTmxCQTBCWCtYY1hYbU1mZFRsbERmdnBYaXRBdlZzcWhHdk16VmZVcitkd1J4eUJUcld3OXZ0WmM3Y0F4V0hrMzZObHRuWnhjc1FJNkwiLCJtYWMiOiJkMzE2MDUzNjk1M2IyMWNkODFhMzQ0NDFhOWVmYThkNDkxYmFjYjlkOGQwMzc1Y2NlYmZkOTI3MWEyM2FmMTZmIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:55 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IjRmajRCNlpCMmh2d0lQa0NDbGtaOFE9PSIsInZhbHVlIjoiTHAvVW5QZ09ldjdyVEVPODhGNWR6My94MTR3dXJuS0NDZU9kWjQ3ZXpuZ0lPT3IxMlc4aEJsaFErZXQ0eHpOdjZhb3VEdjI2TEJQeC9lb2F6Vit3bXVja0tpMjdWeUEzVkIrdDhXOHNodGVCVHhLR2ZTbGhDajVGY21rS1ZHSmYiLCJtYWMiOiJmNWRiNGQyOTYzN2M4NjgwNTNiYTU4YmY4NTkwMmQxNDg4Y2E5NzQ3ZjgxNTk5MDQ2ODExMDAwNjkxNTg5NjI0IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:55 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "9dcfff85782d41c00a9ac44d7104a9ddf78ce868e07fbafeb0d592b00a5e687f"
+		},
+		"GET https://alpinejs.dev/directives/data ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1d5ff9e630ccb-DUB",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:03:29 GMT",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=106,cfOrigin;dur=51",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IkNzSDNDMURqRlZqNTFWbHFFc3pvTEE9PSIsInZhbHVlIjoiUytjR2syWWd2WVVvaWtsTzNyQ0FGVHRneHo2Q1NBUlNUMld3dUtKKzh3cGVaOHFTQUxQOFNlbXN6NktjMkNNbFRNbi9abzQwSnBCRlZuRG82dWtnRjdXdkRoNjNiQ0ptZk1zNkdKWVN4di9zd04wZzhEY0xtNnNrVUtKNWEzUE8iLCJtYWMiOiJhNDA5ZTg3ZjY3NDJlODQ1OTVkZGQyMDk4MjBkYmFjMjgzZDBkMGY1M2U5NzY5MDY1OTMxNWEwMmYxYmE1NGFiIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:03:29 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IlNka1ZDOVYreHFrZW9VWWNhc2VFWlE9PSIsInZhbHVlIjoiZEx2UGpwb1dLNnN0bkZvc2dEVFFneUQ0aXI0bmFNZzJzMUJLUE4ydHRWbWFqWW9UTldUc1RUQ05iTFBvSVRoLzBPYWw3TFVxMk1Xek1Nb2IxUmQwLzdqbnAzM1R5VmhiK29aUms4QS8xUmVPNEdsWUtsSDMzcnE1M0xKVVFxZE0iLCJtYWMiOiJhZTY2OTViY2Q2NDE1YTJlZjQ4MjYxMWJiMzdlZjFlMjc1M2E3NzkxNTY4ZjQzODViZWM2NmRkZDM3MzVmZTZjIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:03:29 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "45dd3b18b6a408856cb06adfce341a8893620265443d534b300b46f9e75cca74"
+		},
+		"GET https://alpinejs.dev/directives/for ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1d6bc39bdae99-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:03:59 GMT",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=95,cfOrigin;dur=43",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6ImQ5Y2pmaGR5VnppeU1yTmZPTlI5WFE9PSIsInZhbHVlIjoid0lPOGw3MDZGSlhudzZKTjdjY0d0bnE1Z2todzZKZ1dYa05vSThyK0J1cEM0bW1hT2ltWitEUmdiY1h4a1N5RkZnK0xKV296WTFhcFFHY3VUS01lZnA0QmFVT3RvbWJsRXZKVnRwZ3pxT2hMdExSSy96aFk0c3pZbTMrL1MvSkUiLCJtYWMiOiIxZWJmNzM1NzU1NjhkYzk3MmM1MGY5OWJiODlhZTVmYTdiYjE2OTE3ZDQ0YmNhYzhmMWNiNGE1M2FhNjMxYzY2IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:03:59 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6Ik5qcERIdmZBcUo3RmJGcEtBblB4b1E9PSIsInZhbHVlIjoiQjNvSzVySlY4NWhRMFJET2VFdnVBQzUyMjlybWdaR2tSNXBzRFJ5U2dMeTJlMmFjbWZtemZTZVpYa0JIMW1IOVE4NldoWkJWTGtvTkNjT0lieFV2VWl4YWlFb25GcEo2SWx3UDdVb2FOb29TT2dWa21ZWm9PYWRiZXd6aC9LRDEiLCJtYWMiOiJjZDBjNTIyZmRmNDM0MjE5ZWVjYjVmM2IyYTQ4ZTlhM2EyZDlmOTJjMTQxODdlZmVmMjQ0ZGUzZTYxNzM4MDUyIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:03:59 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "848fbab06fed85b64cc0c519514021f3a6d33f15c11d8f50ad0014b06808bc68"
+		},
+		"GET https://alpinejs.dev/directives/html ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1e7b1ffaf22f6-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:15:34 GMT",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=91,cfOrigin;dur=76",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6ImdjQkRnbW9HZFNsT00rMVZCdTNHMkE9PSIsInZhbHVlIjoiT1pkeGtpaUVyNXR3aENTZ09mT1R2WmNWWUh4UndhK0lMT1NudS9Xb1VhQWZpMGdYcmJXTmRqVTNITzU5Y0c4K1hKdjZ6bUR5ZWN6RVVPYWkyRXN4ZjNFbjlqSnlEQ0FXeUVlQVkyNWp0ZHgxeURBeFhpSmVKTEJzZ1JyVHhtZVMiLCJtYWMiOiIxM2IzOWJlNzliMzJlZmEyZWM4YjhjYzhlNmEwMGFhODk3NTQ4YTAwNjJmNGM1ODVjMDBiNmFlZGU2YmNmZWU4IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:15:34 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6ImIyUlFtOEUwYVRkS1RkQXdCcHVRTmc9PSIsInZhbHVlIjoiNldFRXI3cmdiN1hDMC9OWDRSNkNKOXFVTXM2dUVpTTl6UWxuM2pZSmRETTgrSTJTaWs1OGlXa0tia0UyTWVxK1IvUVgrNFNnd3JwMlUzR0pTcHB2ekdVcEx2bDJ0SUkyd09ITjdRbDR2Sm1lTWIwd0gxWWxZUCtmeE5nc3RTZDgiLCJtYWMiOiJmYmIzMmY4OTkxMDk2ODNiYzkxNjFkODk4NDZjOTRjODk0MjdmMDk1YzhlYjg3YjkwYjc5MmRlZTJiNTk3N2M0IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:15:34 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "2a8b8ab703ce3404514ec769e820256db5393397ff7d96f0db7d9b7d5b1e16a9"
+		},
+		"GET https://alpinejs.dev/directives/if": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1ec0e4bc422f6-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:18:32 GMT",
+				"server": "cloudflare",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IjVMWENzNGFnYzlyN1FTOHArMTIwVHc9PSIsInZhbHVlIjoicGh2QUZsK2l0S1RLekhyUHRlTHpET3pmTjBJY0cyblREblZjV2MzMVAzK0dLRmZuczA0N0dyQm5rRjlUOUt6QzhVSjF6RVhqazVyT2lvNXZENndNWitWMFdxMGhDSks5emtLbitzZU1LMzFENlZBR3NzMTFCWHR6VjNRbU41VkMiLCJtYWMiOiIzYTY0NmUzNjQ0NTM4NDIzZjc1MzJjZmQwNTRlODVlNTkxZjMwZWE3MTEzMjc4ZDRiOTIwMWMzNTkzOTdkMWI4IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:18:32 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6InZnL25lbDBhUlBleFIxa0JnWjAyVlE9PSIsInZhbHVlIjoiQkMvTnNmWUxvM3BuZnYwWTQ1RFE5YU5wbDU4aW9VQnVrNTJpNzZxdjBvRWEwUnZoa3paQ3ZnelNPT1VqYXBBU3ZESXI5YU9MSFRTSlhMYjNmSmREMmJOT3FTYitPaUFGR3NvdzljSzVOODRKdk8wVC81RmhhM1dVL0tlenhrQjkiLCJtYWMiOiIzYzYzMGEwMmMyOGE0YzY5ODQ5ZGExNDgxOWQ3Y2MxNjRkZDIyYmViYTllN2U3YjA5NjFlYzRmOWMzMDgxMzA3IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:18:32 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "9e1adfdc22a725f713ecf1d9c4d6a4e22a8f929f4ec73dd3460692227e1b06f0"
+		},
+		"GET https://alpinejs.dev/directives/if ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1e78cacf222f6-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:15:28 GMT",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=112,cfOrigin;dur=41",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6Ik5TdWUvd2NRVUJzT0c4YzZnaDhJVUE9PSIsInZhbHVlIjoibXlaYXNZV0o2ZDNzRm9ZUGZ4TE8zdC9zaTNlQ2swd2NRdlB3aU9IZDIvZHBoZCtoRk1zZ2k2c2MrUHg0UVI0YWVGQ0k3MkcwYWppY0NkUG9xSEpFTUUyVC9DRmpGNzU4TFo4ZXRHeVd5c0Z4Z0hyTHZTNWpDSVlGMHp3UG4xQS8iLCJtYWMiOiIzMzRjMGY0MzQyODI3MTBlMWI2MzcxYThmMzg3YmU0ZGY0MzNkZDlmOWE3MDRkODliNDhhOTcxYTQ4OTliMDQxIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:15:28 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6Imh2Q20yQTdZa2FibzRGWU16Z3l2ZWc9PSIsInZhbHVlIjoicElKaTFtZmo5ZWhneHp0SEFRb20xckxBOWQzcWRkL1Y0MkQxR0JBVVIzYWhqSVY3d3dtd0UyYUFaVXBrdHo1Uk1INWQwR21odnBSVHJuN3JNaWIwUSs3ODd0eTdSNjZKN3pYRjdmWFZ1SEpSbWtTdHVmVW1XWjIrbzBkMnA1b2ciLCJtYWMiOiI1ZGNhN2Y2MTc1MjkyOGM2N2FmYTgxZTFhNzliYzg2ODQ5Yzc0YzQ1OGIxN2Y4MzJiZTYxY2I4ZjE1MmU1YjUwIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:15:28 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "b1036f090a541320544f6c1b0e65c0919493d75962a6180ae67bffb92f6f1831"
+		},
+		"GET https://alpinejs.dev/directives/model": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1d324bed8ae99-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:01:32 GMT",
+				"server": "cloudflare",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6ImhvVEcza0x1cFQ2TzZCSTdFenppMmc9PSIsInZhbHVlIjoiaGR2dk5GQXdpdmc3eDZMcjluVGdpRnY0SlhJaW9FbWZqb1dPajNzSVBGbkI5aXluZW8rbmY5bTlHQzhIbTRtU2tYcHNNNWh3c3pKOTR2NTU4LzZnNlBIUWh5QU9ZU0IwZUpWOVhsYTdtK2V1V3N0K2xoa3BMSitOK21UT1MvK1QiLCJtYWMiOiI5YjNiY2ZhNjE2NzcxYjNmZjI4N2I4NDYyMzVmZDBjZjMxMDcwMmMwMDdmMmQ1ODFiYTg2NGE3ZDBjNDlkOTlkIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:01:32 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IjJJVmFQOFdOSmpVZ1pZVjE4bFE5TXc9PSIsInZhbHVlIjoiQXFhYjA3aDFOLzdvSW9XNENiSUFYVDB2VG82RGNQcG1vYS9XbTZMRHVuSEl4NlcvRUxaZkZINm9GdVhXbmZWaUZJY0FBMWtmQVpFRDVteWpLT1JLemU0dHZxWGVTNmcvQUd4U3FDd003aUM3S3ZUb3ZDTmJhbzUwWHZNYzFtbWkiLCJtYWMiOiJiNmY5YTNhYTE1OTg4NDBjZmVhOGM2YzRhYWRkNjdhMGRmMDNiNThjMWE1YWVkODhiZWE0NDBjM2IyNGQ1YTU3IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:01:32 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "c6ef2fd120c1b912584af7c06f6f69ed9aa58798d104de6aab9b14b3da9f850b"
+		},
+		"GET https://alpinejs.dev/directives/model ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1d6b50a39ae99-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:03:58 GMT",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=115,cfOrigin;dur=49",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IjU1N1VjYWFpVUlzam93SGFkRmhIY1E9PSIsInZhbHVlIjoieGFlbHNMT2w4UksvOTYvR0ZBZEFqNTVya3c4TjJlOFVXSVZ4dUxCUlBZd0UyQWl5WUZwaElQbjZRNWp0N29wZndseXU3Y0xPaFpJb3JOdW9kMjVnZ0sxdllOMmQrRDZ5R2IrT2lTSHVCeDJQYjBPeEl2RXVFUkJpaEN6Rmd3cVQiLCJtYWMiOiJlMzJkMzMxNGM3MzQ5OTY0NTdhNWIxM2ZhOTdlMzBmYjQ1ZGVkMmExMjkyM2NjZGU4NjQxZGVlZjgxZmE4OWJjIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:03:58 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IjdleEJaNUNsRWhtdWsyZ2FveS9SdGc9PSIsInZhbHVlIjoiL0ZvOWRyODBiMXREQUxyT1JvZGhhWkM1bUFyWnJ6SCs5OEVpcVNvZ20rRE9YVG5qYWlPSW1wTkh2QVVrekZaMFJOVk1CMUhpcy9ZVU5KejRwajFuQ28rTVlna3NsRy8xbGU5WGNEaWR0YWVZcXViUkI3eTBlY1l6d1JsZWxXZmsiLCJtYWMiOiI2YjVlOTE4M2Q0ZDk4ZWI4MDA0NzlkMTE5MjA1MWQ1NDcxNGZjZGQxMmUzYjM3MTFjODZiMmY4N2I5NzRjOTVhIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:03:58 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "2777e0da15c89179ae2f7b0fd2eacec22c439c804b6e9a923599ce485daafab4"
+		},
+		"GET https://alpinejs.dev/directives/on ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1d6062d340ccb-DUB",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:03:30 GMT",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=96,cfOrigin;dur=102",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IkRMMExMelVjWE56ejB6Mk9HQUFNRUE9PSIsInZhbHVlIjoiYk1ZaGhJaWI0RUhQQ2hFRDNSZXYyUkd3OTB2bXFpbnpPd2RHdTFMRTR3UVJUQjliTzYxdC90dnQ3VmF1eWUzMzlLbm1EMjVSVFFlaFBPMVZZcjN6eXN0OVNOQUl2K3BHWXB0K3JKR1dnSnRMUHdpeGl0b2ZYNjFxR3drSUtKaUkiLCJtYWMiOiIwOGRiMzdlYzdkMDMwMjExM2VjYjJkODAyMmQxYWNmMGJiOWQ0ODJjZjkxNjZkY2M4OTZiYmEzNDhiZDE1NWEwIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:03:30 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IkNQNFAwdUw0RzlHVFpTRWxYUFVRRXc9PSIsInZhbHVlIjoiV0NETzkwdXlicytZZ2QvVW5WUms3Mkt0bmNEWUpDTEIrN0U4OHZZS2Y4Vnpud3EvRUNBcUd1b1U4T3lpRDRTVlhEdkEvZVZDTm5TbXVIQ0ZVMzZXeFdtVWs3elREbzdoRXpWdzQ4THJ5NDhqeklHbThYMUhwc25PVTdqV0tCS1MiLCJtYWMiOiI4NzBhNWMzNjJkODY0ZDNjOTA1MTNiMDMzYzliMDQwNmZjMzI5MmE0ZGM1ZGIxMDVmZTJhZjBlMzRhMjA1MTcyIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:03:30 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "ecfb5e65c021e8caabcd4d468261e23389d711087eb69c1cff5057a6de514abc"
+		},
+		"GET https://alpinejs.dev/directives/show": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1ec036c9722f6-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:18:31 GMT",
+				"server": "cloudflare",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IldHWXR2NThkemphUXNpaXhtQ3h4a2c9PSIsInZhbHVlIjoiRk4wVmVycHpqTjdyL2h5Ris2VUNyOWJneDlHQkdsc1pnYllaQmRDN0JJeUxlRHE5V3JZSGt3VXhNSzh3YVFESTlNdmlGTEV4RWg0SnZ3UW5XZ0dzWitiS09NcFpWRm0xWDFjaDFHdCtQK2pFQWdTcUpvcy9LcVJCbWUvOTIzWE0iLCJtYWMiOiJlZDU0N2E5NjZkOGRhOWFiYTVlN2ExNDhkNjEyYmFjMGI4YmJlNTMwODk0NzE1NTU5MzcwZTFiNTM2N2VkZjNkIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:18:31 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IjBzdjBQeUtwQWpEdytKaTBPWE1ScWc9PSIsInZhbHVlIjoiWVIxVHU1RkhuT3VxL3BLNzhPekVMbUZRL1BuelJKM1FYa0puZTRTdENXcnRvWE8reW9wY0QxSllZcHhDaWFyQUZ2TXBsZnc3OFhiNjZVS1dGNGRLc1FTdTd5OExWMk05QWZIMXNndmpieTRkV0dTVzNtUG9NdFE2NUluQkcyUEYiLCJtYWMiOiIwZDI1NDQwZDJiOWFiNTIyNjQ1YjExMzUxMDU5ZDEzNTUzYjNlNzQ5MGE3ZTgyNzMxOGJjYWMyYmFjYTY3YTQ5IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:18:31 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "852c71cdb31bd685834cb04b145685752c6c975bf640fd95f5847f72863df899"
+		},
+		"GET https://alpinejs.dev/directives/show ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1d6349ac22953-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:03:37 GMT",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=86,cfOrigin;dur=42",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6InpYUzVRdUFhbXNYYkdWa2ZzZXZDOXc9PSIsInZhbHVlIjoicGlZMWxwMjROcFVpWGo2T1kxZm5wTmpEcVV2N2lxTE1DWkRKdXpuUW11cUY2LzUwekxmRGVWMjQ3aGhMV1pUVVZOYzlrbUhvRVdHRXRGNitUdFRCcFJyVlZXL014VkRmbVl1bE1hWXp4dHhCYWk0S3dZa0RiSnVvbkhGSml5eXUiLCJtYWMiOiIwYmZkMjZlYTkwYjhlOTdkYTAzNzdiMDAxYzAyNzI0ZWRiYmE1MmU3NGIxNmViMTJkNWJjY2I1ZTY3NDRlNzljIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:03:37 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6Im04czN6YXgrZTUzdkxFVkQxOUNYTUE9PSIsInZhbHVlIjoiaGExejkranl2RG1zNFVLM3ZLRTIzWHViME1udnBsYTY1blV5RXpzQmM2ZEpmcVlTWjVxMGFDYXg0MFU1WnVQYlVCSk00VVRKeGpvVVpsb1hTVlV4czBXYkJKMkdlcHc2SUNscURSZFV0Y3VZSEpZTUNkdzFuUFphS2F0eU1SaUEiLCJtYWMiOiI3MjVkNzU5NWZhODdjMWJlOTU1MjI2Mjk2MjM0ZWNhZmQ3NWU2ODhkMTdiNTc5OGI4ODkwOTg1NTdmMmU1MGVkIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:03:37 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "67e2d9d8dda1dec7f80a9b3da470980f3d7836f0fb8fa7740423b607fddd0326"
+		},
+		"GET https://alpinejs.dev/directives/text": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1eb70f9765585-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:18:07 GMT",
+				"server": "cloudflare",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IlVvbFhDZnkxbVpDaUlvT3YwTzd0aUE9PSIsInZhbHVlIjoiOE8ra1d1NnhLOS8xM1lZekdBbmtrTFUxbzRMV09zWEU5c1ZwaWpWNTJ2S2dEQzNWWDhWaWJMM24zekk1SnI0YjJKMmlDaTFpeGVZVU90cjFiTU5iRldweHdDRDRGTW9VMnc5M244VXdjS1RYUHJXYlFIQUVsVktXYWcvMVBEem0iLCJtYWMiOiJiZDQyN2I5YjU4OWQwZDI3N2M2M2Y1NDQzODhmNWU0MWU4OWE5ODdmZTI4OTU1NWQxNmQ5NDZiYTNhY2M2YjQ5IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:18:07 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IjgyTVE2cDVOa0llUmhKb2JwTGVNMFE9PSIsInZhbHVlIjoiWkJVTzNaanlSSkJ3SDZwNStoZE5IVUVaN2hLamxFLzZ6U1NVc3V0UjNWWVFLL2FaNjFMVmYyUHNoNzFFZWVZaVZrQ1NleVlHRXhoSUFyTGxYVTVZQVNiR242dVBOeUlyYUgrUEdHc280cjNBWStIMnUrNlhFVDNSb2RIcGh0VWEiLCJtYWMiOiJhOWZiZjc2NjY2Nzk5ODMxMjA2YzYyNjdmZmFlMzUwYzQwOTYwNDY4NDU4YjM4ZTMzNmM5ZDk3NTE3ODhhOWIxIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:18:07 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "3223aa2994d52723aff5f3ea2158698cc3434cab7a82cbcf97ac32bf55ffeb8f"
+		},
+		"GET https://alpinejs.dev/directives/text ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1d605fe4f15b2-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:03:30 GMT",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=111,cfOrigin;dur=77",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IlVlRysrc2lmK1pMZld4MVdaMXdKVnc9PSIsInZhbHVlIjoiakdIV3RGN0pLcmowdlZQUjFCME5oYlgzV3FMTVZkeGNpMjNjaHlNT1lXblMwK2ZoczMwOHFtZ3kwTU4rNGsxVlAwcUdxSGc3WlhzQXJnWWZGSXJMcDN3YTJlRmhrRkFpRUZtY3VFWXIyR0VneTRBbld6dVZXUlAwS1lLRWIvUXEiLCJtYWMiOiIxMjk3ZjA5ZWM3YTU3YmVkYjg4NDVmMzI4N2M0NGNjOTVlYTYxMTBiMjE5YzhjYmI3NzMyNTU3M2VmOGM2YjhlIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:03:30 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6InhQekJyeE9OQ2tjMm1kTDFDL3VJckE9PSIsInZhbHVlIjoiZFBseVFUTFBQQ3JJZDd5YXFUeTF4N0ErZDdzcUR4ajVDTG83T25iVkVnV3ZpSkRkRnVKN1VYL1E0ZXpqbTJ5VUtTL0VOZ0pzN1grYmVXa0hSTWg2NFkxc1BiUWp3bElTSWZuNkZiSU5ERVRHeE5ZYmhITXkyT2FKRWtHMzhTU0siLCJtYWMiOiJhOTE0Zjg5MWM3NWFhYmEwZmI4NTZhNmM0NGRkZTUwNjI0Y2JmNzJlZWIxNDVlNmJmYzEwYTI4MWNlOTkyYWJjIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:03:30 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "21a5b737ce533ddce0fef9cc40788409aa709c0a41d6d2752f822f84003a395d"
+		},
+		"GET https://alpinejs.dev/directives/transition ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1e799e86f2953-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:15:30 GMT",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=88,cfOrigin;dur=51",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6InpSMTFNbU5tWlpKTm11RGkxaFY5QXc9PSIsInZhbHVlIjoicitZcVZNTzFIaUozQysrY29vc2E2MXR4Q24yd2xsWWNkeDJPbjRJdUZBdE9tbGhSTm8wckNnSlRJelF0Z0hIOGVZYnR4VE9zY1F0QkNBZkRtNktTeVJQV0dneFpKSGN3akwvNnZMWGJDRE0zcGRBMzlpRFRBRlZKQnZldEVRUUMiLCJtYWMiOiJmMDNlODRhMWZjOTNiY2QyZDM3ODE4MTQwYmViOWViN2RiZmIyM2JlNGU4ODk2MGE4MzgyYTczMGJkY2I4ODMxIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:15:30 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IkZiTFlZN0J4Y2xHcGNDbGUzUmVDY0E9PSIsInZhbHVlIjoickNrVTJEUjBSNVVYZUdKQTZUZjJmZWhmN1A3ODNSUFlLV016OTJ1anhiVmJwbEQ1M2J2MSswKzVrV3FmUU1MWjNicVVjTTlSL0JWR251VWRzcDVOTkpBSlNjd05Yb1haTXlTMStNa0U1dnhsNXB0c0ErZE1xcXBuVmM5eFY0MUgiLCJtYWMiOiI3YzliYjcxOTZkZDYzZGQzZDc0OWMyOTc2Y2QyOGZhYmRlM2QyNmI0NWE1Y2RhYmE4ODQ2NTU0YjIzNTRjMGIzIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:15:30 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "695828a4385171cc1bba832ff186908277e1850a3cc959d185d8ffc1aa00917e"
+		},
+		"GET https://alpinejs.dev/essentials/events ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1e7b549b222f6-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:15:34 GMT",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=118,cfOrigin;dur=44",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IkpmclpKNFRZbXg4NjBQUjI2NWJHdEE9PSIsInZhbHVlIjoiM01NbEQ0K0VVeURPajg2QnVwM0VxQVBIMUhGRzIrVldHV1VLNDhBZWpIYUJrR2Z4NW9DMXVyY2djOFdXdWpFMkxnWW1sbm9vRFA0QVVMd3VGNThqdUxLNW43TG4wKzZkWXlLZW1Bc2o1R1A2cDNnRnFSNXp4dlJvbUJCYmc3ZXUiLCJtYWMiOiI2MWQ5MmQ1Yzk4NmNjMzJjYzMwNTgzNTZjMzQ0MTA0ZDc0ZmFjM2Y4MGJhOWQ4Y2MxMTIzNDQwMDY2ODcwNDJmIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:15:34 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6Im5ocXlZR2FPZ0RpaXBtSTFVMXBYRHc9PSIsInZhbHVlIjoiK1ZjYUxxaE4zdXB0ZVBHZy9tUUtwVGJGeU1kN2l1RktOc3kySHB3dWt6VzN5bG9XbDNRa01kUEMvbmoxbG1jV2dldllpWmloRTViS1FQTDBucnAwMVZzWStzZU9aZVZaVURPQmJ4V3JiWnZHeTF1d0VLUVc0NDdYTHoramxoZWsiLCJtYWMiOiIyZTFkNGE1OTFkN2IxNmE4MWViZWI5NmM5MjU1MWNhMWIwZGZkZDA2ZmExYjVkZmQ1ZjkzOWJlZmNkNTljMWYwIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:15:34 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "f4785ce48372ec9a5f1d57d6f545896917cc9cd5479fea97ba2bdef9cda35e07"
+		},
+		"GET https://alpinejs.dev/essentials/state ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1e7b22efe2953-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:15:34 GMT",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=81,cfOrigin;dur=71",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6Ilk0MEtueXo0TS9qdHBTWlp3YjlOQmc9PSIsInZhbHVlIjoiSzRZMXdPNE4wNkhiWVdiWVBGdWo5Y2U2RUxhb0VqSDFmUXh6M2hLTmRtdFZUb0FQbC9hK0FQQUNNZVJpMkluemdoU2xOV3IrWWJlbklGWnhXbm5Md25pai9jMjY1b3RRWkw0YzF5cXorK2h0bEI1Vjc2QUozckM2NjVzY1gwVGQiLCJtYWMiOiIwYmNiOGU1ZjE3NGNjMWE3M2U4M2VmNmNjMWExZjkwYzU3ZWViZThkZGExYmYyYTRmZWRiNTU5NGJiZGQ1NDcxIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:15:34 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IlNGbHZ6d2NrWVBhUlJucHJBSUhPMmc9PSIsInZhbHVlIjoiallDb2dneTZ2ZExqMDlKSWhLSHZvMGgvZFlrM2QvcVJZRlBMZ1lLNC9zVk42UzNvTi94b2ZNY0duUDdOUWVaTE9ta1MvOVd5UVVSMlRQSTJoZzFJWU5KQlh5VVpEcVQ0VHIrRmpWd3A3a1NocWxFZDJ4SUpyRWp4Vnk0Zm1wcGUiLCJtYWMiOiIzYjA4MWJjOTIzNzg3NjMwN2NkOTJjZmM3ZjVlNWRiYTMwNTE2YTk4YmM4MTdmYjhiOGFiNzM4NjUzNjBjMTVjIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:15:34 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "f4de2f0762436dc7ad190ca0626b12c123da25f1af2af83bfb562d464f877c1d"
+		},
+		"GET https://alpinejs.dev/essentials/templating": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1d324bb495585-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:01:32 GMT",
+				"server": "cloudflare",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IlJ6TDN6b1MvRUljWnFEL0dhTlBicFE9PSIsInZhbHVlIjoib25iV2pxTGNCRjMyUGU2TzVzMlIvdnRCZTNPaWU0anFNWmhTb1Y0RG03TlVJV3Z6Y0JxWkNlajd3RkYxTGd4K1ZRbE5uc0JJTjlYNS9Qa3RFdmVHbmFyUGFGV3BsL2pMQmlFNjErb1dzbUUraStPZDU2QUJWdzRFZWl2R0U4cWsiLCJtYWMiOiIxNzUzYTA1ZjRjNGZjZjJhMTY3ZDE1ZjdjOGVmZjhlMDg1YzkwNTA3NjcyMDg0Mzk4MTk0Y2MwZjI2ODdhMjVhIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:01:32 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6Im9BajZyUXlMUmpIQWNaMy9pazMvdmc9PSIsInZhbHVlIjoiNS80NnRFd1hCU0ZxeUlEQzFybzU0RGNBMTJwdzhidUZrS05LRmUvZFFUbHNsYjRHb0R3SFRzbkNFajhzMUpDdVVwNmRTZEdhNENwU01PQVhHZHRMWTc1RHh3UnlmSWpVYWswVnhPUkN4cUNCN0xmMXdwaG1lZ2ltMkdJaXIxKzkiLCJtYWMiOiI4MzAyY2MzNGY4OThlNmY0Njg2ZmVjNzc5N2ZlZDkyNjZkODI1MDc0MTZjMzhhOGMyODE3YjkyMjk2NmQzMDJmIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:01:32 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "b01ba8189ada891d65acb97ecba89a90238897edfc645ab3bc0925793928cae6"
+		},
+		"GET https://alpinejs.dev/forgot-password ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1dfc97bf1ae99-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:10:10 GMT",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=95,cfOrigin;dur=57",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6ImVRKzFqMmJobnh2T1hiYnNrbjhsMHc9PSIsInZhbHVlIjoiQ1pWZ2hkdHFicVBpaUtmZzk0cjI2TEthb0JKaUk2VTdqLzFMWk8xb2VyQnBSNTRzYXFrMEZCK09RY05mV3prTnpPOXpvQi9KdVdKUlVHQWpjMnhMK2VjUHJFSFFyV1VuVTA5cWNHMG5LWTlqT0NqeU12ZjlBTUg0ZVRISWNQRlQiLCJtYWMiOiI3Y2NhYjMxMGExNzAxOWE5YjRkMzI0N2I2YjI3Y2I4ZTM4MGM4MzRlYmYzZDZlN2JmNDc0MzhlNTA3MDFhZGYwIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:10:10 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IjRTMnJ1czBKZUNhOXFPZXljZVU1RFE9PSIsInZhbHVlIjoidncyZlpEZkxtNUpMbEl0djFwSW1waWZTRmhqYWY4dmUwaTZFb2dsWDB2WFJCRE84UVJhbWVnaE5ncUxNd282SElrQWJPKy9pQ2psSGg4YWVyZEVIY3dMbnFUNXoveFl4WlhVUXF4V0lHaTZlWFhJb2NYcFkyNVRWNWF0eHBaRG0iLCJtYWMiOiI5MDdkZjdlODYzYWZkM2M4YTdhYmVhYzNjN2YxYjVkZDVhMTA5ZjRlNThjZjQ2ZTE5MzU2NWU5MTNhNzU0YzkxIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:10:10 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "eddd3b7e7b4bcca2836b7581bb371230688b3b2006708ec5648bfa00044eceaa"
+		},
+		"GET https://alpinejs.dev/images/sponsors/neon-light.svg": {
+			"status": 200,
+			"headers": {
+				"age": "6917",
+				"cache-control": "max-age=14400",
+				"cf-cache-status": "HIT",
+				"cf-ray": "a4e1d4456ccf5585-SJC",
+				"content-type": "image/svg+xml",
+				"date": "Wed, 21 Oct 2026 17:02:18 GMT",
+				"etag": "\"6a956338-400\"",
+				"last-modified": "Mon, 31 Aug 2026 11:19:20 GMT",
+				"server": "cloudflare",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "e284bb40bfe6fc2941c7f11b05258c7bbbbd7f35bab74602e8b39e1a7352e69e"
+		},
+		"GET https://alpinejs.dev/images/sponsors/neon-light.svg ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"age": "6873",
+				"cache-control": "max-age=14400",
+				"cf-cache-status": "HIT",
+				"cf-ray": "a4e1d32f2c67ae00-SJC",
+				"content-type": "image/svg+xml",
+				"date": "Wed, 21 Oct 2026 17:01:34 GMT",
+				"etag": "\"6a956338-400\"",
+				"last-modified": "Mon, 31 Aug 2026 11:19:20 GMT",
+				"server": "cloudflare",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "e284bb40bfe6fc2941c7f11b05258c7bbbbd7f35bab74602e8b39e1a7352e69e"
+		},
+		"GET https://alpinejs.dev/images/sponsors/postmark-light.svg": {
+			"status": 200,
+			"headers": {
+				"age": "7173",
+				"cache-control": "max-age=14400",
+				"cf-cache-status": "HIT",
+				"cf-ray": "a4e1d493da20ae00-SJC",
+				"content-type": "image/svg+xml",
+				"date": "Wed, 21 Oct 2026 17:02:31 GMT",
+				"etag": "\"6ad60ce6-495d\"",
+				"last-modified": "Mon, 19 Oct 2026 12:28:22 GMT",
+				"server": "cloudflare",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "8baf57d8d9a3f384f76b223a4ac593d68c92f63725806d725535c124f76fe988"
+		},
+		"GET https://alpinejs.dev/images/sponsors/postmark-light.svg ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"age": "7116",
+				"cache-control": "max-age=14400",
+				"cf-cache-status": "HIT",
+				"cf-ray": "a4e1d32f3f195585-SJC",
+				"content-type": "image/svg+xml",
+				"date": "Wed, 21 Oct 2026 17:01:33 GMT",
+				"etag": "\"6ad60ce6-495d\"",
+				"last-modified": "Mon, 19 Oct 2026 12:28:22 GMT",
+				"server": "cloudflare",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "8baf57d8d9a3f384f76b223a4ac593d68c92f63725806d725535c124f76fe988"
+		},
+		"GET https://alpinejs.dev/img/caleb.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"cache-control": "max-age=14400",
+				"cf-cache-status": "HIT",
+				"cf-ray": "a4e1ddc6f93622f6-SJC",
+				"content-type": "image/png",
+				"date": "Wed, 21 Oct 2026 17:08:47 GMT",
+				"etag": "\"62504439-107e8\"",
+				"last-modified": "Fri, 08 Apr 2022 14:18:33 GMT",
+				"server": "cloudflare",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "81f2c0b704723aa50f81a55e7e77f44955f273fd4b22f8ca9216b2b485570b6a"
+		},
+		"GET https://alpinejs.dev/img/caleb.png ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"cache-control": "max-age=14400",
+				"cf-cache-status": "HIT",
+				"cf-ray": "a4e1d345cb5eae99-SJC",
+				"content-type": "image/png",
+				"date": "Wed, 21 Oct 2026 17:01:37 GMT",
+				"etag": "\"62504439-107e8\"",
+				"last-modified": "Fri, 08 Apr 2022 14:18:33 GMT",
+				"server": "cloudflare",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "81f2c0b704723aa50f81a55e7e77f44955f273fd4b22f8ca9216b2b485570b6a"
+		},
+		"GET https://alpinejs.dev/img/eric.jpg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "1689",
+				"cache-control": "max-age=14400",
+				"cf-cache-status": "HIT",
+				"cf-ray": "a4e1ddc6fa9f5585-SJC",
+				"content-type": "image/jpeg",
+				"date": "Wed, 21 Oct 2026 17:08:47 GMT",
+				"etag": "\"62504439-3fe0\"",
+				"last-modified": "Fri, 08 Apr 2022 14:18:33 GMT",
+				"server": "cloudflare",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "9f0c5458148658cd5afcfc0c04f29421eb3d01160dc167144188d4074148b450"
+		},
+		"GET https://alpinejs.dev/img/eric.jpg ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"cache-control": "max-age=14400",
+				"cf-cache-status": "HIT",
+				"cf-ray": "a4e1d345d87233ed-SJC",
+				"content-type": "image/jpeg",
+				"date": "Wed, 21 Oct 2026 17:01:37 GMT",
+				"etag": "\"62504439-3fe0\"",
+				"last-modified": "Fri, 08 Apr 2022 14:18:33 GMT",
+				"server": "cloudflare",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "9f0c5458148658cd5afcfc0c04f29421eb3d01160dc167144188d4074148b450"
+		},
+		"GET https://alpinejs.dev/img/persist_custom_key_devtools.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "604",
+				"cache-control": "max-age=14400",
+				"cf-cache-status": "HIT",
+				"cf-ray": "a4e1e20ef81f33ed-SJC",
+				"content-type": "image/png",
+				"date": "Wed, 21 Oct 2026 17:11:43 GMT",
+				"etag": "\"60f99150-13cd4\"",
+				"last-modified": "Thu, 22 Jul 2021 15:40:00 GMT",
+				"server": "cloudflare",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "a09761aa70a4b3a5f741eed53982357eb1e4097d697931d2571c11ed8f143192"
+		},
+		"GET https://alpinejs.dev/img/persist_custom_key_devtools.png ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"cache-control": "max-age=14400",
+				"cf-cache-status": "REVALIDATED",
+				"cf-ray": "a4e1d34ebc0333ed-SJC",
+				"content-type": "image/png",
+				"date": "Wed, 21 Oct 2026 17:01:39 GMT",
+				"etag": "\"60f99150-13cd4\"",
+				"last-modified": "Thu, 22 Jul 2021 15:40:00 GMT",
+				"server": "cloudflare",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "a09761aa70a4b3a5f741eed53982357eb1e4097d697931d2571c11ed8f143192"
+		},
+		"GET https://alpinejs.dev/img/persist_devtools.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "4344",
+				"cache-control": "max-age=14400",
+				"cf-cache-status": "HIT",
+				"cf-ray": "a4e1e20efe585585-SJC",
+				"content-type": "image/png",
+				"date": "Wed, 21 Oct 2026 17:11:43 GMT",
+				"etag": "\"60f99150-13a0d\"",
+				"last-modified": "Thu, 22 Jul 2021 15:40:00 GMT",
+				"server": "cloudflare",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "bbd299d53ddfbc1ad7f5ac5712675665e990c438a30d19a9003f34736bcf60f5"
+		},
+		"GET https://alpinejs.dev/img/persist_devtools.png ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"cache-control": "max-age=14400",
+				"cf-cache-status": "HIT",
+				"cf-ray": "a4e1d34eae06ae99-SJC",
+				"content-type": "image/png",
+				"date": "Wed, 21 Oct 2026 17:01:39 GMT",
+				"etag": "\"60f99150-13a0d\"",
+				"last-modified": "Thu, 22 Jul 2021 15:40:00 GMT",
+				"server": "cloudflare",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "bbd299d53ddfbc1ad7f5ac5712675665e990c438a30d19a9003f34736bcf60f5"
+		},
+		"GET https://alpinejs.dev/img/video-placeholder.png ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "120",
+				"cache-control": "max-age=14400",
+				"cf-cache-status": "HIT",
+				"cf-ray": "a4e1df13dec222f6-SJC",
+				"content-type": "image/png",
+				"date": "Wed, 21 Oct 2026 17:09:41 GMT",
+				"etag": "\"62002a64-a49ae\"",
+				"last-modified": "Sun, 06 Feb 2022 20:07:00 GMT",
+				"server": "cloudflare",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "bf4d9e9225e515db00a8ae7031ca2fef2e275c927883ed2d7dc44af27d048408"
+		},
+		"GET https://alpinejs.dev/license ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1df70cee15585-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:09:56 GMT",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=96,cfOrigin;dur=44",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IkhPdms1dVBnem5oNFZ4dEIySWEySkE9PSIsInZhbHVlIjoibjkvYjZWQjJWelp0WkVQSWZmSFVlREMzeUJmbVZDWlZ3aVo5bktsbHAwYm5IZkZLQ0xRV0laejYwNWlvV0VhUUVmczB2QU0xNUZacUVROGlLZDRtWVozOXN2N3lHQmhxQ0gwWWNZMVkvbDFQNHpqTjZHUUtLRS9mcGRUNVNpYSsiLCJtYWMiOiJlNWI5N2FiZDNmNTVkMjU2ODJkZmFmN2M4MDM1ODk1ZTk3ODM3ZGU1M2Y2ZDc1NjU3ZjJjNmVlYWRiMzQyYjc1IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:56 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6Ik9YbTI5N2Q5ZjBFZm8yK0ErK3JaRVE9PSIsInZhbHVlIjoiNkpwSVBpWlZsbDhyWS9WTUsxdU5LUzB5ais3ZXNqU2lJQ3dSMWRqVlV2N0JycmtjeFQvRU1LeUlxOU9wd0RpdTJhNUkxWUREcm41bE5KalBYY0x1QmNXS1hvbGFuMC9MWHNjUlVkKzF2NExpbnFGUXJaNS9XM2FENUQvckdBNmIiLCJtYWMiOiJiMjBlYzU5MjczZDhiMzdhNWNjYmZhZmVhNDRiY2VkOTQ0OTJlMmI2MzQ5NGYxMTBkNzVmNmQxNjZkMjc0YWU2IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:56 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "0351476ca3445f6fabf15101c5f3b7d259ae1fc6f40794e054a37e81454ee7c3"
+		},
+		"GET https://alpinejs.dev/livewire/livewire.js?id=de3fca26689cb5a39af4": {
+			"status": 200,
+			"headers": {
+				"age": "7316770",
+				"cache-control": "public, max-age=31536000",
+				"cf-cache-status": "HIT",
+				"cf-ray": "a4e1d4455aa333ed-SJC",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:02:18 GMT",
+				"expires": "Thu, 29 Jul 2027 00:36:07 GMT",
+				"last-modified": "Mon, 08 Aug 2022 13:52:53 GMT",
+				"server": "cloudflare",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "db7fc4a5fe60fb79b594ddd13b6839a6c688b65fbe73421698194f67841fce2b"
+		},
+		"GET https://alpinejs.dev/livewire/livewire.js?id=de3fca26689cb5a39af4 ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"age": "7316726",
+				"cache-control": "public, max-age=31536000",
+				"cf-cache-status": "HIT",
+				"cf-ray": "a4e1d3308b7cae99-SJC",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:34 GMT",
+				"expires": "Thu, 29 Jul 2027 00:36:07 GMT",
+				"last-modified": "Mon, 08 Aug 2022 13:52:53 GMT",
+				"server": "cloudflare",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "db7fc4a5fe60fb79b594ddd13b6839a6c688b65fbe73421698194f67841fce2b"
+		},
+		"GET https://alpinejs.dev/login ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1df70bda122f6-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:09:56 GMT",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=134,cfOrigin;dur=31",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IjdjN1JvTDR0NTNWTi9zY3lva0VMdHc9PSIsInZhbHVlIjoiMVBIU3AwUFRCeWZpQjU2TGVWS09oTGhMbjVnbnI4ZVV6TmhwRUsyVjhIU0ZkRmpleEpwVVFiRE1ZVVJzMkM1VlNSQkhreFRmRklFaEF6ekpEZTdJV09WMmNoZWJyLzRkTlBSS2hIemx6QUFCQ3lybHNPVHgrL09xbXdodDRlREMiLCJtYWMiOiIxMzg4NjVkOWFmMTk1NWM2ODc1ZGNlYjhlZGJkNDQ3YTE4NDIwZTU2YTA4NWM3ZDllYmE4NzRiODg0YmU3ZThmIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:56 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IkhWZ09TdVU1UzFhWGV0VWlnaXFyc1E9PSIsInZhbHVlIjoiV1piK1I0TGpnTFBZU3Y0SzkxVjZMc2hzVHNXMWdIWXl1T2Nxb0duQzRSYnJqYWl3bHFvNERlT01sd1RJczBtVDZBQWdjSWZUZkF5NkMzaUNHanZueWhhS1NyL2hpSDcyc25hVk5XcHVoNVF1QS96L2lScnJQd1JFS1hKNTV0UlMiLCJtYWMiOiI3NWI2MTM3ODI3NzM3YzZlYWE1NDk3OWYzMjhiYTllMDJhM2M0ZGU2NDhmZDVmZmJmZWMzMDMzODBlMWYyMzc4IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:56 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "1176301e4a45cb2e9f975447d4e7e1dd133563fde8463b639287b4bff9c6a2f2"
+		},
+		"GET https://alpinejs.dev/login/github": {
+			"status": 302,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1e0ba1f2e22f6-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:10:48 GMT",
+				"location": "https://github.com/login/oauth/authorize?client_id=bccaeb7715c75b7341c5&redirect_uri=https%3A%2F%2Falpinejs.dev%2Flogin%2Fgithub%2Fcallback&scope=user%3Aemail&response_type=code&state=NSy4ZAUPtdt3EkFbBCY3TMOSQj2EBIqXcGnavdto",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=83,cfOrigin;dur=28",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6Inp3ZUlJU3N5WGliREM1Z0dhdUpoL2c9PSIsInZhbHVlIjoieFhDdjlPc0dCVXVVQUZIRG5OSWwxYVVNdUFZUXB6a0pibWZCUFd0Umd0TmlHb3pPNVpTRjMya01WSjAveE1aNzRoTGhnVGpkVklKZmFYTy83SWNSWk1HNDZCSkdpaFlNOUMwdklqVGFLeFB0aVVFV3V5RWdZaDVQblN3alZVVzciLCJtYWMiOiI2ZTVhZDYxY2YxZmIyYzlhNzc3NjlkOTY4ZGE0NTYzN2UzNDQ1OWNhNGUxZjY5YWVjMjhkYWJlMjhhZTgxZDI3IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:10:48 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IjhGUGo2V3hoeXpXZ1k0SW43QTZIVFE9PSIsInZhbHVlIjoieDBNakFCbC9BclBTN25FWHorbmZCbElaL2UxbEtXbTBoVUNwVkEraHQ3NmFvdmtBTHlSdmdZcUVsZDQ1TFJqNlR3dDYzYkZwSzByb2srMWlVbUpITTVRWFhvN05rYlJzTjRGa3NyNlZmdHBUenFyd3BWSW9RYlFicWhYcEdjNWYiLCJtYWMiOiJjZTFhZmUyNzBiMjEwMjc2NjA3MWY2YTBmMzY1ODMyNDRiZDBiYWYzYzkyNWE5NzI0NTNkNzIwODg5ZDQ2YTE0IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:10:48 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "15aa566f147298c27dfa95acfca931a189355a87f9c8577585eb7efacee734d6"
+		},
+		"GET https://alpinejs.dev/login/github ;XSRF-TOKEN,alpinejs_session": {
+			"status": 302,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1df894fd922f6-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:09:59 GMT",
+				"location": "https://github.com/login/oauth/authorize?client_id=bccaeb7715c75b7341c5&redirect_uri=https%3A%2F%2Falpinejs.dev%2Flogin%2Fgithub%2Fcallback&scope=user%3Aemail&response_type=code&state=eHZnVlceYFzepkoEp1HKLSFAPyLkedx9K3AWVFSp",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=72,cfOrigin;dur=21",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6Ikhqc05qUHpqcWlBK0Y1ZlVGRDBvSnc9PSIsInZhbHVlIjoiMkpRVWxRb1g2anNUYWdmVnhiaER4NHpJQm0rdjN0dmZnQzZHUEVTZms3NXhlakhjcXBmQlJ4azhpQ1JJZWJaRVRFUVFTZnJPMUNmZkhxVXU2K1dNOXFMVjRraHhmeGIxVTgySGpZWnVwaEZFYkIyU3JYc2dLc1VNMzhIanJSWFEiLCJtYWMiOiI5MjIwZDM4YjNjNTg4ZGQ1YTQwNTUyNjA4OTk1NzAyYzNmMWE0NDVlMDNhOGViN2U3Zjg3ODJlODNjZjIzZDRhIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:59 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6Ik41RXNSWlFCemUySTk2aU1XT0NqQ2c9PSIsInZhbHVlIjoibzhwOGNzM3FmMkI5YWlPOFljd21pWGo3cTBIRERraFlYWkw4RTFHRjZRcC9XQXFmREVkV1pNZHdWaWc0TWMrellRdmJTd2xGRjF6TlAyWDRkeXRDUXJZSDlvQjdDOTFTNVRpbTJsR2dHdlhubkpIU2N0VnFDNVhXeGZsQ3NSenoiLCJtYWMiOiIwYzhkZTcyNWZjOTg3Y2U0NTg1ZGE5YmI5MzU1ZjI2MWYwNGFlM2ZhZjRjZWY3MDU2NzEzNTJkOTYwZDU1ZjI2IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:59 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "b40a7e0ae1185c1cb9f592dca53710e0f5eac1d3bf02885f2850a056e748a6d0"
+		},
+		"GET https://alpinejs.dev/plugins/focus ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1e26cbca722f6-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:11:58 GMT",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=83,cfOrigin;dur=60",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IlJGOFBRY0FSb3YrM3RVZ2JHWmNXdWc9PSIsInZhbHVlIjoiU1c5VGFQbHJma0RJVThIVmdBYjM0SFdWNGNxSDJMcE5XUVNFMFdwWHF6S3RDZFZKVzJ3MG5DTUhSY3FIbFM1NTkzaGtFYlc5WVo5ZUwwN0tndk9udjQydVp2eFJ1NkVNNmxLOGZjTVVhWVphYXNBb29ialdhR1ZIdG52QzU4cnMiLCJtYWMiOiJjZTFhNmIwMDIyNTk1OTYzMDJkNjRhNDgwZGE2ZjBlOTllYmQ1ODcyZTc2NjkyOWI3ZTE2YmMyZTk1YzY2MWI0IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:11:58 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IjJtTEhSVFkxajkzMCtYT3FjL1Y2WGc9PSIsInZhbHVlIjoiME1HVnlYODgyeVB1TFZkNzc5VWwrL3UxaE1sQ1d1SjBlV2JaMzc3aDJTS21Sa01RTG9HNWp2RGtjSkhHM0t3ODN5K01lSW05RkppdnFxZnZuS2IxZFdhWXRUSkk0MjBGMVozY0VjRE4zcE5DbklEUmhtVXNXZ0tHWGRSODhjMFEiLCJtYWMiOiI3MmE0ZTUyMTgwOTFiNzljMmNkZmI5MjhmMjc2NmNkNDgzMjUxY2VlMzc3MTViNjQyY2YwMTdkYTBiMWYwNTdhIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:11:58 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "ea63136a6580af71c793007cc9ebc211ceb2d8e43a1e38e4c6df1085ab577629"
+		},
+		"GET https://alpinejs.dev/plugins/persist": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1d324bdddae00-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:01:32 GMT",
+				"server": "cloudflare",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6InV3R00yTVZ5alpORHVuR3JyOTdjTUE9PSIsInZhbHVlIjoidVY1RXU2dlh0STZxSDVOc1c2MkU3c0Vzdnh4aDE2bUlhbWVlenJVVUllRXVmWk4zeWtSbTdhS1hMMlhGa1BuTjhzd3BJUzF2czl3aFJGVU5UcXl2ZW0zSW40S20xLzB6d2tMVnlFM1hWZ3VWemhLOHlNM21oTVFjQzI0Vm5uaVoiLCJtYWMiOiI2OGNhMzEzZjVlY2M5Y2IyMDAzYjExNDRmYWRiOTE3MjY0NjMzOWQ3NzE0MzZjNjU1NjE1ZDI0NTgzZmVmOWY3IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:01:32 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IlpHMjRORzkxN29SVWxSRit4NWxDNVE9PSIsInZhbHVlIjoialBrODhrWkdhZzVkcHR1bTdKQ1UxQkIyMVJ3TExYTFVBek9YMCtmTXBPOHBDV1gyVC9xRStpR0tzaUErVGY2Yzc4eWp1V0lOcDBJZHF2b29pamVXZC9EQzZ4ZzJZN2I2TTRhNUVFNGhrQXJhbk1VenBFa1EzVG4wSnhoZWc4UWciLCJtYWMiOiJiOTBlZGUyMDFmMjJlNjU3NjdiNjA2OWM1OTljMDk0YjczZTNhMjVlYmEzMGIwNzY4YTkxNjhlMzBjOWRlYTcyIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:01:32 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "b51e15ad1d14918a3adbf98a4570c6ea0401be07afbff54cb32c7c752580bdb0"
+		},
+		"GET https://alpinejs.dev/plugins/persist ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1e2fde8fe22f6-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:12:21 GMT",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=82,cfOrigin;dur=53",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IkVjSHlacTZZQktuaU54SXF2TDVMdEE9PSIsInZhbHVlIjoiVHRFMnZNcGFuNVJOZllGdnZtS3IycUNRTE5nVjZWdWJCS3pUajhaa3VaKy9OcXRrbk1HYnFndDE5YjJnYjM4UGFlMjJWeFBLeFBDdkZoMytvN3dnREk4V3hyZnFTblUxK21GZEpVTjk5MC9QUjAzbmVOdEtBcEI0cGVpYkM1UEQiLCJtYWMiOiJiZTFlNjZhNzA2NGUxYmZiNWM0ZDZkZTRiZGNmOWI5ZGQwOTI2YjZmYjRkZmNhNjA3M2M2ZDBlZDQ0MDBmMDljIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:12:21 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6ImdpLzkwQmhaMHJJeW5zZUxJaGhyOUE9PSIsInZhbHVlIjoiYXhTQWxQMUN6VnpuNDVnbHhzTWZCaXBIQWJONllMWlh6UnNMQ2NXMXVNVWZYby90bTlTNFl1Q0phUjBOL1JUczhTV3MzMUpZcEd2NmlRTTVrU0RwcU9sVng1bm1BNFFsaHJsd1ZLMzloczY5Vk0xL0pwZ0VUY2RzN3J5Y0huWkgiLCJtYWMiOiIxZWQ1NmJjNTJlZDQ0ZGNjZTc5YmYzMDBhYTA5MTIyYjk3MWJlMTAwM2E0OWQyYjQ2ZDgyYmNkNGFhMzY5YjZmIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:12:21 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "e0803a63a6fb7f7685ccfb067459352815824f703e4aa05381ad22df20e870c2"
+		},
+		"GET https://alpinejs.dev/plugins/resize ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1e26c5c4633ed-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:11:58 GMT",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=100,cfOrigin;dur=67",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IkEyekRNL3ZhRVlseHp2QXF4UjVIV2c9PSIsInZhbHVlIjoieDVNYWJoSllBOGdzWGtPcFNROXMvVFFJNTNZWGxaV1FqbGw2UUhCK1VDZUpCaWkyUGVQMy80aXB1QVlNRnpIVmJETFZ0R0p6YXNSZk1RZHQwUFVjTnM5dFp4MGFlS2pPMmFPMm5PRUN5YlhMNlNWZnBwZVh6OEh3NFVUSmg0OEgiLCJtYWMiOiI3MTI1Nzk2MmY5Njc0MWYxOGQzN2RiYmEyYWZiNGVkNDFhMjdjY2Q2OGRjMTIzYmVjN2JkOTMyOWQyNDkyMmI2IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:11:58 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IjFYNm5jKzZPMTl0WU5YY05FanNZaXc9PSIsInZhbHVlIjoickI1RC8yOWFRK0xDWUJYSkE1eUFoV3pycktEYzJsT1Qxd01GbkQySFlNcEs5Q0lOSTRub1MwQno1Ukhmd2NHaU5Gek0wdm9YVElSaXNuZXVqV2xXRVJtRUoyS3B0TDZCRlBnYk10cFJBQWJiSlIzTlRaekx3MlhhWm5DZVREYjUiLCJtYWMiOiJlZDdkM2YxZDc4ZDJhNWY0MzY1NmI0MjBjM2VjZWI1ZDFhMDY0ZThmYmNmYmZjYTkwNjg1MDFmYzE1YmQ3NGE3IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:11:58 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "67605aadec084d60df9253b95e2bcec72bcf67bf18a66b2f70168444116d09e6"
+		},
+		"GET https://alpinejs.dev/start-here": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1d324ca0b33ed-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:01:32 GMT",
+				"server": "cloudflare",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6Ik50elNkU3JmYWpjYWNaaE9oVmlQSFE9PSIsInZhbHVlIjoiNXRJRzJIem5Jamw2S21TaUZ4QWhTeWQzdzF6VWxHOW1haCtBZUdZUkxONm0vRlFNRWRmL1lPeitLbk1OMFNKN2RwdkFqdVlTaDBIWGd2dEVTeFc3TklwY29Ua08xSjFOeStTWWJaVG1wMXh3SG16QXVpMVVTREpOSkhxWTRLekwiLCJtYWMiOiI3ODE4MjRmNzUyNzFiNmVhMDlkY2NmN2Y2ODhlYTM2ZWM4NjRlNmMzYmJkMTcwMjcyMWJjNmY1MjYwMWRjOGQ0IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:01:32 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IkdrMzJLdzJQM3RqRUE3UGtxT3gzRnc9PSIsInZhbHVlIjoiVE9oa0JKMldwVWNGN1FHeVREczJmNEdKUkJ0MEh3TzAxaFNwNElqZEpXdFhwUjQwTGtMY0plK3ZVWEw4dkZuRklucERXRFhvTkp5M3pscXFjalhQUHJwL3FWcUpnb3dRZllLN3lUbDk1bGdKUUpCUXZ2TTlFdWpsRmJQVnVVMVkiLCJtYWMiOiI5MTExZTM0YWIxMDdhNzVkYzU0ZGMyMDBjODk5ZTEyZGQxZWRkYzIyMzMzZTc2MTA0ODVmNGE1MzE1MzM2ODQzIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:01:32 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "5abac9f666ad2274ceb9b44e3981a2fc6c1cabbefdfd9d7e8a779fcdf89a17d4"
+		},
+		"GET https://alpinejs.dev/start-here ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1df6cdbac33ed-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:09:55 GMT",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=101,cfOrigin;dur=64",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6InQ2dVNzZFlFN1ZYejByWTlTZzF3MGc9PSIsInZhbHVlIjoiSzBvQkNES0pHMnNWRjV1T2R3L3RkL0N4c3VKUlVSWGhPYnFyR0lOZTdJS0NwcVNBQjdUTnhsTm9QcDU2T2tjSE8vVEVXbWdYQ0tDMG1tUjdKMHgySnl3WFZlVlo2aUwzQjlxODBlZyt0OFBGRll1K0dEQkM1VldFbXZsTGZZWU4iLCJtYWMiOiI2ODQwYzlmYWM0ZTU4ZmE4ZWFhYmFhMDhkMGE4YWViNDI0MmU5Mzg3YTVmNzdjY2ZmY2Y2MTJmZTA0MGJkZTYwIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:55 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6ImNQTk5UL0loQ2UrWmlyb3JNOFdwS3c9PSIsInZhbHVlIjoiakI1djBLRFBmVlUzdHczK2xPcHBWUmVkb0JibUI4OStaWHBpVkhjVjVTcWxxZ0RIcGl5Z3puWHJKa2d6cTFuakkyTmFubExkdlpuUW5JUTdqNUlIa2xqZGZndEd3Mml2cUJGNDVQdlh4ZVVSWXN2MWthaFVqeHFhM3dUR0JyUmIiLCJtYWMiOiIzOWQwNjdjMGI0YzBhMTEwY2FlNjk0ZTRmODJiNzUyMmZmZjQ1NjVkYjU3MjAzZWM2MWRkOTYzMmMxN2QzODE5IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:09:55 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "bb4fb2c70d1783f5c4270481156df5e208c0a8ea16addd31964a38e2eaeb3803"
+		},
+		"GET https://alpinejs.dev/upgrade-guide ;XSRF-TOKEN,alpinejs_session": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, private",
+				"cf-cache-status": "DYNAMIC",
+				"cf-ray": "a4e1d6cd5f59ae99-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Wed, 21 Oct 2026 17:04:02 GMT",
+				"server": "cloudflare",
+				"server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=73,cfOrigin;dur=134",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block",
+				"set-cookie": [
+					"XSRF-TOKEN=eyJpdiI6IkdOd2Z4TnJiMmJJVDlISnRoTFpzZkE9PSIsInZhbHVlIjoiMlRGUGE5c051NEdFZklxN1JiZHp4TTRzb2dYcDJhMDE5cW5BNHMzem9SU0J3VHV4RUpERW1UQjlTVEZJd2FxOUxOUy9NM0MvSnVyTU9TMlkyY25aM1BrNGd1V0xHc0E2ajJQc2g2dVZiTW5yL2RKWEtEemVHd1FzT1RiZFc4MHciLCJtYWMiOiJkYTRiMzlhY2MwYmRiZWViZTQ2ZWI4YTZkZmQ1NDE5NmQzNjkyODQ4ZTk0MDlmZjE0MGU3NDNmOTI5OWJjNDQ1IiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:04:02 GMT; Max-Age=604800; path=/; samesite=lax",
+					"alpinejs_session=eyJpdiI6IkM3ZktwWCtmd1c5RnpucmVxMm1QWmc9PSIsInZhbHVlIjoiSFl4My9mTGF6eU5XdVlNWnJ1NHVQeGNOM2J6Y1crblEzeE5XN2FuR1pvd0lyZ2pUYVFibkJEM2RxRFM4SHoxTmo3ckZiZk5wSncwRHhzU3hjR1dlQzlrSFN5U1dRYWdDdmR0STlqNHRNckovQzRlZitMRG1MRzJDbzFjLy92VHMiLCJtYWMiOiI4YzEyMWMyZWRiOWExODFhMjljYTYyN2I4YjA3YWNjNDI2YWRmOTQ1NGNjN2E3NWI1YWJlNzIyMzk0MzI5YjdjIiwidGFnIjoiIn0%3D; expires=Wed, 28 Oct 2026 17:04:02 GMT; Max-Age=604800; path=/; httponly; samesite=lax"
+				]
+			},
+			"body": "bc9db5f092bce5f0b66cb20eef648c5508086205d15686fc2ed9f8f90b58ee9c"
+		},
+		"GET https://cdn.jsdelivr.net/npm/@docsearch/css@3.map": {
+			"status": 404,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"access-control-expose-headers": "*",
+				"cache-control": "public, max-age=30, s-maxage=30",
+				"cf-cache-status": "MISS",
+				"cf-ray": "a4e1d45cac7d67a6-SJC",
+				"content-type": "text/plain; charset=utf-8",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Wed, 21 Oct 2026 17:02:31 GMT",
+				"etag": "W/\"25-65b95c3339b92adf\"",
+				"server": "cloudflare",
+				"timing-allow-origin": "*",
+				"vary": "Accept-Encoding",
+				"x-cache": "MISS, MISS",
+				"x-content-type-options": "nosniff",
+				"x-served-by": "cache-fra-eddf8230066-FRA, cache-bur-kbur8200102-BUR"
+			},
+			"body": "9cf9b281599860f0a2abcea5fdb554ea3d736d9f84c8a9c85e79dc90f5f1d9bf"
+		},
+		"GET https://github.com/login/oauth/authorize?client_id=bccaeb7715c75b7341c5&redirect_uri=https%3A%2F%2Falpinejs.dev%2Flogin%2Fgithub%2Fcallback&scope=user%3Aemail&response_type=code&state=NSy4ZAUPtdt3EkFbBCY3TMOSQj2EBIqXcGnavdto": {
+			"status": 302,
+			"headers": {
+				"cache-control": "no-cache",
+				"content-security-policy": "default-src 'none'; base-uri 'self'; child-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com github.githubassets.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net productionresultssa1.blob.core.windows.net productionresultssa2.blob.core.windows.net productionresultssa3.blob.core.windows.net productionresultssa4.blob.core.windows.net productionresultssa5.blob.core.windows.net productionresultssa6.blob.core.windows.net productionresultssa7.blob.core.windows.net productionresultssa8.blob.core.windows.net productionresultssa9.blob.core.windows.net productionresultssa10.blob.core.windows.net productionresultssa11.blob.core.windows.net productionresultssa12.blob.core.windows.net productionresultssa13.blob.core.windows.net productionresultssa14.blob.core.windows.net productionresultssa15.blob.core.windows.net productionresultssa16.blob.core.windows.net productionresultssa17.blob.core.windows.net productionresultssa18.blob.core.windows.net productionresultssa19.blob.core.windows.net github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com wss://alive-staging.github.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com wss://production-copilot-host.webpubsub.azure.com wss://production-copilot-host-centralus.webpubsub.azure.com wss://production-copilot-host-centralus-02.webpubsub.azure.com wss://production-copilot-host-westus.webpubsub.azure.com api.github.com/cmc_internal/api/; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com release-assets.githubusercontent.com secured-user-images.githubusercontent.com user-images.githubusercontent.com private-user-images.githubusercontent.com opengraph.githubassets.com repository-images.githubusercontent.com marketplace-screenshots.githubusercontent.com copilotprodattachments.blob.core.windows.net/github-production-copilot-attachments/ github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com explore-feed.github.com *.googleusercontent.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com secured-user-images.githubusercontent.com private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com github.githubassets.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/",
+				"content-type": "text/html; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:10:49 GMT",
+				"location": "https://github.com/login?client_id=bccaeb7715c75b7341c5&return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3Dbccaeb7715c75b7341c5%26redirect_uri%3Dhttps%253A%252F%252Falpinejs.dev%252Flogin%252Fgithub%252Fcallback%26response_type%3Dcode%26scope%3Duser%253Aemail%26state%3DNSy4ZAUPtdt3EkFbBCY3TMOSQj2EBIqXcGnavdto",
+				"referrer-policy": "origin-when-cross-origin, strict-origin-when-cross-origin",
+				"server": "github.com",
+				"vary": "X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With, X-GitHub-Client-Version,Accept-Encoding, Accept, X-Requested-With",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "deny",
+				"x-github-edge-region": "westus3",
+				"x-github-request-id": "7BC1:151AE5:31D256:3DBD8A:6AD8F218",
+				"x-xss-protection": "0",
+				"set-cookie": [
+					"_octo=GH1.1.1161502557.1792602649; domain=github.com; path=/; expires=Thu, 21 Oct 2027 17:10:49 GMT; secure; SameSite=Lax",
+					"_gh_sess=IpbtjlqCVopoXP3mHN2kLlgBWHJFphaWHblLeoQEUejSo6%2F%2B6HalLOqyllXp%2BGGD%2BBoZ%2FKZJ%2BXAoie6j%2F7ZTYwxybSt0gTo93cGFEty%2FygF5qKlUOnqOlqZ36C1yQuScJgf020F3G%2Fg0H7m4V1yY7LkVe8et79l3D%2BgkcokP5WEFu%2BBiTuxI4wqGjvQs3N1lWKYIP%2B4ZgOGTvdLOdG%2BZX40gaDxGGUj4KnKpQXZCLQ1bmDec--jD0vfCncitSJQ6xo--Ggx%2BjlwmjGyfw%2FrYN%2B6krw%3D%3D; path=/; secure; HttpOnly; SameSite=Lax"
+				]
+			},
+			"body": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+		},
+		"GET https://github.com/login/oauth/authorize?client_id=bccaeb7715c75b7341c5&redirect_uri=https%3A%2F%2Falpinejs.dev%2Flogin%2Fgithub%2Fcallback&scope=user%3Aemail&response_type=code&state=eHZnVlceYFzepkoEp1HKLSFAPyLkedx9K3AWVFSp": {
+			"status": 302,
+			"headers": {
+				"cache-control": "no-cache",
+				"content-security-policy": "default-src 'none'; base-uri 'self'; child-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com github.githubassets.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net productionresultssa1.blob.core.windows.net productionresultssa2.blob.core.windows.net productionresultssa3.blob.core.windows.net productionresultssa4.blob.core.windows.net productionresultssa5.blob.core.windows.net productionresultssa6.blob.core.windows.net productionresultssa7.blob.core.windows.net productionresultssa8.blob.core.windows.net productionresultssa9.blob.core.windows.net productionresultssa10.blob.core.windows.net productionresultssa11.blob.core.windows.net productionresultssa12.blob.core.windows.net productionresultssa13.blob.core.windows.net productionresultssa14.blob.core.windows.net productionresultssa15.blob.core.windows.net productionresultssa16.blob.core.windows.net productionresultssa17.blob.core.windows.net productionresultssa18.blob.core.windows.net productionresultssa19.blob.core.windows.net github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com wss://alive-staging.github.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com wss://production-copilot-host.webpubsub.azure.com wss://production-copilot-host-centralus.webpubsub.azure.com wss://production-copilot-host-centralus-02.webpubsub.azure.com wss://production-copilot-host-westus.webpubsub.azure.com api.github.com/cmc_internal/api/; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com release-assets.githubusercontent.com secured-user-images.githubusercontent.com user-images.githubusercontent.com private-user-images.githubusercontent.com opengraph.githubassets.com repository-images.githubusercontent.com marketplace-screenshots.githubusercontent.com copilotprodattachments.blob.core.windows.net/github-production-copilot-attachments/ github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com explore-feed.github.com *.googleusercontent.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com secured-user-images.githubusercontent.com private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com github.githubassets.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/",
+				"content-type": "text/html; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:10:00 GMT",
+				"location": "https://github.com/login?client_id=bccaeb7715c75b7341c5&return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3Dbccaeb7715c75b7341c5%26redirect_uri%3Dhttps%253A%252F%252Falpinejs.dev%252Flogin%252Fgithub%252Fcallback%26response_type%3Dcode%26scope%3Duser%253Aemail%26state%3DeHZnVlceYFzepkoEp1HKLSFAPyLkedx9K3AWVFSp",
+				"referrer-policy": "origin-when-cross-origin, strict-origin-when-cross-origin",
+				"server": "github.com",
+				"vary": "X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With, X-GitHub-Client-Version,Accept-Encoding, Accept, X-Requested-With",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "deny",
+				"x-github-edge-region": "westus3",
+				"x-github-request-id": "7BC0:15202C:31D6D7:3DC5B5:6AD8F1E8",
+				"x-xss-protection": "0",
+				"set-cookie": [
+					"_octo=GH1.1.1479829751.1792602600; domain=github.com; path=/; expires=Thu, 21 Oct 2027 17:10:00 GMT; secure; SameSite=Lax",
+					"_gh_sess=FrtPnd5BpzY8Hy5UUOng3sRRpd0Aika1F7rr2cRm4HkUWGArTypoHNmJyVkl0rvnejeDYdZR6HJOK5o65%2B5%2Fy%2FdakDsU15rZTWWiRVpuhOgrrP63kKO8jd37gGixjCmY%2BcXe8xod%2BeF%2F%2FAdDu%2FoSnr%2Bvu3R5WYu0rl59NSh5sHzGpkCkJZ2tkQUj4IJvcN6frk1%2F8LioQrX11vKSrWCCPjz003UWEwF2U%2Fpput3YxHGtt37s--H7SQulraKRcFFR6p--iEDIyCAdMXm5ZaZGiMBr0g%3D%3D; path=/; secure; HttpOnly; SameSite=Lax"
+				]
+			},
+			"body": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+		},
+		"GET https://github.com/login?client_id=bccaeb7715c75b7341c5&return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3Dbccaeb7715c75b7341c5%26redirect_uri%3Dhttps%253A%252F%252Falpinejs.dev%252Flogin%252Fgithub%252Fcallback%26response_type%3Dcode%26scope%3Duser%253Aemail%26state%3DNSy4ZAUPtdt3EkFbBCY3TMOSQj2EBIqXcGnavdto ;_gh_sess,_octo": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"cache-control": "no-store",
+				"content-security-policy": "default-src 'none'; base-uri 'self'; child-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com github.githubassets.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net productionresultssa1.blob.core.windows.net productionresultssa2.blob.core.windows.net productionresultssa3.blob.core.windows.net productionresultssa4.blob.core.windows.net productionresultssa5.blob.core.windows.net productionresultssa6.blob.core.windows.net productionresultssa7.blob.core.windows.net productionresultssa8.blob.core.windows.net productionresultssa9.blob.core.windows.net productionresultssa10.blob.core.windows.net productionresultssa11.blob.core.windows.net productionresultssa12.blob.core.windows.net productionresultssa13.blob.core.windows.net productionresultssa14.blob.core.windows.net productionresultssa15.blob.core.windows.net productionresultssa16.blob.core.windows.net productionresultssa17.blob.core.windows.net productionresultssa18.blob.core.windows.net productionresultssa19.blob.core.windows.net github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com wss://alive-staging.github.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com wss://production-copilot-host.webpubsub.azure.com wss://production-copilot-host-centralus.webpubsub.azure.com wss://production-copilot-host-centralus-02.webpubsub.azure.com wss://production-copilot-host-westus.webpubsub.azure.com api.github.com/cmc_internal/api/ browser.events.data.microsoft.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com release-assets.githubusercontent.com secured-user-images.githubusercontent.com user-images.githubusercontent.com private-user-images.githubusercontent.com opengraph.githubassets.com repository-images.githubusercontent.com marketplace-screenshots.githubusercontent.com copilotprodattachments.blob.core.windows.net/github-production-copilot-attachments/ github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com explore-feed.github.com *.googleusercontent.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com secured-user-images.githubusercontent.com private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com github.githubassets.com; script-src github.githubassets.com 'sha256-tSjmyPUky1KbRZ0fw9VUil3wFEbeM82rtbJDygGJAXw='; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/",
+				"content-type": "text/html; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:10:49 GMT",
+				"etag": "W/\"d49f16f1556992414905103a1167edde\"",
+				"referrer-policy": "origin-when-cross-origin, strict-origin-when-cross-origin",
+				"server": "github.com",
+				"vary": "X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With, X-GitHub-Client-Version, Sec-Fetch-Site,Accept-Encoding, Accept, X-Requested-With",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "deny",
+				"x-github-edge-region": "westus3",
+				"x-github-request-id": "7BC1:151AE5:31D276:3DBDAA:6AD8F219",
+				"x-xss-protection": "0",
+				"set-cookie": [
+					"_gh_sess=I7oxiFNKWTnCZXTyKBS%2B0fSw543%2FfVAwWUIRIb3AX3%2BA0ujVHpUOmGcVca7C1AHeQGsHtrxmhBsujZjtUjFyeoBFZ0BoNDdWjDf%2BnD5ZKYLXPbQJVk3kxmtcIUAOUt5%2FXbp9IKndyzV4h6FtkOARnftoj7FfAPA9yBU8lZOiF3%2Fi9dM1C%2FEz35UUU64L%2BwRP%2FcXITISzne0Mpgt%2F%2BO4cDLnNxkS9qvvgAGKaL48iMNYPoJulHikZPJ7TaWUcqTIulX%2BRjL1cW9isdcE8jykE4g%3D%3D--OVIPDOr8O4EUIVMc--m7ruMYCy%2FRQ%2BcyyDHamdAQ%3D%3D; path=/; HttpOnly; secure; SameSite=Lax",
+					"logged_in=no; expires=Thu, 21 Oct 2027 17:10:49 GMT; domain=.github.com; path=/; HttpOnly; secure; SameSite=Lax"
+				]
+			},
+			"body": "dc9006b830168cdfa9522a61c20443c9d0156f9a362d691676947a2e3a1970ee"
+		},
+		"GET https://github.com/login?client_id=bccaeb7715c75b7341c5&return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3Dbccaeb7715c75b7341c5%26redirect_uri%3Dhttps%253A%252F%252Falpinejs.dev%252Flogin%252Fgithub%252Fcallback%26response_type%3Dcode%26scope%3Duser%253Aemail%26state%3DeHZnVlceYFzepkoEp1HKLSFAPyLkedx9K3AWVFSp ;_gh_sess,_octo": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"cache-control": "no-store",
+				"content-security-policy": "default-src 'none'; base-uri 'self'; child-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com github.githubassets.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net productionresultssa1.blob.core.windows.net productionresultssa2.blob.core.windows.net productionresultssa3.blob.core.windows.net productionresultssa4.blob.core.windows.net productionresultssa5.blob.core.windows.net productionresultssa6.blob.core.windows.net productionresultssa7.blob.core.windows.net productionresultssa8.blob.core.windows.net productionresultssa9.blob.core.windows.net productionresultssa10.blob.core.windows.net productionresultssa11.blob.core.windows.net productionresultssa12.blob.core.windows.net productionresultssa13.blob.core.windows.net productionresultssa14.blob.core.windows.net productionresultssa15.blob.core.windows.net productionresultssa16.blob.core.windows.net productionresultssa17.blob.core.windows.net productionresultssa18.blob.core.windows.net productionresultssa19.blob.core.windows.net github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com wss://alive-staging.github.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com wss://production-copilot-host.webpubsub.azure.com wss://production-copilot-host-centralus.webpubsub.azure.com wss://production-copilot-host-centralus-02.webpubsub.azure.com wss://production-copilot-host-westus.webpubsub.azure.com api.github.com/cmc_internal/api/ browser.events.data.microsoft.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com release-assets.githubusercontent.com secured-user-images.githubusercontent.com user-images.githubusercontent.com private-user-images.githubusercontent.com opengraph.githubassets.com repository-images.githubusercontent.com marketplace-screenshots.githubusercontent.com copilotprodattachments.blob.core.windows.net/github-production-copilot-attachments/ github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com explore-feed.github.com *.googleusercontent.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com secured-user-images.githubusercontent.com private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com github.githubassets.com; script-src github.githubassets.com 'sha256-tSjmyPUky1KbRZ0fw9VUil3wFEbeM82rtbJDygGJAXw='; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/",
+				"content-type": "text/html; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:10:00 GMT",
+				"etag": "W/\"9787d3ae498ce63516bfc87e80afdbca\"",
+				"referrer-policy": "origin-when-cross-origin, strict-origin-when-cross-origin",
+				"server": "github.com",
+				"vary": "X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With, X-GitHub-Client-Version, Sec-Fetch-Site,Accept-Encoding, Accept, X-Requested-With",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "deny",
+				"x-github-edge-region": "westus3",
+				"x-github-request-id": "7BC0:15202C:31D6E6:3DC5C7:6AD8F1E8",
+				"x-xss-protection": "0",
+				"set-cookie": [
+					"_gh_sess=2m%2F2CMzPESvC6ZrbAyum8Jm1WHIpDgJzRNNP5qoOYmH9ilGXG0gNaYNiZual8yZecTG0Fc8xQqYiGfKzVVPOM47rfOHFZoVOvD5GXB3GTsnfD%2B4Dayoz5Zs1vNkri3aKbnufANM4sIFzASYtuwza2tUVogeH3RCknsluejeTu4Bg5BJ%2F%2BGT82kXywb3v2x%2F5SuhOQVJKS4GI20ogSMIV%2F4gS%2BvslOSCWR%2BGGxizRinsZfJlwLXdWZbhXzfjsmSG22suxjUW%2FK13Z38srg5Ebww%3D%3D--3kBDVw6%2FW7%2BJBCya--J0GsIPeEEuGwPcvdkEJBLg%3D%3D; path=/; HttpOnly; secure; SameSite=Lax",
+					"logged_in=no; expires=Thu, 21 Oct 2027 17:10:00 GMT; domain=.github.com; path=/; HttpOnly; secure; SameSite=Lax"
+				]
+			},
+			"body": "8978a892ffa4d9e527b861e446d1aabcbc60d6f6100f4cabcd50c45eef9c6160"
+		}
+	}
+}

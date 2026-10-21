@@ -1,0 +1,1932 @@
+{
+	"version": 1,
+	"entries": {
+		"GET https://sponsors.vite.dev/images/bolt.svg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "47219",
+				"cache-control": "public,max-age=604800",
+				"cache-status": "\"Netlify Edge\"; hit; ttl=31488782",
+				"content-type": "image/svg+xml",
+				"date": "Wed, 21 Oct 2026 17:01:58 GMT",
+				"etag": "\"468661f56f214b55da9350a24e2ae2e7-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5FPK6NWKTX2MZ1SH775V37X"
+			},
+			"body": "64bce70c9f5cf81dab1557411bedcedd806a760865295fa3533a7acb04e33c14"
+		},
+		"GET https://vite-dev-old.vercel.app/": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "public, max-age=0, must-revalidate",
+				"content-disposition": "inline",
+				"content-type": "text/html; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:36 GMT",
+				"etag": "W/\"1e6e65d62692dd3c45e0a68d57c45754\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:36 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::szv8b-1792602096188-03b94239a81d"
+			},
+			"body": "df5a0a4326128544ea7ebc1c67dc58b412d2d591c9ed42bf663fb09640384afb"
+		},
+		"GET https://vite-dev-old.vercel.app/__markless-migrate/": {
+			"status": 404,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "public, max-age=0, must-revalidate",
+				"content-disposition": "inline; filename=\"404\"",
+				"content-type": "text/html; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:02:05 GMT",
+				"etag": "W/\"2712bd4766367084a36b2ed326ac9b2e\"",
+				"last-modified": "Wed, 21 Oct 2026 17:02:05 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::r6flk-1792602125200-75a11ea89ed9"
+			},
+			"body": "f628b52257119121c50761ca718b77eeae329ac61a426217a23b2dc3681e753a"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/563_x_420_rich_features.Gwgw8IXl.riv": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "297128",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"563_x_420_rich_features.Gwgw8IXl.riv\"",
+				"content-type": "application/octet-stream",
+				"date": "Wed, 21 Oct 2026 17:01:57 GMT",
+				"etag": "W/\"f7504721fd691476dea71dd26da07ac8\"",
+				"last-modified": "Sun, 18 Oct 2026 06:29:48 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "HIT",
+				"x-vercel-id": "sfo1::5pvfd-1792602117578-2672cdea6bed"
+			},
+			"body": "1415885df4f48ca6f5c06a8f558aa48bf39d92b6e3361be064fdd938d44f4442"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/640_x_300_flexible_plugin.DzLLIuId.riv": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "297129",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"640_x_300_flexible_plugin.DzLLIuId.riv\"",
+				"content-type": "application/octet-stream",
+				"date": "Wed, 21 Oct 2026 17:01:58 GMT",
+				"etag": "W/\"313439ff3a8212bbb98f500d93c323de\"",
+				"last-modified": "Sun, 18 Oct 2026 06:29:48 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "HIT",
+				"x-vercel-id": "sfo1::2hrtq-1792602118272-9cebe0b4b18e"
+			},
+			"body": "92f48fecdf8fefe8055a73ca119d07a8bc4897a3a4d7331a517596b7679e234f"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/641_x_629_vite_masthead.CJXD3cz6.riv": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "297110",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"641_x_629_vite_masthead.CJXD3cz6.riv\"",
+				"content-type": "application/octet-stream",
+				"date": "Wed, 21 Oct 2026 17:01:39 GMT",
+				"etag": "W/\"8dd4389e4727b1e879c78e161dd12086\"",
+				"last-modified": "Sun, 18 Oct 2026 06:29:48 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "HIT",
+				"x-vercel-id": "sfo1::zhtdg-1792602099097-dc902e7e8b9f"
+			},
+			"body": "0056dd989b3d9f1611867cb149d19d7af3baeeb808e4fe557ae40bcbaaaa4335"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/APK-Protocol-Medium.C7Mq9oGh.woff2": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "297111",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"APK-Protocol-Medium.C7Mq9oGh.woff2\"",
+				"content-type": "font/woff2",
+				"date": "Wed, 21 Oct 2026 17:01:38 GMT",
+				"etag": "\"3d25e0c77105feb26fb8086c16ce3602\"",
+				"last-modified": "Sun, 18 Oct 2026 06:29:47 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "HIT",
+				"x-vercel-id": "sfo1::lspqw-1792602098954-809e5c429760"
+			},
+			"body": "57dbf2861d5106cd381720221050e9cdfed1ce01a4828569257ed028da5244a7"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/APK-Protocol-Semi-Bold.CC2BASA5.woff2": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"APK-Protocol-Semi-Bold.CC2BASA5.woff2\"",
+				"content-type": "font/woff2",
+				"date": "Wed, 21 Oct 2026 17:01:39 GMT",
+				"etag": "\"26b15d975c18f445f999a9b5cfb31af4\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:39 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::7qczg-1792602098970-16c6181c330a"
+			},
+			"body": "46093cdb76ff044f2a02d5297b51587071fb494b37d63ed42707a8adde0b5bd3"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/KHTekaMono-Medium.CxAWoJPq.woff2": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "297111",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"KHTekaMono-Medium.CxAWoJPq.woff2\"",
+				"content-type": "font/woff2",
+				"date": "Wed, 21 Oct 2026 17:01:38 GMT",
+				"etag": "\"69d7ed1ac61c0ebc00ac8a25382cbdb8\"",
+				"last-modified": "Sun, 18 Oct 2026 06:29:47 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "HIT",
+				"x-vercel-id": "sfo1::t2z6v-1792602098954-0259e773a2a0"
+			},
+			"body": "2b046aaee7fdcd253884dd00b83eb9fb0755782d792d7d0ea02059cba266aa64"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/KHTekaMono-Regular.CiZ9ZkmZ.woff2": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"KHTekaMono-Regular.CiZ9ZkmZ.woff2\"",
+				"content-type": "font/woff2",
+				"date": "Wed, 21 Oct 2026 17:01:39 GMT",
+				"etag": "\"bc205ed63f00033f479f59e96e6c2014\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:39 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::27gb5-1792602098954-0a8d6b52fa52"
+			},
+			"body": "767a225cb32f4e67ead42f2c3b5eb0acc9496367769a135032b380621b6f3dce"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/acknowledgements.md.CSrx7uTc.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"acknowledgements.md.CSrx7uTc.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:09:21 GMT",
+				"etag": "W/\"8027490bcc0b48d7ed18c989978ac21d\"",
+				"last-modified": "Wed, 21 Oct 2026 17:09:21 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "HIT",
+				"x-vercel-id": "sfo1::zgns5-1792602561747-077def8ea9c7"
+			},
+			"body": "fe12d73bd78e458da3892bddc59e79f96abe28a1818a6419c3388aac4264c876"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/app.Ej1kZD2p.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "297109",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"app.Ej1kZD2p.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:37 GMT",
+				"etag": "W/\"f50c041d3b64f78a930bed250e1602f1\"",
+				"last-modified": "Sun, 18 Oct 2026 06:29:47 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "HIT",
+				"x-vercel-id": "sfo1::psfwk-1792602097276-89f1e78ecae6"
+			},
+			"body": "2f853855c14bdf2bebe4257d94513df0a3d28513975e246ee6e8cc7570793295"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/blog.md.CXjCF89J.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"blog.md.CXjCF89J.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:59 GMT",
+				"etag": "W/\"90247c4ee3e761a97643f33868fe4dbb\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:59 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::wklqs-1792602119211-4199ef027d0d"
+			},
+			"body": "9f52c9f804bb5d751b287e4af189e6a2776d105558a6f869a183b57e4342a5bb"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/blog_announcing-vite7.md.C42qp8MH.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"blog_announcing-vite7.md.C42qp8MH.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:08:59 GMT",
+				"etag": "W/\"ca41b42084af3971b577cb30998df529\"",
+				"last-modified": "Wed, 21 Oct 2026 17:08:59 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::45srx-1792602538927-301824ab0001"
+			},
+			"body": "d45b520025b2f7178ad6f88edeafe5a7af6143a8d41afdd81fbe2cf3565afe3f"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/blog_announcing-vite8-1.md.bgXPR6Jv.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"blog_announcing-vite8-1.md.bgXPR6Jv.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:08:59 GMT",
+				"etag": "W/\"27ae4c882a26e4a2c8d1be03178db4a5\"",
+				"last-modified": "Wed, 21 Oct 2026 17:08:59 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::8hbtj-1792602538906-3dcb3a2b6069"
+			},
+			"body": "7c69742c815ddcaa59a13e250b63ac84807fefb6b1654b6e3d050610700885fb"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/blog_announcing-vite8-beta.md.CZglzhKB.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"blog_announcing-vite8-beta.md.CZglzhKB.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:08:59 GMT",
+				"etag": "W/\"573adf83525b8f5a6a72a53763c50466\"",
+				"last-modified": "Wed, 21 Oct 2026 17:08:59 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::m6m49-1792602538922-d3775f50cbf6"
+			},
+			"body": "f8a95643f852be5bb8377e16b484b0f8d3be8785e12561fb2d2789cc93dfde76"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/blog_announcing-vite8.md.BAvE3zQN.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"blog_announcing-vite8.md.BAvE3zQN.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:08:59 GMT",
+				"etag": "W/\"4956e106a49a5994451e85d529ba111c\"",
+				"last-modified": "Wed, 21 Oct 2026 17:08:59 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::pmhl5-1792602538908-f323723abf89"
+			},
+			"body": "49eadc77df648a48dba9b288effa272aa54094571410d5883b39938d9ea401b3"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/blog_cloudflare-supports-vite.md.pcuW0VB6.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"blog_cloudflare-supports-vite.md.pcuW0VB6.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:08:59 GMT",
+				"etag": "W/\"0b43ea12fcbcf500f21f8807d31445b8\"",
+				"last-modified": "Wed, 21 Oct 2026 17:08:59 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::l247g-1792602538898-c9d3a1b38b58"
+			},
+			"body": "8a53708e3502aac7d965781a03e208873fabbd413ea18b0390b391bb2e7269f2"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/changes_index.md.YF5W0CNt.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"changes_index.md.YF5W0CNt.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:42 GMT",
+				"etag": "W/\"be1aa14fd9489a9a39dfd210ff92efea\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:42 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::2dgx9-1792602102025-44116787f86d"
+			},
+			"body": "ec3e03fa5ecba27956367fc9ccf6ef873cccb566b579f204658931e6a7af0471"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/chunks/@localSearchIndex.BvPKNweQ.js": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"@localSearchIndex.BvPKNweQ.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:06:20 GMT",
+				"etag": "\"b8e0fd202dd7a4a50efe2212f4e50d44\"",
+				"last-modified": "Wed, 21 Oct 2026 17:06:20 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::td7gv-1792602380088-ab5ba317f75b"
+			},
+			"body": "754e0a026bfbe38f6c8648c35705dc1d245ba626f3d3cdc05a86f8b0e950a2bb"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/chunks/@localSearchIndexroot.Dq_7HJfv.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"@localSearchIndexroot.Dq_7HJfv.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:06:31 GMT",
+				"etag": "W/\"ebb4a3ef0cc0986d7d72f0b54667925d\"",
+				"last-modified": "Wed, 21 Oct 2026 17:06:31 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::f2n8d-1792602391747-c5f219137738"
+			},
+			"body": "0840ea59681819b5a7638ee453f156b7bfaa4b547a9936a92f9925ad64f6d9df"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/chunks/Footer.B9Li9ZD1.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "297109",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"Footer.B9Li9ZD1.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:37 GMT",
+				"etag": "W/\"99174c7c28d3ef5dd8cca144ead4a4ff\"",
+				"last-modified": "Sun, 18 Oct 2026 06:29:47 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "HIT",
+				"x-vercel-id": "sfo1::szv8b-1792602097242-4e43f4ce0dab"
+			},
+			"body": "7700d67c9ea9d96755bf91cc8c7f9e800e4c3cad67feebe9c979cea0a3aac5c4"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/chunks/KbhdQUfy.js": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"KbhdQUfy.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:39 GMT",
+				"etag": "\"17c01366f2aa96a48943f3bf20e45c45\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:39 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::kjpbs-1792602099097-738e1d4caf80"
+			},
+			"body": "dc84d383990d77e99153f86474f8f71aa6e07d0118e00f20c2424de4af9a92a1"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/chunks/VPLocalSearchBox.Ds8njhHB.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"VPLocalSearchBox.Ds8njhHB.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:06:16 GMT",
+				"etag": "W/\"20ae819704968f0d7f6464807a34a8b6\"",
+				"last-modified": "Wed, 21 Oct 2026 17:06:16 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::xpn5t-1792602376475-24a492d20ff2"
+			},
+			"body": "8f4a22f2ae1dd3cbb126ceebb0e608a9ea32317e03543a9b6a85c538fa9c7f76"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/chunks/assets.DxlRNK2L.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"assets.DxlRNK2L.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:37 GMT",
+				"etag": "W/\"b0f0555b7b13474395fd8b898d6ecf84\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:37 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::9qd67-1792602097275-a7e3e6ffe762"
+			},
+			"body": "f2e062b722b4aec29d19b713e30f05d18e08601dbd91958c1dd9e606aa1f7dc8"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/chunks/framework.CybwlAus.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"framework.CybwlAus.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:37 GMT",
+				"etag": "W/\"e294d5c93d15bd7321cd6ae60d532af8\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:37 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "HIT",
+				"x-vercel-id": "sfo1::cp6jh-1792602097311-0589ebdb09bd"
+			},
+			"body": "70fd64fe318379c9b802b05fbc35a1fa4bfd0212805aa5d679fead52ba0a5746"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/chunks/metadata.226b28da.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "297110",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"metadata.226b28da.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:37 GMT",
+				"etag": "W/\"22456924185970a754789bca45991999\"",
+				"last-modified": "Sun, 18 Oct 2026 06:29:47 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "HIT",
+				"x-vercel-id": "sfo1::9vv5x-1792602097276-b5f116199d69"
+			},
+			"body": "226b28da590d98fb98518cbe41753f39b11b9f21462276fd02dcb4a741fff967"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/chunks/theme.B3PjbD4J.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "297110",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"theme.B3PjbD4J.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:37 GMT",
+				"etag": "W/\"2067e19a40890eb2164c98e60fa695b7\"",
+				"last-modified": "Sun, 18 Oct 2026 06:29:47 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "HIT",
+				"x-vercel-id": "sfo1::r9fp6-1792602097318-b5de4eb562b8"
+			},
+			"body": "e83884701d6355da4ee1e4f76a414a44e8718239235a577a8b540a085b37224c"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/config_build-options.md.BDBraiDd.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"config_build-options.md.BDBraiDd.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:08:59 GMT",
+				"etag": "W/\"332b86de1543185a1e10b4f68c342b98\"",
+				"last-modified": "Wed, 21 Oct 2026 17:08:59 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::k2whp-1792602539499-801b95e7dac3"
+			},
+			"body": "3f60aa582d3fa8b910c2c7c62720ffb816f280c92c814da4b283194e8b3e750e"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/config_build-options.md.BDBraiDd.lean.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"config_build-options.md.BDBraiDd.lean.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:46 GMT",
+				"etag": "W/\"0ab4220d8ba3a856e09f3ce8574143bb\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:46 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::2hrtq-1792602106697-afbd4f81be0b"
+			},
+			"body": "bc5bf2354cad82822924a27244bba2ae980a818aa02ef35539b181934b5fe198"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/config_dep-optimization-options.md.0AHzQCFV.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"config_dep-optimization-options.md.0AHzQCFV.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:47 GMT",
+				"etag": "W/\"0a4f3e1214c4b4f130a06273869bf74f\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:47 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::kcg4w-1792602107086-24905d3a8936"
+			},
+			"body": "af58dca1c81192f7fbdd065de752a9fa921c189809e52a68bab550dc4fee10ae"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/config_index.md.DIE9ndA1.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"config_index.md.DIE9ndA1.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:39 GMT",
+				"etag": "W/\"eafcd65c2305fb99eed744282da7aec3\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:39 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::nznm2-1792602099111-e58171313e3b"
+			},
+			"body": "b474ecf24fcc93487f464cdfc42c0ab23d7f6b3b270f3d92fc02c12a4bd76b7e"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/config_preview-options.md.CRFF4o9y.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"config_preview-options.md.CRFF4o9y.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:47 GMT",
+				"etag": "W/\"f3ab2b44ff2d7ace722c1b7ac533284a\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:47 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::vbkxq-1792602107082-94b064e28b56"
+			},
+			"body": "b7fe7173481ed936fe60eea1b1bacd788a7a996627b84a1cf6b071d06d69aa37"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/config_server-options.md.BooMzKwL.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"config_server-options.md.BooMzKwL.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:47 GMT",
+				"etag": "W/\"33333600094a911a478f09150dd8338c\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:47 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::89drw-1792602107083-132ab996301b"
+			},
+			"body": "544105a9d00b337fc1c81d73cb7f96ebb345448e6c228043b4741c94dc1ee5a7"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/config_shared-options.md.C6BO8l37.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"config_shared-options.md.C6BO8l37.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:47 GMT",
+				"etag": "W/\"ae03445db9c11f4179a0c06d86c84b4f\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:47 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::lspqw-1792602107029-d275dd937d55"
+			},
+			"body": "6a0a66100bf40c67167f423c8807eb86adbb3c5f823e38def119fc46cfad01e1"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/config_ssr-options.md.Diuf7p45.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"config_ssr-options.md.Diuf7p45.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:47 GMT",
+				"etag": "W/\"3078ce1e3742f1ba0c2e24fb301b4e2a\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:47 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::j5mhm-1792602107088-b3445406055d"
+			},
+			"body": "841489fe28958bb8b76fd3d0aae302a24384fa0b3c38b2cf6f61cc072b04410a"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/config_worker-options.md.8G5tWfNB.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"config_worker-options.md.8G5tWfNB.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:47 GMT",
+				"etag": "W/\"2720cd487bdfd2d7a390d7ff7d281ba0\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:47 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::k2whp-1792602107111-ecce310008e7"
+			},
+			"body": "ec9e2d03c5939538c3ebd99ec54c687d83fc2283dd98bb11d82ae17bef08ce85"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/cultrepo-tv.CI1oeeTK.svg": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=604800, immutable",
+				"content-disposition": "inline; filename=\"cultrepo-tv.CI1oeeTK.svg\"",
+				"content-type": "image/svg+xml",
+				"date": "Wed, 21 Oct 2026 17:01:53 GMT",
+				"etag": "W/\"43352127fce24fc319c13de089b7bf9b\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:53 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::pmkkm-1792602113837-76a2837d5002"
+			},
+			"body": "878c6463475935bf9ae6f4068164272fb5494fd9e1854b5b7e703a54223965d2"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/footer-background.BIgtbvhx.jpg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"footer-background.BIgtbvhx.jpg\"",
+				"content-type": "image/jpeg",
+				"date": "Wed, 21 Oct 2026 17:01:37 GMT",
+				"etag": "\"e00639b57a8fa0df3427d4a854829216\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:37 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::szv8b-1792602097274-018a56355924"
+			},
+			"body": "350ec1e53d629665afbb04c014bcb7c0a075473f126fed729e57bdeb7eb13ae4"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/guide_api-environment-frameworks.md.Xcd5DgqY.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"guide_api-environment-frameworks.md.Xcd5DgqY.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:02:06 GMT",
+				"etag": "W/\"9942196851803cb34c11d15b59949836\"",
+				"last-modified": "Wed, 21 Oct 2026 17:02:06 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::l4xff-1792602126117-ab06aa0a0372"
+			},
+			"body": "a033815e7322560688123475fbf177071bfe3b7c3e2a39a63255905f3004a6d5"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/guide_api-environment-instances.md.B5X4Tc1O.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"guide_api-environment-instances.md.B5X4Tc1O.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:02:06 GMT",
+				"etag": "W/\"737ca8f9793a3b03eb6baca47139f74a\"",
+				"last-modified": "Wed, 21 Oct 2026 17:02:06 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::x4wn7-1792602126116-fed9ef205daf"
+			},
+			"body": "cc91c340b5f0666157c83fe85f4300f9a54b1e80d66ff7de720ccdf672a03f84"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/guide_api-environment-plugins.md.I6enGXxP.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"guide_api-environment-plugins.md.I6enGXxP.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:02:06 GMT",
+				"etag": "W/\"601e24ae5b4dcb41c653410b04b8715d\"",
+				"last-modified": "Wed, 21 Oct 2026 17:02:06 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::jzlcv-1792602126117-6a8821570e58"
+			},
+			"body": "6dae016159a6f01b09296b2b6492f204a10c55a44d54d7b34f202311144eb047"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/guide_api-environment-runtimes.md.DLCRLsSS.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"guide_api-environment-runtimes.md.DLCRLsSS.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:02:06 GMT",
+				"etag": "W/\"b955fd8cb2b1c6e63acd632cc442632e\"",
+				"last-modified": "Wed, 21 Oct 2026 17:02:06 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::2dgx9-1792602126118-2f7e6368014c"
+			},
+			"body": "1d1a81a118095f5b193598782a1f81b2c6bd955cd57dc94e968513a0dd3a4c32"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/guide_api-environment.md.BcWXkuY0.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"guide_api-environment.md.BcWXkuY0.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:02:06 GMT",
+				"etag": "W/\"05df06f408be22a3c03701e8bace5269\"",
+				"last-modified": "Wed, 21 Oct 2026 17:02:06 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::2dgx9-1792602126113-4fa0d8889423"
+			},
+			"body": "2a7beb5c51527b1a3ce3bc2ff05280393f4e5b27ed0a207cb4a1ca20a01681e5"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/guide_api-hmr.md.DXh-nOGT.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"guide_api-hmr.md.DXh-nOGT.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:02:06 GMT",
+				"etag": "W/\"409fcc0e2eeff79d35d0f17df786191f\"",
+				"last-modified": "Wed, 21 Oct 2026 17:02:06 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::2wvh7-1792602126061-b01aa405e92c"
+			},
+			"body": "52fafc56010d5f4c9b47c1286c712cea2b10ff8f59d8492ff8c7eeaa4890efd4"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/guide_api-javascript.md.B4_UC3u9.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"guide_api-javascript.md.B4_UC3u9.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:42 GMT",
+				"etag": "W/\"ea9e889ef401b45816361b46d95661d0\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:42 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::p44d2-1792602102394-f01666bf6212"
+			},
+			"body": "af50167bf591e8219c4479599d373e40c220a92c95240e1c195ef4540d4adf87"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/guide_api-plugin.md.tPJaVgTt.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"guide_api-plugin.md.tPJaVgTt.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:42 GMT",
+				"etag": "W/\"cfa9dd4202bd99da121bb9b313922881\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:42 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::l247g-1792602102386-6adb52c10968"
+			},
+			"body": "b04d8228e8eda392ede48b2c994685ffec567d2e710170b5253971507b4fe8af"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/guide_assets.md.DrVHAaCc.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"guide_assets.md.DrVHAaCc.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:40 GMT",
+				"etag": "W/\"ab6feed009d5fd75da02824e97d1eb0f\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:40 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::jcwhq-1792602100238-956c728e2854"
+			},
+			"body": "cde5c398fd8cd6fa5963a873d1173733b1cfe9d455c7a8edf4365b4ccc57860f"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/guide_backend-integration.md.DXA9vaaJ.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"guide_backend-integration.md.DXA9vaaJ.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:41 GMT",
+				"etag": "W/\"b696f4d13d524cf1669323f99b5e6f6b\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:41 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::zr2sn-1792602101714-78f738ff99ef"
+			},
+			"body": "ae9517bd990fbfe2dac6e94f789439ca7c085ceb54626edd0abc81cb8ec16489"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/guide_build.md.DCIfZncJ.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"guide_build.md.DCIfZncJ.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:40 GMT",
+				"etag": "W/\"dc20549decc94596a53f4cb6fa0cdc4c\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:40 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::9j2wt-1792602100238-726945ead30f"
+			},
+			"body": "b98e80c2d415b4084c304aafed9fc9d4493a722140168e14864c63abd10c5ae0"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/guide_cli.md.kDl9cv-8.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"guide_cli.md.kDl9cv-8.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:39 GMT",
+				"etag": "W/\"2f6c84f3f71c8312220274492dffe855\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:39 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::lspqw-1792602099630-2cc1b973b314"
+			},
+			"body": "023f0172a9cffa2f439df0f482dfcc42c74971c470afa917586f3b15d7959d99"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/guide_dep-pre-bundling.md.MfEbjge4.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"guide_dep-pre-bundling.md.MfEbjge4.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:40 GMT",
+				"etag": "W/\"95bb6df3727d927dd26f86281e1603bf\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:40 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::zp7ck-1792602100223-7eee7ed45fb4"
+			},
+			"body": "2b8b9105894cad85e15049d529bd788a81ef4c24b22622fc3fa55d81d9c42314"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/guide_env-and-mode.md.51sz6khF.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"guide_env-and-mode.md.51sz6khF.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:41 GMT",
+				"etag": "W/\"937c2ed77e340fa62fbd65627ab1aad3\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:41 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::pdvph-1792602100912-f4680dd886ee"
+			},
+			"body": "350e786a7d74dbd9194553fdbc7dac0f7bf03a1de65704ac90e1735e6da74e50"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/guide_features.md.qSPwD_Z_.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"guide_features.md.qSPwD_Z_.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:39 GMT",
+				"etag": "W/\"06997bca8a96a910079e37120797b48d\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:39 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::8qxwk-1792602099620-0be3c87f8fac"
+			},
+			"body": "e99221583318ec03e0854587ad93b1ecae98673635d375caa21d77c095d62f3e"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/guide_features.md.qSPwD_Z_.lean.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"guide_features.md.qSPwD_Z_.lean.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:45 GMT",
+				"etag": "W/\"69c5c15adad99d62a16370f6ed251d78\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:45 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::9qd67-1792602105281-f2bb3a2967eb"
+			},
+			"body": "015de7783ec2b0b096f5e97f1d69e388f0b3f35c8585082b5757ab213697b422"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/guide_index.md.DOm2WzeT.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "297112",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"guide_index.md.DOm2WzeT.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:41 GMT",
+				"etag": "W/\"27f9ad4bbc8b18550220b6b1937d1f81\"",
+				"last-modified": "Sun, 18 Oct 2026 06:29:48 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "HIT",
+				"x-vercel-id": "sfo1::jhb67-1792602101715-ba9a6d754aae"
+			},
+			"body": "ede12a036e9995d1a89341f4d93cdc06ae50edb9b4b60658df34b76cf8452430"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/guide_index.md.DOm2WzeT.lean.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"guide_index.md.DOm2WzeT.lean.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:37 GMT",
+				"etag": "W/\"6cb59ceaa7b2e1f2ad724c0c3f22858f\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:37 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::6v7hv-1792602097308-3b39d822f1f5"
+			},
+			"body": "23004a411580b32e4e07098455f122dbea347d055882520102fd9c7dd1260a0b"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/guide_migration.md.9MVssXel.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"guide_migration.md.9MVssXel.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:42 GMT",
+				"etag": "W/\"5efce66c9a59a411909586b838d49ba2\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:42 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::756dm-1792602101928-814c3105fe06"
+			},
+			"body": "d55b74d22cb86113f6cac9e98b5fd10d890a08deec36452855a25848f6e1c514"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/guide_performance.md.a0Vdlok4.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"guide_performance.md.a0Vdlok4.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:41 GMT",
+				"etag": "W/\"740acddf12c55b98882c670fedbd0e7f\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:41 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::vldd2-1792602101714-57d8a0135c3e"
+			},
+			"body": "59e4e7fa70372724a2539ab89ca7d128b745428f8d3e119902754ec92e5f4b74"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/guide_philosophy.md.NL37TjXs.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"guide_philosophy.md.NL37TjXs.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:39 GMT",
+				"etag": "W/\"a652bd09a2088081e3759ba25727cef8\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:39 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::jcwhq-1792602099620-a1ce41696e34"
+			},
+			"body": "b2f6965523b2779164028b44ce8477eaa54b134f916de98fa454722aaad93763"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/guide_ssr.md.CrgsRJmB.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"guide_ssr.md.CrgsRJmB.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:41 GMT",
+				"etag": "W/\"e5d804a225a75cd017cc99392a427e70\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:41 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::k2whp-1792602101256-d218939a4517"
+			},
+			"body": "8e1748218ccb9c7adc5e984163b9ba59d3c4b18c4b874402c165c86f84b868f1"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/guide_static-deploy.md.BB3O3x-n.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"guide_static-deploy.md.BB3O3x-n.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:40 GMT",
+				"etag": "W/\"8be224290b7ace305c1e6e66e481065d\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:40 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::r6flk-1792602100239-50bf074e5b05"
+			},
+			"body": "5d260a10a1c89018812b4bb86bedd5bac9a800755572cd603254996ae23e0ee4"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/guide_troubleshooting.md.D56tDKTe.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"guide_troubleshooting.md.D56tDKTe.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:41 GMT",
+				"etag": "W/\"ec1b8bb48fffcdc5b495cc74de443134\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:41 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::9j2wt-1792602101714-0a47edc31299"
+			},
+			"body": "08beb093bf4a0bccf1eddac7f5c6657800041e1277338a6bc3042ee9131783ca"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/guide_using-plugins.md.0-a3SRS9.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"guide_using-plugins.md.0-a3SRS9.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:40 GMT",
+				"etag": "W/\"86d62fd053653677e35c73e01ae365cb\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:40 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::8hbtj-1792602100221-6bed28ec63f1"
+			},
+			"body": "b1a050c7aec39291ad2de2f6e8779e1a55017cc92f82412d0f9ba6a2317e760b"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/guide_why.md.CuRRY08o.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"guide_why.md.CuRRY08o.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:39 GMT",
+				"etag": "W/\"53b82693dcf6a1e1fa797d4ea4731929\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:39 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::c4zsl-1792602099621-b70f1d03e721"
+			},
+			"body": "50fef3295f10e4e3d81f2f848bdd248ec1f51a6e941d3b4c8908523e82460518"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/index.md.DuAu9TS4.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"index.md.DuAu9TS4.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:39 GMT",
+				"etag": "W/\"6eb8c7d1286f85a4aca3f3b66b46852a\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:39 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::wklqs-1792602099108-ca5540e4b0b5"
+			},
+			"body": "0f411e9e39887f5f92a8eb8cad84aaed372dab65b5f6f89ee6eccc41634a558b"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/index.md.DuAu9TS4.lean.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"index.md.DuAu9TS4.lean.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:37 GMT",
+				"etag": "W/\"502a64e72967b0ac17041c39b8520792\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:37 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::cwtlw-1792602097243-ed46bd27c899"
+			},
+			"body": "77b6e831aa6fca12f577a64ab4f6c2804752ad097edf700bc97f784c13d2671c"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/inter-italic-latin.C2AdPX0b.woff2": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"inter-italic-latin.C2AdPX0b.woff2\"",
+				"content-type": "font/woff2",
+				"date": "Wed, 21 Oct 2026 17:08:59 GMT",
+				"etag": "\"56d5f5066c5a0193a009ec809b689e50\"",
+				"last-modified": "Wed, 21 Oct 2026 17:08:59 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::l4xff-1792602539018-ae52866f474e"
+			},
+			"body": "3570e65005ccd9ecd87c6ccc7c713fc474a80ff7c3abbb1063f0e8ab4f8dc891"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/inter-roman-latin.Di8DUHzh.woff2": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "297111",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"inter-roman-latin.Di8DUHzh.woff2\"",
+				"content-type": "font/woff2",
+				"date": "Wed, 21 Oct 2026 17:01:38 GMT",
+				"etag": "\"dbd4a45db9b34cb2f293be7086e958ac\"",
+				"last-modified": "Sun, 18 Oct 2026 06:29:47 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "HIT",
+				"x-vercel-id": "sfo1::9j2wt-1792602098954-f2053d951d73"
+			},
+			"body": "f7ab715caa2c78facb4334b211c81ee66f037cf9c99ca3f24acd543e84a93278"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/live.md.CpXv9zDk.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"live.md.CpXv9zDk.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:45:15 GMT",
+				"etag": "W/\"f441a6f9d8c72c8f88313a46bcb68c9e\"",
+				"last-modified": "Wed, 21 Oct 2026 17:45:15 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::v45j9-1792604714844-c9b64a97fb6d"
+			},
+			"body": "a21e841d3c91b917161efa54c29b2cf379763d6deb4bf8b0496e1e170f942e9b"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/live.md.CpXv9zDk.lean.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"live.md.CpXv9zDk.lean.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:51 GMT",
+				"etag": "W/\"7dd00010213bd2e385011dfddb34a26a\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:51 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::2hrtq-1792602111634-b08e37779599"
+			},
+			"body": "308ca5f91578bf96dfd05fae6bd304a64ce25631c99741efb9d96930f6973adc"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/plugins_index.md.BtEc9Hwe.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "297110",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"plugins_index.md.BtEc9Hwe.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:39 GMT",
+				"etag": "W/\"188a4ba2292615a376bdff32b2fe69bb\"",
+				"last-modified": "Sun, 18 Oct 2026 06:29:48 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "HIT",
+				"x-vercel-id": "sfo1::8hbtj-1792602099620-d1bdf789be54"
+			},
+			"body": "389de1e0e8ef5d50c10559bdd35fe2e11ab1d14c1587e75d5de74e113ddd3257"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/primary-button-background.Bjk7gn3x.jpg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "297111",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"primary-button-background.Bjk7gn3x.jpg\"",
+				"content-type": "image/jpeg",
+				"date": "Wed, 21 Oct 2026 17:01:39 GMT",
+				"etag": "\"1cd17258751aaaca5946bfd653df6622\"",
+				"last-modified": "Sun, 18 Oct 2026 06:29:47 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "HIT",
+				"x-vercel-id": "sfo1::chjrj-1792602099097-acc3f9822f92"
+			},
+			"body": "28bb26715655559933e8d5ea5014e86ff57e9c07ba1e70e8a5f1579ca5fccaf9"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/primary-button-background.CHnwvuqy.jpg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "297111",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"primary-button-background.CHnwvuqy.jpg\"",
+				"content-type": "image/jpeg",
+				"date": "Wed, 21 Oct 2026 17:01:38 GMT",
+				"etag": "\"35448c5409d49ea0bb61e50362d8a582\"",
+				"last-modified": "Sun, 18 Oct 2026 06:29:47 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "HIT",
+				"x-vercel-id": "sfo1::rsxwt-1792602098954-c88c44b42ec4"
+			},
+			"body": "503cd5c19a55a8ec75dbbfc1f97e18ce97f0153443cd6cf4384d19babb01cf7b"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/releases.md.B6ltOTNE.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"releases.md.B6ltOTNE.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:59 GMT",
+				"etag": "W/\"d56bdab94b1ee6a93c75bda4635cdbb0\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:59 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "HIT",
+				"x-vercel-id": "sfo1::bcrvc-1792602119405-31e8c3f5d6a3"
+			},
+			"body": "f0c6627b4c547f41ca5bff4deb380e090db02cd64d200d7ebd48036135173a88"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/rive.BagEuNN0.wasm": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"rive.BagEuNN0.wasm\"",
+				"content-type": "application/wasm",
+				"date": "Wed, 21 Oct 2026 17:01:39 GMT",
+				"etag": "W/\"f2d949383112aa2f56d53301ebce93ab\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:39 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::hvnwq-1792602099101-bd6021cf7f70"
+			},
+			"body": "f99097e604933a69a2c20cf0249c117379a4411df12359ab863361645fa2fc45"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/style.B3BAO59d.css": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"style.B3BAO59d.css\"",
+				"content-type": "text/css; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:37 GMT",
+				"etag": "W/\"fba519c47e2f2d3ec7282b62ce574132\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:37 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::xlbrf-1792602097180-d01311cc3fa4"
+			},
+			"body": "a89386b092df6631f8c0bf32273a2a04ffa51b9ebcfac5c8c3b5d5e20159db7d"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/style.B3BAO59d.css.map": {
+			"status": 403,
+			"headers": {
+				"cache-control": "no-store",
+				"content-type": "text/plain",
+				"date": "Wed, 21 Oct 2026 17:02:26 GMT",
+				"server": "Vercel",
+				"x-robots-tag": "noindex",
+				"x-vercel-id": "sfo1::jnwhw-1792602146211-13ebb020272e"
+			},
+			"body": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/team.md.C09JjEaU.js": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"team.md.C09JjEaU.js\"",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:59 GMT",
+				"etag": "W/\"5f5aad16733f79e3d328eb3f005ea677\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:59 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::pmkkm-1792602119212-91c4dbafbd1c"
+			},
+			"body": "61d4e468bf56560c60493fab1d4f42a3855f76413292bbe8e94f016d45bd1a71"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/vite-by-voidzero.D7bblMgo.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "297110",
+				"cache-control": "max-age=604800, immutable",
+				"content-disposition": "inline; filename=\"vite-by-voidzero.D7bblMgo.png\"",
+				"content-type": "image/png",
+				"date": "Wed, 21 Oct 2026 17:01:38 GMT",
+				"etag": "\"f37e28ecb343f43fba11caa10938ca7b\"",
+				"last-modified": "Sun, 18 Oct 2026 06:29:47 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "HIT",
+				"x-vercel-id": "sfo1::756dm-1792602098443-63986bd5fb4c"
+			},
+			"body": "b34f512c3bdfbc7cbb78826c352986d8017031067fd9457d62e98e7380000ad9"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/vite-ci.rfkpyz0p.svg": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "297113",
+				"cache-control": "max-age=604800, immutable",
+				"content-disposition": "inline; filename=\"vite-ci.rfkpyz0p.svg\"",
+				"content-type": "image/svg+xml",
+				"date": "Wed, 21 Oct 2026 17:01:41 GMT",
+				"etag": "W/\"bc0a1fb7d25e583d131d27ea21346082\"",
+				"last-modified": "Sun, 18 Oct 2026 06:29:47 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "HIT",
+				"x-vercel-id": "sfo1::s4w62-1792602101284-37c41981da22"
+			},
+			"body": "8f67411a8ca7014796457f36c7dc60422f878fc2666899d4c60b2ebafa677d8f"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/vite-dark.D2ACe7TL.svg": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=604800, immutable",
+				"content-disposition": "inline; filename=\"vite-dark.D2ACe7TL.svg\"",
+				"content-type": "image/svg+xml",
+				"date": "Wed, 21 Oct 2026 17:01:37 GMT",
+				"etag": "W/\"fa244cc222d1432c7db7953084d21c84\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:37 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::lxhbn-1792602097547-bf9d9fb5fa22"
+			},
+			"body": "1ed7fd2e8ab39a1cf1f37dae1e3e3bc7536d1ae86160987a81ff834279bbdd78"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/vite-featurepanel-1-background.BHnDg8j4.jpg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"vite-featurepanel-1-background.BHnDg8j4.jpg\"",
+				"content-type": "image/jpeg",
+				"date": "Wed, 21 Oct 2026 17:01:40 GMT",
+				"etag": "\"449befe166cac593463d1a7cf2529464\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:40 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::8k7jc-1792602100236-d4f396b5c974"
+			},
+			"body": "3f97e5edd9e0a8f864987086315f48fb5c9b3005bed28a59858262b99d999616"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/vite-featurepanel-1-terminal.CQVUoUSU.svg": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=604800, immutable",
+				"content-disposition": "inline; filename=\"vite-featurepanel-1-terminal.CQVUoUSU.svg\"",
+				"content-type": "image/svg+xml",
+				"date": "Wed, 21 Oct 2026 17:01:40 GMT",
+				"etag": "W/\"d8a365e02326d8dbe31405aa2292ddd9\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:40 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::64s65-1792602100237-9fea74e35da4"
+			},
+			"body": "dc037264ea15ca45dae2c988a7b39563e1e3b671abaa0edfeb60ad06a45068a1"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/vite-featurepanel-2-terminal.ChpAU6sR.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "297112",
+				"cache-control": "max-age=604800, immutable",
+				"content-disposition": "inline; filename=\"vite-featurepanel-2-terminal.ChpAU6sR.png\"",
+				"content-type": "image/png",
+				"date": "Wed, 21 Oct 2026 17:01:40 GMT",
+				"etag": "\"357d007983efc4181b4f2985d6abd7d7\"",
+				"last-modified": "Sun, 18 Oct 2026 06:29:47 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "HIT",
+				"x-vercel-id": "sfo1::n26b7-1792602100242-9041e0a0a09f"
+			},
+			"body": "a4222a10758ccf996840a018c9801aa8b51cc78e41ac8ec288c78243206e8e77"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/vite-featurepanel-4-background.Bnx0RZk-.jpg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"vite-featurepanel-4-background.Bnx0RZk-.jpg\"",
+				"content-type": "image/jpeg",
+				"date": "Wed, 21 Oct 2026 17:01:39 GMT",
+				"etag": "\"879efd4c40a131608bd147228eabcdfc\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:39 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::47vrd-1792602098957-07b6d29bc4e4"
+			},
+			"body": "cee040111876be9130c8450b639110c8d2e9ac518b23d9493949032ddff8b149"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/vite-featurepanel-4-terminal.BRnxuy_J.svg": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=604800, immutable",
+				"content-disposition": "inline; filename=\"vite-featurepanel-4-terminal.BRnxuy_J.svg\"",
+				"content-type": "image/svg+xml",
+				"date": "Wed, 21 Oct 2026 17:01:41 GMT",
+				"etag": "W/\"8fbead5a890f9887f4dec7283e61b081\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:41 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::gcds4-1792602101121-2219e81d0059"
+			},
+			"body": "8fce58a0a999730bc34133606a01ac6d9281acc5137276e06b1d26496782efeb"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/vite-frameworks-mobile.BooA3_E6.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=604800, immutable",
+				"content-disposition": "inline; filename=\"vite-frameworks-mobile.BooA3_E6.png\"",
+				"content-type": "image/png",
+				"date": "Wed, 21 Oct 2026 17:02:00 GMT",
+				"etag": "\"0f308237f1cddb1a06f349b44b2b60ec\"",
+				"last-modified": "Wed, 21 Oct 2026 17:02:00 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::r6flk-1792602120350-bd94a2302435"
+			},
+			"body": "c840e763723132dcfd57feb3e177f3f86f0d02f5e4935931109e19627f3344a7"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/vite-frameworks.D3X8o4O8.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=604800, immutable",
+				"content-disposition": "inline; filename=\"vite-frameworks.D3X8o4O8.png\"",
+				"content-type": "image/png",
+				"date": "Wed, 21 Oct 2026 17:01:59 GMT",
+				"etag": "\"6d434ba9590688d9ac09649979b317e9\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:59 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::6v7hv-1792602119285-42cf5303c7ac"
+			},
+			"body": "83746ce9c097481e550927db57376848c92d2da0812e3118bd17b38bfd8a6fbe"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/vite-light.t8GCa_VF.svg": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=604800, immutable",
+				"content-disposition": "inline; filename=\"vite-light.t8GCa_VF.svg\"",
+				"content-type": "image/svg+xml",
+				"date": "Wed, 21 Oct 2026 17:01:38 GMT",
+				"etag": "W/\"f615825a60992a251ab602677de5cdca\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:38 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "HIT",
+				"x-vercel-id": "sfo1::9pnxx-1792602098443-ea3c7fedffe0"
+			},
+			"body": "4529cda6e4431e7629c75d55386bcc1fa4e31be88b5e9190d6dda70d058df7c1"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/vite-live-community.CKCFWwGC.webp": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=604800, immutable",
+				"content-disposition": "inline; filename=\"vite-live-community.CKCFWwGC.webp\"",
+				"content-type": "image/webp",
+				"date": "Wed, 21 Oct 2026 17:01:51 GMT",
+				"etag": "\"07aa3aa4b7e3597878c0354a08b6bf48\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:51 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::vldd2-1792602111703-3a22d4284519"
+			},
+			"body": "e69a3c2eb3893f8ced57b8c4064cd0674e7f3135a9d8cae9202230b2da03b2ba"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/vite-play.CwLRAbVc.webp": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=604800, immutable",
+				"content-disposition": "inline; filename=\"vite-play.CwLRAbVc.webp\"",
+				"content-type": "image/webp",
+				"date": "Wed, 21 Oct 2026 17:01:52 GMT",
+				"etag": "\"e2d861fbf7d3b66a5bc3a28c3a946a33\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:52 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::j5mhm-1792602112550-5ef7c124d297"
+			},
+			"body": "434648dc3b88bf6b6bb2cb7e7b64bd38e4cf4280d8a26e225edaf99a2961c4fa"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/vite-plugin-inspect.BSP8m2UZ.webp": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=604800, immutable",
+				"content-disposition": "inline; filename=\"vite-plugin-inspect.BSP8m2UZ.webp\"",
+				"content-type": "image/webp",
+				"date": "Wed, 21 Oct 2026 17:10:07 GMT",
+				"etag": "\"261d22f2b2c100f396f468f83af98fed\"",
+				"last-modified": "Wed, 21 Oct 2026 17:10:07 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::r6flk-1792602607172-a068cf52fef1"
+			},
+			"body": "fdad7bb73549165626a0229961a6680c2f1924a3475e06c069810edf53c8d2be"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/vite-ssr-support.DvdwoLgL.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "297113",
+				"cache-control": "max-age=604800, immutable",
+				"content-disposition": "inline; filename=\"vite-ssr-support.DvdwoLgL.png\"",
+				"content-type": "image/png",
+				"date": "Wed, 21 Oct 2026 17:01:41 GMT",
+				"etag": "\"c357d65d66a6dd7716007aa2b23bbf2b\"",
+				"last-modified": "Sun, 18 Oct 2026 06:29:47 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "HIT",
+				"x-vercel-id": "sfo1::xlbrf-1792602101250-c186f8d18813"
+			},
+			"body": "3ec91bd84f73ef1494c7c759169fa363806df39252f2fe5c6ae5315f9235391a"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/vite-typed-api.B7gyuuaS.svg": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "297113",
+				"cache-control": "max-age=604800, immutable",
+				"content-disposition": "inline; filename=\"vite-typed-api.B7gyuuaS.svg\"",
+				"content-type": "image/svg+xml",
+				"date": "Wed, 21 Oct 2026 17:01:41 GMT",
+				"etag": "W/\"181c1a5f697ecaee0bfb2dc229e6fd56\"",
+				"last-modified": "Sun, 18 Oct 2026 06:29:47 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "HIT",
+				"x-vercel-id": "sfo1::47vrd-1792602101260-efc61f0d0d8c"
+			},
+			"body": "d2dfa31a5bf8ee1a68d28cd62e5f30e8c44794d8c0d3f2eb9947666e688d76b2"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/viteconf.Dvk5Ghxu.svg": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=604800, immutable",
+				"content-disposition": "inline; filename=\"viteconf.Dvk5Ghxu.svg\"",
+				"content-type": "image/svg+xml",
+				"date": "Wed, 21 Oct 2026 17:01:38 GMT",
+				"etag": "W/\"1c4fa8a09c3751b645e79ea885c1b84e\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:38 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::q4zr8-1792602098466-60d5a85bf800"
+			},
+			"body": "cdbc528d374fdce92fc89c02fc4f6e279bf55461a81ab38fcefb7ec6301b9259"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/viteconf_2022.e0CEURUC.jpg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"viteconf_2022.e0CEURUC.jpg\"",
+				"content-type": "image/jpeg",
+				"date": "Wed, 21 Oct 2026 17:01:51 GMT",
+				"etag": "\"2a9e1d8bfd2aab21f88509f8270a8c49\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:51 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::8nzqv-1792602111656-d3c376f53854"
+			},
+			"body": "b73fbe8f69443e5562efedeea60e6ecb05d3de7eed4ae2bf1faa914e9c724586"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/viteconf_2023.BaAgnvTE.jpg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"viteconf_2023.BaAgnvTE.jpg\"",
+				"content-type": "image/jpeg",
+				"date": "Wed, 21 Oct 2026 17:01:51 GMT",
+				"etag": "\"f863c7628797ecee45a37b3359ca78b2\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:51 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::698k4-1792602111650-acabfe539460"
+			},
+			"body": "37034efd51fe71a3ba933783c47093a44d4d11972650fc4baab676851b1409db"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/viteconf_2024.BrkODr_z.jpg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"viteconf_2024.BrkODr_z.jpg\"",
+				"content-type": "image/jpeg",
+				"date": "Wed, 21 Oct 2026 17:01:51 GMT",
+				"etag": "\"55c1b981fa1a94cb175e918d31aadf8a\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:51 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::chjrj-1792602111654-344ac007f6b6"
+			},
+			"body": "6a7661b95ed5b48ac50097a29280d698bdfcbafda03c82f021a93495bb7cdec0"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/viteconf_2025.CYb9p997.jpg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=31536000, immutable",
+				"content-disposition": "inline; filename=\"viteconf_2025.CYb9p997.jpg\"",
+				"content-type": "image/jpeg",
+				"date": "Wed, 21 Oct 2026 17:01:51 GMT",
+				"etag": "\"bd9e16a1cd6551aaea365ef6eb0bc41d\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:51 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::x6np5-1792602111649-0dc8f6b8f66d"
+			},
+			"body": "8aa498ce0b7d8cd37c57a9e2ce3446912c53baab3dc490239bf1091ff291486e"
+		},
+		"GET https://vite-dev-old.vercel.app/assets/voice.BpPsJoey.svg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=604800, immutable",
+				"content-disposition": "inline; filename=\"voice.BpPsJoey.svg\"",
+				"content-type": "image/svg+xml",
+				"date": "Wed, 21 Oct 2026 17:01:39 GMT",
+				"etag": "\"58510e7dba898e5e4682c3b6a008896b\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:39 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::j7hm8-1792602098947-bb6d63889a81"
+			},
+			"body": "9ad675b87ba34b09fa044b4b5f5e9fab3def5a5df115f9b1e4a07f29d732575f"
+		},
+		"GET https://vite-dev-old.vercel.app/config/build-options": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "public, max-age=0, must-revalidate",
+				"content-disposition": "inline; filename=\"build-options\"",
+				"content-type": "text/html; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:36 GMT",
+				"etag": "W/\"c46befd40a110dd7e6bcc510b35f4812\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:36 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::r6flk-1792602096207-1053a8af5489"
+			},
+			"body": "2cc51394590e7d9e8fb048e92f9394c417f738d21ce21a5af775a69517aa76fe"
+		},
+		"GET https://vite-dev-old.vercel.app/guide/": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "public, max-age=0, must-revalidate",
+				"content-disposition": "inline; filename=\"guide\"",
+				"content-type": "text/html; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:36 GMT",
+				"etag": "W/\"cc6dd53ed45415befc160f46193c3278\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:36 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::rj26g-1792602096186-d0f0477b443a"
+			},
+			"body": "0df24a45076fd4ad1e0c393dc8474319eb6cefbde479f9af6e3ee2eebf05e95b"
+		},
+		"GET https://vite-dev-old.vercel.app/guide/features": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "public, max-age=0, must-revalidate",
+				"content-disposition": "inline; filename=\"features\"",
+				"content-type": "text/html; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:36 GMT",
+				"etag": "W/\"1c75b383befbd19ca0eac5aa21fd049e\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:36 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::jnhbh-1792602096205-1de080f79e00"
+			},
+			"body": "9537890f2cef2632e7b452acc0dc6685169925e3b3bc40afdd9da59b4c9f1058"
+		},
+		"GET https://vite-dev-old.vercel.app/live": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "public, max-age=0, must-revalidate",
+				"content-disposition": "inline; filename=\"live\"",
+				"content-type": "text/html; charset=utf-8",
+				"date": "Wed, 21 Oct 2026 17:01:36 GMT",
+				"etag": "W/\"ff3d7e493800baffa955f8e6f772f179\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:36 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::j5mhm-1792602096213-6f85d22a2764"
+			},
+			"body": "731fe1ae322ce2dd0cf8137af6401dbff3f9f51f0fb1f457d86188397aa67e02"
+		},
+		"GET https://vite-dev-old.vercel.app/trusted-by/clickup.svg": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "297112",
+				"cache-control": "max-age=604800, immutable",
+				"content-disposition": "inline; filename=\"clickup.svg\"",
+				"content-type": "image/svg+xml",
+				"date": "Wed, 21 Oct 2026 17:01:40 GMT",
+				"etag": "W/\"ba557d3ecbc071cb3efd16d9655a3cb8\"",
+				"last-modified": "Sun, 18 Oct 2026 06:29:47 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "HIT",
+				"x-vercel-id": "sfo1::6lkvf-1792602100237-59590e43a0e8"
+			},
+			"body": "9ba5482cfdbe7a47bcedb81836ab7d6f0ed6f348df97ebc0c311b9192ce9f808"
+		},
+		"GET https://vite-dev-old.vercel.app/trusted-by/linear.svg": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "297112",
+				"cache-control": "max-age=604800, immutable",
+				"content-disposition": "inline; filename=\"linear.svg\"",
+				"content-type": "image/svg+xml",
+				"date": "Wed, 21 Oct 2026 17:01:39 GMT",
+				"etag": "W/\"63d2e3eee218f968bfca603d6bd24739\"",
+				"last-modified": "Sun, 18 Oct 2026 06:29:47 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "HIT",
+				"x-vercel-id": "sfo1::288s4-1792602099835-aca1eb1aef7a"
+			},
+			"body": "6b8c0756d1dc581364c4a91782fc512727e4c47c7bacdfb7f4fbbab1d99c5066"
+		},
+		"GET https://vite-dev-old.vercel.app/trusted-by/openai.svg": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "297111",
+				"cache-control": "max-age=604800, immutable",
+				"content-disposition": "inline; filename=\"openai.svg\"",
+				"content-type": "image/svg+xml",
+				"date": "Wed, 21 Oct 2026 17:01:39 GMT",
+				"etag": "W/\"2d8072d1bc64bb01b697d6417d692760\"",
+				"last-modified": "Sun, 18 Oct 2026 06:29:47 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "HIT",
+				"x-vercel-id": "sfo1::hmzjm-1792602099109-e923c4212f7c"
+			},
+			"body": "5a28b637ffcde9e25fcac5790b7ac24fbaa3fd591f955062ec2c6021618e400a"
+		},
+		"GET https://vite-dev-old.vercel.app/trusted-by/shopify.svg": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "max-age=604800, immutable",
+				"content-disposition": "inline; filename=\"shopify.svg\"",
+				"content-type": "image/svg+xml",
+				"date": "Wed, 21 Oct 2026 17:01:39 GMT",
+				"etag": "W/\"a69436086bfc09d795afc77ed11ee5ad\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:39 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::mws8s-1792602099417-c28d66d732ac"
+			},
+			"body": "d36c6c94c35e0b1dbfac86475d68b76a6292965caabf8b5b9e7cd713e23f3c79"
+		},
+		"GET https://vite-dev-old.vercel.app/trusted-by/stripe.svg": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "297112",
+				"cache-control": "max-age=604800, immutable",
+				"content-disposition": "inline; filename=\"stripe.svg\"",
+				"content-type": "image/svg+xml",
+				"date": "Wed, 21 Oct 2026 17:01:39 GMT",
+				"etag": "W/\"53269da079232d35ffe9faea4b34df64\"",
+				"last-modified": "Sun, 18 Oct 2026 06:29:47 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "HIT",
+				"x-vercel-id": "sfo1::wfb9l-1792602099620-5a0c7fa6d48c"
+			},
+			"body": "16127d400fe4e09fad34902117857233d901b2384924335f80fcd2f5e1586258"
+		},
+		"GET https://vite-dev-old.vercel.app/trusted-by/wiz.svg": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"age": "297112",
+				"cache-control": "max-age=604800, immutable",
+				"content-disposition": "inline; filename=\"wiz.svg\"",
+				"content-type": "image/svg+xml",
+				"date": "Wed, 21 Oct 2026 17:01:40 GMT",
+				"etag": "W/\"41939d7c178ff985f99cc64f183b110d\"",
+				"last-modified": "Sun, 18 Oct 2026 06:29:47 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "HIT",
+				"x-vercel-id": "sfo1::p4bfb-1792602100236-1e3b9cc3e551"
+			},
+			"body": "12eb69a5471704be447e2d185d3f385e3809e83225b3009f13dcdf126209538f"
+		},
+		"GET https://vite-dev-old.vercel.app/vite.mp3": {
+			"status": 206,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "0",
+				"cache-control": "public, max-age=0, must-revalidate",
+				"content-disposition": "inline; filename=\"vite.mp3\"",
+				"content-range": "bytes 0-3071/3072",
+				"content-type": "audio/mpeg",
+				"date": "Wed, 21 Oct 2026 17:01:39 GMT",
+				"etag": "\"9468f05d6133be42544be2c6c36cf1e8\"",
+				"last-modified": "Wed, 21 Oct 2026 17:01:39 GMT",
+				"server": "Vercel",
+				"x-vercel-cache": "MISS",
+				"x-vercel-id": "sfo1::9j2wt-1792602099108-382aa505048a"
+			},
+			"body": "0772b678c9d7e15746bd98ec68011be31d9f96c93d206f2506840d3c471ec2a9"
+		}
+	}
+}

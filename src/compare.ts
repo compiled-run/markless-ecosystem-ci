@@ -10,7 +10,7 @@ export const WEIGHT_SLACK = { bytes: 2048, ratio: 0.05 };
 
 export interface BaselineRoute {
 	readonly ok: boolean;
-	readonly failures: readonly Pick<FailureRecord, 'id' | 'dimension' | 'check'>[];
+	readonly failures: readonly Pick<FailureRecord, 'id' | 'dimension' | 'check' | 'viewport'>[];
 	readonly weight?: RouteRecord['weight'];
 	readonly infrastructure?: string;
 	/** Set on a red route: who answers for it. */
@@ -39,9 +39,11 @@ export interface SuiteComparison {
 	readonly result?: SuiteResult;
 	readonly baseline?: Baseline;
 	readonly regressions: readonly Regression[];
-	/** New timing-only responsiveness failures: shown, not counted (see timingOnly). */
+	/** New failures that vary between replays of one build: shown, not counted (see timingOnly, explorationOnly). */
 	readonly timing: readonly Regression[];
 	readonly fixed: readonly string[];
+	/** Regressions of a quarantined suite: shown, not counted while the quarantine holds. */
+	readonly quarantined: readonly Regression[];
 	readonly knownReds: readonly { route: string; owner: string; dimensions: string[] }[];
 	readonly unbaselined: readonly string[];
 }
@@ -63,29 +65,51 @@ export async function loadBaseline(root: string, lane: Lane): Promise<Map<string
 	return map;
 }
 
+export function toBaseline(result: SuiteResult, owner: string): Baseline {
+	const routes = Object.fromEntries(
+		Object.entries(result.routes)
+			.sort(([a], [b]) => (a < b ? -1 : 1))
+			.map(([route, record]) => [
+				route,
+				{
+					ok: record.ok,
+					failures: record.failures.map(({ id, dimension, check, viewport }) => ({ id, dimension, check, ...(viewport ? { viewport } : {}) })),
+					...(record.weight ? { weight: record.weight } : {}),
+					...(record.infrastructure ? { infrastructure: record.infrastructure } : {}),
+					...(record.ok ? {} : { owner }),
+				} satisfies BaselineRoute,
+			]),
+	);
+	return { suite: result.suite, lane: result.lane, markless: result.markless, migrate: result.migrate, recordedAt: result.startedAt, steps: result.steps, routes, misses: result.seal.misses };
+}
+
 export async function writeBaseline(root: string, lane: Lane, results: readonly SuiteResult[], suites: readonly Suite[]): Promise<void> {
 	const dir = join(root, 'baselines', lane);
 	await mkdir(dir, { recursive: true });
 	for (const result of results) {
 		if (result.disabled) continue;
-		const owner = suites.find((s) => s.name === result.suite)?.owner ?? 'unowned';
-		const routes = Object.fromEntries(
-			Object.entries(result.routes)
-				.sort(([a], [b]) => (a < b ? -1 : 1))
-				.map(([route, record]) => [
-					route,
-					{
-						ok: record.ok,
-						failures: record.failures.map(({ id, dimension, check }) => ({ id, dimension, check })),
-						...(record.weight ? { weight: record.weight } : {}),
-						...(record.infrastructure ? { infrastructure: record.infrastructure } : {}),
-						...(record.ok ? {} : { owner }),
-					} satisfies BaselineRoute,
-				]),
-		);
-		const baseline: Baseline = { suite: result.suite, lane, markless: result.markless, migrate: result.migrate, recordedAt: result.startedAt, steps: result.steps, routes, misses: result.seal.misses };
+		const baseline = toBaseline(result, suites.find((s) => s.name === result.suite)?.owner ?? 'unowned');
 		await writeFile(join(dir, `${result.suite}.json`), `${JSON.stringify(baseline, null, '\t')}\n`);
 	}
+}
+
+/** The checker fetches a source map only to name a failure's source line, and only for some failures; a page never asks for one. */
+const SOURCE_MAP = /\.map(?:\?[^ ]*)?(?: |$)/;
+
+/** Dimensions whose failures come from the journeys the checker chose to explore on the old page. */
+const JOURNEY_DIMENSIONS = new Set(['behaviour', 'motion']);
+
+/**
+ * A journey failure that says more about which journeys were explored than about the new page: a control the
+ * exploration did not reach ("not exercised"), or any new journey failure on a route main already has red on that
+ * dimension. Two replays of one build explored different journeys there (docusaurus /: 8 journey failures in only
+ * one of two runs; alpinejs-dev /directives/model: 3 controls reached in only one). On a route main has green on
+ * the dimension, a new journey failure counts.
+ */
+export function explorationOnly(failure: Pick<FailureRecord, 'dimension' | 'check'>, before: BaselineRoute): boolean {
+	if (!JOURNEY_DIMENSIONS.has(failure.dimension)) return false;
+	if (failure.check.startsWith('not exercised')) return true;
+	return before.failures.some((f) => f.dimension === failure.dimension);
 }
 
 /**
@@ -97,11 +121,21 @@ export function timingOnly(failure: Pick<FailureRecord, 'dimension' | 'actual'>)
 	return failure.dimension === 'responsiveness' && !/fetched code on the first interaction/.test(failure.actual ?? '');
 }
 
+/**
+ * What makes two failures the same failure: dimension, viewport and check. The checker's id also hashes the
+ * expected and actual text, which carries measured numbers and a nearest-element description that move between
+ * replays of one build (alpinejs-dev /start-here: the same screenshot difference "first near html" in one run and
+ * "first near path" in the other).
+ */
+export function failureKey(failure: Pick<FailureRecord, 'dimension' | 'check' | 'viewport'>): string {
+	return `${failure.dimension}|${failure.viewport ?? ''}|${failure.check}`;
+}
+
 function heavier(now: number, before: number): boolean {
 	return now > before + Math.max(WEIGHT_SLACK.bytes, before * WEIGHT_SLACK.ratio);
 }
 
-export function compareSuite(suite: Suite, result: SuiteResult | undefined, baseline: Baseline | undefined): SuiteComparison {
+export function compareSuite(suite: Suite, result: SuiteResult | undefined, baseline: Baseline | undefined): Omit<SuiteComparison, 'quarantined'> {
 	const regressions: Regression[] = [];
 	const timing: Regression[] = [];
 	const fixed: string[] = [];
@@ -126,10 +160,11 @@ export function compareSuite(suite: Suite, result: SuiteResult | undefined, base
 			regressions.push({ kind: 'route', route, detail: `not checked: ${record.infrastructure}` });
 			continue;
 		}
-		const known = new Set(before.failures.map((f) => f.id));
-		const added = record.failures.filter((f) => !known.has(f.id));
-		for (const failure of added.filter((f) => timingOnly(f))) timing.push({ kind: 'failure', route, detail: describe(failure) });
-		for (const failure of added.filter((f) => !timingOnly(f))) {
+		const known = new Set(before.failures.map(failureKey));
+		const added = record.failures.filter((f) => !known.has(failureKey(f)));
+		const uncounted = (f: FailureRecord) => timingOnly(f) || explorationOnly(f, before);
+		for (const failure of added.filter(uncounted)) timing.push({ kind: 'failure', route, detail: describe(failure) });
+		for (const failure of added.filter((f) => !uncounted(f))) {
 			regressions.push({ kind: 'failure', route, detail: describe(failure) });
 		}
 		if (record.weight && before.weight) {
@@ -138,7 +173,7 @@ export function compareSuite(suite: Suite, result: SuiteResult | undefined, base
 			}
 		}
 		if (record.ok && !before.ok) fixed.push(route);
-		if (!record.ok && !before.ok && !added.some((f) => !timingOnly(f))) knownReds.push({ route, owner: before.owner ?? suite.owner, dimensions: [...new Set(before.failures.map((f) => f.dimension))] });
+		if (!record.ok && !before.ok && !added.some((f) => !uncounted(f))) knownReds.push({ route, owner: before.owner ?? suite.owner, dimensions: [...new Set(before.failures.map((f) => f.dimension))] });
 	}
 	if (baseline) {
 		for (const route of Object.keys(baseline.routes)) {
@@ -148,7 +183,7 @@ export function compareSuite(suite: Suite, result: SuiteResult | undefined, base
 			}
 		}
 		const knownMisses = new Set(baseline.misses);
-		for (const miss of result.seal.misses) if (!knownMisses.has(miss)) regressions.push({ kind: 'capture', detail: `a request main does not make, not in the capture: ${miss}` });
+		for (const miss of result.seal.misses) if (!knownMisses.has(miss) && !SOURCE_MAP.test(miss)) regressions.push({ kind: 'capture', detail: `a request main does not make, not in the capture: ${miss}` });
 	}
 	return { suite, result, regressions, timing, fixed, knownReds, unbaselined, ...(baseline ? { baseline } : {}) };
 }
@@ -162,8 +197,22 @@ function routeExpected(suite: Suite, result: SuiteResult, route: string): boolea
 	return lane.includes(route) && result.lane === 'sample';
 }
 
-export function compareAll(suites: readonly Suite[], results: readonly SuiteResult[], baseline: Map<string, Baseline>): Comparison {
+/** Holds quarantined checks' regressions out of the count; an expired quarantine entry is itself a regression. */
+export function applyQuarantine(comparison: Omit<SuiteComparison, 'quarantined'>, now = new Date()): SuiteComparison {
+	const entries = comparison.suite.quarantine ?? [];
+	const today = now.toISOString().slice(0, 10);
+	const expired = entries.filter((q) => today > q.until);
+	const live = entries.filter((q) => today <= q.until);
+	const held = (r: Regression) => r.kind === 'failure' && live.some((q) => q.route === r.route && r.detail.startsWith(`${q.dimension}`) && r.detail.includes(`: ${q.check}`));
+	return {
+		...comparison,
+		regressions: [...comparison.regressions.filter((r) => !held(r)), ...expired.map((q) => ({ kind: 'step' as const, route: q.route, detail: `the quarantine of ${q.dimension} "${q.check}" (owner ${q.owner}) expired on ${q.until}: fix the nondeterminism or remove the entry` }))],
+		quarantined: comparison.regressions.filter(held),
+	};
+}
+
+export function compareAll(suites: readonly Suite[], results: readonly SuiteResult[], baseline: Map<string, Baseline>, now = new Date()): Comparison {
 	const ran = new Set(results.map((r) => r.suite));
-	const compared = suites.filter((suite) => ran.has(suite.name) || suite.disabled).map((suite) => compareSuite(suite, results.find((r) => r.suite === suite.name), baseline.get(suite.name)));
+	const compared = suites.filter((suite) => ran.has(suite.name) || suite.disabled).map((suite) => applyQuarantine(compareSuite(suite, results.find((r) => r.suite === suite.name), baseline.get(suite.name)), now));
 	return { suites: compared, regressed: compared.some((c) => c.regressions.length > 0) };
 }

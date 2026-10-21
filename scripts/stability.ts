@@ -1,8 +1,10 @@
-// Two replays of the same build must agree: `node scripts/stability.ts <results a> <results b>`.
-// Prints, per suite, the failures only one of the two runs had (nondeterminism to fix before a baseline can be
-// trusted) and the capture misses (requests to record). Exits 1 when the runs differ.
+// Two replays of the same build must agree the way `compare` sees them: the second, compared with the first
+// as if the first were main's baseline, has no regression. `node scripts/stability.ts <results a> <results b>`.
+// Exits 1 when a suite would have reported a regression against itself.
 import { readdir, readFile } from 'node:fs/promises';
 import { join } from 'node:path';
+import { applyQuarantine, compareSuite, toBaseline } from '../src/compare.ts';
+import { loadSuites } from '../src/suites.ts';
 import type { SuiteResult } from '../src/types.ts';
 
 async function load(dir: string): Promise<Map<string, SuiteResult>> {
@@ -18,26 +20,19 @@ async function load(dir: string): Promise<Map<string, SuiteResult>> {
 
 const [a, b] = process.argv.slice(2);
 if (!a || !b) throw new Error('usage: node scripts/stability.ts <results a> <results b>');
+const suites = await loadSuites(join(import.meta.dirname, '..'));
 const [first, second] = [await load(a), await load(b)];
 let differs = false;
-for (const [suite, one] of first) {
-	const two = second.get(suite);
-	if (!two) continue;
-	const lines: string[] = [];
-	for (const [route, record] of Object.entries(one.routes)) {
-		const other = two.routes[route];
-		if (!other) continue;
-		const ids = (r: typeof record) => new Map(r.failures.map((f) => [f.id, `${f.dimension}${f.viewport ? `/${f.viewport}` : ''}: ${f.check}`]));
-		const [x, y] = [ids(record), ids(other)];
-		for (const [id, text] of x) if (!y.has(id)) lines.push(`- \`${route}\` only in the first run: ${id} ${text}`);
-		for (const [id, text] of y) if (!x.has(id)) lines.push(`- \`${route}\` only in the second run: ${id} ${text}`);
-		if (Boolean(record.infrastructure) !== Boolean(other.infrastructure)) lines.push(`- \`${route}\` checked in one run only: ${record.infrastructure ?? other.infrastructure}`);
-	}
-	const misses = [...new Set([...one.seal.misses, ...two.seal.misses])];
-	console.log(`### ${suite}: ${lines.length ? `${lines.length} differences between two replays` : 'two replays agree'}, ${misses.length} capture misses\n`);
-	for (const line of lines) console.log(line);
-	for (const miss of misses.slice(0, 30)) console.log(`- miss: ${miss}`);
+for (const [name, one] of first) {
+	const two = second.get(name);
+	const suite = suites.find((s) => s.name === name);
+	if (!two || !suite) continue;
+	const forward = applyQuarantine(compareSuite(suite, two, toBaseline(one, suite.owner))).regressions;
+	const backward = applyQuarantine(compareSuite(suite, one, toBaseline(two, suite.owner))).regressions;
+	const all = [...forward.map((r) => ({ ...r, only: 'second' })), ...backward.map((r) => ({ ...r, only: 'first' }))];
+	console.log(`### ${name}: ${all.length ? `${all.length} regressions between two replays of one build` : 'two replays agree'}, ${new Set([...one.seal.misses, ...two.seal.misses]).size} capture misses\n`);
+	for (const r of all.slice(0, 40)) console.log(`- only in the ${r.only} run: ${r.route ? `\`${r.route}\` ` : ''}${r.detail.slice(0, 300)}`);
 	console.log('');
-	if (lines.length) differs = true;
+	if (all.length) differs = true;
 }
 if (differs) process.exitCode = 1;
