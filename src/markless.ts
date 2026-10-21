@@ -27,11 +27,19 @@ export interface MarklessSource {
 export async function checkoutMarkless(ref: string, dir: string): Promise<void> {
 	await rm(dir, { recursive: true, force: true });
 	await mkdir(dir, { recursive: true });
-	const fetchRef = /^pr\/\d+$/.test(ref) ? `refs/pull/${ref.slice(3)}/head` : ref;
+	const fetchRef = /^pr\/\d+$/.test(ref) ? `refs/pull/${ref.slice(3)}/head` : await fullSha(ref);
 	await exec('git', ['init', '-q'], { cwd: dir });
 	await exec('git', ['remote', 'add', 'origin', MARKLESS_REPO], { cwd: dir });
 	await exec('git', ['fetch', '-q', '--depth', '1', 'origin', fetchRef], { cwd: dir });
 	await exec('git', ['checkout', '-q', 'FETCH_HEAD'], { cwd: dir });
+}
+
+/** git fetches a commit by its full sha only; a short one is looked up on GitHub first. */
+async function fullSha(ref: string): Promise<string> {
+	if (!/^[0-9a-f]{7,39}$/.test(ref)) return ref;
+	const response = await fetch(`https://api.github.com/repos/compiled-run/markless/commits/${ref}`, { headers: { accept: 'application/vnd.github.sha' } });
+	if (!response.ok) throw new Error(`compiled-run/markless has no commit ${ref} (GitHub answered ${response.status})`);
+	return (await response.text()).trim();
 }
 
 interface WorkspacePackage {

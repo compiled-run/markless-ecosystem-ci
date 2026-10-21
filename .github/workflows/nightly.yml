@@ -202,20 +202,23 @@ jobs:
         id: compare
         env:
           REF: ${{ needs.plan.outputs.ref }}
+          SUITES: ${{ inputs.suites || 'all' }}
+          LANES: ${{ inputs.lanes || 'both' }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
           set +e
           status=0
           for lane in sample full; do
-            [ -d "results/${lane}" ] || continue
-            node ecosystem-ci.ts compare --results "results/${lane}" --lane "$lane" --markdown "report-${lane}.md" --title "Nightly ${lane} lane on Markless ${REF}" --run-url "$RUN_URL"
+            [ "$LANES" = both ] || [ "$LANES" = "$lane" ] || continue
+            mkdir -p "results/${lane}"
+            node ecosystem-ci.ts compare $SUITES --results "results/${lane}" --lane "$lane" --markdown "report-${lane}.md" --title "Nightly ${lane} lane on Markless ${REF}" --run-url "$RUN_URL"
             code=$?
             [ "$code" = 0 ] || status=1
             cat "report-${lane}.md" >> "$GITHUB_STEP_SUMMARY"
           done
           echo "status=${status}" >> "$GITHUB_OUTPUT"
       - name: Open or add to the issue for new reds
-        if: steps.compare.outputs.status != '0'
+        if: steps.compare.outputs.status != '0' && (github.event_name == 'schedule' || inputs.ref == 'main')
         env:
           GH_TOKEN: ${{ github.token }}
           REF: ${{ needs.plan.outputs.ref }}
@@ -245,4 +248,12 @@ jobs:
             git commit -m "baselines: nightly results on Markless main ($(date -u +%Y-%m-%d))"
             git pull --rebase origin main
             git push origin HEAD:main
+          fi
+      - name: Fail on a regression
+        env:
+          STATUS: ${{ steps.compare.outputs.status }}
+        run: |
+          if [ "$STATUS" != 0 ]; then
+            echo "::error::Regressions against the last baseline; see the table in this run's summary."
+            exit 1
           fi

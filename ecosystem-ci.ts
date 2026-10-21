@@ -29,7 +29,7 @@ const USAGE = `node ecosystem-ci.ts <command> [options]
       --concurrency <n>      routes the checker runs at once (default 2)
       --workspace <dir>      where checkouts and builds go (default ./workspace)
       --results <dir>        where each suite's result.json is written (default ./results)
-  compare              compare results against main's baseline; exit 1 on a regression
+  compare [suite...]   compare results against main's baseline; exit 1 on a regression or a suite with no result
       --results <dir> --lane sample|full --markdown <file> --title <text> [--run-url <url>]
   baseline             store results as the lane's baseline from main
       --results <dir> --lane sample|full
@@ -145,9 +145,10 @@ async function run(): Promise<void> {
 
 async function compare(): Promise<void> {
 	const results = await readResults(resolve(values.results!));
-	const all = await loadSuites(root);
+	// The suites this run was asked for (the same names as `run`): one that reported nothing is a regression.
+	const expected = await selectSuites(root, rest);
 	const baseline = await loadBaseline(root, lane);
-	const comparison = compareAll(all, results, baseline);
+	const comparison = compareAll(expected, results, baseline);
 	const markdown = renderMarkdown(comparison, { title: values.title ?? 'Markless ecosystem CI', lane, ...(values['run-url'] ? { runUrl: values['run-url'] } : {}) });
 	if (values.markdown) await writeFile(values.markdown, markdown);
 	console.log(markdown);

@@ -212,7 +212,6 @@ export function applyQuarantine(comparison: Omit<SuiteComparison, 'quarantined'>
 }
 
 export function compareAll(suites: readonly Suite[], results: readonly SuiteResult[], baseline: Map<string, Baseline>, now = new Date()): Comparison {
-	const ran = new Set(results.map((r) => r.suite));
-	const compared = suites.filter((suite) => ran.has(suite.name) || suite.disabled).map((suite) => applyQuarantine(compareSuite(suite, results.find((r) => r.suite === suite.name), baseline.get(suite.name)), now));
+	const compared = suites.map((suite) => applyQuarantine(compareSuite(suite, results.find((r) => r.suite === suite.name), baseline.get(suite.name)), now));
 	return { suites: compared, regressed: compared.some((c) => c.regressions.length > 0) };
 }
