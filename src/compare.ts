@@ -120,8 +120,11 @@ export function explorationOnly(failure: Pick<FailureRecord, 'dimension' | 'chec
  * A responsiveness failure that is only about time (slower than the old side, over the budget) is reported, not
  * counted: two replays of the same build on the same runner disagreed on which controls were slow (ag-grid: 4 of 4
  * timed controls, realworld: 2 links). A first interaction that fetches code is counted; it does not depend on time.
+ * So is a motion's duration, not its shape: two runs of shadcn-admin on one Markless commit timed the sidebar's
+ * width animation at 1286 and 1801 ms.
  */
-export function timingOnly(failure: Pick<FailureRecord, 'dimension' | 'actual'>): boolean {
+export function timingOnly(failure: Pick<FailureRecord, 'dimension' | 'actual' | 'check'>): boolean {
+	if (failure.dimension === 'motion') return / motion timing of /.test(failure.check);
 	return failure.dimension === 'responsiveness' && !/fetched code on the first interaction/.test(failure.actual ?? '');
 }
 
