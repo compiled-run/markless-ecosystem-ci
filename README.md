@@ -42,11 +42,12 @@ failures one by one, not only pass or fail.
    A route red on main too is a known red: it is listed with its owner and never fails a run.
 
    Two failures are the same failure when their dimension, viewport and check match (the checker's own id also
-   hashes measured numbers that move between replays). Three kinds of new failure are shown in the table but not
+   hashes measured numbers that move between replays). Four kinds of new failure are shown in the table but not
    counted, because two replays of one build on one runner disagreed on them: a responsiveness failure that is
    only about time (a first interaction that fetches code still counts), a control the exploration did not reach
    ("not exercised"), and a new journey failure on a route main already has red on that dimension (one that logs
-   a console error still counts). A source map the checker fetches to name a source line is not a capture miss. A check that still varied after that is quarantined in its suite
+   a console error still counts), and a motion's duration (not its shape). A source map the checker fetches to
+   name a source line is not a capture miss. A check that still varied after that is quarantined in its suite
    (`quarantine`, with the measured reason, an owner and an expiry at most two weeks out); an expired entry fails
    every run. `scripts/stability.ts` compares two replays the way `compare` does, and the record workflow runs it.
 
@@ -55,17 +56,18 @@ failures one by one, not only pass or fail.
 - **sample** (per pull request, release gate): a few routes per site, picked to cover the shapes that break:
   in-place navigation, big pages, dialogs and menus, keyed lists, idle or visible handlers, page scripts, theme
   classes and streaming. `node ecosystem-ci.ts list` prints each route and what it covers.
-- **full** (nightly): every route each port is checked on, split into CI jobs of up to 25 routes. The sample runs in jobs of two routes.
+- **full** (nightly): every route each port is checked on, split into CI jobs of up to 25 routes. The sample
+  runs in jobs of two routes.
 
 ## Cost
 
 Measured on GitHub's `ubuntu-latest` runners on 2026-10-21:
 
 - Building and packing Markless: one job, 45 to 50 s.
-- The per-PR sample: 8 suites, 22 routes, 18 jobs of at most two routes each. A job takes 4 to 16 minutes
-  (realworld 4, docusaurus 5 to 10, alpinejs-dev 6 to 10, ag-grid 8, shadcn-admin 10 to 16), and a vite-dev job
-  about 22. With the jobs in parallel, a run takes about 25 minutes from start to the table, and about 160 runner
-  minutes in total.
+- The per-PR sample: 8 suites, 22 routes, 18 jobs of at most two routes each. A job takes 3 to 19 minutes:
+  remix-notes and next-dashboard 3 to 4, realworld 4, docusaurus 5 to 10, alpinejs-dev 6 to 10, ag-grid 8,
+  shadcn-admin 10 to 16, vite-dev 14 to 19. With the jobs in parallel, a run takes 20 to 25 minutes from start to
+  the table, about 150 runner minutes in total.
 - The nightly full lane: 45 jobs of up to 25 routes, with the checker's own journey budget. docusaurus alone is 23
   of them, because it has 571 routes.
 - Captures: 12 MB for the eight suites, each body stored once and brotli-compressed.
