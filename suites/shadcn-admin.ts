@@ -12,6 +12,7 @@ export default {
 			{ route: '/', covers: ['in-place navigation', 'menu', 'theme class'] },
 			{ route: '/users', covers: ['dialog', 'menu', 'big page'] },
 			{ route: '/apps', covers: ['keyed list'] },
+			{ route: '/settings/account', covers: ['idle or visible handler', 'keyed list'] },
 			{ route: '/settings/appearance', covers: ['theme class', 'idle or visible handler'] },
 		],
 		full,
