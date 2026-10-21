@@ -3,7 +3,7 @@
 import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises';
 import { join, resolve } from 'node:path';
 import { parseArgs } from 'node:util';
-import { compareAll, loadBaseline, writeBaseline } from './src/compare.ts';
+import { compareAll, loadBaseline, toBaseline, writeBaseline } from './src/compare.ts';
 import { buildMarkless, readPacks } from './src/markless.ts';
 import { checkoutMigrate, readPin } from './src/migrate.ts';
 import { renderMarkdown } from './src/report.ts';
@@ -31,6 +31,7 @@ const USAGE = `node ecosystem-ci.ts <command> [options]
       --results <dir>        where each suite's result.json is written (default ./results)
   compare [suite...]   compare results against main's baseline; exit 1 on a regression or a suite with no result
       --results <dir> --lane sample|full --markdown <file> --title <text> [--run-url <url>]
+      --against <dir>        compare with another run's results instead of the stored baseline
   baseline             store results as the lane's baseline from main
       --results <dir> --lane sample|full
   list [suite...]      print the suites, their sample routes and what they cover
@@ -56,6 +57,7 @@ const { positionals, values } = parseArgs({
 		markdown: { type: 'string' },
 		title: { type: 'string' },
 		'run-url': { type: 'string' },
+		against: { type: 'string' },
 		json: { type: 'boolean', default: false },
 		matrix: { type: 'boolean', default: false },
 		help: { type: 'boolean', default: false },
@@ -147,7 +149,7 @@ async function compare(): Promise<void> {
 	const results = await readResults(resolve(values.results!));
 	// The suites this run was asked for (the same names as `run`): one that reported nothing is a regression.
 	const expected = await selectSuites(root, rest);
-	const baseline = await loadBaseline(root, lane);
+	const baseline = values.against ? new Map((await readResults(resolve(values.against))).map((r) => [r.suite, toBaseline(r, expected.find((s) => s.name === r.suite)?.owner ?? 'unowned')])) : await loadBaseline(root, lane);
 	const comparison = compareAll(expected, results, baseline);
 	const markdown = renderMarkdown(comparison, { title: values.title ?? 'Markless ecosystem CI', lane, ...(values['run-url'] ? { runUrl: values['run-url'] } : {}) });
 	if (values.markdown) await writeFile(values.markdown, markdown);

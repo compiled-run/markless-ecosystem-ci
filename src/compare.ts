@@ -96,6 +96,9 @@ export async function writeBaseline(root: string, lane: Lane, results: readonly 
 /** The checker fetches a source map only to name a failure's source line, and only for some failures; a page never asks for one. */
 const SOURCE_MAP = /\.map(?:\?[^ ]*)?(?: |$)/;
 
+/** A journey that logged an error the old page did not: whichever journeys were explored, that one threw. */
+const CONSOLE_ERRORS = /console errors: (?!\(none\))/;
+
 /** Dimensions whose failures come from the journeys the checker chose to explore on the old page. */
 const JOURNEY_DIMENSIONS = new Set(['behaviour', 'motion']);
 
@@ -104,10 +107,11 @@ const JOURNEY_DIMENSIONS = new Set(['behaviour', 'motion']);
  * exploration did not reach ("not exercised"), or any new journey failure on a route main already has red on that
  * dimension. Two replays of one build explored different journeys there (docusaurus /: 8 journey failures in only
  * one of two runs; alpinejs-dev /directives/model: 3 controls reached in only one). On a route main has green on
- * the dimension, a new journey failure counts.
+ * the dimension, a new journey failure counts, and so does one that logged a console error anywhere.
  */
-export function explorationOnly(failure: Pick<FailureRecord, 'dimension' | 'check'>, before: BaselineRoute): boolean {
+export function explorationOnly(failure: Pick<FailureRecord, 'dimension' | 'check' | 'actual'>, before: BaselineRoute): boolean {
 	if (!JOURNEY_DIMENSIONS.has(failure.dimension)) return false;
+	if (CONSOLE_ERRORS.test(failure.actual ?? '')) return false;
 	if (failure.check.startsWith('not exercised')) return true;
 	return before.failures.some((f) => f.dimension === failure.dimension);
 }

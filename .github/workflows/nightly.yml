@@ -27,6 +27,11 @@ on:
           - both
           - sample
           - full
+      migrate_ref:
+        description: 'markless-migrate commit to take the sites from, instead of the one migrate.json pins'
+        required: false
+        type: string
+        default: ''
       baseline:
         description: 'Store the results as the baseline (only for main)'
         required: false
@@ -124,7 +129,8 @@ jobs:
           SUITE: ${{ matrix.suite }}
           SHARD: ${{ matrix.shard }}
           REF: ${{ needs.plan.outputs.ref }}
-        run: node ecosystem-ci.ts run "$SUITE" --packs packs --lane sample --shard "$SHARD" --results results --ref-label "$REF"
+          MIGRATE_REF: ${{ inputs.migrate_ref }}
+        run: node ecosystem-ci.ts run "$SUITE" --packs packs --lane sample --shard "$SHARD" --results results --ref-label "$REF" ${MIGRATE_REF:+--migrate-ref "$MIGRATE_REF"}
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -158,7 +164,8 @@ jobs:
           SUITE: ${{ matrix.suite }}
           SHARD: ${{ matrix.shard }}
           REF: ${{ needs.plan.outputs.ref }}
-        run: node ecosystem-ci.ts run "$SUITE" --packs packs --lane full --shard "$SHARD" --results results --ref-label "$REF"
+          MIGRATE_REF: ${{ inputs.migrate_ref }}
+        run: node ecosystem-ci.ts run "$SUITE" --packs packs --lane full --shard "$SHARD" --results results --ref-label "$REF" ${MIGRATE_REF:+--migrate-ref "$MIGRATE_REF"}
       - name: Name the artifact after the shard
         if: always()
         id: name
@@ -233,7 +240,7 @@ jobs:
             gh issue create --title "New reds on Markless ${REF} ($(date -u +%Y-%m-%d))" --label ecosystem-regression --body-file issue.md
           fi
       - name: Store the night's results as the baseline
-        if: github.event_name == 'schedule' || (inputs.baseline && inputs.ref == 'main')
+        if: github.event_name == 'schedule' || (inputs.baseline && inputs.ref == 'main' && inputs.migrate_ref == '')
         run: |
           set -euo pipefail
           for lane in sample full; do

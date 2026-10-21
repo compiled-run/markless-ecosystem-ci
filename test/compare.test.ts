@@ -108,3 +108,21 @@ describe('quarantine', () => {
 		assert.match(expired.regressions.at(-1)!.detail, /expired on 2026-11-04/);
 	});
 });
+
+describe('journeys', () => {
+	test('on a route main has red on behaviour, a new journey difference is shown, not counted, unless it logged an error', () => {
+		const before = route(false, ['behaviour:old']);
+		const now: RouteRecord = {
+			ok: false,
+			dimensions: {},
+			failures: [
+				{ id: 'behaviour:old', dimension: 'behaviour', check: 'behaviour:old' },
+				{ id: 'j1', dimension: 'behaviour', check: 'click button "A"', actual: 'appears: - dialog' },
+				{ id: 'j2', dimension: 'behaviour', check: 'follow link "Home"', actual: "console errors: Cannot set properties of null (setting 'textContent')" },
+			],
+		};
+		const c = compareSuite(suite, result({ '/': now, '/b': route(true, []) }), baseline({ '/': before, '/b': route(true, []) }));
+		assert.deepEqual(c.regressions.map((r) => r.detail.split(';')[0]), ['behaviour: follow link "Home"']);
+		assert.deepEqual(c.timing.map((r) => r.detail.split(';')[0]), ['behaviour: click button "A"']);
+	});
+});
