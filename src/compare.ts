@@ -39,6 +39,8 @@ export interface SuiteComparison {
 	readonly result?: SuiteResult;
 	readonly baseline?: Baseline;
 	readonly regressions: readonly Regression[];
+	/** New timing-only responsiveness failures: shown, not counted (see timingOnly). */
+	readonly timing: readonly Regression[];
 	readonly fixed: readonly string[];
 	readonly knownReds: readonly { route: string; owner: string; dimensions: string[] }[];
 	readonly unbaselined: readonly string[];
@@ -86,19 +88,29 @@ export async function writeBaseline(root: string, lane: Lane, results: readonly 
 	}
 }
 
+/**
+ * A responsiveness failure that is only about time (slower than the old side, over the budget) is reported, not
+ * counted: two replays of the same build on the same runner disagreed on which controls were slow (ag-grid: 4 of 4
+ * timed controls, realworld: 2 links). A first interaction that fetches code is counted; it does not depend on time.
+ */
+export function timingOnly(failure: Pick<FailureRecord, 'dimension' | 'actual'>): boolean {
+	return failure.dimension === 'responsiveness' && !/fetched code on the first interaction/.test(failure.actual ?? '');
+}
+
 function heavier(now: number, before: number): boolean {
 	return now > before + Math.max(WEIGHT_SLACK.bytes, before * WEIGHT_SLACK.ratio);
 }
 
 export function compareSuite(suite: Suite, result: SuiteResult | undefined, baseline: Baseline | undefined): SuiteComparison {
 	const regressions: Regression[] = [];
+	const timing: Regression[] = [];
 	const fixed: string[] = [];
 	const unbaselined: string[] = [];
 	const knownReds: SuiteComparison['knownReds'][number][] = [];
-	if (suite.disabled) return { suite, regressions, fixed, knownReds, unbaselined, ...(result ? { result } : {}), ...(baseline ? { baseline } : {}) };
+	if (suite.disabled) return { suite, regressions, timing, fixed, knownReds, unbaselined, ...(result ? { result } : {}), ...(baseline ? { baseline } : {}) };
 	if (!result) {
 		regressions.push({ kind: 'missing', detail: 'the suite did not report a result (its job failed before it wrote one)' });
-		return { suite, regressions, fixed, knownReds, unbaselined, ...(baseline ? { baseline } : {}) };
+		return { suite, regressions, timing, fixed, knownReds, unbaselined, ...(baseline ? { baseline } : {}) };
 	}
 	for (const [step, status] of Object.entries(result.steps)) {
 		const before = baseline?.steps[step as keyof SuiteResult['steps']];
@@ -116,8 +128,9 @@ export function compareSuite(suite: Suite, result: SuiteResult | undefined, base
 		}
 		const known = new Set(before.failures.map((f) => f.id));
 		const added = record.failures.filter((f) => !known.has(f.id));
-		for (const failure of added) {
-			regressions.push({ kind: 'failure', route, detail: `${failure.dimension}${failure.viewport ? ` (${failure.viewport})` : ''}: ${failure.check}${failure.expected !== undefined ? `; expected ${failure.expected}, got ${failure.actual}` : ''}` });
+		for (const failure of added.filter((f) => timingOnly(f))) timing.push({ kind: 'failure', route, detail: describe(failure) });
+		for (const failure of added.filter((f) => !timingOnly(f))) {
+			regressions.push({ kind: 'failure', route, detail: describe(failure) });
 		}
 		if (record.weight && before.weight) {
 			for (const field of ['downloaded', 'executed'] as const) {
@@ -125,7 +138,7 @@ export function compareSuite(suite: Suite, result: SuiteResult | undefined, base
 			}
 		}
 		if (record.ok && !before.ok) fixed.push(route);
-		if (!record.ok && !before.ok && !added.length) knownReds.push({ route, owner: before.owner ?? suite.owner, dimensions: [...new Set(before.failures.map((f) => f.dimension))] });
+		if (!record.ok && !before.ok && !added.some((f) => !timingOnly(f))) knownReds.push({ route, owner: before.owner ?? suite.owner, dimensions: [...new Set(before.failures.map((f) => f.dimension))] });
 	}
 	if (baseline) {
 		for (const route of Object.keys(baseline.routes)) {
@@ -137,7 +150,11 @@ export function compareSuite(suite: Suite, result: SuiteResult | undefined, base
 		const knownMisses = new Set(baseline.misses);
 		for (const miss of result.seal.misses) if (!knownMisses.has(miss)) regressions.push({ kind: 'capture', detail: `a request main does not make, not in the capture: ${miss}` });
 	}
-	return { suite, result, regressions, fixed, knownReds, unbaselined, ...(baseline ? { baseline } : {}) };
+	return { suite, result, regressions, timing, fixed, knownReds, unbaselined, ...(baseline ? { baseline } : {}) };
+}
+
+function describe(failure: FailureRecord): string {
+	return `${failure.dimension}${failure.viewport ? ` (${failure.viewport})` : ''}: ${failure.check}${failure.expected !== undefined ? `; expected ${failure.expected}, got ${failure.actual}` : ''}`;
 }
 
 function routeExpected(suite: Suite, result: SuiteResult, route: string): boolean {

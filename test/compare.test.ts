@@ -82,3 +82,13 @@ describe('compareSuite', () => {
 		assert.deepEqual(c.fixed, ['/']);
 	});
 });
+
+describe('timing', () => {
+	test('a new timing-only responsiveness failure is shown, not counted; a code fetch on first interaction is counted', () => {
+		const slow: RouteRecord = { ok: false, dimensions: {}, failures: [{ id: 't1', dimension: 'responsiveness', check: 'first interaction with button "A" (4x CPU, mobile)', actual: 'new 300 ms; likely cause: x; over the 200 ms budget' }] };
+		const fetches: RouteRecord = { ok: false, dimensions: {}, failures: [{ id: 't2', dimension: 'responsiveness', check: 'first interaction with button "B" (4x CPU, mobile)', actual: 'new 40 ms; likely cause: x; fetched code on the first interaction: /a.js (3 kB)' }] };
+		const c = compareSuite(suite, result({ '/': slow, '/b': fetches }), baseline({ '/': route(true, []), '/b': route(true, []) }));
+		assert.deepEqual(c.timing.map((r) => r.route), ['/']);
+		assert.deepEqual(c.regressions.map((r) => r.route), ['/b']);
+	});
+});

@@ -36,7 +36,9 @@ failures one by one, not only pass or fail.
    (main's last nightly result) and reports a regression when:
    - a step (install, build, test, serve, check) fails that passed on main;
    - a route has a failure whose id main does not have (failure ids are stable across runs for the same
-     difference on the same route and viewport);
+     difference on the same route and viewport), except a responsiveness failure that is only about time:
+     two replays of the same build disagreed on which controls were slow, so those are listed, not counted
+     (a first interaction that fetches code is counted);
    - JavaScript downloaded or run at load grows by more than 2 KB and 5% over main;
    - a route main checked could not be checked;
    - the site makes a request main does not make (a capture miss main did not have).
@@ -93,9 +95,20 @@ third-party reads are recorded; the old site's own writes are held back by the c
 One file per site in `suites/`, with its route lists in `suites/routes/`. A suite that cannot run yet carries a
 `disabled` reason, shown in every report.
 
-| Suite | Site | Old site |
-| --- | --- | --- |
-| shadcn-admin | `examples/shadcn-admin-markless` | https://mm-shadcn-admin-old.vercel.app |
+| Suite | Old site | Sample covers | Status |
+| --- | --- | --- | --- |
+| ag-grid | https://mm-ag-grid-old.vercel.app | big page, keyed list, menu, onIdle, theme class | runs |
+| alpinejs-dev | https://alpinejs.dev | big pages, page scripts, dialog, menu, keyed lists, onIdle, in-place navigation | runs |
+| docusaurus | https://mm-docusaurus-old.vercel.app | theme class, menus, dialog, big page, in-place navigation | runs |
+| htmx-org | https://htmx.org | big page, page scripts, menu | not run: the port is on Markless 0.5.0 and does not build on 0.8 |
+| next-dashboard | https://mm-next-dashboard-old.vercel.app | streaming, keyed lists, in-place navigation, signed-in role | runs |
+| realworld | https://mm-realworld-old.vercel.app | in-place navigation, onIdle, keyed list | runs |
+| remix-notes | https://mm-remix-notes-old.vercel.app | streaming, keyed list, in-place navigation, signed-in role | runs |
+| shadcn-admin | https://mm-shadcn-admin-old.vercel.app | dialogs, menus, theme class, keyed lists, onIdle, in-place navigation | runs |
+| vite-dev | https://vite-dev-old.vercel.app | page scripts, theme class, dialog, menus, big page, in-place navigation | runs |
+| vite-site (the migrate demo) | https://migrate-demo-old.vercel.app | menu, keyed list, onIdle | not run: the port is on Markless 0.5.0 and does not build on 0.8 |
+
+ui.shadcn.com is not a suite yet: its port is not on markless-migrate main.
 
 ## Known reds
 

@@ -6,8 +6,8 @@ export default {
 	app: 'examples/remix-notes-markless',
 	old: 'https://mm-remix-notes-old.vercel.app',
 	owner: 'markless-migrate remix-notes port (thejackshelton)',
+	serveEnv: { NODE_ENV: 'production' },
 	env: {
-		NODE_ENV: 'production',
 		SESSION_SECRET: 'super-duper-s3cret',
 		DATABASE_PATH: 'data/notes.db',
 		SIGNED_IN_EMAIL: 'rachel@remix.run',

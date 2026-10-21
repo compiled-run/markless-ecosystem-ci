@@ -185,7 +185,7 @@ export async function runSuite(options: RunSuiteOptions): Promise<SuiteResult> {
 		const port = await freePort();
 		const origin = `http://127.0.0.1:${port}`;
 		const [command, ...args] = suite.serve ?? ['node', '.output/server/index.mjs'];
-		server = background(command!, args, { cwd: appDir, env: { ...sealed, PORT: String(port), HOST: '127.0.0.1', NITRO_PORT: String(port), NITRO_HOST: '127.0.0.1' } });
+		server = background(command!, args, { cwd: appDir, env: { ...sealed, ...suite.serveEnv, PORT: String(port), HOST: '127.0.0.1', NITRO_PORT: String(port), NITRO_HOST: '127.0.0.1' } });
 		await time('serve', () => waitForServer(`${origin}/`, server!.exited, 60_000));
 		steps.serve = 'pass';
 		step = 'check';
@@ -218,7 +218,7 @@ export async function runSuite(options: RunSuiteOptions): Promise<SuiteResult> {
 			}),
 		);
 		const reportFile = join(appDir, '.migrate', 'report.json');
-		if (!existsSync(reportFile) || ![0, 1, 3].includes(result.code)) throw new ExecError('markless-migrate check', result);
+		if (!existsSync(reportFile) || ![0, 1, 3, 4].includes(result.code)) throw new ExecError('markless-migrate check', result);
 		const report = JSON.parse(await readFile(reportFile, 'utf8'));
 		routes = readRoutes(report);
 		steps.check = 'pass';
@@ -231,6 +231,7 @@ export async function runSuite(options: RunSuiteOptions): Promise<SuiteResult> {
 		await writeFile(join(runDir, `${step}-error.log`), error);
 		if (server) await writeFile(join(runDir, 'server.log'), server.output());
 		console.log(`[${suite.name}] ${step} failed: ${error.split('\n')[0]}`);
+		console.log(error.split('\n').slice(-40).map((line) => `[${suite.name}]   ${line}`).join('\n'));
 	} finally {
 		if (server) {
 			await writeFile(join(runDir, 'server.log'), server.output());

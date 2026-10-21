@@ -13,6 +13,11 @@ export default {
 		SIGNED_IN_EMAIL: 'user@nextmail.com',
 		SIGNED_IN_PASSWORD: '123456',
 	},
+	// The node build does not copy PGlite's data, wasm and extension files beside the server code that loads them.
+	build: [
+		['npm', 'run', 'build'],
+		['sh', '-c', 'for d in .output/server .output/server/_libs; do cp node_modules/@electric-sql/pglite/dist/*.data node_modules/@electric-sql/pglite/dist/*.wasm node_modules/@electric-sql/pglite/dist/*.tar.gz "$d/"; done'],
+	],
 	check: ['--auth', 'migrate-auth.json'],
 	routes: {
 		sample: [

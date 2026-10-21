@@ -45,6 +45,12 @@ export function renderMarkdown(comparison: Comparison, options: { title: string;
 			lines.push('');
 		}
 	}
+	const timing = comparison.suites.filter((c) => c.timing.length);
+	if (timing.length) {
+		lines.push('', '<details><summary>Timing differences (reported, not counted: they vary between replays of the same build)</summary>', '');
+		for (const c of timing) for (const t of c.timing.slice(0, 15)) lines.push(`- ${c.suite.name} \`${t.route}\` ${t.detail.replace(/\|/g, '\\|')}`);
+		lines.push('', '</details>');
+	}
 	const fixed = comparison.suites.filter((c) => c.fixed.length);
 	if (fixed.length) {
 		lines.push('', '<details><summary>Routes green here that are red on main</summary>', '');

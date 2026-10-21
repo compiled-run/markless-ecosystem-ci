@@ -13,6 +13,8 @@ export interface Suite {
 	readonly install?: readonly string[];
 	/** Environment for the build, the site's own tests and its server. */
 	readonly env?: Readonly<Record<string, string>>;
+	/** Environment for the server only (NODE_ENV=production would make npm install skip devDependencies). */
+	readonly serveEnv?: Readonly<Record<string, string>>;
 	/** Commands run in the app folder before the build, after install (each an argv). */
 	readonly prepare?: readonly (readonly string[])[];
 	/** Defaults to `npm run build`. */
