@@ -207,7 +207,13 @@ export function applyQuarantine(comparison: Omit<SuiteComparison, 'quarantined'>
 	const today = now.toISOString().slice(0, 10);
 	const expired = entries.filter((q) => today > q.until);
 	const live = entries.filter((q) => today <= q.until);
-	const held = (r: Regression) => r.kind === 'failure' && live.some((q) => q.route === r.route && r.detail.startsWith(`${q.dimension}`) && r.detail.includes(`: ${q.check}`));
+	const held = (r: Regression) =>
+		live.some((q) => {
+			if (q.dimension === 'capture') return r.kind === 'capture' && r.detail.includes(q.check);
+			if (q.route !== r.route || (r.kind !== 'failure' && r.kind !== 'weight')) return false;
+			if (q.dimension === '*') return true;
+			return r.kind === 'failure' && r.detail.startsWith(q.dimension) && r.detail.includes(`: ${q.check}`);
+		});
 	return {
 		...comparison,
 		regressions: [...comparison.regressions.filter((r) => !held(r)), ...expired.map((q) => ({ kind: 'step' as const, route: q.route, detail: `the quarantine of ${q.dimension} "${q.check}" (owner ${q.owner}) expired on ${q.until}: fix the nondeterminism or remove the entry` }))],

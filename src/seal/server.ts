@@ -59,10 +59,12 @@ export function requestKey(method: string, url: string, body?: Buffer, cookie?: 
 	return `${method} ${url}${body?.length ? ` #${sha(body).slice(0, 16)}` : ''}${names?.length ? ` ;${[...new Set(names)].join(',')}` : ''}`;
 }
 
-/** Nearer and nearer forms of a key, tried in order when the exact one is not captured: without cookies, then without the query too (a cache buster computed at run time). */
+/** Nearer and nearer forms of a key, tried in order when the exact one is not captured: without cookies, without the body, then without the query too (a cache buster computed at run time). */
 function looserKeys(key: string): string[] {
 	const withoutCookies = key.replace(/ ;[^ ]*$/, '');
-	return [...new Set([withoutCookies, withoutCookies.replace(/\?[^ #]*/, '')])].filter((k) => k !== key);
+	// A sign-in post carries a fresh CSRF token each time, so its body differs from the captured one.
+	const withoutBody = withoutCookies.replace(/ #[0-9a-f]+$/, '');
+	return [...new Set([withoutCookies, withoutBody, withoutBody.replace(/\?[^ #]*/, '')])].filter((k) => k !== key);
 }
 
 /** A captured cookie keeps the lifetime it was given, counted from now: a session captured weeks ago is not expired on replay. */

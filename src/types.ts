@@ -41,9 +41,11 @@ export interface Suite {
 }
 
 export interface Quarantine {
+	/** The route; for a capture entry, any. */
 	readonly route: string;
+	/** A checker dimension, `*` for every check on the route (weight included), or `capture` for requests missing from the capture. */
 	readonly dimension: string;
-	/** The start of the failure's check text. */
+	/** The start of the failure's check text; for `capture`, part of the missing request's URL. */
 	readonly check: string;
 	/** What varied, measured: which run had it and what it said. */
 	readonly reason: string;
