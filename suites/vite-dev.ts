@@ -8,6 +8,14 @@ export default {
 	owner: 'markless-migrate vite-dev port (thejackshelton)',
 	quarantine: [
 		{
+			route: "*",
+			dimension: "network",
+			check: "browser request the old page does not make",
+			reason: "Iconify falls back to api.unisvg.com and api.simplesvg.com when api.iconify.design has not answered within 750 ms, so whether the fallback hosts are asked depends on timing (release-commit run 39690782080: /config/build-options asked api.unisvg.com; the baseline run did not)",
+			owner: "markless-migrate vite-dev port (thejackshelton)",
+			until: "2026-11-04",
+		},
+		{
 			route: "/",
 			dimension: "*",
 			check: "",

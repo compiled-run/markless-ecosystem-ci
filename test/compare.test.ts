@@ -126,3 +126,11 @@ describe('journeys', () => {
 		assert.deepEqual(c.timing.map((r) => r.detail.split(';')[0]), ['behaviour: click button "A"']);
 	});
 });
+
+describe('capture misses', () => {
+	test('a miss on the old site is shown, not counted; a new third-party request still counts', () => {
+		const c = compareSuite(suite, result({ '/': route(true, []), '/b': route(true, []) }, { seal: { served: 1, loose: 0, misses: ['GET https://old.example/other-page ;session', 'GET https://cdn.example/new.js'] } }), baseline({ '/': route(true, []), '/b': route(true, []) }));
+		assert.deepEqual(c.regressions.map((r) => r.detail), ['a request main does not make, not in the capture: GET https://cdn.example/new.js']);
+		assert.equal(c.timing.length, 1);
+	});
+});

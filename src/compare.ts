@@ -99,6 +99,14 @@ const SOURCE_MAP = /\.map(?:\?[^ ]*)?(?: |$)/;
 /** A journey that logged an error the old page did not: whichever journeys were explored, that one threw. */
 const CONSOLE_ERRORS = /console errors: (?!\(none\))/;
 
+function missUrl(miss: string): URL | undefined {
+	try {
+		return new URL(miss.split(' ')[1] ?? '');
+	} catch {
+		return undefined;
+	}
+}
+
 /** Dimensions whose failures come from the journeys the checker chose to explore on the old page. */
 const JOURNEY_DIMENSIONS = new Set(['behaviour', 'motion']);
 
@@ -190,7 +198,13 @@ export function compareSuite(suite: Suite, result: SuiteResult | undefined, base
 			}
 		}
 		const knownMisses = new Set(baseline.misses);
-		for (const miss of result.seal.misses) if (!knownMisses.has(miss) && !SOURCE_MAP.test(miss)) regressions.push({ kind: 'capture', detail: `a request main does not make, not in the capture: ${miss}` });
+		const oldOrigin = new URL(suite.old).origin;
+		for (const miss of result.seal.misses) {
+			if (knownMisses.has(miss) || SOURCE_MAP.test(miss)) continue;
+			// The old site is only ever asked by the checker exploring it, never by the Markless build.
+			if (missUrl(miss)?.origin === oldOrigin) timing.push({ kind: 'capture', detail: `the old site was asked for a page the capture does not hold: ${miss}` });
+			else regressions.push({ kind: 'capture', detail: `a request main does not make, not in the capture: ${miss}` });
+		}
 	}
 	return { suite, result, regressions, timing, fixed, knownReds, unbaselined, ...(baseline ? { baseline } : {}) };
 }
@@ -213,7 +227,7 @@ export function applyQuarantine(comparison: Omit<SuiteComparison, 'quarantined'>
 	const held = (r: Regression) =>
 		live.some((q) => {
 			if (q.dimension === 'capture') return r.kind === 'capture' && r.detail.includes(q.check);
-			if (q.route !== r.route || (r.kind !== 'failure' && r.kind !== 'weight')) return false;
+			if ((q.route !== '*' && q.route !== r.route) || (r.kind !== 'failure' && r.kind !== 'weight')) return false;
 			if (q.dimension === '*') return true;
 			return r.kind === 'failure' && r.detail.startsWith(q.dimension) && r.detail.includes(`: ${q.check}`);
 		});
