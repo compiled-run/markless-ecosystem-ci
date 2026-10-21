@@ -9,6 +9,14 @@ export default {
 	install: ['--legacy-peer-deps'],
 	quarantine: [
 		{
+			route: "/",
+			dimension: "visual",
+			check: "screenshot in viewport width 1024px",
+			reason: "red in one of four sample runs of builds with the same / (nightly runs 39658669659 and 39662326118 clean, 39662760853 367 pixels apart at the forced 1024 px width; the page draws its charts at load)",
+			owner: "markless-migrate checker (thejackshelton)",
+			until: "2026-11-04",
+		},
+		{
 			route: "/settings/appearance",
 			dimension: "a11y",
 			check: "motion under prefers-reduced-motion",
