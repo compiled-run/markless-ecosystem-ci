@@ -35,10 +35,7 @@ failures one by one, not only pass or fail.
 5. **The comparison.** `ecosystem-ci.ts compare` reads every suite's result and `baselines/<lane>/<suite>.json`
    (main's last nightly result) and reports a regression when:
    - a step (install, build, test, serve, check) fails that passed on main;
-   - a route has a failure whose id main does not have (failure ids are stable across runs for the same
-     difference on the same route and viewport), except a responsiveness failure that is only about time:
-     two replays of the same build disagreed on which controls were slow, so those are listed, not counted
-     (a first interaction that fetches code is counted);
+   - a route has a failure main does not have (see below for what counts as the same failure);
    - JavaScript downloaded or run at load grows by more than 2 KB and 5% over main;
    - a route main checked could not be checked;
    - the site makes a request main does not make (a capture miss main did not have).
@@ -47,8 +44,9 @@ failures one by one, not only pass or fail.
    Two failures are the same failure when their dimension, viewport and check match (the checker's own id also
    hashes measured numbers that move between replays). Three kinds of new failure are shown in the table but not
    counted, because two replays of one build on one runner disagreed on them: a responsiveness failure that is
-   only about time, a control the exploration did not reach ("not exercised"), and a new journey failure on a
-   route main already has red on that dimension. A check that still varied after that is quarantined in its suite
+   only about time (a first interaction that fetches code still counts), a control the exploration did not reach
+   ("not exercised"), and a new journey failure on a route main already has red on that dimension (one that logs
+   a console error still counts). A source map the checker fetches to name a source line is not a capture miss. A check that still varied after that is quarantined in its suite
    (`quarantine`, with the measured reason, an owner and an expiry at most two weeks out); an expired entry fails
    every run. `scripts/stability.ts` compares two replays the way `compare` does, and the record workflow runs it.
 
@@ -57,14 +55,30 @@ failures one by one, not only pass or fail.
 - **sample** (per pull request, release gate): a few routes per site, picked to cover the shapes that break:
   in-place navigation, big pages, dialogs and menus, keyed lists, idle or visible handlers, page scripts, theme
   classes and streaming. `node ecosystem-ci.ts list` prints each route and what it covers.
-- **full** (nightly): every route each port is checked on, split into CI jobs of up to 60 routes.
+- **full** (nightly): every route each port is checked on, split into CI jobs of up to 25 routes. The sample runs in jobs of two routes.
+
+## Cost
+
+Measured on GitHub's `ubuntu-latest` runners on 2026-10-21:
+
+- Building and packing Markless: one job, 45 to 50 s.
+- The per-PR sample: 8 suites, 22 routes, 18 jobs of at most two routes each. A job takes 4 to 16 minutes
+  (realworld 4, docusaurus 5 to 10, alpinejs-dev 6 to 10, ag-grid 8, shadcn-admin 10 to 16), and a vite-dev job
+  about 22. With the jobs in parallel, a run takes about 25 minutes from start to the table, and about 160 runner
+  minutes in total.
+- The nightly full lane: 45 jobs of up to 25 routes, with the checker's own journey budget. docusaurus alone is 23
+  of them, because it has 571 routes.
+- Captures: 12 MB for the eight suites, each body stored once and brotli-compressed.
+
+The checker is memory-heavy (two Chromium contexts per route, two routes at once), so a job runs one suite shard and
+nothing else. The checker runs as many routes at once as `--concurrency` says (2 by default).
 
 ## Triggers
 
 Nothing here needs a stored secret, a GitHub App or a personal token.
 
 - **A pull request comment.** A maintainer (owner, member or collaborator) comments `/ecosystem-ci run` (or
-  `/ecosystem-ci run shadcn-admin htmx-org`) on a compiled-run/markless pull request. Markless's own
+  `/ecosystem-ci run shadcn-admin realworld`) on a compiled-run/markless pull request. Markless's own
   `.github/workflows/ecosystem-ci.yml` checks out this public repository and the pull request's commit, runs the
   suites in its own Actions run (the jobs that build pull request code get a read-only token), and posts the table
   on the pull request with its own `GITHUB_TOKEN`.
