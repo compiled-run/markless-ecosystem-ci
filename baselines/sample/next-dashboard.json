@@ -1,0 +1,832 @@
+{
+	"suite": "next-dashboard",
+	"lane": "sample",
+	"markless": {
+		"sha": "655221643ce4ad6aff619f35f656c1a8c3e87438",
+		"version": "0.8.0",
+		"ref": "main"
+	},
+	"migrate": {
+		"sha": "64947b72a31d8ed0eeede38df9a587317426459c"
+	},
+	"recordedAt": "2026-10-21T21:51:10.400Z",
+	"steps": {
+		"install": "pass",
+		"build": "pass",
+		"test": "skipped",
+		"serve": "pass",
+		"check": "pass"
+	},
+	"routes": {
+		"/": {
+			"ok": false,
+			"failures": [
+				{
+					"id": "5c8478232c",
+					"dimension": "behaviour",
+					"check": "browser storage after the page loads"
+				}
+			],
+			"weight": {
+				"downloaded": 193878,
+				"executed": 6932
+			},
+			"owner": "markless-migrate next-dashboard port (thejackshelton)"
+		},
+		"/ as signed-in": {
+			"ok": false,
+			"failures": [
+				{
+					"id": "13f1c9dcc5",
+					"dimension": "http",
+					"check": "content-type"
+				},
+				{
+					"id": "e0e529ccac",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "1e78292412",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "5170bb9ce7",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "01800a9f57",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "e87d060f2e",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "06f163fe18",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "a3ca009310",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "b156feaee2",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "dc1a343d76",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "fdf7d69a89",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "0bffd5bf95",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "6ad6a76fba",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "daceae53ff",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "193bdbd3ef",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "91282cfa7e",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "3cf630752c",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "5f8c137731",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "aaf812f1f2",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "a062eb7be0",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "f42a662919",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "b2d1420414",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "f10ce6bc21",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "43362ecbd7",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "3990f6cb44",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "dd24b83eb1",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "d90b82f910",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "7fa59019c6",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "0099a85c2d",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "52fd1a96d6",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "aa4661b61f",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "b1ac744e50",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "5b1b0183c7",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "1efc10fdfd",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "5b1b0183c7",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "eba9dc76e3",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "e2795a2d87",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "e341e7269d",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "e6046ae3dd",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "f0ca57624f",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "4058751f8c",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "a2d056f449",
+					"dimension": "visual",
+					"check": "screenshot",
+					"viewport": "desktop"
+				},
+				{
+					"id": "1383857940",
+					"dimension": "css",
+					"check": "computed style of html (body/html)",
+					"viewport": "desktop"
+				},
+				{
+					"id": "809e35d99b",
+					"dimension": "a11y",
+					"check": "axe color-contrast: Elements must meet minimum color contrast ratio thresholds",
+					"viewport": "desktop"
+				},
+				{
+					"id": "c9c4d20a20",
+					"dimension": "a11y",
+					"check": "axe heading-order: Heading levels should only increase by one",
+					"viewport": "desktop"
+				},
+				{
+					"id": "7aaa3572ac",
+					"dimension": "a11y",
+					"check": "axe region: All page content should be contained by landmarks",
+					"viewport": "desktop"
+				},
+				{
+					"id": "7f5ed6a39d",
+					"dimension": "a11y",
+					"check": "landmarks",
+					"viewport": "desktop"
+				},
+				{
+					"id": "b505015b83",
+					"dimension": "a11y",
+					"check": "landmarks",
+					"viewport": "desktop"
+				},
+				{
+					"id": "d13bdb59e3",
+					"dimension": "a11y",
+					"check": "focus order (Tab), first difference at stop 1",
+					"viewport": "desktop"
+				},
+				{
+					"id": "338fec7648",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "296693a4af",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "3f23627ff7",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "ad151e698e",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "00249ff7ba",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "ad151e698e",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "1777bd096c",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "ad151e698e",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "8d11b5a180",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "d10a2ac25b",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "16f7b1c6b0",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "d5593f2e26",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "e8a6b04531",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "b15a07f41c",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "85866a1cad",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "48c892937b",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "7feef5ce69",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "70b15b46e5",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "d41da57c7a",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "70b15b46e5",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "84b3d3019d",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "e929d1e231",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "1f93a2de08",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "bbcc1d35fc",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "166ef209ab",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "43332a638d",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "0a0350ddd5",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "cc585f3bc5",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "69bc06caa0",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "70b461f7be",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "a03540ac21",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "838407b1e8",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "7a8cc430f8",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "0e7e1fc923",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "7224cd9cac",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "d45bad678c",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "9c94a58ee2",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "2584092aed",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "faa5951f1d",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "52619ddd98",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "e251b1fa4d",
+					"dimension": "visual",
+					"check": "page size",
+					"viewport": "mobile"
+				},
+				{
+					"id": "87f70e20fb",
+					"dimension": "css",
+					"check": "computed style of html (body/html)",
+					"viewport": "mobile"
+				},
+				{
+					"id": "31402ebf31",
+					"dimension": "i18n",
+					"check": "<html lang>",
+					"viewport": "desktop"
+				},
+				{
+					"id": "9e08dff55a",
+					"dimension": "seo",
+					"check": "title"
+				},
+				{
+					"id": "acf6740cf3",
+					"dimension": "seo",
+					"check": "meta:description"
+				},
+				{
+					"id": "fc7db30324",
+					"dimension": "seo",
+					"check": "meta:og:title"
+				},
+				{
+					"id": "8a420126e5",
+					"dimension": "seo",
+					"check": "meta:og:description"
+				},
+				{
+					"id": "2650455295",
+					"dimension": "seo",
+					"check": "meta:og:image"
+				},
+				{
+					"id": "d594e436e1",
+					"dimension": "seo",
+					"check": "meta:og:image:width"
+				},
+				{
+					"id": "dbc9ebca8b",
+					"dimension": "seo",
+					"check": "meta:og:image:height"
+				},
+				{
+					"id": "7606467d1a",
+					"dimension": "seo",
+					"check": "meta:og:image:type"
+				},
+				{
+					"id": "712db190c9",
+					"dimension": "seo",
+					"check": "meta:twitter:card"
+				},
+				{
+					"id": "24a9c72c0f",
+					"dimension": "seo",
+					"check": "meta:twitter:title"
+				},
+				{
+					"id": "f5edbb200d",
+					"dimension": "seo",
+					"check": "meta:twitter:description"
+				},
+				{
+					"id": "edf9d0696d",
+					"dimension": "seo",
+					"check": "meta:twitter:image"
+				},
+				{
+					"id": "8476bf9b47",
+					"dimension": "seo",
+					"check": "meta:twitter:image:width"
+				},
+				{
+					"id": "3d3c1f8b80",
+					"dimension": "seo",
+					"check": "meta:twitter:image:height"
+				},
+				{
+					"id": "210122310c",
+					"dimension": "seo",
+					"check": "meta:twitter:image:type"
+				},
+				{
+					"id": "c086452369",
+					"dimension": "network",
+					"check": "browser request the old page does not make"
+				},
+				{
+					"id": "ba9310d70f",
+					"dimension": "weight",
+					"check": "JavaScript downloaded"
+				},
+				{
+					"id": "e3a7ecec06",
+					"dimension": "weight",
+					"check": "JavaScript run at load"
+				},
+				{
+					"id": "9673680170",
+					"dimension": "navigation",
+					"check": "in place from /dashboard/customers: following the link"
+				}
+			],
+			"weight": {
+				"downloaded": 464616,
+				"executed": 8017
+			},
+			"owner": "markless-migrate next-dashboard port (thejackshelton)"
+		},
+		"/dashboard/customers": {
+			"ok": false,
+			"failures": [
+				{
+					"id": "1aa2dd2eb2",
+					"dimension": "behaviour",
+					"check": "browser storage after the page loads"
+				},
+				{
+					"id": "6a803eb0c2",
+					"dimension": "navigation",
+					"check": "in place from /: following the link"
+				}
+			],
+			"weight": {
+				"downloaded": 172814,
+				"executed": 2928
+			},
+			"owner": "markless-migrate next-dashboard port (thejackshelton)"
+		},
+		"/dashboard/customers as signed-in": {
+			"ok": false,
+			"failures": [
+				{
+					"id": "989bc1f05d",
+					"dimension": "network",
+					"check": "browser request the old page does not make"
+				},
+				{
+					"id": "be34ae8daa",
+					"dimension": "behaviour",
+					"check": "type \"Sample text from markless-migrate\" into textbox \"Search customers...\""
+				},
+				{
+					"id": "1afca3f661",
+					"dimension": "behaviour",
+					"check": "click button \"Sign Out\""
+				},
+				{
+					"id": "28de75e3f9",
+					"dimension": "responsiveness",
+					"check": "first interaction with textbox \"Search customers...\" (4x CPU, mobile)",
+					"viewport": "mobile"
+				},
+				{
+					"id": "a99e47f3e1",
+					"dimension": "responsiveness",
+					"check": "navigation from link \"Acme\" (4x CPU, mobile)",
+					"viewport": "mobile"
+				}
+			],
+			"weight": {
+				"downloaded": 474990,
+				"executed": 9444
+			},
+			"owner": "markless-migrate next-dashboard port (thejackshelton)"
+		},
+		"/dashboard/invoices": {
+			"ok": false,
+			"failures": [
+				{
+					"id": "0ee7d0ecf9",
+					"dimension": "behaviour",
+					"check": "browser storage after the page loads"
+				}
+			],
+			"weight": {
+				"downloaded": 172814,
+				"executed": 2705
+			},
+			"owner": "markless-migrate next-dashboard port (thejackshelton)"
+		},
+		"/dashboard/invoices as signed-in": {
+			"ok": false,
+			"failures": [
+				{
+					"id": "004d9bccf5",
+					"dimension": "network",
+					"check": "browser request the old page does not make"
+				},
+				{
+					"id": "953b78655f",
+					"dimension": "weight",
+					"check": "JavaScript downloaded"
+				},
+				{
+					"id": "09f0a8d5f3",
+					"dimension": "behaviour",
+					"check": "type \"Sample text from markless-migrate\" into textbox \"Search invoices...\""
+				},
+				{
+					"id": "53e914f202",
+					"dimension": "a11y",
+					"check": "press Enter on button \"Delete\""
+				},
+				{
+					"id": "672b906f29",
+					"dimension": "a11y",
+					"check": "press Enter on button \"Delete\" #2"
+				},
+				{
+					"id": "24463ae32a",
+					"dimension": "a11y",
+					"check": "press Enter on button \"Delete\" #3"
+				},
+				{
+					"id": "0340621ff2",
+					"dimension": "a11y",
+					"check": "press Enter on button \"Delete\" #4"
+				},
+				{
+					"id": "649fc282f2",
+					"dimension": "a11y",
+					"check": "press Enter on button \"Delete\" #5"
+				},
+				{
+					"id": "6cc10cb557",
+					"dimension": "a11y",
+					"check": "press Enter on button \"Delete\" #6"
+				},
+				{
+					"id": "e91a5aae25",
+					"dimension": "behaviour",
+					"check": "click button \"Sign Out\""
+				},
+				{
+					"id": "a218c1005a",
+					"dimension": "responsiveness",
+					"check": "first interaction with textbox \"Search invoices...\" (4x CPU, mobile)",
+					"viewport": "mobile"
+				}
+			],
+			"weight": {
+				"downloaded": 583992,
+				"executed": 12893
+			},
+			"owner": "markless-migrate next-dashboard port (thejackshelton)"
+		}
+	},
+	"misses": []
+}

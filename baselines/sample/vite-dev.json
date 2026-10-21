@@ -1,0 +1,3488 @@
+{
+	"suite": "vite-dev",
+	"lane": "sample",
+	"markless": {
+		"sha": "655221643ce4ad6aff619f35f656c1a8c3e87438",
+		"version": "0.8.0",
+		"ref": "main"
+	},
+	"migrate": {
+		"sha": "64947b72a31d8ed0eeede38df9a587317426459c"
+	},
+	"recordedAt": "2026-10-21T21:51:02.569Z",
+	"steps": {
+		"install": "pass",
+		"build": "pass",
+		"test": "skipped",
+		"serve": "pass",
+		"check": "pass"
+	},
+	"routes": {
+		"/": {
+			"ok": false,
+			"failures": [
+				{
+					"id": "f0b667cefd",
+					"dimension": "http",
+					"check": "status"
+				},
+				{
+					"id": "12c23893a3",
+					"dimension": "http",
+					"check": "content-type"
+				},
+				{
+					"id": "5572e963ca",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "e119a8173d",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "f0c0cf554c",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "2cdefd41c0",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "587474b3e8",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "454b58020c",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "4d0187b25a",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "2b72bf1ff1",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "39768cebca",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "9dc5444940",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "0c22583972",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "9f1003a315",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "76e42d3b64",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "264dc23fbe",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "9320f08a64",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "7784817767",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "0ec269cc6c",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "20713ffc4e",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "be43733886",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "f6f5dd28fd",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "desktop"
+				},
+				{
+					"id": "1d7401c240",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "7951cbf8dd",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "7405b6c67f",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "9a821949fe",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "58701c40bd",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "21e318ccec",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "346d787786",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "9db998f244",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "0ba7305d32",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "3741bb9d16",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "80401d99da",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "ae9ef92f4a",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "7c36b96618",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "cbb8ed2dc1",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "539999c482",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "d620d7b175",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "860b54e511",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "b325f8323e",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "d2594e3ac5",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "3b54041dbc",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "desktop"
+				},
+				{
+					"id": "9e9812fed3",
+					"dimension": "visual",
+					"check": "page size",
+					"viewport": "desktop"
+				},
+				{
+					"id": "aa86950612",
+					"dimension": "css",
+					"check": "computed style of html (body/html)",
+					"viewport": "desktop"
+				},
+				{
+					"id": "58c5b9bf1f",
+					"dimension": "css",
+					"check": "computed style of body (body/body)",
+					"viewport": "desktop"
+				},
+				{
+					"id": "8ed06d6d90",
+					"dimension": "css",
+					"check": "computed style of pre (body/pre)",
+					"viewport": "desktop"
+				},
+				{
+					"id": "a58eade03c",
+					"dimension": "a11y",
+					"check": "axe document-title: Documents must have <title> element to aid in navigation",
+					"viewport": "desktop"
+				},
+				{
+					"id": "2220f1ebc6",
+					"dimension": "a11y",
+					"check": "axe html-has-lang: <html> element must have a lang attribute",
+					"viewport": "desktop"
+				},
+				{
+					"id": "660091f61c",
+					"dimension": "a11y",
+					"check": "axe page-has-heading-one: Page should contain a level-one heading",
+					"viewport": "desktop"
+				},
+				{
+					"id": "76b4e0183a",
+					"dimension": "a11y",
+					"check": "landmarks",
+					"viewport": "desktop"
+				},
+				{
+					"id": "bdae5f60ca",
+					"dimension": "a11y",
+					"check": "landmarks",
+					"viewport": "desktop"
+				},
+				{
+					"id": "6515981a78",
+					"dimension": "a11y",
+					"check": "landmarks",
+					"viewport": "desktop"
+				},
+				{
+					"id": "b228406707",
+					"dimension": "a11y",
+					"check": "focus order (Tab), first difference at stop 1",
+					"viewport": "desktop"
+				},
+				{
+					"id": "e8b82ec979",
+					"dimension": "assets",
+					"check": "image #1 /assets/footer-background.BIgtbvhx.jpg",
+					"viewport": "desktop"
+				},
+				{
+					"id": "0ab3beaf9c",
+					"dimension": "assets",
+					"check": "image #2 data:image/svg+xml,%3csvg%20viewBox='0%200%2023%2014'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M20.7482%200H18.8887C21.641%203.93959%2021.6571%2010.0462%2018.8887%2014H20.7482C23.516%2010.0462%2023.4999%203.93959%2020.7482%200Z'%20fill='white'/%3e%3cpath%20d='M2.07027%203.05176e-05C-0.682028%203.93963%20-0.698142%2010.0463%202.07027%2014H3.92985C1.16208%2010.0463%201.1782%203.93963%203.92985%203.05176e-05H2.07027Z'%20fill='white'/%3e%3cpath%20d='M12.0135%2013.6771C11.815%2013.9298%2011.4089%2013.7892%2011.4089%2013.4683V10.3853C11.4089%2010.0114%2011.106%209.70849%2010.7321%209.70849H7.32818C7.05295%209.70849%206.89245%209.39716%207.05295%209.1735L9.29089%206.04026C9.61124%205.59228%209.29089%204.96963%208.73979%204.96963H4.62036C4.34513%204.96963%204.18463%204.65831%204.34512%204.43464L7.24632%200.372579C7.31013%200.283628%207.41262%200.230774%207.52155%200.230774H16.1671C16.4424%200.230774%2016.6029%200.5421%2016.4424%200.765765L14.2044%203.89901C13.8841%204.34698%2014.2044%204.96963%2014.7555%204.96963H18.1595C18.4418%204.96963%2018.6004%205.29514%2018.4257%205.51751L12.0142%2013.6777L12.0135%2013.6771Z'%20fill='white'/%3e%3c/svg%3e",
+					"viewport": "desktop"
+				},
+				{
+					"id": "908d13f368",
+					"dimension": "assets",
+					"check": "image #3 /assets/vite-dark.D2ACe7TL.svg",
+					"viewport": "desktop"
+				},
+				{
+					"id": "4f48a730a9",
+					"dimension": "assets",
+					"check": "image #4 /assets/vite-light.t8GCa_VF.svg",
+					"viewport": "desktop"
+				},
+				{
+					"id": "7ca6a8645a",
+					"dimension": "assets",
+					"check": "image #5 data:image/svg+xml,%3csvg%20viewBox='0%200%2091%2015'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M27.3271%200C33.439%202.28882e-05%2036.6504%202.56908%2036.6504%207.5C36.6503%2012.4308%2033.4389%2015%2027.3271%2015C21.2156%2014.9999%2018.0245%2012.4307%2018.0244%207.5C18.0244%202.56915%2021.2155%209.15527e-05%2027.3271%200ZM70.0195%200C67.0714%204.22099%2067.0541%2010.7638%2070.0195%2015H68.0264C65.0603%2010.7639%2065.0777%204.22097%2068.0264%200H70.0195ZM88.2852%200C91.2333%204.22098%2091.2505%2010.7638%2088.2852%2015H86.293C89.259%2010.7639%2089.2417%204.22096%2086.293%200H88.2852ZM78.1562%200.0205078C82.2874%200.0206451%2085.6357%203.3695%2085.6357%207.5C85.6357%2011.6305%2082.2868%2014.9794%2078.1562%2014.9795C74.0256%2014.9795%2070.6768%2011.6306%2070.6768%207.5C70.6768%203.36942%2074.0257%200.0205078%2078.1562%200.0205078ZM9.13672%2010.6904L12.9072%200.249023H18.0664L12.3477%2014.751H5.71777L0%200.249023H5.30371L9.13672%2010.6904ZM43.5293%2014.751H38.5566V0.249023H43.5293V14.751ZM55.166%200.249023C60.2005%200.249039%2063.0801%202.52763%2063.0801%207.5C63.08%2012.4722%2060.1798%2014.7509%2055.1455%2014.751H46.0498V0.249023H55.166ZM82.7119%204.3584C82.6014%204.11057%2082.2689%204.06387%2082.0977%204.27441L75.6289%2012.209C75.4742%2012.3996%2075.5485%2012.6852%2075.7764%2012.7764C76.4462%2013.0443%2077.2392%2013.1768%2078.1562%2013.1768C81.5505%2013.1767%2083.2676%2011.3536%2083.2676%207.5C83.2676%206.23413%2083.0814%205.18989%2082.7119%204.3584ZM27.3271%203.56348C24.4475%203.56358%2023.1006%204.80673%2023.1006%207.5C23.1006%2010.1931%2024.4476%2011.4159%2027.3271%2011.416C30.2069%2011.416%2031.5537%2010.2139%2031.5537%207.5C31.5537%204.78593%2030.2069%203.56351%2027.3271%203.56348ZM51.0225%2011.2295H54.4619C56.8234%2011.2294%2057.9834%2010.2138%2057.9834%207.5C57.9834%204.78608%2056.8235%203.77064%2054.4619%203.77051H51.0225V11.2295ZM78.1562%201.84375C74.7425%201.84375%2073.0449%203.66709%2073.0449%207.5C73.0449%208.77074%2073.2294%209.82088%2073.5996%2010.6572C73.7095%2010.9057%2074.0426%2010.9517%2074.2139%2010.7412L80.6719%202.80566C80.8271%202.6151%2080.7518%202.32979%2080.5234%202.23926C79.8557%201.97479%2079.0664%201.84377%2078.1562%201.84375Z'%20fill='white'/%3e%3c/svg%3e",
+					"viewport": "desktop"
+				},
+				{
+					"id": "73d490c158",
+					"dimension": "assets",
+					"check": "image #6 /trusted-by/openai.svg",
+					"viewport": "desktop"
+				},
+				{
+					"id": "6d0527dcbe",
+					"dimension": "assets",
+					"check": "image #7 /trusted-by/shopify.svg",
+					"viewport": "desktop"
+				},
+				{
+					"id": "84e307dc72",
+					"dimension": "assets",
+					"check": "image #8 /trusted-by/stripe.svg",
+					"viewport": "desktop"
+				},
+				{
+					"id": "02fea75fa6",
+					"dimension": "assets",
+					"check": "image #9 /trusted-by/linear.svg",
+					"viewport": "desktop"
+				},
+				{
+					"id": "d70a7b9af4",
+					"dimension": "assets",
+					"check": "image #10 /trusted-by/clickup.svg",
+					"viewport": "desktop"
+				},
+				{
+					"id": "d4379f7e94",
+					"dimension": "assets",
+					"check": "image #11 /trusted-by/wiz.svg",
+					"viewport": "desktop"
+				},
+				{
+					"id": "a5fb84ffe6",
+					"dimension": "assets",
+					"check": "image #12 /assets/vite-featurepanel-1-background.BHnDg8j4.jpg",
+					"viewport": "desktop"
+				},
+				{
+					"id": "cc24dc244b",
+					"dimension": "assets",
+					"check": "image #13 /assets/vite-featurepanel-1-terminal.CQVUoUSU.svg",
+					"viewport": "desktop"
+				},
+				{
+					"id": "cad021ff68",
+					"dimension": "assets",
+					"check": "image #14 /assets/vite-featurepanel-2-terminal.ChpAU6sR.png",
+					"viewport": "desktop"
+				},
+				{
+					"id": "c39d0d0fb5",
+					"dimension": "assets",
+					"check": "image #15 /assets/vite-featurepanel-4-background.Bnx0RZk-.jpg",
+					"viewport": "desktop"
+				},
+				{
+					"id": "355232bcb6",
+					"dimension": "assets",
+					"check": "image #16 /assets/vite-featurepanel-4-terminal.BRnxuy_J.svg",
+					"viewport": "desktop"
+				},
+				{
+					"id": "466bd29d71",
+					"dimension": "assets",
+					"check": "image #17 /assets/vite-featurepanel-4-background.Bnx0RZk-.jpg",
+					"viewport": "desktop"
+				},
+				{
+					"id": "9f8fb48d87",
+					"dimension": "assets",
+					"check": "image #18 /assets/vite-typed-api.B7gyuuaS.svg",
+					"viewport": "desktop"
+				},
+				{
+					"id": "bcab7ac238",
+					"dimension": "assets",
+					"check": "image #19 /assets/vite-ssr-support.DvdwoLgL.png",
+					"viewport": "desktop"
+				},
+				{
+					"id": "4cd02ced8d",
+					"dimension": "assets",
+					"check": "image #20 /assets/vite-ci.rfkpyz0p.svg",
+					"viewport": "desktop"
+				},
+				{
+					"id": "48bd23ecd4",
+					"dimension": "assets",
+					"check": "image #21 /assets/vite-frameworks-mobile.BooA3_E6.png",
+					"viewport": "desktop"
+				},
+				{
+					"id": "ac0fb9dca3",
+					"dimension": "assets",
+					"check": "image #22 /assets/vite-frameworks.D3X8o4O8.png",
+					"viewport": "desktop"
+				},
+				{
+					"id": "717aa0e204",
+					"dimension": "assets",
+					"check": "image #23 https://pbs.twimg.com/profile_images/1810837163447308292/8Piov0f6_400x400.jpg",
+					"viewport": "desktop"
+				},
+				{
+					"id": "6a0d514d64",
+					"dimension": "assets",
+					"check": "image #24 https://pbs.twimg.com/profile_images/557940120184041473/bFyXy8Pu_400x400.jpeg",
+					"viewport": "desktop"
+				},
+				{
+					"id": "8a3428a20e",
+					"dimension": "assets",
+					"check": "image #25 https://pbs.twimg.com/profile_images/1691627325794725888/voQFcYjY_400x400.jpg",
+					"viewport": "desktop"
+				},
+				{
+					"id": "015181dfb1",
+					"dimension": "assets",
+					"check": "image #26 https://pbs.twimg.com/profile_images/754886061872979968/BzaOWhs1_400x400.jpg",
+					"viewport": "desktop"
+				},
+				{
+					"id": "4d3f58e74a",
+					"dimension": "assets",
+					"check": "image #27 https://pbs.twimg.com/profile_images/1374778373239681025/Sc9ehtAr_400x400.jpg",
+					"viewport": "desktop"
+				},
+				{
+					"id": "5052fb8b59",
+					"dimension": "assets",
+					"check": "image #28 https://pbs.twimg.com/profile_images/1911613315765133312/HVkULegC_400x400.jpg",
+					"viewport": "desktop"
+				},
+				{
+					"id": "3604d77a40",
+					"dimension": "assets",
+					"check": "image #29 https://pbs.twimg.com/profile_images/3380865881/f73b3687ff39b795db05fcaf35972270_400x400.jpeg",
+					"viewport": "desktop"
+				},
+				{
+					"id": "8373370cc6",
+					"dimension": "assets",
+					"check": "image #30 https://pbs.twimg.com/profile_images/1910252462126313472/gXgT-jxL_400x400.jpg",
+					"viewport": "desktop"
+				},
+				{
+					"id": "7e2ebf8f64",
+					"dimension": "assets",
+					"check": "image #31 https://avatars.githubusercontent.com/u/13629190?v=4",
+					"viewport": "desktop"
+				},
+				{
+					"id": "96ad9249f9",
+					"dimension": "assets",
+					"check": "image #32 /assets/vite-by-voidzero.D7bblMgo.png",
+					"viewport": "desktop"
+				},
+				{
+					"id": "cc1a7cb661",
+					"dimension": "assets",
+					"check": "image #33 https://sponsors.vite.dev/images/cloudflare.png",
+					"viewport": "desktop"
+				},
+				{
+					"id": "e3836266d5",
+					"dimension": "assets",
+					"check": "image #34 https://sponsors.vite.dev/images/bolt.svg",
+					"viewport": "desktop"
+				},
+				{
+					"id": "f56de582db",
+					"dimension": "assets",
+					"check": "image #35 https://sponsors.vite.dev/images/nuxtlabs.svg",
+					"viewport": "desktop"
+				},
+				{
+					"id": "173a20f060",
+					"dimension": "assets",
+					"check": "image #36 https://sponsors.vite.dev/images/storyblok.png",
+					"viewport": "desktop"
+				},
+				{
+					"id": "cab8450a99",
+					"dimension": "assets",
+					"check": "image #37 https://sponsors.vite.dev/images/coderabbit.png",
+					"viewport": "desktop"
+				},
+				{
+					"id": "24caa28a41",
+					"dimension": "assets",
+					"check": "image #38 https://sponsors.vite.dev/images/greptile.png",
+					"viewport": "desktop"
+				},
+				{
+					"id": "548511db1e",
+					"dimension": "assets",
+					"check": "image #39 https://sponsors.vite.dev/images/railway.svg",
+					"viewport": "desktop"
+				},
+				{
+					"id": "0816db8a22",
+					"dimension": "assets",
+					"check": "image #40 https://sponsors.vite.dev/images/serpapi.png",
+					"viewport": "desktop"
+				},
+				{
+					"id": "8243e8adec",
+					"dimension": "assets",
+					"check": "image #41 https://sponsors.vite.dev/images/mux.svg",
+					"viewport": "desktop"
+				},
+				{
+					"id": "954d48a7bf",
+					"dimension": "assets",
+					"check": "image #42 https://sponsors.vite.dev/images/nx.svg",
+					"viewport": "desktop"
+				},
+				{
+					"id": "54cccefee5",
+					"dimension": "assets",
+					"check": "image #43 https://sponsors.vite.dev/images/transloadit.png",
+					"viewport": "desktop"
+				},
+				{
+					"id": "7d0389a1a3",
+					"dimension": "assets",
+					"check": "image #44 https://sponsors.vite.dev/images/handsontable.svg",
+					"viewport": "desktop"
+				},
+				{
+					"id": "669e2bdd71",
+					"dimension": "assets",
+					"check": "image #45 https://sponsors.vite.dev/images/mojam.svg",
+					"viewport": "desktop"
+				},
+				{
+					"id": "02514cac78",
+					"dimension": "assets",
+					"check": "image #46 https://avatars.githubusercontent.com/u/81530787?v=4",
+					"viewport": "desktop"
+				},
+				{
+					"id": "a6d5eec85c",
+					"dimension": "assets",
+					"check": "image #47 https://sponsors.vite.dev/images/zephyr_cloud.png",
+					"viewport": "desktop"
+				},
+				{
+					"id": "c98ef31dab",
+					"dimension": "assets",
+					"check": "image #48 https://sponsors.vite.dev/images/catalyst.svg",
+					"viewport": "desktop"
+				},
+				{
+					"id": "26956e2650",
+					"dimension": "assets",
+					"check": "image #49 https://sponsors.vite.dev/images/sanity.svg",
+					"viewport": "desktop"
+				},
+				{
+					"id": "23ce460973",
+					"dimension": "assets",
+					"check": "image #50 https://sponsors.vite.dev/images/follower24.svg",
+					"viewport": "desktop"
+				},
+				{
+					"id": "90df729a16",
+					"dimension": "assets",
+					"check": "image #51 https://avatars.githubusercontent.com/u/107723282?u=2639caa14ce293a0b6202c5766a40bb99ac9697e&v=4",
+					"viewport": "desktop"
+				},
+				{
+					"id": "ced53cfb67",
+					"dimension": "assets",
+					"check": "image #52 https://images.opencollective.com/bairesdev/48bb773/logo/460.png",
+					"viewport": "desktop"
+				},
+				{
+					"id": "628bf525b4",
+					"dimension": "assets",
+					"check": "image #53 https://sponsors.vite.dev/images/cloudways.png",
+					"viewport": "desktop"
+				},
+				{
+					"id": "0d402af7f0",
+					"dimension": "assets",
+					"check": "image #54 /assets/footer-background.BIgtbvhx.jpg",
+					"viewport": "desktop"
+				},
+				{
+					"id": "45c2043598",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "145e322df2",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "85fc032ef6",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "99581cea44",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "95bed8c2f4",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "af87a43c16",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "06edc96de2",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "1e08efe866",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "3fb2f046ab",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "d334b5cf55",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "de6936738d",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "3ee0ae6d9a",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "2e9a8fac21",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "f96e6ad6eb",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "75733f2dde",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "c8333539d4",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "c6548544f2",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "e8818136c8",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "2b216f16b9",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "2f5d27a79a",
+					"dimension": "rendered",
+					"check": "accessibility tree",
+					"viewport": "mobile"
+				},
+				{
+					"id": "2b4b2f1df3",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "6bd3cbbdc2",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "4510029eaf",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "8fac183c25",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "3665c9869a",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "c66311c8bc",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "3b9ec258c8",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "bed7a10bbb",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "0547c220bb",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "02eeb94e7a",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "49c1b6b660",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "5bb5e79083",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "e89251eb83",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "4d5801eb08",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "dd91cab5ec",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "ca521d0ded",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "2e06a4ac17",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "100fe82c6c",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "f199e48380",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "8d1980e995",
+					"dimension": "rendered",
+					"check": "visible text",
+					"viewport": "mobile"
+				},
+				{
+					"id": "5d2d004b3a",
+					"dimension": "visual",
+					"check": "page size",
+					"viewport": "mobile"
+				},
+				{
+					"id": "17dd3a77ea",
+					"dimension": "css",
+					"check": "computed style of html (body/html)",
+					"viewport": "mobile"
+				},
+				{
+					"id": "ddee42f215",
+					"dimension": "css",
+					"check": "computed style of body (body/body)",
+					"viewport": "mobile"
+				},
+				{
+					"id": "9947f48d98",
+					"dimension": "assets",
+					"check": "image #1 /assets/footer-background.BIgtbvhx.jpg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "3d4bf433f7",
+					"dimension": "assets",
+					"check": "image #2 data:image/svg+xml,%3csvg%20viewBox='0%200%2023%2014'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M20.7482%200H18.8887C21.641%203.93959%2021.6571%2010.0462%2018.8887%2014H20.7482C23.516%2010.0462%2023.4999%203.93959%2020.7482%200Z'%20fill='white'/%3e%3cpath%20d='M2.07027%203.05176e-05C-0.682028%203.93963%20-0.698142%2010.0463%202.07027%2014H3.92985C1.16208%2010.0463%201.1782%203.93963%203.92985%203.05176e-05H2.07027Z'%20fill='white'/%3e%3cpath%20d='M12.0135%2013.6771C11.815%2013.9298%2011.4089%2013.7892%2011.4089%2013.4683V10.3853C11.4089%2010.0114%2011.106%209.70849%2010.7321%209.70849H7.32818C7.05295%209.70849%206.89245%209.39716%207.05295%209.1735L9.29089%206.04026C9.61124%205.59228%209.29089%204.96963%208.73979%204.96963H4.62036C4.34513%204.96963%204.18463%204.65831%204.34512%204.43464L7.24632%200.372579C7.31013%200.283628%207.41262%200.230774%207.52155%200.230774H16.1671C16.4424%200.230774%2016.6029%200.5421%2016.4424%200.765765L14.2044%203.89901C13.8841%204.34698%2014.2044%204.96963%2014.7555%204.96963H18.1595C18.4418%204.96963%2018.6004%205.29514%2018.4257%205.51751L12.0142%2013.6777L12.0135%2013.6771Z'%20fill='white'/%3e%3c/svg%3e",
+					"viewport": "mobile"
+				},
+				{
+					"id": "c7c93c3f69",
+					"dimension": "assets",
+					"check": "image #3 /assets/vite-dark.D2ACe7TL.svg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "b0ad23dd81",
+					"dimension": "assets",
+					"check": "image #4 /assets/vite-light.t8GCa_VF.svg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "090ba972a5",
+					"dimension": "assets",
+					"check": "image #5 data:image/svg+xml,%3csvg%20viewBox='0%200%2091%2015'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M27.3271%200C33.439%202.28882e-05%2036.6504%202.56908%2036.6504%207.5C36.6503%2012.4308%2033.4389%2015%2027.3271%2015C21.2156%2014.9999%2018.0245%2012.4307%2018.0244%207.5C18.0244%202.56915%2021.2155%209.15527e-05%2027.3271%200ZM70.0195%200C67.0714%204.22099%2067.0541%2010.7638%2070.0195%2015H68.0264C65.0603%2010.7639%2065.0777%204.22097%2068.0264%200H70.0195ZM88.2852%200C91.2333%204.22098%2091.2505%2010.7638%2088.2852%2015H86.293C89.259%2010.7639%2089.2417%204.22096%2086.293%200H88.2852ZM78.1562%200.0205078C82.2874%200.0206451%2085.6357%203.3695%2085.6357%207.5C85.6357%2011.6305%2082.2868%2014.9794%2078.1562%2014.9795C74.0256%2014.9795%2070.6768%2011.6306%2070.6768%207.5C70.6768%203.36942%2074.0257%200.0205078%2078.1562%200.0205078ZM9.13672%2010.6904L12.9072%200.249023H18.0664L12.3477%2014.751H5.71777L0%200.249023H5.30371L9.13672%2010.6904ZM43.5293%2014.751H38.5566V0.249023H43.5293V14.751ZM55.166%200.249023C60.2005%200.249039%2063.0801%202.52763%2063.0801%207.5C63.08%2012.4722%2060.1798%2014.7509%2055.1455%2014.751H46.0498V0.249023H55.166ZM82.7119%204.3584C82.6014%204.11057%2082.2689%204.06387%2082.0977%204.27441L75.6289%2012.209C75.4742%2012.3996%2075.5485%2012.6852%2075.7764%2012.7764C76.4462%2013.0443%2077.2392%2013.1768%2078.1562%2013.1768C81.5505%2013.1767%2083.2676%2011.3536%2083.2676%207.5C83.2676%206.23413%2083.0814%205.18989%2082.7119%204.3584ZM27.3271%203.56348C24.4475%203.56358%2023.1006%204.80673%2023.1006%207.5C23.1006%2010.1931%2024.4476%2011.4159%2027.3271%2011.416C30.2069%2011.416%2031.5537%2010.2139%2031.5537%207.5C31.5537%204.78593%2030.2069%203.56351%2027.3271%203.56348ZM51.0225%2011.2295H54.4619C56.8234%2011.2294%2057.9834%2010.2138%2057.9834%207.5C57.9834%204.78608%2056.8235%203.77064%2054.4619%203.77051H51.0225V11.2295ZM78.1562%201.84375C74.7425%201.84375%2073.0449%203.66709%2073.0449%207.5C73.0449%208.77074%2073.2294%209.82088%2073.5996%2010.6572C73.7095%2010.9057%2074.0426%2010.9517%2074.2139%2010.7412L80.6719%202.80566C80.8271%202.6151%2080.7518%202.32979%2080.5234%202.23926C79.8557%201.97479%2079.0664%201.84377%2078.1562%201.84375Z'%20fill='white'/%3e%3c/svg%3e",
+					"viewport": "mobile"
+				},
+				{
+					"id": "c11e51611b",
+					"dimension": "assets",
+					"check": "image #6 /trusted-by/openai.svg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "e1062a7026",
+					"dimension": "assets",
+					"check": "image #7 /trusted-by/shopify.svg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "fec526625d",
+					"dimension": "assets",
+					"check": "image #8 /trusted-by/stripe.svg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "0cadabd8d0",
+					"dimension": "assets",
+					"check": "image #9 /trusted-by/linear.svg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "5fec2dbe94",
+					"dimension": "assets",
+					"check": "image #10 /trusted-by/clickup.svg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "35fd462d92",
+					"dimension": "assets",
+					"check": "image #11 /trusted-by/wiz.svg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "a7a7e92ef3",
+					"dimension": "assets",
+					"check": "image #12 /trusted-by/openai.svg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "c4a6bdecc8",
+					"dimension": "assets",
+					"check": "image #13 /trusted-by/shopify.svg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "66b998338a",
+					"dimension": "assets",
+					"check": "image #14 /trusted-by/stripe.svg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "0d997266aa",
+					"dimension": "assets",
+					"check": "image #15 /trusted-by/linear.svg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "4ccf8b1261",
+					"dimension": "assets",
+					"check": "image #16 /trusted-by/clickup.svg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "8a9f6d6f5e",
+					"dimension": "assets",
+					"check": "image #17 /trusted-by/wiz.svg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "97b1a17b08",
+					"dimension": "assets",
+					"check": "image #18 /assets/vite-featurepanel-1-background.BHnDg8j4.jpg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "08e463ad4b",
+					"dimension": "assets",
+					"check": "image #19 /assets/vite-featurepanel-1-terminal.CQVUoUSU.svg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "c66c3d4f42",
+					"dimension": "assets",
+					"check": "image #20 /assets/vite-featurepanel-2-terminal.ChpAU6sR.png",
+					"viewport": "mobile"
+				},
+				{
+					"id": "551d809e67",
+					"dimension": "assets",
+					"check": "image #21 /assets/vite-featurepanel-4-background.Bnx0RZk-.jpg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "af1be5562c",
+					"dimension": "assets",
+					"check": "image #22 /assets/vite-featurepanel-4-terminal.BRnxuy_J.svg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "1df83d9255",
+					"dimension": "assets",
+					"check": "image #23 /assets/vite-featurepanel-4-background.Bnx0RZk-.jpg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "9a50dcf8cf",
+					"dimension": "assets",
+					"check": "image #24 /assets/vite-typed-api.B7gyuuaS.svg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "10a05ad478",
+					"dimension": "assets",
+					"check": "image #25 /assets/vite-ssr-support.DvdwoLgL.png",
+					"viewport": "mobile"
+				},
+				{
+					"id": "9087bc1e97",
+					"dimension": "assets",
+					"check": "image #26 /assets/vite-ci.rfkpyz0p.svg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "36a2b9f0bd",
+					"dimension": "assets",
+					"check": "image #27 /assets/vite-frameworks-mobile.BooA3_E6.png",
+					"viewport": "mobile"
+				},
+				{
+					"id": "9d592f5d69",
+					"dimension": "assets",
+					"check": "image #28 /assets/vite-frameworks.D3X8o4O8.png",
+					"viewport": "mobile"
+				},
+				{
+					"id": "3bcc7a2ebe",
+					"dimension": "assets",
+					"check": "image #29 https://pbs.twimg.com/profile_images/1810837163447308292/8Piov0f6_400x400.jpg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "e3e8616ed8",
+					"dimension": "assets",
+					"check": "image #30 https://pbs.twimg.com/profile_images/557940120184041473/bFyXy8Pu_400x400.jpeg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "631ac05a88",
+					"dimension": "assets",
+					"check": "image #31 https://pbs.twimg.com/profile_images/1691627325794725888/voQFcYjY_400x400.jpg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "f542c1c70e",
+					"dimension": "assets",
+					"check": "image #32 https://pbs.twimg.com/profile_images/754886061872979968/BzaOWhs1_400x400.jpg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "541082c044",
+					"dimension": "assets",
+					"check": "image #33 https://pbs.twimg.com/profile_images/1374778373239681025/Sc9ehtAr_400x400.jpg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "551dc17965",
+					"dimension": "assets",
+					"check": "image #34 https://pbs.twimg.com/profile_images/1911613315765133312/HVkULegC_400x400.jpg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "0e22c922f3",
+					"dimension": "assets",
+					"check": "image #35 https://pbs.twimg.com/profile_images/3380865881/f73b3687ff39b795db05fcaf35972270_400x400.jpeg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "d1d61fc13d",
+					"dimension": "assets",
+					"check": "image #36 https://pbs.twimg.com/profile_images/1910252462126313472/gXgT-jxL_400x400.jpg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "1bf1465d16",
+					"dimension": "assets",
+					"check": "image #37 https://avatars.githubusercontent.com/u/13629190?v=4",
+					"viewport": "mobile"
+				},
+				{
+					"id": "91e3752897",
+					"dimension": "assets",
+					"check": "image #38 /assets/vite-by-voidzero.D7bblMgo.png",
+					"viewport": "mobile"
+				},
+				{
+					"id": "b6a882092b",
+					"dimension": "assets",
+					"check": "image #39 https://sponsors.vite.dev/images/cloudflare.png",
+					"viewport": "mobile"
+				},
+				{
+					"id": "e2ffe869cd",
+					"dimension": "assets",
+					"check": "image #40 https://sponsors.vite.dev/images/bolt.svg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "afb43b06a9",
+					"dimension": "assets",
+					"check": "image #41 https://sponsors.vite.dev/images/nuxtlabs.svg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "5ae11a1338",
+					"dimension": "assets",
+					"check": "image #42 https://sponsors.vite.dev/images/storyblok.png",
+					"viewport": "mobile"
+				},
+				{
+					"id": "94af4df57d",
+					"dimension": "assets",
+					"check": "image #43 https://sponsors.vite.dev/images/coderabbit.png",
+					"viewport": "mobile"
+				},
+				{
+					"id": "8fdbbe0c27",
+					"dimension": "assets",
+					"check": "image #44 https://sponsors.vite.dev/images/greptile.png",
+					"viewport": "mobile"
+				},
+				{
+					"id": "4908dcb835",
+					"dimension": "assets",
+					"check": "image #45 https://sponsors.vite.dev/images/railway.svg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "ae6ea7eb32",
+					"dimension": "assets",
+					"check": "image #46 https://sponsors.vite.dev/images/serpapi.png",
+					"viewport": "mobile"
+				},
+				{
+					"id": "b6737dc29f",
+					"dimension": "assets",
+					"check": "image #47 https://sponsors.vite.dev/images/mux.svg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "b84a6cc5b7",
+					"dimension": "assets",
+					"check": "image #48 https://sponsors.vite.dev/images/nx.svg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "f8e4056a24",
+					"dimension": "assets",
+					"check": "image #49 https://sponsors.vite.dev/images/transloadit.png",
+					"viewport": "mobile"
+				},
+				{
+					"id": "49318dab61",
+					"dimension": "assets",
+					"check": "image #50 https://sponsors.vite.dev/images/handsontable.svg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "3687309614",
+					"dimension": "assets",
+					"check": "image #51 https://sponsors.vite.dev/images/mojam.svg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "ea1105a7dd",
+					"dimension": "assets",
+					"check": "image #52 https://avatars.githubusercontent.com/u/81530787?v=4",
+					"viewport": "mobile"
+				},
+				{
+					"id": "f8aacceae3",
+					"dimension": "assets",
+					"check": "image #53 https://sponsors.vite.dev/images/zephyr_cloud.png",
+					"viewport": "mobile"
+				},
+				{
+					"id": "03f5efd35f",
+					"dimension": "assets",
+					"check": "image #54 https://sponsors.vite.dev/images/catalyst.svg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "3231eff87c",
+					"dimension": "assets",
+					"check": "image #55 https://sponsors.vite.dev/images/sanity.svg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "36d8f6ee29",
+					"dimension": "assets",
+					"check": "image #56 https://sponsors.vite.dev/images/follower24.svg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "6bf85804cb",
+					"dimension": "assets",
+					"check": "image #57 https://avatars.githubusercontent.com/u/107723282?u=2639caa14ce293a0b6202c5766a40bb99ac9697e&v=4",
+					"viewport": "mobile"
+				},
+				{
+					"id": "83f3046c9c",
+					"dimension": "assets",
+					"check": "image #58 https://images.opencollective.com/bairesdev/48bb773/logo/460.png",
+					"viewport": "mobile"
+				},
+				{
+					"id": "01fc8c17c3",
+					"dimension": "assets",
+					"check": "image #59 https://sponsors.vite.dev/images/cloudways.png",
+					"viewport": "mobile"
+				},
+				{
+					"id": "6331d54d10",
+					"dimension": "assets",
+					"check": "image #60 /assets/footer-background.BIgtbvhx.jpg",
+					"viewport": "mobile"
+				},
+				{
+					"id": "1114ffbb87",
+					"dimension": "i18n",
+					"check": "<html lang>",
+					"viewport": "desktop"
+				},
+				{
+					"id": "b1fccd2852",
+					"dimension": "i18n",
+					"check": "<html dir>",
+					"viewport": "desktop"
+				},
+				{
+					"id": "a4e2eb408e",
+					"dimension": "i18n",
+					"check": "date or number format for en-US",
+					"viewport": "desktop"
+				},
+				{
+					"id": "82e6a5e7f6",
+					"dimension": "seo",
+					"check": "title"
+				},
+				{
+					"id": "b4ff59b16c",
+					"dimension": "seo",
+					"check": "meta:description"
+				},
+				{
+					"id": "194c004f15",
+					"dimension": "seo",
+					"check": "meta:og:type"
+				},
+				{
+					"id": "089c0b2ba5",
+					"dimension": "seo",
+					"check": "meta:og:title"
+				},
+				{
+					"id": "58ce62f54c",
+					"dimension": "seo",
+					"check": "meta:og:image"
+				},
+				{
+					"id": "6a75fba24d",
+					"dimension": "seo",
+					"check": "meta:og:url"
+				},
+				{
+					"id": "656f1a7795",
+					"dimension": "seo",
+					"check": "meta:og:description"
+				},
+				{
+					"id": "601740d255",
+					"dimension": "seo",
+					"check": "meta:og:site_name"
+				},
+				{
+					"id": "e1b232ce66",
+					"dimension": "seo",
+					"check": "meta:twitter:card"
+				},
+				{
+					"id": "29c754f7b2",
+					"dimension": "seo",
+					"check": "meta:twitter:site"
+				},
+				{
+					"id": "1a5c79625c",
+					"dimension": "seo",
+					"check": "canonical"
+				},
+				{
+					"id": "0469a10e1f",
+					"dimension": "behaviour",
+					"check": "browser storage after the page loads"
+				},
+				{
+					"id": "d0cb05da16",
+					"dimension": "network",
+					"check": "browser request missing"
+				},
+				{
+					"id": "29cd6721fc",
+					"dimension": "network",
+					"check": "browser request missing"
+				},
+				{
+					"id": "373e01d764",
+					"dimension": "network",
+					"check": "browser request missing"
+				},
+				{
+					"id": "2a17311a61",
+					"dimension": "network",
+					"check": "browser request missing"
+				},
+				{
+					"id": "6ffc3c1414",
+					"dimension": "network",
+					"check": "browser request missing"
+				},
+				{
+					"id": "63c8009f1d",
+					"dimension": "network",
+					"check": "browser request missing"
+				},
+				{
+					"id": "a118ee4ac9",
+					"dimension": "visual",
+					"check": "screenshot in viewport width 1279px",
+					"viewport": "desktop"
+				},
+				{
+					"id": "ba0b332676",
+					"dimension": "visual",
+					"check": "screenshot in viewport width 1280px",
+					"viewport": "desktop"
+				},
+				{
+					"id": "51dfba3fa8",
+					"dimension": "visual",
+					"check": "screenshot in viewport width 767px",
+					"viewport": "desktop"
+				},
+				{
+					"id": "272de30892",
+					"dimension": "visual",
+					"check": "screenshot in viewport width 768px",
+					"viewport": "desktop"
+				},
+				{
+					"id": "8e58d06127",
+					"dimension": "visual",
+					"check": "screenshot in viewport width 639px",
+					"viewport": "desktop"
+				},
+				{
+					"id": "1466d9b9d1",
+					"dimension": "visual",
+					"check": "screenshot in viewport width 640px",
+					"viewport": "desktop"
+				},
+				{
+					"id": "b462ce93d0",
+					"dimension": "visual",
+					"check": "screenshot in viewport width 1023px",
+					"viewport": "desktop"
+				},
+				{
+					"id": "890874e005",
+					"dimension": "visual",
+					"check": "screenshot in viewport width 1024px",
+					"viewport": "desktop"
+				},
+				{
+					"id": "2fc0af35e3",
+					"dimension": "visual",
+					"check": "screenshot in viewport width 1439px",
+					"viewport": "desktop"
+				},
+				{
+					"id": "00b573eadf",
+					"dimension": "visual",
+					"check": "screenshot in viewport width 1440px",
+					"viewport": "desktop"
+				},
+				{
+					"id": "35ea8048d0",
+					"dimension": "visual",
+					"check": "screenshot in viewport width 959px",
+					"viewport": "desktop"
+				},
+				{
+					"id": "c981bede62",
+					"dimension": "visual",
+					"check": "screenshot in viewport width 960px",
+					"viewport": "desktop"
+				},
+				{
+					"id": "6447285c2b",
+					"dimension": "behaviour",
+					"check": "click radio \"npm\""
+				},
+				{
+					"id": "2150da44e3",
+					"dimension": "behaviour",
+					"check": "click radio \"Yarn\""
+				},
+				{
+					"id": "fa4a01a9bb",
+					"dimension": "behaviour",
+					"check": "click radio \"pnpm\""
+				},
+				{
+					"id": "2fcff96360",
+					"dimension": "behaviour",
+					"check": "click radio \"Bun\""
+				},
+				{
+					"id": "325454a9e5",
+					"dimension": "behaviour",
+					"check": "click radio \"Deno\""
+				},
+				{
+					"id": "1948e53aa3",
+					"dimension": "behaviour",
+					"check": "click button \"Close banner\""
+				},
+				{
+					"id": "31fd046872",
+					"dimension": "behaviour",
+					"check": "click button \"Close banner\", then follow link \"Vite\""
+				},
+				{
+					"id": "3870003f32",
+					"dimension": "behaviour",
+					"check": "click button \"Copy code\""
+				},
+				{
+					"id": "4ce3025940",
+					"dimension": "behaviour",
+					"check": "click link \"Get Started\""
+				},
+				{
+					"id": "fe30142d43",
+					"dimension": "behaviour",
+					"check": "click button \"Resources\""
+				},
+				{
+					"id": "7e737c2a4a",
+					"dimension": "behaviour",
+					"check": "click button \"v8.3.4\""
+				},
+				{
+					"id": "139485aee7",
+					"dimension": "behaviour",
+					"check": "click button \"Search\""
+				},
+				{
+					"id": "2b405d1355",
+					"dimension": "behaviour",
+					"check": "click button \"Search\", then follow link \"Vite\""
+				},
+				{
+					"id": "7d8d148d2d",
+					"dimension": "behaviour",
+					"check": "click button \"Change language\""
+				},
+				{
+					"id": "3f39b0b22f",
+					"dimension": "behaviour",
+					"check": "click link \"Vite\""
+				},
+				{
+					"id": "f15c602e96",
+					"dimension": "behaviour",
+					"check": "click link \"Guide\""
+				},
+				{
+					"id": "e20b11c7df",
+					"dimension": "behaviour",
+					"check": "click link \"Config\""
+				},
+				{
+					"id": "89a0d09153",
+					"dimension": "behaviour",
+					"check": "click link \"Plugins\""
+				},
+				{
+					"id": "dd8b6531af",
+					"dimension": "behaviour",
+					"check": "click link \"Get Started\" #2"
+				},
+				{
+					"id": "2130500214",
+					"dimension": "behaviour",
+					"check": "click link \"Guide\" #2"
+				},
+				{
+					"id": "b3a77a4f10",
+					"dimension": "behaviour",
+					"check": "click link \"Config\" #2"
+				},
+				{
+					"id": "bf62c87607",
+					"dimension": "behaviour",
+					"check": "click link \"Plugins\" #2"
+				},
+				{
+					"id": "38e832ebce",
+					"dimension": "behaviour",
+					"check": "click link \"Team\""
+				},
+				{
+					"id": "9cb020d05c",
+					"dimension": "behaviour",
+					"check": "click link \"Blog\""
+				},
+				{
+					"id": "b3b2aa8b44",
+					"dimension": "behaviour",
+					"check": "click radio \"npm\", then click button (step 1)"
+				},
+				{
+					"id": "7224312303",
+					"dimension": "behaviour",
+					"check": "click radio \"npm\", then click link (step 1)"
+				},
+				{
+					"id": "e1910de3f6",
+					"dimension": "behaviour",
+					"check": "click button \"Resources\", then click button #2 (step 1)"
+				},
+				{
+					"id": "2c3934164e",
+					"dimension": "behaviour",
+					"check": "click button \"Resources\", then click link \"Acknowledgements\" (step 1)"
+				},
+				{
+					"id": "c5711bf982",
+					"dimension": "behaviour",
+					"check": "click button \"Resources\", then click link \"Team\" #2 (step 1)"
+				},
+				{
+					"id": "8dae0cd831",
+					"dimension": "behaviour",
+					"check": "click button \"Resources\", then click link \"Blog\" #2 (step 1)"
+				},
+				{
+					"id": "14df65ce0f",
+					"dimension": "behaviour",
+					"check": "click button \"Search\", then click button \"Display detailed list\" (step 1)"
+				},
+				{
+					"id": "643beffea2",
+					"dimension": "behaviour",
+					"check": "click button \"Search\", then type \"coffee\" into searchbox (step 1)"
+				},
+				{
+					"id": "a7b35659cb",
+					"dimension": "behaviour",
+					"check": "click button \"Search\", then type \"coffee\" into searchbox, then click button \"Reset search\" (step 1)"
+				},
+				{
+					"id": "4664e7b474",
+					"dimension": "behaviour",
+					"check": "click button \"Search\", then type \"coffee\" into searchbox, then click button \"Reset search\", then follow link \"Vite\" (step 1)"
+				},
+				{
+					"id": "0c0d5cc6bf",
+					"dimension": "a11y",
+					"check": "press Space on radio \"npm\""
+				},
+				{
+					"id": "90254c0c88",
+					"dimension": "a11y",
+					"check": "press Space on radio \"Yarn\""
+				},
+				{
+					"id": "490d1bf3bb",
+					"dimension": "a11y",
+					"check": "press Space on radio \"pnpm\""
+				},
+				{
+					"id": "a488747277",
+					"dimension": "a11y",
+					"check": "press Space on radio \"Bun\""
+				},
+				{
+					"id": "bbc1b4f46d",
+					"dimension": "a11y",
+					"check": "press Space on radio \"Deno\""
+				},
+				{
+					"id": "b7795580b2",
+					"dimension": "a11y",
+					"check": "press Enter on button \"Close banner\""
+				}
+			],
+			"weight": {
+				"downloaded": 0,
+				"executed": 0
+			},
+			"owner": "markless-migrate vite-dev port (thejackshelton)"
+		},
+		"/config/build-options": {
+			"ok": false,
+			"failures": [
+				{
+					"id": "dab64d869b",
+					"dimension": "behaviour",
+					"check": "click link \"project root\""
+				},
+				{
+					"id": "f197402945",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Close banner\""
+				},
+				{
+					"id": "07462396b8",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Config\""
+				},
+				{
+					"id": "a719463b3c",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Skip to content\""
+				},
+				{
+					"id": "9efc4cd255",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Configuring Vite\""
+				},
+				{
+					"id": "8c60538249",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Shared Options\""
+				},
+				{
+					"id": "cf4c714495",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Server Options\""
+				},
+				{
+					"id": "e44e89da1b",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Build Options\""
+				},
+				{
+					"id": "1cfd1cdb02",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Preview Options\""
+				},
+				{
+					"id": "851fb1bfbf",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Dep Optimization Options\""
+				},
+				{
+					"id": "5e53d493c5",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"SSR Options\""
+				},
+				{
+					"id": "47d9bedd9b",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Worker Options\""
+				},
+				{
+					"id": "08cedd8504",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.target\""
+				},
+				{
+					"id": "9ff552fecd",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.modulePreload\""
+				},
+				{
+					"id": "3b0157a83a",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.polyfillModulePreload\""
+				},
+				{
+					"id": "63160370ea",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.outDir\""
+				},
+				{
+					"id": "ca666f748d",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.assetsDir\""
+				},
+				{
+					"id": "1747e7e7b8",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.assetsInlineLimit\""
+				},
+				{
+					"id": "dedf66e0be",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.cssCodeSplit\""
+				},
+				{
+					"id": "3dc69b8765",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.cssTarget\""
+				},
+				{
+					"id": "3f36dd48eb",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.cssMinify\""
+				},
+				{
+					"id": "3f4479c3dd",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.sourcemap\""
+				},
+				{
+					"id": "8899714c56",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.chunkImportMap\""
+				},
+				{
+					"id": "4263d05294",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.rolldownOptions\""
+				},
+				{
+					"id": "14b19fa06e",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.rollupOptions\""
+				},
+				{
+					"id": "97eb40c49b",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.dynamicImportVarsOptions\""
+				},
+				{
+					"id": "c6603a2984",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.lib\""
+				},
+				{
+					"id": "c0c1845153",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.license\""
+				},
+				{
+					"id": "209cd5b0e1",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.manifest\""
+				},
+				{
+					"id": "f65c0940f8",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.ssrManifest\""
+				},
+				{
+					"id": "cfaa724a5a",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.ssr\""
+				},
+				{
+					"id": "18dfadd6e6",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.emitAssets\""
+				},
+				{
+					"id": "e813c87b8e",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.ssrEmitAssets\""
+				},
+				{
+					"id": "a2e6784bb8",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.minify\""
+				},
+				{
+					"id": "28a6a640e9",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.terserOptions\""
+				},
+				{
+					"id": "848284f636",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.write\""
+				},
+				{
+					"id": "5d94010b0b",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.emptyOutDir\""
+				},
+				{
+					"id": "ce15bdca03",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.copyPublicDir\""
+				},
+				{
+					"id": "569282377b",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.reportCompressedSize\""
+				},
+				{
+					"id": "a8e9727bce",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.chunkSizeWarningLimit\""
+				},
+				{
+					"id": "e97282e9c2",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.watch\""
+				},
+				{
+					"id": "7952d3b7b3",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “build.manifest”\""
+				},
+				{
+					"id": "9b5b18e819",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Backend Integration\""
+				},
+				{
+					"id": "0f725973f6",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"viteMetadata output bundle metadata API\""
+				},
+				{
+					"id": "b156e128fb",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “build.ssrManifest”\""
+				},
+				{
+					"id": "fa4a830052",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Server-Side Rendering\""
+				},
+				{
+					"id": "6da7bd18b6",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “build.ssr”\""
+				},
+				{
+					"id": "28ffe1cabf",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Server-Side Rendering\" #2"
+				},
+				{
+					"id": "d829773f59",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"input\" #3"
+				},
+				{
+					"id": "787cc683ab",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “build.emitAssets”\""
+				},
+				{
+					"id": "1f38408874",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “build.ssrEmitAssets”\""
+				},
+				{
+					"id": "a270f84add",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “build.minify”\""
+				},
+				{
+					"id": "0377ffd70f",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “build.terserOptions”\""
+				},
+				{
+					"id": "c4a23eaed2",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “build.write”\""
+				},
+				{
+					"id": "d01af9c8df",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"programmatic build() calls\""
+				},
+				{
+					"id": "35393bdce2",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “build.emptyOutDir”\""
+				},
+				{
+					"id": "7136c5e114",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “build.copyPublicDir”\""
+				},
+				{
+					"id": "1168da8c77",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “build.reportCompressedSize”\""
+				},
+				{
+					"id": "daa7885427",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “build.chunkSizeWarningLimit”\""
+				},
+				{
+					"id": "e0e9bf4fa9",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “build.watch”\""
+				},
+				{
+					"id": "c86a5dcad7",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"server.watch\""
+				},
+				{
+					"id": "e4897cb390",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Previous page Server Options\""
+				},
+				{
+					"id": "cc07d1695b",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Next page Preview Options\""
+				},
+				{
+					"id": "60826376e8",
+					"dimension": "behaviour",
+					"check": "not exercised: switch \"Switch to dark theme\""
+				},
+				{
+					"id": "a16cab8e4f",
+					"dimension": "responsiveness",
+					"check": "first interaction with button \"Copy code\" #6 (4x CPU, mobile)",
+					"viewport": "mobile"
+				},
+				{
+					"id": "9628e23ca9",
+					"dimension": "responsiveness",
+					"check": "first interaction with button \"Copy code\" #7 (4x CPU, mobile)",
+					"viewport": "mobile"
+				},
+				{
+					"id": "723c7b07a3",
+					"dimension": "behaviour",
+					"check": "click button \"Resources\", in the layout shared with /"
+				},
+				{
+					"id": "906e8c72ec",
+					"dimension": "behaviour",
+					"check": "click button \"Resources\", then click button #2 (step 1), in the layout shared with /"
+				},
+				{
+					"id": "db84dad113",
+					"dimension": "behaviour",
+					"check": "click button \"Resources\", then click link \"Acknowledgements\" (step 1), in the layout shared with /"
+				},
+				{
+					"id": "21a9cb14be",
+					"dimension": "behaviour",
+					"check": "click button \"Resources\", then click link \"Team\" #2 (step 1), in the layout shared with /"
+				},
+				{
+					"id": "38af3854b5",
+					"dimension": "behaviour",
+					"check": "click button \"Resources\", then click link \"Blog\" #2 (step 1), in the layout shared with /"
+				},
+				{
+					"id": "fa27b753ad",
+					"dimension": "behaviour",
+					"check": "click button \"v8.3.4\", in the layout shared with /"
+				},
+				{
+					"id": "27970629b2",
+					"dimension": "behaviour",
+					"check": "click button \"Search\", in the layout shared with /"
+				},
+				{
+					"id": "a2bab01529",
+					"dimension": "behaviour",
+					"check": "click button \"Search\", then follow link \"Vite\", in the layout shared with /"
+				},
+				{
+					"id": "0fdb749c64",
+					"dimension": "behaviour",
+					"check": "click button \"Search\", then click button \"Display detailed list\" (step 1), in the layout shared with /"
+				},
+				{
+					"id": "c6fbc147ad",
+					"dimension": "behaviour",
+					"check": "click button \"Search\", then type \"coffee\" into searchbox (step 1), in the layout shared with /"
+				},
+				{
+					"id": "e62ec9429f",
+					"dimension": "behaviour",
+					"check": "click button \"Search\", then type \"coffee\" into searchbox, then click button \"Reset search\" (step 1), in the layout shared with /"
+				},
+				{
+					"id": "41f3916b23",
+					"dimension": "behaviour",
+					"check": "click button \"Search\", then type \"coffee\" into searchbox, then click button \"Reset search\", then follow link \"Vite\" (step 1), in the layout shared with /"
+				},
+				{
+					"id": "727d35d869",
+					"dimension": "behaviour",
+					"check": "click button \"Change language\", in the layout shared with /"
+				},
+				{
+					"id": "f0cf8c73da",
+					"dimension": "behaviour",
+					"check": "click link \"Vite\", in the layout shared with /"
+				},
+				{
+					"id": "6e6f9a76fd",
+					"dimension": "behaviour",
+					"check": "click link \"Guide\", in the layout shared with /"
+				},
+				{
+					"id": "af26154931",
+					"dimension": "behaviour",
+					"check": "click link \"Config\", in the layout shared with /"
+				},
+				{
+					"id": "e1b6d80a00",
+					"dimension": "behaviour",
+					"check": "click link \"Plugins\", in the layout shared with /"
+				}
+			],
+			"weight": {
+				"downloaded": 61936,
+				"executed": 18422
+			},
+			"owner": "markless-migrate vite-dev port (thejackshelton)"
+		},
+		"/guide/": {
+			"ok": false,
+			"failures": [
+				{
+					"id": "e4a7ae3dcb",
+					"dimension": "behaviour",
+					"check": "click button \"Copy code\" #6"
+				},
+				{
+					"id": "a84099f0c7",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Close banner\""
+				},
+				{
+					"id": "2e8ee9fc19",
+					"dimension": "behaviour",
+					"check": "not exercised: button"
+				},
+				{
+					"id": "2af01e5d6b",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"v8.3.4\""
+				},
+				{
+					"id": "b3d141604f",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Search\""
+				},
+				{
+					"id": "d20f4e95bd",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Change language\""
+				},
+				{
+					"id": "8d156d76ef",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Introduction\""
+				},
+				{
+					"id": "bac47c9b8c",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Guide\""
+				},
+				{
+					"id": "57f2d5c4b8",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"APIs\""
+				},
+				{
+					"id": "4d3af90430",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Environment API\""
+				},
+				{
+					"id": "f6bb2b48e8",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Skip to content\""
+				},
+				{
+					"id": "fe404ce630",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Vite\""
+				},
+				{
+					"id": "4999d13f94",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Guide\""
+				},
+				{
+					"id": "96106b8bcc",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Config\""
+				},
+				{
+					"id": "89e823436c",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Plugins\""
+				},
+				{
+					"id": "1e12121fbb",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Getting Started\""
+				},
+				{
+					"id": "b66bdd66ab",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Philosophy\""
+				},
+				{
+					"id": "1c72416ba5",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Why Vite\""
+				},
+				{
+					"id": "f44f0e6e8d",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Features\""
+				},
+				{
+					"id": "c69dcc3541",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"CLI\""
+				},
+				{
+					"id": "70031bd1e0",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Using Plugins\""
+				},
+				{
+					"id": "2f1ac32a4c",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Dependency Pre-Bundling\""
+				},
+				{
+					"id": "1cad3c5a67",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Static Asset Handling\""
+				},
+				{
+					"id": "3e5bae610f",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Building for Production\""
+				},
+				{
+					"id": "78d4422958",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Deploying a Static Site\""
+				},
+				{
+					"id": "2533438eaa",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Env Variables and Modes\""
+				},
+				{
+					"id": "665da031af",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Server-Side Rendering (SSR)\""
+				},
+				{
+					"id": "b596cebe58",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Backend Integration\""
+				},
+				{
+					"id": "45bcaccb78",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Troubleshooting\""
+				},
+				{
+					"id": "c5173fd1c5",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Performance\""
+				},
+				{
+					"id": "d2c0a3f554",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Migration from v7\""
+				},
+				{
+					"id": "a8982533d7",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Breaking Changes\""
+				},
+				{
+					"id": "2dcdda9e9f",
+					"dimension": "behaviour",
+					"check": "not exercised: link"
+				},
+				{
+					"id": "dbad53753a",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"HMR API\""
+				},
+				{
+					"id": "41465efb59",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"JavaScript API\""
+				},
+				{
+					"id": "001b172143",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Config Reference\""
+				},
+				{
+					"id": "3e856d9083",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Introduction\""
+				},
+				{
+					"id": "502816a6b8",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Environment Instances\""
+				},
+				{
+					"id": "2c2c26b6f5",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Plugins\" #2"
+				},
+				{
+					"id": "75e747bbba",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Frameworks\""
+				},
+				{
+					"id": "4f6a7613f1",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Runtimes\""
+				},
+				{
+					"id": "46a9450cba",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Overview\""
+				},
+				{
+					"id": "2d4c16a8eb",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Browser Support\""
+				},
+				{
+					"id": "d07bff0cfc",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Trying Vite Online\""
+				},
+				{
+					"id": "2114501f34",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Scaffolding Your First Vite Project\""
+				},
+				{
+					"id": "088a1b6235",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Community Templates\""
+				},
+				{
+					"id": "c4c11cf472",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Manual Installation\""
+				},
+				{
+					"id": "3277faa0b3",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"index.html and Project Root\""
+				},
+				{
+					"id": "348dc72eb7",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Command Line Interface\""
+				},
+				{
+					"id": "ceaf15c271",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Using Unreleased Commits\""
+				},
+				{
+					"id": "66b01b5409",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Community\""
+				},
+				{
+					"id": "6c9fc1c4fa",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “Scaffolding Your First Vite Project”\""
+				},
+				{
+					"id": "d38d92818c",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “Manual Installation”\""
+				},
+				{
+					"id": "3b39004a1e",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “index.html and Project Root”\""
+				},
+				{
+					"id": "3e6aaae1fa",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"multi-page apps\""
+				},
+				{
+					"id": "4f2013a16b",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “Specifying Alternative Root”\""
+				},
+				{
+					"id": "809f4b484a",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"its config file (i.e. vite.config.js)\""
+				},
+				{
+					"id": "a90804d7c8",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “Command Line Interface”\""
+				},
+				{
+					"id": "2a5d82a546",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Command Line Interface\" #2"
+				},
+				{
+					"id": "55dc28eca6",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “Using Unreleased Commits”\""
+				},
+				{
+					"id": "ad86237fc0",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Releases\""
+				},
+				{
+					"id": "448739617f",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “Community”\""
+				},
+				{
+					"id": "317eeb2270",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Next page Philosophy\""
+				},
+				{
+					"id": "82fe07fa0c",
+					"dimension": "behaviour",
+					"check": "not exercised: radio \"Yarn\" #4"
+				},
+				{
+					"id": "e0289c61a0",
+					"dimension": "behaviour",
+					"check": "not exercised: switch \"Switch to dark theme\""
+				},
+				{
+					"id": "2819be4927",
+					"dimension": "behaviour",
+					"check": "not exercised: summary \"Using create vite with command line options\""
+				},
+				{
+					"id": "daa2f338ad",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Resources\" (after click radio \"npm\")"
+				},
+				{
+					"id": "61dd9e9fb9",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Plugin API\" #2 (after click radio \"npm\")"
+				},
+				{
+					"id": "5351df3fce",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “Community Templates”\" (after click radio \"npm\")"
+				},
+				{
+					"id": "1b9bdef8b8",
+					"dimension": "behaviour",
+					"check": "not exercised: radio \"pnpm\" #3 (after click radio \"npm\")"
+				}
+			],
+			"weight": {
+				"downloaded": 61936,
+				"executed": 18686
+			},
+			"owner": "markless-migrate vite-dev port (thejackshelton)"
+		},
+		"/guide/features": {
+			"ok": false,
+			"failures": [
+				{
+					"id": "42fbc9faed",
+					"dimension": "behaviour",
+					"check": "click button \"Copy code\" #3"
+				},
+				{
+					"id": "af0a483134",
+					"dimension": "behaviour",
+					"check": "click button \"Copy code\" #9"
+				},
+				{
+					"id": "1f1611bb52",
+					"dimension": "behaviour",
+					"check": "click button \"Copy code\" #11"
+				},
+				{
+					"id": "65da154107",
+					"dimension": "behaviour",
+					"check": "click button \"Copy code\" #21"
+				},
+				{
+					"id": "9d11fc5f94",
+					"dimension": "behaviour",
+					"check": "click button \"Copy code\" #24"
+				},
+				{
+					"id": "b981ff30e2",
+					"dimension": "behaviour",
+					"check": "click button \"Copy code\" #32"
+				},
+				{
+					"id": "d237fcec7a",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Close banner\""
+				},
+				{
+					"id": "2b30bff607",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Resources\""
+				},
+				{
+					"id": "488605d0b1",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"v8.3.4\""
+				},
+				{
+					"id": "1410fd896c",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Search\""
+				},
+				{
+					"id": "4a0d860329",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Change language\""
+				},
+				{
+					"id": "3a682560df",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Introduction\""
+				},
+				{
+					"id": "598ab625d8",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Guide\""
+				},
+				{
+					"id": "c3ebf294a9",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"APIs\""
+				},
+				{
+					"id": "ea7501761e",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Environment API\""
+				},
+				{
+					"id": "2931817d7d",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code\" #41"
+				},
+				{
+					"id": "ed7f3d0369",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code\" #42"
+				},
+				{
+					"id": "4b45f7bfc3",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code\" #43"
+				},
+				{
+					"id": "b67bf88a97",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code\" #44"
+				},
+				{
+					"id": "cf2b516889",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code\" #45"
+				},
+				{
+					"id": "3fdf34c530",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code\" #46"
+				},
+				{
+					"id": "22d71e2926",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code\" #47"
+				},
+				{
+					"id": "a5323c8c28",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code\" #48"
+				},
+				{
+					"id": "f4e924f48b",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code\" #49"
+				},
+				{
+					"id": "495ec0a580",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code\" #50"
+				},
+				{
+					"id": "12e0969ba1",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code\" #51"
+				},
+				{
+					"id": "0ff2e8c54c",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code\" #52"
+				},
+				{
+					"id": "9b6bec73de",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code\" #53"
+				},
+				{
+					"id": "afe5c2771a",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code\" #54"
+				},
+				{
+					"id": "4754a787ec",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code\" #55"
+				},
+				{
+					"id": "c4d895d23a",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code\" #56"
+				},
+				{
+					"id": "6185426c57",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Skip to content\""
+				},
+				{
+					"id": "6f8bcf01ec",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Vite\""
+				},
+				{
+					"id": "b329cdfc43",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Guide\""
+				},
+				{
+					"id": "cb356a4195",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Config\""
+				},
+				{
+					"id": "37e0f024ef",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Plugins\""
+				},
+				{
+					"id": "83111eeded",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Getting Started\""
+				},
+				{
+					"id": "a2731e707f",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Philosophy\""
+				},
+				{
+					"id": "2305e4f67e",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Why Vite\""
+				},
+				{
+					"id": "b93cd56f5e",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Features\""
+				},
+				{
+					"id": "aae84a94dc",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"CLI\""
+				},
+				{
+					"id": "b039f11824",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Using Plugins\""
+				},
+				{
+					"id": "3457586614",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Dependency Pre-Bundling\""
+				},
+				{
+					"id": "6f152bb1bd",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Static Asset Handling\""
+				},
+				{
+					"id": "0b42da5a17",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Building for Production\""
+				},
+				{
+					"id": "6f6c17358d",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Deploying a Static Site\""
+				},
+				{
+					"id": "e468009aec",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Env Variables and Modes\""
+				},
+				{
+					"id": "74dfd16f10",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Server-Side Rendering (SSR)\""
+				},
+				{
+					"id": "197aa34eee",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Backend Integration\""
+				},
+				{
+					"id": "acf5029afd",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Troubleshooting\""
+				},
+				{
+					"id": "a68037f528",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Performance\""
+				},
+				{
+					"id": "92c069d8e2",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Migration from v7\""
+				},
+				{
+					"id": "df41d7fdf3",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Breaking Changes\""
+				},
+				{
+					"id": "bcb42c3aba",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Plugin API\""
+				},
+				{
+					"id": "098d05e078",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"HMR API\""
+				},
+				{
+					"id": "41d2221699",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"JavaScript API\""
+				},
+				{
+					"id": "f8bf13cad7",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Config Reference\""
+				},
+				{
+					"id": "5a2f7f682b",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Introduction\""
+				},
+				{
+					"id": "92797f8048",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Environment Instances\""
+				},
+				{
+					"id": "fca0f36d71",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Plugins\" #2"
+				},
+				{
+					"id": "66ccffc07b",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Frameworks\""
+				},
+				{
+					"id": "c41ec0c3c8",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Runtimes\""
+				},
+				{
+					"id": "b43e455f1f",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"npm Dependency Resolving and Pre-Bundling\""
+				},
+				{
+					"id": "8b140f9e27",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Hot Module Replacement\""
+				},
+				{
+					"id": "160259b46a",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"TypeScript\""
+				},
+				{
+					"id": "6476e64616",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Transpile Only\""
+				},
+				{
+					"id": "88017ffeb0",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"TypeScript Compiler Options\""
+				},
+				{
+					"id": "ac88c47696",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Client Types\""
+				},
+				{
+					"id": "bb0f557624",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"HTML\""
+				},
+				{
+					"id": "cc7182b618",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Frameworks\" #2"
+				},
+				{
+					"id": "c5e64c8d9f",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"JSX\""
+				},
+				{
+					"id": "5102ba7bf3",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"CSS\""
+				},
+				{
+					"id": "d1cddc1a3c",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"@import Inlining and Rebasing\""
+				},
+				{
+					"id": "adcd750837",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"PostCSS\""
+				},
+				{
+					"id": "73ef7958fa",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"CSS Modules\""
+				},
+				{
+					"id": "ded89ccba8",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"CSS Pre-processors\""
+				},
+				{
+					"id": "4a964a31c2",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Disabling CSS injection into the page\""
+				},
+				{
+					"id": "9b9cdfc4d7",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Lightning CSS\""
+				},
+				{
+					"id": "3d174945d0",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Static Assets\""
+				},
+				{
+					"id": "2328408f26",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"JSON\""
+				},
+				{
+					"id": "4f88c9cf8b",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Glob Import\""
+				},
+				{
+					"id": "b1680ad23b",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Multiple Patterns\""
+				},
+				{
+					"id": "9609502aed",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Negative Patterns\""
+				},
+				{
+					"id": "27cd0e53bf",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Glob Import Caveats\""
+				},
+				{
+					"id": "cda9b04f9c",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Dynamic Import\""
+				},
+				{
+					"id": "d2d2def160",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"WebAssembly\""
+				},
+				{
+					"id": "7628569cff",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"ESM Integration\""
+				},
+				{
+					"id": "e3c2175833",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Manual Initialization\""
+				},
+				{
+					"id": "ffbd9c1b4d",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Accessing the WebAssembly Module\""
+				},
+				{
+					"id": "8b93e0aec2",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Web Workers\""
+				},
+				{
+					"id": "abc4997134",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Import with Constructors\""
+				},
+				{
+					"id": "c4a71b3146",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Import with Query Suffixes\""
+				},
+				{
+					"id": "a4ae7fbfcd",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Content Security Policy (CSP)\""
+				},
+				{
+					"id": "4c183c0aa2",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"'nonce-{RANDOM}'\""
+				},
+				{
+					"id": "b22fc063e8",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"data:\""
+				},
+				{
+					"id": "29c39e0737",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"License\""
+				},
+				{
+					"id": "3412804558",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Build Optimizations\""
+				},
+				{
+					"id": "436c00d172",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"CSS Code Splitting\""
+				},
+				{
+					"id": "1f69e94ec2",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Preload Directives Generation\""
+				},
+				{
+					"id": "7f0dedaeb1",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Async Chunk Loading Optimization\""
+				},
+				{
+					"id": "0c48b6558d",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Chunk Import Map Optimization\""
+				},
+				{
+					"id": "4280627631",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “Features”\""
+				},
+				{
+					"id": "b38fecfaf3",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “npm Dependency Resolving and Pre-Bundling”\""
+				},
+				{
+					"id": "e8b0361f4c",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Pre-bundle\""
+				},
+				{
+					"id": "d74691f633",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"here\""
+				},
+				{
+					"id": "dcbfecfac8",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “Hot Module Replacement”\""
+				},
+				{
+					"id": "8b2beb7c88",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"HMR API\" #2"
+				},
+				{
+					"id": "210c48ad9e",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"create an app via create-vite\""
+				},
+				{
+					"id": "480ca4c542",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “TypeScript”\""
+				},
+				{
+					"id": "feb2425c3f",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “Transpile Only”\""
+				},
+				{
+					"id": "7c174e4fdc",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “TypeScript Compiler Options”\""
+				},
+				{
+					"id": "efb3970d3d",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “isolatedModules”\""
+				},
+				{
+					"id": "19ee870ab6",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “useDefineForClassFields”\""
+				},
+				{
+					"id": "bd333efdb0",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “target”\""
+				},
+				{
+					"id": "64014a9a0b",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"oxc.target\""
+				},
+				{
+					"id": "4bb71cf4ec",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.target\""
+				},
+				{
+					"id": "301d47b44e",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “emitDecoratorMetadata”\""
+				},
+				{
+					"id": "4190d122f2",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “paths”\""
+				},
+				{
+					"id": "0ca3a049d4",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"resolve.tsconfigPaths: true\""
+				},
+				{
+					"id": "4dd2cc4dec",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “Other Compiler Options Affecting the Build Result”\""
+				},
+				{
+					"id": "e187bf72f6",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “Client Types”\""
+				},
+				{
+					"id": "831b9f6a98",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"constants\""
+				},
+				{
+					"id": "04a3362da3",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"HMR API\" #3"
+				},
+				{
+					"id": "33ae223ba0",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “HTML”\""
+				},
+				{
+					"id": "e132f88174",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"front-and-center\""
+				},
+				{
+					"id": "507ed2dbc5",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"multi-page applications\""
+				},
+				{
+					"id": "b34f224383",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “Frameworks”\""
+				},
+				{
+					"id": "391e141c55",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Plugins Guide\""
+				},
+				{
+					"id": "892f10c4b5",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “JSX”\""
+				},
+				{
+					"id": "3f8f41e97e",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"oxc option\""
+				},
+				{
+					"id": "9002489886",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “CSS”\""
+				},
+				{
+					"id": "9d96d488ba",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “@import Inlining and Rebasing”\""
+				},
+				{
+					"id": "1935b97a0a",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"CSS Pre-processors\" #2"
+				},
+				{
+					"id": "266fcdcbea",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “PostCSS”\""
+				},
+				{
+					"id": "f7f78c4300",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.cssTarget\""
+				},
+				{
+					"id": "2124e5ab32",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “CSS Modules”\""
+				},
+				{
+					"id": "01b27e5484",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"css.modules option\""
+				},
+				{
+					"id": "f6b37bfe76",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “CSS Pre-processors”\""
+				},
+				{
+					"id": "d95746a87c",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “Disabling CSS injection into the page”\""
+				},
+				{
+					"id": "aedd607602",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “Lightning CSS”\""
+				},
+				{
+					"id": "6233ed34a9",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"css.transformer: 'lightningcss'\""
+				},
+				{
+					"id": "d5fa3f387d",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"css.lightningcss\""
+				},
+				{
+					"id": "1417f6f5e2",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"css.modules\""
+				},
+				{
+					"id": "7c372a7354",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “Static Assets”\""
+				},
+				{
+					"id": "805e8fc9a9",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Static Asset Handling\" #2"
+				},
+				{
+					"id": "39b24f8494",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “JSON”\""
+				},
+				{
+					"id": "9674b67d72",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “Glob Import”\""
+				},
+				{
+					"id": "9c48688971",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “Multiple Patterns”\""
+				},
+				{
+					"id": "9c94abb9aa",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “Negative Patterns”\""
+				},
+				{
+					"id": "176c591680",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “Named Imports”\""
+				},
+				{
+					"id": "6633f90dd4",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “Custom Queries”\""
+				},
+				{
+					"id": "8a25d33686",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"as a string\""
+				},
+				{
+					"id": "f7b079fd6d",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"as a url\""
+				},
+				{
+					"id": "ffa4271789",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “Base Path”\""
+				},
+				{
+					"id": "a78d6e79bf",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “Case Sensitive Matching”\""
+				},
+				{
+					"id": "cf74b64e99",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “Glob Import Caveats”\""
+				},
+				{
+					"id": "a2023ad6cf",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"resolve.alias option\""
+				},
+				{
+					"id": "45c76196b9",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “Dynamic Import”\""
+				},
+				{
+					"id": "a6cbf139c4",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"glob import\""
+				},
+				{
+					"id": "0a864b7a3b",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"glob import\" #2"
+				},
+				{
+					"id": "369c9ff998",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “WebAssembly”\""
+				},
+				{
+					"id": "29b5bd83ff",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"ES module\""
+				},
+				{
+					"id": "0cbbeee3f3",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"?init\""
+				},
+				{
+					"id": "ad80057fe4",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “ESM Integration”\""
+				},
+				{
+					"id": "a37c4bd3ac",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “Manual Initialization”\""
+				},
+				{
+					"id": "282f0afa90",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"static asset\""
+				},
+				{
+					"id": "e7c40d2a85",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “Accessing the WebAssembly Module”\""
+				},
+				{
+					"id": "ff518f603c",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"explicit URL import\""
+				},
+				{
+					"id": "e73b07e745",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “Web Workers”\""
+				},
+				{
+					"id": "b26fc2991d",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “Import with Constructors”\""
+				},
+				{
+					"id": "6db4f8d0de",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"static asset URL\""
+				},
+				{
+					"id": "d51398ddf2",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “Import with Query Suffixes”\""
+				},
+				{
+					"id": "58baf87648",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Worker Options\""
+				},
+				{
+					"id": "0b8eac0ccb",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “Content Security Policy (CSP)”\""
+				},
+				{
+					"id": "76b0f915d6",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “'nonce-{RANDOM}'”\""
+				},
+				{
+					"id": "e837e0e54c",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"html.cspNonce\""
+				},
+				{
+					"id": "7f535ea1e5",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “data:”\""
+				},
+				{
+					"id": "41a628a035",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.assetsInlineLimit: 0\""
+				},
+				{
+					"id": "41903ec988",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “License”\""
+				},
+				{
+					"id": "ab0e6a4018",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.license\""
+				},
+				{
+					"id": "6ea72e1b54",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.license\" #2"
+				},
+				{
+					"id": "a7e4a01c14",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “Build Optimizations”\""
+				},
+				{
+					"id": "4bd3f0b2f2",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “CSS Code Splitting”\""
+				},
+				{
+					"id": "df8866303a",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.cssCodeSplit\""
+				},
+				{
+					"id": "2df1140132",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “Preload Directives Generation”\""
+				},
+				{
+					"id": "3c08626d66",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “Async Chunk Loading Optimization”\""
+				},
+				{
+					"id": "1a6fd9dcb0",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “Chunk Import Map Optimization”\""
+				},
+				{
+					"id": "7ab770ac3e",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.chunkImportMap\""
+				},
+				{
+					"id": "4f2a6e316c",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Previous page Why Vite\""
+				},
+				{
+					"id": "a549d5f995",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Next page CLI\""
+				},
+				{
+					"id": "4a88fc353e",
+					"dimension": "behaviour",
+					"check": "not exercised: switch \"Switch to dark theme\""
+				},
+				{
+					"id": "7dccb1ae63",
+					"dimension": "behaviour",
+					"check": "not exercised: summary \"Using triple-slash directive\""
+				},
+				{
+					"id": "bc4354a2e3",
+					"dimension": "behaviour",
+					"check": "not exercised: button (after click button \"Copy code\" #2)"
+				},
+				{
+					"id": "cccd63ca9b",
+					"dimension": "behaviour",
+					"check": "not exercised: link (after click button \"Copy code\" #8)"
+				}
+			],
+			"weight": {
+				"downloaded": 61936,
+				"executed": 18769
+			},
+			"owner": "markless-migrate vite-dev port (thejackshelton)"
+		},
+		"/live": {
+			"ok": false,
+			"failures": [
+				{
+					"id": "0a76e4c9ee",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Resources\", shared with /guide/"
+				},
+				{
+					"id": "79ff71fdfb",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"v8.3.4\", shared with /guide/"
+				},
+				{
+					"id": "6d1e0585d0",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Search\", shared with /guide/"
+				},
+				{
+					"id": "ef16aa1c1a",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Change language\", shared with /guide/"
+				},
+				{
+					"id": "fbf797ac73",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Vite\", shared with /guide/"
+				},
+				{
+					"id": "cd11893b1b",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Guide\", shared with /guide/"
+				},
+				{
+					"id": "af87ee120f",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Config\", shared with /guide/"
+				},
+				{
+					"id": "538c83d70c",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Plugins\", shared with /guide/"
+				}
+			],
+			"weight": {
+				"downloaded": 61936,
+				"executed": 14285
+			},
+			"owner": "markless-migrate vite-dev port (thejackshelton)"
+		}
+	},
+	"misses": []
+}
