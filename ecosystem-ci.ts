@@ -6,7 +6,7 @@ import { parseArgs } from 'node:util';
 import { compareAll, loadBaseline, toBaseline, writeBaseline } from './src/compare.ts';
 import { buildMarkless, readPacks } from './src/markless.ts';
 import { checkoutMigrate, readPin } from './src/migrate.ts';
-import { renderMarkdown } from './src/report.ts';
+import { renderMarkdown, summarize } from './src/report.ts';
 import { runSuite } from './src/run-suite.ts';
 import { loadSuites, ROUTES_PER_JOB, selectSuites, shard } from './src/suites.ts';
 import type { Lane, SuiteResult } from './src/types.ts';
@@ -32,6 +32,7 @@ const USAGE = `node ecosystem-ci.ts <command> [options]
   compare [suite...]   compare results against main's baseline; exit 1 on a regression or a suite with no result
       --results <dir> --lane sample|full --markdown <file> --title <text> [--run-url <url>]
       --against <dir>        compare with another run's results instead of the stored baseline
+      --summary <file>       also write the regressions as JSON, for scripts/notify.ts
   baseline             store results as the lane's baseline from main
       --results <dir> --lane sample|full
   list [suite...]      print the suites, their sample routes and what they cover
@@ -55,6 +56,7 @@ const { positionals, values } = parseArgs({
 		workspace: { type: 'string', default: join(root, 'workspace') },
 		results: { type: 'string', default: join(root, 'results') },
 		markdown: { type: 'string' },
+		summary: { type: 'string' },
 		title: { type: 'string' },
 		'run-url': { type: 'string' },
 		against: { type: 'string' },
@@ -153,6 +155,7 @@ async function compare(): Promise<void> {
 	const comparison = compareAll(expected, results, baseline);
 	const markdown = renderMarkdown(comparison, { title: values.title ?? 'Markless ecosystem CI', lane, ...(values['run-url'] ? { runUrl: values['run-url'] } : {}) });
 	if (values.markdown) await writeFile(values.markdown, markdown);
+	if (values.summary) await writeFile(values.summary, `${JSON.stringify(summarize(comparison), null, '\t')}\n`);
 	console.log(markdown);
 	if (comparison.regressed) process.exitCode = 1;
 }

@@ -78,3 +78,21 @@ export function renderMarkdown(comparison: Comparison, options: { title: string;
 	lines.push('');
 	return lines.join('\n');
 }
+
+export interface Summary {
+	readonly regressed: boolean;
+	/** The Markless commits main's baselines were recorded on: a regression came in after them. */
+	readonly baselineShas: readonly string[];
+	readonly sha?: string;
+	readonly suites: readonly { readonly suite: string; readonly regressions: readonly { readonly route?: string; readonly detail: string }[] }[];
+}
+
+export function summarize(comparison: Comparison): Summary {
+	const sha = comparison.suites.find((c) => c.result)?.result?.markless.sha;
+	return {
+		regressed: comparison.regressed,
+		baselineShas: [...new Set(comparison.suites.flatMap((c) => (c.baseline ? [c.baseline.markless.sha] : [])))],
+		...(sha ? { sha } : {}),
+		suites: comparison.suites.filter((c) => c.regressions.length).map((c) => ({ suite: c.suite.name, regressions: c.regressions.map((r) => ({ ...(r.route ? { route: r.route } : {}), detail: r.detail.slice(0, 400) })) })),
+	};
+}
