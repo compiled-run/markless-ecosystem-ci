@@ -20,8 +20,8 @@ export interface MigrateCheckout {
 	readonly sha: string;
 }
 
-export async function checkoutMigrate(pin: MigratePin, workspace: string, ref = pin.ref): Promise<MigrateCheckout> {
-	const dir = join(workspace, 'markless-migrate');
+export async function checkoutMigrate(pin: MigratePin, workspace: string, ref = pin.ref, name = 'markless-migrate'): Promise<MigrateCheckout> {
+	const dir = join(workspace, name);
 	if (!existsSync(join(dir, '.git'))) {
 		await mkdir(dir, { recursive: true });
 		await exec('git', ['init', '-q'], { cwd: dir });

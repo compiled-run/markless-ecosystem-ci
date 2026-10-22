@@ -1,5 +1,6 @@
 // One suite end to end: the site on the Markless packs, its build and own tests, its server, then the checker
 // against the captured old site, with every request inside the seal.
+import { createHash } from 'node:crypto';
 import { existsSync } from 'node:fs';
 import { mkdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { createServer } from 'node:net';
@@ -73,6 +74,23 @@ export async function applyOverrides(appDir: string, packs: MarklessPacks): Prom
 	return [...new Set(changed)];
 }
 
+const LOCAL = /^(127\.\d+\.\d+\.\d+|localhost|\[::1\])$/;
+
+/** The suite's snapshot, downloaded once into the workspace, checked against its sha256 and unpacked over the app. */
+async function unpackSnapshot(snapshot: NonNullable<Suite['snapshot']>, workspace: string, appDir: string): Promise<void> {
+	const file = join(workspace, 'snapshots', `${snapshot.sha256}.tar.gz`);
+	if (!existsSync(file)) {
+		const response = await fetch(snapshot.url, { signal: AbortSignal.timeout(300_000) });
+		if (!response.ok) throw new Error(`snapshot ${snapshot.url}: ${response.status}`);
+		const data = Buffer.from(await response.arrayBuffer());
+		const got = createHash('sha256').update(data).digest('hex');
+		if (got !== snapshot.sha256) throw new Error(`snapshot ${snapshot.url}: sha256 ${got}, expected ${snapshot.sha256}`);
+		await mkdir(join(workspace, 'snapshots'), { recursive: true });
+		await writeFile(file, data);
+	}
+	await exec('tar', ['-xzf', file, '-C', appDir], { cwd: appDir, quiet: true });
+}
+
 async function waitForServer(url: string, exited: Promise<number>, ms: number): Promise<void> {
 	const deadline = Date.now() + ms;
 	let gone = false;
@@ -140,9 +158,12 @@ export async function runSuite(options: RunSuiteOptions): Promise<SuiteResult> {
 	await rm(runDir, { recursive: true, force: true });
 	await mkdir(runDir, { recursive: true });
 	const sealLog: string[] = [];
-	const seal = await startSeal({ mode: options.seal, archive: capture, certs: join(options.workspace, 'certs'), log: (line) => sealLog.push(line) });
+	// An old site served on this machine is recorded and replayed through the seal like any other host.
+	const local = LOCAL.test(new URL(suite.old).hostname) ? [suite.old] : [];
+	const seal = await startSeal({ mode: options.seal, archive: capture, certs: join(options.workspace, 'certs'), local, log: (line) => sealLog.push(line) });
 	const env = { ...suite.env, CI: 'true', NO_COLOR: '1' };
-	const sealed = { ...env, ...sealEnv(seal) };
+	const sealed = { ...env, ...sealEnv(seal, local) };
+	let oldServer: ReturnType<typeof background> | undefined;
 	let step: keyof SuiteResult['steps'] = 'install';
 	let server: ReturnType<typeof background> | undefined;
 	let routes: Record<string, RouteRecord> = {};
@@ -162,6 +183,7 @@ export async function runSuite(options: RunSuiteOptions): Promise<SuiteResult> {
 	const reuse = process.env.MARKLESS_ECOSYSTEM_REUSE_BUILD === '1' && existsSync(stamp) && (await readFile(stamp, 'utf8')) === packs.sha;
 	const build = async () => {
 		await time('install', async () => {
+			if (suite.snapshot) await unpackSnapshot(suite.snapshot, options.workspace, appDir);
 			const changed = await applyOverrides(appDir, packs);
 			console.log(`[${suite.name}] Markless ${packs.sha.slice(0, 9)} overrides ${changed.join(', ')}`);
 			await rm(join(appDir, 'node_modules', '.vite'), { recursive: true, force: true });
@@ -194,6 +216,16 @@ export async function runSuite(options: RunSuiteOptions): Promise<SuiteResult> {
 		await time('serve', () => waitForServer(`${origin}/`, server!.exited, 60_000));
 		steps.serve = 'pass';
 		step = 'check';
+		const oldUp = local.length ? await fetch(`${suite.old}/`, { redirect: 'manual', signal: AbortSignal.timeout(5_000) }).then(() => true, () => false) : false;
+		if (options.seal === 'record' && suite.oldSite && local.length && !oldUp) {
+			// Recording only: the old site is built and served here, outside the seal, which records what it answers.
+			await time('old site', async () => {
+				for (const [command, ...args] of suite.oldSite!.setup) await exec(command!, args, { cwd: migrate.dir, env: { CI: 'true' }, quiet: true });
+				const [command, ...args] = suite.oldSite!.serve;
+				oldServer = background(command!, args, { cwd: migrate.dir, env: { CI: 'true' } });
+				await waitForServer(`${suite.old}/`, oldServer.exited, 120_000);
+			});
+		}
 		const selected = options.routes ?? routesFor(suite, lane);
 		await rm(join(appDir, '.migrate', 'report.json'), { force: true });
 		const checkArgs = [
@@ -238,6 +270,10 @@ export async function runSuite(options: RunSuiteOptions): Promise<SuiteResult> {
 		console.log(`[${suite.name}] ${step} failed: ${error.split('\n')[0]}`);
 		console.log(error.split('\n').slice(-40).map((line) => `[${suite.name}]   ${line}`).join('\n'));
 	} finally {
+		if (oldServer) {
+			await writeFile(join(runDir, 'old-server.log'), oldServer.output());
+			await oldServer.stop();
+		}
 		if (server) {
 			await writeFile(join(runDir, 'server.log'), server.output());
 			await server.stop();

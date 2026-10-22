@@ -129,9 +129,12 @@ async function run(): Promise<void> {
 	const suites = await selectSuites(root, rest);
 	const lanes = suites;
 	const packs = await markless(workspace);
-	const migrate = await checkoutMigrate(await readPin(root), workspace, values['migrate-ref']);
+	const pin = await readPin(root);
+	const pinned = lanes.some((s) => values['migrate-ref'] || !s.migrateRef) ? await checkoutMigrate(pin, workspace, values['migrate-ref']) : undefined;
 	let failed = false;
 	for (const suite of lanes) {
+		// A suite on its own markless-migrate commit gets its own checkout; --migrate-ref still overrides every suite.
+		const migrate = !values['migrate-ref'] && suite.migrateRef ? await checkoutMigrate(pin, workspace, suite.migrateRef, `markless-migrate-${suite.name}`) : pinned!;
 		const all = lane === 'sample' ? suite.routes.sample.map((r) => r.route) : [...suite.routes.full];
 		const routes = values.route?.length ? values.route : shard(all, values.shard);
 		if (!routes.length) continue;

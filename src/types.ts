@@ -36,6 +36,19 @@ export interface Suite {
 	 * nondeterminism is fixed. Each needs an owner and an expiry at most two weeks out; expired, it fails every run.
 	 */
 	readonly quarantine?: readonly Quarantine[];
+	/** A markless-migrate commit of its own for this suite (its app and the checker), instead of migrate.json's pin. */
+	readonly migrateRef?: string;
+	/**
+	 * Files the app's own pipeline generates and does not commit (a converted site's pages), as a .tar.gz unpacked over
+	 * the app before install. Downloaded before anything runs in the seal, and refused unless its sha256 matches.
+	 */
+	readonly snapshot?: { readonly url: string; readonly sha256: string };
+	/**
+	 * For an old site served on this machine (`old` is a loopback origin): the commands, run in the markless-migrate
+	 * checkout, that build it (`setup`) and serve it at `old` (`serve`). Used only when recording and nothing answers at
+	 * `old` yet; a replay answers the old site from the capture.
+	 */
+	readonly oldSite?: { readonly setup: readonly (readonly string[])[]; readonly serve: readonly string[] };
 	/** Why the suite is not run yet, when it is not; the reason shows in every report. */
 	readonly disabled?: string;
 }

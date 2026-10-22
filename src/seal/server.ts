@@ -145,6 +145,8 @@ export interface SealOptions {
 	/** Where the run's certificate authority is written; its ca.pem goes in NODE_EXTRA_CA_CERTS. */
 	readonly certs: string;
 	readonly port?: number;
+	/** Local origins recorded and replayed like the network (an old site served on this machine to record it), not passed through. */
+	readonly local?: readonly string[];
 	/** Hosts never recorded or replayed (an analytics beacon): answered 204. */
 	readonly drop?: readonly string[];
 	readonly log?: (line: string) => void;
@@ -165,6 +167,9 @@ export async function startSeal(options: SealOptions): Promise<Seal> {
 	await mkdir(bodies, { recursive: true });
 	const stats: SealStats = { served: 0, recorded: 0, loose: 0, passed: 0, misses: [], refused: [] };
 	const log = options.log ?? (() => {});
+	const local = new Set((options.local ?? []).map((origin) => new URL(origin).host));
+	const plainLocal = new Set((options.local ?? []).map((origin) => new URL(origin)).filter((url) => url.protocol === 'http:').map((url) => url.host));
+	const passes = (hostname: string, host: string) => LOOPBACK.test(hostname) && !local.has(host);
 	const loose = new Map<string, string>();
 	const remember = (key: string) => {
 		for (const near of looserKeys(key)) if (!loose.has(near)) loose.set(near, key);
@@ -217,7 +222,7 @@ export async function startSeal(options: SealOptions): Promise<Seal> {
 		const chunks: Buffer[] = [];
 		for await (const chunk of req) chunks.push(chunk as Buffer);
 		const requestBody = Buffer.concat(chunks);
-		if (LOOPBACK.test(target.hostname)) return pass(target, method, req, requestBody, res);
+		if (passes(target.hostname, target.host)) return pass(target, method, req, requestBody, res);
 		const url = target.href;
 		const cookie = Array.isArray(req.headers.cookie) ? req.headers.cookie.join('; ') : req.headers.cookie;
 		const key = requestKey(method, url, READS.has(method) ? undefined : requestBody, cookie);
@@ -261,7 +266,7 @@ export async function startSeal(options: SealOptions): Promise<Seal> {
 		res.end(method === 'HEAD' ? undefined : data);
 	}
 
-	/** A loopback request (the site under test) goes straight through, never recorded. */
+	/** A loopback request (the site under test) goes straight through, never recorded, unless it is to a recorded local origin. */
 	function pass(target: URL, method: string, req: IncomingMessage, requestBody: Buffer, res: ServerResponse): void {
 		stats.passed++;
 		const headers = { ...req.headers };
@@ -286,6 +291,15 @@ export async function startSeal(options: SealOptions): Promise<Seal> {
 	});
 	inner.keepAliveTimeout = 2_000;
 
+	const tunnelled = http.createServer((req, res) => {
+		answer('http', req, res).catch((error) => {
+			log(`error ${req.url}: ${(error as Error).stack}`);
+			if (!res.headersSent) res.writeHead(500);
+			res.end();
+		});
+	});
+	tunnelled.keepAliveTimeout = 2_000;
+
 	const server = http.createServer((req, res) => {
 		answer('http', req, res).catch((error) => {
 			log(`error ${req.url}: ${(error as Error).stack}`);
@@ -303,7 +317,7 @@ export async function startSeal(options: SealOptions): Promise<Seal> {
 	server.on('connect', (req: IncomingMessage, socket: Socket, head: Buffer) => {
 		const [host = '', port = '443'] = (req.url ?? '').split(/:(?=\d+$)/);
 		socket.on('error', () => {});
-		if (LOOPBACK.test(host)) {
+		if (passes(host, req.url ?? '')) {
 			// The site under test over a CONNECT: a raw tunnel to it.
 			import('node:net').then(({ connect }) => {
 				const upstream = connect(Number(port), host, () => {
@@ -317,6 +331,12 @@ export async function startSeal(options: SealOptions): Promise<Seal> {
 			return;
 		}
 		socket.write('HTTP/1.1 200 Connection Established\r\n\r\n');
+		// Node's proxy agent tunnels plain http too: a recorded local http origin is answered inside the tunnel as http.
+		if (plainLocal.has(req.url ?? '')) {
+			if (head.length) socket.unshift(head);
+			tunnelled.emit('connection', socket);
+			return;
+		}
 		const secure = new tls.TLSSocket(socket, {
 			isServer: true,
 			ALPNProtocols: ['http/1.1'],
@@ -341,21 +361,31 @@ export async function startSeal(options: SealOptions): Promise<Seal> {
 			for (const socket of sockets) socket.destroy();
 			await new Promise((done) => server.close(done));
 			inner.close();
+			tunnelled.close();
 			dirty = true;
 			if (options.mode === 'record') await flush();
 		},
 	};
 }
 
+/** Loopback addresses that bypass the seal: all of them, except a recorded local origin's host name (Chromium's `<-loopback>` stops its own implicit bypass). */
+export function loopbackBypass(local: readonly string[] = []): string {
+	const recorded = new Set(local.map((origin) => new URL(origin).hostname));
+	const hosts = ['127.0.0.1', 'localhost', '::1'].filter((host) => !recorded.has(host));
+	return recorded.size ? [...hosts, '<-loopback>'].join(',') : hosts.join(',');
+}
+
 /** What a process needs in its environment for every request it makes to go through the seal. */
-export function sealEnv(seal: Pick<Seal, 'url' | 'caCert'>): Record<string, string> {
+export function sealEnv(seal: Pick<Seal, 'url' | 'caCert'>, local: readonly string[] = []): Record<string, string> {
+	const bypass = loopbackBypass(local).replace(',<-loopback>', '');
 	return {
 		HTTP_PROXY: seal.url,
 		HTTPS_PROXY: seal.url,
 		http_proxy: seal.url,
 		https_proxy: seal.url,
-		NO_PROXY: '127.0.0.1,localhost,::1',
-		no_proxy: '127.0.0.1,localhost,::1',
+		NO_PROXY: bypass,
+		no_proxy: bypass,
+		MARKLESS_ECOSYSTEM_BYPASS: loopbackBypass(local),
 		NODE_USE_ENV_PROXY: '1',
 		NODE_EXTRA_CA_CERTS: seal.caCert,
 		MARKLESS_ECOSYSTEM_SEAL: seal.url,

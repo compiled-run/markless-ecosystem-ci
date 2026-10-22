@@ -29,7 +29,8 @@ failures one by one, not only pass or fail.
    `NODE_EXTRA_CA_CERTS`; the checker's own Playwright request client gets the proxy too. `src/seal/guard.mjs`
    refuses any TCP connection off the machine in the checker and the site server, so a request that would bypass
    the seal fails instead of reaching the network. The site under test (on `127.0.0.1`) is passed straight through. Every other request,
-   the old site included, is answered from `captures/<suite>/` and never reaches the network. A request the
+   the old site included (also an old site served on the machine, see `oldSite` below), is answered from
+   `captures/<suite>/` and never reaches the network. A request the
    capture does not hold gets a 504 and is listed in the result as a miss.
 4. **The check.** `markless-migrate check --old <the old site's real origin> --new http://127.0.0.1:<port>` on the
    lane's routes. The old side is the same origin the port was proved against, served from the capture, so the
@@ -141,11 +142,21 @@ One file per site in `suites/`, with its route lists in `suites/routes/`. A suit
 | next-dashboard | https://mm-next-dashboard-old.vercel.app | streaming, keyed lists, in-place navigation, signed-in role | runs |
 | realworld | https://mm-realworld-old.vercel.app | in-place navigation, onIdle, keyed list | runs |
 | remix-notes | https://mm-remix-notes-old.vercel.app | streaming, keyed list, in-place navigation, signed-in role | runs |
+| shadcn-ui | http://localhost:4000 (ui.shadcn.com's Next.js build, served on the runner) | onIdle, theme class, menus, dialogs, big page, in-place navigation | runs |
 | shadcn-admin | https://mm-shadcn-admin-old.vercel.app | dialogs, menus, theme class, keyed lists, onIdle, in-place navigation | runs |
 | vite-dev | https://vite-dev-old.vercel.app | page scripts, theme class, dialog, menus, big page, in-place navigation | runs |
 | vite-site (the migrate demo) | https://migrate-demo-old.vercel.app | menu, keyed list, onIdle | not run: the port is on Markless 0.5.0 and does not build on 0.8 |
 
-ui.shadcn.com is not a suite yet: its port is not on markless-migrate main.
+A suite can carry three more things, which ui.shadcn.com needs:
+
+- `migrateRef`: a markless-migrate commit of its own (its app and the checker), checked out beside the pinned one.
+- `snapshot`: files the port generates and does not commit (`convert`'s pages, components, copied assets and server
+  handlers), as a `.tar.gz` release asset of markless-migrate, unpacked over the app before install. It is
+  downloaded and checked against its sha256 before anything runs in the seal.
+- `oldSite`: an old site served on the machine (`old` is a loopback origin such as `http://localhost:4000`). The
+  seal records and replays that origin like any other host; only the site under test on `127.0.0.1` passes
+  through. When recording and nothing answers at `old` yet, the suite's `setup` commands build the old site in the
+  markless-migrate checkout and `serve` serves it; a replay answers it from the capture.
 
 ## Known reds
 
