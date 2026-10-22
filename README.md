@@ -143,7 +143,7 @@ One file per site in `suites/`, with its route lists in `suites/routes/`. A suit
 | remix-notes | https://mm-remix-notes-old.vercel.app | streaming, keyed list, in-place navigation, signed-in role | runs |
 | shadcn-admin | https://mm-shadcn-admin-old.vercel.app | dialogs, menus, theme class, keyed lists, onIdle, in-place navigation | runs |
 | vite-dev | https://vite-dev-old.vercel.app | page scripts, theme class, dialog, menus, big page, in-place navigation | runs |
-| vite-site (the migrate demo) | https://migrate-demo-old.vercel.app | menu, keyed list, onIdle | not run: the port is on Markless 0.5.0 and does not build on 0.8 |
+| vite-site (the migrate demo) | https://migrate-demo-old.vercel.app | menu, keyed list, onIdle | runs |
 
 ui.shadcn.com is not a suite yet: its port is not on markless-migrate main.
 
