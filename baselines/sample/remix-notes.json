@@ -2,14 +2,14 @@
 	"suite": "remix-notes",
 	"lane": "sample",
 	"markless": {
-		"sha": "8d8f1f85d1ec0f6175f5d525dea30ef4b006bba6",
+		"sha": "2c8ab3693691329d7d38a7a12e1557c20b0612b2",
 		"version": "0.8.0",
 		"ref": "main"
 	},
 	"migrate": {
 		"sha": "64947b72a31d8ed0eeede38df9a587317426459c"
 	},
-	"recordedAt": "2026-10-22T04:05:05.319Z",
+	"recordedAt": "2026-10-22T04:33:30.260Z",
 	"steps": {
 		"install": "pass",
 		"build": "pass",
@@ -39,7 +39,7 @@
 			"failures": [],
 			"weight": {
 				"downloaded": 203360,
-				"executed": 8590
+				"executed": 8813
 			}
 		},
 		"/notes as signed-in": {
@@ -49,19 +49,19 @@
 					"id": "9269030c02",
 					"dimension": "a11y",
 					"check": "press Enter on button \"Logout\"",
-					"lastSeen": "2026-10-22T04:05:05.319Z"
+					"lastSeen": "2026-10-22T04:33:30.260Z"
 				},
 				{
 					"id": "75b816b410",
 					"dimension": "responsiveness",
 					"check": "navigation from link \"Notes\" (4x CPU, mobile)",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-22T04:05:05.319Z"
+					"lastSeen": "2026-10-22T04:33:30.260Z"
 				}
 			],
 			"weight": {
 				"downloaded": 227214,
-				"executed": 9959
+				"executed": 9736
 			},
 			"owner": "markless-migrate remix-notes port (thejackshelton)"
 		},
@@ -80,25 +80,25 @@
 					"id": "7f6b17fe56",
 					"dimension": "a11y",
 					"check": "press Enter on button \"Logout\"",
-					"lastSeen": "2026-10-22T04:05:05.319Z"
+					"lastSeen": "2026-10-22T04:33:30.260Z"
 				},
 				{
 					"id": "de1a7cd72c",
 					"dimension": "a11y",
 					"check": "press Enter on button \"Delete\"",
-					"lastSeen": "2026-10-22T04:05:05.319Z"
+					"lastSeen": "2026-10-22T04:33:30.260Z"
 				},
 				{
 					"id": "913dee19c1",
 					"dimension": "responsiveness",
 					"check": "navigation from link \"📝 My first note\" (4x CPU, mobile)",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-22T04:05:05.319Z"
+					"lastSeen": "2026-10-22T04:33:30.260Z"
 				}
 			],
 			"weight": {
 				"downloaded": 227214,
-				"executed": 9736
+				"executed": 9959
 			},
 			"owner": "markless-migrate remix-notes port (thejackshelton)"
 		}
