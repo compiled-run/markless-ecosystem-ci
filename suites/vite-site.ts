@@ -9,7 +9,6 @@ export default {
 	env: {
 		CMS_URL: 'https://migrate-demo-cms.vercel.app',
 	},
-	disabled: "the port is on Markless 0.5.0 and its document.tsrx does not build on 0.8 (TSRX2011: a code block renders a single node), the TSRX change 0.8 made on purpose; it runs again once the markless-migrate port moves to 0.8",
 	routes: {
 		sample: [
 			{ route: '/', covers: ['menu', 'keyed list', 'idle or visible handler'] },
