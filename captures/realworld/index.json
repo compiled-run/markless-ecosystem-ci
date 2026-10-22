@@ -1,6 +1,49 @@
 {
 	"version": 1,
 	"entries": {
+		"GET http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css": {
+			"status": 301,
+			"headers": {
+				"cf-ray": "a4e4c8a338a22700-SJC",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Thu, 22 Oct 2026 01:38:39 GMT",
+				"location": "https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css",
+				"server": "cloudflare",
+				"x-content-type-options": "nosniff"
+			},
+			"body": "446a6087825fa73eadb045e5a2e9e2adf7df241b571228187728191d961dda1f"
+		},
+		"GET https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "50955",
+				"cache-control": "max-age=31536000",
+				"cf-cache-status": "HIT",
+				"cf-ray": "a4e4c8732bfd7aaf-SJC",
+				"content-security-policy": "default-src 'self'; script-src 'self' *.ionicframework.com ionicframework.com; style-src 'self' *.ionicframework.com ionicframework.com;",
+				"content-type": "text/css; charset=utf-8",
+				"date": "Thu, 22 Oct 2026 01:38:31 GMT",
+				"etag": "W/\"68efb1fd-c854\"",
+				"expires": "Thu, 08 Oct 2026 17:45:20 GMT",
+				"last-modified": "Wed, 15 Oct 2025 14:38:53 GMT",
+				"server": "cloudflare",
+				"vary": "Accept-Encoding",
+				"via": "1.1 varnish",
+				"x-cache": "HIT",
+				"x-cache-hits": "1",
+				"x-content-type-options": "nosniff",
+				"x-fastly-request-id": "6e54373bdb711cb2eb287d9ad76a2e384c91be88",
+				"x-github-edge-region": "westus3",
+				"x-github-request-id": "ECD2:2BD765:2B2CF:326ED:6ABA8E63",
+				"x-origin-cache": "HIT",
+				"x-proxy-cache": "HIT",
+				"x-served-by": "cache-sjc10073-SJC",
+				"x-timer": "S1791241025.418652,VS0,VE2"
+			},
+			"body": "92ac508220f5bb60ec94e07650528eb66625f82a4740ada068cde05365781286"
+		},
 		"GET https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css.map": {
 			"status": 404,
 			"headers": {
@@ -29,6 +72,162 @@
 				"x-timer": "S1792602097.735011,VS0,VE94"
 			},
 			"body": "b620507312c5e97566a3c6cfaf99144fefc18a0da7d941401dfa0f5f58fb0368"
+		},
+		"GET https://code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.ttf?v=2.0.1": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "398",
+				"cache-control": "max-age=31536000",
+				"cf-cache-status": "HIT",
+				"cf-ray": "a4e4c874dde27aaf-SJC",
+				"content-security-policy": "default-src 'self'; script-src 'self' *.ionicframework.com ionicframework.com; style-src 'self' *.ionicframework.com ionicframework.com;",
+				"content-type": "font/ttf",
+				"date": "Thu, 22 Oct 2026 01:38:31 GMT",
+				"etag": "W/\"68efb1fd-2e05c\"",
+				"expires": "Mon, 12 Oct 2026 15:52:18 GMT",
+				"last-modified": "Wed, 15 Oct 2025 14:38:53 GMT",
+				"server": "cloudflare",
+				"vary": "Accept-Encoding",
+				"via": "1.1 varnish",
+				"x-cache": "HIT",
+				"x-cache-hits": "3",
+				"x-content-type-options": "nosniff",
+				"x-fastly-request-id": "075da1f91dc5919bb25f73aa9c698ffd3ac2ffc5",
+				"x-github-edge-region": "westus3",
+				"x-github-request-id": "C59E:2F6D66:35AD0:3E063:6ACD001A",
+				"x-proxy-cache": "HIT",
+				"x-served-by": "cache-sjc10035-SJC",
+				"x-timer": "S1792632713.332086,VS0,VE1"
+			},
+			"body": "5e700835ec05293a3d0f9e354e7d038319d34521cd279e782198dff6d1dd58f2"
+		},
+		"GET https://fonts.gstatic.com/s/lora/v37/0QIvMX1D_JOuMwr7Iw.woff2": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "17429",
+				"cache-control": "public, max-age=31536000",
+				"content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/apps-themes",
+				"content-type": "font/woff2",
+				"cross-origin-opener-policy": "same-origin; report-to=\"apps-themes\"",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Wed, 21 Oct 2026 20:48:03 GMT",
+				"expires": "Thu, 21 Oct 2027 20:48:03 GMT",
+				"last-modified": "Wed, 10 Sep 2025 17:07:42 GMT",
+				"server": "sffe",
+				"timing-allow-origin": "*",
+				"x-content-type-options": "nosniff",
+				"x-xss-protection": "0"
+			},
+			"body": "ddb8c66035104e233fc024669183aad3738b6daa16deee2ebb1241bd0f98ace1"
+		},
+		"GET https://fonts.gstatic.com/s/sourcesanspro/v24/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDI.woff2": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "17428",
+				"cache-control": "public, max-age=31536000",
+				"content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/apps-themes",
+				"content-type": "font/woff2",
+				"cross-origin-opener-policy": "same-origin; report-to=\"apps-themes\"",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Wed, 21 Oct 2026 20:48:04 GMT",
+				"expires": "Thu, 21 Oct 2027 20:48:04 GMT",
+				"last-modified": "Wed, 30 Sep 2026 16:57:50 GMT",
+				"server": "sffe",
+				"timing-allow-origin": "*",
+				"x-content-type-options": "nosniff",
+				"x-xss-protection": "0"
+			},
+			"body": "4caf5e66ec6c708b9b39405b9e2cee434a71137793f18717b637f3f8a92a12ea"
+		},
+		"GET https://fonts.gstatic.com/s/sourcesanspro/v24/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "17426",
+				"cache-control": "public, max-age=31536000",
+				"content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/apps-themes",
+				"content-type": "font/woff2",
+				"cross-origin-opener-policy": "same-origin; report-to=\"apps-themes\"",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Wed, 21 Oct 2026 20:48:06 GMT",
+				"expires": "Thu, 21 Oct 2027 20:48:06 GMT",
+				"last-modified": "Wed, 30 Sep 2026 16:57:49 GMT",
+				"server": "sffe",
+				"timing-allow-origin": "*",
+				"x-content-type-options": "nosniff",
+				"x-xss-protection": "0"
+			},
+			"body": "fb7b366bd65fb747ebc7d6e2af9d8a25b056c27c4551db320fe68799ca43dc91"
+		},
+		"GET https://fonts.gstatic.com/s/sourcesanspro/v24/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdu.woff2": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "17422",
+				"cache-control": "public, max-age=31536000",
+				"content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/apps-themes",
+				"content-type": "font/woff2",
+				"cross-origin-opener-policy": "same-origin; report-to=\"apps-themes\"",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Wed, 21 Oct 2026 20:48:10 GMT",
+				"expires": "Thu, 21 Oct 2027 20:48:10 GMT",
+				"last-modified": "Wed, 30 Sep 2026 16:57:44 GMT",
+				"server": "sffe",
+				"timing-allow-origin": "*",
+				"x-content-type-options": "nosniff",
+				"x-xss-protection": "0"
+			},
+			"body": "a2fe82406659ad9ab5fc997e99f26dc63614f3f6fc474a1a8a2483e5248b8800"
+		},
+		"GET https://fonts.gstatic.com/s/sourcesanspro/v24/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu.woff2": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "17427",
+				"cache-control": "public, max-age=31536000",
+				"content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/apps-themes",
+				"content-type": "font/woff2",
+				"cross-origin-opener-policy": "same-origin; report-to=\"apps-themes\"",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Wed, 21 Oct 2026 20:48:05 GMT",
+				"expires": "Thu, 21 Oct 2027 20:48:05 GMT",
+				"last-modified": "Wed, 30 Sep 2026 16:57:44 GMT",
+				"server": "sffe",
+				"timing-allow-origin": "*",
+				"x-content-type-options": "nosniff",
+				"x-xss-protection": "0"
+			},
+			"body": "45c6a51457cd1a536fcbf11d51ecdc225daf9635073cf6bc95381f57e87f6f46"
+		},
+		"GET https://fonts.gstatic.com/s/sourcesanspro/v24/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdu.woff2": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "17405",
+				"cache-control": "public, max-age=31536000",
+				"content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/apps-themes",
+				"content-type": "font/woff2",
+				"cross-origin-opener-policy": "same-origin; report-to=\"apps-themes\"",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Wed, 21 Oct 2026 20:48:27 GMT",
+				"expires": "Thu, 21 Oct 2027 20:48:27 GMT",
+				"last-modified": "Wed, 30 Sep 2026 16:57:41 GMT",
+				"server": "sffe",
+				"timing-allow-origin": "*",
+				"x-content-type-options": "nosniff",
+				"x-xss-protection": "0"
+			},
+			"body": "a327a082ad3f8b9d4691d019a8a825df5951f9e0b6fa3e416e711dbe7574dfd4"
 		},
 		"GET https://mm-realworld-api.vercel.app/api/articles/A-field-guide-to-dragons-5b05e455": {
 			"status": 200,

@@ -2628,6 +2628,30 @@
 			},
 			"body": "00e1ca5d1a2ddf0cb759c65d6376add341f1d163f047af56958f341a8f2b53cc"
 		},
+		"POST https://mm-next-dashboard-old.vercel.app/login #1b318293c621073b ;__Host-authjs.csrf-token,__Secure-authjs.callback-url": {
+			"status": 200,
+			"headers": {
+				"age": "0",
+				"cache-control": "public, max-age=0, must-revalidate",
+				"content-type": "text/x-component",
+				"date": "Thu, 22 Oct 2026 01:36:43 GMT",
+				"server": "Vercel",
+				"vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+				"x-action-redirect": "https://mm-next-dashboard-old.vercel.app/dashboard;push",
+				"x-action-revalidated": "1",
+				"x-matched-path": "/dashboard.rsc",
+				"x-nextjs-deployment-id": "dpl_4hJfNafoNLeVqQ9zn1LPyFta3fkk",
+				"x-nextjs-prerender": "1",
+				"x-nextjs-stale-time": "300",
+				"x-vercel-cache": "BYPASS",
+				"x-vercel-id": "sfo1:sfo1:iad1::iad1::iad1::gd98n-1792632984189-5db455e34bd3",
+				"set-cookie": [
+					"__Secure-authjs.callback-url=https%3A%2F%2Fmm-next-dashboard-old.vercel.app%2Fdashboard; Path=/; Secure; HttpOnly; SameSite=lax",
+					"__Secure-authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiemx2akVjN3M2akRRY3VlY082Z2x0VUxUNE1XOGgzanB5eW5Db24zUXFSZkV3cW8yM0JUWUdNa2FYZHlXTU1WR05EMUY3X0NZX0oxMllUano2RUNwLVEifQ..QMyXeB5VmMaRpUsaZ3sRmA.j9chuaf30VnqT4Clbl3LRRpFbGSxx0CGBvmHiCeL70B6cNoSq4cE0xrvrOBB3tCE-A8GL9A0lFDqg7F2_NH_wrb2fUC94sBsELwO2G4tl3odMXi09yV6HxM0Fk60FCiQCJMg4TSJFpxUn9j3Sl7jjOzZ0ZipcNRqSyY8VVfzC2jwUPZgB7grwsYsL5cVK1qHVToYFUVimlBHvvowA5HI584Cqw4e42fhSEt-xv7U50s.W1dN11uHj0hTg530bif9F8N1yzn6p0WZ9zPVoczhfx4; Path=/; Expires=Sat, 21 Nov 2026 01:36:37 GMT; Secure; HttpOnly; SameSite=lax"
+				]
+			},
+			"body": "bd014a3170b18967ef1c581185b1ffa897f66b7358fec3954032bf34f96e563b"
+		},
 		"POST https://mm-next-dashboard-old.vercel.app/login #2c6210edd2b0dbf0 ;__Host-authjs.csrf-token,__Secure-authjs.callback-url": {
 			"status": 200,
 			"headers": {
@@ -2651,6 +2675,54 @@
 				]
 			},
 			"body": "bd014a3170b18967ef1c581185b1ffa897f66b7358fec3954032bf34f96e563b"
+		},
+		"POST https://mm-next-dashboard-old.vercel.app/login #4156f39b3cfe93b7 ;__Host-authjs.csrf-token,__Secure-authjs.callback-url": {
+			"status": 200,
+			"headers": {
+				"age": "0",
+				"cache-control": "public, max-age=0, must-revalidate",
+				"content-type": "text/x-component",
+				"date": "Thu, 22 Oct 2026 01:41:51 GMT",
+				"server": "Vercel",
+				"vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+				"x-action-redirect": "https://mm-next-dashboard-old.vercel.app/dashboard;push",
+				"x-action-revalidated": "1",
+				"x-matched-path": "/dashboard.rsc",
+				"x-nextjs-deployment-id": "dpl_4hJfNafoNLeVqQ9zn1LPyFta3fkk",
+				"x-nextjs-prerender": "1",
+				"x-nextjs-stale-time": "300",
+				"x-vercel-cache": "BYPASS",
+				"x-vercel-id": "sfo1:sfo1:iad1::iad1::iad1::hjwns-1792633310601-62c5edc70334",
+				"set-cookie": [
+					"__Secure-authjs.callback-url=https%3A%2F%2Fmm-next-dashboard-old.vercel.app%2Fdashboard; Path=/; Secure; HttpOnly; SameSite=lax",
+					"__Secure-authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiemx2akVjN3M2akRRY3VlY082Z2x0VUxUNE1XOGgzanB5eW5Db24zUXFSZkV3cW8yM0JUWUdNa2FYZHlXTU1WR05EMUY3X0NZX0oxMllUano2RUNwLVEifQ..0_k-GGrDmhtQ8EbVUQWQgQ.x_dt7mtoRUTlQH-xZWSwCiy7wnuoSN5Xy5URfdeH_dcivgGFO5BK9GvsjhfS8qE036678MfkJWnEHymwY8hxo9wbzXCXoxY74WA53Mc_CJGnYKebG1UxQjzGAPSsWXe1YSAOD6TLwsbT_buXGeVw-Mtvn-Aiq6Wmpwn5G6ecUmO6nShZrUefIyf9UTZrNfUkPBlP9Q2fXslQmfgHli3B9t1oCPwal8n-UBWtyvDDlEk.xRCAx2FhRGhNUdunC_4svzfb373T12Caquj523euC_8; Path=/; Expires=Sat, 21 Nov 2026 01:41:50 GMT; Secure; HttpOnly; SameSite=lax"
+				]
+			},
+			"body": "845f64d8fe426e65be576a29f2999719419779ecb17a6894aa927a5d3cbf43f3"
+		},
+		"POST https://mm-next-dashboard-old.vercel.app/login #58737ac08cd3d6ec ;__Host-authjs.csrf-token,__Secure-authjs.callback-url": {
+			"status": 200,
+			"headers": {
+				"age": "0",
+				"cache-control": "public, max-age=0, must-revalidate",
+				"content-type": "text/x-component",
+				"date": "Thu, 22 Oct 2026 01:36:50 GMT",
+				"server": "Vercel",
+				"vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+				"x-action-redirect": "https://mm-next-dashboard-old.vercel.app/dashboard;push",
+				"x-action-revalidated": "1",
+				"x-matched-path": "/dashboard.rsc",
+				"x-nextjs-deployment-id": "dpl_4hJfNafoNLeVqQ9zn1LPyFta3fkk",
+				"x-nextjs-prerender": "1",
+				"x-nextjs-stale-time": "300",
+				"x-vercel-cache": "BYPASS",
+				"x-vercel-id": "sfo1:sfo1:iad1::iad1::iad1::cvvck-1792633001381-678724c665e9",
+				"set-cookie": [
+					"__Secure-authjs.callback-url=https%3A%2F%2Fmm-next-dashboard-old.vercel.app%2Fdashboard; Path=/; Secure; HttpOnly; SameSite=lax",
+					"__Secure-authjs.session-token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiemx2akVjN3M2akRRY3VlY082Z2x0VUxUNE1XOGgzanB5eW5Db24zUXFSZkV3cW8yM0JUWUdNa2FYZHlXTU1WR05EMUY3X0NZX0oxMllUano2RUNwLVEifQ..uxJQk4Tyc4NT5gZR_3Ns8w.9UTMLuvxqxNEQKL_fuIHWibFT91m_kgG7jqKfJzzffV0EUVkN0ph-pHjetSorTBQ69-1HKm4dGJtYM4n-vEq40cLGCt1UD1vQfXnY9aylb2PGr_CHY1shjEg2MBgn2gkgppfx4qybWP76LeBAj40ohTR8kBXv8N0pDt7JsY3GP6LUIGN-MFIXpK02LSq7w6xPlJIZb4KWgj00cE7jXHd6ZmkoXEuzRbYMVs79UulCPc.3VLTjPCNGJrQpQa1E7lv4Y1JfM11A0Gl3Y5XFJo_74Q; Path=/; Expires=Sat, 21 Nov 2026 01:36:41 GMT; Secure; HttpOnly; SameSite=lax"
+				]
+			},
+			"body": "845f64d8fe426e65be576a29f2999719419779ecb17a6894aa927a5d3cbf43f3"
 		},
 		"POST https://mm-next-dashboard-old.vercel.app/login #6a8ba76ac5b2cef3 ;__Host-authjs.csrf-token,__Secure-authjs.callback-url": {
 			"status": 200,

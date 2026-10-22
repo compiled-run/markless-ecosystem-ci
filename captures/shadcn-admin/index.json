@@ -1,6 +1,69 @@
 {
 	"version": 1,
 	"entries": {
+		"GET https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap": {
+			"status": 200,
+			"headers": {
+				"access-control-allow-origin": "*",
+				"cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+				"content-type": "text/css; charset=utf-8",
+				"cross-origin-opener-policy": "same-origin-allow-popups",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Thu, 22 Oct 2026 01:41:52 GMT",
+				"expires": "Thu, 22 Oct 2026 01:41:52 GMT",
+				"last-modified": "Thu, 22 Oct 2026 01:23:18 GMT",
+				"link": "<https://fonts.gstatic.com>; rel=preconnect; crossorigin",
+				"server": "ESF",
+				"timing-allow-origin": "*",
+				"vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "0"
+			},
+			"body": "fe3a5f6d8382671b443c7cfba0c5b27404514d8fac2a96f160c300bfbbf2c857"
+		},
+		"GET https://fonts.gstatic.com/s/inter/v20/UcCo3FwrK3iLTcviYwY.woff2": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "19577",
+				"cache-control": "public, max-age=31536000",
+				"content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/apps-themes",
+				"content-type": "font/woff2",
+				"cross-origin-opener-policy": "same-origin; report-to=\"apps-themes\"",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Wed, 21 Oct 2026 20:15:36 GMT",
+				"expires": "Thu, 21 Oct 2027 20:15:36 GMT",
+				"last-modified": "Tue, 09 Sep 2025 18:33:17 GMT",
+				"server": "sffe",
+				"timing-allow-origin": "*",
+				"x-content-type-options": "nosniff",
+				"x-xss-protection": "0"
+			},
+			"body": "2c295d99e26dcf357d4d01bcf270fd6924b600c9a13dd8c363ef114f4c6976fa"
+		},
+		"GET https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggexSg.woff2": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "19491",
+				"cache-control": "public, max-age=31536000",
+				"content-security-policy-report-only": "require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/apps-themes",
+				"content-type": "font/woff2",
+				"cross-origin-opener-policy": "same-origin; report-to=\"apps-themes\"",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Wed, 21 Oct 2026 20:17:38 GMT",
+				"expires": "Thu, 21 Oct 2027 20:17:38 GMT",
+				"last-modified": "Thu, 04 Sep 2025 17:08:28 GMT",
+				"server": "sffe",
+				"timing-allow-origin": "*",
+				"x-content-type-options": "nosniff",
+				"x-xss-protection": "0"
+			},
+			"body": "a30ddcd349703aff7464c34bef3fffdff405ee50c113440d7c8693c02d210972"
+		},
 		"GET https://mm-shadcn-admin-old.vercel.app/": {
 			"status": 200,
 			"headers": {
@@ -411,6 +474,18 @@
 				"x-vercel-id": "sfo1::p9jll-1792602907447-2311cabeb617"
 			},
 			"body": "5712399c7a5d941504e4a43325997aba747332b6a4fae5b5fb8df75e004117a2"
+		},
+		"GET https://mm-shadcn-admin-old.vercel.app/assets/apps-Dy7BCJ80.js.map": {
+			"status": 403,
+			"headers": {
+				"cache-control": "no-store",
+				"content-type": "text/plain",
+				"date": "Thu, 22 Oct 2026 01:45:53 GMT",
+				"server": "Vercel",
+				"x-robots-tag": "noindex",
+				"x-vercel-id": "sfo1::vpj46-1792633553094-7854ce439363"
+			},
+			"body": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 		},
 		"GET https://mm-shadcn-admin-old.vercel.app/assets/arrow-right-wYC8MO6z.js": {
 			"status": 200,
@@ -2946,6 +3021,18 @@
 			},
 			"body": "1df10eaa7d99775e56915216d02edef9192c67486e5bec0b48202752ed5a4e8a"
 		},
+		"GET https://mm-shadcn-admin-old.vercel.app/assets/search-Co7JV0QP.js.map": {
+			"status": 403,
+			"headers": {
+				"cache-control": "no-store",
+				"content-type": "text/plain",
+				"date": "Thu, 22 Oct 2026 01:58:01 GMT",
+				"server": "Vercel",
+				"x-robots-tag": "noindex",
+				"x-vercel-id": "iad1::sjnwb-1792634281452-7e799b365e5d"
+			},
+			"body": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+		},
 		"GET https://mm-shadcn-admin-old.vercel.app/assets/search-provider-Bga__1C8.js": {
 			"status": 200,
 			"headers": {
@@ -4483,6 +4570,176 @@
 				"x-vercel-id": "sfo1::q4zr8-1792603885018-65e6b7a6cd70"
 			},
 			"body": "aca343b5b6f3bfbfb6c8d8f5e0d27407de97e9a90121ac0755f75a76ed708184"
+		},
+		"GET https://randomuser.me/api/portraits/men/24.jpg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "1609836",
+				"cache-control": "public, max-age=2592000",
+				"cf-cache-status": "HIT",
+				"cf-ray": "a4e4cf326a3fd19b-MCI",
+				"content-type": "image/jpeg",
+				"date": "Thu, 22 Oct 2026 01:43:07 GMT",
+				"etag": "\"62c38589-469a\"",
+				"expires": "Mon, 02 Nov 2026 10:32:31 GMT",
+				"last-modified": "Tue, 05 Jul 2022 00:27:53 GMT",
+				"server": "cloudflare"
+			},
+			"body": "aa71ceacc335c50de5d72536473637050da921b5439ea9b4fb289b8f76c5720e"
+		},
+		"GET https://randomuser.me/api/portraits/men/32.jpg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "1879351",
+				"cache-control": "public, max-age=2592000",
+				"cf-cache-status": "HIT",
+				"cf-ray": "a4e4cf31dffa8c32-MCI",
+				"content-type": "image/jpeg",
+				"date": "Thu, 22 Oct 2026 01:43:07 GMT",
+				"etag": "\"62c38589-147a\"",
+				"expires": "Fri, 30 Oct 2026 07:40:36 GMT",
+				"last-modified": "Tue, 05 Jul 2022 00:27:53 GMT",
+				"server": "cloudflare"
+			},
+			"body": "a634d4f02fe5b77804943c1d74b8d70e35ffe26454e0e9af9717432a2c72bfde"
+		},
+		"GET https://randomuser.me/api/portraits/men/54.jpg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "1704131",
+				"cache-control": "public, max-age=2592000",
+				"cf-cache-status": "HIT",
+				"cf-ray": "a4e4cf31e9a2a168-MCI",
+				"content-type": "image/jpeg",
+				"date": "Thu, 22 Oct 2026 01:43:07 GMT",
+				"etag": "\"62c38589-149c\"",
+				"expires": "Sun, 01 Nov 2026 08:20:56 GMT",
+				"last-modified": "Tue, 05 Jul 2022 00:27:53 GMT",
+				"server": "cloudflare"
+			},
+			"body": "d1a3e08d4e37d6ee2b7de1db8df87c1dc7acd8ffb004caaf980917de518a60c9"
+		},
+		"GET https://randomuser.me/api/portraits/men/67.jpg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "1434388",
+				"cache-control": "public, max-age=2592000",
+				"cf-cache-status": "HIT",
+				"cf-ray": "a4e4cf31d9bc876e-MCI",
+				"content-type": "image/jpeg",
+				"date": "Thu, 22 Oct 2026 01:43:07 GMT",
+				"etag": "\"62c38589-18c0\"",
+				"expires": "Wed, 04 Nov 2026 11:16:39 GMT",
+				"last-modified": "Tue, 05 Jul 2022 00:27:53 GMT",
+				"server": "cloudflare"
+			},
+			"body": "d1db668ef30403e132bab1de4720f1c9159e8ba03dc0f3d65d5bf95f3985b80a"
+		},
+		"GET https://randomuser.me/api/portraits/men/72.jpg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "1024058",
+				"cache-control": "public, max-age=2592000",
+				"cf-cache-status": "HIT",
+				"cf-ray": "a4e4cf31e8ebae15-MCI",
+				"content-type": "image/jpeg",
+				"date": "Thu, 22 Oct 2026 01:43:07 GMT",
+				"etag": "\"62c38589-1460\"",
+				"expires": "Mon, 09 Nov 2026 05:15:29 GMT",
+				"last-modified": "Tue, 05 Jul 2022 00:27:53 GMT",
+				"server": "cloudflare"
+			},
+			"body": "eb0d14c51d571b63ba1aa4050367d192f71c8e9d5c1aa15cd6de9aacae05b2a1"
+		},
+		"GET https://randomuser.me/api/portraits/women/29.jpg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "1170726",
+				"cache-control": "public, max-age=2592000",
+				"cf-cache-status": "HIT",
+				"cf-ray": "a4e4cf31d9e5d94d-DTW",
+				"content-type": "image/jpeg",
+				"date": "Thu, 22 Oct 2026 01:43:07 GMT",
+				"etag": "\"62c38589-1545\"",
+				"expires": "Sat, 07 Nov 2026 12:31:00 GMT",
+				"last-modified": "Tue, 05 Jul 2022 00:27:53 GMT",
+				"server": "cloudflare"
+			},
+			"body": "ed98acae451e236c2a972a57d73c642aa7002790dc4ea06a16b10e17359b4826"
+		},
+		"GET https://randomuser.me/api/portraits/women/34.jpg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "2260188",
+				"cache-control": "public, max-age=2592000",
+				"cf-cache-status": "HIT",
+				"cf-ray": "a4e4cf31e99fd314-MCI",
+				"content-type": "image/jpeg",
+				"date": "Thu, 22 Oct 2026 01:43:07 GMT",
+				"etag": "\"62c38589-d2e\"",
+				"expires": "Sun, 25 Oct 2026 21:53:19 GMT",
+				"last-modified": "Tue, 05 Jul 2022 00:27:53 GMT",
+				"server": "cloudflare"
+			},
+			"body": "4d6375cdc6176b26e92057f3790823f91ebbd42c35255169fa905624a2164221"
+		},
+		"GET https://randomuser.me/api/portraits/women/45.jpg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "2073495",
+				"cache-control": "public, max-age=2592000",
+				"cf-cache-status": "HIT",
+				"cf-ray": "a4e4cf31fe4970af-MCI",
+				"content-type": "image/jpeg",
+				"date": "Thu, 22 Oct 2026 01:43:07 GMT",
+				"etag": "\"62c38589-11a3\"",
+				"expires": "Wed, 28 Oct 2026 01:44:52 GMT",
+				"last-modified": "Tue, 05 Jul 2022 00:27:53 GMT",
+				"server": "cloudflare"
+			},
+			"body": "03410c155320ba33ecb8d798807c6c9610f33b2b2acdd4ed961a68185806df79"
+		},
+		"GET https://randomuser.me/api/portraits/women/56.jpg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "1987225",
+				"cache-control": "public, max-age=2592000",
+				"cf-cache-status": "HIT",
+				"cf-ray": "a4e4cf31de59d873-MCI",
+				"content-type": "image/jpeg",
+				"date": "Thu, 22 Oct 2026 01:43:07 GMT",
+				"etag": "\"62c38589-1428\"",
+				"expires": "Thu, 29 Oct 2026 01:42:42 GMT",
+				"last-modified": "Tue, 05 Jul 2022 00:27:53 GMT",
+				"server": "cloudflare"
+			},
+			"body": "1468690451b81be74fdf90ee11d190bb1d226560f532cf4a883b50fc5dfaebcc"
+		},
+		"GET https://randomuser.me/api/portraits/women/68.jpg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "1261260",
+				"cache-control": "public, max-age=2592000",
+				"cf-cache-status": "HIT",
+				"cf-ray": "a4e4cf320d813d21-MCI",
+				"content-type": "image/jpeg",
+				"date": "Thu, 22 Oct 2026 01:43:07 GMT",
+				"etag": "\"62c38589-1b24\"",
+				"expires": "Fri, 06 Nov 2026 11:22:07 GMT",
+				"last-modified": "Tue, 05 Jul 2022 00:27:53 GMT",
+				"server": "cloudflare"
+			},
+			"body": "f07b84f12ef125cbb837a7bd64da401992f5f62bd55fee10d01cd3dcc8abae80"
 		}
 	}
 }
