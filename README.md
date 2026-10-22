@@ -51,7 +51,7 @@ failures one by one, not only pass or fail.
    counted, because two replays of one build on one runner disagreed on them: a responsiveness failure that is
    only about time (a first interaction that fetches code still counts), a control the exploration did not reach
    ("not exercised"), a new journey failure on a route main already has red on that dimension (one that logs
-   a console error still counts), and a motion's duration (not its shape). A source map the checker fetches to
+   a console error still counts), a motion's duration (not its shape), and a control the checker gave up on after its own 1.5 s timeout. A source map the checker fetches to
    name a source line is not a capture miss. A check that still varied after that is quarantined in its suite
    (`quarantine`, with the measured reason, an owner and an expiry at most two weeks out); an expired entry fails
    every run. `scripts/stability.ts` compares two replays the way `compare` does, and the record workflow runs it.

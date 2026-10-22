@@ -148,3 +148,12 @@ describe('baseline memory', () => {
 		assert.deepEqual(later.routes['/']!.failures.map((f) => f.id), ['behaviour:x']);
 	});
 });
+
+describe('checker timeouts', () => {
+	test('a control the checker gave up on after its own timeout is shown, not counted', () => {
+		const now: RouteRecord = { ok: false, dimensions: {}, failures: [{ id: 'k', dimension: 'a11y', check: 'press Enter on link "#"', actual: 'link "#" could not be used: timeout: locator.focus: Timeout 1500ms exceeded.' }] };
+		const c = compareSuite(suite, result({ '/': now, '/b': route(true, []) }), baseline({ '/': route(true, []), '/b': route(true, []) }));
+		assert.equal(c.regressions.length, 0);
+		assert.equal(c.timing.length, 1);
+	});
+});

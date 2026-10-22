@@ -8,6 +8,14 @@ export default {
 	owner: 'markless-migrate alpinejs-dev port (thejackshelton)',
 	quarantine: [
 		{
+			route: "/directives/model",
+			dimension: "navigation",
+			check: "in place from /plugins/persist",
+			reason: "the in-place navigation screenshot of /directives/model differed from a fresh load by 62810 pixels in two of four runs on one Markless main commit (nightly 39712615980, push run 39723932651) and matched in the others",
+			owner: "markless-migrate checker (thejackshelton)",
+			until: "2026-11-05",
+		},
+		{
 			route: "*",
 			dimension: "capture",
 			check: "https://fastly.picsum.photos/",

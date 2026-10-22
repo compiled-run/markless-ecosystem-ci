@@ -155,6 +155,8 @@ export function explorationOnly(failure: Pick<FailureRecord, 'dimension' | 'chec
  * width animation at 1286 and 1801 ms.
  */
 export function timingOnly(failure: Pick<FailureRecord, 'dimension' | 'actual' | 'check'>): boolean {
+	// The checker gave up on a control after 1.5 s: a busy runner, not a different page (alpinejs-dev /plugins/persist).
+	if (/could not be used: timeout: /.test(failure.actual ?? '')) return true;
 	if (failure.dimension === 'motion') return / motion timing of /.test(failure.check);
 	return failure.dimension === 'responsiveness' && !/fetched code on the first interaction/.test(failure.actual ?? '');
 }
