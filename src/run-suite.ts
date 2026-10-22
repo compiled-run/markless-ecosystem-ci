@@ -4,6 +4,7 @@ import { existsSync } from 'node:fs';
 import { mkdir, readFile, rm, writeFile } from 'node:fs/promises';
 import { createServer } from 'node:net';
 import { join, resolve } from 'node:path';
+import { pathToFileURL } from 'node:url';
 import { background, exec, execAllowFail, ExecError } from './exec.ts';
 import type { MarklessPacks } from './markless.ts';
 import type { MigrateCheckout } from './migrate.ts';
@@ -189,7 +190,7 @@ export async function runSuite(options: RunSuiteOptions): Promise<SuiteResult> {
 		const port = await freePort();
 		const origin = `http://127.0.0.1:${port}`;
 		const [command, ...args] = suite.serve ?? ['node', '.output/server/index.mjs'];
-		server = background(command!, args, { cwd: appDir, env: { ...sealed, ...suite.serveEnv, PORT: String(port), HOST: '127.0.0.1', NITRO_PORT: String(port), NITRO_HOST: '127.0.0.1' } });
+		server = background(command!, args, { cwd: appDir, env: { ...sealed, ...suite.serveEnv, NODE_OPTIONS: `${process.env.NODE_OPTIONS ?? ''} --import ${pathToFileURL(resolve(options.root, 'src/seal/guard.mjs')).href}`.trim(), PORT: String(port), HOST: '127.0.0.1', NITRO_PORT: String(port), NITRO_HOST: '127.0.0.1' } });
 		await time('serve', () => waitForServer(`${origin}/`, server!.exited, 60_000));
 		steps.serve = 'pass';
 		step = 'check';
