@@ -241,21 +241,29 @@ jobs:
           fi
       - name: Store the night's results as the baseline
         if: github.event_name == 'schedule' || (inputs.baseline && inputs.ref == 'main' && inputs.migrate_ref == '')
+        # The baseline folds this run into the one on main now (it remembers a week of failures), so it is
+        # computed from a fresh main each try, and tried again when another run pushed first.
         run: |
           set -euo pipefail
-          for lane in sample full; do
-            [ -d "results/${lane}" ] && node ecosystem-ci.ts baseline --results "results/${lane}" --lane "$lane"
-          done
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add baselines
-          if git diff --cached --quiet; then
-            echo "baselines unchanged"
-          else
-            git commit -m "baselines: nightly results on Markless main ($(date -u +%Y-%m-%d))"
-            git pull --rebase origin main
-            git push origin HEAD:main
-          fi
+          for attempt in 1 2 3 4 5; do
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            for lane in sample full; do
+              if [ -d "results/${lane}" ]; then node ecosystem-ci.ts baseline --results "results/${lane}" --lane "$lane"; fi
+            done
+            git add baselines
+            if git diff --cached --quiet; then
+              echo "baselines unchanged"
+              exit 0
+            fi
+            git commit -q -m "baselines: nightly results on Markless main ($(date -u +%Y-%m-%d))"
+            if git push origin HEAD:main; then exit 0; fi
+            sleep $((attempt * 5))
+          done
+          echo "::error::Could not push the baseline after 5 tries."
+          exit 1
       - name: Fail on a regression
         env:
           STATUS: ${{ steps.compare.outputs.status }}

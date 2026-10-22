@@ -8,6 +8,14 @@ export default {
 	owner: 'markless-migrate alpinejs-dev port (thejackshelton)',
 	quarantine: [
 		{
+			route: "*",
+			dimension: "capture",
+			check: "https://fastly.picsum.photos/",
+			reason: "the carousel and image demos load random picsum.photos images, a different image id on each load (nightly run 39712615980 asked for two ids the capture run did not)",
+			owner: "markless-migrate alpinejs-dev port (thejackshelton)",
+			until: "2026-11-05",
+		},
+		{
 			route: "/components",
 			dimension: "navigation",
 			check: "in place from /directives/model",
