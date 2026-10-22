@@ -1,7 +1,7 @@
 # markless-ecosystem-ci
 
 The sites ported to [Markless](https://github.com/compiled-run/markless) by
-[markless-migrate](https://github.com/thejackshelton/markless-migrate), used as a regression suite for Markless
+[markless-migrate](https://github.com/compiled-run/markless-migrate), used as a regression suite for Markless
 itself. Each suite builds one migrated site against a Markless commit, runs the site's build (and its own tests,
 when it has any), serves it, and runs `markless-migrate check` on a sample of its routes against a capture of the
 old site. The result is compared with Markless main's last nightly result, so only what got worse fails.
