@@ -2,14 +2,14 @@
 	"suite": "docusaurus",
 	"lane": "sample",
 	"markless": {
-		"sha": "ee63247f3ef9ba603a7a1b61b782a6820cd91059",
+		"sha": "8d8f1f85d1ec0f6175f5d525dea30ef4b006bba6",
 		"version": "0.8.0",
 		"ref": "main"
 	},
 	"migrate": {
 		"sha": "64947b72a31d8ed0eeede38df9a587317426459c"
 	},
-	"recordedAt": "2026-10-22T02:57:12.737Z",
+	"recordedAt": "2026-10-22T03:58:11.831Z",
 	"steps": {
 		"install": "pass",
 		"build": "pass",
@@ -26,66 +26,230 @@
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "e5a38fb467",
 					"dimension": "rendered",
 					"check": "visible text",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "af950c6746",
 					"dimension": "visual",
 					"check": "screenshot",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "f5a947a2b8",
 					"dimension": "a11y",
 					"check": "focus order (Tab), first difference at stop 14",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "ee94bcf2cb",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "d8cc5a0aa7",
 					"dimension": "visual",
 					"check": "screenshot in :hover on .dropdown--hoverable",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "26254e7781",
+					"dimension": "behaviour",
+					"check": "click button \"English\"",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "f9ca8fe697",
 					"dimension": "behaviour",
 					"check": "click button \"Switch between dark and light mode (currently system mode)\" (step 2 of 5: use 2)",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "15229a556a",
 					"dimension": "behaviour",
 					"check": "click button \"Switch between dark and light mode (currently system mode)\", then follow link \"Docusaurus\" (step 3 of 4: use 2, on the page it led to)",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "50562686dc",
 					"dimension": "behaviour",
 					"check": "click button \"Search (Control+k)\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "6b4ef64b5b",
 					"dimension": "behaviour",
 					"check": "click button \"Search (Control+k)\", then follow link \"Docusaurus\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "43b3d709eb",
+					"dimension": "behaviour",
+					"check": "click button \"Switch between dark and light mode (currently system mode)\", then click button \"Switch between dark and light mode (currently light mode)\" (step 2)",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "23ee561bb9",
+					"dimension": "behaviour",
+					"check": "click button \"Switch between dark and light mode (currently system mode)\", then click button \"Switch between dark and light mode (currently light mode)\", then follow link \"Docusaurus\" (step 2)",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "de75e60179",
+					"dimension": "behaviour",
+					"check": "click button \"Search (Control+k)\", then click button \"Cancel\" (step 1)",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "126735ca3f",
+					"dimension": "behaviour",
+					"check": "click button \"Search (Control+k)\", then type \"coffee\" into searchbox \"Search\" (step 1)",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "5da8ca6fe1",
+					"dimension": "behaviour",
+					"check": "click button \"Search (Control+k)\", then click button \"Search\" (step 1)",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "b39a905d86",
+					"dimension": "behaviour",
+					"check": "click button \"Switch between dark and light mode (currently system mode)\", with the OS in dark mode (step 2 of 5: use 2)",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "095eefd790",
+					"dimension": "behaviour",
+					"check": "click button \"Switch between dark and light mode (currently system mode)\", then follow link \"Docusaurus\", with the OS in dark mode (step 3 of 4: use 2, on the page it led to)",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "41fafc83a6",
+					"dimension": "behaviour",
+					"check": "click button \"Switch between dark and light mode (currently system mode)\", then click button \"Switch between dark and light mode (currently light mode)\", with the OS in dark mode (step 2)",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "5d55c9e3d1",
+					"dimension": "behaviour",
+					"check": "click button \"Switch between dark and light mode (currently system mode)\", then click button \"Switch between dark and light mode (currently light mode)\", then follow link \"Docusaurus\", with the OS in dark mode (step 2)",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "78542bb959",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Skip to main content\"",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "e6cc60e0e3",
+					"dimension": "behaviour",
+					"check": "not exercised: clickable <div> #94 in main (no name: matched by structure and position) (after click button \"Search (Control+k)\", then click button \"Cancel\")",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "851bd5f713",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Clear the query\" (after click button \"Search (Control+k)\", then type \"coffee\" into searchbox \"Search\")",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "cc06d37859",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"See all {count} results\" (after click button \"Search (Control+k)\", then type \"coffee\" into searchbox \"Search\")",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "3a09d5e260",
+					"dimension": "motion",
+					"check": "click button \"Switch between dark and light mode (currently system mode)\": motion of link \"Docusaurus 3.10 is out!️\" (main>link/a) and 2 more elements alike",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "329615b89a",
+					"dimension": "motion",
+					"check": "click button \"Switch between dark and light mode (currently system mode)\", then follow link \"Docusaurus\": motion of link \"Docusaurus 3.10 is out!️\" (main>link/a) and 2 more elements alike",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "f615f6e82a",
+					"dimension": "motion",
+					"check": "click button \"Switch between dark and light mode (currently system mode)\", then click button \"Switch between dark and light mode (currently light mode)\": motion of link \"Get Started\" (main>link/a)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "23e2bc85f4",
+					"dimension": "motion",
+					"check": "click button \"Switch between dark and light mode (currently system mode)\", then click button \"Switch between dark and light mode (currently light mode)\": frame of button \"Search (Control+k)\" (navigation>button/button)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "73bcda1001",
+					"dimension": "motion",
+					"check": "click button \"Switch between dark and light mode (currently system mode)\", then click button \"Switch between dark and light mode (currently light mode)\": frame of kbd \"Ctrl\" (navigation>button/kbd)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "c53b207e95",
+					"dimension": "motion",
+					"check": "click button \"Switch between dark and light mode (currently system mode)\", then click button \"Switch between dark and light mode (currently light mode)\", then follow link \"Docusaurus\": motion of link \"Get Started\" (main>link/a)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "8a13574531",
+					"dimension": "motion",
+					"check": "click button \"Switch between dark and light mode (currently system mode)\", then click button \"Switch between dark and light mode (currently light mode)\", then follow link \"Docusaurus\": frame of button \"Search (Control+k)\" (navigation>button/button)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "d5785c9ec2",
+					"dimension": "motion",
+					"check": "click button \"Switch between dark and light mode (currently system mode)\", then click button \"Switch between dark and light mode (currently light mode)\", then follow link \"Docusaurus\": frame of kbd \"Ctrl\" (navigation>button/kbd)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "6d1b2aacdb",
+					"dimension": "navigation",
+					"check": "back to / after going in place from / to /docs/installation: computed styles of nav",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "1a1ac1ecfe",
+					"dimension": "navigation",
+					"check": "back to / after going in place from / after button \"Switch between dark and light mode (currently system mode)\" to /docs/installation: computed styles of nav",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "c6cdfd0842",
+					"dimension": "navigation",
+					"check": "in place from /docs/installation: <html> class and data-* attributes, against the old app reached the same way",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "c7bf47873a",
+					"dimension": "navigation",
+					"check": "in place from /docs/installation after button \"Switch between dark and light mode (currently system mode)\": <html> class and data-* attributes, against the old app reached the same way",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "8250c13589",
@@ -118,95 +282,9 @@
 					"lastSeen": "2026-10-22T02:57:12.737Z"
 				},
 				{
-					"id": "de75e60179",
-					"dimension": "behaviour",
-					"check": "click button \"Search (Control+k)\", then click button \"Cancel\" (step 1)",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
-				},
-				{
-					"id": "126735ca3f",
-					"dimension": "behaviour",
-					"check": "click button \"Search (Control+k)\", then type \"coffee\" into searchbox \"Search\" (step 1)",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
-				},
-				{
-					"id": "5da8ca6fe1",
-					"dimension": "behaviour",
-					"check": "click button \"Search (Control+k)\", then click button \"Search\" (step 1)",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
-				},
-				{
 					"id": "99d3989f3e",
 					"dimension": "behaviour",
 					"check": "click button \"Search (Control+k)\", then click button \"Cancel\", then click clickable <div> #94 in main (no name: matched by structure and position) (step 1)",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
-				},
-				{
-					"id": "b39a905d86",
-					"dimension": "behaviour",
-					"check": "click button \"Switch between dark and light mode (currently system mode)\", with the OS in dark mode (step 2 of 5: use 2)",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
-				},
-				{
-					"id": "095eefd790",
-					"dimension": "behaviour",
-					"check": "click button \"Switch between dark and light mode (currently system mode)\", then follow link \"Docusaurus\", with the OS in dark mode (step 3 of 4: use 2, on the page it led to)",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
-				},
-				{
-					"id": "78542bb959",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Skip to main content\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
-				},
-				{
-					"id": "851bd5f713",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Clear the query\" (after click button \"Search (Control+k)\", then type \"coffee\" into searchbox \"Search\")",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
-				},
-				{
-					"id": "cc06d37859",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"See all {count} results\" (after click button \"Search (Control+k)\", then type \"coffee\" into searchbox \"Search\")",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
-				},
-				{
-					"id": "3a09d5e260",
-					"dimension": "motion",
-					"check": "click button \"Switch between dark and light mode (currently system mode)\": motion of link \"Docusaurus 3.10 is out!️\" (main>link/a) and 2 more elements alike",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
-				},
-				{
-					"id": "329615b89a",
-					"dimension": "motion",
-					"check": "click button \"Switch between dark and light mode (currently system mode)\", then follow link \"Docusaurus\": motion of link \"Docusaurus 3.10 is out!️\" (main>link/a) and 2 more elements alike",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
-				},
-				{
-					"id": "6d1b2aacdb",
-					"dimension": "navigation",
-					"check": "back to / after going in place from / to /docs/installation: computed styles of nav",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
-				},
-				{
-					"id": "1a1ac1ecfe",
-					"dimension": "navigation",
-					"check": "back to / after going in place from / after button \"Switch between dark and light mode (currently system mode)\" to /docs/installation: computed styles of nav",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
-				},
-				{
-					"id": "c6cdfd0842",
-					"dimension": "navigation",
-					"check": "in place from /docs/installation: <html> class and data-* attributes, against the old app reached the same way",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
-				},
-				{
-					"id": "c7bf47873a",
-					"dimension": "navigation",
-					"check": "in place from /docs/installation after button \"Switch between dark and light mode (currently system mode)\": <html> class and data-* attributes, against the old app reached the same way",
 					"lastSeen": "2026-10-22T02:57:12.737Z"
 				},
 				{
@@ -223,8 +301,8 @@
 				}
 			],
 			"weight": {
-				"downloaded": 749075,
-				"executed": 195376
+				"downloaded": 749489,
+				"executed": 195665
 			},
 			"owner": "markless-migrate docusaurus port (thejackshelton)"
 		},
@@ -236,293 +314,293 @@
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "2230f86ccf",
 					"dimension": "rendered",
 					"check": "visible text",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "a73325d966",
 					"dimension": "visual",
 					"check": "screenshot",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "b6a9f9bcf2",
 					"dimension": "a11y",
 					"check": "focus order (Tab), first difference at stop 14",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "0c7648290d",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "81b62a0923",
 					"dimension": "visual",
 					"check": "screenshot in :hover on .breadcrumbs__link:any-link",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "84e8f9fde2",
 					"dimension": "visual",
 					"check": "screenshot in :hover on .close",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "9de7daf6c6",
 					"dimension": "visual",
 					"check": "screenshot in :focus on .close",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "51a8397bdd",
 					"dimension": "visual",
 					"check": "screenshot in :hover on .dropdown--hoverable",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "8590f58414",
 					"dimension": "visual",
 					"check": "screenshot in :hover on .footer__link-item",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "c89626e410",
 					"dimension": "visual",
 					"check": "screenshot in :hover on .navbar__brand",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "b2657c09c7",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"Close\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "1ae4de765b",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"Canary 🚧\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "ebad1ce598",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"English\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "1f3ff2b912",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"Switch between dark and light mode (currently system mode)\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "57e6b0f593",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"Search (Control+k)\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "d3c1a48c74",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"Collapse sidebar category 'Getting Started'\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "3531c03c4f",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"Expand sidebar category 'Guides'\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "5b5889604d",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"Expand sidebar category 'Advanced Guides'\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "0ab26f795d",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"Expand sidebar category 'Upgrading'\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "cf934f901b",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"Collapse sidebar\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "0fd08f64e0",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Skip to main content\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "bdf9a657fd",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Docusaurus\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "1641c70c21",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Docs\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "75dfa2c22a",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"API\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "0ec19caccf",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Blog\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "7235ad1d10",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Showcase\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "6a4b830fd5",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Community\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "c028b854b3",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Docusaurus\" #2",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "814ee9e385",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Introduction\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "98dae60c2b",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Getting Started\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "e52952aefd",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Installation\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "4a527247ea",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Configuration\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "e32fa2404d",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Playground\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "d416d0c64e",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"TypeScript Support\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "bba99de6d0",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Guides\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "6846404d8a",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Advanced Guides\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "fdfb67d050",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Upgrading\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "cd1e374026",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Introduction\" #2",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "39b6784bb0",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Installation\" #2",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "3524333896",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Upgrading\" #2",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "6802a12714",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Feature Requests\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "c491854f06",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Help\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "653f1e028e",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Blog\" #3",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "a07d3ee5c8",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Changelog\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "2d395d2cc3",
 					"dimension": "behaviour",
 					"check": "not exercised: tab \"pnpm\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "3b4f284172",
 					"dimension": "behaviour",
 					"check": "not exercised: tab \"Bun\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "689609175b",
@@ -533,8 +611,8 @@
 				}
 			],
 			"weight": {
-				"downloaded": 749075,
-				"executed": 195846
+				"downloaded": 749489,
+				"executed": 195360
 			},
 			"owner": "markless-migrate docusaurus port (thejackshelton)"
 		},
@@ -546,365 +624,444 @@
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "0f53dce7aa",
 					"dimension": "rendered",
 					"check": "visible text",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "f9606b0f8e",
 					"dimension": "visual",
 					"check": "screenshot",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "a82a7ae7c4",
 					"dimension": "a11y",
 					"check": "focus order (Tab), first difference at stop 14",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "6b221c3428",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "99932a880d",
+					"dimension": "visual",
+					"check": "screenshot in :hover on .breadcrumbs__link:link",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "709678be62",
 					"dimension": "visual",
 					"check": "screenshot in :hover on .breadcrumbs__link:any-link",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "32186ca6b8",
 					"dimension": "visual",
 					"check": "screenshot in :hover on .close",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "f1161d9c82",
 					"dimension": "visual",
 					"check": "screenshot in :focus on .close",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "6d71813b2b",
 					"dimension": "visual",
 					"check": "screenshot in :hover on .dropdown--hoverable",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "a8d75d7d65",
 					"dimension": "visual",
 					"check": "screenshot in :hover on .footer__link-item",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "ef9faf1b73",
 					"dimension": "visual",
 					"check": "screenshot in :hover on .navbar__brand",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "1a42de52a9",
+					"dimension": "behaviour",
+					"check": "click link \"pages guide\"",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "2bef7de553",
+					"dimension": "behaviour",
+					"check": "click link \"@canary npm dist tag\"",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "ccc9a4b43d",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"Collapse sidebar category 'Getting Started'\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "75c614fed4",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"Expand sidebar category 'Guides'\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "4f11f6a0c2",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"Expand sidebar category 'Advanced Guides'\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "200f63ee2c",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"Expand sidebar category 'Upgrading'\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "76e4a466e3",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"Collapse sidebar\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "4128b9d4ef",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Skip to main content\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "aa75bf8f03",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Docusaurus\" #2",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "b8841c31c4",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Introduction\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "e21fc0008f",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Getting Started\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "5e7862b96f",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Installation\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "ce7a377f94",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Configuration\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "7bd1bcb5de",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Playground\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "b3f00d9783",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"TypeScript Support\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "ea648fb971",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Guides\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "100e38db0c",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Advanced Guides\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "a47e41c988",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Upgrading\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "26d54fd3fd",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Running the development server\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "61bd2706a1",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Build\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "5a7b855dcd",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Updating your Docusaurus version\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "a1f4d3e217",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Problems?\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "692c040957",
 					"dimension": "behaviour",
 					"check": "not exercised: tab \"npm\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "a278c0700d",
 					"dimension": "behaviour",
 					"check": "not exercised: tab \"Yarn\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "4fee066e8c",
 					"dimension": "behaviour",
 					"check": "not exercised: tab \"pnpm\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "3f3281d9c8",
 					"dimension": "behaviour",
 					"check": "not exercised: tab \"Bun\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "73f73ed0e6",
 					"dimension": "behaviour",
 					"check": "not exercised: tab \"npm\" #2",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "8ba5737fdc",
 					"dimension": "behaviour",
 					"check": "not exercised: tab \"Yarn\" #2",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "2d9d32a553",
 					"dimension": "behaviour",
 					"check": "not exercised: tab \"pnpm\" #2",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "b31447c04f",
 					"dimension": "behaviour",
 					"check": "not exercised: tab \"Bun\" #2",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "e7a91775ed",
 					"dimension": "behaviour",
 					"check": "not exercised: tab \"npm\" #3",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "e0ba8bb5e2",
 					"dimension": "behaviour",
 					"check": "not exercised: tab \"Yarn\" #3",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "ff38379f73",
 					"dimension": "behaviour",
 					"check": "not exercised: tab \"pnpm\" #3",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "9e3908905f",
 					"dimension": "behaviour",
 					"check": "not exercised: tab \"Bun\" #3",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "8a1bb22b7d",
 					"dimension": "behaviour",
 					"check": "not exercised: tab \"npm\" #4",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "85de53b6f6",
 					"dimension": "behaviour",
 					"check": "not exercised: tab \"Yarn\" #4",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "0c80c6bcb2",
 					"dimension": "behaviour",
 					"check": "not exercised: tab \"pnpm\" #4",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "c08cc18adf",
 					"dimension": "behaviour",
 					"check": "not exercised: tab \"Bun\" #4",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "43d8dde206",
 					"dimension": "behaviour",
 					"check": "not exercised: tab \"npm\" #5",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "f819372fe9",
 					"dimension": "behaviour",
 					"check": "not exercised: tab \"Yarn\" #5",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "42d3039741",
 					"dimension": "behaviour",
 					"check": "not exercised: tab \"pnpm\" #5",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "c9aa311b6b",
 					"dimension": "behaviour",
 					"check": "not exercised: tab \"Bun\" #5",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "eb76b76fb1",
 					"dimension": "behaviour",
 					"check": "not exercised: summary \"Alternative installation commands\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "e61cc24935",
+					"dimension": "behaviour",
+					"check": "click button \"English\", in the layout shared with /",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "a708727ce4",
 					"dimension": "behaviour",
 					"check": "click button \"Switch between dark and light mode (currently system mode)\" (step 2 of 5: use 2), in the layout shared with /",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "1598b5b375",
 					"dimension": "behaviour",
 					"check": "click button \"Switch between dark and light mode (currently system mode)\", then follow link \"Docusaurus\" (step 3 of 4: use 2, on the page it led to), in the layout shared with /",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "7700efb02a",
+					"dimension": "behaviour",
+					"check": "click button \"Switch between dark and light mode (currently system mode)\", then click button \"Switch between dark and light mode (currently light mode)\" (step 2), in the layout shared with /",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "c4db2205ca",
+					"dimension": "behaviour",
+					"check": "click button \"Switch between dark and light mode (currently system mode)\", then click button \"Switch between dark and light mode (currently light mode)\", then follow link \"Docusaurus\" (step 2), in the layout shared with /",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "c6ae15f61d",
 					"dimension": "behaviour",
 					"check": "click button \"Search (Control+k)\", in the layout shared with /",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "eb51138482",
 					"dimension": "behaviour",
 					"check": "click button \"Search (Control+k)\", then follow link \"Docusaurus\", in the layout shared with /",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "d433f3668a",
 					"dimension": "behaviour",
 					"check": "click button \"Search (Control+k)\", then click button \"Cancel\" (step 1), in the layout shared with /",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "3af63ad102",
 					"dimension": "behaviour",
 					"check": "click button \"Search (Control+k)\", then type \"coffee\" into searchbox \"Search\" (step 1), in the layout shared with /",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "736391121f",
 					"dimension": "behaviour",
 					"check": "click button \"Search (Control+k)\", then click button \"Search\" (step 1), in the layout shared with /",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "105b7080c5",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Docusaurus\", shared with /",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "78eb44ee8a",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"API\", shared with /",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "978dfe0d61",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Blog\", shared with /",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "bcb9a67366",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Installation\" #2, shared with /",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "0328da35c2",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Blog\" #2, shared with /",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "a2e4e263b5",
+					"dimension": "navigation",
+					"check": "in place from /: <html> class and data-* attributes, against the old app reached the same way",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
+				},
+				{
+					"id": "7602e12c18",
+					"dimension": "navigation",
+					"check": "in place from / after button \"Switch between dark and light mode (currently system mode)\": <html> class and data-* attributes, against the old app reached the same way",
+					"lastSeen": "2026-10-22T03:58:11.831Z"
 				},
 				{
 					"id": "db760ae791",
@@ -913,27 +1070,9 @@
 					"lastSeen": "2026-10-22T02:57:12.737Z"
 				},
 				{
-					"id": "105b7080c5",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Docusaurus\", shared with /",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
-				},
-				{
 					"id": "2f64d5878c",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Docs\", shared with /",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
-				},
-				{
-					"id": "78eb44ee8a",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"API\", shared with /",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
-				},
-				{
-					"id": "978dfe0d61",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Blog\", shared with /",
 					"lastSeen": "2026-10-22T02:57:12.737Z"
 				},
 				{
@@ -952,18 +1091,6 @@
 					"id": "f1e5befc53",
 					"dimension": "behaviour",
 					"check": "click link \"Changelog\", in the layout shared with /",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
-				},
-				{
-					"id": "a2e4e263b5",
-					"dimension": "navigation",
-					"check": "in place from /: <html> class and data-* attributes, against the old app reached the same way",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
-				},
-				{
-					"id": "7602e12c18",
-					"dimension": "navigation",
-					"check": "in place from / after button \"Switch between dark and light mode (currently system mode)\": <html> class and data-* attributes, against the old app reached the same way",
 					"lastSeen": "2026-10-22T02:57:12.737Z"
 				},
 				{
@@ -998,8 +1125,8 @@
 				}
 			],
 			"weight": {
-				"downloaded": 749075,
-				"executed": 195788
+				"downloaded": 749489,
+				"executed": 195787
 			},
 			"owner": "markless-migrate docusaurus port (thejackshelton)"
 		}
