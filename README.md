@@ -39,7 +39,10 @@ failures one by one, not only pass or fail.
    - JavaScript downloaded or run at load grows by more than 2 KB and 5% over main;
    - a route main checked could not be checked;
    - the site makes a request main does not make (a capture miss main did not have).
-   A route red on main too is a known red: it is listed with its owner and never fails a run.
+   A route red on main too is a known red: it is listed with its owner and never fails a run. The baseline
+   remembers every failure a main run showed in the last 7 days, not only the latest run's, because one run of a
+   route does not show all of main's reds (two replays of one build disagreed on keyboard, hover and journey
+   checks).
 
    Two failures are the same failure when their dimension, viewport and check match (the checker's own id also
    hashes measured numbers that move between replays). Four kinds of new failure are shown in the table but not

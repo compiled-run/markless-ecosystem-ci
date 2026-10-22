@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { describe, test } from 'node:test';
-import { applyQuarantine, compareSuite, type Baseline } from '../src/compare.ts';
+import { applyQuarantine, compareSuite, rememberBaseline, type Baseline } from '../src/compare.ts';
 import type { RouteRecord, Suite, SuiteResult } from '../src/types.ts';
 
 const suite: Suite = { name: 'site', app: 'examples/site', old: 'https://old.example', owner: 'the port', routes: { sample: [{ route: '/', covers: ['menu'] }, { route: '/b', covers: ['dialog'] }], full: ['/', '/b'] } };
@@ -132,5 +132,19 @@ describe('capture misses', () => {
 		const c = compareSuite(suite, result({ '/': route(true, []), '/b': route(true, []) }, { seal: { served: 1, loose: 0, misses: ['GET https://old.example/other-page ;session', 'GET https://cdn.example/new.js'] } }), baseline({ '/': route(true, []), '/b': route(true, []) }));
 		assert.deepEqual(c.regressions.map((r) => r.detail), ['a request main does not make, not in the capture: GET https://cdn.example/new.js']);
 		assert.equal(c.timing.length, 1);
+	});
+});
+
+describe('baseline memory', () => {
+	const at = (date: string, ids: string[]): Baseline => ({ ...baseline({ '/': route(false, ids), '/b': route(true, []) }), recordedAt: date });
+
+	test('a failure an earlier main run showed within a week is still known; an older one is dropped', () => {
+		const first = rememberBaseline(at('2026-10-20T03:00:00Z', ['a11y:keys']), undefined);
+		const second = rememberBaseline(at('2026-10-21T03:00:00Z', ['behaviour:x']), first);
+		assert.deepEqual(second.routes['/']!.failures.map((f) => f.id).sort(), ['a11y:keys', 'behaviour:x']);
+		const c = compareSuite(suite, result({ '/': route(false, ['a11y:keys']), '/b': route(true, []) }), second);
+		assert.equal(c.regressions.length, 0);
+		const later = rememberBaseline(at('2026-10-29T03:00:00Z', ['behaviour:x']), second);
+		assert.deepEqual(later.routes['/']!.failures.map((f) => f.id), ['behaviour:x']);
 	});
 });

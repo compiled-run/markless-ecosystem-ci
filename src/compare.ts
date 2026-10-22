@@ -10,7 +10,8 @@ export const WEIGHT_SLACK = { bytes: 2048, ratio: 0.05 };
 
 export interface BaselineRoute {
 	readonly ok: boolean;
-	readonly failures: readonly Pick<FailureRecord, 'id' | 'dimension' | 'check' | 'viewport'>[];
+	/** `lastSeen`: when a main run last showed it (see BASELINE_MEMORY_DAYS). */
+	readonly failures: readonly (Pick<FailureRecord, 'id' | 'dimension' | 'check' | 'viewport'> & { readonly lastSeen?: string })[];
 	readonly weight?: RouteRecord['weight'];
 	readonly infrastructure?: string;
 	/** Set on a red route: who answers for it. */
@@ -83,12 +84,34 @@ export function toBaseline(result: SuiteResult, owner: string): Baseline {
 	return { suite: result.suite, lane: result.lane, markless: result.markless, migrate: result.migrate, recordedAt: result.startedAt, steps: result.steps, routes, misses: result.seal.misses };
 }
 
+/**
+ * How long a failure main showed stays known after main last showed it. One run of a route is not enough to know
+ * main: two replays of one build disagreed on journey, keyboard and hover checks (realworld /article: four
+ * keyboard paths in one of two runs). A failure any main run showed in this window is not new.
+ */
+export const BASELINE_MEMORY_DAYS = 7;
+
+/** Main's latest result, plus every failure an earlier main run showed within BASELINE_MEMORY_DAYS of it. */
+export function rememberBaseline(latest: Baseline, previous: Baseline | undefined): Baseline {
+	if (!previous) return { ...latest, routes: Object.fromEntries(Object.entries(latest.routes).map(([route, r]) => [route, { ...r, failures: r.failures.map((f) => ({ ...f, lastSeen: latest.recordedAt })) }])) };
+	const cutoff = Date.parse(latest.recordedAt) - BASELINE_MEMORY_DAYS * 86_400_000;
+	const routes: Record<string, BaselineRoute> = {};
+	for (const [route, now] of Object.entries(latest.routes)) {
+		const seen = new Set(now.failures.map(failureKey));
+		const kept = (previous.routes[route]?.failures ?? []).filter((f) => !seen.has(failureKey(f)) && Date.parse(f.lastSeen ?? previous.recordedAt) >= cutoff).map((f) => ({ ...f, lastSeen: f.lastSeen ?? previous.recordedAt }));
+		routes[route] = { ...now, failures: [...now.failures.map((f) => ({ ...f, lastSeen: latest.recordedAt })), ...kept] };
+	}
+	return { ...latest, routes, misses: [...new Set([...latest.misses, ...previous.misses])].sort() };
+}
+
 export async function writeBaseline(root: string, lane: Lane, results: readonly SuiteResult[], suites: readonly Suite[]): Promise<void> {
 	const dir = join(root, 'baselines', lane);
 	await mkdir(dir, { recursive: true });
+	const previous = await loadBaseline(root, lane);
 	for (const result of results) {
 		if (result.disabled) continue;
-		const baseline = toBaseline(result, suites.find((s) => s.name === result.suite)?.owner ?? 'unowned');
+		const latest = toBaseline(result, suites.find((s) => s.name === result.suite)?.owner ?? 'unowned');
+		const baseline = rememberBaseline(latest, previous.get(result.suite));
 		await writeFile(join(dir, `${result.suite}.json`), `${JSON.stringify(baseline, null, '\t')}\n`);
 	}
 }
