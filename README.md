@@ -26,7 +26,9 @@ failures one by one, not only pass or fail.
 3. **A sealed network.** The site server and the checker run with every request going through the seal
    (`src/seal/server.ts`), an HTTP proxy. Chromium is pointed at it by `src/seal/preload.mjs`; Node processes get
    `HTTPS_PROXY` with `NODE_USE_ENV_PROXY=1` and trust the run's own certificate authority through
-   `NODE_EXTRA_CA_CERTS`. The site under test (on `127.0.0.1`) is passed straight through. Every other request,
+   `NODE_EXTRA_CA_CERTS`; the checker's own Playwright request client gets the proxy too. `src/seal/guard.mjs`
+   refuses any TCP connection off the machine in the checker and the site server, so a request that would bypass
+   the seal fails instead of reaching the network. The site under test (on `127.0.0.1`) is passed straight through. Every other request,
    the old site included, is answered from `captures/<suite>/` and never reaches the network. A request the
    capture does not hold gets a 504 and is listed in the result as a miss.
 4. **The check.** `markless-migrate check --old <the old site's real origin> --new http://127.0.0.1:<port>` on the
@@ -73,7 +75,7 @@ Measured on GitHub's `ubuntu-latest` runners on 2026-10-21:
   the table, about 150 runner minutes in total.
 - The nightly full lane: 45 jobs of up to 25 routes, with the checker's own journey budget. docusaurus alone is 23
   of them, because it has 571 routes.
-- Captures: 12 MB for the eight suites, each body stored once and brotli-compressed.
+- Captures: 26 MB for the eight suites, each body stored once and brotli-compressed.
 
 The checker is memory-heavy (two Chromium contexts per route, two routes at once), so a job runs one suite shard and
 nothing else. The checker runs as many routes at once as `--concurrency` says (2 by default).
@@ -89,8 +91,16 @@ Nothing here needs a stored secret, a GitHub App or a personal token.
   on the pull request with its own `GITHUB_TOKEN`.
 - **A dispatch.** In compiled-run/markless: `gh workflow run ecosystem-ci.yml -f ref=<commit> [-f pr=<n>]`. Here:
   `gh workflow run nightly.yml -f ref=<branch, tag, commit or pr/<n>>`.
-- **The release gate.** Markless's release cut (`release.yml`, mode `cut`) dispatches its `ecosystem-ci.yml` on the
-  release commit and waits for it before `main` moves; a regression stops the release.
+- **Every push to Markless main.** The per-PR sample runs on the pushed commit; a newer push cancels an older
+  push's run.
+- **The release.** Markless's release cut (`release.yml`, mode `cut`) dispatches its `ecosystem-ci.yml` on the
+  release commit and does not wait for it; the GitHub Release notes link the run and what it found.
+
+Ecosystem CI never blocks anything in Markless: no ruleset requires it, and the release does not wait for it. It
+notifies instead. When a run on main or on a release commit finds a regression, `scripts/notify.ts` (run by
+Markless's workflow with its own `GITHUB_TOKEN`) comments on every merged pull request that landed since main's
+baseline was recorded, and opens or updates one issue in compiled-run/markless labelled `ecosystem-ci` that
+mentions @thejackshelton. The next clean run on main closes that issue with a comment.
 - **Nightly.** `nightly.yml` runs both lanes on Markless main every night, opens (or adds to) an issue labelled
   `ecosystem-regression` here when there are new reds, and commits the night's results to `baselines/`.
 
