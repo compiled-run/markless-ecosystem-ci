@@ -31,6 +31,14 @@ export default {
 			owner: 'markless-migrate checker (thejackshelton)',
 			until: '2026-11-05',
 		},
+		{
+			route: '/docs/components/radix/dropdown-menu',
+			dimension: 'visual',
+			check: 'screenshot in',
+			reason: 'in one of two replays of one build (record run 39897650391), 7140 pixels of every desktop screenshot from 1024 to 2000 px wide and with prefers-reduced-motion: no-preference differed; the other replay matched (the avatar that shows its LR fallback differs in both)',
+			owner: 'markless-migrate ui.shadcn.com port (thejackshelton)',
+			until: '2026-11-05',
+		},
 	],
 	routes: {
 		sample: [

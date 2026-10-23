@@ -71,7 +71,8 @@ jobs:
   record:
     needs: [plan, build]
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    # A shadcn-ui shard (old site built on the runner, then a record and two replays) took 120 minutes in run 39897650391.
+    timeout-minutes: 180
     strategy:
       fail-fast: false
       matrix:
