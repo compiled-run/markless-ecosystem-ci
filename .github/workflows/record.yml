@@ -85,6 +85,8 @@ jobs:
           name: markless-packs
           path: packs
       - uses: ./.github/actions/setup
+      # An old site built on the runner (a suite's oldSite) may script its build with bun, as ui.shadcn.com's registry does.
+      - uses: oven-sh/setup-bun@v2
       - name: Name the artifact after the shard
         id: name
         env:
