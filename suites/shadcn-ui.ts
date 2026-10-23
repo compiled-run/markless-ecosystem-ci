@@ -19,6 +19,19 @@ export default {
 		setup: [['bash', 'deploy/shadcn-ui/fetch-old.sh']],
 		serve: ['bash', 'deploy/shadcn-ui/serve-old.sh'],
 	},
+	// On a runner, /docs/components/radix/dropdown-menu and /colors took close to the checker's 1800 s per route: each was
+	// stopped by it in one of two replays of one build and finished in the other (record run 39886329077).
+	check: ['--timeout', '3000'],
+	quarantine: [
+		{
+			route: '/docs',
+			dimension: 'motion',
+			check: 'click button "How do I pull upstream updates in an Open Code approach?": frame of region',
+			reason: "in one of two replays of one build (record run 39886329077), the region's frame at 50 ms into the old page's accordion-down was 640x67 on the new side; the other replay matched",
+			owner: 'markless-migrate checker (thejackshelton)',
+			until: '2026-11-05',
+		},
+	],
 	routes: {
 		sample: [
 			{ route: '/', covers: ['idle or visible handler', 'theme class', 'menu'] },
