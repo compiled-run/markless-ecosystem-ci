@@ -138,7 +138,7 @@ One file per site in `suites/`, with its route lists in `suites/routes/`. A suit
 | ag-grid | https://mm-ag-grid-old.vercel.app | big page, keyed list, menu, onIdle, theme class | runs |
 | alpinejs-dev | https://alpinejs.dev | big pages, page scripts, dialog, menu, keyed lists, onIdle, in-place navigation | runs |
 | docusaurus | https://mm-docusaurus-old.vercel.app | theme class, menus, dialog, big page, in-place navigation | runs |
-| htmx-org | https://htmx.org | big page, page scripts, menu | not run: the port is on Markless 0.5.0 and does not build on 0.8 |
+| htmx-org | https://htmx.org | big page, page scripts, menu | runs |
 | next-dashboard | https://mm-next-dashboard-old.vercel.app | streaming, keyed lists, in-place navigation, signed-in role | runs |
 | realworld | https://mm-realworld-old.vercel.app | in-place navigation, onIdle, keyed list | runs |
 | remix-notes | https://mm-remix-notes-old.vercel.app | streaming, keyed list, in-place navigation, signed-in role | runs |

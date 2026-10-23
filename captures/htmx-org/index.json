@@ -1,0 +1,3585 @@
+{
+	"version": 1,
+	"entries": {
+		"GET http://clients2.google.com/time/1/current?cup2key=10:LERURfkM8Esqt_y2bD4YXeiYNeDQOJhMWJNk0gDPiG0&cup2hreq=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-disposition": "attachment; filename=\"json.txt\"; filename*=UTF-8''json.txt",
+				"content-type": "application/json; charset=utf-8",
+				"cross-origin-opener-policy": "same-origin",
+				"cross-origin-resource-policy": "same-site",
+				"date": "Fri, 23 Oct 2026 16:49:11 GMT",
+				"etag": "W/\"304502210092c165f495c33cd1cbc3591529c9ca7d58146bc0ffa1f1e6846abf8b69e9ad9f0220591a2e5ebb7a29e611fb4eae196344c4fd27e60be13ad67ff1a1f72b591fe5ba:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\"",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "ESF",
+				"vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+				"x-content-type-options": "nosniff",
+				"x-cup-server-proof": "304502210092c165f495c33cd1cbc3591529c9ca7d58146bc0ffa1f1e6846abf8b69e9ad9f0220591a2e5ebb7a29e611fb4eae196344c4fd27e60be13ad67ff1a1f72b591fe5ba:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "0"
+			},
+			"body": "efd73b177d05e7b3da9e31b21333d8c2c738df02dd46863e5de4ba6a5c24be23"
+		},
+		"GET http://clients2.google.com/time/1/current?cup2key=10:xR0SjBiwBjzVzSBZcssoh-sIRBOVMDBPWlKtX87ZpW8&cup2hreq=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-disposition": "attachment; filename=\"json.txt\"; filename*=UTF-8''json.txt",
+				"content-type": "application/json; charset=utf-8",
+				"cross-origin-opener-policy": "same-origin",
+				"cross-origin-resource-policy": "same-site",
+				"date": "Fri, 23 Oct 2026 16:44:18 GMT",
+				"etag": "W/\"30450221009bd899acd0e0e07e2d9a1b020ddaeced83a2190ac36d22f11a26cb50d6df7dfe02204668c042262a0993a18f600952bd5771e168a2291e956fe2b54949475564e7fe:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\"",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "ESF",
+				"vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+				"x-content-type-options": "nosniff",
+				"x-cup-server-proof": "30450221009bd899acd0e0e07e2d9a1b020ddaeced83a2190ac36d22f11a26cb50d6df7dfe02204668c042262a0993a18f600952bd5771e168a2291e956fe2b54949475564e7fe:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "0"
+			},
+			"body": "eb04573fd5673a55c65241c610cb71decded420081065e69b18de0162007ce0f"
+		},
+		"GET http://connectivitycheck.gstatic.com/generate_204": {
+			"status": 204,
+			"headers": {
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Fri, 23 Oct 2026 16:44:20 GMT"
+			},
+			"body": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+		},
+		"GET http://edgedl.me.gvt1.com/edgedl/diffgen-puffin/bjbcblmdcnggnibecjikpoljcgkbgphl/0e2605ca8c3fef9c0f332da7ad0c101de66d6d114d3c821fa2ed6de15550a0b5": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "70209",
+				"cache-control": "no-transform,public,max-age=86400",
+				"content-disposition": "attachment",
+				"content-security-policy": "default-src 'none'",
+				"content-type": "application/octet-stream",
+				"date": "Thu, 22 Oct 2026 21:16:06 GMT",
+				"etag": "\"6e61257\"",
+				"last-modified": "Mon, 05 Oct 2026 18:12:14 GMT",
+				"server": "Google-Edge-Cache",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-identity-content-length": "4558980",
+				"x-request-id": "3c8602a2-fd83-4aff-be9c-b37efe18616a",
+				"x-xss-protection": "0"
+			},
+			"body": "0e2605ca8c3fef9c0f332da7ad0c101de66d6d114d3c821fa2ed6de15550a0b5"
+		},
+		"GET http://edgedl.me.gvt1.com/edgedl/diffgen-puffin/gcmjkmgdlgnkkcocmoeiminaijmmjnii/93d241e87603e2aac20e9e6ab2a12f1dd352be0faabae7597f3872f3267db430": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "70046",
+				"cache-control": "no-transform,public,max-age=86400",
+				"content-disposition": "attachment",
+				"content-security-policy": "default-src 'none'",
+				"content-type": "application/octet-stream",
+				"date": "Thu, 22 Oct 2026 21:17:51 GMT",
+				"etag": "\"6c92f1d\"",
+				"last-modified": "Mon, 14 Sep 2026 20:19:46 GMT",
+				"server": "Google-Edge-Cache",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-identity-content-length": "58280",
+				"x-request-id": "963d2a68-7564-42b4-b96f-dd07a1fc2bca",
+				"x-xss-protection": "0"
+			},
+			"body": "93d241e87603e2aac20e9e6ab2a12f1dd352be0faabae7597f3872f3267db430"
+		},
+		"GET http://edgedl.me.gvt1.com/edgedl/diffgen-puffin/ggkkehgbnfjpeggfpleeakpidbkibbmn/a2b2f72ba44c06c4e809bddc469993d2d86dc84228f859398dc5e3a3050f8be6": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "55695",
+				"cache-control": "no-transform,public,max-age=86400",
+				"content-disposition": "attachment",
+				"content-security-policy": "default-src 'none'",
+				"content-type": "application/octet-stream",
+				"date": "Fri, 23 Oct 2026 01:17:45 GMT",
+				"etag": "\"6ff2696\"",
+				"last-modified": "Thu, 22 Oct 2026 01:15:02 GMT",
+				"server": "Google-Edge-Cache",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-identity-content-length": "105344",
+				"x-request-id": "df5a5c41-282b-4095-ad4d-9cd6826585b5",
+				"x-xss-protection": "0"
+			},
+			"body": "a2b2f72ba44c06c4e809bddc469993d2d86dc84228f859398dc5e3a3050f8be6"
+		},
+		"GET http://edgedl.me.gvt1.com/edgedl/diffgen-puffin/jflookgnkcckhobaglndicnbbgbonegd/0cf1155b4d9e26e773c8df0faebeb0ee9de1b0a54a9715191b7f2b78c48c1acd": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "21195",
+				"cache-control": "no-transform,public,max-age=86400",
+				"content-disposition": "attachment",
+				"content-security-policy": "default-src 'none'",
+				"content-type": "application/octet-stream",
+				"date": "Fri, 23 Oct 2026 10:52:45 GMT",
+				"etag": "\"6ecfc4c\"",
+				"last-modified": "Fri, 09 Oct 2026 17:59:08 GMT",
+				"server": "Google-Edge-Cache",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-identity-content-length": "66492",
+				"x-request-id": "802af023-7dc8-4398-9404-59ad46966237",
+				"x-xss-protection": "0"
+			},
+			"body": "0cf1155b4d9e26e773c8df0faebeb0ee9de1b0a54a9715191b7f2b78c48c1acd"
+		},
+		"GET http://edgedl.me.gvt1.com/edgedl/diffgen-puffin/khaoiebndkojlmppeemjhbpbandiljpe/0634cfd105888c6d7194e9867daccc475ed94140f1c95bfca9bbde28367f9731": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "72942",
+				"cache-control": "no-transform,public,max-age=86400",
+				"content-disposition": "attachment",
+				"content-security-policy": "default-src 'none'",
+				"content-type": "application/octet-stream",
+				"date": "Thu, 22 Oct 2026 20:29:55 GMT",
+				"etag": "\"5372ba0\"",
+				"last-modified": "Thu, 18 Dec 2025 08:47:55 GMT",
+				"server": "Google-Edge-Cache",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-identity-content-length": "4936",
+				"x-request-id": "964b9145-bae4-4e8c-b619-cb5e79462a63",
+				"x-xss-protection": "0"
+			},
+			"body": "0634cfd105888c6d7194e9867daccc475ed94140f1c95bfca9bbde28367f9731"
+		},
+		"GET http://edgedl.me.gvt1.com/edgedl/diffgen-puffin/ninodabcejpeglfjbkhdplaoglpcbffj/d48966c8ee65ceba51749b9e0942a1b4beb68f7ef3b1626c9c1a7d39c5a1f5b5": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "49931",
+				"cache-control": "no-transform,public,max-age=86400",
+				"content-disposition": "attachment",
+				"content-security-policy": "default-src 'none'",
+				"content-type": "application/octet-stream",
+				"date": "Fri, 23 Oct 2026 02:53:41 GMT",
+				"etag": "\"6cac93d\"",
+				"last-modified": "Tue, 15 Sep 2026 20:45:33 GMT",
+				"server": "Google-Edge-Cache",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-identity-content-length": "263620",
+				"x-request-id": "5f2cdc1a-6b70-4b70-bb04-82f81636e1d8",
+				"x-xss-protection": "0"
+			},
+			"body": "d48966c8ee65ceba51749b9e0942a1b4beb68f7ef3b1626c9c1a7d39c5a1f5b5"
+		},
+		"GET http://edgedl.me.gvt1.com/edgedl/diffgen-puffin/obedbbhbpmojnkanicioggnmelmoomoc/e40bb820d29fb9a9bf8935fa5fbe77b363cf9c553cd0c1993bf0a9bec48686e4": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "39081",
+				"cache-control": "no-transform,public,max-age=86400",
+				"content-disposition": "attachment",
+				"content-security-policy": "default-src 'none'",
+				"content-type": "application/octet-stream",
+				"date": "Fri, 23 Oct 2026 05:53:59 GMT",
+				"etag": "\"505a732\"",
+				"last-modified": "Fri, 31 Oct 2025 15:46:59 GMT",
+				"server": "Google-Edge-Cache",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-identity-content-length": "4623756",
+				"x-request-id": "eed4b268-bca7-4a27-92e1-6a98dadfb0e9",
+				"x-xss-protection": "0"
+			},
+			"body": "e40bb820d29fb9a9bf8935fa5fbe77b363cf9c553cd0c1993bf0a9bec48686e4"
+		},
+		"GET http://edgedl.me.gvt1.com/edgedl/release2/chrome_component/V3P1l2hLvLw_7/7_all_sslErrorAssistant.crx3": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "19484",
+				"cache-control": "no-transform,public,max-age=86400",
+				"content-disposition": "attachment",
+				"content-security-policy": "default-src 'none'",
+				"content-type": "application/octet-stream",
+				"date": "Fri, 23 Oct 2026 11:20:49 GMT",
+				"etag": "\"309324-6aa1e4d0\"",
+				"last-modified": "Thu, 05 Sep 2019 20:55:32 GMT",
+				"server": "Google-Edge-Cache",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-identity-content-length": "5407",
+				"x-request-id": "8ae5d0f7-5d77-4558-992d-af975611cebd",
+				"x-xss-protection": "0"
+			},
+			"body": "3eb16d6c28b502ac4cfee8f4a148df05f4d93229fa36a71db8b08d06329ff18a"
+		},
+		"GET http://edgedl.me.gvt1.com/edgedl/release2/chrome_component/ac55zopqc7vere3bm2pinwvz3d6q_4/hajigopbbjhghbfimgkfmpenfkclmohk_4_all_gjbna5ieot3u4sywv4o74naely.crx3": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "48169",
+				"cache-control": "no-transform,public,max-age=86400",
+				"content-disposition": "attachment",
+				"content-security-policy": "default-src 'none'",
+				"content-type": "application/vnd.google.octet-stream-compressible",
+				"date": "Fri, 23 Oct 2026 03:23:20 GMT",
+				"etag": "\"4f35815-6aa1e4d0\"",
+				"last-modified": "Wed, 15 Oct 2025 00:28:23 GMT",
+				"server": "Google-Edge-Cache",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-identity-content-length": "4817",
+				"x-request-id": "c589b73e-0d9a-4ff2-92ff-44a9aff2f7d5",
+				"x-xss-protection": "0"
+			},
+			"body": "abd93867c038d4d17c101ace2226d7e21303d984d7097271392bae6be478495b"
+		},
+		"GET http://edgedl.me.gvt1.com/edgedl/release2/chrome_component/acaldksiunzh56452py2db5mnbpa_120.0.6050.0/jamhcnnkihinmdlkakkaopbjbbcngflc_120.0.6050.0_all_dgzfpknn7v3zslsbhrwu6bt44e.crx3": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "29612",
+				"cache-control": "no-transform,public,max-age=86400",
+				"content-disposition": "attachment",
+				"content-security-policy": "default-src 'none'",
+				"content-type": "application/octet-stream",
+				"date": "Fri, 23 Oct 2026 08:32:29 GMT",
+				"etag": "\"1d7e818-6aa1e4d0\"",
+				"last-modified": "Fri, 06 Oct 2023 07:12:06 GMT",
+				"server": "Google-Edge-Cache",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-identity-content-length": "1114805",
+				"x-request-id": "346bab1d-dbf9-4061-8476-e9ae589a0a08",
+				"x-xss-protection": "0"
+			},
+			"body": "c52c62a7c50daf7d3f73ec16977cd4b0ea401710807d5dbe3850941dd1b73a70"
+		},
+		"GET http://edgedl.me.gvt1.com/edgedl/release2/chrome_component/acrx7ouhu6es4mtakecyfqbyef2q_1.1.0.3/laoigpblnllgcgjnjnllmfolckpjlhki_1.1.0.3_all_adwgvw4jdcarox4vlsm7t4gq257a.crx3": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "46009",
+				"cache-control": "no-transform,public,max-age=86400",
+				"content-disposition": "attachment",
+				"content-security-policy": "default-src 'none'",
+				"content-type": "application/vnd.google.octet-stream-compressible",
+				"date": "Fri, 23 Oct 2026 03:59:17 GMT",
+				"etag": "\"562da61-6aa1e4d0\"",
+				"last-modified": "Thu, 29 Jan 2026 21:01:18 GMT",
+				"server": "Google-Edge-Cache",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-identity-content-length": "12491",
+				"x-request-id": "e08a5c14-1eed-4f55-a177-1fc35b4107b6",
+				"x-xss-protection": "0"
+			},
+			"body": "7b05c14dba04ed522210b733f004cb0e74d7679a653b19bd029f9bc0e6b19903"
+		},
+		"GET http://edgedl.me.gvt1.com/edgedl/release2/chrome_component/adh6aqyunlsvbjbsj3mxmllp4tva_1815/efniojlnjndmcbiieegkicadnoecjjef_1815_all_aca66uzkzrqh3x7kbpvvozzendta.crx3": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "59992",
+				"cache-control": "no-transform,public,max-age=86400",
+				"content-disposition": "attachment",
+				"content-security-policy": "default-src 'none'",
+				"content-type": "application/vnd.google.octet-stream-compressible",
+				"date": "Fri, 23 Oct 2026 00:06:07 GMT",
+				"etag": "\"6f938d8-6aa1e4d0\"",
+				"last-modified": "Sat, 17 Oct 2026 14:01:40 GMT",
+				"server": "Google-Edge-Cache",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-identity-content-length": "444103",
+				"x-request-id": "ae001a00-adbf-4c7e-b246-1ab2c3d2d46d",
+				"x-xss-protection": "0"
+			},
+			"body": "4348a0084d1b8423f252a367db1ce7d1276afd0285cf5523feca7b6e56d5d679"
+		},
+		"GET http://edgedl.me.gvt1.com/edgedl/release2/chrome_component/adhr77yzjz2qlqkv6thtqq2efneq_2026.10.12.1/kiabhabjdbkjdpjbpigfodbdjmbglcoo_2026.10.12.01_all_lsi7smbwpj4ae6vfevv2lbxwhe.crx3": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "74569",
+				"cache-control": "no-transform,public,max-age=86400",
+				"content-disposition": "attachment",
+				"content-security-policy": "default-src 'none'",
+				"content-type": "application/vnd.google.octet-stream-compressible",
+				"date": "Thu, 22 Oct 2026 20:02:39 GMT",
+				"etag": "\"6f097a4-6aa1e4d0\"",
+				"last-modified": "Mon, 12 Oct 2026 19:59:46 GMT",
+				"server": "Google-Edge-Cache",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-identity-content-length": "9470",
+				"x-request-id": "34f9411f-1eaa-4902-86bd-1eb6e9928686",
+				"x-xss-protection": "0"
+			},
+			"body": "d3d7173b45515677b8bdc6bb426086249f99d9e7dbd40987f76709589d5ba687"
+		},
+		"GET http://edgedl.me.gvt1.com/edgedl/release2/chrome_component/adqsrjx53453wm3re2xnpld3vuna_10854/hfnkpimlhhgieaddgfemjhofmfblmnib_10854_all_ndjhrbt6gx3gelsboxyeweotfe.crx3": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "34273",
+				"cache-control": "no-transform,public,max-age=86400",
+				"content-disposition": "attachment",
+				"content-security-policy": "default-src 'none'",
+				"content-type": "application/vnd.google.octet-stream-compressible",
+				"date": "Fri, 23 Oct 2026 07:14:29 GMT",
+				"etag": "\"7011541-6aa1e4d0\"",
+				"last-modified": "Fri, 23 Oct 2026 07:12:00 GMT",
+				"server": "Google-Edge-Cache",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-identity-content-length": "1206036",
+				"x-request-id": "3aea9526-fff3-49c4-8d36-5dfc805b29ca",
+				"x-xss-protection": "0"
+			},
+			"body": "6dc37832dcfc17c322e15cfbc062243577537aea628d0527a149e27afba634ee"
+		},
+		"GET http://edgedl.me.gvt1.com/edgedl/release2/chrome_component/af5e7gndpipvjfca7x3cj66vwm_2025.7.24.0/gonpemdgkjcecdgbnaabipppbmgfggbe_2025.07.24.00_all_hou4jz7zmeg5zedchpigdjxhve.crx3": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "48155",
+				"cache-control": "no-transform,public,max-age=86400",
+				"content-disposition": "attachment",
+				"content-security-policy": "default-src 'none'",
+				"content-type": "application/vnd.google.octet-stream-compressible",
+				"date": "Fri, 23 Oct 2026 03:23:49 GMT",
+				"etag": "\"48ec0c7-6aa1e4d0\"",
+				"last-modified": "Thu, 24 Jul 2025 18:06:07 GMT",
+				"server": "Google-Edge-Cache",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-identity-content-length": "16701",
+				"x-request-id": "45291602-6c91-4dd6-a06b-9a19ea7cf5c6",
+				"x-xss-protection": "0"
+			},
+			"body": "56c21927faa028be6ce18c931660eec37e41da4bfbfd47cafa48350f828c0dbd"
+		},
+		"GET http://edgedl.me.gvt1.com/edgedl/release2/chrome_component/hirpmc5ns3pwc3nhgvod47rqia_765/lmelglejhemejginpboagddgdfbepgmp_765_all_ZZ_mljx4trl6goi3hpp33d3pe7gsq.crx3": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "68631",
+				"cache-control": "no-transform,public,max-age=86400",
+				"content-disposition": "attachment",
+				"content-security-policy": "default-src 'none'",
+				"content-type": "application/vnd.google.octet-stream-compressible",
+				"date": "Thu, 22 Oct 2026 21:41:27 GMT",
+				"etag": "\"7002e6a-6aa1e4d0\"",
+				"last-modified": "Thu, 22 Oct 2026 14:52:19 GMT",
+				"server": "Google-Edge-Cache",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-identity-content-length": "573517",
+				"x-request-id": "7fd1a40a-b734-45eb-8693-0b37b1295d98",
+				"x-xss-protection": "0"
+			},
+			"body": "46d05ed355954bd63911a81603715ac86a8ebc4af71125ba73456e3bdf884f07"
+		},
+		"GET http://edgedl.me.gvt1.com/edgedl/release2/chrome_component/j2hxfei2occ5siitujtlwgp6xi_3/ojhpjlocmbogdgmfpkhlaaeamibhnphh_3_all_gplutbkdljxxbjolk3siq7kive.crx3": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "73188",
+				"cache-control": "no-transform,public,max-age=86400",
+				"content-disposition": "attachment",
+				"content-security-policy": "default-src 'none'",
+				"content-type": "application/octet-stream",
+				"date": "Thu, 22 Oct 2026 20:26:12 GMT",
+				"etag": "\"1353be4-6aa1e4d0\"",
+				"last-modified": "Thu, 23 Feb 2023 06:55:42 GMT",
+				"server": "Google-Edge-Cache",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-identity-content-length": "878447",
+				"x-request-id": "52335f8f-7daf-49df-9009-f22950579da3",
+				"x-xss-protection": "0"
+			},
+			"body": "545666a4efd056351597bb386aea1368105ededc976ed5650d8682daab9f37ff"
+		},
+		"GET http://edgedl.me.gvt1.com/edgedl/release2/chrome_component/l5vix5qkshcvl7bpliorcru2xm_8.5419.4434/pficcddpglkpaaihklmahepgjmefdnom_8.5419.4434_all_hi3zzp46veqwuwjivvcwsbhcne.crx3": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "47183",
+				"cache-control": "no-transform,public,max-age=86400",
+				"content-disposition": "attachment",
+				"content-security-policy": "default-src 'none'",
+				"content-type": "application/vnd.google.octet-stream-compressible",
+				"date": "Fri, 23 Oct 2026 03:39:49 GMT",
+				"etag": "\"54dde34-6aa1e4d0\"",
+				"last-modified": "Mon, 12 Jan 2026 14:31:40 GMT",
+				"server": "Google-Edge-Cache",
+				"vary": "Accept-Encoding",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "SAMEORIGIN",
+				"x-identity-content-length": "4596",
+				"x-request-id": "3c5c275a-6e83-4f45-8ea5-a0e63d514f58",
+				"x-xss-protection": "0"
+			},
+			"body": "ae216724654f3e52d3c502328caf83f773e66cc5818c38850165864005a35169"
+		},
+		"GET https://api.github.com/repos/bigskysoftware/htmx": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"access-control-expose-headers": "ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning",
+				"cache-control": "public, max-age=60, s-maxage=60",
+				"content-security-policy": "default-src 'none'",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:37:46 GMT",
+				"etag": "W/\"8ff1917a56321944729c4de5cd6da1bf65eb4a67c2a25409eed823be76749052\"",
+				"last-modified": "Fri, 23 Oct 2026 11:21:58 GMT",
+				"referrer-policy": "origin-when-cross-origin, strict-origin-when-cross-origin",
+				"server": "github.com",
+				"vary": "Accept,Accept-Encoding, Accept, X-Requested-With",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "deny",
+				"x-github-api-version-selected": "2022-11-28",
+				"x-github-edge-region": "sea",
+				"x-github-media-type": "github.v3; format=json",
+				"x-github-request-id": "3450:1FDDB3:674D35:93774E:6ADB8D59",
+				"x-ratelimit-limit": "60",
+				"x-ratelimit-remaining": "58",
+				"x-ratelimit-reset": "1792777064",
+				"x-ratelimit-resource": "core",
+				"x-ratelimit-used": "2",
+				"x-xss-protection": "0"
+			},
+			"body": "654ad6efdf341e52609c2af84746b89110d1a707e1582660a1f00440a250072b"
+		},
+		"GET https://api.github.com/repos/bigskysoftware/htmx?callback=_": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"access-control-expose-headers": "ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning",
+				"cache-control": "public, max-age=60, s-maxage=60",
+				"content-security-policy": "default-src 'none'",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:37:45 GMT",
+				"etag": "W/\"8ff1917a56321944729c4de5cd6da1bf65eb4a67c2a25409eed823be76749052\"",
+				"last-modified": "Fri, 23 Oct 2026 11:21:58 GMT",
+				"referrer-policy": "origin-when-cross-origin, strict-origin-when-cross-origin",
+				"server": "github.com",
+				"vary": "Accept,Accept-Encoding, Accept, X-Requested-With",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "deny",
+				"x-github-api-version-selected": "2022-11-28",
+				"x-github-edge-region": "sea",
+				"x-github-request-id": "3450:1FDDB3:674A41:93732B:6ADB8D58",
+				"x-ratelimit-limit": "60",
+				"x-ratelimit-remaining": "59",
+				"x-ratelimit-reset": "1792777064",
+				"x-ratelimit-resource": "core",
+				"x-ratelimit-used": "1",
+				"x-xss-protection": "0"
+			},
+			"body": "97618b306f26e4fb5878221dddf94d1e164acd74978b7c370b955924fc430c02"
+		},
+		"GET https://buttons.github.io/buttons.html": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "167",
+				"cache-control": "max-age=600",
+				"content-type": "text/html; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:37:46 GMT",
+				"etag": "\"6ad6384c-7d\"",
+				"expires": "Fri, 23 Oct 2026 07:37:37 GMT",
+				"last-modified": "Mon, 19 Oct 2026 15:33:32 GMT",
+				"server": "GitHub.com",
+				"vary": "Accept-Encoding",
+				"via": "1.1 varnish",
+				"x-cache": "HIT",
+				"x-cache-hits": "1",
+				"x-fastly-request-id": "40bd3a1e8654bf568ed0d6ebc9c5fdbb81f65936",
+				"x-github-edge-region": "westus2",
+				"x-github-request-id": "7E8A:106799:E81D:1939C:6ADB1E3C",
+				"x-proxy-cache": "HIT",
+				"x-served-by": "cache-bfi-krnt7300043-BFI",
+				"x-timer": "S1792773467.720047,VS0,VE2"
+			},
+			"body": "bb9c7e06dfce6239d08ad88901afeb110d19d06b1af8163425ac9f27be5336d3"
+		},
+		"GET https://buttons.github.io/buttons.js": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "136",
+				"cache-control": "max-age=600",
+				"content-type": "application/javascript; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:37:43 GMT",
+				"etag": "W/\"6ad6384c-4c5a\"",
+				"expires": "Mon, 19 Oct 2026 15:43:35 GMT",
+				"last-modified": "Mon, 19 Oct 2026 15:33:32 GMT",
+				"server": "GitHub.com",
+				"vary": "Accept-Encoding",
+				"via": "1.1 varnish",
+				"x-cache": "HIT",
+				"x-cache-hits": "5",
+				"x-fastly-request-id": "8e18cd25e3e3a2229c08c9b4fa1c0930049e3f41",
+				"x-github-edge-region": "sea",
+				"x-github-request-id": "A88A:16A6CA:9D3FC:B60DD:6AD8DB40",
+				"x-origin-cache": "HIT",
+				"x-proxy-cache": "HIT",
+				"x-served-by": "cache-bfi-krnt7300087-BFI",
+				"x-timer": "S1792773464.890928,VS0,VE0"
+			},
+			"body": "e1238a1f9e4e466283e28114abfc4e6747a237ac948b8572b7e1735a72f994f1"
+		},
+		"GET https://cdn.jsdelivr.net/npm/sinon@9.0.2/pkg/sinon.js": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"access-control-expose-headers": "*",
+				"age": "958691",
+				"cache-control": "public, max-age=31536000, s-maxage=31536000, immutable",
+				"content-type": "application/javascript; charset=utf-8",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Fri, 23 Oct 2026 16:37:40 GMT",
+				"etag": "W/\"268abd-142aIGzZSknJvvKjAbGR27Qbfp8\"",
+				"timing-allow-origin": "*",
+				"vary": "Accept-Encoding",
+				"x-cache": "HIT, HIT",
+				"x-content-type-options": "nosniff",
+				"x-jsd-version": "9.0.2",
+				"x-jsd-version-type": "version",
+				"x-served-by": "cache-fra-eddf8230128-FRA, cache-bfi-krnt7300093-BFI"
+			},
+			"body": "8286fd7c5448b766de76f837ed219ab557f9b2b8872974341801f1a1f5acbf0e"
+		},
+		"GET https://github.com/bigskysoftware/htmx": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"cache-control": "max-age=0, private, must-revalidate",
+				"content-security-policy": "default-src 'none'; base-uri 'self'; child-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com github.githubassets.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net productionresultssa1.blob.core.windows.net productionresultssa2.blob.core.windows.net productionresultssa3.blob.core.windows.net productionresultssa4.blob.core.windows.net productionresultssa5.blob.core.windows.net productionresultssa6.blob.core.windows.net productionresultssa7.blob.core.windows.net productionresultssa8.blob.core.windows.net productionresultssa9.blob.core.windows.net productionresultssa10.blob.core.windows.net productionresultssa11.blob.core.windows.net productionresultssa12.blob.core.windows.net productionresultssa13.blob.core.windows.net productionresultssa14.blob.core.windows.net productionresultssa15.blob.core.windows.net productionresultssa16.blob.core.windows.net productionresultssa17.blob.core.windows.net productionresultssa18.blob.core.windows.net productionresultssa19.blob.core.windows.net github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com wss://alive-staging.github.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com wss://production-copilot-host.webpubsub.azure.com wss://production-copilot-host-centralus.webpubsub.azure.com wss://production-copilot-host-centralus-02.webpubsub.azure.com wss://production-copilot-host-westus.webpubsub.azure.com api.github.com/cmc_internal/api/; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com release-assets.githubusercontent.com secured-user-images.githubusercontent.com user-images.githubusercontent.com private-user-images.githubusercontent.com opengraph.githubassets.com repository-images.githubusercontent.com marketplace-screenshots.githubusercontent.com copilotprodattachments.blob.core.windows.net/github-production-copilot-attachments/ github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com explore-feed.github.com *.googleusercontent.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com secured-user-images.githubusercontent.com private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com github.githubassets.com; script-src github.githubassets.com 'sha256-6AKuI+cDd1MoUL1u4eqrA9PXmnPAkOB4h7421hPUUm0='; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/",
+				"content-type": "text/html; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:41:50 GMT",
+				"etag": "W/\"fde41d710e2d3d61c8e5305207f2c06a\"",
+				"referrer-policy": "no-referrer-when-downgrade",
+				"server": "github.com",
+				"vary": "X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With, X-GitHub-Client-Version, Sec-Fetch-Site,Accept-Encoding, Accept, X-Requested-With",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "deny",
+				"x-github-edge-region": "westus2",
+				"x-github-request-id": "3450:FC4B4:82647:11D194:6ADB8E4D",
+				"x-xss-protection": "0",
+				"set-cookie": [
+					"_gh_sess=joJ5%2Fv0F5UPkVDfPXe3yS2ldBwLmvIniwCajS%2Bq3gplj0xlwUeNDdLDYpwCYUs7nDE%2Bz0RMpWc1EqulHhGaAz08mfJlwZt9CGwk3QJvZbKStSdrMO9iXzeD77258zsDftydCPHp7YyAm%2FeKx6nOHz%2FVKDZjWUMsCR8T59xUJQI7GyKU%2FaaJxWVs7IvdjoLcuXej4cYT7o0sLorS5KNabNPf5Lk%2BaMUPXMkX3IJAD6YnEWKvCJ1dE7xJKkmIt3V7Tx52HlvtptovlSlf6wWiL2w%3D%3D--OiXuoYH3omy5HVWB--Es4HepL3tA%2FdftWS5CDaFQ%3D%3D; path=/; HttpOnly; secure; SameSite=Lax",
+					"_octo=GH1.1.45659841.1792773709; expires=Sat, 23 Oct 2027 16:41:49 GMT; domain=.github.com; path=/; secure; SameSite=Lax",
+					"logged_in=no; expires=Sat, 23 Oct 2027 16:41:49 GMT; domain=.github.com; path=/; HttpOnly; secure; SameSite=Lax"
+				]
+			},
+			"body": "0b4b0d0748e5660919e07b82d5f3f17c05cdcdf6c883f388c1acc006ed2108a3"
+		},
+		"GET https://github.com/manifest.json": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"cache-control": "max-age=604800, public",
+				"content-security-policy": "default-src 'none'; base-uri 'self'; child-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com github.githubassets.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net productionresultssa1.blob.core.windows.net productionresultssa2.blob.core.windows.net productionresultssa3.blob.core.windows.net productionresultssa4.blob.core.windows.net productionresultssa5.blob.core.windows.net productionresultssa6.blob.core.windows.net productionresultssa7.blob.core.windows.net productionresultssa8.blob.core.windows.net productionresultssa9.blob.core.windows.net productionresultssa10.blob.core.windows.net productionresultssa11.blob.core.windows.net productionresultssa12.blob.core.windows.net productionresultssa13.blob.core.windows.net productionresultssa14.blob.core.windows.net productionresultssa15.blob.core.windows.net productionresultssa16.blob.core.windows.net productionresultssa17.blob.core.windows.net productionresultssa18.blob.core.windows.net productionresultssa19.blob.core.windows.net github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com wss://alive-staging.github.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com wss://production-copilot-host.webpubsub.azure.com wss://production-copilot-host-centralus.webpubsub.azure.com wss://production-copilot-host-centralus-02.webpubsub.azure.com wss://production-copilot-host-westus.webpubsub.azure.com api.github.com/cmc_internal/api/; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com release-assets.githubusercontent.com secured-user-images.githubusercontent.com user-images.githubusercontent.com private-user-images.githubusercontent.com opengraph.githubassets.com repository-images.githubusercontent.com marketplace-screenshots.githubusercontent.com copilotprodattachments.blob.core.windows.net/github-production-copilot-attachments/ github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com explore-feed.github.com *.googleusercontent.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com secured-user-images.githubusercontent.com private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com github.githubassets.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/",
+				"content-type": "application/manifest+json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:37:45 GMT",
+				"etag": "W/\"c75e05794d72230a695e880f1a6c83a4\"",
+				"referrer-policy": "origin-when-cross-origin, strict-origin-when-cross-origin",
+				"server": "github.com",
+				"vary": "X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With, X-GitHub-Client-Version, Sec-Fetch-Site,Accept-Encoding, Accept, X-Requested-With",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "deny",
+				"x-github-edge-region": "westus2",
+				"x-github-request-id": "3451:241C43:81216:119025:6ADB8D5A",
+				"x-xss-protection": "0",
+				"set-cookie": [
+					"_gh_sess=0PxsYlN%2FGwWFpIuWrGID1Zc0sVpD2UgpkUT5uPg5ixhHz9TyCJOYLAKPerMj2wHS9MJL5nkBD4W7HU8U57T%2FYmr4D5XxhT5Cl6Ux8MikLcKph0SLat8fM8auz1XQTebgkbS1FcDl6JBdJ%2BP2tpYhrEuoqXcu9RF1w%2FiyI%2B0g0KPOrUT9E5T3KQmyCzk%2FScHc1OapAkw60BTkReopDqb6C3qdSgbXtmHEQ6jEoR9JiHxRwvFVtGg02J5b3O8%2BQ1XELC9CqIRR45BOyTSiKfaDZA%3D%3D--Pyimezw10GE3mxWF--egEVshDnJ0QHz0WtVPllbA%3D%3D; path=/; HttpOnly; secure; SameSite=Lax",
+					"_octo=GH1.1.1382419497.1792773469; expires=Sat, 23 Oct 2027 16:37:49 GMT; domain=.github.com; path=/; secure; SameSite=Lax",
+					"logged_in=no; expires=Sat, 23 Oct 2027 16:37:49 GMT; domain=.github.com; path=/; HttpOnly; secure; SameSite=Lax"
+				]
+			},
+			"body": "c75e05794d72230a695e880f1a6c83a474a033f8660eff0c9eeb5bf0329c2c8c"
+		},
+		"GET https://github.com/sponsors/bigskysoftware/button": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"cache-control": "max-age=0, private, must-revalidate",
+				"content-security-policy": "default-src 'none'; base-uri 'self'; child-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com *.rel.tunnels.api.visualstudio.com wss://*.rel.tunnels.api.visualstudio.com github.githubassets.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com proxy.individual.githubcopilot.com proxy.business.githubcopilot.com proxy.enterprise.githubcopilot.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net productionresultssa1.blob.core.windows.net productionresultssa2.blob.core.windows.net productionresultssa3.blob.core.windows.net productionresultssa4.blob.core.windows.net productionresultssa5.blob.core.windows.net productionresultssa6.blob.core.windows.net productionresultssa7.blob.core.windows.net productionresultssa8.blob.core.windows.net productionresultssa9.blob.core.windows.net productionresultssa10.blob.core.windows.net productionresultssa11.blob.core.windows.net productionresultssa12.blob.core.windows.net productionresultssa13.blob.core.windows.net productionresultssa14.blob.core.windows.net productionresultssa15.blob.core.windows.net productionresultssa16.blob.core.windows.net productionresultssa17.blob.core.windows.net productionresultssa18.blob.core.windows.net productionresultssa19.blob.core.windows.net github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com wss://alive-staging.github.com api.githubcopilot.com api.individual.githubcopilot.com api.business.githubcopilot.com api.enterprise.githubcopilot.com wss://production-copilot-host.webpubsub.azure.com wss://production-copilot-host-centralus.webpubsub.azure.com wss://production-copilot-host-centralus-02.webpubsub.azure.com wss://production-copilot-host-westus.webpubsub.azure.com api.github.com/cmc_internal/api/; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors *; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: blob: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com private-avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com release-assets.githubusercontent.com secured-user-images.githubusercontent.com user-images.githubusercontent.com private-user-images.githubusercontent.com opengraph.githubassets.com repository-images.githubusercontent.com marketplace-screenshots.githubusercontent.com copilotprodattachments.blob.core.windows.net/github-production-copilot-attachments/ github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com explore-feed.github.com *.googleusercontent.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com secured-user-images.githubusercontent.com private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com github.githubassets.com; script-src github.githubassets.com 'sha256-6AKuI+cDd1MoUL1u4eqrA9PXmnPAkOB4h7421hPUUm0='; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.githubassets.com github.com/assets-cdn/worker/ github.com/assets/ gist.github.com/assets-cdn/worker/",
+				"content-type": "text/html; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:37:46 GMT",
+				"etag": "W/\"c743fe9a77c8740fee679d6ad841a8e3\"",
+				"referrer-policy": "origin-when-cross-origin, strict-origin-when-cross-origin",
+				"server": "github.com",
+				"vary": "X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, X-Requested-With, X-GitHub-Client-Version,Accept-Encoding, Accept, X-Requested-With",
+				"x-content-type-options": "nosniff",
+				"x-frame-options": "ALLOWALL",
+				"x-github-edge-region": "westus2",
+				"x-github-request-id": "3451:241C43:8118F:118F39:6ADB8D5A",
+				"x-xss-protection": "0",
+				"set-cookie": [
+					"_gh_sess=ND%2Blm1v1wYWqd3WawtMvRR39L13AMSNB%2FYfml%2FPVJig3TfO%2FNWUCvB30lDFZH1lxpiIvOmZhh%2BV3ykTXbqCt1lVf9BwAnxztPls8EATf0UDgG03CAPfWHsMQTIe9RxW55SfUicCkCc6TxMXXoeJtEqOQjOlzRFksGZX5WPnGPEF9ZfRH3OVPW64ax8jSiYE3C%2BhvyDmnBtE%2FAkQ1ESHFDOLyIiMmjHTyj%2BEej%2F5xWdEcsttX6t5VjUiQjjqc5ChpAmVSejo4APqdL0LnhsiXQA%3D%3D--V0n8EYvMnG5I%2FI6R--oN74tIsTdi8CrZSREL9u9w%3D%3D; path=/; HttpOnly; secure; SameSite=Lax",
+					"_octo=GH1.1.1250574429.1792773466; expires=Sat, 23 Oct 2027 16:37:46 GMT; domain=.github.com; path=/; secure; SameSite=Lax",
+					"logged_in=no; expires=Sat, 23 Oct 2027 16:37:46 GMT; domain=.github.com; path=/; HttpOnly; secure; SameSite=Lax"
+				]
+			},
+			"body": "c743fe9a77c8740fee679d6ad841a8e3da2e741a30b0a51fdc05febe4f544bbc"
+		},
+		"GET https://github.githubassets.com/assets/0r-4a2b771052825f69.js": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "250220",
+				"cache-control": "public, max-age=31536000, immutable",
+				"content-md5": "037KYpJHOhRmCc9/Fqfdew==",
+				"content-type": "application/javascript",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Fri, 23 Oct 2026 16:43:33 GMT",
+				"etag": "\"0x8DF2EC736C37E55\"",
+				"last-modified": "Tue, 20 Oct 2026 16:28:46 GMT",
+				"server": "Windows-Azure-Web/1.0 Microsoft-HTTPAPI/2.0",
+				"timing-allow-origin": "*",
+				"vary": "Accept-Encoding",
+				"via": "1.1 varnish, 1.1 varnish",
+				"x-cache": "HIT, HIT",
+				"x-cache-hits": "5, 30530",
+				"x-fastly-request-id": "4e871fce08c8310879f2acef3246ec86f597997f",
+				"x-served-by": "cache-iad-khef600080-IAD, cache-bfi-krnt7300087-BFI"
+			},
+			"body": "3e2df099a34629f7757639b2b08a732766798fe45219f04bea3d81a9a12265ee"
+		},
+		"GET https://github.githubassets.com/assets/6n-e6e586acca87c769.js": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "92538",
+				"cache-control": "public, max-age=31536000, immutable",
+				"content-md5": "zcnF/hIJW/ncrOJX7NGfCg==",
+				"content-type": "application/javascript",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Fri, 23 Oct 2026 16:43:33 GMT",
+				"etag": "\"0x8DF30441466B524\"",
+				"last-modified": "Thu, 22 Oct 2026 13:55:06 GMT",
+				"server": "Windows-Azure-Web/1.0 Microsoft-HTTPAPI/2.0",
+				"timing-allow-origin": "*",
+				"vary": "Accept-Encoding",
+				"via": "1.1 varnish, 1.1 varnish",
+				"x-cache": "HIT, HIT",
+				"x-cache-hits": "7, 11044",
+				"x-fastly-request-id": "2e69de819c9f10afa44f9c33b7c7a13706828041",
+				"x-served-by": "cache-iad-khef600090-IAD, cache-bfi-krnt7300044-BFI"
+			},
+			"body": "981181c2a0ca145f7f9d35a0b90b466044b88fa14393d808aa96c114c2d31396"
+		},
+		"GET https://github.githubassets.com/assets/9k-94196002ce6242fa.js": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "60869",
+				"cache-control": "public, max-age=31536000, immutable",
+				"content-md5": "iGshk9W2eS1KmxX5Y7aaCQ==",
+				"content-type": "application/javascript",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Fri, 23 Oct 2026 16:43:33 GMT",
+				"etag": "\"0x8DF2FFCF551FB7B\"",
+				"last-modified": "Thu, 22 Oct 2026 05:26:00 GMT",
+				"server": "Windows-Azure-Web/1.0 Microsoft-HTTPAPI/2.0",
+				"timing-allow-origin": "*",
+				"vary": "Accept-Encoding",
+				"via": "1.1 varnish, 1.1 varnish",
+				"x-cache": "MISS, HIT",
+				"x-cache-hits": "0, 1972",
+				"x-fastly-request-id": "4f8ec7bb996fa1363a990188eb239eda54c0770b",
+				"x-served-by": "cache-iad-kiad7000118-IAD, cache-bfi-krnt7300034-BFI"
+			},
+			"body": "69d431c5dbe77ede1a5d21ac29c336e1c02da28233b628edc420bc499bdb260a"
+		},
+		"GET https://github.githubassets.com/assets/behaviors-1de3548af5cc84b2.js": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "2745",
+				"cache-control": "public, max-age=31536000, immutable",
+				"content-md5": "8jigc1R//ldUklGqnzE5rA==",
+				"content-type": "application/javascript",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Fri, 23 Oct 2026 16:43:10 GMT",
+				"etag": "\"0x8DF311C59D2F6DD\"",
+				"last-modified": "Fri, 23 Oct 2026 15:43:14 GMT",
+				"server": "Windows-Azure-Web/1.0 Microsoft-HTTPAPI/2.0",
+				"timing-allow-origin": "*",
+				"vary": "Accept-Encoding",
+				"via": "1.1 varnish, 1.1 varnish",
+				"x-cache": "HIT, HIT",
+				"x-cache-hits": "9, 282",
+				"x-fastly-request-id": "a7bebbf9f32f1602f68e4d223ed28646ba92700f",
+				"x-served-by": "cache-iad-kcgs7200074-IAD, cache-bfi-krnt7300034-BFI"
+			},
+			"body": "e6a8483e414529ba7461e24180fe9d8ab7067afcd81956d11c42801305ad5a00"
+		},
+		"GET https://github.githubassets.com/assets/code-b25a4886e30e3e5f.css": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "834075",
+				"cache-control": "public, max-age=31536000, immutable",
+				"content-md5": "2+9cLJ633dxZ2x9nnWEThQ==",
+				"content-type": "text/css",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Fri, 23 Oct 2026 16:42:12 GMT",
+				"etag": "\"0x8DF29897C78D801\"",
+				"last-modified": "Wed, 14 Oct 2026 00:24:18 GMT",
+				"server": "Windows-Azure-Web/1.0 Microsoft-HTTPAPI/2.0",
+				"timing-allow-origin": "*",
+				"vary": "Accept-Encoding",
+				"via": "1.1 varnish, 1.1 varnish",
+				"x-cache": "HIT, HIT",
+				"x-cache-hits": "5, 525",
+				"x-fastly-request-id": "500e1ec40e3c5b6a29a37629d816de0fd84dff77",
+				"x-served-by": "cache-iad-kiad7000158-IAD, cache-bfi-krnt7300074-BFI"
+			},
+			"body": "b7fa22eae3e9abf7c880121bd68c3b1ac315a2d87316fca1e09f289bc86ebcef"
+		},
+		"GET https://github.githubassets.com/assets/dark-c9dacb4ec19616db.css": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "831344",
+				"cache-control": "public, max-age=31536000, immutable",
+				"content-md5": "cjaP9aRKP2PPQKbK2abxfQ==",
+				"content-type": "text/css",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Fri, 23 Oct 2026 16:42:12 GMT",
+				"etag": "\"0x8DF29897CC1FB1C\"",
+				"last-modified": "Wed, 14 Oct 2026 00:24:19 GMT",
+				"server": "Windows-Azure-Web/1.0 Microsoft-HTTPAPI/2.0",
+				"timing-allow-origin": "*",
+				"vary": "Accept-Encoding",
+				"via": "1.1 varnish, 1.1 varnish",
+				"x-cache": "HIT, HIT",
+				"x-cache-hits": "9, 88006",
+				"x-fastly-request-id": "7db9dc1235a3b7048f7fbd9cb3bcfb2ec1240e6e",
+				"x-served-by": "cache-iad-kcgs7270029-IAD, cache-bfi-krnt7300087-BFI"
+			},
+			"body": "5ca2af22489ff4d0be37d0dc715cae128ef7bdc7e0966dc55cacaf05ef917b04"
+		},
+		"GET https://github.githubassets.com/assets/dark_high_contrast-5ef38214a3eabc7d.css": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "831347",
+				"cache-control": "public, max-age=31536000, immutable",
+				"content-md5": "xIqLdpsJySQlrCpW2sq8qA==",
+				"content-type": "text/css",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Fri, 23 Oct 2026 16:43:01 GMT",
+				"etag": "\"0x8DF29897CBC0A26\"",
+				"last-modified": "Wed, 14 Oct 2026 00:24:18 GMT",
+				"server": "Windows-Azure-Web/1.0 Microsoft-HTTPAPI/2.0",
+				"timing-allow-origin": "*",
+				"vary": "Accept-Encoding",
+				"via": "1.1 varnish, 1.1 varnish",
+				"x-cache": "HIT, HIT",
+				"x-cache-hits": "1, 18690",
+				"x-fastly-request-id": "0db327c57bb4c1cf03c28ab17f0d0498daac219c",
+				"x-served-by": "cache-iad-khef600033-IAD, cache-bfi-krnt7300044-BFI"
+			},
+			"body": "78d6d57fd127d418adb90c87d5f8e67d3d5357f0fa502d743d1da8dde50d26c5"
+		},
+		"GET https://github.githubassets.com/assets/github-11ab453cdcc1b7c1.css": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "340920",
+				"cache-control": "public, max-age=31536000, immutable",
+				"content-md5": "CxDPJlgnyDbiI4jJ4wf5YQ==",
+				"content-type": "text/css",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Fri, 23 Oct 2026 16:43:14 GMT",
+				"etag": "\"0x8DF2AFBD20C8588\"",
+				"last-modified": "Thu, 15 Oct 2026 20:35:15 GMT",
+				"server": "Windows-Azure-Web/1.0 Microsoft-HTTPAPI/2.0",
+				"timing-allow-origin": "*",
+				"vary": "Accept-Encoding",
+				"via": "1.1 varnish, 1.1 varnish",
+				"x-cache": "HIT, HIT",
+				"x-cache-hits": "13, 2453",
+				"x-fastly-request-id": "a15308c957a34ef05e1f37a45b66d4d888a1fed8",
+				"x-served-by": "cache-iad-khef600050-IAD, cache-bfi-krnt7300082-BFI"
+			},
+			"body": "817c095a90639d0ddd6e02f5f1267b966c6d7e7f556f3c46d044aad09bbee77f"
+		},
+		"GET https://github.githubassets.com/assets/global-58d1122073b19732.css": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "834109",
+				"cache-control": "public, max-age=31536000, immutable",
+				"content-md5": "ckeGrQ+FaRNvZP4M6Mqf6g==",
+				"content-type": "text/css",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Fri, 23 Oct 2026 16:42:27 GMT",
+				"etag": "\"0x8DF29897D15292A\"",
+				"last-modified": "Wed, 14 Oct 2026 00:24:19 GMT",
+				"server": "Windows-Azure-Web/1.0 Microsoft-HTTPAPI/2.0",
+				"timing-allow-origin": "*",
+				"vary": "Accept-Encoding",
+				"via": "1.1 varnish, 1.1 varnish",
+				"x-cache": "HIT, HIT",
+				"x-cache-hits": "11, 45270",
+				"x-fastly-request-id": "06ba43599807907a2927ada74def15d129b8389d",
+				"x-served-by": "cache-iad-kiad7000181-IAD, cache-bfi-krnt7300101-BFI"
+			},
+			"body": "28b92ad02458ca44cf65fa80472a8ce1adff6de81cacee7da014c85d8dc1209a"
+		},
+		"GET https://github.githubassets.com/assets/keyboard-shortcuts-dialog.a9f8ee40531efa36.module.css": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "2736",
+				"cache-control": "public, max-age=31536000, immutable",
+				"content-md5": "ukpiAHTXsXNOERobThi2pA==",
+				"content-type": "text/css",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Fri, 23 Oct 2026 16:43:01 GMT",
+				"etag": "\"0x8DF311C5B877692\"",
+				"last-modified": "Fri, 23 Oct 2026 15:43:17 GMT",
+				"server": "Windows-Azure-Web/1.0 Microsoft-HTTPAPI/2.0",
+				"timing-allow-origin": "*",
+				"vary": "Accept-Encoding",
+				"via": "1.1 varnish, 1.1 varnish",
+				"x-cache": "HIT, HIT",
+				"x-cache-hits": "9, 282",
+				"x-fastly-request-id": "a55c2ec1397d0e249fb7666f8ed9cde07a6d2ae1",
+				"x-served-by": "cache-iad-kcgs7270022-IAD, cache-bfi-krnt7300101-BFI"
+			},
+			"body": "ce49720adad8ce4b87d8c647494bf6f5b919c74d7377fe12b105610e2b17d541"
+		},
+		"GET https://github.githubassets.com/assets/light-3a3d2c708970e4e8.css": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "831343",
+				"cache-control": "public, max-age=31536000, immutable",
+				"content-md5": "8VHBDm11nmQ4GzMaZ6RvYg==",
+				"content-type": "text/css",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Fri, 23 Oct 2026 16:42:12 GMT",
+				"etag": "\"0x8DF29897D668335\"",
+				"last-modified": "Wed, 14 Oct 2026 00:24:20 GMT",
+				"server": "Windows-Azure-Web/1.0 Microsoft-HTTPAPI/2.0",
+				"timing-allow-origin": "*",
+				"vary": "Accept-Encoding",
+				"via": "1.1 varnish, 1.1 varnish",
+				"x-cache": "HIT, HIT",
+				"x-cache-hits": "7, 52505",
+				"x-fastly-request-id": "3ed9c6e3e33b51409e6c258f893784da5d33a1f4",
+				"x-served-by": "cache-iad-khef600059-IAD, cache-bfi-krnt7300025-BFI"
+			},
+			"body": "f076f0ebb56c90bc18554e10b9dcf901ddf21ba139618dcdc389286e0a588f86"
+		},
+		"GET https://github.githubassets.com/assets/light_high_contrast-9c7b506bdc5ea73f.css": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "748082",
+				"cache-control": "public, max-age=31536000, immutable",
+				"content-md5": "ePMgrRiaTOsZ8nW8SFH2aA==",
+				"content-type": "text/css",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Fri, 23 Oct 2026 16:42:12 GMT",
+				"etag": "\"0x8DF29897D64132D\"",
+				"last-modified": "Wed, 14 Oct 2026 00:24:20 GMT",
+				"server": "Windows-Azure-Web/1.0 Microsoft-HTTPAPI/2.0",
+				"timing-allow-origin": "*",
+				"vary": "Accept-Encoding",
+				"via": "1.1 varnish, 1.1 varnish",
+				"x-cache": "HIT, HIT",
+				"x-cache-hits": "2, 16269",
+				"x-fastly-request-id": "8ad681a10b1bd359b5388f93db128a4b4fc3a679",
+				"x-served-by": "cache-iad-kiad7000107-IAD, cache-bfi-krnt7300088-BFI"
+			},
+			"body": "8fd4fc593fbe2f0c994e417894ee29ad39af0aa4355891ddca9ad3b30dc14527"
+		},
+		"GET https://github.githubassets.com/assets/ow-98d10140e8228c74.js": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "567093",
+				"cache-control": "public, max-age=31536000, immutable",
+				"content-md5": "K/PFzhD7VN428/C0O55/dQ==",
+				"content-type": "application/javascript",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Fri, 23 Oct 2026 16:43:33 GMT",
+				"etag": "\"0x8DF2BD73D9E5556\"",
+				"last-modified": "Fri, 16 Oct 2026 22:45:56 GMT",
+				"server": "Windows-Azure-Web/1.0 Microsoft-HTTPAPI/2.0",
+				"timing-allow-origin": "*",
+				"vary": "Accept-Encoding",
+				"via": "1.1 varnish, 1.1 varnish",
+				"x-cache": "MISS, HIT",
+				"x-cache-hits": "0, 2457",
+				"x-fastly-request-id": "4801492a76c36b07ee33357d47ba383be44b86af",
+				"x-served-by": "cache-iad-khef600076-IAD, cache-bfi-krnt7300082-BFI"
+			},
+			"body": "ec096e001e01231dfcc42c0dbf009bc09e0d9f13717907555661c84be8cce3fd"
+		},
+		"GET https://github.githubassets.com/assets/pb0-3a1794e99794195c.js": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "75955",
+				"cache-control": "public, max-age=31536000, immutable",
+				"content-md5": "R7Q/Hu4FQGyoVdErlrpdkQ==",
+				"content-type": "application/javascript",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Fri, 23 Oct 2026 16:43:33 GMT",
+				"etag": "\"0x8DF3051C2AE78DC\"",
+				"last-modified": "Thu, 22 Oct 2026 15:33:02 GMT",
+				"server": "Windows-Azure-Web/1.0 Microsoft-HTTPAPI/2.0",
+				"timing-allow-origin": "*",
+				"vary": "Accept-Encoding",
+				"via": "1.1 varnish, 1.1 varnish",
+				"x-cache": "HIT, HIT",
+				"x-cache-hits": "2, 2952",
+				"x-fastly-request-id": "8802aa526b1507bd0075a497a1563b42356e7380",
+				"x-served-by": "cache-iad-kiad7000191-IAD, cache-bfi-krnt7300074-BFI"
+			},
+			"body": "2f5a884e2aa06de1265a19784678b2050bca6dd4d75fbb44ec83e7f61bf86235"
+		},
+		"GET https://github.githubassets.com/assets/primer-38ae573fa780d76a.css": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "831354",
+				"cache-control": "public, max-age=31536000, immutable",
+				"content-md5": "2cmmPQ0O/PG87dIIxMwvVQ==",
+				"content-type": "text/css",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Fri, 23 Oct 2026 16:42:27 GMT",
+				"etag": "\"0x8DF29897DCAE83C\"",
+				"last-modified": "Wed, 14 Oct 2026 00:24:20 GMT",
+				"server": "Windows-Azure-Web/1.0 Microsoft-HTTPAPI/2.0",
+				"timing-allow-origin": "*",
+				"vary": "Accept-Encoding",
+				"via": "1.1 varnish, 1.1 varnish",
+				"x-cache": "HIT, HIT",
+				"x-cache-hits": "8, 2376",
+				"x-fastly-request-id": "f0956a37de3632cac3ab54adf28d420e9a9fab5b",
+				"x-served-by": "cache-iad-kiad7000120-IAD, cache-bfi-krnt7300082-BFI"
+			},
+			"body": "c0b553959d985775abf6869517471a00ade6ead40dc183834fdbe7af774c8e0b"
+		},
+		"GET https://github.githubassets.com/assets/primer-primitives-02e066689466a8cd.css": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "834110",
+				"cache-control": "public, max-age=31536000, immutable",
+				"content-md5": "eO4BENW1c/f5Rln1KBKc4w==",
+				"content-type": "text/css",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Fri, 23 Oct 2026 16:42:27 GMT",
+				"etag": "\"0x8DF29897DBEB83E\"",
+				"last-modified": "Wed, 14 Oct 2026 00:24:20 GMT",
+				"server": "Windows-Azure-Web/1.0 Microsoft-HTTPAPI/2.0",
+				"timing-allow-origin": "*",
+				"vary": "Accept-Encoding",
+				"via": "1.1 varnish, 1.1 varnish",
+				"x-cache": "HIT, HIT",
+				"x-cache-hits": "11, 92264",
+				"x-fastly-request-id": "5def75526a6fb5ff421fa65b23da26199f02f174",
+				"x-served-by": "cache-iad-khef600057-IAD, cache-bfi-krnt7300087-BFI"
+			},
+			"body": "32dbaee6c516e4e8f3d2e27b831b79541258201ac505ae9280a96e366a7ddf06"
+		},
+		"GET https://github.githubassets.com/assets/react-compiler-runtime-4610bd6d3de9c049.js": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "1932932",
+				"cache-control": "public, max-age=31536000, immutable",
+				"content-md5": "5trOqZTl6Tmt16N0LFji8w==",
+				"content-type": "application/javascript",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Fri, 23 Oct 2026 16:37:47 GMT",
+				"etag": "\"0x8DF0157453818B8\"",
+				"last-modified": "Sun, 23 Aug 2026 20:44:04 GMT",
+				"server": "Windows-Azure-Web/1.0 Microsoft-HTTPAPI/2.0",
+				"timing-allow-origin": "*",
+				"vary": "Accept-Encoding",
+				"via": "1.1 varnish, 1.1 varnish",
+				"x-cache": "HIT, HIT",
+				"x-cache-hits": "1, 85388",
+				"x-fastly-request-id": "67c609b3f264b6971da013b08bca2de166f6abaf",
+				"x-served-by": "cache-iad-kcgs7200117-IAD, cache-bfi-krnt7300087-BFI"
+			},
+			"body": "eb527868e967acb6e37e4d0a426cd273ede374d1e7c20a2cd8a30b75f1b61aaa"
+		},
+		"GET https://github.githubassets.com/assets/react-dom-c7f52540bb6b77ed.js": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "103057",
+				"cache-control": "public, max-age=31536000, immutable",
+				"content-md5": "Ews+Rc/WkBAiZjVRfKGgCA==",
+				"content-type": "application/javascript",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Fri, 23 Oct 2026 16:37:47 GMT",
+				"etag": "\"0x8DF2F9233B49BC3\"",
+				"last-modified": "Wed, 21 Oct 2026 16:41:48 GMT",
+				"server": "Windows-Azure-Web/1.0 Microsoft-HTTPAPI/2.0",
+				"timing-allow-origin": "*",
+				"vary": "Accept-Encoding",
+				"via": "1.1 varnish, 1.1 varnish",
+				"x-cache": "HIT, HIT",
+				"x-cache-hits": "14, 13232",
+				"x-fastly-request-id": "46f0d531a387dbe167d541e5752d0925d08136a4",
+				"x-served-by": "cache-iad-kiad7000061-IAD, cache-bfi-krnt7300101-BFI"
+			},
+			"body": "51b17ef1f7d3fcbc87e72a59e6e53ba39f446ddd7d8c52353bfd989f5d4fe95b"
+		},
+		"GET https://github.githubassets.com/assets/react-dom-client-35b308126995de85.js": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "103056",
+				"cache-control": "public, max-age=31536000, immutable",
+				"content-md5": "poPvvv2OR/jLoofue3p98Q==",
+				"content-type": "application/javascript",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Fri, 23 Oct 2026 16:37:47 GMT",
+				"etag": "\"0x8DF2F9233B537BE\"",
+				"last-modified": "Wed, 21 Oct 2026 16:41:48 GMT",
+				"server": "Windows-Azure-Web/1.0 Microsoft-HTTPAPI/2.0",
+				"timing-allow-origin": "*",
+				"vary": "Accept-Encoding",
+				"via": "1.1 varnish, 1.1 varnish",
+				"x-cache": "HIT, HIT",
+				"x-cache-hits": "18, 13053",
+				"x-fastly-request-id": "e1e1f4a8398b60ccc344d44e550fd1c5d4bc4f5b",
+				"x-served-by": "cache-iad-kcgs7200121-IAD, cache-bfi-krnt7300088-BFI"
+			},
+			"body": "f735f39165d7262ab111278cf30dc9425f7ca766a9b063c8e46757f3b713ba51"
+		},
+		"GET https://github.githubassets.com/assets/react-fa5e2e82e6e0ecc0.js": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "103057",
+				"cache-control": "public, max-age=31536000, immutable",
+				"content-md5": "DvnVvkr4Q+Nr1nYqySGB8g==",
+				"content-type": "application/javascript",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Fri, 23 Oct 2026 16:37:47 GMT",
+				"etag": "\"0x8DF2F9233B648C2\"",
+				"last-modified": "Wed, 21 Oct 2026 16:41:48 GMT",
+				"server": "Windows-Azure-Web/1.0 Microsoft-HTTPAPI/2.0",
+				"timing-allow-origin": "*",
+				"vary": "Accept-Encoding",
+				"via": "1.1 varnish, 1.1 varnish",
+				"x-cache": "HIT, HIT",
+				"x-cache-hits": "14, 2585",
+				"x-fastly-request-id": "e1f1e0cbed54103f38a2437475df79ead3f6fe3a",
+				"x-served-by": "cache-iad-kcgs7200101-IAD, cache-bfi-krnt7300074-BFI"
+			},
+			"body": "635f11c4d4278f8afa361408d3379cce4e7f5ea26be6226fdddad23c135e4245"
+		},
+		"GET https://github.githubassets.com/assets/react-is-e0b593954b4706d8.js": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "1334312",
+				"cache-control": "public, max-age=31536000, immutable",
+				"content-md5": "eo0yH9PKl5KmbUATlquFUQ==",
+				"content-type": "application/javascript",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Fri, 23 Oct 2026 16:37:47 GMT",
+				"etag": "\"0x8DF0EAF184126DE\"",
+				"last-modified": "Wed, 09 Sep 2026 20:15:29 GMT",
+				"server": "Windows-Azure-Web/1.0 Microsoft-HTTPAPI/2.0",
+				"timing-allow-origin": "*",
+				"vary": "Accept-Encoding",
+				"via": "1.1 varnish, 1.1 varnish",
+				"x-cache": "HIT, HIT",
+				"x-cache-hits": "4, 22071",
+				"x-fastly-request-id": "5a8ad9b0520c9eae72e3035ddfa59e143f45f9ac",
+				"x-served-by": "cache-iad-kcgs7200130-IAD, cache-bfi-krnt7300104-BFI"
+			},
+			"body": "df3e771da4eb533987de50867a923a4659ba91fd9f66bf7f2875eb84bef43522"
+		},
+		"GET https://github.githubassets.com/assets/react-jsx-runtime-4915cb0f5b3aff04.js": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "775389",
+				"cache-control": "public, max-age=31536000, immutable",
+				"content-md5": "1hzah+ulBovqpcm+Em1/QQ==",
+				"content-type": "application/javascript",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Fri, 23 Oct 2026 16:37:47 GMT",
+				"etag": "\"0x8DF0157453C5CBC\"",
+				"last-modified": "Sun, 23 Aug 2026 20:44:04 GMT",
+				"server": "Windows-Azure-Web/1.0 Microsoft-HTTPAPI/2.0",
+				"timing-allow-origin": "*",
+				"vary": "Accept-Encoding",
+				"via": "1.1 varnish, 1.1 varnish",
+				"x-cache": "HIT, HIT",
+				"x-cache-hits": "1, 18631",
+				"x-fastly-request-id": "d9c3fc45683787387df448ae7f2b3045560d572f",
+				"x-served-by": "cache-iad-kiad7000091-IAD, cache-bfi-krnt7300044-BFI"
+			},
+			"body": "85b40d050ba6616311d7a744d0ebbd28e644bf4621aac25ab543b751e4d5f86f"
+		},
+		"GET https://github.githubassets.com/assets/react-reconciler-8e99e505c4429605.js": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "2614512",
+				"cache-control": "public, max-age=31536000, immutable",
+				"content-md5": "dYIHNH29sa3OAXUDpyfLEA==",
+				"content-type": "application/javascript",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Fri, 23 Oct 2026 16:37:47 GMT",
+				"etag": "\"0x8DF0EB20B372A76\"",
+				"last-modified": "Wed, 09 Sep 2026 20:36:36 GMT",
+				"server": "Windows-Azure-Web/1.0 Microsoft-HTTPAPI/2.0",
+				"timing-allow-origin": "*",
+				"vary": "Accept-Encoding",
+				"via": "1.1 varnish, 1.1 varnish",
+				"x-cache": "HIT, HIT",
+				"x-cache-hits": "11784, 95507",
+				"x-fastly-request-id": "68902311c05599ae7a4e55cd321573d69c8d8bb9",
+				"x-served-by": "cache-iad-kiad7000120-IAD, cache-bfi-krnt7300023-BFI"
+			},
+			"body": "4ce244e24ab5c13d7085aed58caba6ae652e0d765834e290c3a216839beb60b3"
+		},
+		"GET https://github.githubassets.com/assets/repository-542ca59b4b92999d.css": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "834087",
+				"cache-control": "public, max-age=31536000, immutable",
+				"content-md5": "EZBvvEla0X1Vm3T2sggndg==",
+				"content-type": "text/css",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Fri, 23 Oct 2026 16:42:12 GMT",
+				"etag": "\"0x8DF29897DE7326A\"",
+				"last-modified": "Wed, 14 Oct 2026 00:24:20 GMT",
+				"server": "Windows-Azure-Web/1.0 Microsoft-HTTPAPI/2.0",
+				"timing-allow-origin": "*",
+				"vary": "Accept-Encoding",
+				"via": "1.1 varnish, 1.1 varnish",
+				"x-cache": "HIT, HIT",
+				"x-cache-hits": "8, 608",
+				"x-fastly-request-id": "4ff7411aaad06f3e7503eaafbe89c6bf244c8520",
+				"x-served-by": "cache-iad-kiad7000097-IAD, cache-bfi-krnt7300082-BFI"
+			},
+			"body": "32572e489d01b498db05f7c44828763beb69d322186bdfd7555692af96d8f335"
+		},
+		"GET https://github.githubassets.com/assets/scheduler-58b860b049ca307c.js": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "1240255",
+				"cache-control": "public, max-age=31536000, immutable",
+				"content-md5": "bVdv9P4WJQj2V4IfRcc2dw==",
+				"content-type": "application/javascript",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Fri, 23 Oct 2026 16:37:47 GMT",
+				"etag": "\"0x8DF015745624BA3\"",
+				"last-modified": "Sun, 23 Aug 2026 20:44:04 GMT",
+				"server": "Windows-Azure-Web/1.0 Microsoft-HTTPAPI/2.0",
+				"timing-allow-origin": "*",
+				"vary": "Accept-Encoding",
+				"via": "1.1 varnish, 1.1 varnish",
+				"x-cache": "HIT, HIT",
+				"x-cache-hits": "1, 2401",
+				"x-fastly-request-id": "9f95a93cc19aa604231ac6993b753c91c00f6a05",
+				"x-served-by": "cache-iad-khef600086-IAD, cache-bfi-krnt7300082-BFI"
+			},
+			"body": "7c5f43c4e4bc19b20279918acc44f5b259419b46e5cb18fad9b0a8c8708f1551"
+		},
+		"GET https://github.githubassets.com/assets/sponsors-embed-6ea8f2873809fc34.css": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "367931",
+				"cache-control": "public, max-age=31536000, immutable",
+				"content-md5": "wEnDU4D5hogGMHEDSMg2zA==",
+				"content-type": "text/css",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Fri, 23 Oct 2026 16:37:47 GMT",
+				"etag": "\"0x8DF29897E25F667\"",
+				"last-modified": "Wed, 14 Oct 2026 00:24:21 GMT",
+				"server": "Windows-Azure-Web/1.0 Microsoft-HTTPAPI/2.0",
+				"timing-allow-origin": "*",
+				"vary": "Accept-Encoding",
+				"via": "1.1 varnish, 1.1 varnish",
+				"x-cache": "HIT, HIT",
+				"x-cache-hits": "57, 1",
+				"x-fastly-request-id": "727b92f736b6cf35676491b7ff29830e85eb5095",
+				"x-served-by": "cache-iad-kiad7000181-IAD, cache-bfi-krnt7300034-BFI"
+			},
+			"body": "3e057e8381ad03c662a902391dee3b8a0a6f9627429e7987aa47481e633cdaeb"
+		},
+		"GET https://github.githubassets.com/assets/t9-28dc4f6af25a5400.js": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "26021",
+				"cache-control": "public, max-age=31536000, immutable",
+				"content-md5": "U8Wx6Mz8GiLM5mCDU+ipEQ==",
+				"content-type": "application/javascript",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Fri, 23 Oct 2026 16:43:10 GMT",
+				"etag": "\"0x8DF2AD27A804B49\"",
+				"last-modified": "Thu, 15 Oct 2026 15:39:19 GMT",
+				"server": "Windows-Azure-Web/1.0 Microsoft-HTTPAPI/2.0",
+				"timing-allow-origin": "*",
+				"vary": "Accept-Encoding",
+				"via": "1.1 varnish, 1.1 varnish",
+				"x-cache": "HIT, HIT",
+				"x-cache-hits": "11, 337",
+				"x-fastly-request-id": "a0c0cdb05e5ffe766b72dea1d716bdc2046e9d74",
+				"x-served-by": "cache-iad-khef600085-IAD, cache-bfi-krnt7300087-BFI"
+			},
+			"body": "3f516717d282edbcade12ad62e1f703d84d42d59aa53bd6f1243977654914e78"
+		},
+		"GET https://github.githubassets.com/assets/z-b2cf9f86cb4bed3b.js": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"access-control-allow-origin": "*",
+				"age": "773732",
+				"cache-control": "public, max-age=31536000, immutable",
+				"content-md5": "TJasCb8s0QMsJFAqm/YIzQ==",
+				"content-type": "application/javascript",
+				"cross-origin-resource-policy": "cross-origin",
+				"date": "Fri, 23 Oct 2026 16:43:33 GMT",
+				"etag": "\"0x8DF29A8195F44EB\"",
+				"last-modified": "Wed, 14 Oct 2026 04:03:26 GMT",
+				"server": "Windows-Azure-Web/1.0 Microsoft-HTTPAPI/2.0",
+				"timing-allow-origin": "*",
+				"vary": "Accept-Encoding",
+				"via": "1.1 varnish, 1.1 varnish",
+				"x-cache": "HIT, HIT",
+				"x-cache-hits": "24, 49345",
+				"x-fastly-request-id": "6ca493793bfc198b10d1729789aa372650c2cc3c",
+				"x-served-by": "cache-iad-kiad7000093-IAD, cache-bfi-krnt7300101-BFI"
+			},
+			"body": "fb15ffaee1ce0f8a206072b6ea0c6f7d600811e068b94e18b48633ba4b01b744"
+		},
+		"GET https://htmx.org/": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "33913",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; hit; ttl=31502087",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Fri, 23 Oct 2026 16:37:39 GMT",
+				"etag": "\"5df28cbd90425f95d85ab7f2362bc706-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT03R0ZF83NS4A2SCCFEAE"
+			},
+			"body": "c640452e79cb35be4f6483520c661bf170ce0ba6718dad173f2fc118204489fc"
+		},
+		"GET https://htmx.org/__markless-migrate/": {
+			"status": 404,
+			"headers": {
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=404; stored",
+				"content-type": "text/html; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:37:48 GMT",
+				"etag": "1587789645-ssl-df",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT0CDSE0142HR4HN6VJCJD"
+			},
+			"body": "3935f139ab143e1053151b43bbd9b612b6075f73ddd10033b8c400347e84420d"
+		},
+		"GET https://htmx.org/attributes/hx-disable/": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Fri, 23 Oct 2026 16:42:41 GMT",
+				"etag": "\"9d68bb9f5697bab866e22f79509917bd-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT9A9EBVECXJC57RMQ420Z"
+			},
+			"body": "8d42ce09d8669200be27ed3fb5b07ad047362b9b66970b4996d964a8063c011a"
+		},
+		"GET https://htmx.org/attributes/hx-headers/": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "1",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Fri, 23 Oct 2026 16:42:23 GMT",
+				"etag": "\"413e3c03b3512db4f3d65b28db45f248-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT8RCGZDMYR07BAB79R9BE"
+			},
+			"body": "8b316beb4a3375a5d86080a4e3d7ff0796514dd483ffe4b62a98b474d28d4e93"
+		},
+		"GET https://htmx.org/attributes/hx-indicator/": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Fri, 23 Oct 2026 16:37:45 GMT",
+				"etag": "\"1f8b178df52e29b336ca75c1db749da2-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT097RCKRKSWSVRD8H33SG"
+			},
+			"body": "b48de2277244a6541c2147e11243f51bed1be525208d2a940903d45794c870d2"
+		},
+		"GET https://htmx.org/attributes/hx-partial/": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "1",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Fri, 23 Oct 2026 16:42:23 GMT",
+				"etag": "\"26d64236bb9b134487ab2fb9e02e6595-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT8RBM2PE4WB3F1MFDZYEB"
+			},
+			"body": "75830c3b62dd8a56bd836af34b4c782b7f10b63d09476e1554a09112c0a73adf"
+		},
+		"GET https://htmx.org/attributes/hx-prompt/": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "1",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Fri, 23 Oct 2026 16:43:55 GMT",
+				"etag": "\"6250134bd188c847e804042e1f498fde-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MTBJ5Z3KP4NFTHEWRAY72B"
+			},
+			"body": "eb0f300ac5cb2ac61ef3aa45c5f0d7e44ce3796f05c37c18baf9d7c1f22ec3c7"
+		},
+		"GET https://htmx.org/attributes/hx-replace-url/": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "1",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Fri, 23 Oct 2026 16:42:23 GMT",
+				"etag": "\"ae58dc2ebc74bb9c2050e197b7c88d52-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT8R8ZH8ZCG2CJHE2EHXHB"
+			},
+			"body": "9a50c926e9108b1b379d88a0a6abbf3a31814df762009c0232c12c20757b5dbb"
+		},
+		"GET https://htmx.org/attributes/hx-request/": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Fri, 23 Oct 2026 16:42:22 GMT",
+				"etag": "\"95f446acab42eafe04a7e6995f1de349-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT8R84PSMTYGNADW19G2JV"
+			},
+			"body": "08b0f7225fa9a44dc28884586ca5ff0ce47e967cf0153ee952e328240d87c2a0"
+		},
+		"GET https://htmx.org/attributes/hx-vals/": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "1",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Fri, 23 Oct 2026 16:42:23 GMT",
+				"etag": "\"062120de3f020a674b5a874c275f45b8-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT8RBZRKA84T4RGMN49VAD"
+			},
+			"body": "94d8cf2e2f77c7b71a9a2008a8f154806d5bd2dc17ff4b03128e1df7ef2f9067"
+		},
+		"GET https://htmx.org/css/site.css": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "28122",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; hit; ttl=31507878",
+				"content-type": "text/css; charset=UTF-8",
+				"date": "Fri, 23 Oct 2026 16:37:40 GMT",
+				"etag": "\"97fb80cc003ef06701cfea1872a44151-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT041S64KRWKVNZBF5MWGF"
+			},
+			"body": "0e7f26f36fcf53018ded4f0530aa6210816018cd91f388e05310f834a99e6005"
+		},
+		"GET https://htmx.org/css/site.css.map": {
+			"status": 404,
+			"headers": {
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=404; stored",
+				"content-type": "text/html; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:37:55 GMT",
+				"etag": "1587789645-ssl-df",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT0KCP8HNT22SRC6X8RQF7"
+			},
+			"body": "3935f139ab143e1053151b43bbd9b612b6075f73ddd10033b8c400347e84420d"
+		},
+		"GET https://htmx.org/docs/": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Fri, 23 Oct 2026 16:38:15 GMT",
+				"etag": "\"92f3904e48de28bbdb9c02254af0f0c2-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT16B9EG4D61EPW9K5DKDF"
+			},
+			"body": "52c0d6957e401208cc417d9a08d8e89e34db1752149e01b00cc4930cd617b5e4"
+		},
+		"GET https://htmx.org/essays/": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "22101",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; hit; ttl=31513899",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Fri, 23 Oct 2026 16:38:21 GMT",
+				"etag": "\"529ea41cd7bbb86d0ecea326650a50a0-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT1C2V32MT7H7BQAQBM3P1"
+			},
+			"body": "1931b7df039d09286757cb165d60645e9f74baddf90f65c15402e13fb261f108"
+		},
+		"GET https://htmx.org/events/": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Fri, 23 Oct 2026 16:42:38 GMT",
+				"etag": "\"c55f1b88ccd5b3a46e4419fcdbf7c1f5-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT97NDM5JBAYQRA15PR91Q"
+			},
+			"body": "5711713036b0be6bdc5fe6b4063b07b1eae008123d287fb59be60c8dad9c325c"
+		},
+		"GET https://htmx.org/examples/": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Fri, 23 Oct 2026 16:38:15 GMT",
+				"etag": "\"10db6219aae95a997905f5ad81e2a9e6-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT16B5VYK2HF5AGW7BSTRA"
+			},
+			"body": "251174dddf00eeff549d577cff7092f32a86a700d1db8c9dd2195844f5b8c8ac"
+		},
+		"GET https://htmx.org/examples/click-to-edit/": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Fri, 23 Oct 2026 16:37:39 GMT",
+				"etag": "\"d227703e1f1f77a6682bb6549c69d7e6-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT03QXCAXH7S78B46G7HDZ"
+			},
+			"body": "d9a582461449c27b28a4951b6aadd67f62690caa3c0ffcf2e0cafe558c03c6bf"
+		},
+		"GET https://htmx.org/extensions/building": {
+			"status": 301,
+			"headers": {
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "text/html",
+				"date": "Fri, 23 Oct 2026 16:42:23 GMT",
+				"location": "/extensions/building/",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT8RC9GJJ08305841TY9G5"
+			},
+			"body": "0528b3e69b69d7f667f14565d3f301c132d74529632ad6d1321ac18d1660f18f"
+		},
+		"GET https://htmx.org/extensions/building/": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Fri, 23 Oct 2026 16:42:23 GMT",
+				"etag": "\"e7cc25741bc58b21240e022bf90b5bae-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT8RMYD1W63NW5G376F7WH"
+			},
+			"body": "eaa0afe2ef26d1813f73b3856e88b4019bd2a8349ed0ffaab402b449c7dcd67e"
+		},
+		"GET https://htmx.org/img/BroadbandMapLogo2LineDarkMode.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "36443",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; hit; ttl=31499557",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:37:44 GMT",
+				"etag": "\"56eb01ed2de3a27063bf194b4f082b18-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT08M494G1X2NS8PZQBD12"
+			},
+			"body": "df2f3ff7c7fb8836be53b39e904a9548806fb41cd807858283b578d08cb39895"
+		},
+		"GET https://htmx.org/img/BroadbandMapLogo2LineLightMode.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:37:44 GMT",
+				"etag": "\"0ee40150239ae74c2454a9a952363767-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT08M4QYPKBXZFTWXBCPRE"
+			},
+			"body": "360a4b0cf784f5d2013bc5634152c8130179f99709f1382af31be54fb52095fa"
+		},
+		"GET https://htmx.org/img/Cased_Logo_Beige-01.svg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/svg+xml",
+				"date": "Fri, 23 Oct 2026 16:37:44 GMT",
+				"etag": "\"7046e49b0d71def6e771a7413b322f2d-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT080DNG6YW835SCMPG5X7"
+			},
+			"body": "bf1322b215b4338321824b2aa340603aa8ee67a62d455a0f0c51e95e50c6c5e5"
+		},
+		"GET https://htmx.org/img/Cased_Logo_DarkBlue.svg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "12447",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; hit; ttl=31523553",
+				"content-type": "image/svg+xml",
+				"date": "Fri, 23 Oct 2026 16:37:44 GMT",
+				"etag": "\"60350e984588329d97c973ffa32ba303-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT07ZSXW2BEWDYE2M039J9"
+			},
+			"body": "e33543d11ba1004a175502a46e92b2249c4d1842050979a6df3e7983672f76cf"
+		},
+		"GET https://htmx.org/img/Github_Logo.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:37:43 GMT",
+				"etag": "\"102ebea0da9580ca7b4d8bde02d35417-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT07P2PDYY9D2DDKAF60SE"
+			},
+			"body": "8fe8e40d21fee140d5eb62500863fded0e70894c947e30d930da3d189f6cd617"
+		},
+		"GET https://htmx.org/img/ablogcms_logo.svg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "12447",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; hit; ttl=31523553",
+				"content-type": "image/svg+xml",
+				"date": "Fri, 23 Oct 2026 16:37:44 GMT",
+				"etag": "\"bacf54a354baa04d551e195386030d87-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT082HS8JE2MMQK41GXRRH"
+			},
+			"body": "e6a97bcd616926f189c488f65f910034ba6fc5da34709d21809214e46e787d16"
+		},
+		"GET https://htmx.org/img/ads_bottom.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:37:43 GMT",
+				"etag": "\"0b2c7c471284a6cc9198e731537db863-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT071FTDZF4ESQK1HS9H5F"
+			},
+			"body": "6c0ed0969add45e05fd89cd236393351da0fd619d639ffc363273c8b4b804fe7"
+		},
+		"GET https://htmx.org/img/ads_top.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "11",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; hit; ttl=31535989",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:37:42 GMT",
+				"etag": "\"1c32ea49793ef7af27718a1347e700c6-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT06MT0XJYHRR715MAT585"
+			},
+			"body": "61d98ce3030d3694e4d1b5f47da91bbd7fad252fe049cb3e8cbf91de3a598520"
+		},
+		"GET https://htmx.org/img/bars.svg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "9223",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; hit; ttl=31526777",
+				"content-type": "image/svg+xml",
+				"date": "Fri, 23 Oct 2026 16:37:46 GMT",
+				"etag": "\"b3abd825e9f12b5f776153c911d2c56a-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT0A39WB903YNFCDD164RW"
+			},
+			"body": "d076a48a74769f64db2fb6b7ec0f6da8a948795eafbb1eac7e87ffaa606b706c"
+		},
+		"GET https://htmx.org/img/blackhost-logo.svg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "28125",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; hit; ttl=31507875",
+				"content-type": "image/svg+xml",
+				"date": "Fri, 23 Oct 2026 16:37:43 GMT",
+				"etag": "\"01b468e4d6ddd861d83a821cf6bd0b0f-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT07PTAXKGKER87ZQJ3374"
+			},
+			"body": "5368cba645a440da68af03efce43a79342aef6dbabedfc0e9f1d63964a33050f"
+		},
+		"GET https://htmx.org/img/bss_bars.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "14095",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; hit; ttl=31521905",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:37:40 GMT",
+				"etag": "\"b6ad258bfdc3c042e5cf1e76d7f9c278-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT04PCMT4F6PE665EFCN7F"
+			},
+			"body": "a76e6f427dbe0579a72c09dd3f9594b487365a3df2ab43904c2a8460ddff4b1a"
+		},
+		"GET https://htmx.org/img/butter-cms.svg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "12446",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; hit; ttl=31523554",
+				"content-type": "image/svg+xml",
+				"date": "Fri, 23 Oct 2026 16:37:43 GMT",
+				"etag": "\"780b47064920b6530f7860c31878631c-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT07P7A6Y9BEZX6WEJZ01T"
+			},
+			"body": "81c4730bb3f0302ac7f0136e881a77ce4a32d0605593e394d3d6f14a1a106d53"
+		},
+		"GET https://htmx.org/img/commspace-dark.svg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/svg+xml",
+				"date": "Fri, 23 Oct 2026 16:37:43 GMT",
+				"etag": "\"8098ee5ade9c09025b4d2f940d5ca731-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT073HZB2J2KHWVFDZFB8R"
+			},
+			"body": "be49fd7decf74bd3477074a4b592db15a65b0299054f64650d900a2e67cfe8a8"
+		},
+		"GET https://htmx.org/img/commspace.svg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/svg+xml",
+				"date": "Fri, 23 Oct 2026 16:37:43 GMT",
+				"etag": "\"1e1661f49f43fd8edab7498fbc38bf33-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT072T9GTB207TR4XAE9XS"
+			},
+			"body": "7760d7ffa042047b417d11a28668426705fb3beaac0b15243279d11c03ba71a3"
+		},
+		"GET https://htmx.org/img/createdwith.jpeg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/jpeg",
+				"date": "Fri, 23 Oct 2026 16:38:21 GMT",
+				"etag": "\"428fd47225def5e85aa3e25c7a008baf-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT1C64960V6BEQEJH6JE1D"
+			},
+			"body": "85dd4304b66ddf5a8a895e58acc613454f564a3845fc9ebf3b13ea1aa5b3ed46"
+		},
+		"GET https://htmx.org/img/das-filter-dark.svg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "12446",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; hit; ttl=31523554",
+				"content-type": "image/svg+xml",
+				"date": "Fri, 23 Oct 2026 16:37:43 GMT",
+				"etag": "\"086e2f1c8b50b11662aa68749aaa3834-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT07V3C3PJ3TD8072C5VNX"
+			},
+			"body": "b95310f0c55e0765a0ae0cab8c65104ac44d5d74912805bd2882fc63ebf845e9"
+		},
+		"GET https://htmx.org/img/das-filter.svg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/svg+xml",
+				"date": "Fri, 23 Oct 2026 16:37:43 GMT",
+				"etag": "\"2dfc5bb672b199edc0d1ffeda5f069d2-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT07TZJH27XBK1W2NJZTZ7"
+			},
+			"body": "8faaf408bc0ae6160aced034f590d0cea9f3443f9ca246e49067d6cb7ce774ea"
+		},
+		"GET https://htmx.org/img/exchange-rate-api-dark.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:37:44 GMT",
+				"etag": "\"5af04b26fd3765ec28fa9fd94a566e72-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT08M6F6Y7D0R8QJDVXR72"
+			},
+			"body": "60a0ca75dadeaa4d756af7847c9e584c41d31fa8d7650b8b63fa3300ef754d20"
+		},
+		"GET https://htmx.org/img/exchange-rate-api.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "31360",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; hit; ttl=31504640",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:37:44 GMT",
+				"etag": "\"6cc862869fd7e9a73921d78dba977884-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT08M4EPMT4BE7R6XB6YFK"
+			},
+			"body": "ba64b608e3342e8393136a63162ae9da219e14bc9a42097e283b00b8cd7a9bad"
+		},
+		"GET https://htmx.org/img/follower_dark.svg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/svg+xml",
+				"date": "Fri, 23 Oct 2026 16:37:44 GMT",
+				"etag": "\"f4bec296439b32905cfb00f1387918b5-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT08M40H30J4GSEKXBMPZF"
+			},
+			"body": "66d3e06f8d6c97aa8cd91f1c940b1e0a0fe4c12dc052642e5bae1e72cb06fcda"
+		},
+		"GET https://htmx.org/img/follower_light.svg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/svg+xml",
+				"date": "Fri, 23 Oct 2026 16:37:44 GMT",
+				"etag": "\"1fc889f9bfb55a7f410bb1d98616d6f4-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT08M4HQ4C4RQJXSE6GK0M"
+			},
+			"body": "0a21a4b9faf6dbd25bf779bda719e3cd7e3ea86e2d03fb8d5877ffe1ccbe2310"
+		},
+		"GET https://htmx.org/img/hypermedia-systems.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "36442",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; hit; ttl=31499558",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:37:43 GMT",
+				"etag": "\"b9c8882bc5d2b8b591621c6e85eeab27-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT071FY3VKM65DBF37XGTS"
+			},
+			"body": "8efbcfb1d9e89d502985d289daa5c66fd23973ba1eb4db3a90fb0e63577003ed"
+		},
+		"GET https://htmx.org/img/jetbrains.svg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "28125",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; hit; ttl=31507875",
+				"content-type": "image/svg+xml",
+				"date": "Fri, 23 Oct 2026 16:37:43 GMT",
+				"etag": "\"ff0e0369a487e6387b5e36594ea4370b-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT07NP8T3D716C50GFRZN4"
+			},
+			"body": "bc1758c5909fffdeb11f7a039ffcfc88ae455884dceb59df529bae41f5de4b94"
+		},
+		"GET https://htmx.org/img/kawaii.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:37:40 GMT",
+				"etag": "\"773441d6119feb334c5c54b7b08bb0dd-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT04PQDY9P672WFW0CGNC3"
+			},
+			"body": "5dc975fc617aaf6376638a73b57e40ba73593d3016636947aebdd69c3a537777"
+		},
+		"GET https://htmx.org/img/llc-org.svg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "31360",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; hit; ttl=31504640",
+				"content-type": "image/svg+xml",
+				"date": "Fri, 23 Oct 2026 16:37:44 GMT",
+				"etag": "\"5b0dc01d014d7ae8032e6ef7bc5bc7c3-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT0814NJKWAD40VA3CXZ4D"
+			},
+			"body": "4e9d2939d3621b460c7974fef7f59fbd66b8e1ff03a2086610c861e64c616282"
+		},
+		"GET https://htmx.org/img/logo-craft-cms-dark.svg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "31359",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; hit; ttl=31504641",
+				"content-type": "image/svg+xml",
+				"date": "Fri, 23 Oct 2026 16:37:43 GMT",
+				"etag": "\"df0a078de874d7f9916825e4d6e6786c-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT07P7ZDWK653M5SH00QFK"
+			},
+			"body": "8fcc752695503d3ed6681042bc23472bb5817c4f18379aed621a57dfd35c2801"
+		},
+		"GET https://htmx.org/img/logo-craft-cms.svg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/svg+xml",
+				"date": "Fri, 23 Oct 2026 16:37:43 GMT",
+				"etag": "\"010427289d5ed6245397bc77af7d429e-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT07P2F6YDZBEFDS7SZKG3"
+			},
+			"body": "2648e95cce8beb951a20e498656d00a2b1f270d635ff0fbcf84766a1e30cbcea"
+		},
+		"GET https://htmx.org/img/memes/20yearold.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:38:21 GMT",
+				"etag": "\"3ef1dacca5298734179905827302e848-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT1C9KET88W31JK98YHX28"
+			},
+			"body": "f0de65e3b64f2f404b7c9e2e52189cf3d476d3e54d44f89860989a7eadebfdb0"
+		},
+		"GET https://htmx.org/img/memes/aye.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "2956",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; hit; ttl=31533044",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:38:42 GMT",
+				"etag": "\"e9eeb0413a2d6a23f3c9051471113231-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT21BBRXC12CENTN5T273C"
+			},
+			"body": "433d45b6ed30271f8b11d1500eac0f888a5e444684eece79df27895b26698155"
+		},
+		"GET https://htmx.org/img/memes/bellcurve.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:38:27 GMT",
+				"etag": "\"799df39cc11815a1fa30695eb828a48f-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT1JBTN9A5B4C422B2VS4Y"
+			},
+			"body": "bc8366596fcfd886ed716d03f0dd4c4305fbce734579bc5fc0150090f6653b05"
+		},
+		"GET https://htmx.org/img/memes/bellcurve2.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "1",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:38:28 GMT",
+				"etag": "\"288021f848dbd48993de065b7fbfde81-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT1JS6PMTSVPHET0YV91DS"
+			},
+			"body": "742f61f61bebea0b2504f58a16c393a4ce40a7be9e6a521e454ac9c781ff0c37"
+		},
+		"GET https://htmx.org/img/memes/dbtohtml.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "1",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:38:28 GMT",
+				"etag": "\"7298920dbe0a14dfc824756e0050013c-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT1JS8C9Y7VN91FZV7D0M4"
+			},
+			"body": "7764aa12cd6c275e5d4cd842c220ce0ea0d8a8be0524089aaf7dac648dc3fa37"
+		},
+		"GET https://htmx.org/img/memes/dontknowwhatclientsideroutingis.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:38:27 GMT",
+				"etag": "\"100dca0ff906cab7db01552df921f521-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT1HZYCT8SZ6K93C2DAST6"
+			},
+			"body": "3a15502774025bcce779b80d52b6ae586fc99049a17416595c1ccc931ff005c7"
+		},
+		"GET https://htmx.org/img/memes/drakearchitecture.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "1",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:38:28 GMT",
+				"etag": "\"15e2064bbcd87052ab2f400b2a98e575-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT1JS38R4ZAPG1BP5V7HTW"
+			},
+			"body": "07966e6d6f203cd46ece5829bdb69761c304fecd64b94d6369e7a1deca294baf"
+		},
+		"GET https://htmx.org/img/memes/drakememes.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:38:32 GMT",
+				"etag": "\"0143592a485e524070a4b3af5e5bd4b6-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT1Q9MB0SNXN9NG98SMR69"
+			},
+			"body": "7ac7129b29155b333dc4d30663c76d44b054780feb7c7fc4a50496d2e08e0ee8"
+		},
+		"GET https://htmx.org/img/memes/extinction.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:38:42 GMT",
+				"etag": "\"3164155891b6e28c16f72315957a3f47-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT21B0K9XBDSZT88KN151X"
+			},
+			"body": "cba79f304443fe85f2dd38c28a28f3c0a59096753758849f3767cd4ac5402a45"
+		},
+		"GET https://htmx.org/img/memes/feelbad.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:38:32 GMT",
+				"etag": "\"92795b446cebb955218f37cfd45264a5-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT1Q9KQSEHM6VYR72AHQD1"
+			},
+			"body": "659c4146d6bf46840b1d92691cc39283cad247d8c83cc11ade11539a28ce3806"
+		},
+		"GET https://htmx.org/img/memes/frontenddevs.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:38:42 GMT",
+				"etag": "\"07645b46d71cacbdd6b0ce40d9a1159e-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT218KPBCVQAVAD4HKSY2F"
+			},
+			"body": "753b447ed07de7643c2f047ed434e35792a478d840d1c45da892e7bb8c816e04"
+		},
+		"GET https://htmx.org/img/memes/fullstack.jpg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/jpeg",
+				"date": "Fri, 23 Oct 2026 16:38:42 GMT",
+				"etag": "\"6b68826e0a5580279aa647f197adc13c-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT2191NRQYWPXT05TRXDD5"
+			},
+			"body": "59ad58fb7afbb31f019de1145ecaeba07c034a5065cbe6f1bb073cb53543d3b4"
+		},
+		"GET https://htmx.org/img/memes/htmlvsjson.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:38:22 GMT",
+				"etag": "\"01ba9799bf6960ed66ed3ba2686d3c49-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT1DDYZJHGECAN8CAHFWJ5"
+			},
+			"body": "c10fc9c2a5d8a9b80afb4f75a714ca6803d56c870a8b7fa6b37d4ebe71c6228a"
+		},
+		"GET https://htmx.org/img/memes/htmxanddjango.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:38:42 GMT",
+				"etag": "\"49d9f9b4ed1d27bcf29350385cd7c1b5-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT219QBFJT4TFF5EWAF2X1"
+			},
+			"body": "22a394978732fb57bd2f52210d1e157436598a4512f4dd799064d68987390edc"
+		},
+		"GET https://htmx.org/img/memes/hydration.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "2941",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; hit; ttl=31533059",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:38:27 GMT",
+				"etag": "\"c5a4b3dfc7de4a49578912d6769c2283-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT1J0FAYQG1B9SDPCQ6KTF"
+			},
+			"body": "bc7ab765e4654e96de07f6acbe27c9c453ad9ff08ed617b0f20c92f34b3effd4"
+		},
+		"GET https://htmx.org/img/memes/ie11enjoyer.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:38:27 GMT",
+				"etag": "\"97c8299dffe24b0a0330fff65c07da00-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT1J0ACCK2JM45G0B40AYG"
+			},
+			"body": "3a1c5892195952751884176c3f6c0639ca1811b1bdcbaf625472b235bb1a5094"
+		},
+		"GET https://htmx.org/img/memes/istudiedhtml.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:38:22 GMT",
+				"etag": "\"4d12375a0f4e33e50622387be3c82685-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT1DDXHBNAAV2PVX0Z2J8X"
+			},
+			"body": "e0e0506178f5030159c6fdbd47834fe1a5d3f1eff25f664a48c0a456d81b03b5"
+		},
+		"GET https://htmx.org/img/memes/javascripthistory.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:38:27 GMT",
+				"etag": "\"2655071139322d5aa997399062881576-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT1J18CDS5TSEGQEZ5TG9F"
+			},
+			"body": "86725dfb20de382e400734258de74287a6f3b2ec0bfe004c4cf039baf64cb284"
+		},
+		"GET https://htmx.org/img/memes/justusehtml.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:38:21 GMT",
+				"etag": "\"91a840c62b3107c4def6f81ec573dd71-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT1CGPSYBYCKAC6VBC2RRS"
+			},
+			"body": "e0d591ca28e07443f42c977792a84efab7aa46cd6a3ff916023124dfaa6deed5"
+		},
+		"GET https://htmx.org/img/memes/nocap.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:38:27 GMT",
+				"etag": "\"43211e0081600b45ddc10f2554e55b6d-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT1J02JHGAVKK3HX3JSTF8"
+			},
+			"body": "8da109dd72eb93c8e23cfefc0a8949651bb98ed65361c1398f4ebf2f7ab22241"
+		},
+		"GET https://htmx.org/img/memes/normal.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:38:28 GMT",
+				"etag": "\"0a7d8b4ef7b41541447730b42ab7d0bf-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT1K0M7SD1F5JD2SHWEJKS"
+			},
+			"body": "5ff2c3f8771ec5da99b9d6ea1afcc5dd9be0a392f14b637b7aa59a8b314586d7"
+		},
+		"GET https://htmx.org/img/memes/original.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:38:21 GMT",
+				"etag": "\"d19d872ee39334b7709be7b6aadd0dc7-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT1C64FFCP9AV4YMV295A0"
+			},
+			"body": "e95b9a8e0c127e30c0ece4919a524560f7a0418a75b7ebc360bddde9a3511134"
+		},
+		"GET https://htmx.org/img/memes/restapi.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:38:21 GMT",
+				"etag": "\"f74c865d0aa375ae8b97f67ac6fe6754-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT1CAAJQ42A4KFMTCEBR1W"
+			},
+			"body": "fb090821d64b97d5e611527e24052221420eb1b391beceded9d416f29e330444"
+		},
+		"GET https://htmx.org/img/memes/uarealldoingitwrong.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:38:21 GMT",
+				"etag": "\"9ed00b3396e51319ec2f2588a380e0be-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT1CAP2FDQ6Y3NXMF3B9G1"
+			},
+			"body": "6ce138d44d50245842e8f59fa9c57d6de9e0212166407b9e2659ffe82e04b40d"
+		},
+		"GET https://htmx.org/img/memes/viewsource.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:38:27 GMT",
+				"etag": "\"292e9e91ab25bd588d9d26aba340c3a0-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT1J0FC4YD2EVQD2PS1H86"
+			},
+			"body": "b55050be03628920ecaab2e673670760535fa63b01f5c5fe7356c447b73c3553"
+		},
+		"GET https://htmx.org/img/memes/whowillwin.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:38:21 GMT",
+				"etag": "\"7766c86e40fb3f3e9fa97457f9fc0ee1-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT1C9V1R0A520QH9NK773C"
+			},
+			"body": "0b4460eb3a1d3f4d82a03c8a54d15af2620a91fd1608131c074b7e1e94886e89"
+		},
+		"GET https://htmx.org/img/ohne-makler.svg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "31360",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; hit; ttl=31504640",
+				"content-type": "image/svg+xml",
+				"date": "Fri, 23 Oct 2026 16:37:44 GMT",
+				"etag": "\"ca593a199268b2382e35f244af79a75a-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT07ZRDD7A2R8HJ9A00V6D"
+			},
+			"body": "8c1144bef23db6c4a7a7f3653c090c205375bfb2c6ae9beb1781639628bef547"
+		},
+		"GET https://htmx.org/img/prospex.svg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "28126",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; hit; ttl=31507874",
+				"content-type": "image/svg+xml",
+				"date": "Fri, 23 Oct 2026 16:37:44 GMT",
+				"etag": "\"c215eafff1f25110aafd90f9dd736b37-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT08V0EJASB60FR9YV7KS6"
+			},
+			"body": "89d93a05a66c2954afee67c73a25181a513f57fd4c14392bb4c928dfaeb22392"
+		},
+		"GET https://htmx.org/img/pullapprove-logo-dark.svg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "1",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/svg+xml",
+				"date": "Fri, 23 Oct 2026 16:37:44 GMT",
+				"etag": "\"1f2fac6bc77e626d2dc30830dc16bce2-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT07X57SAN477N6N0KZQ9G"
+			},
+			"body": "095e4cba936a0083b57ff01e59af259760a68c0a68f9adb0b2728dc6ac15b316"
+		},
+		"GET https://htmx.org/img/pullapprove-logo.svg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "36442",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; hit; ttl=31499558",
+				"content-type": "image/svg+xml",
+				"date": "Fri, 23 Oct 2026 16:37:43 GMT",
+				"etag": "\"09e14df50dd249cf9fcf21f524b5e49f-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT07X36CRYM8GRFQ9EBWJP"
+			},
+			"body": "8a773b41a29fb691eada246e698bf47501d215600b937a76aac30345eb849662"
+		},
+		"GET https://htmx.org/img/rsz_instant_famous.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "36443",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; hit; ttl=31499557",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:37:44 GMT",
+				"etag": "\"4955eb721cfcc09db8cbfdca68c3e60d-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT08PCA7QTTDMC85METSW5"
+			},
+			"body": "c2181ec75420b56350a6da59f1c0270b3d537a8f71bb86074554095ab352535e"
+		},
+		"GET https://htmx.org/img/rxdb.svg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/svg+xml",
+				"date": "Fri, 23 Oct 2026 16:37:44 GMT",
+				"etag": "\"889152fa5f6d62e795067d40032904d4-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT07ZPDA3HA064FWRZ57H9"
+			},
+			"body": "7bf483069c8eb7452116682e34478eb2ad2f123dbbf0ae23c9eda0f29be6e71b"
+		},
+		"GET https://htmx.org/img/sekun-doggo.jpg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/jpeg",
+				"date": "Fri, 23 Oct 2026 16:37:43 GMT",
+				"etag": "\"612a68f864a0c9c10121e7ca22543555-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT07TNRH81H270Q48DF96A"
+			},
+			"body": "93fff0a6c0533a90197e074dfe2ad190c90fb824b7791badf2947b828b02add0"
+		},
+		"GET https://htmx.org/img/serpapi-dark.svg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "12446",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; hit; ttl=31523554",
+				"content-type": "image/svg+xml",
+				"date": "Fri, 23 Oct 2026 16:37:43 GMT",
+				"etag": "\"1698bc5182ebe02adb0f01241fb7f019-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT073PVZD96D5M1J6SR0D5"
+			},
+			"body": "05f23c7a38df343d8c0ecadae356a7added950ef5298d65aa2954a1fe562a208"
+		},
+		"GET https://htmx.org/img/serpapi.svg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "31359",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; hit; ttl=31504641",
+				"content-type": "image/svg+xml",
+				"date": "Fri, 23 Oct 2026 16:37:43 GMT",
+				"etag": "\"2152db96cddc6715d42880542bf16df6-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT073KX33VGZQTDHK6AFG9"
+			},
+			"body": "1510fd9ebe85c42434c19868917211d43ccc950e14ce23b3e942f8b94774e596"
+		},
+		"GET https://htmx.org/img/stake.jpeg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "31360",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; hit; ttl=31504640",
+				"content-type": "image/jpeg",
+				"date": "Fri, 23 Oct 2026 16:37:44 GMT",
+				"etag": "\"7da1ceca02c4e6b3f25f79a351f5c630-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT08PCHGAJE2E3G3PNAESR"
+			},
+			"body": "175f0aadda8263f63b6f347687d04b8c1a6b38ddbaafd1fecf7dd249d989611f"
+		},
+		"GET https://htmx.org/img/topo.svg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "36442",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; hit; ttl=31499558",
+				"content-type": "image/svg+xml",
+				"date": "Fri, 23 Oct 2026 16:37:43 GMT",
+				"etag": "\"d14be790e6c3e670dbd2f5b21345dc88-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT07NGQ56BGH6831N0BKCD"
+			},
+			"body": "36cf273c6d2c5256fcca09b013969e99205e167d478530e04da9a72a761fc372"
+		},
+		"GET https://htmx.org/img/tracebit-logo-dark.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:37:44 GMT",
+				"etag": "\"9d58c9ba1ce5c4a9619e6389b96f28cc-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT07ZMWMY8RGJ6TPW6Z17V"
+			},
+			"body": "d6e5609de45a1344f9d6f9f573481b1733a8bb61d85258d6d885c8885b6acc5d"
+		},
+		"GET https://htmx.org/img/tracebit-logo.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:37:44 GMT",
+				"etag": "\"4c4881dfc0abf3116c59922c7891fd53-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT07Z8WXQ0ED2MJSFHZGKR"
+			},
+			"body": "32ad9f731a59604ae8465083158d6dac23883636d26fca8baca74b45578886b0"
+		},
+		"GET https://htmx.org/img/ui-bakery-dark.svg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "12446",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; hit; ttl=31523554",
+				"content-type": "image/svg+xml",
+				"date": "Fri, 23 Oct 2026 16:37:43 GMT",
+				"etag": "\"b659e07d5099a1407ee4bed595d9bbe2-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT07XBKHH9WQCD30X8WVZA"
+			},
+			"body": "1bbc75eb23684c0383b17469d4488d9ee354fa868579a42ce20590b2febe93da"
+		},
+		"GET https://htmx.org/img/ui-bakery.svg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "31359",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; hit; ttl=31504641",
+				"content-type": "image/svg+xml",
+				"date": "Fri, 23 Oct 2026 16:37:43 GMT",
+				"etag": "\"fa0bf66bede971ae1e6236292d03006b-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT07X6D6MND9RF7JB0CFTN"
+			},
+			"body": "fbf375d8a084fcfaaea6c0c575cd8d5af28f7094fe6b7e3b284783814fd8f183"
+		},
+		"GET https://htmx.org/img/v7n-logo-dark.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "31359",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; hit; ttl=31504641",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:37:43 GMT",
+				"etag": "\"ef73cd127481fdd4032dbc013abc31f5-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT07THKVBDYBVYJT3YZZMD"
+			},
+			"body": "08f6df477acd10a619c94e8e181b6a1e80f850c077a7a1e335564ae3679f17d5"
+		},
+		"GET https://htmx.org/img/v7n-logo.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "36442",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; hit; ttl=31499558",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:37:43 GMT",
+				"etag": "\"9342cc74822141042ab83ccbf171f451-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT07THS4MF5GNN3AB9TC69"
+			},
+			"body": "83db880efc101750ca5c25520cbafde100b54dad00ce5693c4e06677d483c39f"
+		},
+		"GET https://htmx.org/img/vps-server-logo-dark.svg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "31360",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; hit; ttl=31504640",
+				"content-type": "image/svg+xml",
+				"date": "Fri, 23 Oct 2026 16:37:44 GMT",
+				"etag": "\"d4a7577907b75a5384449472360ba24f-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT082H1RTPNW1W6ZXEF22K"
+			},
+			"body": "9bbcfc4cb8f7dcb41604d3dfa016faac9012061a356b3ea634f25284303abb5e"
+		},
+		"GET https://htmx.org/img/vps-server-logo.svg": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "12447",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; hit; ttl=31523553",
+				"content-type": "image/svg+xml",
+				"date": "Fri, 23 Oct 2026 16:37:44 GMT",
+				"etag": "\"dc07bf7f308da26612b49d34a8c01bc6-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT0814MMC11G96P10KKMRQ"
+			},
+			"body": "bc7d47e473ddb61c36203bb6cbe1bd8179d3647ca3f5c08e07df356ea26779ad"
+		},
+		"GET https://htmx.org/img/wuw.png": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "image/png",
+				"date": "Fri, 23 Oct 2026 16:37:40 GMT",
+				"etag": "\"d3cd21ae7747cd2388e402fc5817a164-ssl\"",
+				"server": "Netlify",
+				"x-nf-request-id": "01M5MT042RWRWFN0DJY21NA8PR"
+			},
+			"body": "a38bbcb0f31fd3d345942fedcf015ffa5a90c4ae0e74597b529e848bdeda8c66"
+		},
+		"GET https://htmx.org/js/_hyperscript.js": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "application/javascript; charset=UTF-8",
+				"date": "Fri, 23 Oct 2026 16:37:42 GMT",
+				"etag": "\"47cb890f69a6ac90141eef36ff25ed6b-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT06MR0BVYPAFRBW0ZXJ67"
+			},
+			"body": "b2d5290125eaa818034cc4e36179475419aec52225d93b99a4cf0156aecb643d"
+		},
+		"GET https://htmx.org/js/class-tools.js": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "application/javascript; charset=UTF-8",
+				"date": "Fri, 23 Oct 2026 16:37:40 GMT",
+				"etag": "\"e442e4117e744aa684bdb622f828e453-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT043BJHB5NWD1VXTQRP2H"
+			},
+			"body": "a5c0e5079da985cc1227b8e9dbdc8486be04fa82cf714ba9cae62fd0d8949b2f"
+		},
+		"GET https://htmx.org/js/demo.js": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "application/javascript; charset=UTF-8",
+				"date": "Fri, 23 Oct 2026 16:37:40 GMT",
+				"etag": "\"47e463196563911513eedade0a88cb82-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT043R0A4G1RKVTER093W7"
+			},
+			"body": "33edae1a6b3e7088833bc876cf84ccc4aa5958994fabc940df74a8b1010402cc"
+		},
+		"GET https://htmx.org/js/htmx.js": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "28124",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; hit; ttl=31507876",
+				"content-type": "application/javascript; charset=UTF-8",
+				"date": "Fri, 23 Oct 2026 16:37:42 GMT",
+				"etag": "\"86a7a17a19ff55c99238b5f8bf45b383-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT06MYPY4HBYHW4PE85VJ1"
+			},
+			"body": "30612ca7e3d3baf407481f1798281c4481dcb93390a9722d328ce07290250426"
+		},
+		"GET https://htmx.org/js/preload.js": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "28124",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; hit; ttl=31507876",
+				"content-type": "application/javascript; charset=UTF-8",
+				"date": "Fri, 23 Oct 2026 16:37:42 GMT",
+				"etag": "\"562709b6d3b7ec84daff5b1f683ea082-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT06MW58EKAS3584FQA1F6"
+			},
+			"body": "5a1c0b17b1139d0aed897998ae2af96e30887a91e03a27672d355b06ed953530"
+		},
+		"GET https://htmx.org/migration-guide-htmx-1/": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "1",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Fri, 23 Oct 2026 16:40:56 GMT",
+				"etag": "\"515e8afcad6a85f0c44ca24066ed9e55-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT63C2XBW5Q7259ZXBD2RG"
+			},
+			"body": "cf0040448abf8701576cf0a65f184357db7a51f8d7002e9d281226d9565a56cb"
+		},
+		"GET https://htmx.org/quirks/": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "1",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Fri, 23 Oct 2026 16:40:53 GMT",
+				"etag": "\"564815c5eb1f8cdbedf02255bf70a42c-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT60F4Q2SAVRK5JQKZDMZY"
+			},
+			"body": "e29308513ceda97041cc0c2c086c0670d21e15ddeec440206818891991771567"
+		},
+		"GET https://htmx.org/reference/": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Fri, 23 Oct 2026 16:38:15 GMT",
+				"etag": "\"4ffaf54fda1c6a92b886200b2ea77aa5-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT167ZBJ66PTC99AJGBPH7"
+			},
+			"body": "7a1979c73da6cec1744f7609a62a7ec3da8fa4f12c04fe7ad39b10bf32ddd360"
+		},
+		"GET https://htmx.org/talk/": {
+			"status": 200,
+			"headers": {
+				"accept-ranges": "bytes",
+				"age": "0",
+				"cache-control": "public,max-age=0,must-revalidate",
+				"cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+				"content-type": "text/html; charset=UTF-8",
+				"date": "Fri, 23 Oct 2026 16:38:18 GMT",
+				"etag": "\"2930680dbd2cb8552792db91adbe6117-ssl-df\"",
+				"server": "Netlify",
+				"vary": "Accept-Encoding",
+				"x-nf-request-id": "01M5MT198DNCXPY0E16BEKERBW"
+			},
+			"body": "b133c5ca3477c06caff05bb19700fc816bd5076af13a7789e218dfa7425b06a6"
+		},
+		"POST http://update.googleapis.com/service/update2/json #00945ce9eea28f5c": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:46:12 GMT",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-daynum": "7235",
+				"x-daystart": "35172",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "84ce45b1752bd57fbdf787b05d867249bd844c13cb52a75c45969c173b724292"
+		},
+		"POST http://update.googleapis.com/service/update2/json #05a6bf3fbfb516a4": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:50:49 GMT",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-daynum": "7235",
+				"x-daystart": "35449",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "002e1c85635c6504b7810a23da7439e868588f239c209cd9414373d8057ea356"
+		},
+		"POST http://update.googleapis.com/service/update2/json #16555f543d68f0ce": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:50:15 GMT",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-daynum": "7235",
+				"x-daystart": "35415",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "e40f731dfa06c5ed453a38aab77e4b3ccb73e6814172d8b7a81dd232c0fee169"
+		},
+		"POST http://update.googleapis.com/service/update2/json #20f4eb1d5acdc7d3": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:45:52 GMT",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-daynum": "7235",
+				"x-daystart": "35152",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "024143cb17a4cae2cc6dc91df42472ddba8f10a57ba7e9ac8a8236f564da0a5d"
+		},
+		"POST http://update.googleapis.com/service/update2/json #228f6f85d17b8077": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:45:23 GMT",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-daynum": "7235",
+				"x-daystart": "35123",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "f9cd995d0039d06a6be4bea4f26d07f657d19b37cea5fdf6273c1922f448642b"
+		},
+		"POST http://update.googleapis.com/service/update2/json #23e6d40c5b124b17": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:50:25 GMT",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-daynum": "7235",
+				"x-daystart": "35425",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "ad4a5d47a444a2afd95209b5b60092173fd660428c2ffbf22610daba638b8cfe"
+		},
+		"POST http://update.googleapis.com/service/update2/json #25393440bb5ed5eb": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:45:28 GMT",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-daynum": "7235",
+				"x-daystart": "35128",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "15f9b030c53a611939549c1084a77b0d1ec1c45af59244d569e5c30b8a8629bb"
+		},
+		"POST http://update.googleapis.com/service/update2/json #26da1849ba23a111": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:46:03 GMT",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-daynum": "7235",
+				"x-daystart": "35163",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "67f965cfbcb9e213e094b25e1af6ea408e8b7ed1dce5cb50e204d61e72024672"
+		},
+		"POST http://update.googleapis.com/service/update2/json #36c514b825780d0d": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:51:26 GMT",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-daynum": "7235",
+				"x-daystart": "35486",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "60923f0c87bc80055c4041ed134349fc50b856df4bc4d5dd88fc8ee5ef8b4808"
+		},
+		"POST http://update.googleapis.com/service/update2/json #39af5a9088d2fbb0": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:46:06 GMT",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-daynum": "7235",
+				"x-daystart": "35166",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "961aa831d86d2c626ea44b00792ab32b8f0bf8da812363d2983ec6668f63bb23"
+		},
+		"POST http://update.googleapis.com/service/update2/json #3ddcd87754dce603": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:50:11 GMT",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-daynum": "7235",
+				"x-daystart": "35411",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "93eb3fb491e8edc7dd87aa5d614aacb1df2a2600afdc8b0ec1f98bfecaa90098"
+		},
+		"POST http://update.googleapis.com/service/update2/json #3df25f3135741da1": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:51:06 GMT",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-daynum": "7235",
+				"x-daystart": "35466",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "0db0b778a71b252e30b09d5ecc048f1360a1949e6ca26c86c44e2bf4a7acb4e0"
+		},
+		"POST http://update.googleapis.com/service/update2/json #4864cacbf7163c4d": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:51:22 GMT",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-daynum": "7235",
+				"x-daystart": "35482",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "58f66192e20abfff155c9f5c82738175548278a7a59a2de3d96e0b58163c7434"
+		},
+		"POST http://update.googleapis.com/service/update2/json #573f056acbb9a91b": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:46:00 GMT",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-daynum": "7235",
+				"x-daystart": "35160",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "b13d2dfacc75593940297220a794f4974087677bbd8010e4d44108d29557d7ca"
+		},
+		"POST http://update.googleapis.com/service/update2/json #625ee4dbcb773ccc": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:45:19 GMT",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-daynum": "7235",
+				"x-daystart": "35119",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "005ab0335f374198331140486eabbc1c41111d96e89ccfa3eaec82efe1053483"
+		},
+		"POST http://update.googleapis.com/service/update2/json #68bd1e2f1a4f5930": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:50:20 GMT",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-daynum": "7235",
+				"x-daystart": "35420",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "28a2940329a6c2689730116789d026b94850f9d306dfd9b140370e60be4eb0b7"
+		},
+		"POST http://update.googleapis.com/service/update2/json #6917deb352eecb7e": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:45:18 GMT",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-daynum": "7235",
+				"x-daystart": "35118",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "1c7ed0b61e4c11f51fd2ed8151b0eb00fc29c68eaf43e2abb4348ca402784c64"
+		},
+		"POST http://update.googleapis.com/service/update2/json #844a51b0faf4815a": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:51:22 GMT",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-daynum": "7235",
+				"x-daystart": "35482",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "60542f645c3a079b2e8405f2106c7647e7f4a7c1af25bdf0f4dd067734bb5b97"
+		},
+		"POST http://update.googleapis.com/service/update2/json #8751270eb97b8368": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:46:00 GMT",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-daynum": "7235",
+				"x-daystart": "35160",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "c7760a95d16912978d80114676636fc42d9169bb08430d2d72cbe11b43be23fd"
+		},
+		"POST http://update.googleapis.com/service/update2/json #97fbb94f56d957e8": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:45:45 GMT",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-daynum": "7235",
+				"x-daystart": "35145",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "a3a66879deae3e2177ca2c7b7259ae02b7e279e75a2d6eb65b1c1f0fef096235"
+		},
+		"POST http://update.googleapis.com/service/update2/json #9a8e234b63e22d3f": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:51:21 GMT",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-daynum": "7235",
+				"x-daystart": "35481",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "900e8d055029b8aedb17d0ddd37e3a897d1083ff317e78fa10ffab58b288fc93"
+		},
+		"POST http://update.googleapis.com/service/update2/json #9ddb3f3cda67c47e": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:46:24 GMT",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-daynum": "7235",
+				"x-daystart": "35184",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "b19a3225b0a9553894bd059bb8bc6c586e3b1bc332c2cc1db4a8c43ba06231b5"
+		},
+		"POST http://update.googleapis.com/service/update2/json #9fa57c070dff8e24": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:51:22 GMT",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-daynum": "7235",
+				"x-daystart": "35482",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "0defa5083c37b9a77a250fee1fc339491a86f0cddfa577e0f8aa7f3f5688dc6a"
+		},
+		"POST http://update.googleapis.com/service/update2/json #a68211a529eae35e": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:51:20 GMT",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-daynum": "7235",
+				"x-daystart": "35480",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "4cc55b4fb836807b2890f19ceb7b3cf5bea637eb45bc08ba1b8c30696bf8579a"
+		},
+		"POST http://update.googleapis.com/service/update2/json #b08e1bbc62b18f51": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:46:01 GMT",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-daynum": "7235",
+				"x-daystart": "35161",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "b1059daae44c8e5a007ec4f79b41b82046b2e1e966fd3ef1fb821d0cc452ff81"
+		},
+		"POST http://update.googleapis.com/service/update2/json #b1b5d8b3bb3d6775": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:51:21 GMT",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-daynum": "7235",
+				"x-daystart": "35481",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "50cd8796d25b89a5028ba72cf2d7aefe93d2774f5f3d9df38981e5c725def922"
+		},
+		"POST http://update.googleapis.com/service/update2/json #b255abc1866205eb": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:50:36 GMT",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-daynum": "7235",
+				"x-daystart": "35436",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "22ee229d7a4562f56a1490e3deac012575123d3bcfbe394f094251a262a740fd"
+		},
+		"POST http://update.googleapis.com/service/update2/json #c31d3ab5ce397d5c": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:50:31 GMT",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-daynum": "7235",
+				"x-daystart": "35431",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "6abfcfbbd607a978e391434d4ef690fcdb93c8e72722de36092b2ebccc857352"
+		},
+		"POST http://update.googleapis.com/service/update2/json #c553e5c057f99d82": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:45:33 GMT",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-daynum": "7235",
+				"x-daystart": "35133",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "13959865ec0de1c7be0700ad3bc7b5a996b1cbfcb609490251727fd8e6b9575c"
+		},
+		"POST http://update.googleapis.com/service/update2/json #cb7093ba15ce854c": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:46:09 GMT",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-daynum": "7235",
+				"x-daystart": "35169",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "eb9854d015bb2a6e178c90f1545441c241157cbd1240c1fb1a0bdea80b3ff864"
+		},
+		"POST http://update.googleapis.com/service/update2/json #d8336a8fd154ddf6": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:51:30 GMT",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-daynum": "7235",
+				"x-daystart": "35490",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "86b9dd5cb2b719fff5cbd625d18a23a690dbe3baf6d94d099637e409481685b6"
+		},
+		"POST http://update.googleapis.com/service/update2/json #dad81a0abc787094": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:46:18 GMT",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-daynum": "7235",
+				"x-daystart": "35178",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "149f718b5d9de71c6d048b212a3f53a666738c8085d0afc2d36ee0c1bd4b0c1a"
+		},
+		"POST http://update.googleapis.com/service/update2/json #dd7c99e1dc1fc279": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:46:00 GMT",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-daynum": "7235",
+				"x-daystart": "35160",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "7fe564a114ca7c378002b07c3e6bc2748002ff16f8798304eda12a2487b42a7a"
+		},
+		"POST http://update.googleapis.com/service/update2/json #f4bbc26cc6746f33": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:45:37 GMT",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-daynum": "7235",
+				"x-daystart": "35137",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "e6af13ba180c4d5e9cb881814731668724de62fe96d9fc531ffc2d0c971c89bf"
+		},
+		"POST http://update.googleapis.com/service/update2/json #f562c58c184ca967": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:50:56 GMT",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-daynum": "7235",
+				"x-daystart": "35456",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "a6b993331e5f4623eb4268c6f3cb8c18792af5935ed3c9fefafa3d162cac243e"
+		},
+		"POST http://update.googleapis.com/service/update2/json #f9481eebc6670326": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:50:43 GMT",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-daynum": "7235",
+				"x-daystart": "35443",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "34a17510fa20410d76cfd0a825837eaf583c5e92eb2b60804edf0fd434a02802"
+		},
+		"POST http://update.googleapis.com/service/update2/json?cup2key=16:gC4D1JAS7oP65UqRgVxPOFIqx7DnDOqxmxVsvQT7rrs&cup2hreq=2b13c07313bb7ea5c1b37adfcf4ef42348d6a1bc2f62b5eca7becf8faa08b680 #2b13c07313bb7ea5": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:45:17 GMT",
+				"etag": "W/\"3046022100ebaf2a3f024b57b9073e1ad2379e14f2e7a9fffa5d0a8e35a66646213aba057f022100d8dd8e6872e413333636877af062d952a206cd00fd1e8a3ad464561ec615301c:2b13c07313bb7ea5c1b37adfcf4ef42348d6a1bc2f62b5eca7becf8faa08b680\"",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-cup-server-proof": "3046022100ebaf2a3f024b57b9073e1ad2379e14f2e7a9fffa5d0a8e35a66646213aba057f022100d8dd8e6872e413333636877af062d952a206cd00fd1e8a3ad464561ec615301c:2b13c07313bb7ea5c1b37adfcf4ef42348d6a1bc2f62b5eca7becf8faa08b680",
+				"x-daynum": "7235",
+				"x-daystart": "35117",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "d65547d0970e65d476d9f54b7c7a8095b234ee30435b9b77cea9112827d1e2fc"
+		},
+		"POST http://update.googleapis.com/service/update2/json?cup2key=16:xXLubYPXTTj5htJjc-NI7nq6OOGMeI-3MFoRpHrygSk&cup2hreq=b888c38f9adb6d74c319cdcd6a487ebce5b0c4ff8e168f8070db590bdb7125a5 #b888c38f9adb6d74": {
+			"status": 200,
+			"headers": {
+				"cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+				"content-security-policy": "script-src 'report-sample' 'none';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1",
+				"content-type": "application/json; charset=utf-8",
+				"date": "Fri, 23 Oct 2026 16:50:11 GMT",
+				"etag": "W/\"304502202cd962d6030790b0cdb1f545153fef479bf58b8dac72315b1a453695c8b19576022100e19d570d24269f921af508d1b06b232bfd2825e29d604f01db9d1429517012f6:b888c38f9adb6d74c319cdcd6a487ebce5b0c4ff8e168f8070db590bdb7125a5\"",
+				"expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+				"pragma": "no-cache",
+				"server": "GSE",
+				"x-content-type-options": "nosniff",
+				"x-cup-server-proof": "304502202cd962d6030790b0cdb1f545153fef479bf58b8dac72315b1a453695c8b19576022100e19d570d24269f921af508d1b06b232bfd2825e29d604f01db9d1429517012f6:b888c38f9adb6d74c319cdcd6a487ebce5b0c4ff8e168f8070db590bdb7125a5",
+				"x-daynum": "7235",
+				"x-daystart": "35411",
+				"x-frame-options": "SAMEORIGIN",
+				"x-xss-protection": "1; mode=block"
+			},
+			"body": "b560e9f1f0f3e3474a886ed5a006e638a28d567c85e0c2f162a4a443b0b997a4"
+		}
+	}
+}
