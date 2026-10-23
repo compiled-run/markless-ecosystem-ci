@@ -13,6 +13,8 @@ export default {
 		url: 'https://github.com/compiled-run/markless-migrate/releases/download/shadcn-ui-suite-12207a0/shadcn-ui-markless-converted.tar.gz',
 		sha256: 'e52062765472804ab509d168e42b5e22d8d6cba8608421a4b4f7102e154b05de',
 	},
+	// The checker ran out of Node's default 4 GB heap after the 25 routes of the full lane (record run on 2026-10-22).
+	env: { NODE_OPTIONS: '--max-old-space-size=8192' },
 	oldSite: {
 		setup: [['bash', 'deploy/shadcn-ui/fetch-old.sh']],
 		serve: ['bash', 'deploy/shadcn-ui/serve-old.sh'],
