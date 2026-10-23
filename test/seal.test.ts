@@ -7,7 +7,9 @@ import { join } from 'node:path';
 import { after, before, describe, test } from 'node:test';
 import tls from 'node:tls';
 import { brotliCompressSync } from 'node:zlib';
-import { freshCookies, requestKey, startSeal, type Seal } from '../src/seal/server.ts';
+import { execFile } from 'node:child_process';
+import { promisify } from 'node:util';
+import { freshCookies, loopbackBypass, requestKey, sealEnv, startSeal, type Seal } from '../src/seal/server.ts';
 
 let dir: string;
 let seal: Seal;
@@ -96,6 +98,66 @@ describe('the seal in replay mode', () => {
 		const response = await viaProxy(`http://127.0.0.1:${port}/`);
 		site.close();
 		assert.equal(response.body, 'the new site');
+	});
+});
+
+describe('an old site served on this machine', () => {
+	let old: http.Server;
+	let origin: string;
+	let archive: string;
+	before(async () => {
+		dir = await mkdtemp(join(tmpdir(), 'seal-local-'));
+		archive = join(dir, 'archive');
+		old = http.createServer((request, response) => response.writeHead(200, { 'content-type': 'text/html' }).end(`old ${request.url}`)).listen(0, 'localhost');
+		await new Promise((done) => old.once('listening', done));
+		origin = `http://localhost:${(old.address() as { port: number }).port}`;
+	});
+	after(() => old.close());
+
+	test('is recorded like the network, then replayed with the old site gone', async () => {
+		seal = await startSeal({ mode: 'record', archive, certs: join(dir, 'certs'), local: [origin] });
+		const recorded = await viaProxy(`${origin}/docs`);
+		await seal.close();
+		assert.equal(recorded.headers['x-seal'], 'record');
+		assert.equal(recorded.body, 'old /docs');
+		old.close();
+		seal = await startSeal({ mode: 'replay', archive, certs: join(dir, 'certs'), local: [origin] });
+		try {
+			const replayed = await viaProxy(`${origin}/docs`);
+			assert.equal(replayed.headers['x-seal'], 'replay');
+			assert.equal(replayed.body, 'old /docs');
+			assert.equal((await viaProxy(`${origin}/other`)).status, 504);
+		} finally {
+			await seal.close();
+		}
+	});
+
+	test('the site under test on 127.0.0.1 still passes straight through', async () => {
+		seal = await startSeal({ mode: 'replay', archive, certs: join(dir, 'certs'), local: [origin] });
+		const site = http.createServer((_request, response) => response.end('the new site')).listen(0, '127.0.0.1');
+		await new Promise((done) => site.once('listening', done));
+		try {
+			const response = await viaProxy(`http://127.0.0.1:${(site.address() as { port: number }).port}/`);
+			assert.equal(response.body, 'the new site');
+		} finally {
+			site.close();
+			await seal.close();
+		}
+	});
+
+	test("a sealed Node process sends the old site's requests through the seal", async () => {
+		seal = await startSeal({ mode: 'replay', archive, certs: join(dir, 'certs'), local: [origin] });
+		try {
+			const { stdout } = await promisify(execFile)(process.execPath, ['-e', `fetch(${JSON.stringify(`${origin}/docs`)}).then(async (r) => console.log(r.headers.get('x-seal'), await r.text()))`], { env: { ...process.env, ...sealEnv(seal, [origin]) } });
+			assert.equal(stdout.trim(), 'replay old /docs');
+		} finally {
+			await seal.close();
+		}
+	});
+
+	test("Chromium's bypass list keeps 127.0.0.1 direct and sends localhost through the seal", () => {
+		assert.equal(loopbackBypass(), '127.0.0.1,localhost,::1');
+		assert.equal(loopbackBypass(['http://localhost:4000']), '127.0.0.1,::1,<-loopback>');
 	});
 });
 

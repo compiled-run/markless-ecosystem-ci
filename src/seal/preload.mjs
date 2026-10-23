@@ -9,7 +9,7 @@ const from = process.env.MARKLESS_ECOSYSTEM_PLAYWRIGHT_FROM;
 if (seal && from) {
 	const require = createRequire(pathToFileURL(from));
 	const { chromium, request } = require('playwright');
-	const proxy = { server: seal, bypass: '127.0.0.1,localhost,::1' };
+	const proxy = { server: seal, bypass: process.env.MARKLESS_ECOSYSTEM_BYPASS ?? '127.0.0.1,localhost,::1' };
 	const launch = chromium.launch.bind(chromium);
 	chromium.launch = (options = {}) =>
 		launch({
