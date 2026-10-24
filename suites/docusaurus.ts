@@ -8,6 +8,22 @@ export default {
 	owner: 'markless-migrate docusaurus port (thejackshelton)',
 	quarantine: [
 		{
+			route: "*",
+			dimension: "behaviour",
+			check: "registerSW failed",
+			reason: "the old site's console error from its service worker (registerSW failed: reading 'waiting') is recorded on some steps and not others: the checker reloads after a different use each run (2026-10-24 main runs 40102414697 and 40103772413 differed, and Markless 3db0bca52 shows it too); out when markless-migrate picks interactions deterministically (compiled-run/markless-migrate#108)",
+			owner: "markless-migrate checker (thejackshelton)",
+			until: "2026-11-07",
+		},
+		{
+			route: "*",
+			dimension: "a11y",
+			check: "Failed to fetch dynamically imported module: /vendor/docsearch-4.7.0.js",
+			reason: "the old site's search widget is a dynamic import the capture holds for some journeys only; whether a run's a11y journey reaches it depends on the interactions the checker picks (2026-10-24 main runs 40102414697 and 40103772413, and on Markless 3db0bca52 as an assets row); out when markless-migrate picks interactions deterministically (compiled-run/markless-migrate#108)",
+			owner: "markless-migrate checker (thejackshelton)",
+			until: "2026-11-07",
+		},
+		{
 			route: "/docs/installation",
 			dimension: "visual",
 			check: "screenshot in :hover on .breadcrumbs__link",
