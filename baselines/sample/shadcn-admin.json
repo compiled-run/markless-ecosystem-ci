@@ -2,14 +2,14 @@
 	"suite": "shadcn-admin",
 	"lane": "sample",
 	"markless": {
-		"sha": "ef53b922ede8a75cb2875dcdbf36a844bc1e1014",
+		"sha": "13c75bb3a46ce5bc084e9ea41740d9d24cc668ba",
 		"version": "0.9.0",
 		"ref": "main"
 	},
 	"migrate": {
-		"sha": "64947b72a31d8ed0eeede38df9a587317426459c"
+		"sha": "b55adac69098299b8b638de1b79d50454f8c5b68"
 	},
-	"recordedAt": "2026-10-22T08:36:42.107Z",
+	"recordedAt": "2026-10-24T13:00:58.553Z",
 	"steps": {
 		"install": "pass",
 		"build": "pass",
@@ -21,6 +21,140 @@
 		"/": {
 			"ok": false,
 			"failures": [
+				{
+					"id": "04e1a29da7",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Skip to Main\"",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "3f98882601",
+					"dimension": "behaviour",
+					"check": "not exercised: menuitem \"Billing\" (after click button \"SN satnaing satnaingdev@gmail.com\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "7c1399b803",
+					"dimension": "behaviour",
+					"check": "not exercised: menuitem \"Notifications\" (after click button \"SN satnaing satnaingdev@gmail.com\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "373b2037d2",
+					"dimension": "behaviour",
+					"check": "not exercised: button #2 (after click button \"Toggle Sidebar\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "3bc9aae0d6",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Reset all settings to default values\" (after click button \"Open theme settings\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "18e82b938c",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Close\" (after click button \"Open theme settings\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "8f91b6f0ed",
+					"dimension": "behaviour",
+					"check": "not exercised: radio \"Select system\" (after click button \"Open theme settings\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "9768bdc748",
+					"dimension": "behaviour",
+					"check": "not exercised: radio \"Select light\" (after click button \"Open theme settings\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "15845cfb70",
+					"dimension": "behaviour",
+					"check": "not exercised: radio \"Select dark\" (after click button \"Open theme settings\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "95c7473a9f",
+					"dimension": "behaviour",
+					"check": "not exercised: radio \"Select inset\" (after click button \"Open theme settings\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "d2d52dd42a",
+					"dimension": "behaviour",
+					"check": "not exercised: radio \"Select floating\" (after click button \"Open theme settings\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "6111aeab20",
+					"dimension": "behaviour",
+					"check": "not exercised: radio \"Select sidebar\" (after click button \"Open theme settings\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "9244c1d27f",
+					"dimension": "behaviour",
+					"check": "not exercised: radio \"Select default\" (after click button \"Open theme settings\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "bdb514e2a5",
+					"dimension": "behaviour",
+					"check": "not exercised: radio \"Select compact\" (after click button \"Open theme settings\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "60ef418b3f",
+					"dimension": "behaviour",
+					"check": "not exercised: radio \"Select full layout\" (after click button \"Open theme settings\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "f7e2fac6a4",
+					"dimension": "behaviour",
+					"check": "not exercised: radio \"Select left to right\" (after click button \"Open theme settings\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "0137821caa",
+					"dimension": "behaviour",
+					"check": "not exercised: radio \"Select right to left\" (after click button \"Open theme settings\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "ed109c6282",
+					"dimension": "behaviour",
+					"check": "not exercised: menuitem \"Profile ⇧⌘P\" (after click button \"SN\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "c6e117b867",
+					"dimension": "behaviour",
+					"check": "not exercised: menuitem \"Billing ⌘B\" (after click button \"SN\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "647b386f16",
+					"dimension": "behaviour",
+					"check": "not exercised: menuitem \"Settings ⌘S\" (after click button \"SN\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "fca0382255",
+					"dimension": "motion",
+					"check": "click button \"Toggle Sidebar\" (step 3 of 5: use 3): motion timing of generic (main>tabpanel/div)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "d19ce8539b",
+					"dimension": "navigation",
+					"check": "in place from /settings/account after button \"Toggle Sidebar\": layout during the swap",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
 				{
 					"id": "95463c3226",
 					"dimension": "behaviour",
@@ -73,18 +207,6 @@
 					"id": "31f59f9535",
 					"dimension": "behaviour",
 					"check": "not exercised: menuitem \"Account\" (after click button \"SN satnaing satnaingdev@gmail.com\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "3f98882601",
-					"dimension": "behaviour",
-					"check": "not exercised: menuitem \"Billing\" (after click button \"SN satnaing satnaingdev@gmail.com\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "7c1399b803",
-					"dimension": "behaviour",
-					"check": "not exercised: menuitem \"Notifications\" (after click button \"SN satnaing satnaingdev@gmail.com\")",
 					"lastSeen": "2026-10-22T08:36:42.107Z"
 				},
 				{
@@ -280,96 +402,6 @@
 					"lastSeen": "2026-10-22T08:36:42.107Z"
 				},
 				{
-					"id": "3bc9aae0d6",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Reset all settings to default values\" (after click button \"Open theme settings\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "8f91b6f0ed",
-					"dimension": "behaviour",
-					"check": "not exercised: radio \"Select system\" (after click button \"Open theme settings\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "9768bdc748",
-					"dimension": "behaviour",
-					"check": "not exercised: radio \"Select light\" (after click button \"Open theme settings\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "15845cfb70",
-					"dimension": "behaviour",
-					"check": "not exercised: radio \"Select dark\" (after click button \"Open theme settings\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "95c7473a9f",
-					"dimension": "behaviour",
-					"check": "not exercised: radio \"Select inset\" (after click button \"Open theme settings\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "d2d52dd42a",
-					"dimension": "behaviour",
-					"check": "not exercised: radio \"Select floating\" (after click button \"Open theme settings\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "6111aeab20",
-					"dimension": "behaviour",
-					"check": "not exercised: radio \"Select sidebar\" (after click button \"Open theme settings\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "9244c1d27f",
-					"dimension": "behaviour",
-					"check": "not exercised: radio \"Select default\" (after click button \"Open theme settings\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "bdb514e2a5",
-					"dimension": "behaviour",
-					"check": "not exercised: radio \"Select compact\" (after click button \"Open theme settings\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "60ef418b3f",
-					"dimension": "behaviour",
-					"check": "not exercised: radio \"Select full layout\" (after click button \"Open theme settings\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "f7e2fac6a4",
-					"dimension": "behaviour",
-					"check": "not exercised: radio \"Select left to right\" (after click button \"Open theme settings\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "0137821caa",
-					"dimension": "behaviour",
-					"check": "not exercised: radio \"Select right to left\" (after click button \"Open theme settings\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "ed109c6282",
-					"dimension": "behaviour",
-					"check": "not exercised: menuitem \"Profile ⇧⌘P\" (after click button \"SN\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "c6e117b867",
-					"dimension": "behaviour",
-					"check": "not exercised: menuitem \"Billing ⌘B\" (after click button \"SN\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "647b386f16",
-					"dimension": "behaviour",
-					"check": "not exercised: menuitem \"Settings ⌘S\" (after click button \"SN\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
 					"id": "90e6644225",
 					"dimension": "behaviour",
 					"check": "not exercised: menuitem \"New Team\" (after click button \"SN\")",
@@ -392,12 +424,6 @@
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Not Found\" (after click button \"Errors\")",
 					"lastSeen": "2026-10-22T04:33:31.388Z"
-				},
-				{
-					"id": "04e1a29da7",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Skip to Main\"",
-					"lastSeen": "2026-10-22T04:07:02.990Z"
 				},
 				{
 					"id": "5bafcf7fae",
@@ -451,8 +477,8 @@
 				}
 			],
 			"weight": {
-				"downloaded": 682962,
-				"executed": 98180
+				"downloaded": 684014,
+				"executed": 99090
 			},
 			"owner": "markless-migrate shadcn-admin port (thejackshelton)"
 		},
@@ -463,458 +489,472 @@
 					"id": "b3b3e8fda5",
 					"dimension": "behaviour",
 					"check": "not exercised: option \"Connected\" (after click combobox)",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "48e64eac13",
 					"dimension": "behaviour",
 					"check": "not exercised: option \"Not Connected\" (after click combobox)",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "14c62619a0",
 					"dimension": "behaviour",
 					"check": "not exercised: option \"Ascending\" (after click combobox #2)",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "9accc17cd9",
 					"dimension": "behaviour",
 					"check": "not exercised: option \"Descending\" (after click combobox #2)",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "32dd75b8ce",
 					"dimension": "behaviour",
 					"check": "not exercised: menuitem \"Shadcn Admin ⌘1\" (after click button \"Shadcn Admin Vite + ShadcnUI\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "0b8df89e0c",
 					"dimension": "behaviour",
 					"check": "not exercised: menuitem \"Acme Inc ⌘2\" (after click button \"Shadcn Admin Vite + ShadcnUI\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "e189b7e850",
 					"dimension": "behaviour",
 					"check": "not exercised: menuitem \"Acme Corp. ⌘3\" (after click button \"Shadcn Admin Vite + ShadcnUI\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "c044d1b35c",
 					"dimension": "behaviour",
 					"check": "not exercised: menuitem \"Add team\" (after click button \"Shadcn Admin Vite + ShadcnUI\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "9f1da83549",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Sign In\" (after click button \"Clerk Secured by Clerk\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "b8df3caa8a",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Sign Up\" (after click button \"Clerk Secured by Clerk\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "493a011f3e",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"User Management\" (after click button \"Clerk Secured by Clerk\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "588a54c546",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Sign In (2 Col)\" (after click button \"Auth\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "843efe29ae",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Forgot Password\" (after click button \"Auth\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "7e32806921",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"OTP\" (after click button \"Auth\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "f71742063e",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Unauthorized\" (after click button \"Errors\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "215e58ba3f",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Forbidden\" (after click button \"Errors\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "e4e133a8e9",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Not Found\" (after click button \"Errors\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "040c887467",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Internal Server Error\" (after click button \"Errors\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "6b0fc2d4b5",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Maintenance Error\" (after click button \"Errors\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "6bb9619823",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Profile\" (after click button \"Settings\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "03397ef1af",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Account\" (after click button \"Settings\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "478604865c",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Appearance\" (after click button \"Settings\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "cebe4df5bf",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Notifications\" (after click button \"Settings\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "a25f1c020b",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Display\" (after click button \"Settings\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "391156d5e8",
 					"dimension": "behaviour",
 					"check": "not exercised: menuitem \"Upgrade to Pro\" (after click button \"SN satnaing satnaingdev@gmail.com\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "ce783f5b80",
 					"dimension": "behaviour",
 					"check": "not exercised: menuitem \"Account\" (after click button \"SN satnaing satnaingdev@gmail.com\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "057800692e",
 					"dimension": "behaviour",
 					"check": "not exercised: menuitem \"Billing\" (after click button \"SN satnaing satnaingdev@gmail.com\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "2834c04333",
 					"dimension": "behaviour",
 					"check": "not exercised: menuitem \"Notifications\" (after click button \"SN satnaing satnaingdev@gmail.com\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "03ad6b1805",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"Close\" (after click button \"Search ⌘ K\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "45bb6a2cfc",
 					"dimension": "behaviour",
 					"check": "not exercised: option \"Dashboard\" (after click button \"Search ⌘ K\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "532cabc5ac",
 					"dimension": "behaviour",
 					"check": "not exercised: option \"Tasks\" (after click button \"Search ⌘ K\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "a695e5e99e",
 					"dimension": "behaviour",
 					"check": "not exercised: option \"Apps\" (after click button \"Search ⌘ K\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "51d8745660",
 					"dimension": "behaviour",
 					"check": "not exercised: option \"Chats\" (after click button \"Search ⌘ K\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "ebb5d265f4",
 					"dimension": "behaviour",
 					"check": "not exercised: option \"Users\" (after click button \"Search ⌘ K\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "60cf002e1f",
 					"dimension": "behaviour",
 					"check": "not exercised: option \"Secured by Clerk Sign In\" (after click button \"Search ⌘ K\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "079edb7a87",
 					"dimension": "behaviour",
 					"check": "not exercised: option \"Secured by Clerk Sign Up\" (after click button \"Search ⌘ K\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "bd01ab259b",
 					"dimension": "behaviour",
 					"check": "not exercised: option \"Secured by Clerk User Management\" (after click button \"Search ⌘ K\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "6e6cbaeda3",
 					"dimension": "behaviour",
 					"check": "not exercised: option \"Auth Sign In\" (after click button \"Search ⌘ K\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "cd63d66386",
 					"dimension": "behaviour",
 					"check": "not exercised: option \"Auth Sign In (2 Col)\" (after click button \"Search ⌘ K\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "f9355a8c8f",
 					"dimension": "behaviour",
 					"check": "not exercised: option \"Auth Sign Up\" (after click button \"Search ⌘ K\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "7b51ed82cc",
 					"dimension": "behaviour",
 					"check": "not exercised: option \"Auth Forgot Password\" (after click button \"Search ⌘ K\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "25309571f9",
 					"dimension": "behaviour",
 					"check": "not exercised: option \"Auth OTP\" (after click button \"Search ⌘ K\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "e20163f062",
 					"dimension": "behaviour",
 					"check": "not exercised: option \"Errors Unauthorized\" (after click button \"Search ⌘ K\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "aa48b548fd",
 					"dimension": "behaviour",
 					"check": "not exercised: option \"Errors Forbidden\" (after click button \"Search ⌘ K\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "0e16df7559",
 					"dimension": "behaviour",
 					"check": "not exercised: option \"Errors Not Found\" (after click button \"Search ⌘ K\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "7b48f4a484",
 					"dimension": "behaviour",
 					"check": "not exercised: option \"Errors Internal Server Error\" (after click button \"Search ⌘ K\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "670e549c8a",
 					"dimension": "behaviour",
 					"check": "not exercised: option \"Errors Maintenance Error\" (after click button \"Search ⌘ K\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "4c7dde763a",
 					"dimension": "behaviour",
 					"check": "not exercised: option \"Settings Profile\" (after click button \"Search ⌘ K\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "75a277e16b",
 					"dimension": "behaviour",
 					"check": "not exercised: option \"Settings Account\" (after click button \"Search ⌘ K\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "abeccb4ee8",
 					"dimension": "behaviour",
 					"check": "not exercised: option \"Settings Appearance\" (after click button \"Search ⌘ K\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "fee3f48ae5",
 					"dimension": "behaviour",
 					"check": "not exercised: option \"Settings Notifications\" (after click button \"Search ⌘ K\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "82227bb5bf",
 					"dimension": "behaviour",
 					"check": "not exercised: option \"Settings Display\" (after click button \"Search ⌘ K\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "bfaf17a547",
 					"dimension": "behaviour",
 					"check": "not exercised: option \"Help Center\" (after click button \"Search ⌘ K\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "eee1be08d2",
 					"dimension": "behaviour",
 					"check": "not exercised: option \"Light\" (after click button \"Search ⌘ K\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "adb2515dfd",
 					"dimension": "behaviour",
 					"check": "not exercised: option \"Dark\" (after click button \"Search ⌘ K\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "3e28daa952",
 					"dimension": "behaviour",
 					"check": "not exercised: option \"System\" (after click button \"Search ⌘ K\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "d3a5e85765",
 					"dimension": "behaviour",
 					"check": "not exercised: menuitem \"Light\" (after click button \"Toggle theme\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "11d635ccef",
 					"dimension": "behaviour",
 					"check": "not exercised: menuitem \"Dark\" (after click button \"Toggle theme\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "214a196a38",
 					"dimension": "behaviour",
 					"check": "not exercised: menuitem \"System\" (after click button \"Toggle theme\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "eaf47e4122",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"Reset all settings to default values\" (after click button \"Open theme settings\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "f17fc811f3",
 					"dimension": "behaviour",
 					"check": "not exercised: radio \"Select system\" (after click button \"Open theme settings\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "f6fba33eff",
 					"dimension": "behaviour",
 					"check": "not exercised: radio \"Select light\" (after click button \"Open theme settings\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "ed8e5294fd",
 					"dimension": "behaviour",
 					"check": "not exercised: radio \"Select dark\" (after click button \"Open theme settings\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "90928c798d",
 					"dimension": "behaviour",
 					"check": "not exercised: radio \"Select inset\" (after click button \"Open theme settings\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "b6f62dc1e3",
 					"dimension": "behaviour",
 					"check": "not exercised: radio \"Select floating\" (after click button \"Open theme settings\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "e3737e74aa",
 					"dimension": "behaviour",
 					"check": "not exercised: radio \"Select sidebar\" (after click button \"Open theme settings\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "bdee0b609e",
 					"dimension": "behaviour",
 					"check": "not exercised: radio \"Select default\" (after click button \"Open theme settings\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "0196473ed4",
 					"dimension": "behaviour",
 					"check": "not exercised: radio \"Select compact\" (after click button \"Open theme settings\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "8591779f38",
 					"dimension": "behaviour",
 					"check": "not exercised: radio \"Select full layout\" (after click button \"Open theme settings\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "0e5d199872",
 					"dimension": "behaviour",
 					"check": "not exercised: radio \"Select left to right\" (after click button \"Open theme settings\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "4b3b6905b7",
 					"dimension": "behaviour",
 					"check": "not exercised: radio \"Select right to left\" (after click button \"Open theme settings\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "0242a36321",
 					"dimension": "behaviour",
 					"check": "not exercised: menuitem \"Profile ⇧⌘P\" (after click button \"SN\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "695e4a7358",
 					"dimension": "behaviour",
 					"check": "not exercised: menuitem \"Billing ⌘B\" (after click button \"SN\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "e1b757d36f",
 					"dimension": "behaviour",
 					"check": "not exercised: menuitem \"Settings ⌘S\" (after click button \"SN\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "21c575c6cd",
 					"dimension": "behaviour",
 					"check": "not exercised: menuitem \"New Team\" (after click button \"SN\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
-					"id": "02e5f91617",
+					"id": "b845a053e4",
+					"dimension": "motion",
+					"check": "type \"Sample text from markless-migrate\" into textbox \"Filter apps...\": frame of generic (body/div)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "678c150a4d",
+					"dimension": "motion",
+					"check": "type \"Sample text from markless-migrate\" into textbox \"Filter apps...\": frame of generic (body/div)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "c0605a5fa9",
 					"dimension": "responsiveness",
 					"check": "first interaction with textbox \"Filter apps...\" (4x CPU, mobile)",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "2909e88693",
@@ -925,8 +965,8 @@
 				}
 			],
 			"weight": {
-				"downloaded": 694085,
-				"executed": 116728
+				"downloaded": 695139,
+				"executed": 117576
 			},
 			"owner": "markless-migrate shadcn-admin port (thejackshelton)"
 		},
@@ -934,16 +974,401 @@
 			"ok": false,
 			"failures": [
 				{
+					"id": "c467a35f6b",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Skip to Main\"",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
 					"id": "a618f72b88",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"Go to the Previous Month\" (after click button \"Pick a date\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "c1cbd05f45",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"Go to the Next Month\" (after click button \"Pick a date\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "2a2aed6f5a",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Wednesday, January 7th, 2026\" (after click button \"Pick a date\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "11cb4c7960",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Thursday, January 8th, 2026\" (after click button \"Pick a date\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "37ea0b6529",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Friday, January 9th, 2026\" (after click button \"Pick a date\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "b8b199903e",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Saturday, January 10th, 2026\" (after click button \"Pick a date\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "f0a96d3460",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Sunday, January 11th, 2026\" (after click button \"Pick a date\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "a1ed099352",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Monday, January 12th, 2026\" (after click button \"Pick a date\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "dbb2c1200b",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Tuesday, January 13th, 2026\" (after click button \"Pick a date\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "21840573b5",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Wednesday, January 14th, 2026\" (after click button \"Pick a date\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "46bbb4ca02",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Today, Thursday, January 15th, 2026\" (after click button \"Pick a date\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "7cf56a74d4",
+					"dimension": "behaviour",
+					"check": "not exercised: link (after click button \"Pick a date\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "33bc3b7184",
+					"dimension": "behaviour",
+					"check": "not exercised: combobox \"Choose the Month\" (after click button \"Pick a date\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "0ee120c906",
+					"dimension": "behaviour",
+					"check": "not exercised: combobox \"Choose the Year\" (after click button \"Pick a date\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "a58c0a881a",
+					"dimension": "behaviour",
+					"check": "not exercised: row \"Sunday, December 28th, 2025 Monday, December 29th, 2025 Tuesday, December 30th, 2025 Wednesday, December 31st, 2025 Thursday, January 1st, 2026 Friday, January 2nd, 2026 Saturday, January 3rd, 2026\" (after click button \"Pick a date\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "4cfd321462",
+					"dimension": "behaviour",
+					"check": "not exercised: row \"Sunday, January 4th, 2026 Monday, January 5th, 2026 Tuesday, January 6th, 2026 Wednesday, January 7th, 2026 Thursday, January 8th, 2026 Friday, January 9th, 2026 Saturday, January 10th, 2026\" (after click button \"Pick a date\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "a9247c5098",
+					"dimension": "behaviour",
+					"check": "not exercised: button (after type \"Ada Lovelace\" into textbox \"Name\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "5bcd0762d4",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"English\" (after click combobox \"Language\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "d31185582d",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"French\" (after click combobox \"Language\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "688beda8db",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"German\" (after click combobox \"Language\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "0d43cb9c20",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Spanish\" (after click combobox \"Language\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "9bbb4b62d7",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Portuguese\" (after click combobox \"Language\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "c995d1d9e4",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Russian\" (after click combobox \"Language\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "8e99070518",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Japanese\" (after click combobox \"Language\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "a2fe9f25cd",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Chinese\" (after click combobox \"Language\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "476d40a3b4",
+					"dimension": "behaviour",
+					"check": "not exercised: combobox (after click combobox \"Language\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "ecee55e205",
+					"dimension": "behaviour",
+					"check": "not exercised: menuitem \"Shadcn Admin ⌘1\" (after click button \"Shadcn Admin Vite + ShadcnUI\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "06042e4d65",
+					"dimension": "behaviour",
+					"check": "not exercised: menuitem \"Acme Inc ⌘2\" (after click button \"Shadcn Admin Vite + ShadcnUI\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "df75e5212d",
+					"dimension": "behaviour",
+					"check": "not exercised: menuitem \"Acme Corp. ⌘3\" (after click button \"Shadcn Admin Vite + ShadcnUI\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "2a27964e3d",
+					"dimension": "behaviour",
+					"check": "not exercised: menuitem \"Add team\" (after click button \"Shadcn Admin Vite + ShadcnUI\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "c8dd104eeb",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Sign In\" (after click button \"Clerk Secured by Clerk\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "63ee3460df",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Sign Up\" (after click button \"Clerk Secured by Clerk\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "822bc24e96",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"User Management\" (after click button \"Clerk Secured by Clerk\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "c5808505aa",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Sign In (2 Col)\" (after click button \"Auth\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "588ffe35a7",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Forgot Password\" (after click button \"Auth\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "f2069e08cc",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"OTP\" (after click button \"Auth\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "08a91a9f04",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Unauthorized\" (after click button \"Errors\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "e83c010295",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Forbidden\" (after click button \"Errors\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "5a7a3182ad",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Not Found\" (after click button \"Errors\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "896b48e1ea",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Internal Server Error\" (after click button \"Errors\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "6f6b7b5a8d",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Maintenance Error\" (after click button \"Errors\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "0a61346291",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Dec 28, 2025\" (after click button \"Pick a date\", then click button \"Sunday, December 28th, 2025\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "8923d455cf",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Sunday, December 28th, 2025, selected\" (after click button \"Pick a date\", then click button \"Sunday, December 28th, 2025\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "058bdde691",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Wednesday, December 31st, 2025\" (after click button \"Pick a date\", then click button \"Sunday, December 28th, 2025\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "0d1f70510c",
+					"dimension": "behaviour",
+					"check": "not exercised: gridcell \"Sunday, December 28th, 2025, selected\" (after click button \"Pick a date\", then click button \"Sunday, December 28th, 2025\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "01ad4e0780",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Dec 29, 2025\" (after click button \"Pick a date\", then click button \"Monday, December 29th, 2025\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "27bddfad32",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Monday, December 29th, 2025, selected\" (after click button \"Pick a date\", then click button \"Monday, December 29th, 2025\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "27175ba730",
+					"dimension": "behaviour",
+					"check": "not exercised: gridcell \"Monday, December 29th, 2025, selected\" (after click button \"Pick a date\", then click button \"Monday, December 29th, 2025\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "82800c8cdc",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Dec 30, 2025\" (after click button \"Pick a date\", then click button \"Tuesday, December 30th, 2025\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "056c04bdf2",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Tuesday, December 30th, 2025, selected\" (after click button \"Pick a date\", then click button \"Tuesday, December 30th, 2025\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "c572667638",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Jan 1, 2026\" (after click button \"Pick a date\", then click button \"Thursday, January 1st, 2026\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "5df516b373",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Thursday, January 1st, 2026, selected\" (after click button \"Pick a date\", then click button \"Thursday, January 1st, 2026\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "ead79939e1",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Jan 2, 2026\" (after click button \"Pick a date\", then click button \"Friday, January 2nd, 2026\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "38681af880",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Friday, January 2nd, 2026, selected\" (after click button \"Pick a date\", then click button \"Friday, January 2nd, 2026\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "0c83a97818",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Jan 3, 2026\" (after click button \"Pick a date\", then click button \"Saturday, January 3rd, 2026\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "28c45460b4",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Saturday, January 3rd, 2026, selected\" (after click button \"Pick a date\", then click button \"Saturday, January 3rd, 2026\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "d6bccf239f",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Jan 4, 2026\" (after click button \"Pick a date\", then click button \"Sunday, January 4th, 2026\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "5d4e42e1b2",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Sunday, January 4th, 2026, selected\" (after click button \"Pick a date\", then click button \"Sunday, January 4th, 2026\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "eb83cfe71f",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Jan 5, 2026\" (after click button \"Pick a date\", then click button \"Monday, January 5th, 2026\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "8112b67b6c",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Monday, January 5th, 2026, selected\" (after click button \"Pick a date\", then click button \"Monday, January 5th, 2026\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "2a161515a3",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Jan 6, 2026\" (after click button \"Pick a date\", then click button \"Tuesday, January 6th, 2026\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "ee90d36163",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Tuesday, January 6th, 2026, selected\" (after click button \"Pick a date\", then click button \"Tuesday, January 6th, 2026\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "3a6602584c",
+					"dimension": "responsiveness",
+					"check": "first interaction with button \"Pick a date\" (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "1b715a20d8",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Search ⌘ K\", shared with /",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "3c9fb59021",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Toggle theme\", shared with /",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "533bee4dfb",
@@ -952,213 +1377,9 @@
 					"lastSeen": "2026-10-22T08:36:42.107Z"
 				},
 				{
-					"id": "2a2aed6f5a",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Wednesday, January 7th, 2026\" (after click button \"Pick a date\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "11cb4c7960",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Thursday, January 8th, 2026\" (after click button \"Pick a date\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "37ea0b6529",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Friday, January 9th, 2026\" (after click button \"Pick a date\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "b8b199903e",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Saturday, January 10th, 2026\" (after click button \"Pick a date\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "f0a96d3460",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Sunday, January 11th, 2026\" (after click button \"Pick a date\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "a1ed099352",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Monday, January 12th, 2026\" (after click button \"Pick a date\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "dbb2c1200b",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Tuesday, January 13th, 2026\" (after click button \"Pick a date\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "21840573b5",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Wednesday, January 14th, 2026\" (after click button \"Pick a date\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "46bbb4ca02",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Today, Thursday, January 15th, 2026\" (after click button \"Pick a date\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "7cf56a74d4",
-					"dimension": "behaviour",
-					"check": "not exercised: link (after click button \"Pick a date\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "33bc3b7184",
-					"dimension": "behaviour",
-					"check": "not exercised: combobox \"Choose the Month\" (after click button \"Pick a date\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "0ee120c906",
-					"dimension": "behaviour",
-					"check": "not exercised: combobox \"Choose the Year\" (after click button \"Pick a date\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "a58c0a881a",
-					"dimension": "behaviour",
-					"check": "not exercised: row \"Sunday, December 28th, 2025 Monday, December 29th, 2025 Tuesday, December 30th, 2025 Wednesday, December 31st, 2025 Thursday, January 1st, 2026 Friday, January 2nd, 2026 Saturday, January 3rd, 2026\" (after click button \"Pick a date\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "4cfd321462",
-					"dimension": "behaviour",
-					"check": "not exercised: row \"Sunday, January 4th, 2026 Monday, January 5th, 2026 Tuesday, January 6th, 2026 Wednesday, January 7th, 2026 Thursday, January 8th, 2026 Friday, January 9th, 2026 Saturday, January 10th, 2026\" (after click button \"Pick a date\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "5bcd0762d4",
-					"dimension": "behaviour",
-					"check": "not exercised: option \"English\" (after click combobox \"Language\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "d31185582d",
-					"dimension": "behaviour",
-					"check": "not exercised: option \"French\" (after click combobox \"Language\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "688beda8db",
-					"dimension": "behaviour",
-					"check": "not exercised: option \"German\" (after click combobox \"Language\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "0d43cb9c20",
-					"dimension": "behaviour",
-					"check": "not exercised: option \"Spanish\" (after click combobox \"Language\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "9bbb4b62d7",
-					"dimension": "behaviour",
-					"check": "not exercised: option \"Portuguese\" (after click combobox \"Language\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "c995d1d9e4",
-					"dimension": "behaviour",
-					"check": "not exercised: option \"Russian\" (after click combobox \"Language\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "8e99070518",
-					"dimension": "behaviour",
-					"check": "not exercised: option \"Japanese\" (after click combobox \"Language\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
 					"id": "a31727c108",
 					"dimension": "behaviour",
 					"check": "not exercised: option \"Korean\" (after click combobox \"Language\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "a2fe9f25cd",
-					"dimension": "behaviour",
-					"check": "not exercised: option \"Chinese\" (after click combobox \"Language\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "476d40a3b4",
-					"dimension": "behaviour",
-					"check": "not exercised: combobox (after click combobox \"Language\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "c8dd104eeb",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Sign In\" (after click button \"Clerk Secured by Clerk\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "63ee3460df",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Sign Up\" (after click button \"Clerk Secured by Clerk\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "822bc24e96",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"User Management\" (after click button \"Clerk Secured by Clerk\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "c5808505aa",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Sign In (2 Col)\" (after click button \"Auth\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "588ffe35a7",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Forgot Password\" (after click button \"Auth\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "f2069e08cc",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"OTP\" (after click button \"Auth\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "08a91a9f04",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Unauthorized\" (after click button \"Errors\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "e83c010295",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Forbidden\" (after click button \"Errors\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "5a7a3182ad",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Not Found\" (after click button \"Errors\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "896b48e1ea",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Internal Server Error\" (after click button \"Errors\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "6f6b7b5a8d",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Maintenance Error\" (after click button \"Errors\")",
 					"lastSeen": "2026-10-22T08:36:42.107Z"
 				},
 				{
@@ -1186,54 +1407,6 @@
 					"lastSeen": "2026-10-22T08:36:42.107Z"
 				},
 				{
-					"id": "0a61346291",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Dec 28, 2025\" (after click button \"Pick a date\", then click button \"Sunday, December 28th, 2025\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "8923d455cf",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Sunday, December 28th, 2025, selected\" (after click button \"Pick a date\", then click button \"Sunday, December 28th, 2025\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "0d1f70510c",
-					"dimension": "behaviour",
-					"check": "not exercised: gridcell \"Sunday, December 28th, 2025, selected\" (after click button \"Pick a date\", then click button \"Sunday, December 28th, 2025\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "01ad4e0780",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Dec 29, 2025\" (after click button \"Pick a date\", then click button \"Monday, December 29th, 2025\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "27bddfad32",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Monday, December 29th, 2025, selected\" (after click button \"Pick a date\", then click button \"Monday, December 29th, 2025\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "27175ba730",
-					"dimension": "behaviour",
-					"check": "not exercised: gridcell \"Monday, December 29th, 2025, selected\" (after click button \"Pick a date\", then click button \"Monday, December 29th, 2025\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "82800c8cdc",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Dec 30, 2025\" (after click button \"Pick a date\", then click button \"Tuesday, December 30th, 2025\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "056c04bdf2",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Tuesday, December 30th, 2025, selected\" (after click button \"Pick a date\", then click button \"Tuesday, December 30th, 2025\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
 					"id": "56ce48f69a",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"Dec 31, 2025\" (after click button \"Pick a date\", then click button \"Wednesday, December 31st, 2025\")",
@@ -1246,77 +1419,10 @@
 					"lastSeen": "2026-10-22T08:36:42.107Z"
 				},
 				{
-					"id": "c572667638",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Jan 1, 2026\" (after click button \"Pick a date\", then click button \"Thursday, January 1st, 2026\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "5df516b373",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Thursday, January 1st, 2026, selected\" (after click button \"Pick a date\", then click button \"Thursday, January 1st, 2026\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "ead79939e1",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Jan 2, 2026\" (after click button \"Pick a date\", then click button \"Friday, January 2nd, 2026\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "38681af880",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Friday, January 2nd, 2026, selected\" (after click button \"Pick a date\", then click button \"Friday, January 2nd, 2026\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "0c83a97818",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Jan 3, 2026\" (after click button \"Pick a date\", then click button \"Saturday, January 3rd, 2026\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "28c45460b4",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Saturday, January 3rd, 2026, selected\" (after click button \"Pick a date\", then click button \"Saturday, January 3rd, 2026\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "d6bccf239f",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Jan 4, 2026\" (after click button \"Pick a date\", then click button \"Sunday, January 4th, 2026\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "5d4e42e1b2",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Sunday, January 4th, 2026, selected\" (after click button \"Pick a date\", then click button \"Sunday, January 4th, 2026\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "eb83cfe71f",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Jan 5, 2026\" (after click button \"Pick a date\", then click button \"Monday, January 5th, 2026\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "8112b67b6c",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Monday, January 5th, 2026, selected\" (after click button \"Pick a date\", then click button \"Monday, January 5th, 2026\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
 					"id": "355f2a041c",
 					"dimension": "motion",
 					"check": "click button \"Toggle Sidebar\", with prefers-reduced-motion: reduce: extra motion of generic (main>complementary/div)",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "ccba61b81d",
-					"dimension": "responsiveness",
-					"check": "first interaction with button \"Pick a date\" (4x CPU, mobile)",
-					"viewport": "mobile",
 					"lastSeen": "2026-10-22T08:36:42.107Z"
 				},
 				{
@@ -1331,30 +1437,6 @@
 					"dimension": "behaviour",
 					"check": "not exercised: button \"Toggle Sidebar\" #2, shared with /",
 					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "ecee55e205",
-					"dimension": "behaviour",
-					"check": "not exercised: menuitem \"Shadcn Admin ⌘1\" (after click button \"Shadcn Admin Vite + ShadcnUI\")",
-					"lastSeen": "2026-10-22T04:33:31.388Z"
-				},
-				{
-					"id": "06042e4d65",
-					"dimension": "behaviour",
-					"check": "not exercised: menuitem \"Acme Inc ⌘2\" (after click button \"Shadcn Admin Vite + ShadcnUI\")",
-					"lastSeen": "2026-10-22T04:33:31.388Z"
-				},
-				{
-					"id": "df75e5212d",
-					"dimension": "behaviour",
-					"check": "not exercised: menuitem \"Acme Corp. ⌘3\" (after click button \"Shadcn Admin Vite + ShadcnUI\")",
-					"lastSeen": "2026-10-22T04:33:31.388Z"
-				},
-				{
-					"id": "2a27964e3d",
-					"dimension": "behaviour",
-					"check": "not exercised: menuitem \"Add team\" (after click button \"Shadcn Admin Vite + ShadcnUI\")",
-					"lastSeen": "2026-10-22T04:33:31.388Z"
 				},
 				{
 					"id": "e99a5b7936",
@@ -1461,18 +1543,6 @@
 					"lastSeen": "2026-10-21T19:09:41.928Z"
 				},
 				{
-					"id": "2a161515a3",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Jan 6, 2026\" (after click button \"Pick a date\", then click button \"Tuesday, January 6th, 2026\")",
-					"lastSeen": "2026-10-21T19:09:41.928Z"
-				},
-				{
-					"id": "ee90d36163",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Tuesday, January 6th, 2026, selected\" (after click button \"Pick a date\", then click button \"Tuesday, January 6th, 2026\")",
-					"lastSeen": "2026-10-21T19:09:41.928Z"
-				},
-				{
 					"id": "66a3945d8b",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"Jan 7, 2026\" (after click button \"Pick a date\", then click button \"Wednesday, January 7th, 2026\")",
@@ -1483,17 +1553,11 @@
 					"dimension": "behaviour",
 					"check": "not exercised: button \"Wednesday, January 7th, 2026, selected\" (after click button \"Pick a date\", then click button \"Wednesday, January 7th, 2026\")",
 					"lastSeen": "2026-10-21T19:09:41.928Z"
-				},
-				{
-					"id": "3c9fb59021",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Toggle theme\", shared with /",
-					"lastSeen": "2026-10-21T19:09:41.928Z"
 				}
 			],
 			"weight": {
-				"downloaded": 906091,
-				"executed": 104623
+				"downloaded": 907143,
+				"executed": 105501
 			},
 			"owner": "markless-migrate shadcn-admin port (thejackshelton)"
 		},
@@ -1501,81 +1565,425 @@
 			"ok": false,
 			"failures": [
 				{
-					"id": "2576afdba6",
+					"id": "a6acc61592",
 					"dimension": "behaviour",
-					"check": "not exercised: link \"Skip to Main\"",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"check": "not exercised: link \"Sign In\" (after click button \"Clerk Secured by Clerk\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "ac454d4f7a",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Sign Up\" (after click button \"Clerk Secured by Clerk\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "8f1eaf5b0a",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"User Management\" (after click button \"Clerk Secured by Clerk\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "c5d6a65efe",
+					"dimension": "behaviour",
+					"check": "not exercised: button (after click button \"Auth\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "14da40e809",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Sign In (2 Col)\" (after click button \"Auth\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "9a0fd42d9e",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Forgot Password\" (after click button \"Auth\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "164cd02a8f",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"OTP\" (after click button \"Auth\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "a235d8c98d",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Unauthorized\" (after click button \"Errors\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "6d9227b4cc",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Forbidden\" (after click button \"Errors\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "725f818f63",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Not Found\" (after click button \"Errors\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "bd4136ca37",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Internal Server Error\" (after click button \"Errors\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "e96cd8c1f0",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Maintenance Error\" (after click button \"Errors\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "d8eb39514c",
 					"dimension": "behaviour",
 					"check": "not exercised: menuitem \"Upgrade to Pro\" (after click button \"SN satnaing satnaingdev@gmail.com\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "d170b33c7b",
 					"dimension": "behaviour",
 					"check": "not exercised: menuitem \"Account\" (after click button \"SN satnaing satnaingdev@gmail.com\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "c75882fcd0",
 					"dimension": "behaviour",
 					"check": "not exercised: menuitem \"Billing\" (after click button \"SN satnaing satnaingdev@gmail.com\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "e99e4118e0",
 					"dimension": "behaviour",
 					"check": "not exercised: menuitem \"Notifications\" (after click button \"SN satnaing satnaingdev@gmail.com\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "679ad4db60",
+					"dimension": "behaviour",
+					"check": "not exercised: link (after click button \"Toggle Sidebar\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "bc3a3f2408",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Close\" (after click button \"Search ⌘ K\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "778c9b9cda",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Dashboard\" (after click button \"Search ⌘ K\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "0a1078890a",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Tasks\" (after click button \"Search ⌘ K\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "d005025e30",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Apps\" (after click button \"Search ⌘ K\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "0f1cd21969",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Chats\" (after click button \"Search ⌘ K\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "df4797cb95",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Users\" (after click button \"Search ⌘ K\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "d482094da9",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Secured by Clerk Sign In\" (after click button \"Search ⌘ K\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "f0d75ed339",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Secured by Clerk Sign Up\" (after click button \"Search ⌘ K\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "4a2b5531b1",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Secured by Clerk User Management\" (after click button \"Search ⌘ K\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "3b039aa931",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Auth Sign In\" (after click button \"Search ⌘ K\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "6896f96221",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Auth Sign In (2 Col)\" (after click button \"Search ⌘ K\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "501811d7d8",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Auth Sign Up\" (after click button \"Search ⌘ K\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "f5b8a59e60",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Auth Forgot Password\" (after click button \"Search ⌘ K\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "0d67f6a7ce",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Auth OTP\" (after click button \"Search ⌘ K\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "5c377ac6ff",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Errors Unauthorized\" (after click button \"Search ⌘ K\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "862da60dba",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Errors Forbidden\" (after click button \"Search ⌘ K\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "6266e682c3",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Errors Not Found\" (after click button \"Search ⌘ K\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "fafc923a24",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Errors Internal Server Error\" (after click button \"Search ⌘ K\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "d98e1d4ab2",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Errors Maintenance Error\" (after click button \"Search ⌘ K\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "8371fa5d76",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Settings Profile\" (after click button \"Search ⌘ K\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "80c4ffe68a",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Settings Account\" (after click button \"Search ⌘ K\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "ca1fe86be2",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Settings Appearance\" (after click button \"Search ⌘ K\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "a10f92f128",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Settings Notifications\" (after click button \"Search ⌘ K\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "fda458a556",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Settings Display\" (after click button \"Search ⌘ K\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "9fb84d575f",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Help Center\" (after click button \"Search ⌘ K\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "56fa1181c1",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Light\" (after click button \"Search ⌘ K\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "f93cedd642",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Dark\" (after click button \"Search ⌘ K\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "00ed16dc62",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"System\" (after click button \"Search ⌘ K\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "5a9e3be709",
+					"dimension": "behaviour",
+					"check": "not exercised: combobox (after click button \"Search ⌘ K\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "8bf15d84cd",
+					"dimension": "behaviour",
+					"check": "not exercised: menuitem \"Light\" (after click button \"Toggle theme\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "aa9f876adb",
+					"dimension": "behaviour",
+					"check": "not exercised: menuitem \"Dark\" (after click button \"Toggle theme\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "29ff582b18",
+					"dimension": "behaviour",
+					"check": "not exercised: menuitem \"System\" (after click button \"Toggle theme\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "11143b7a61",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Reset all settings to default values\" (after click button \"Open theme settings\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "734a5f1264",
+					"dimension": "behaviour",
+					"check": "not exercised: radio \"Select system\" (after click button \"Open theme settings\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "c273a4bbe9",
+					"dimension": "behaviour",
+					"check": "not exercised: radio \"Select light\" (after click button \"Open theme settings\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "46a1fa60c6",
+					"dimension": "behaviour",
+					"check": "not exercised: radio \"Select dark\" (after click button \"Open theme settings\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "61dedc5d1e",
+					"dimension": "behaviour",
+					"check": "not exercised: radio \"Select inset\" (after click button \"Open theme settings\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "964c95da74",
+					"dimension": "behaviour",
+					"check": "not exercised: radio \"Select floating\" (after click button \"Open theme settings\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "f4647a1e4f",
+					"dimension": "behaviour",
+					"check": "not exercised: radio \"Select sidebar\" (after click button \"Open theme settings\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "35a237f131",
+					"dimension": "behaviour",
+					"check": "not exercised: radio \"Select default\" (after click button \"Open theme settings\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "4fbccf3f72",
+					"dimension": "behaviour",
+					"check": "not exercised: radio \"Select compact\" (after click button \"Open theme settings\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "e296e1730c",
+					"dimension": "behaviour",
+					"check": "not exercised: radio \"Select full layout\" (after click button \"Open theme settings\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "430c565d43",
+					"dimension": "behaviour",
+					"check": "not exercised: radio \"Select left to right\" (after click button \"Open theme settings\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "7a18c1e4b9",
+					"dimension": "behaviour",
+					"check": "not exercised: radio \"Select right to left\" (after click button \"Open theme settings\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "c835858278",
+					"dimension": "behaviour",
+					"check": "not exercised: menuitem \"Profile ⇧⌘P\" (after click button \"SN\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "2c1a92174c",
+					"dimension": "behaviour",
+					"check": "not exercised: menuitem \"Billing ⌘B\" (after click button \"SN\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "6d3f25198e",
+					"dimension": "behaviour",
+					"check": "not exercised: menuitem \"Settings ⌘S\" (after click button \"SN\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "08367267b9",
+					"dimension": "behaviour",
+					"check": "not exercised: menuitem \"New Team\" (after click button \"SN\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "5ef6796ad2",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Acme Inc Enterprise\" (after click button \"Shadcn Admin Vite + ShadcnUI\", then click menuitem \"Acme Inc ⌘2\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "b65e403090",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"Acme Corp. Startup\" (after click button \"Shadcn Admin Vite + ShadcnUI\", then click menuitem \"Acme Corp. ⌘3\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "4a696f1197",
+					"dimension": "responsiveness",
+					"check": "first interaction with button \"Update preferences\" (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "6c5a1bf01f",
+					"dimension": "responsiveness",
+					"check": "first interaction with link \"Appearance\" (desktop)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "2576afdba6",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Skip to Main\"",
 					"lastSeen": "2026-10-22T08:36:42.107Z"
 				},
 				{
@@ -1630,18 +2038,6 @@
 					"lastSeen": "2026-10-22T08:36:42.107Z"
 				},
 				{
-					"id": "9a0fd42d9e",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Forgot Password\" (after click button \"Auth\")",
-					"lastSeen": "2026-10-22T04:33:31.388Z"
-				},
-				{
-					"id": "5ef6796ad2",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Acme Inc Enterprise\" (after click button \"Shadcn Admin Vite + ShadcnUI\", then click menuitem \"Acme Inc ⌘2\")",
-					"lastSeen": "2026-10-22T04:33:31.388Z"
-				},
-				{
 					"id": "e9caa89f37",
 					"dimension": "responsiveness",
 					"check": "first interaction with button \"Errors\" (desktop)",
@@ -1668,12 +2064,6 @@
 					"lastSeen": "2026-10-22T02:58:09.198Z"
 				},
 				{
-					"id": "8f1eaf5b0a",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"User Management\" (after click button \"Clerk Secured by Clerk\")",
-					"lastSeen": "2026-10-22T02:58:09.198Z"
-				},
-				{
 					"id": "3ee1367a6f",
 					"dimension": "behaviour",
 					"check": "not exercised: menuitem (after click button \"SN satnaing satnaingdev@gmail.com\")",
@@ -1681,8 +2071,8 @@
 				}
 			],
 			"weight": {
-				"downloaded": 843943,
-				"executed": 124801
+				"downloaded": 845075,
+				"executed": 125679
 			},
 			"owner": "markless-migrate shadcn-admin port (thejackshelton)"
 		},
@@ -1694,133 +2084,970 @@
 					"dimension": "visual",
 					"check": "page size",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "418f4679ea",
 					"dimension": "css",
 					"check": "computed style of generic \"Go to previous page\" (main>button/span)",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "c08392c009",
 					"dimension": "css",
 					"check": "computed style of generic \"Go to page 1\" (main>button/span)",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "0f1b6d7cc0",
 					"dimension": "css",
 					"check": "computed style of generic \"Go to page 2\" (main>button/span)",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "2da38367d1",
 					"dimension": "css",
 					"check": "computed style of generic \"Go to page 3\" (main>button/span)",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "20fe01c2b6",
 					"dimension": "css",
 					"check": "computed style of generic \"Go to page 4\" (main>button/span)",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "0400c7ac14",
 					"dimension": "css",
 					"check": "computed style of generic \"Go to page 50\" (main>button/span)",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "a7837bbda6",
 					"dimension": "css",
 					"check": "computed style of generic \"Go to next page\" (main>button/span)",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "48eb22082f",
 					"dimension": "css",
 					"check": "computed style of generic (body/div)",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "5d331a9249",
 					"dimension": "css",
 					"check": "computed style of generic (body/div)",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "efdc78f973",
 					"dimension": "css",
 					"check": "computed style of generic (body/div)",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "66890a5ddc",
 					"dimension": "css",
 					"check": "computed style of generic (main/div)",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "685736e498",
 					"dimension": "css",
 					"check": "computed style in viewport width 639px: generic (body/div)",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "550ae25f22",
 					"dimension": "css",
 					"check": "computed style in viewport width 639px: generic (main/div)",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "757dfd5cb5",
 					"dimension": "css",
 					"check": "computed style in viewport width 639px: generic \"Go to first page\" (main>button/span)",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "7266829cb6",
 					"dimension": "css",
 					"check": "computed style in viewport width 639px: generic \"Go to previous page\" (main>button/span)",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "206d070b5e",
 					"dimension": "css",
 					"check": "computed style in viewport width 639px: generic \"Go to page 1\" (main>button/span)",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "a6d48f220b",
 					"dimension": "css",
 					"check": "computed style in viewport width 639px",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "87556a7b69",
 					"dimension": "visual",
 					"check": "screenshot in viewport width 639px",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "39a31c1684",
+					"dimension": "behaviour",
+					"check": "type \"Sample text from markless-migrate\" into textbox \"Filter users...\"",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "c6a4940dc6",
+					"dimension": "behaviour",
+					"check": "click button \"Status\"",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "afd4c5ca20",
+					"dimension": "behaviour",
+					"check": "click button \"Role\"",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "a86e3ddb32",
+					"dimension": "behaviour",
+					"check": "click button \"Open menu\", then click menuitem \"Delete\" (step 2)",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "7843bdc6ae",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Errors\"",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "beacd09d42",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Settings\"",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "47db142675",
+					"dimension": "behaviour",
+					"check": "not exercised: button",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "0a17af8bcc",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Toggle Sidebar\"",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "4df58ff96b",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Skip to Main\"",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "6a71256438",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Dashboard\"",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "0d4d85e33f",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Tasks\"",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "0f1cb8a032",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Apps\"",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "4a16d471a7",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Chats 3\"",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "6f3528264f",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Users\"",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "0ef11d4ecf",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Help Center\"",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "3d51ef58c1",
+					"dimension": "behaviour",
+					"check": "not exercised: menuitem \"Asc\" (after click button \"Username\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "8c46fc90dd",
+					"dimension": "behaviour",
+					"check": "not exercised: menuitem \"Desc\" (after click button \"Username\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "473da969c3",
+					"dimension": "behaviour",
+					"check": "not exercised: menuitem \"Hide\" (after click button \"Email\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "5a7e9d9d4b",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"SN satnaing satnaingdev@gmail.com\" (after click button \"Open menu\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "8081013402",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Open menu\" #10 (after click button \"Open menu\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "9ffdba081d",
+					"dimension": "behaviour",
+					"check": "not exercised: checkbox \"Select row\" #10 (after click button \"Open menu\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "28fa4d204d",
+					"dimension": "behaviour",
+					"check": "not exercised: menuitem \"Edit\" (after click button \"Open menu\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "44bca6284a",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Clear selection\" (after click checkbox \"Select all\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "0f28e2ed33",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Invite selected users\" (after click checkbox \"Select all\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "42241a5a12",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Activate selected users\" (after click checkbox \"Select all\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "50af9ef63d",
+					"dimension": "behaviour",
+					"check": "not exercised: clickable \"maryann.lubowitz69\" (after click checkbox \"Select all\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "d24eb54374",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Reset\" (after type \"Sample text from markless-migrate\" into textbox \"Filter users...\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "7850fb6e78",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Cancel\" (after click button \"Invite User\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "5509969b5e",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Invite\" (after click button \"Invite User\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "5b5fcf1914",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Close\" (after click button \"Invite User\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "da0e4f6d67",
+					"dimension": "behaviour",
+					"check": "not exercised: textbox \"Email\" (after click button \"Invite User\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "92894d1387",
+					"dimension": "behaviour",
+					"check": "not exercised: textbox \"Description (optional)\" (after click button \"Invite User\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "2ab3521b06",
+					"dimension": "behaviour",
+					"check": "not exercised: combobox \"Role\" (after click button \"Invite User\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "2a16e03524",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Show password\" (after click button \"Add User\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "92c221c7b4",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Save changes\" (after click button \"Add User\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "cceeb09062",
+					"dimension": "behaviour",
+					"check": "not exercised: textbox \"First Name\" (after click button \"Add User\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "b0f7d41f0e",
+					"dimension": "behaviour",
+					"check": "not exercised: textbox \"Last Name\" (after click button \"Add User\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "d51024c4f3",
+					"dimension": "behaviour",
+					"check": "not exercised: textbox \"Username\" (after click button \"Add User\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "20d97710c9",
+					"dimension": "behaviour",
+					"check": "not exercised: textbox \"Phone Number\" (after click button \"Add User\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "b669422858",
+					"dimension": "behaviour",
+					"check": "not exercised: textbox \"Password\" (after click button \"Add User\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "6e77a9a721",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Active 127\" (after click button \"Status\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "a1191adcbd",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Inactive 113\" (after click button \"Status\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "77a4c3bb48",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Invited 139\" (after click button \"Status\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "546fdd8c49",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Suspended 121\" (after click button \"Status\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "37854e739d",
+					"dimension": "behaviour",
+					"check": "not exercised: combobox #2 (after click button \"Status\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "c826b53d66",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Superadmin 124\" (after click button \"Role\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "cb9b608ad9",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Admin 113\" (after click button \"Role\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "3516a20479",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Manager 135\" (after click button \"Role\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "b8d0b2d5dd",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"Cashier 128\" (after click button \"Role\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "a99594ef50",
+					"dimension": "behaviour",
+					"check": "not exercised: menuitemcheckbox \"email\" (after click button \"View\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "96d998b90b",
+					"dimension": "behaviour",
+					"check": "not exercised: menuitemcheckbox \"phoneNumber\" (after click button \"View\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "d1f2e6c03c",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Go to first page\" (after click button \"Go to page 2 2\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "1816268078",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Go to previous page\" (after click button \"Go to page 2 2\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "5c774e153a",
+					"dimension": "behaviour",
+					"check": "not exercised: clickable \"marlene.maggio-medhurst\" (after click button \"Go to page 2 2\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "fd20660c4a",
+					"dimension": "behaviour",
+					"check": "not exercised: clickable \"Marlene Maggio-Medhurst\" (after click button \"Go to page 2 2\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "2b5b3db824",
+					"dimension": "behaviour",
+					"check": "not exercised: clickable \"eduardo_hickle-flatley\" (after click button \"Go to page 2 2\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "5f595095e9",
+					"dimension": "behaviour",
+					"check": "not exercised: clickable \"Eduardo Hickle-Flatley\" (after click button \"Go to page 2 2\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "5ed4247295",
+					"dimension": "behaviour",
+					"check": "not exercised: clickable \"julie.bernier-altenwerth42\" (after click button \"Go to page 2 2\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "94546a3d19",
+					"dimension": "behaviour",
+					"check": "not exercised: clickable \"Julie Bernier-Altenwerth\" (after click button \"Go to page 2 2\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "824e806c3d",
+					"dimension": "behaviour",
+					"check": "not exercised: clickable \"jordane_mccullough51\" (after click button \"Go to page 2 2\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "7ab3c12081",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Go to page 5 5\" (after click button \"Go to page 4 4\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "c23d1cd1f3",
+					"dimension": "behaviour",
+					"check": "not exercised: clickable \"domenic.cummerata86\" (after click button \"Go to page 4 4\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "61b07fa3e6",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Go to page 47 47\" (after click button \"Go to page 50 50\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "5b2b46a3b9",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Go to page 48 48\" (after click button \"Go to page 50 50\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "b2ad5bab7b",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Go to page 49 49\" (after click button \"Go to page 50 50\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "8d2d316242",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"10\" (after click combobox)",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "9078793dce",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"20\" (after click combobox)",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "4d364943c5",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"30\" (after click combobox)",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "ea2fa120d5",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"40\" (after click combobox)",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "5fbff46e83",
+					"dimension": "behaviour",
+					"check": "not exercised: option \"50\" (after click combobox)",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "6669d8da1b",
+					"dimension": "behaviour",
+					"check": "not exercised: menuitem \"Shadcn Admin ⌘1\" (after click button \"Shadcn Admin Vite + ShadcnUI\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "0c7699c9e3",
+					"dimension": "behaviour",
+					"check": "not exercised: menuitem \"Acme Inc ⌘2\" (after click button \"Shadcn Admin Vite + ShadcnUI\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "b2d7d9d71d",
+					"dimension": "behaviour",
+					"check": "not exercised: menuitem \"Acme Corp. ⌘3\" (after click button \"Shadcn Admin Vite + ShadcnUI\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "d744d7c341",
+					"dimension": "behaviour",
+					"check": "not exercised: menuitem \"Add team\" (after click button \"Shadcn Admin Vite + ShadcnUI\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "fcccaa2148",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Sign In\" (after click button \"Clerk Secured by Clerk\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "2c83208728",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Sign Up\" (after click button \"Clerk Secured by Clerk\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "85b315b7f9",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"User Management\" (after click button \"Clerk Secured by Clerk\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "a4e0b22c04",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Sign In (2 Col)\" (after click button \"Auth\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "2bceaae324",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Forgot Password\" (after click button \"Auth\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "72a7f0cf11",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"OTP\" (after click button \"Auth\")",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "d1d48b3f26",
+					"dimension": "motion",
+					"check": "type \"Sample text from markless-migrate\" into textbox \"Filter users...\": frame of generic (body/div)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "dd7047f661",
+					"dimension": "motion",
+					"check": "type \"Sample text from markless-migrate\" into textbox \"Filter users...\": frame of generic (body/div)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "fea08ffa5c",
+					"dimension": "motion",
+					"check": "click button \"Status\": frame of dialog (dialog/div)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "1287e22b19",
+					"dimension": "motion",
+					"check": "click button \"Role\": frame of dialog (dialog/div)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "9c4f1c7ddf",
+					"dimension": "motion",
+					"check": "click button \"Go to page 1 1\": motion of generic (body/div)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "78fe8b9694",
+					"dimension": "motion",
+					"check": "click button \"Go to page 1 1\": motion of generic (body/div)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "116f1fca16",
+					"dimension": "motion",
+					"check": "click button \"Go to page 1 1\", with prefers-reduced-motion: reduce: motion of generic (body/div)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "92309729a3",
+					"dimension": "motion",
+					"check": "click button \"Go to page 1 1\", with prefers-reduced-motion: reduce: motion of generic (body/div)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "3b205f92b7",
+					"dimension": "motion",
+					"check": "click button \"Go to page 2 2\": extra motion of generic \"active\" (main>table>rowgroup>row>cell/span) and 1 more element alike",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "f418a2f476",
+					"dimension": "motion",
+					"check": "click button \"Go to page 2 2\": extra motion of generic \"suspended\" (main>table>rowgroup>row>cell/span) and 1 more element alike",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "7d0f03b9d9",
+					"dimension": "motion",
+					"check": "click button \"Go to page 2 2\": extra motion of generic \"active\" (main>table>rowgroup>row>cell/span)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "998f72c1ae",
+					"dimension": "motion",
+					"check": "click button \"Go to page 2 2\": frame of generic (body/div)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "90b473ba60",
+					"dimension": "motion",
+					"check": "click button \"Go to page 2 2\": frame of generic (body/div)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "c38467ee0d",
+					"dimension": "motion",
+					"check": "click button \"Go to page 2 2\", with prefers-reduced-motion: reduce: extra motion of generic \"active\" (main>table>rowgroup>row>cell/span) and 1 more element alike",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "4182de4ac8",
+					"dimension": "motion",
+					"check": "click button \"Go to page 2 2\", with prefers-reduced-motion: reduce: extra motion of generic \"suspended\" (main>table>rowgroup>row>cell/span) and 1 more element alike",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "c08b5453a5",
+					"dimension": "motion",
+					"check": "click button \"Go to page 2 2\", with prefers-reduced-motion: reduce: extra motion of generic \"active\" (main>table>rowgroup>row>cell/span)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "6b5bc95bbf",
+					"dimension": "motion",
+					"check": "click button \"Go to page 3 3\": extra motion of generic \"active\" (main>table>rowgroup>row>cell/span) and 2 more elements alike",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "377c99dcaf",
+					"dimension": "motion",
+					"check": "click button \"Go to page 3 3\": extra motion of generic \"invited\" (main>table>rowgroup>row>cell/span) and 3 more elements alike",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "d18ffc6068",
+					"dimension": "motion",
+					"check": "click button \"Go to page 3 3\": extra motion of generic \"suspended\" (main>table>rowgroup>row>cell/span)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "97491a8b91",
+					"dimension": "motion",
+					"check": "click button \"Go to page 3 3\": frame of generic (body/div)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "073065d82e",
+					"dimension": "motion",
+					"check": "motion",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "bf77cdc743",
+					"dimension": "responsiveness",
+					"check": "first interaction with button \"Username\" (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "227fe36e8f",
+					"dimension": "responsiveness",
+					"check": "first interaction with button \"Email\" (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "8c6e493c11",
+					"dimension": "responsiveness",
+					"check": "first interaction with button \"Open menu\" (desktop)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "9f0c87e133",
+					"dimension": "responsiveness",
+					"check": "first interaction with button \"Open menu\" (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "58f62f5895",
+					"dimension": "responsiveness",
+					"check": "first interaction with button \"Open menu\" #4 (desktop)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "904c13a05c",
+					"dimension": "responsiveness",
+					"check": "first interaction with button \"Open menu\" #4 (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "ceb4c92886",
+					"dimension": "responsiveness",
+					"check": "first interaction with button \"Open menu\" #6 (desktop)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "284150e928",
+					"dimension": "responsiveness",
+					"check": "first interaction with button \"Open menu\" #6 (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "d907d8dd1a",
+					"dimension": "responsiveness",
+					"check": "first interaction with button \"Open menu\" #7 (desktop)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "7995849fa2",
+					"dimension": "responsiveness",
+					"check": "first interaction with button \"Open menu\" #7 (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "76ba2eb5e6",
+					"dimension": "responsiveness",
+					"check": "first interaction with button \"Open menu\" #8 (desktop)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "ff46265d60",
+					"dimension": "responsiveness",
+					"check": "first interaction with button \"Open menu\" #8 (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "069531a966",
+					"dimension": "responsiveness",
+					"check": "first interaction with button \"Open menu\" #9 (desktop)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "b825e559c4",
+					"dimension": "responsiveness",
+					"check": "first interaction with button \"Open menu\" #9 (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "e555a448a1",
+					"dimension": "responsiveness",
+					"check": "first interaction with checkbox \"Select all\" (desktop)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "170ca5d226",
+					"dimension": "responsiveness",
+					"check": "first interaction with checkbox \"Select all\" (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "e24ab66022",
+					"dimension": "responsiveness",
+					"check": "first interaction with checkbox \"Select row\" (desktop)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "66959ff089",
+					"dimension": "responsiveness",
+					"check": "first interaction with checkbox \"Select row\" (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "5190182081",
+					"dimension": "responsiveness",
+					"check": "first interaction with checkbox \"Select row\" #2 (desktop)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "98b96acac1",
+					"dimension": "responsiveness",
+					"check": "first interaction with checkbox \"Select row\" #2 (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "2440592825",
+					"dimension": "responsiveness",
+					"check": "first interaction with checkbox \"Select row\" #3 (desktop)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "3a85c88d92",
+					"dimension": "responsiveness",
+					"check": "first interaction with checkbox \"Select row\" #3 (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "083fddfe51",
+					"dimension": "responsiveness",
+					"check": "first interaction with checkbox \"Select row\" #4 (desktop)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "3d0ad923ee",
+					"dimension": "responsiveness",
+					"check": "first interaction with checkbox \"Select row\" #4 (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "2affbd9e6f",
+					"dimension": "responsiveness",
+					"check": "first interaction with checkbox \"Select row\" #5 (desktop)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "72a41be741",
+					"dimension": "responsiveness",
+					"check": "first interaction with checkbox \"Select row\" #5 (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "94f66acd0d",
+					"dimension": "responsiveness",
+					"check": "first interaction with checkbox \"Select row\" #6 (desktop)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "91fe41450a",
+					"dimension": "responsiveness",
+					"check": "first interaction with checkbox \"Select row\" #6 (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "191b8d50d5",
+					"dimension": "responsiveness",
+					"check": "first interaction with checkbox \"Select row\" #7 (desktop)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
+				},
+				{
+					"id": "37fde5a217",
+					"dimension": "responsiveness",
+					"check": "first interaction with checkbox \"Select row\" #7 (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-10-24T13:00:58.553Z"
 				},
 				{
 					"id": "3a69ccc635",
@@ -1841,51 +3068,15 @@
 					"lastSeen": "2026-10-22T08:36:42.107Z"
 				},
 				{
-					"id": "39a31c1684",
-					"dimension": "behaviour",
-					"check": "type \"Sample text from markless-migrate\" into textbox \"Filter users...\"",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "c6a4940dc6",
-					"dimension": "behaviour",
-					"check": "click button \"Status\"",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "afd4c5ca20",
-					"dimension": "behaviour",
-					"check": "click button \"Role\"",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
 					"id": "3836ba180c",
 					"dimension": "behaviour",
 					"check": "click button \"Open menu\" #3, then click menuitem \"Delete\" (step 2)",
 					"lastSeen": "2026-10-22T08:36:42.107Z"
 				},
 				{
-					"id": "7843bdc6ae",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Errors\"",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "beacd09d42",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Settings\"",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
 					"id": "81f40cb25e",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"SN satnaing satnaingdev@gmail.com\"",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "0a17af8bcc",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Toggle Sidebar\"",
 					"lastSeen": "2026-10-22T08:36:42.107Z"
 				},
 				{
@@ -1919,57 +3110,9 @@
 					"lastSeen": "2026-10-22T08:36:42.107Z"
 				},
 				{
-					"id": "4df58ff96b",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Skip to Main\"",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
 					"id": "b841519d4a",
 					"dimension": "behaviour",
 					"check": "not exercised: link",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "0d4d85e33f",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Tasks\"",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "0f1cb8a032",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Apps\"",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "4a16d471a7",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Chats 3\"",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "6f3528264f",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Users\"",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "0ef11d4ecf",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Help Center\"",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "3d51ef58c1",
-					"dimension": "behaviour",
-					"check": "not exercised: menuitem \"Asc\" (after click button \"Username\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "8c46fc90dd",
-					"dimension": "behaviour",
-					"check": "not exercised: menuitem \"Desc\" (after click button \"Username\")",
 					"lastSeen": "2026-10-22T08:36:42.107Z"
 				},
 				{
@@ -1997,450 +3140,15 @@
 					"lastSeen": "2026-10-22T08:36:42.107Z"
 				},
 				{
-					"id": "44bca6284a",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Clear selection\" (after click checkbox \"Select all\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "0f28e2ed33",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Invite selected users\" (after click checkbox \"Select all\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "42241a5a12",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Activate selected users\" (after click checkbox \"Select all\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "50af9ef63d",
-					"dimension": "behaviour",
-					"check": "not exercised: clickable \"maryann.lubowitz69\" (after click checkbox \"Select all\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "d24eb54374",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Reset\" (after type \"Sample text from markless-migrate\" into textbox \"Filter users...\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "7850fb6e78",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Cancel\" (after click button \"Invite User\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "5509969b5e",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Invite\" (after click button \"Invite User\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "5b5fcf1914",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Close\" (after click button \"Invite User\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "da0e4f6d67",
-					"dimension": "behaviour",
-					"check": "not exercised: textbox \"Email\" (after click button \"Invite User\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "92894d1387",
-					"dimension": "behaviour",
-					"check": "not exercised: textbox \"Description (optional)\" (after click button \"Invite User\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "2ab3521b06",
-					"dimension": "behaviour",
-					"check": "not exercised: combobox \"Role\" (after click button \"Invite User\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "2a16e03524",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Show password\" (after click button \"Add User\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "92c221c7b4",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Save changes\" (after click button \"Add User\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "cceeb09062",
-					"dimension": "behaviour",
-					"check": "not exercised: textbox \"First Name\" (after click button \"Add User\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "b0f7d41f0e",
-					"dimension": "behaviour",
-					"check": "not exercised: textbox \"Last Name\" (after click button \"Add User\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "d51024c4f3",
-					"dimension": "behaviour",
-					"check": "not exercised: textbox \"Username\" (after click button \"Add User\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "20d97710c9",
-					"dimension": "behaviour",
-					"check": "not exercised: textbox \"Phone Number\" (after click button \"Add User\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "b669422858",
-					"dimension": "behaviour",
-					"check": "not exercised: textbox \"Password\" (after click button \"Add User\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "6e77a9a721",
-					"dimension": "behaviour",
-					"check": "not exercised: option \"Active 127\" (after click button \"Status\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "a1191adcbd",
-					"dimension": "behaviour",
-					"check": "not exercised: option \"Inactive 113\" (after click button \"Status\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "77a4c3bb48",
-					"dimension": "behaviour",
-					"check": "not exercised: option \"Invited 139\" (after click button \"Status\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "546fdd8c49",
-					"dimension": "behaviour",
-					"check": "not exercised: option \"Suspended 121\" (after click button \"Status\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "37854e739d",
-					"dimension": "behaviour",
-					"check": "not exercised: combobox #2 (after click button \"Status\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "c826b53d66",
-					"dimension": "behaviour",
-					"check": "not exercised: option \"Superadmin 124\" (after click button \"Role\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "cb9b608ad9",
-					"dimension": "behaviour",
-					"check": "not exercised: option \"Admin 113\" (after click button \"Role\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "3516a20479",
-					"dimension": "behaviour",
-					"check": "not exercised: option \"Manager 135\" (after click button \"Role\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "b8d0b2d5dd",
-					"dimension": "behaviour",
-					"check": "not exercised: option \"Cashier 128\" (after click button \"Role\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "a99594ef50",
-					"dimension": "behaviour",
-					"check": "not exercised: menuitemcheckbox \"email\" (after click button \"View\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "96d998b90b",
-					"dimension": "behaviour",
-					"check": "not exercised: menuitemcheckbox \"phoneNumber\" (after click button \"View\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "d1f2e6c03c",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Go to first page\" (after click button \"Go to page 2 2\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "1816268078",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Go to previous page\" (after click button \"Go to page 2 2\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "5c774e153a",
-					"dimension": "behaviour",
-					"check": "not exercised: clickable \"marlene.maggio-medhurst\" (after click button \"Go to page 2 2\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "fd20660c4a",
-					"dimension": "behaviour",
-					"check": "not exercised: clickable \"Marlene Maggio-Medhurst\" (after click button \"Go to page 2 2\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "2b5b3db824",
-					"dimension": "behaviour",
-					"check": "not exercised: clickable \"eduardo_hickle-flatley\" (after click button \"Go to page 2 2\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "5f595095e9",
-					"dimension": "behaviour",
-					"check": "not exercised: clickable \"Eduardo Hickle-Flatley\" (after click button \"Go to page 2 2\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "5ed4247295",
-					"dimension": "behaviour",
-					"check": "not exercised: clickable \"julie.bernier-altenwerth42\" (after click button \"Go to page 2 2\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "94546a3d19",
-					"dimension": "behaviour",
-					"check": "not exercised: clickable \"Julie Bernier-Altenwerth\" (after click button \"Go to page 2 2\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "824e806c3d",
-					"dimension": "behaviour",
-					"check": "not exercised: clickable \"jordane_mccullough51\" (after click button \"Go to page 2 2\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "7ab3c12081",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Go to page 5 5\" (after click button \"Go to page 4 4\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "c23d1cd1f3",
-					"dimension": "behaviour",
-					"check": "not exercised: clickable \"domenic.cummerata86\" (after click button \"Go to page 4 4\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "61b07fa3e6",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Go to page 47 47\" (after click button \"Go to page 50 50\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "5b2b46a3b9",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Go to page 48 48\" (after click button \"Go to page 50 50\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "b2ad5bab7b",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Go to page 49 49\" (after click button \"Go to page 50 50\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "8d2d316242",
-					"dimension": "behaviour",
-					"check": "not exercised: option \"10\" (after click combobox)",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "9078793dce",
-					"dimension": "behaviour",
-					"check": "not exercised: option \"20\" (after click combobox)",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "4d364943c5",
-					"dimension": "behaviour",
-					"check": "not exercised: option \"30\" (after click combobox)",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "ea2fa120d5",
-					"dimension": "behaviour",
-					"check": "not exercised: option \"40\" (after click combobox)",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "5fbff46e83",
-					"dimension": "behaviour",
-					"check": "not exercised: option \"50\" (after click combobox)",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "6669d8da1b",
-					"dimension": "behaviour",
-					"check": "not exercised: menuitem \"Shadcn Admin ⌘1\" (after click button \"Shadcn Admin Vite + ShadcnUI\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "0c7699c9e3",
-					"dimension": "behaviour",
-					"check": "not exercised: menuitem \"Acme Inc ⌘2\" (after click button \"Shadcn Admin Vite + ShadcnUI\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "b2d7d9d71d",
-					"dimension": "behaviour",
-					"check": "not exercised: menuitem \"Acme Corp. ⌘3\" (after click button \"Shadcn Admin Vite + ShadcnUI\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "d744d7c341",
-					"dimension": "behaviour",
-					"check": "not exercised: menuitem \"Add team\" (after click button \"Shadcn Admin Vite + ShadcnUI\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
 					"id": "7da6f5f91e",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Sign In\" (after click button \"Auth\")",
 					"lastSeen": "2026-10-22T08:36:42.107Z"
 				},
 				{
-					"id": "a4e0b22c04",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Sign In (2 Col)\" (after click button \"Auth\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
 					"id": "2d2cca215a",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Sign Up\" (after click button \"Auth\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "2bceaae324",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Forgot Password\" (after click button \"Auth\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "72a7f0cf11",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"OTP\" (after click button \"Auth\")",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "fea08ffa5c",
-					"dimension": "motion",
-					"check": "click button \"Status\": frame of dialog (dialog/div)",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "1287e22b19",
-					"dimension": "motion",
-					"check": "click button \"Role\": frame of dialog (dialog/div)",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "9c4f1c7ddf",
-					"dimension": "motion",
-					"check": "click button \"Go to page 1 1\": motion of generic (body/div)",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "78fe8b9694",
-					"dimension": "motion",
-					"check": "click button \"Go to page 1 1\": motion of generic (body/div)",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "116f1fca16",
-					"dimension": "motion",
-					"check": "click button \"Go to page 1 1\", with prefers-reduced-motion: reduce: motion of generic (body/div)",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "cfb2293e6f",
-					"dimension": "motion",
-					"check": "click button \"Go to page 1 1\", with prefers-reduced-motion: reduce: motion of generic (body/div)",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "3b205f92b7",
-					"dimension": "motion",
-					"check": "click button \"Go to page 2 2\": extra motion of generic \"active\" (main>table>rowgroup>row>cell/span) and 1 more element alike",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "f418a2f476",
-					"dimension": "motion",
-					"check": "click button \"Go to page 2 2\": extra motion of generic \"suspended\" (main>table>rowgroup>row>cell/span) and 1 more element alike",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "7d0f03b9d9",
-					"dimension": "motion",
-					"check": "click button \"Go to page 2 2\": extra motion of generic \"active\" (main>table>rowgroup>row>cell/span)",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "c38467ee0d",
-					"dimension": "motion",
-					"check": "click button \"Go to page 2 2\", with prefers-reduced-motion: reduce: extra motion of generic \"active\" (main>table>rowgroup>row>cell/span) and 1 more element alike",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "4182de4ac8",
-					"dimension": "motion",
-					"check": "click button \"Go to page 2 2\", with prefers-reduced-motion: reduce: extra motion of generic \"suspended\" (main>table>rowgroup>row>cell/span) and 1 more element alike",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "c08b5453a5",
-					"dimension": "motion",
-					"check": "click button \"Go to page 2 2\", with prefers-reduced-motion: reduce: extra motion of generic \"active\" (main>table>rowgroup>row>cell/span)",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "6b5bc95bbf",
-					"dimension": "motion",
-					"check": "click button \"Go to page 3 3\": extra motion of generic \"active\" (main>table>rowgroup>row>cell/span) and 2 more elements alike",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "377c99dcaf",
-					"dimension": "motion",
-					"check": "click button \"Go to page 3 3\": extra motion of generic \"invited\" (main>table>rowgroup>row>cell/span) and 3 more elements alike",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "d18ffc6068",
-					"dimension": "motion",
-					"check": "click button \"Go to page 3 3\": extra motion of generic \"suspended\" (main>table>rowgroup>row>cell/span)",
-					"viewport": "desktop",
 					"lastSeen": "2026-10-22T08:36:42.107Z"
 				},
 				{
@@ -2479,24 +3187,10 @@
 					"lastSeen": "2026-10-22T08:36:42.107Z"
 				},
 				{
-					"id": "201b512da2",
-					"dimension": "motion",
-					"check": "motion",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
 					"id": "ccd03a7f43",
 					"dimension": "responsiveness",
 					"check": "first interaction with button \"Username\" (desktop)",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "4eaac89eb1",
-					"dimension": "responsiveness",
-					"check": "first interaction with button \"Username\" (4x CPU, mobile)",
-					"viewport": "mobile",
 					"lastSeen": "2026-10-22T08:36:42.107Z"
 				},
 				{
@@ -2514,62 +3208,6 @@
 					"lastSeen": "2026-10-22T08:36:42.107Z"
 				},
 				{
-					"id": "f5cd8b63a8",
-					"dimension": "responsiveness",
-					"check": "first interaction with button \"Open menu\" #6 (desktop)",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "bb4c7ff8d4",
-					"dimension": "responsiveness",
-					"check": "first interaction with button \"Open menu\" #6 (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "116eff8d81",
-					"dimension": "responsiveness",
-					"check": "first interaction with button \"Open menu\" #7 (desktop)",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "a50eca0e57",
-					"dimension": "responsiveness",
-					"check": "first interaction with button \"Open menu\" #7 (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "fa2350a15c",
-					"dimension": "responsiveness",
-					"check": "first interaction with button \"Open menu\" #8 (desktop)",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "7ba4699c1b",
-					"dimension": "responsiveness",
-					"check": "first interaction with button \"Open menu\" #8 (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "0c7f19cd01",
-					"dimension": "responsiveness",
-					"check": "first interaction with button \"Open menu\" #9 (desktop)",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "ac8fa6e906",
-					"dimension": "responsiveness",
-					"check": "first interaction with button \"Open menu\" #9 (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
 					"id": "da5db78341",
 					"dimension": "responsiveness",
 					"check": "first interaction with button \"Open menu\" #10 (desktop)",
@@ -2580,118 +3218,6 @@
 					"id": "f8f3b1a238",
 					"dimension": "responsiveness",
 					"check": "first interaction with button \"Open menu\" #10 (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "560c7495be",
-					"dimension": "responsiveness",
-					"check": "first interaction with checkbox \"Select all\" (desktop)",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "ea9e547212",
-					"dimension": "responsiveness",
-					"check": "first interaction with checkbox \"Select all\" (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "bce0d0334f",
-					"dimension": "responsiveness",
-					"check": "first interaction with checkbox \"Select row\" (desktop)",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "0a550530ef",
-					"dimension": "responsiveness",
-					"check": "first interaction with checkbox \"Select row\" (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "1b999dc10e",
-					"dimension": "responsiveness",
-					"check": "first interaction with checkbox \"Select row\" #2 (desktop)",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "e4d6341cb6",
-					"dimension": "responsiveness",
-					"check": "first interaction with checkbox \"Select row\" #2 (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "3b02c925b9",
-					"dimension": "responsiveness",
-					"check": "first interaction with checkbox \"Select row\" #3 (desktop)",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "be33808f82",
-					"dimension": "responsiveness",
-					"check": "first interaction with checkbox \"Select row\" #3 (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "d092efad73",
-					"dimension": "responsiveness",
-					"check": "first interaction with checkbox \"Select row\" #4 (desktop)",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "5e92fc9e60",
-					"dimension": "responsiveness",
-					"check": "first interaction with checkbox \"Select row\" #4 (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "8087fa0943",
-					"dimension": "responsiveness",
-					"check": "first interaction with checkbox \"Select row\" #5 (desktop)",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "88b43e3c2f",
-					"dimension": "responsiveness",
-					"check": "first interaction with checkbox \"Select row\" #5 (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "d2a3dc300a",
-					"dimension": "responsiveness",
-					"check": "first interaction with checkbox \"Select row\" #6 (desktop)",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "555fd627d3",
-					"dimension": "responsiveness",
-					"check": "first interaction with checkbox \"Select row\" #6 (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "05b2e432fa",
-					"dimension": "responsiveness",
-					"check": "first interaction with checkbox \"Select row\" #7 (desktop)",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.107Z"
-				},
-				{
-					"id": "80df5c90d2",
-					"dimension": "responsiveness",
-					"check": "first interaction with checkbox \"Select row\" #7 (4x CPU, mobile)",
 					"viewport": "mobile",
 					"lastSeen": "2026-10-22T08:36:42.107Z"
 				},
@@ -2716,24 +3242,6 @@
 					"lastSeen": "2026-10-22T04:33:31.388Z"
 				},
 				{
-					"id": "a86e3ddb32",
-					"dimension": "behaviour",
-					"check": "click button \"Open menu\", then click menuitem \"Delete\" (step 2)",
-					"lastSeen": "2026-10-22T04:33:31.388Z"
-				},
-				{
-					"id": "6a71256438",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Dashboard\"",
-					"lastSeen": "2026-10-22T04:33:31.388Z"
-				},
-				{
-					"id": "473da969c3",
-					"dimension": "behaviour",
-					"check": "not exercised: menuitem \"Hide\" (after click button \"Email\")",
-					"lastSeen": "2026-10-22T04:33:31.388Z"
-				},
-				{
 					"id": "18750370f7",
 					"dimension": "behaviour",
 					"check": "not exercised: button (after click button \"Open menu\")",
@@ -2752,33 +3260,9 @@
 					"lastSeen": "2026-10-22T04:33:31.388Z"
 				},
 				{
-					"id": "28fa4d204d",
-					"dimension": "behaviour",
-					"check": "not exercised: menuitem \"Edit\" (after click button \"Open menu\")",
-					"lastSeen": "2026-10-22T04:33:31.388Z"
-				},
-				{
 					"id": "870e07afff",
 					"dimension": "behaviour",
 					"check": "not exercised: checkbox (after click button \"Open menu\" #4)",
-					"lastSeen": "2026-10-22T04:33:31.388Z"
-				},
-				{
-					"id": "fcccaa2148",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Sign In\" (after click button \"Clerk Secured by Clerk\")",
-					"lastSeen": "2026-10-22T04:33:31.388Z"
-				},
-				{
-					"id": "2c83208728",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Sign Up\" (after click button \"Clerk Secured by Clerk\")",
-					"lastSeen": "2026-10-22T04:33:31.388Z"
-				},
-				{
-					"id": "85b315b7f9",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"User Management\" (after click button \"Clerk Secured by Clerk\")",
 					"lastSeen": "2026-10-22T04:33:31.388Z"
 				},
 				{
@@ -2819,27 +3303,6 @@
 					"lastSeen": "2026-10-22T04:33:31.388Z"
 				},
 				{
-					"id": "e4c75c34d6",
-					"dimension": "responsiveness",
-					"check": "first interaction with button \"Email\" (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-10-22T04:33:31.388Z"
-				},
-				{
-					"id": "41e7b9149a",
-					"dimension": "responsiveness",
-					"check": "first interaction with button \"Open menu\" (desktop)",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-22T04:33:31.388Z"
-				},
-				{
-					"id": "8de1c6a0af",
-					"dimension": "responsiveness",
-					"check": "first interaction with button \"Open menu\" (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-10-22T04:33:31.388Z"
-				},
-				{
 					"id": "b07b162127",
 					"dimension": "responsiveness",
 					"check": "first interaction with button \"Open menu\" #2 (desktop)",
@@ -2850,20 +3313,6 @@
 					"id": "ebd037134b",
 					"dimension": "responsiveness",
 					"check": "first interaction with button \"Open menu\" #2 (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-10-22T04:33:31.388Z"
-				},
-				{
-					"id": "70d8ed172b",
-					"dimension": "responsiveness",
-					"check": "first interaction with button \"Open menu\" #4 (desktop)",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-22T04:33:31.388Z"
-				},
-				{
-					"id": "9c361a7adb",
-					"dimension": "responsiveness",
-					"check": "first interaction with button \"Open menu\" #4 (4x CPU, mobile)",
 					"viewport": "mobile",
 					"lastSeen": "2026-10-22T04:33:31.388Z"
 				},
@@ -2919,13 +3368,14 @@
 				}
 			],
 			"weight": {
-				"downloaded": 1380427,
-				"executed": 110781
+				"downloaded": 1381480,
+				"executed": 111661
 			},
 			"owner": "markless-migrate shadcn-admin port (thejackshelton)"
 		}
 	},
 	"misses": [
+		"GET https://mm-shadcn-admin-old.vercel.app/assets/_authenticated-DTl1GpS7.js.map",
 		"GET https://mm-shadcn-admin-old.vercel.app/assets/apps-Dy7BCJ80.js.map",
 		"GET https://mm-shadcn-admin-old.vercel.app/assets/search-Co7JV0QP.js.map"
 	]
