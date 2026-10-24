@@ -22,6 +22,11 @@ export default {
 	// On a runner, /docs/components/radix/dropdown-menu and /colors took close to the checker's 1800 s per route: each was
 	// stopped by it in one of two replays of one build and finished in the other (record run 39886329077).
 	check: ['--timeout', '3000'],
+	// The full lane's 25 routes in one job hit its 90-minute limit on the 2026-10-24 nightlies (40076731330, 40095946690):
+	// the same night's sample shards spent 1553 s checking / and dropdown-menu, 1894 s /docs and /colors, 1034 s dialog
+	// alone, about 15 minutes a route, so 25 routes are about 6 hours of checking. Three a job is 9 jobs whose heaviest
+	// (dropdown-menu and two dialogs) is about 40 minutes.
+	routesPerJob: { full: 3 },
 	quarantine: [
 		{
 			route: '/docs',

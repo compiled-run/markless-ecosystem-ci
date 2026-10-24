@@ -8,7 +8,7 @@ import { buildMarkless, readPacks } from './src/markless.ts';
 import { checkoutMigrate, readPin } from './src/migrate.ts';
 import { renderMarkdown, summarize } from './src/report.ts';
 import { runSuite } from './src/run-suite.ts';
-import { loadSuites, ROUTES_PER_JOB, selectSuites, shard } from './src/suites.ts';
+import { jobCount, loadSuites, selectSuites, shard } from './src/suites.ts';
 import type { Lane, SuiteResult } from './src/types.ts';
 
 const root = import.meta.dirname;
@@ -172,8 +172,7 @@ async function list(): Promise<void> {
 	const suites = await selectSuites(root, rest);
 	if (values.matrix) {
 		console.log(JSON.stringify(suites.filter((s) => !s.disabled).flatMap((s) => {
-			const routes = lane === 'full' ? s.routes.full.length : s.routes.sample.length;
-			const count = Math.max(1, Math.ceil(routes / ROUTES_PER_JOB[lane]));
+			const count = jobCount(s, lane);
 			return Array.from({ length: count }, (_, i) => ({ suite: s.name, shard: `${i + 1}/${count}` }));
 		})));
 		return;

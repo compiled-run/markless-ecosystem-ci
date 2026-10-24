@@ -23,6 +23,8 @@ export interface Suite {
 	readonly test?: readonly (readonly string[])[];
 	/** Defaults to `node .output/server/index.mjs` with PORT and HOST. */
 	readonly serve?: readonly string[];
+	/** Routes per CI job when this suite's routes take longer to check than ROUTES_PER_JOB assumes. */
+	readonly routesPerJob?: Partial<Record<Lane, number>>;
 	readonly routes: {
 		/** The per-PR sample: the risky shapes this site carries. */
 		readonly sample: readonly SampleRoute[];
