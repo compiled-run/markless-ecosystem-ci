@@ -2,6 +2,9 @@ import assert from 'node:assert/strict';
 import { describe, test } from 'node:test';
 import { applyQuarantine, compareSuite, rememberBaseline, type Baseline } from '../src/compare.ts';
 import type { RouteRecord, Suite, SuiteResult } from '../src/types.ts';
+import docusaurus from '../suites/docusaurus.ts';
+import htmx from '../suites/htmx-org.ts';
+import shadcnAdmin from '../suites/shadcn-admin.ts';
 
 const suite: Suite = { name: 'site', app: 'examples/site', old: 'https://old.example', owner: 'the port', routes: { sample: [{ route: '/', covers: ['menu'] }, { route: '/b', covers: ['dialog'] }], full: ['/', '/b'] } };
 
@@ -162,5 +165,31 @@ describe('checker timeouts', () => {
 		const c = compareSuite(suite, result({ '/': now, '/b': route(true, []) }), baseline({ '/': route(true, []), '/b': route(true, []) }));
 		assert.equal(c.regressions.length, 0);
 		assert.equal(c.timing.length, 1);
+	});
+});
+
+describe('the journey-choice quarantine (compiled-run/markless-migrate#108)', () => {
+	const hold = (target: Suite, regressions: { route: string; detail: string }[]) =>
+		applyQuarantine({ suite: target, regressions: regressions.map((r) => ({ kind: 'failure' as const, ...r })), timing: [], fixed: [], knownReds: [] } as never, new Date('2026-10-25T00:00:00Z'));
+	test('holds the rows that track which interactions the checker chose, and nothing beside them', () => {
+		const docs = hold(docusaurus, [
+			{ route: '/docs', detail: 'behaviour: click tab "Yarn" (step 4 of 5: reload after use 3); expected old console errors: registerSW failed TypeError: Cannot read properties of undefined' },
+			{ route: '/', detail: 'a11y: press Enter on link "Skip to main content"; expected console errors: (none), got console errors: Failed to fetch dynamically imported module: /vendor/docsearch-4.7.0.js' },
+			{ route: '/', detail: 'a11y: press Enter on link "Skip to main content"; expected console errors: (none), got console errors: Missing markless/state payload script.' },
+		]);
+		assert.equal(docs.quarantined.length, 2);
+		assert.deepEqual(docs.regressions.map((r) => r.detail), ['a11y: press Enter on link "Skip to main content"; expected console errors: (none), got console errors: Missing markless/state payload script.']);
+		const links = hold(htmx, [
+			{ route: '/docs/', detail: 'a11y: type "Sample text from markless-migrate" into textbox, then press Enter on link "sse" (step 2); expected URL /extensions/sse, got URL /extensions/sse/' },
+			{ route: '/', detail: 'navigation (desktop): in place from /examples/click-to-edit/: layout during the swap; expected every frame shows the page before or the page after' },
+		]);
+		assert.equal(links.quarantined.length, 1);
+		assert.equal(links.regressions.length, 1);
+		const motion = hold(shadcnAdmin, [
+			{ route: '/users', detail: 'a11y (desktop): motion under prefers-reduced-motion: reduce; expected color, left, opacity, width, got running: padding-left, padding-right' },
+			{ route: '/apps', detail: 'a11y (desktop): motion under prefers-reduced-motion: reduce; expected none, got running: width' },
+		]);
+		assert.equal(motion.quarantined.length, 1);
+		assert.equal(motion.regressions.length, 1);
 	});
 });

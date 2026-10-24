@@ -9,6 +9,14 @@ export default {
 	install: ['--legacy-peer-deps'],
 	quarantine: [
 		{
+			route: "/users",
+			dimension: "a11y",
+			check: "motion under prefers-reduced-motion",
+			reason: "the transitions still running under prefers-reduced-motion differed between two main runs on 2026-10-24 (40102414697 clean, 40103772413 padding-left and padding-right): it depends on which interaction the checker ran before sampling; out when markless-migrate picks interactions deterministically (compiled-run/markless-migrate#108)",
+			owner: "markless-migrate checker (thejackshelton)",
+			until: "2026-11-07",
+		},
+		{
 			route: "/",
 			dimension: "visual",
 			check: "screenshot in viewport width 1024px",

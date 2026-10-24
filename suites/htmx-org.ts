@@ -9,6 +9,14 @@ export default {
 	quarantine: [
 		{
 			route: "*",
+			dimension: "a11y",
+			check: "type \"Sample text from markless-migrate\" into textbox, then press Enter on link",
+			reason: "the checker presses Enter on a different search-result link each run (htmx-1-compat, then sse) and the old site's link drops or keeps the trailing slash per page; the row tracks which link was chosen, not Markless (2026-10-24 main runs 40102414697 and 40103772413); out when markless-migrate picks interactions deterministically (compiled-run/markless-migrate#108)",
+			owner: "markless-migrate checker (thejackshelton)",
+			until: "2026-11-07",
+		},
+		{
+			route: "*",
 			dimension: "capture",
 			check: "https://github.githubassets.com/",
 			reason: "GitHub's own page assets, asked for only when a replay's step reaches github.com through the star button; the set differed between two replays of one build (record run 39988033492: 9 in the first, 1 other in the second)",
