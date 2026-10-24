@@ -85,6 +85,21 @@ describe('the seal in replay mode', () => {
 		assert.deepEqual(seal.stats.misses.map((m) => m.key).sort(), ['GET http://elsewhere.example/new', requestKey('POST', 'http://old.example/page', Buffer.from('a=1'))].sort());
 	});
 
+	test("Chrome's own background requests are answered and never counted as misses; a page's request to the same hosts still is", async () => {
+		const before = seal.stats.misses.length;
+		for (const url of ['http://clients2.google.com/time/1/current?cup2key=10:abc&cup2hreq=def', 'http://connectivitycheck.gstatic.com/generate_204']) {
+			const response = await viaProxy(url);
+			assert.equal(response.status, 204);
+			assert.equal(response.headers['x-seal'], 'browser');
+		}
+		const update = await viaProxy('http://update.googleapis.com/service/update2/json?cup2key=16:xyz', 'POST', '{}');
+		assert.equal(update.status, 204);
+		assert.equal(seal.stats.misses.length, before);
+		const page = await viaProxy('http://clients2.google.com/other');
+		assert.equal(page.status, 504);
+		assert.equal(seal.stats.misses.length, before + 1);
+	});
+
 	test('a cache buster the page computes at run time still finds its response', async () => {
 		const response = await viaTunnel('https://cdn.example/app.js?v=2');
 		assert.equal(response.status, 200);
