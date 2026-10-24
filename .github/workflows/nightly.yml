@@ -229,9 +229,17 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           REF: ${{ needs.plan.outputs.ref }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
           set -euo pipefail
           cat report-*.md > issue.md
+          # GitHub refuses an issue body or comment over 65,536 characters; a long night is cut, with the run linked for the rest.
+          limit=60000
+          if [ "$(wc -c < issue.md)" -gt "$limit" ]; then
+            head -c "$limit" issue.md > issue.cut.md
+            printf '\n\n... cut at %s characters. Every regression is in the [run summary](%s).\n' "$limit" "$RUN_URL" >> issue.cut.md
+            mv issue.cut.md issue.md
+          fi
           gh label create ecosystem-regression --color B60205 --description 'A nightly run found new reds' 2>/dev/null || true
           open="$(gh issue list --label ecosystem-regression --state open --json number --jq '.[0].number // empty')"
           if [ -n "$open" ]; then
@@ -239,8 +247,9 @@ jobs:
           else
             gh issue create --title "New reds on Markless ${REF} ($(date -u +%Y-%m-%d))" --label ecosystem-regression --body-file issue.md
           fi
+      # Not tied to the issue step: when filing failed, the baseline stayed a week old and every later report grew.
       - name: Store the night's results as the baseline
-        if: github.event_name == 'schedule' || (inputs.baseline && inputs.ref == 'main' && inputs.migrate_ref == '')
+        if: always() && steps.compare.outcome == 'success' && (github.event_name == 'schedule' || (inputs.baseline && inputs.ref == 'main' && inputs.migrate_ref == ''))
         # The baseline folds this run into the one on main now (it remembers a week of failures), so it is
         # computed from a fresh main each try, and tried again when another run pushed first.
         run: |
