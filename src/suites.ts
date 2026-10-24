@@ -1,7 +1,7 @@
 import { readdir } from 'node:fs/promises';
 import { join } from 'node:path';
 import { pathToFileURL } from 'node:url';
-import type { Suite } from './types.ts';
+import type { Lane, Suite } from './types.ts';
 
 /**
  * Routes one CI job checks. A sampled route takes 4 to 8 minutes to check on a runner (shadcn-admin /: 361 s), so
@@ -23,6 +23,12 @@ export async function selectSuites(root: string, names: readonly string[]): Prom
 	const unknown = names.filter((name) => !all.some((suite) => suite.name === name));
 	if (unknown.length) throw new Error(`unknown suite ${unknown.join(', ')}; suites: ${all.map((s) => s.name).join(', ')}`);
 	return all.filter((suite) => names.includes(suite.name));
+}
+
+/** CI jobs a suite's lane is split into. */
+export function jobCount(suite: Suite, lane: Lane): number {
+	const routes = lane === 'full' ? suite.routes.full.length : suite.routes.sample.length;
+	return Math.max(1, Math.ceil(routes / (suite.routesPerJob?.[lane] ?? ROUTES_PER_JOB[lane])));
 }
 
 /** Shard `index` of `count` (1-based) of a suite's routes. */
