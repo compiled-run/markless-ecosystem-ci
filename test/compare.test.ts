@@ -128,6 +128,13 @@ describe('journeys', () => {
 });
 
 describe('capture misses', () => {
+	test('a beacon main already sent is known whatever session id or body it carries; a new endpoint still counts', () => {
+		const known = ['POST https://www.youtube-nocookie.com/api/stats/qoe?cpn=AAA&el=embedded #1111', 'POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #2222'];
+		const seen = ['POST https://www.youtube-nocookie.com/api/stats/qoe?cpn=BBB&el=embedded #3333', 'POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #4444', 'POST https://www.youtube-nocookie.com/youtubei/v1/new_endpoint #5555'];
+		const c = compareSuite(suite, result({ '/': route(true, []), '/b': route(true, []) }, { seal: { served: 1, loose: 0, misses: seen } }), baseline({ '/': route(true, []), '/b': route(true, []) }, known));
+		assert.deepEqual(c.regressions.map((r) => r.detail), ['a request main does not make, not in the capture: POST https://www.youtube-nocookie.com/youtubei/v1/new_endpoint #5555']);
+	});
+
 	test('a miss on the old site is shown, not counted; a new third-party request still counts', () => {
 		const c = compareSuite(suite, result({ '/': route(true, []), '/b': route(true, []) }, { seal: { served: 1, loose: 0, misses: ['GET https://old.example/other-page ;session', 'GET https://cdn.example/new.js'] } }), baseline({ '/': route(true, []), '/b': route(true, []) }));
 		assert.deepEqual(c.regressions.map((r) => r.detail), ['a request main does not make, not in the capture: GET https://cdn.example/new.js']);

@@ -122,6 +122,12 @@ const SOURCE_MAP = /\.map(?:\?[^ ]*)?(?: |$)/;
 /** A journey that logged an error the old page did not: whichever journeys were explored, that one threw. */
 const CONSOLE_ERRORS = /console errors: (?!\(none\))/;
 
+/** A miss without its query and body hash: a beacon names a fresh session id or nonce on every send, so only its endpoint repeats. */
+function missEndpoint(miss: string): string {
+	const url = missUrl(miss);
+	return url ? `${miss.split(' ')[0]} ${url.origin}${url.pathname}` : miss;
+}
+
 function missUrl(miss: string): URL | undefined {
 	try {
 		return new URL(miss.split(' ')[1] ?? '');
@@ -222,10 +228,10 @@ export function compareSuite(suite: Suite, result: SuiteResult | undefined, base
 				if (Object.keys(baseline.routes).length && routeExpected(suite, result, route)) regressions.push({ kind: 'route', route, detail: 'the checker reported nothing for this route' });
 			}
 		}
-		const knownMisses = new Set(baseline.misses);
+		const knownMisses = new Set(baseline.misses.map(missEndpoint));
 		const oldOrigin = new URL(suite.old).origin;
 		for (const miss of result.seal.misses) {
-			if (knownMisses.has(miss) || SOURCE_MAP.test(miss)) continue;
+			if (knownMisses.has(missEndpoint(miss)) || SOURCE_MAP.test(miss)) continue;
 			// The old site is only ever asked by the checker exploring it, never by the Markless build.
 			if (missUrl(miss)?.origin === oldOrigin) timing.push({ kind: 'capture', detail: `the old site was asked for a page the capture does not hold: ${miss}` });
 			else regressions.push({ kind: 'capture', detail: `a request main does not make, not in the capture: ${miss}` });
