@@ -138,6 +138,19 @@ class Certificates {
 	}
 }
 
+// Chrome's own background requests, which no page makes: network time, the connectivity probe and the
+// component updater. Each carries a fresh nonce (cup2key), so no capture can ever replay one.
+const BROWSER_TRAFFIC = new Set([
+	'GET http://clients2.google.com/time/1/current',
+	'GET http://connectivitycheck.gstatic.com/generate_204',
+	'POST http://update.googleapis.com/service/update2/json',
+]);
+
+/** Whether a request is the browser's own background traffic rather than anything the page asked for. */
+export function isBrowserTraffic(method: string, url: URL): boolean {
+	return BROWSER_TRAFFIC.has(`${method} ${url.protocol}//${url.host}${url.pathname}`);
+}
+
 export interface SealOptions {
 	readonly mode: SealMode;
 	/** Where the archive lives: index.json and bodies/. */
@@ -228,6 +241,11 @@ export async function startSeal(options: SealOptions): Promise<Seal> {
 		const key = requestKey(method, url, READS.has(method) ? undefined : requestBody, cookie);
 		if (options.drop?.some((host) => target.hostname === host || target.hostname.endsWith(`.${host}`))) {
 			res.writeHead(204).end();
+			return;
+		}
+		if (isBrowserTraffic(method, target)) {
+			log(`browser ${key}`);
+			res.writeHead(204, { 'x-seal': 'browser' }).end();
 			return;
 		}
 		let entry = archive.entries[key];
