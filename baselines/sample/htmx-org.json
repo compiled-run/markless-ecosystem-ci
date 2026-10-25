@@ -2,14 +2,14 @@
 	"suite": "htmx-org",
 	"lane": "sample",
 	"markless": {
-		"sha": "13c75bb3a46ce5bc084e9ea41740d9d24cc668ba",
+		"sha": "974fd98619dcad5268e7988e7ed87aa4ac01d783",
 		"version": "0.9.0",
 		"ref": "main"
 	},
 	"migrate": {
 		"sha": "b55adac69098299b8b638de1b79d50454f8c5b68"
 	},
-	"recordedAt": "2026-10-24T13:01:52.724Z",
+	"recordedAt": "2026-10-25T09:34:38.958Z",
 	"steps": {
 		"install": "pass",
 		"build": "pass",
@@ -26,299 +26,317 @@
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "fedde897c8",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "e5540fc8a5",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "e5540fc8a5",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "ab2a321417",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "79c34a83a5",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "091224fedc",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "82b47d84ef",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "f85b01343d",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "7db2c5f747",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "0a39fa0660",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "32619c85b7",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "8ca678cf13",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "ae181dc5c7",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "a01f60633c",
 					"dimension": "a11y",
 					"check": "axe label-content-name-mismatch: Elements must have their visible text as part of their accessible name",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "b380c276c2",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "24ebc1a09c",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "90b06c2fe0",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "90b06c2fe0",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "ead4bf9a4e",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "9a7a035548",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "944139af86",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "77187c9ee1",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "8351b1a215",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "9c3f6baec7",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "851a985265",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "cd69b1d5fd",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "5885b3ed4f",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "f448a98f1b",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
+				},
+				{
+					"id": "703401db8d",
+					"dimension": "behaviour",
+					"check": "browser storage after the page loads",
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "e27ba9779d",
 					"dimension": "network",
 					"check": "browser request missing",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
+				},
+				{
+					"id": "ba64c1b5c7",
+					"dimension": "behaviour",
+					"check": "click link \"docs\"",
+					"lastSeen": "2026-10-25T09:34:38.958Z"
+				},
+				{
+					"id": "e8b3b7e03c",
+					"dimension": "behaviour",
+					"check": "click link \"reference\"",
+					"lastSeen": "2026-10-25T09:34:38.958Z"
+				},
+				{
+					"id": "88c3b31756",
+					"dimension": "behaviour",
+					"check": "click link \"essays\" #2",
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "88f55016b6",
 					"dimension": "visual",
 					"check": "embed host-github-com-sponsors-bigskysoftware-button light rest",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "650aef241c",
 					"dimension": "visual",
 					"check": "embed host-github-com-sponsors-bigskysoftware-button light hover",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "82bcdc4841",
 					"dimension": "visual",
 					"check": "embed host-github-com-sponsors-bigskysoftware-button light focus",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "6b508e630c",
 					"dimension": "visual",
 					"check": "embed host-github-com-sponsors-bigskysoftware-button dark rest",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "b8c3cad5e0",
 					"dimension": "visual",
 					"check": "embed host-github-com-sponsors-bigskysoftware-button dark hover",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "aedac80a89",
 					"dimension": "visual",
 					"check": "embed host-github-com-sponsors-bigskysoftware-button dark focus",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "9e0be0615f",
 					"dimension": "visual",
 					"check": "embed host-github-com-sponsors-bigskysoftware-button light rest",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "57a92bd0e4",
 					"dimension": "visual",
 					"check": "embed host-github-com-sponsors-bigskysoftware-button light hover",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "60e801719a",
 					"dimension": "visual",
 					"check": "embed host-github-com-sponsors-bigskysoftware-button light focus",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "11068e3a9a",
 					"dimension": "visual",
 					"check": "embed host-github-com-sponsors-bigskysoftware-button dark rest",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "75babdb90a",
 					"dimension": "visual",
 					"check": "embed host-github-com-sponsors-bigskysoftware-button dark hover",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "20e12118ad",
 					"dimension": "visual",
 					"check": "embed host-github-com-sponsors-bigskysoftware-button dark focus",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
-				},
-				{
-					"id": "703401db8d",
-					"dimension": "behaviour",
-					"check": "browser storage after the page loads",
-					"lastSeen": "2026-10-23T22:39:23.346Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "fe80324e3b",
@@ -330,18 +348,6 @@
 					"id": "5114de2b6d",
 					"dimension": "behaviour",
 					"check": "click link \"CSS Transitions\"",
-					"lastSeen": "2026-10-23T22:39:23.346Z"
-				},
-				{
-					"id": "ba64c1b5c7",
-					"dimension": "behaviour",
-					"check": "click link \"docs\"",
-					"lastSeen": "2026-10-23T22:39:23.346Z"
-				},
-				{
-					"id": "e8b3b7e03c",
-					"dimension": "behaviour",
-					"check": "click link \"reference\"",
 					"lastSeen": "2026-10-23T22:39:23.346Z"
 				},
 				{
@@ -358,8 +364,8 @@
 				}
 			],
 			"weight": {
-				"downloaded": 64812,
-				"executed": 16751
+				"downloaded": 65925,
+				"executed": 16822
 			},
 			"owner": "markless-migrate htmx-org port (thejackshelton)"
 		},
@@ -371,47 +377,78 @@
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "890c74c6a9",
 					"dimension": "a11y",
 					"check": "axe label-content-name-mismatch: Elements must have their visible text as part of their accessible name",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "2884c1ad56",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "3413719f01",
 					"dimension": "visual",
 					"check": "screenshot",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "cf15ddee5e",
 					"dimension": "behaviour",
 					"check": "browser storage after the page loads",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "57d1a4db5e",
 					"dimension": "network",
 					"check": "browser request missing",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "8cc5c57e52",
 					"dimension": "responsiveness",
 					"check": "navigation from link \"Configuring htmx\" (4x CPU, mobile)",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
+				},
+				{
+					"id": "72474ce16e",
+					"dimension": "behaviour",
+					"check": "type \"Sample text from markless-migrate\" into textbox, then click link \"response-targets\" (step 2), in the layout shared with /docs/",
+					"lastSeen": "2026-10-25T09:34:38.958Z"
+				},
+				{
+					"id": "02a11ff5db",
+					"dimension": "behaviour",
+					"check": "type \"Sample text from markless-migrate\" into textbox, then click link \"sse\" (step 2), in the layout shared with /docs/",
+					"lastSeen": "2026-10-25T09:34:38.958Z"
+				},
+				{
+					"id": "ea89e9fc9d",
+					"dimension": "a11y",
+					"check": "type \"Sample text from markless-migrate\" into textbox, then press Enter on link \"response-targets\" (step 2), in the layout shared with /docs/",
+					"lastSeen": "2026-10-25T09:34:38.958Z"
+				},
+				{
+					"id": "d43c9b0398",
+					"dimension": "a11y",
+					"check": "type \"Sample text from markless-migrate\" into textbox, then press Enter on link \"sse\" (step 2), in the layout shared with /docs/",
+					"lastSeen": "2026-10-25T09:34:38.958Z"
+				},
+				{
+					"id": "b4338698a0",
+					"dimension": "navigation",
+					"check": "in place from /docs/: layout during the swap",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "d8e8ea3618",
@@ -426,13 +463,6 @@
 					"lastSeen": "2026-10-24T13:01:52.724Z"
 				},
 				{
-					"id": "b4338698a0",
-					"dimension": "navigation",
-					"check": "in place from /docs/: layout during the swap",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
-				},
-				{
 					"id": "c0f1d027c9",
 					"dimension": "a11y",
 					"check": "press Enter on link \"reference\", in the layout shared with /docs/",
@@ -440,8 +470,8 @@
 				}
 			],
 			"weight": {
-				"downloaded": 68480,
-				"executed": 61197
+				"downloaded": 69605,
+				"executed": 61998
 			},
 			"owner": "markless-migrate htmx-org port (thejackshelton)"
 		},
@@ -453,33 +483,63 @@
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "9f41a03e74",
 					"dimension": "a11y",
 					"check": "axe label-content-name-mismatch: Elements must have their visible text as part of their accessible name",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "512377010d",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "5481512f14",
 					"dimension": "behaviour",
 					"check": "browser storage after the page loads",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "015679c21b",
 					"dimension": "network",
 					"check": "browser request missing",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
+				},
+				{
+					"id": "e4fdcc62b7",
+					"dimension": "behaviour",
+					"check": "type \"Sample text from markless-migrate\" into textbox, then click link \"response-targets\" (step 2)",
+					"lastSeen": "2026-10-25T09:34:38.958Z"
+				},
+				{
+					"id": "c0d9142712",
+					"dimension": "behaviour",
+					"check": "type \"Sample text from markless-migrate\" into textbox, then click link \"sse\" (step 2)",
+					"lastSeen": "2026-10-25T09:34:38.958Z"
+				},
+				{
+					"id": "3190f5d96e",
+					"dimension": "a11y",
+					"check": "type \"Sample text from markless-migrate\" into textbox, then press Enter on link \"response-targets\" (step 2)",
+					"lastSeen": "2026-10-25T09:34:38.958Z"
+				},
+				{
+					"id": "bd3ff06e52",
+					"dimension": "a11y",
+					"check": "type \"Sample text from markless-migrate\" into textbox, then press Enter on link \"sse\" (step 2)",
+					"lastSeen": "2026-10-25T09:34:38.958Z"
+				},
+				{
+					"id": "ae6a96455a",
+					"dimension": "behaviour",
+					"check": "click link \"hx-delete\"",
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "93fdac6aef",
@@ -494,12 +554,6 @@
 					"lastSeen": "2026-10-24T13:01:52.724Z"
 				},
 				{
-					"id": "ae6a96455a",
-					"dimension": "behaviour",
-					"check": "click link \"hx-delete\"",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
-				},
-				{
 					"id": "334b6760d1",
 					"dimension": "a11y",
 					"check": "press Enter on link \"reference\"",
@@ -507,8 +561,8 @@
 				}
 			],
 			"weight": {
-				"downloaded": 69852,
-				"executed": 29789
+				"downloaded": 71020,
+				"executed": 30848
 			},
 			"owner": "markless-migrate htmx-org port (thejackshelton)"
 		},
@@ -520,164 +574,200 @@
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "230c6343bf",
 					"dimension": "visual",
 					"check": "screenshot",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "2675ea3e9b",
 					"dimension": "rendered",
 					"check": "embed #1 <iframe>",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "9d76762ed2",
 					"dimension": "a11y",
 					"check": "axe label-content-name-mismatch: Elements must have their visible text as part of their accessible name",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "a570cce548",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "73d20b4dd2",
 					"dimension": "visual",
 					"check": "screenshot",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "9614cf69de",
 					"dimension": "rendered",
 					"check": "embed #1 <iframe>",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "c66bc9ddf8",
 					"dimension": "behaviour",
 					"check": "browser storage after the page loads",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
-					"id": "57e956ed87",
+					"id": "b9a4ef1dde",
+					"dimension": "a11y",
+					"check": "click button \"Click To Edit\", then press Enter on button \"Submit\" (step 2)",
+					"lastSeen": "2026-10-25T09:34:38.958Z"
+				},
+				{
+					"id": "5e5a568d7a",
 					"dimension": "behaviour",
-					"check": "click button \"Click To Edit\", then click button \"Cancel\" (step 2)",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"check": "click button \"Click To Edit\", then click button \"Cancel\" (step 1)",
+					"lastSeen": "2026-10-25T09:34:38.958Z"
+				},
+				{
+					"id": "e7665de9cd",
+					"dimension": "behaviour",
+					"check": "click clickable \"↑ Show\", then click clickable \"↓ Hide\" (step 1)",
+					"lastSeen": "2026-10-25T09:34:38.958Z"
+				},
+				{
+					"id": "e406990b08",
+					"dimension": "a11y",
+					"check": "press Space on button \"Click To Edit\"",
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "71c24e5213",
 					"dimension": "responsiveness",
 					"check": "first interaction with button \"Click To Edit\" (4x CPU, mobile)",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "11a5a79885",
 					"dimension": "visual",
 					"check": "embed github-button-bigskysoftware-htmx-star light rest",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "157850d056",
 					"dimension": "visual",
 					"check": "embed github-button-bigskysoftware-htmx-star light hover",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "4ced58a4ab",
 					"dimension": "visual",
 					"check": "embed github-button-bigskysoftware-htmx-star light focus",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "a64d6d64e6",
 					"dimension": "visual",
 					"check": "embed github-button-bigskysoftware-htmx-star dark rest",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "e5d6a33cec",
 					"dimension": "visual",
 					"check": "embed github-button-bigskysoftware-htmx-star dark hover",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "00d20a0358",
 					"dimension": "visual",
 					"check": "embed github-button-bigskysoftware-htmx-star dark focus",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "7e00e01639",
 					"dimension": "visual",
 					"check": "embed github-button-bigskysoftware-htmx-star light rest",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "22a6927ab5",
 					"dimension": "visual",
 					"check": "embed github-button-bigskysoftware-htmx-star light hover",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "e108b98a01",
 					"dimension": "visual",
 					"check": "embed github-button-bigskysoftware-htmx-star light focus",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "9e16b39203",
 					"dimension": "visual",
 					"check": "embed github-button-bigskysoftware-htmx-star dark rest",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "2dd6356878",
 					"dimension": "visual",
 					"check": "embed github-button-bigskysoftware-htmx-star dark hover",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "35c69b5247",
 					"dimension": "visual",
 					"check": "embed github-button-bigskysoftware-htmx-star dark focus",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-24T13:01:52.724Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "1a76fdd897",
 					"dimension": "behaviour",
 					"check": "click link \"docs\", in the layout shared with /",
-					"lastSeen": "2026-10-23T22:39:23.346Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
 					"id": "b30bc4855d",
 					"dimension": "behaviour",
 					"check": "click link \"reference\", in the layout shared with /",
-					"lastSeen": "2026-10-23T22:39:23.346Z"
+					"lastSeen": "2026-10-25T09:34:38.958Z"
+				},
+				{
+					"id": "5e28c6b2de",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"reference\" #2, shared with /",
+					"lastSeen": "2026-10-25T09:34:38.958Z"
+				},
+				{
+					"id": "3983e63e5b",
+					"dimension": "behaviour",
+					"check": "click link \"essays\" #2, in the layout shared with /",
+					"lastSeen": "2026-10-25T09:34:38.958Z"
+				},
+				{
+					"id": "57e956ed87",
+					"dimension": "behaviour",
+					"check": "click button \"Click To Edit\", then click button \"Cancel\" (step 2)",
+					"lastSeen": "2026-10-24T13:01:52.724Z"
 				},
 				{
 					"id": "090047b41e",
@@ -693,8 +783,8 @@
 				}
 			],
 			"weight": {
-				"downloaded": 83657,
-				"executed": 134465
+				"downloaded": 83342,
+				"executed": 114804
 			},
 			"owner": "markless-migrate htmx-org port (thejackshelton)"
 		}
@@ -718,6 +808,8 @@
 		"GET https://github.githubassets.com/assets/relative-time-element-a7b7e0f1360ca8f9.js",
 		"GET https://github.githubassets.com/assets/sm-22346830d5e5a763.js",
 		"GET https://github.githubassets.com/assets/ur-4cd875e44a87e9f6.js",
-		"GET https://github.githubassets.com/assets/wp-runtime-37a48fef46886929.js"
+		"GET https://github.githubassets.com/assets/wp-runtime-37a48fef46886929.js",
+		"GET https://htmx.org/extensions/response-targets",
+		"GET https://htmx.org/extensions/sse"
 	]
 }

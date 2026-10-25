@@ -1,0 +1,22 @@
+{
+	"suite": "shadcn-ui",
+	"lane": "full",
+	"markless": {
+		"sha": "974fd98619dcad5268e7988e7ed87aa4ac01d783",
+		"version": "0.9.0",
+		"ref": "main"
+	},
+	"migrate": {
+		"sha": "12207a0e3ac135cf58d37a8e838904ef7c14abf7"
+	},
+	"recordedAt": "2026-10-25T10:17:51.359Z",
+	"steps": {
+		"install": "pass",
+		"build": "fail",
+		"test": "skipped",
+		"serve": "skipped",
+		"check": "skipped"
+	},
+	"routes": {},
+	"misses": []
+}
