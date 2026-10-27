@@ -2,14 +2,14 @@
 	"suite": "htmx-org",
 	"lane": "sample",
 	"markless": {
-		"sha": "af75a5f3822aa297d890a696fda75f83d1b27d2a",
+		"sha": "f2014b5696e4b9a58461d06ef452b8084bfe28b7",
 		"version": "0.9.0",
 		"ref": "main"
 	},
 	"migrate": {
 		"sha": "b55adac69098299b8b638de1b79d50454f8c5b68"
 	},
-	"recordedAt": "2026-10-26T09:05:47.716Z",
+	"recordedAt": "2026-10-27T09:09:43.123Z",
 	"steps": {
 		"install": "pass",
 		"build": "pass",
@@ -26,310 +26,346 @@
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "fedde897c8",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "e5540fc8a5",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "e5540fc8a5",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "ab2a321417",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "79c34a83a5",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "091224fedc",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "82b47d84ef",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "f85b01343d",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "7db2c5f747",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "0a39fa0660",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "32619c85b7",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "8ca678cf13",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "ae181dc5c7",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "a01f60633c",
 					"dimension": "a11y",
 					"check": "axe label-content-name-mismatch: Elements must have their visible text as part of their accessible name",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "b380c276c2",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "24ebc1a09c",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "90b06c2fe0",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "90b06c2fe0",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "ead4bf9a4e",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "9a7a035548",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "944139af86",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "77187c9ee1",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "8351b1a215",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "9c3f6baec7",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "851a985265",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "cd69b1d5fd",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "5885b3ed4f",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "f448a98f1b",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
+				},
+				{
+					"id": "703401db8d",
+					"dimension": "behaviour",
+					"check": "browser storage after the page loads",
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "e27ba9779d",
 					"dimension": "network",
 					"check": "browser request missing",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
+				},
+				{
+					"id": "25b060f911",
+					"dimension": "behaviour",
+					"check": "click link \"AJAX\"",
+					"lastSeen": "2026-10-27T09:09:43.123Z"
+				},
+				{
+					"id": "bee3b9c949",
+					"dimension": "behaviour",
+					"check": "click link \"CSS Transitions\"",
+					"lastSeen": "2026-10-27T09:09:43.123Z"
+				},
+				{
+					"id": "fe5cc997a6",
+					"dimension": "behaviour",
+					"check": "click link \"Anchor link for: silver-sponsors\"",
+					"lastSeen": "2026-10-27T09:09:43.123Z"
+				},
+				{
+					"id": "fb3c3306b3",
+					"dimension": "behaviour",
+					"check": "click link \"</> htmx\"",
+					"lastSeen": "2026-10-27T09:09:43.123Z"
+				},
+				{
+					"id": "e8b3b7e03c",
+					"dimension": "behaviour",
+					"check": "click link \"reference\"",
+					"lastSeen": "2026-10-27T09:09:43.123Z"
+				},
+				{
+					"id": "4cabbbf39d",
+					"dimension": "behaviour",
+					"check": "click link \"examples\"",
+					"lastSeen": "2026-10-27T09:09:43.123Z"
+				},
+				{
+					"id": "bbfd1daa4a",
+					"dimension": "behaviour",
+					"check": "click link \"docs\" #2",
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "88f55016b6",
 					"dimension": "visual",
 					"check": "embed host-github-com-sponsors-bigskysoftware-button light rest",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "650aef241c",
 					"dimension": "visual",
 					"check": "embed host-github-com-sponsors-bigskysoftware-button light hover",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "82bcdc4841",
 					"dimension": "visual",
 					"check": "embed host-github-com-sponsors-bigskysoftware-button light focus",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "6b508e630c",
 					"dimension": "visual",
 					"check": "embed host-github-com-sponsors-bigskysoftware-button dark rest",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "b8c3cad5e0",
 					"dimension": "visual",
 					"check": "embed host-github-com-sponsors-bigskysoftware-button dark hover",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "aedac80a89",
 					"dimension": "visual",
 					"check": "embed host-github-com-sponsors-bigskysoftware-button dark focus",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "9e0be0615f",
 					"dimension": "visual",
 					"check": "embed host-github-com-sponsors-bigskysoftware-button light rest",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "57a92bd0e4",
 					"dimension": "visual",
 					"check": "embed host-github-com-sponsors-bigskysoftware-button light hover",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "60e801719a",
 					"dimension": "visual",
 					"check": "embed host-github-com-sponsors-bigskysoftware-button light focus",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "11068e3a9a",
 					"dimension": "visual",
 					"check": "embed host-github-com-sponsors-bigskysoftware-button dark rest",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "75babdb90a",
 					"dimension": "visual",
 					"check": "embed host-github-com-sponsors-bigskysoftware-button dark hover",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "20e12118ad",
 					"dimension": "visual",
 					"check": "embed host-github-com-sponsors-bigskysoftware-button dark focus",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
-				},
-				{
-					"id": "703401db8d",
-					"dimension": "behaviour",
-					"check": "browser storage after the page loads",
-					"lastSeen": "2026-10-25T09:34:38.958Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "ba64c1b5c7",
 					"dimension": "behaviour",
 					"check": "click link \"docs\"",
-					"lastSeen": "2026-10-25T09:34:38.958Z"
-				},
-				{
-					"id": "e8b3b7e03c",
-					"dimension": "behaviour",
-					"check": "click link \"reference\"",
 					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
@@ -339,24 +375,6 @@
 					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
-					"id": "fe80324e3b",
-					"dimension": "behaviour",
-					"check": "click link \"AJAX\"",
-					"lastSeen": "2026-10-23T22:39:23.346Z"
-				},
-				{
-					"id": "5114de2b6d",
-					"dimension": "behaviour",
-					"check": "click link \"CSS Transitions\"",
-					"lastSeen": "2026-10-23T22:39:23.346Z"
-				},
-				{
-					"id": "4cabbbf39d",
-					"dimension": "behaviour",
-					"check": "click link \"examples\"",
-					"lastSeen": "2026-10-23T22:39:23.346Z"
-				},
-				{
 					"id": "7734466dc0",
 					"dimension": "behaviour",
 					"check": "click link \"talk\"",
@@ -364,8 +382,8 @@
 				}
 			],
 			"weight": {
-				"downloaded": 64460,
-				"executed": 16737
+				"downloaded": 61505,
+				"executed": 17665
 			},
 			"owner": "markless-migrate htmx-org port (thejackshelton)"
 		},
@@ -377,40 +395,53 @@
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "890c74c6a9",
 					"dimension": "a11y",
 					"check": "axe label-content-name-mismatch: Elements must have their visible text as part of their accessible name",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "2884c1ad56",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "3413719f01",
 					"dimension": "visual",
 					"check": "screenshot",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "cf15ddee5e",
 					"dimension": "behaviour",
 					"check": "browser storage after the page loads",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "57d1a4db5e",
 					"dimension": "network",
 					"check": "browser request missing",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
+				},
+				{
+					"id": "772789bc24",
+					"dimension": "a11y",
+					"check": "press Enter on link \"examples\", in the layout shared with /docs/",
+					"lastSeen": "2026-10-27T09:09:43.123Z"
+				},
+				{
+					"id": "b4338698a0",
+					"dimension": "navigation",
+					"check": "in place from /docs/: layout during the swap",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "3a90b5f0e2",
@@ -447,13 +478,6 @@
 					"id": "35f54d5ebf",
 					"dimension": "a11y",
 					"check": "type \"Sample text from markless-migrate\" into textbox, then press Enter on link \"response-targets\" #3 (step 2), in the layout shared with /docs/",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
-				},
-				{
-					"id": "b4338698a0",
-					"dimension": "navigation",
-					"check": "in place from /docs/: layout during the swap",
-					"viewport": "desktop",
 					"lastSeen": "2026-10-26T09:05:47.716Z"
 				},
 				{
@@ -500,8 +524,8 @@
 				}
 			],
 			"weight": {
-				"downloaded": 68158,
-				"executed": 61670
+				"downloaded": 65211,
+				"executed": 53520
 			},
 			"owner": "markless-migrate htmx-org port (thejackshelton)"
 		},
@@ -513,33 +537,45 @@
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "9f41a03e74",
 					"dimension": "a11y",
 					"check": "axe label-content-name-mismatch: Elements must have their visible text as part of their accessible name",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "512377010d",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "5481512f14",
 					"dimension": "behaviour",
 					"check": "browser storage after the page loads",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "015679c21b",
 					"dimension": "network",
 					"check": "browser request missing",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
+				},
+				{
+					"id": "dbfed7cbaf",
+					"dimension": "a11y",
+					"check": "press Enter on link \"examples\"",
+					"lastSeen": "2026-10-27T09:09:43.123Z"
+				},
+				{
+					"id": "ae6a96455a",
+					"dimension": "behaviour",
+					"check": "click link \"hx-delete\"",
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "609ca0f7a6",
@@ -557,12 +593,6 @@
 					"id": "91e7118219",
 					"dimension": "a11y",
 					"check": "type \"Sample text from markless-migrate\" into textbox, then press Enter on link \"response-targets\" #3 (step 2)",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
-				},
-				{
-					"id": "ae6a96455a",
-					"dimension": "behaviour",
-					"check": "click link \"hx-delete\"",
 					"lastSeen": "2026-10-26T09:05:47.716Z"
 				},
 				{
@@ -609,8 +639,8 @@
 				}
 			],
 			"weight": {
-				"downloaded": 69559,
-				"executed": 29008
+				"downloaded": 66604,
+				"executed": 30152
 			},
 			"owner": "markless-migrate htmx-org port (thejackshelton)"
 		},
@@ -622,146 +652,176 @@
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "230c6343bf",
 					"dimension": "visual",
 					"check": "screenshot",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "2675ea3e9b",
 					"dimension": "rendered",
 					"check": "embed #1 <iframe>",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "9d76762ed2",
 					"dimension": "a11y",
 					"check": "axe label-content-name-mismatch: Elements must have their visible text as part of their accessible name",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "a570cce548",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "73d20b4dd2",
 					"dimension": "visual",
 					"check": "screenshot",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "9614cf69de",
 					"dimension": "rendered",
 					"check": "embed #1 <iframe>",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
+				},
+				{
+					"id": "c66bc9ddf8",
+					"dimension": "behaviour",
+					"check": "browser storage after the page loads",
+					"lastSeen": "2026-10-27T09:09:43.123Z"
+				},
+				{
+					"id": "de1c3cb53e",
+					"dimension": "behaviour",
+					"check": "click button \"Click To Edit\", then type \"ada@example.com\" into textbox \"Email Address\" (step 1)",
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "71c24e5213",
 					"dimension": "responsiveness",
 					"check": "first interaction with button \"Click To Edit\" (4x CPU, mobile)",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "11a5a79885",
 					"dimension": "visual",
 					"check": "embed github-button-bigskysoftware-htmx-star light rest",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "157850d056",
 					"dimension": "visual",
 					"check": "embed github-button-bigskysoftware-htmx-star light hover",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "4ced58a4ab",
 					"dimension": "visual",
 					"check": "embed github-button-bigskysoftware-htmx-star light focus",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "a64d6d64e6",
 					"dimension": "visual",
 					"check": "embed github-button-bigskysoftware-htmx-star dark rest",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "e5d6a33cec",
 					"dimension": "visual",
 					"check": "embed github-button-bigskysoftware-htmx-star dark hover",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "00d20a0358",
 					"dimension": "visual",
 					"check": "embed github-button-bigskysoftware-htmx-star dark focus",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "7e00e01639",
 					"dimension": "visual",
 					"check": "embed github-button-bigskysoftware-htmx-star light rest",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "22a6927ab5",
 					"dimension": "visual",
 					"check": "embed github-button-bigskysoftware-htmx-star light hover",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "e108b98a01",
 					"dimension": "visual",
 					"check": "embed github-button-bigskysoftware-htmx-star light focus",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "9e16b39203",
 					"dimension": "visual",
 					"check": "embed github-button-bigskysoftware-htmx-star dark rest",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "2dd6356878",
 					"dimension": "visual",
 					"check": "embed github-button-bigskysoftware-htmx-star dark hover",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "35c69b5247",
 					"dimension": "visual",
 					"check": "embed github-button-bigskysoftware-htmx-star dark focus",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-26T09:05:47.716Z"
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
-					"id": "c66bc9ddf8",
+					"id": "510a4869b3",
 					"dimension": "behaviour",
-					"check": "browser storage after the page loads",
-					"lastSeen": "2026-10-25T09:34:38.958Z"
+					"check": "click link \"</> htmx\", in the layout shared with /",
+					"lastSeen": "2026-10-27T09:09:43.123Z"
+				},
+				{
+					"id": "b30bc4855d",
+					"dimension": "behaviour",
+					"check": "click link \"reference\", in the layout shared with /",
+					"lastSeen": "2026-10-27T09:09:43.123Z"
+				},
+				{
+					"id": "090047b41e",
+					"dimension": "behaviour",
+					"check": "click link \"examples\", in the layout shared with /",
+					"lastSeen": "2026-10-27T09:09:43.123Z"
+				},
+				{
+					"id": "b76445056d",
+					"dimension": "behaviour",
+					"check": "click link \"docs\" #2, in the layout shared with /",
+					"lastSeen": "2026-10-27T09:09:43.123Z"
 				},
 				{
 					"id": "b9a4ef1dde",
@@ -794,12 +854,6 @@
 					"lastSeen": "2026-10-25T09:34:38.958Z"
 				},
 				{
-					"id": "b30bc4855d",
-					"dimension": "behaviour",
-					"check": "click link \"reference\", in the layout shared with /",
-					"lastSeen": "2026-10-25T09:34:38.958Z"
-				},
-				{
 					"id": "5e28c6b2de",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"reference\" #2, shared with /",
@@ -818,12 +872,6 @@
 					"lastSeen": "2026-10-24T13:01:52.724Z"
 				},
 				{
-					"id": "090047b41e",
-					"dimension": "behaviour",
-					"check": "click link \"examples\", in the layout shared with /",
-					"lastSeen": "2026-10-23T22:39:23.346Z"
-				},
-				{
 					"id": "cc9d1061fb",
 					"dimension": "behaviour",
 					"check": "click link \"talk\", in the layout shared with /",
@@ -831,8 +879,8 @@
 				}
 			],
 			"weight": {
-				"downloaded": 84694,
-				"executed": 115242
+				"downloaded": 82075,
+				"executed": 106679
 			},
 			"owner": "markless-migrate htmx-org port (thejackshelton)"
 		}
