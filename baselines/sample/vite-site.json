@@ -2,14 +2,14 @@
 	"suite": "vite-site",
 	"lane": "sample",
 	"markless": {
-		"sha": "f2014b5696e4b9a58461d06ef452b8084bfe28b7",
+		"sha": "f79073248eb28b08e53d7d41fbea038608cef25c",
 		"version": "0.9.0",
 		"ref": "main"
 	},
 	"migrate": {
 		"sha": "b55adac69098299b8b638de1b79d50454f8c5b68"
 	},
-	"recordedAt": "2026-10-27T09:16:45.660Z",
+	"recordedAt": "2026-10-28T11:54:56.623Z",
 	"steps": {
 		"install": "pass",
 		"build": "pass",
@@ -22,34 +22,34 @@
 			"ok": false,
 			"failures": [
 				{
-					"id": "db4147ae78",
+					"id": "cfece3bffd",
 					"dimension": "weight",
 					"check": "JavaScript downloaded",
-					"lastSeen": "2026-10-27T09:16:45.660Z"
+					"lastSeen": "2026-10-28T11:54:56.623Z"
 				},
 				{
-					"id": "94153bef8f",
+					"id": "4e3e864161",
 					"dimension": "weight",
 					"check": "JavaScript run at load",
-					"lastSeen": "2026-10-27T09:16:45.660Z"
+					"lastSeen": "2026-10-28T11:54:56.623Z"
 				},
 				{
 					"id": "eedbbbab88",
 					"dimension": "navigation",
 					"check": "back to / after going in place from / to /ar/: DOM",
-					"lastSeen": "2026-10-27T09:16:45.660Z"
+					"lastSeen": "2026-10-28T11:54:56.623Z"
 				},
 				{
 					"id": "2c74b56dfe",
 					"dimension": "navigation",
 					"check": "back to / after going in place from / to /ar/: screenshot",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-27T09:16:45.660Z"
+					"lastSeen": "2026-10-28T11:54:56.623Z"
 				}
 			],
 			"weight": {
-				"downloaded": 62834,
-				"executed": 51115
+				"downloaded": 62994,
+				"executed": 51483
 			},
 			"owner": "markless-migrate vite-site port (thejackshelton)"
 		},
@@ -57,21 +57,21 @@
 			"ok": false,
 			"failures": [
 				{
-					"id": "ab1d920a87",
+					"id": "7f01f2d20d",
 					"dimension": "weight",
 					"check": "JavaScript downloaded",
-					"lastSeen": "2026-10-27T09:16:45.660Z"
+					"lastSeen": "2026-10-28T11:54:56.623Z"
 				},
 				{
-					"id": "8883d81302",
+					"id": "993eb21b93",
 					"dimension": "weight",
 					"check": "JavaScript run at load",
-					"lastSeen": "2026-10-27T09:16:45.660Z"
+					"lastSeen": "2026-10-28T11:54:56.623Z"
 				}
 			],
 			"weight": {
-				"downloaded": 62377,
-				"executed": 22864
+				"downloaded": 62535,
+				"executed": 23068
 			},
 			"owner": "markless-migrate vite-site port (thejackshelton)"
 		},
@@ -79,21 +79,21 @@
 			"ok": false,
 			"failures": [
 				{
-					"id": "311f37d14b",
+					"id": "bef03e51fc",
 					"dimension": "weight",
 					"check": "JavaScript downloaded",
-					"lastSeen": "2026-10-27T09:16:45.660Z"
+					"lastSeen": "2026-10-28T11:54:56.623Z"
 				},
 				{
-					"id": "36bb206e2f",
+					"id": "139b82b1f2",
 					"dimension": "weight",
 					"check": "JavaScript run at load",
-					"lastSeen": "2026-10-27T09:16:45.660Z"
+					"lastSeen": "2026-10-28T11:54:56.623Z"
 				}
 			],
 			"weight": {
-				"downloaded": 53999,
-				"executed": 38857
+				"downloaded": 54151,
+				"executed": 39426
 			},
 			"owner": "markless-migrate vite-site port (thejackshelton)"
 		},
@@ -101,21 +101,21 @@
 			"ok": false,
 			"failures": [
 				{
-					"id": "074510eec7",
+					"id": "42288cab18",
 					"dimension": "weight",
 					"check": "JavaScript downloaded",
-					"lastSeen": "2026-10-27T09:16:45.660Z"
+					"lastSeen": "2026-10-28T11:54:56.623Z"
 				},
 				{
-					"id": "5cedda416a",
+					"id": "7182ffb626",
 					"dimension": "weight",
 					"check": "JavaScript run at load",
-					"lastSeen": "2026-10-27T09:16:45.660Z"
+					"lastSeen": "2026-10-28T11:54:56.623Z"
 				}
 			],
 			"weight": {
-				"downloaded": 54000,
-				"executed": 38857
+				"downloaded": 54152,
+				"executed": 39203
 			},
 			"owner": "markless-migrate vite-site port (thejackshelton)"
 		}

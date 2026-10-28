@@ -2,14 +2,14 @@
 	"suite": "remix-notes",
 	"lane": "sample",
 	"markless": {
-		"sha": "f2014b5696e4b9a58461d06ef452b8084bfe28b7",
+		"sha": "f79073248eb28b08e53d7d41fbea038608cef25c",
 		"version": "0.9.0",
 		"ref": "main"
 	},
 	"migrate": {
 		"sha": "b55adac69098299b8b638de1b79d50454f8c5b68"
 	},
-	"recordedAt": "2026-10-27T09:09:18.968Z",
+	"recordedAt": "2026-10-28T11:59:17.244Z",
 	"steps": {
 		"install": "pass",
 		"build": "pass",
@@ -22,7 +22,7 @@
 			"ok": true,
 			"failures": [],
 			"weight": {
-				"downloaded": 70836,
+				"downloaded": 70926,
 				"executed": 10595
 			}
 		},
@@ -30,7 +30,7 @@
 			"ok": true,
 			"failures": [],
 			"weight": {
-				"downloaded": 69087,
+				"downloaded": 69177,
 				"executed": 10394
 			}
 		},
@@ -38,7 +38,7 @@
 			"ok": true,
 			"failures": [],
 			"weight": {
-				"downloaded": 66316,
+				"downloaded": 66406,
 				"executed": 11043
 			}
 		},
@@ -49,19 +49,19 @@
 					"id": "9269030c02",
 					"dimension": "a11y",
 					"check": "press Enter on button \"Logout\"",
-					"lastSeen": "2026-10-27T09:09:18.968Z"
+					"lastSeen": "2026-10-28T11:59:17.244Z"
 				},
 				{
 					"id": "75b816b410",
 					"dimension": "responsiveness",
 					"check": "navigation from link \"Notes\" (4x CPU, mobile)",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-27T09:09:18.968Z"
+					"lastSeen": "2026-10-28T11:59:17.244Z"
 				}
 			],
 			"weight": {
-				"downloaded": 77542,
-				"executed": 12305
+				"downloaded": 77632,
+				"executed": 12412
 			},
 			"owner": "markless-migrate remix-notes port (thejackshelton)"
 		},
@@ -69,8 +69,8 @@
 			"ok": true,
 			"failures": [],
 			"weight": {
-				"downloaded": 66316,
-				"executed": 40342
+				"downloaded": 66406,
+				"executed": 40443
 			}
 		},
 		"/notes/cmvcee9oe0002ag8afyyiylz8 as signed-in": {
@@ -80,25 +80,25 @@
 					"id": "7f6b17fe56",
 					"dimension": "a11y",
 					"check": "press Enter on button \"Logout\"",
-					"lastSeen": "2026-10-27T09:09:18.968Z"
+					"lastSeen": "2026-10-28T11:59:17.244Z"
 				},
 				{
 					"id": "de1a7cd72c",
 					"dimension": "a11y",
 					"check": "press Enter on button \"Delete\"",
-					"lastSeen": "2026-10-27T09:09:18.968Z"
+					"lastSeen": "2026-10-28T11:59:17.244Z"
 				},
 				{
 					"id": "913dee19c1",
 					"dimension": "responsiveness",
 					"check": "navigation from link \"📝 My first note\" (4x CPU, mobile)",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-27T09:09:18.968Z"
+					"lastSeen": "2026-10-28T11:59:17.244Z"
 				}
 			],
 			"weight": {
-				"downloaded": 77542,
-				"executed": 12305
+				"downloaded": 77632,
+				"executed": 12412
 			},
 			"owner": "markless-migrate remix-notes port (thejackshelton)"
 		}
