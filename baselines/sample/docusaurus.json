@@ -2,14 +2,14 @@
 	"suite": "docusaurus",
 	"lane": "sample",
 	"markless": {
-		"sha": "f79073248eb28b08e53d7d41fbea038608cef25c",
+		"sha": "8f277831d950491246116382eb50959f0dba767a",
 		"version": "0.9.0",
 		"ref": "main"
 	},
 	"migrate": {
 		"sha": "b55adac69098299b8b638de1b79d50454f8c5b68"
 	},
-	"recordedAt": "2026-10-28T11:52:15.046Z",
+	"recordedAt": "2026-10-29T09:58:23.279Z",
 	"steps": {
 		"install": "pass",
 		"build": "pass",
@@ -26,60 +26,104 @@
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "e5a38fb467",
 					"dimension": "rendered",
 					"check": "visible text",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "af950c6746",
 					"dimension": "visual",
 					"check": "screenshot",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "1cbeb80a44",
 					"dimension": "a11y",
 					"check": "focus order (Tab), first difference at stop 14",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "ee94bcf2cb",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "f9c8edbc4d",
 					"dimension": "assets",
 					"check": "script /vendor/docsearch-4.7.0.js",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "d8cc5a0aa7",
 					"dimension": "visual",
 					"check": "screenshot in :hover on .dropdown--hoverable",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "c6776f880c",
 					"dimension": "behaviour",
 					"check": "click button \"Close\" (step 2 of 2: reload after use 1)",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "fa31247a4c",
 					"dimension": "behaviour",
 					"check": "click button \"Close\", then follow link \"Docusaurus\" (step 3 of 3: reload after use 1, on the page it led to)",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "80f18ac567",
+					"dimension": "a11y",
+					"check": "press Enter on button \"Search (Control+k)\"",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "f1b8ce9ba3",
+					"dimension": "motion",
+					"check": "press Enter on button \"Switch between dark and light mode (currently system mode)\": motion of link \"Docusaurus 3.10 is out!️\" (main>link/a) and 2 more elements alike",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "9fc1eda842",
+					"dimension": "motion",
+					"check": "press Space on button \"Switch between dark and light mode (currently system mode)\": motion of link \"Docusaurus 3.10 is out!️\" (main>link/a) and 2 more elements alike",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "6d1b2aacdb",
+					"dimension": "navigation",
+					"check": "back to / after going in place from / to /docs/installation: computed styles of nav",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "1a1ac1ecfe",
+					"dimension": "navigation",
+					"check": "back to / after going in place from / after button \"Switch between dark and light mode (currently system mode)\" to /docs/installation: computed styles of nav",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "c6cdfd0842",
+					"dimension": "navigation",
+					"check": "in place from /docs/installation: <html> class and data-* attributes, against the old app reached the same way",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "c7bf47873a",
+					"dimension": "navigation",
+					"check": "in place from /docs/installation after button \"Switch between dark and light mode (currently system mode)\": <html> class and data-* attributes, against the old app reached the same way",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "f9ca8fe697",
@@ -235,30 +279,6 @@
 					"lastSeen": "2026-10-28T11:52:15.046Z"
 				},
 				{
-					"id": "6d1b2aacdb",
-					"dimension": "navigation",
-					"check": "back to / after going in place from / to /docs/installation: computed styles of nav",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "1a1ac1ecfe",
-					"dimension": "navigation",
-					"check": "back to / after going in place from / after button \"Switch between dark and light mode (currently system mode)\" to /docs/installation: computed styles of nav",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "c6cdfd0842",
-					"dimension": "navigation",
-					"check": "in place from /docs/installation: <html> class and data-* attributes, against the old app reached the same way",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "c7bf47873a",
-					"dimension": "navigation",
-					"check": "in place from /docs/installation after button \"Switch between dark and light mode (currently system mode)\": <html> class and data-* attributes, against the old app reached the same way",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
 					"id": "50562686dc",
 					"dimension": "behaviour",
 					"check": "click button \"Search (Control+k)\"",
@@ -361,71 +381,11 @@
 					"dimension": "behaviour",
 					"check": "click button \"Search (Control+k)\", then click button \"Search\", then click clickable <div> #94 in main (no name: matched by structure and position) (step 1)",
 					"lastSeen": "2026-10-24T13:04:42.678Z"
-				},
-				{
-					"id": "77ffc36205",
-					"dimension": "behaviour",
-					"check": "click link \"Introduction\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "5e1310280c",
-					"dimension": "behaviour",
-					"check": "click link \"Help\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "42b1aaa022",
-					"dimension": "behaviour",
-					"check": "click link \"Blog\" #2",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "026213c29f",
-					"dimension": "behaviour",
-					"check": "click button \"Search (Control+k)\", then click button \"Cancel\", then click clickable <div> #94 in main (no name: matched by structure and position), then click clickable \"404. Image not found\" (step 1)",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "8250c13589",
-					"dimension": "behaviour",
-					"check": "click link \"Feature Requests\"",
-					"lastSeen": "2026-10-22T04:33:33.027Z"
-				},
-				{
-					"id": "26254e7781",
-					"dimension": "behaviour",
-					"check": "click button \"English\"",
-					"lastSeen": "2026-10-22T03:58:11.831Z"
-				},
-				{
-					"id": "e6cc60e0e3",
-					"dimension": "behaviour",
-					"check": "not exercised: clickable <div> #94 in main (no name: matched by structure and position) (after click button \"Search (Control+k)\", then click button \"Cancel\")",
-					"lastSeen": "2026-10-22T03:58:11.831Z"
-				},
-				{
-					"id": "379bcbd185",
-					"dimension": "behaviour",
-					"check": "click link \"Changelog\"",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
-				},
-				{
-					"id": "cf042f82c3",
-					"dimension": "behaviour",
-					"check": "click clickable <div> #84 in main (no name: matched by structure and position), then click link (step 1)",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
-				},
-				{
-					"id": "af307f7db2",
-					"dimension": "behaviour",
-					"check": "click clickable <div> #89 in main (no name: matched by structure and position), then click clickable \"404. Image not found\" (step 1)",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
 				}
 			],
 			"weight": {
-				"downloaded": 74165,
-				"executed": 107725
+				"downloaded": 78030,
+				"executed": 110292
 			},
 			"owner": "markless-migrate docusaurus port (thejackshelton)"
 		},
@@ -437,41 +397,538 @@
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "2230f86ccf",
 					"dimension": "rendered",
 					"check": "visible text",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "a73325d966",
 					"dimension": "visual",
 					"check": "screenshot",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "b6a9f9bcf2",
 					"dimension": "a11y",
 					"check": "focus order (Tab), first difference at stop 14",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "0c7648290d",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "ed4f5b7fec",
 					"dimension": "assets",
 					"check": "script /vendor/docsearch-4.7.0.js",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "51a8397bdd",
+					"dimension": "visual",
+					"check": "screenshot in :hover on .dropdown--hoverable",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "8590f58414",
+					"dimension": "visual",
+					"check": "screenshot in :hover on .footer__link-item",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "c89626e410",
+					"dimension": "visual",
+					"check": "screenshot in :hover on .navbar__brand",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "1b1e11935e",
+					"dimension": "behaviour",
+					"check": "click tab \"Yarn\" (step 4 of 5: reload after use 3)",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "fc9b79a448",
+					"dimension": "behaviour",
+					"check": "click tab \"Yarn\", then follow link \"Docs\" (step 4 of 4: reload after use 2, on the page it led to)",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "df45f9fd98",
+					"dimension": "behaviour",
+					"check": "click tab \"pnpm\" (step 4 of 5: reload after use 3)",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "8736d13cff",
+					"dimension": "behaviour",
+					"check": "click tab \"pnpm\", then follow link \"Docs\" (step 4 of 4: reload after use 2, on the page it led to)",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "bdfa007fa2",
+					"dimension": "behaviour",
+					"check": "click button \"Close\" (step 2 of 2: reload after use 1)",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "2e68fbfce6",
+					"dimension": "behaviour",
+					"check": "click button \"Close\", then follow link \"Docs\" (step 3 of 3: reload after use 1, on the page it led to)",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "8a92c94bf7",
+					"dimension": "behaviour",
+					"check": "click button \"Switch between dark and light mode (currently system mode)\" (step 2 of 5: use 2)",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "a112288d02",
+					"dimension": "behaviour",
+					"check": "click button \"Switch between dark and light mode (currently system mode)\", then follow link \"Docs\" (step 3 of 4: use 2, on the page it led to)",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "9b94eb3dda",
+					"dimension": "behaviour",
+					"check": "click button \"Search (Control+k)\"",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "ae30302903",
+					"dimension": "behaviour",
+					"check": "click button \"Search (Control+k)\", then follow link \"Docs\"",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "946aedf71d",
+					"dimension": "behaviour",
+					"check": "click link \"Playground\"",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "6498669eea",
+					"dimension": "behaviour",
+					"check": "click button \"Switch between dark and light mode (currently system mode)\", with the OS in dark mode (step 2 of 5: use 2)",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "4d835d253a",
+					"dimension": "behaviour",
+					"check": "click button \"Switch between dark and light mode (currently system mode)\", then follow link \"Docs\", with the OS in dark mode (step 3 of 4: use 2, on the page it led to)",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "fdfb67d050",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Upgrading\"",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "cd1e374026",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Introduction\" #2",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "39b6784bb0",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Installation\" #2",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "3524333896",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Upgrading\" #2",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "6802a12714",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Feature Requests\"",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "c491854f06",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Help\"",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "653f1e028e",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Blog\" #3",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "a07d3ee5c8",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Changelog\"",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "996166b775",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Canary 🚧\" (after click button \"Canary 🚧\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "e7579b4ed9",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"All versions\" (after click button \"Canary 🚧\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "8f2c165f4f",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"English\" (after click button \"English\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "ceb8b8c756",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Français\" (after click button \"English\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "3e2cc8a70c",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Português (Brasil)\" (after click button \"English\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "ba768f761a",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"한국어\" (after click button \"English\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "252f532f10",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"中文（中国）\" (after click button \"English\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "c99f7b324a",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Search\" (after click button \"Search (Control+k)\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "15e75aa8eb",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Cancel\" (after click button \"Search (Control+k)\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "eecebecd19",
+					"dimension": "behaviour",
+					"check": "not exercised: searchbox \"Search\" (after click button \"Search (Control+k)\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "c15c69adde",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Expand sidebar category 'Getting Started'\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "342df0718b",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Expand sidebar category 'Docs'\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "64e6bd0cb7",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Expand sidebar category 'Markdown Features'\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "a71e71f25e",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Expand sidebar category 'Deployment'\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "f3829f1fa5",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Expand sidebar category 'Internationalization'\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "40b660e24b",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Pages\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "5199df8dce",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Docs\" #2 (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "fa469b3013",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Markdown Features\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "fbf89cbebe",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Styling and Layout\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "881a29fb06",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Swizzling\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "eba023def9",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Static Assets\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "2b53b31dc9",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Search\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "e418879dcd",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Browser support\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "0dca62257f",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"SEO\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "30e3444f1c",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Using Plugins\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "37ac491bdc",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Deployment\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "7672f3817e",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Internationalization\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "a55dba47a5",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"What's next?\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "1aba12df4b",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Blog\" #4 (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "9d8212da86",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Architecture\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "0e971ec345",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Plugins\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "19245c3875",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Routing\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "5cac4cfeee",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Static site generation\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "6c2839ba0b",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Client architecture\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "4d18c50a84",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"To Docusaurus v3\" (after click button \"Expand sidebar category 'Upgrading'\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "63eb802bd4",
+					"dimension": "motion",
+					"check": "click button \"Switch between dark and light mode (currently system mode)\": motion of link \"Docs\" (navigation>link/a) and 30 more elements alike",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "edc1bd334d",
+					"dimension": "motion",
+					"check": "click button \"Switch between dark and light mode (currently system mode)\": motion of generic \"Introduction\" (main>article>navigation>list>listitem/span)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "a007c2e001",
+					"dimension": "motion",
+					"check": "click button \"Switch between dark and light mode (currently system mode)\", then follow link \"Docs\": motion of link \"Docs\" (navigation>link/a) and 30 more elements alike",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "41fe571d50",
+					"dimension": "motion",
+					"check": "click button \"Switch between dark and light mode (currently system mode)\", then follow link \"Docs\": motion of generic \"Introduction\" (main>article>navigation>list>listitem/span)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "2d60eb0120",
+					"dimension": "motion",
+					"check": "click button \"Collapse sidebar category 'Getting Started'\": motion of list (complementary>navigation>list>listitem>list/ul)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "41b1b82dcd",
+					"dimension": "motion",
+					"check": "click button \"Expand sidebar category 'Guides'\": motion of generic (complementary>navigation>list>listitem/div)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "f6e2270a98",
+					"dimension": "motion",
+					"check": "click button \"Expand sidebar category 'Guides'\": motion of button \"Collapse sidebar category 'Guides'\" (complementary>navigation>list>listitem>button/button)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "292bf9c0d5",
+					"dimension": "motion",
+					"check": "click button \"Expand sidebar category 'Guides'\": motion of list (complementary>navigation>list>listitem>list/ul) and 1 more element alike",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "11f4a5b726",
+					"dimension": "motion",
+					"check": "click button \"Expand sidebar category 'Guides'\": motion of link \"Pages\" (complementary>navigation>list>listitem>list>listitem>link/a) and 1 more element alike",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "641b96b730",
+					"dimension": "motion",
+					"check": "click button \"Expand sidebar category 'Advanced Guides'\": motion of generic (complementary>navigation>list>listitem/div)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "119ee577de",
+					"dimension": "motion",
+					"check": "click button \"Expand sidebar category 'Advanced Guides'\": motion of button \"Collapse sidebar category 'Advanced Guides'\" (complementary>navigation>list>listitem>button/button)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "4aec4d1fda",
+					"dimension": "motion",
+					"check": "click button \"Expand sidebar category 'Advanced Guides'\": motion of list (complementary>navigation>list>listitem>list/ul) and 1 more element alike",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "91b145f745",
+					"dimension": "motion",
+					"check": "click button \"Expand sidebar category 'Advanced Guides'\": motion of link \"Architecture\" (complementary>navigation>list>listitem>list>listitem>link/a) and 1 more element alike",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "aabdd73e6f",
+					"dimension": "motion",
+					"check": "click button \"Expand sidebar category 'Upgrading'\": motion of generic (complementary>navigation>list>listitem/div)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "c812f8e5f7",
+					"dimension": "motion",
+					"check": "click button \"Expand sidebar category 'Upgrading'\": motion of button \"Collapse sidebar category 'Upgrading'\" (complementary>navigation>list>listitem>button/button)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "1caf93ae08",
+					"dimension": "motion",
+					"check": "click button \"Expand sidebar category 'Upgrading'\": motion of list (complementary>navigation>list>listitem>list/ul) and 1 more element alike",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "3f78c5e888",
+					"dimension": "motion",
+					"check": "click button \"Switch between dark and light mode (currently system mode)\" (step 2 of 5: use 2): frame of button \"Search (Control+k)\" (navigation>button/button)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "c72383051b",
+					"dimension": "motion",
+					"check": "click button \"Switch between dark and light mode (currently system mode)\" (step 2 of 5: use 2): frame of kbd \"Ctrl\" (navigation>button/kbd)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "d72814c002",
+					"dimension": "motion",
+					"check": "click button \"Switch between dark and light mode (currently system mode)\" (step 3 of 5: use 3): frame of button \"Search (Control+k)\" (navigation>button/button)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "d748c80636",
+					"dimension": "motion",
+					"check": "click button \"Switch between dark and light mode (currently system mode)\" (step 3 of 5: use 3): frame of kbd \"Ctrl\" (navigation>button/kbd)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "689609175b",
@@ -502,51 +959,6 @@
 					"lastSeen": "2026-10-28T11:52:15.046Z"
 				},
 				{
-					"id": "51a8397bdd",
-					"dimension": "visual",
-					"check": "screenshot in :hover on .dropdown--hoverable",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "8590f58414",
-					"dimension": "visual",
-					"check": "screenshot in :hover on .footer__link-item",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "c89626e410",
-					"dimension": "visual",
-					"check": "screenshot in :hover on .navbar__brand",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "1b1e11935e",
-					"dimension": "behaviour",
-					"check": "click tab \"Yarn\" (step 4 of 5: reload after use 3)",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "fc9b79a448",
-					"dimension": "behaviour",
-					"check": "click tab \"Yarn\", then follow link \"Docs\" (step 4 of 4: reload after use 2, on the page it led to)",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "df45f9fd98",
-					"dimension": "behaviour",
-					"check": "click tab \"pnpm\" (step 4 of 5: reload after use 3)",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "8736d13cff",
-					"dimension": "behaviour",
-					"check": "click tab \"pnpm\", then follow link \"Docs\" (step 4 of 4: reload after use 2, on the page it led to)",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
 					"id": "f1f39cb235",
 					"dimension": "behaviour",
 					"check": "click tab \"Bun\" (step 4 of 5: reload after use 3)",
@@ -559,433 +971,9 @@
 					"lastSeen": "2026-10-28T11:52:15.046Z"
 				},
 				{
-					"id": "bdfa007fa2",
-					"dimension": "behaviour",
-					"check": "click button \"Close\" (step 2 of 2: reload after use 1)",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "2e68fbfce6",
-					"dimension": "behaviour",
-					"check": "click button \"Close\", then follow link \"Docs\" (step 3 of 3: reload after use 1, on the page it led to)",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "8a92c94bf7",
-					"dimension": "behaviour",
-					"check": "click button \"Switch between dark and light mode (currently system mode)\" (step 2 of 5: use 2)",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "a112288d02",
-					"dimension": "behaviour",
-					"check": "click button \"Switch between dark and light mode (currently system mode)\", then follow link \"Docs\" (step 3 of 4: use 2, on the page it led to)",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "9b94eb3dda",
-					"dimension": "behaviour",
-					"check": "click button \"Search (Control+k)\"",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "ae30302903",
-					"dimension": "behaviour",
-					"check": "click button \"Search (Control+k)\", then follow link \"Docs\"",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "946aedf71d",
-					"dimension": "behaviour",
-					"check": "click link \"Playground\"",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "6498669eea",
-					"dimension": "behaviour",
-					"check": "click button \"Switch between dark and light mode (currently system mode)\", with the OS in dark mode (step 2 of 5: use 2)",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "4d835d253a",
-					"dimension": "behaviour",
-					"check": "click button \"Switch between dark and light mode (currently system mode)\", then follow link \"Docs\", with the OS in dark mode (step 3 of 4: use 2, on the page it led to)",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "fdfb67d050",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Upgrading\"",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "cd1e374026",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Introduction\" #2",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "39b6784bb0",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Installation\" #2",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "3524333896",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Upgrading\" #2",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "6802a12714",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Feature Requests\"",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "c491854f06",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Help\"",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "653f1e028e",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Blog\" #3",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "a07d3ee5c8",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Changelog\"",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "996166b775",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Canary 🚧\" (after click button \"Canary 🚧\")",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "e7579b4ed9",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"All versions\" (after click button \"Canary 🚧\")",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "8f2c165f4f",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"English\" (after click button \"English\")",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "ceb8b8c756",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Français\" (after click button \"English\")",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "3e2cc8a70c",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Português (Brasil)\" (after click button \"English\")",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "ba768f761a",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"한국어\" (after click button \"English\")",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "252f532f10",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"中文（中国）\" (after click button \"English\")",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "c99f7b324a",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Search\" (after click button \"Search (Control+k)\")",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "15e75aa8eb",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Cancel\" (after click button \"Search (Control+k)\")",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "eecebecd19",
-					"dimension": "behaviour",
-					"check": "not exercised: searchbox \"Search\" (after click button \"Search (Control+k)\")",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "c15c69adde",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Expand sidebar category 'Getting Started'\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "342df0718b",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Expand sidebar category 'Docs'\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "64e6bd0cb7",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Expand sidebar category 'Markdown Features'\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "a71e71f25e",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Expand sidebar category 'Deployment'\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "f3829f1fa5",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Expand sidebar category 'Internationalization'\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "40b660e24b",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Pages\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "5199df8dce",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Docs\" #2 (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "fa469b3013",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Markdown Features\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "fbf89cbebe",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Styling and Layout\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "881a29fb06",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Swizzling\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "eba023def9",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Static Assets\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "2b53b31dc9",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Search\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "e418879dcd",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Browser support\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "0dca62257f",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"SEO\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "30e3444f1c",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Using Plugins\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "37ac491bdc",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Deployment\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "7672f3817e",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Internationalization\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "a55dba47a5",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"What's next?\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "1aba12df4b",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Blog\" #4 (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "9d8212da86",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Architecture\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "0e971ec345",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Plugins\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "19245c3875",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Routing\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "5cac4cfeee",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Static site generation\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "6c2839ba0b",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Client architecture\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "4d18c50a84",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"To Docusaurus v3\" (after click button \"Expand sidebar category 'Upgrading'\")",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
 					"id": "b2dd946c47",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"Expand sidebar\" (after click button \"Collapse sidebar\")",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "63eb802bd4",
-					"dimension": "motion",
-					"check": "click button \"Switch between dark and light mode (currently system mode)\": motion of link \"Docs\" (navigation>link/a) and 30 more elements alike",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "edc1bd334d",
-					"dimension": "motion",
-					"check": "click button \"Switch between dark and light mode (currently system mode)\": motion of generic \"Introduction\" (main>article>navigation>list>listitem/span)",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "a007c2e001",
-					"dimension": "motion",
-					"check": "click button \"Switch between dark and light mode (currently system mode)\", then follow link \"Docs\": motion of link \"Docs\" (navigation>link/a) and 30 more elements alike",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "41fe571d50",
-					"dimension": "motion",
-					"check": "click button \"Switch between dark and light mode (currently system mode)\", then follow link \"Docs\": motion of generic \"Introduction\" (main>article>navigation>list>listitem/span)",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "2d60eb0120",
-					"dimension": "motion",
-					"check": "click button \"Collapse sidebar category 'Getting Started'\": motion of list (complementary>navigation>list>listitem>list/ul)",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "41b1b82dcd",
-					"dimension": "motion",
-					"check": "click button \"Expand sidebar category 'Guides'\": motion of generic (complementary>navigation>list>listitem/div)",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "f6e2270a98",
-					"dimension": "motion",
-					"check": "click button \"Expand sidebar category 'Guides'\": motion of button \"Collapse sidebar category 'Guides'\" (complementary>navigation>list>listitem>button/button)",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "292bf9c0d5",
-					"dimension": "motion",
-					"check": "click button \"Expand sidebar category 'Guides'\": motion of list (complementary>navigation>list>listitem>list/ul) and 1 more element alike",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "11f4a5b726",
-					"dimension": "motion",
-					"check": "click button \"Expand sidebar category 'Guides'\": motion of link \"Pages\" (complementary>navigation>list>listitem>list>listitem>link/a) and 1 more element alike",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "641b96b730",
-					"dimension": "motion",
-					"check": "click button \"Expand sidebar category 'Advanced Guides'\": motion of generic (complementary>navigation>list>listitem/div)",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "119ee577de",
-					"dimension": "motion",
-					"check": "click button \"Expand sidebar category 'Advanced Guides'\": motion of button \"Collapse sidebar category 'Advanced Guides'\" (complementary>navigation>list>listitem>button/button)",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "4aec4d1fda",
-					"dimension": "motion",
-					"check": "click button \"Expand sidebar category 'Advanced Guides'\": motion of list (complementary>navigation>list>listitem>list/ul) and 1 more element alike",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "91b145f745",
-					"dimension": "motion",
-					"check": "click button \"Expand sidebar category 'Advanced Guides'\": motion of link \"Architecture\" (complementary>navigation>list>listitem>list>listitem>link/a) and 1 more element alike",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "aabdd73e6f",
-					"dimension": "motion",
-					"check": "click button \"Expand sidebar category 'Upgrading'\": motion of generic (complementary>navigation>list>listitem/div)",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "c812f8e5f7",
-					"dimension": "motion",
-					"check": "click button \"Expand sidebar category 'Upgrading'\": motion of button \"Collapse sidebar category 'Upgrading'\" (complementary>navigation>list>listitem>button/button)",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "1caf93ae08",
-					"dimension": "motion",
-					"check": "click button \"Expand sidebar category 'Upgrading'\": motion of list (complementary>navigation>list>listitem>list/ul) and 1 more element alike",
-					"viewport": "desktop",
 					"lastSeen": "2026-10-28T11:52:15.046Z"
 				},
 				{
@@ -1003,20 +991,6 @@
 					"lastSeen": "2026-10-28T11:52:15.046Z"
 				},
 				{
-					"id": "3f78c5e888",
-					"dimension": "motion",
-					"check": "click button \"Switch between dark and light mode (currently system mode)\" (step 2 of 5: use 2): frame of button \"Search (Control+k)\" (navigation>button/button)",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "c72383051b",
-					"dimension": "motion",
-					"check": "click button \"Switch between dark and light mode (currently system mode)\" (step 2 of 5: use 2): frame of kbd \"Ctrl\" (navigation>button/kbd)",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
 					"id": "c0691aec61",
 					"dimension": "motion",
 					"check": "motion",
@@ -1024,198 +998,16 @@
 					"lastSeen": "2026-10-28T11:52:15.046Z"
 				},
 				{
-					"id": "d72814c002",
-					"dimension": "motion",
-					"check": "click button \"Switch between dark and light mode (currently system mode)\" (step 3 of 5: use 3): frame of button \"Search (Control+k)\" (navigation>button/button)",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-27T09:07:55.128Z"
-				},
-				{
-					"id": "d748c80636",
-					"dimension": "motion",
-					"check": "click button \"Switch between dark and light mode (currently system mode)\" (step 3 of 5: use 3): frame of kbd \"Ctrl\" (navigation>button/kbd)",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-27T09:07:55.128Z"
-				},
-				{
 					"id": "f7618f6643",
 					"dimension": "motion",
 					"check": "click button \"Switch between dark and light mode (currently system mode)\" (step 2 of 5: use 2): extra motion of kbd \"Ctrl\" (navigation>button/kbd) and 1 more element alike",
 					"viewport": "desktop",
 					"lastSeen": "2026-10-24T13:04:42.678Z"
-				},
-				{
-					"id": "b2657c09c7",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Close\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "1ae4de765b",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Canary 🚧\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "ebad1ce598",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"English\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "1f3ff2b912",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Switch between dark and light mode (currently system mode)\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "57e6b0f593",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Search (Control+k)\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "d3c1a48c74",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Collapse sidebar category 'Getting Started'\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "3531c03c4f",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Expand sidebar category 'Guides'\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "5b5889604d",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Expand sidebar category 'Advanced Guides'\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "0ab26f795d",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Expand sidebar category 'Upgrading'\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "cf934f901b",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Collapse sidebar\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "0fd08f64e0",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Skip to main content\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "bdf9a657fd",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Docusaurus\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "1641c70c21",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Docs\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "75dfa2c22a",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"API\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "0ec19caccf",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Blog\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "7235ad1d10",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Showcase\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "6a4b830fd5",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Community\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "c028b854b3",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Docusaurus\" #2",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "814ee9e385",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Introduction\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "98dae60c2b",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Getting Started\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "e52952aefd",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Installation\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "4a527247ea",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Configuration\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "e32fa2404d",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Playground\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "d416d0c64e",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"TypeScript Support\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "bba99de6d0",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Guides\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "6846404d8a",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Advanced Guides\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "2d395d2cc3",
-					"dimension": "behaviour",
-					"check": "not exercised: tab \"pnpm\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "3b4f284172",
-					"dimension": "behaviour",
-					"check": "not exercised: tab \"Bun\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
 				}
 			],
 			"weight": {
-				"downloaded": 74165,
-				"executed": 107731
+				"downloaded": 78030,
+				"executed": 110073
 			},
 			"owner": "markless-migrate docusaurus port (thejackshelton)"
 		},
@@ -1227,345 +1019,418 @@
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "0f53dce7aa",
 					"dimension": "rendered",
 					"check": "visible text",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "f9606b0f8e",
 					"dimension": "visual",
 					"check": "screenshot",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "a82a7ae7c4",
 					"dimension": "a11y",
 					"check": "focus order (Tab), first difference at stop 14",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "6b221c3428",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "534001225d",
 					"dimension": "assets",
 					"check": "script /vendor/docsearch-4.7.0.js",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "709678be62",
+					"dimension": "visual",
+					"check": "screenshot in :hover on .breadcrumbs__link:any-link",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "32186ca6b8",
 					"dimension": "visual",
 					"check": "screenshot in :hover on .close",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "f1161d9c82",
 					"dimension": "visual",
 					"check": "screenshot in :focus on .close",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "6d71813b2b",
 					"dimension": "visual",
 					"check": "screenshot in :hover on .dropdown--hoverable",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "a8d75d7d65",
 					"dimension": "visual",
 					"check": "screenshot in :hover on .footer__link-item",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "ef9faf1b73",
 					"dimension": "visual",
 					"check": "screenshot in :hover on .navbar__brand",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "e7bf6714f1",
 					"dimension": "behaviour",
 					"check": "click tab \"Yarn\" (step 4 of 5: reload after use 3)",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "3f34c36ee3",
 					"dimension": "behaviour",
 					"check": "click tab \"Yarn\", then follow link \"Installation\" (step 4 of 4: reload after use 2, on the page it led to)",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "b2228ac00c",
 					"dimension": "behaviour",
 					"check": "click tab \"pnpm\" (step 4 of 5: reload after use 3)",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "c2f034451d",
 					"dimension": "behaviour",
 					"check": "click tab \"pnpm\", then follow link \"Installation\" (step 4 of 4: reload after use 2, on the page it led to)",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "c39c0995fd",
 					"dimension": "behaviour",
 					"check": "click tab \"Bun\" (step 4 of 5: reload after use 3)",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "d995c14570",
 					"dimension": "behaviour",
 					"check": "click tab \"Bun\", then follow link \"Installation\" (step 4 of 4: reload after use 2, on the page it led to)",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "3d369ebba5",
 					"dimension": "behaviour",
 					"check": "click tab \"Yarn\" #2 (step 4 of 5: reload after use 3)",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "059b9d9517",
 					"dimension": "behaviour",
 					"check": "click tab \"Yarn\" #2, then follow link \"Installation\" (step 4 of 4: reload after use 2, on the page it led to)",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "039c584a53",
 					"dimension": "behaviour",
 					"check": "click tab \"pnpm\" #2 (step 4 of 5: reload after use 3)",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "782181a667",
 					"dimension": "behaviour",
 					"check": "click tab \"pnpm\" #2, then follow link \"Installation\" (step 4 of 4: reload after use 2, on the page it led to)",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "86b461208a",
 					"dimension": "behaviour",
 					"check": "click tab \"Bun\" #2 (step 4 of 5: reload after use 3)",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "dc4765de32",
 					"dimension": "behaviour",
 					"check": "click tab \"Bun\" #2, then follow link \"Installation\" (step 4 of 4: reload after use 2, on the page it led to)",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "744c6b7c07",
 					"dimension": "behaviour",
 					"check": "click tab \"Yarn\" #3 (step 4 of 5: reload after use 3)",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "6ff3ba79c2",
 					"dimension": "behaviour",
 					"check": "click tab \"Yarn\" #3, then follow link \"Installation\" (step 4 of 4: reload after use 2, on the page it led to)",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "287b30e276",
 					"dimension": "behaviour",
 					"check": "click tab \"pnpm\" #3 (step 4 of 5: reload after use 3)",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "5e4b1d5725",
 					"dimension": "behaviour",
 					"check": "click tab \"pnpm\" #3, then follow link \"Installation\" (step 4 of 4: reload after use 2, on the page it led to)",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "d93ef9cd16",
 					"dimension": "behaviour",
 					"check": "click tab \"Bun\" #3 (step 4 of 5: reload after use 3)",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "84d58b78db",
 					"dimension": "behaviour",
 					"check": "click tab \"Bun\" #3, then follow link \"Installation\" (step 4 of 4: reload after use 2, on the page it led to)",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "ccc9a4b43d",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"Collapse sidebar category 'Getting Started'\"",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "75c614fed4",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"Expand sidebar category 'Guides'\"",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "4f11f6a0c2",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"Expand sidebar category 'Advanced Guides'\"",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "200f63ee2c",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"Expand sidebar category 'Upgrading'\"",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "76e4a466e3",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"Collapse sidebar\"",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "4128b9d4ef",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Skip to main content\"",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "aa75bf8f03",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Docusaurus\" #2",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "b8841c31c4",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Introduction\"",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "e21fc0008f",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Getting Started\"",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "5e7862b96f",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Installation\"",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "ce7a377f94",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Configuration\"",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "7bd1bcb5de",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Playground\"",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "b3f00d9783",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"TypeScript Support\"",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "ea648fb971",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Guides\"",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "100e38db0c",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Advanced Guides\"",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "a47e41c988",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Upgrading\"",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "8a1bb22b7d",
 					"dimension": "behaviour",
 					"check": "not exercised: tab \"npm\" #4",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "85de53b6f6",
 					"dimension": "behaviour",
 					"check": "not exercised: tab \"Yarn\" #4",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "0c80c6bcb2",
 					"dimension": "behaviour",
 					"check": "not exercised: tab \"pnpm\" #4",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "c08cc18adf",
 					"dimension": "behaviour",
 					"check": "not exercised: tab \"Bun\" #4",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "43d8dde206",
 					"dimension": "behaviour",
 					"check": "not exercised: tab \"npm\" #5",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "f819372fe9",
 					"dimension": "behaviour",
 					"check": "not exercised: tab \"Yarn\" #5",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "42d3039741",
 					"dimension": "behaviour",
 					"check": "not exercised: tab \"pnpm\" #5",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "c9aa311b6b",
-					"dimension": "behaviour",
-					"check": "not exercised: tab \"Bun\" #5",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "eb76b76fb1",
 					"dimension": "behaviour",
 					"check": "not exercised: summary \"Alternative installation commands\"",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "3687857fd1",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Help\" (after click button \"Copy code to clipboard\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "0f2acc4107",
+					"dimension": "behaviour",
+					"check": "not exercised: tab \"Bun\" #5 (after click button \"Copy code to clipboard\")",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "be37b95247",
 					"dimension": "behaviour",
 					"check": "click button \"Close\" (step 2 of 2: reload after use 1), in the layout shared with /",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
+					"lastSeen": "2026-10-29T09:58:23.279Z"
 				},
 				{
 					"id": "16aef74a7b",
 					"dimension": "behaviour",
 					"check": "click button \"Close\", then follow link \"Docusaurus\" (step 3 of 3: reload after use 1, on the page it led to), in the layout shared with /",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "acbfa83910",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Canary 🚧\", shared with /",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "0ebc5dc0e4",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"English\", shared with /",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "347bdd6b6e",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Switch between dark and light mode (currently system mode)\", shared with /",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "ab8c42dec9",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Search (Control+k)\", shared with /",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "105b7080c5",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Docusaurus\", shared with /",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "2f64d5878c",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Docs\", shared with /",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "8fbd6a7765",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Feature Requests\", shared with /",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "a2e4e263b5",
+					"dimension": "navigation",
+					"check": "in place from /: <html> class and data-* attributes, against the old app reached the same way",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "7602e12c18",
+					"dimension": "navigation",
+					"check": "in place from / after button \"Switch between dark and light mode (currently system mode)\": <html> class and data-* attributes, against the old app reached the same way",
+					"lastSeen": "2026-10-29T09:58:23.279Z"
+				},
+				{
+					"id": "c9aa311b6b",
+					"dimension": "behaviour",
+					"check": "not exercised: tab \"Bun\" #5",
 					"lastSeen": "2026-10-28T11:52:15.046Z"
 				},
 				{
@@ -1640,37 +1505,6 @@
 					"check": "click button \"Switch between dark and light mode (currently system mode)\", then click button \"Switch between dark and light mode (currently light mode)\" (step 3 of 6: use 2): frame of kbd \"Ctrl\" (navigation>button/kbd), in the layout shared with /",
 					"viewport": "desktop",
 					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "ab8c42dec9",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Search (Control+k)\", shared with /",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "105b7080c5",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Docusaurus\", shared with /",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "a2e4e263b5",
-					"dimension": "navigation",
-					"check": "in place from /: <html> class and data-* attributes, against the old app reached the same way",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "7602e12c18",
-					"dimension": "navigation",
-					"check": "in place from / after button \"Switch between dark and light mode (currently system mode)\": <html> class and data-* attributes, against the old app reached the same way",
-					"lastSeen": "2026-10-28T11:52:15.046Z"
-				},
-				{
-					"id": "709678be62",
-					"dimension": "visual",
-					"check": "screenshot in :hover on .breadcrumbs__link:any-link",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-27T09:07:55.128Z"
 				},
 				{
 					"id": "efe7cc28f8",
@@ -1752,12 +1586,6 @@
 					"lastSeen": "2026-10-26T08:54:33.411Z"
 				},
 				{
-					"id": "0ebc5dc0e4",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"English\", shared with /",
-					"lastSeen": "2026-10-26T08:54:33.411Z"
-				},
-				{
 					"id": "f7388865e1",
 					"dimension": "behaviour",
 					"check": "click button \"Search (Control+k)\", then click button #2 (step 1), in the layout shared with /",
@@ -1767,12 +1595,6 @@
 					"id": "c240e483b5",
 					"dimension": "behaviour",
 					"check": "click button \"Search (Control+k)\", then type \"coffee\" into searchbox \"Search\", then click button \"Search\" (step 1), in the layout shared with /",
-					"lastSeen": "2026-10-26T08:54:33.411Z"
-				},
-				{
-					"id": "2f64d5878c",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Docs\", shared with /",
 					"lastSeen": "2026-10-26T08:54:33.411Z"
 				},
 				{
@@ -1888,222 +1710,11 @@
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Community\", shared with /",
 					"lastSeen": "2026-10-24T13:04:42.678Z"
-				},
-				{
-					"id": "99932a880d",
-					"dimension": "visual",
-					"check": "screenshot in :hover on .breadcrumbs__link:link",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "26d54fd3fd",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Running the development server\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "61bd2706a1",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Build\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "5a7b855dcd",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Updating your Docusaurus version\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "a1f4d3e217",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Problems?\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "692c040957",
-					"dimension": "behaviour",
-					"check": "not exercised: tab \"npm\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "a278c0700d",
-					"dimension": "behaviour",
-					"check": "not exercised: tab \"Yarn\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "4fee066e8c",
-					"dimension": "behaviour",
-					"check": "not exercised: tab \"pnpm\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "3f3281d9c8",
-					"dimension": "behaviour",
-					"check": "not exercised: tab \"Bun\"",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "73f73ed0e6",
-					"dimension": "behaviour",
-					"check": "not exercised: tab \"npm\" #2",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "8ba5737fdc",
-					"dimension": "behaviour",
-					"check": "not exercised: tab \"Yarn\" #2",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "2d9d32a553",
-					"dimension": "behaviour",
-					"check": "not exercised: tab \"pnpm\" #2",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "b31447c04f",
-					"dimension": "behaviour",
-					"check": "not exercised: tab \"Bun\" #2",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "e7a91775ed",
-					"dimension": "behaviour",
-					"check": "not exercised: tab \"npm\" #3",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "e0ba8bb5e2",
-					"dimension": "behaviour",
-					"check": "not exercised: tab \"Yarn\" #3",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "ff38379f73",
-					"dimension": "behaviour",
-					"check": "not exercised: tab \"pnpm\" #3",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "9e3908905f",
-					"dimension": "behaviour",
-					"check": "not exercised: tab \"Bun\" #3",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "7274ac7c34",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Scaffold project website\" (after click button \"Copy code to clipboard\")",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "fdf5dc793f",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Installation\" #2 (after click button \"Copy code to clipboard\")",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "f792b9f471",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Switch between dark and light mode (currently system mode)\", shared with /",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "727d980936",
-					"dimension": "behaviour",
-					"check": "click button \"Search (Control+k)\", then click button \"Cancel\", then click clickable <div> #94 in main (no name: matched by structure and position), then click clickable \"404. Image not found\" (step 1), in the layout shared with /",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "e407613a3b",
-					"dimension": "behaviour",
-					"check": "click link \"Introduction\", in the layout shared with /",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "4bad6e4d54",
-					"dimension": "behaviour",
-					"check": "click link \"Help\", in the layout shared with /",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "e6a9805e00",
-					"dimension": "behaviour",
-					"check": "click link \"Blog\" #2, in the layout shared with /",
-					"lastSeen": "2026-10-22T08:36:42.863Z"
-				},
-				{
-					"id": "8b21e24e2b",
-					"dimension": "behaviour",
-					"check": "not exercised: tab",
-					"lastSeen": "2026-10-22T04:33:33.027Z"
-				},
-				{
-					"id": "95638430ef",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Direct link to Monorepos\" (after click button \"Copy code to clipboard\")",
-					"lastSeen": "2026-10-22T04:33:33.027Z"
-				},
-				{
-					"id": "40f4f670c5",
-					"dimension": "behaviour",
-					"check": "not exercised: tab \"npm\" #5 (after click button \"Copy code to clipboard\")",
-					"lastSeen": "2026-10-22T04:33:33.027Z"
-				},
-				{
-					"id": "07eae183a1",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Introduction\" #2, shared with /",
-					"lastSeen": "2026-10-22T04:33:33.027Z"
-				},
-				{
-					"id": "901278d86d",
-					"dimension": "behaviour",
-					"check": "click link \"Feature Requests\", in the layout shared with /",
-					"lastSeen": "2026-10-22T04:33:33.027Z"
-				},
-				{
-					"id": "2bef7de553",
-					"dimension": "behaviour",
-					"check": "click link \"@canary npm dist tag\"",
-					"lastSeen": "2026-10-22T03:58:11.831Z"
-				},
-				{
-					"id": "e61cc24935",
-					"dimension": "behaviour",
-					"check": "click button \"English\", in the layout shared with /",
-					"lastSeen": "2026-10-22T03:58:11.831Z"
-				},
-				{
-					"id": "0328da35c2",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Blog\" #2, shared with /",
-					"lastSeen": "2026-10-22T03:58:11.831Z"
-				},
-				{
-					"id": "f1e5befc53",
-					"dimension": "behaviour",
-					"check": "click link \"Changelog\", in the layout shared with /",
-					"lastSeen": "2026-10-22T02:57:12.737Z"
-				},
-				{
-					"id": "492ce7de5e",
-					"dimension": "behaviour",
-					"check": "not exercised: tab \"pnpm\" (after click button \"Copy code to clipboard\")",
-					"lastSeen": "2026-10-21T19:14:39.268Z"
-				},
-				{
-					"id": "50b072ca59",
-					"dimension": "behaviour",
-					"check": "not exercised: tab \"pnpm\" #5 (after click button \"Copy code to clipboard\")",
-					"lastSeen": "2026-10-21T19:14:39.268Z"
 				}
 			],
 			"weight": {
-				"downloaded": 74165,
-				"executed": 105857
+				"downloaded": 78030,
+				"executed": 105700
 			},
 			"owner": "markless-migrate docusaurus port (thejackshelton)"
 		}
@@ -2148,6 +1759,7 @@
 		"GET https://www.youtube-nocookie.com/embed/Yhyx7otSksg?autoplay=1&autoplay=1&autohide=1&showinfo=0&rel=0",
 		"POST https://www.youtube-nocookie.com/api/stats/qoe?cpn=--ZKhuaPNyzTslWD&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C6258%2C16948%2C35402%2C34393%2C30907%2C15105%2C25059%2C4174%2C15862%2C14584%2C18706%2C26008%2C13016%2C14665%2C1422%2C6621%2C2783%2C23826%2C9500%2C1840%2C53631%2C41207%2C20588%2C4199%2C30114%2C9181%2C52983%2C6032%2C1168%2C8131%2C30205%2C4115%2C11462%2C41922%2C4366%2C9717%2C3613%2C11888%2C14651%2C3844%2C18498%2C24514%2C6975%2C12384%2C22089%2C2417%2C2%2C17954%2C3465%2C8965%2C2959%2C9177%2C8039%2C1655%2C13875%2C3639%2C3175%2C2150%2C2266%2C4783%2C8892%2C7881%2C2855%2C1504%2C12165%2C8899%2C5235%2C4269%2C165%2C286%2C3618%2C491%2C449%2C9663%2C734%2C2779%2C61%2C2100%2C3382%2C7216%2C11474%2C552%2C3088&cl=1002748652&seq=1&event=streamingstats&docid=_An9EsKPhp0&cbr=HeadlessChrome&cbrver=156.0.8078.4&c=WEB_EMBEDDED_PLAYER&cver=2.20261020.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.032:B,10.012:B&ctmp=dttg:t.0;dtt.1;gl.0;tm.0,user_intent_bh:t.6;bh.0.000;th.0.000&cat=streaming&cmt=0.032:0.000,0.096:0.000,10.012:0.000&bat=0.096:1:1,10.012:1:1&vis=0.096:0&bh=0.096:0.000,10.012:0.000&qclc=ChAtLVpLaHVhUE55elRzbFdEEAE #801e38fc0b045011",
 		"POST https://www.youtube-nocookie.com/api/stats/qoe?cpn=0suYiEhKeOhEfsy8&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C6258%2C16948%2C35402%2C34393%2C30907%2C15105%2C25059%2C4174%2C15862%2C14584%2C18706%2C26008%2C13016%2C14665%2C1422%2C6621%2C2783%2C23826%2C9500%2C1840%2C53631%2C41207%2C20588%2C4199%2C30114%2C9181%2C52983%2C6032%2C1168%2C8131%2C30205%2C4115%2C11462%2C41922%2C4366%2C9717%2C3613%2C11888%2C14651%2C3844%2C18498%2C24514%2C6975%2C12384%2C22089%2C2417%2C2%2C17954%2C3465%2C8965%2C2959%2C9177%2C8039%2C1655%2C13875%2C3639%2C3175%2C2150%2C2266%2C4783%2C8892%2C7881%2C2855%2C1504%2C12165%2C8899%2C5235%2C4269%2C165%2C286%2C3618%2C491%2C449%2C9663%2C734%2C2779%2C61%2C2100%2C3382%2C7216%2C11474%2C552%2C3088&cl=1002748652&seq=1&event=streamingstats&docid=_An9EsKPhp0&cbr=HeadlessChrome&cbrver=156.0.8078.4&c=WEB_EMBEDDED_PLAYER&cver=2.20261020.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.022:B,10.013:B&ctmp=dttg:t.0;dtt.1;gl.0;tm.0,user_intent_bh:t.4;bh.0.000;th.0.000&cat=streaming&cmt=0.022:0.000,0.097:0.000,10.013:0.000&bat=0.097:1:1,10.013:1:1&vis=0.097:0&bh=0.097:0.000,10.013:0.000&qclc=ChAwc3VZaUVoS2VPaEVmc3k4EAE #f3a6876e34324744",
+		"POST https://www.youtube-nocookie.com/api/stats/qoe?cpn=1ZrHNZi75mXWiBdr&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C6258%2C16948%2C35402%2C34393%2C30907%2C15105%2C25059%2C4174%2C15862%2C14584%2C18706%2C26008%2C13016%2C14665%2C1422%2C6621%2C2783%2C23826%2C9500%2C1840%2C53631%2C41207%2C20588%2C4199%2C30114%2C9181%2C52983%2C6032%2C1168%2C8131%2C30205%2C4115%2C11462%2C41922%2C4366%2C9717%2C3613%2C11888%2C14651%2C3844%2C18498%2C24514%2C6975%2C12384%2C22089%2C2417%2C2%2C17954%2C3465%2C8965%2C2959%2C9177%2C8039%2C1655%2C13875%2C3639%2C3175%2C2150%2C2266%2C4783%2C8892%2C7881%2C2855%2C1504%2C12165%2C8899%2C5235%2C4269%2C165%2C286%2C3618%2C491%2C449%2C9663%2C734%2C2779%2C61%2C2100%2C3382%2C7216%2C11474%2C552%2C3088&cl=1002748652&seq=1&event=streamingstats&docid=_An9EsKPhp0&cbr=HeadlessChrome&cbrver=156.0.8078.4&c=WEB_EMBEDDED_PLAYER&cver=2.20261020.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.037:B,10.008:B&ctmp=dttg:t.0;dtt.1;gl.0;tm.0,user_intent_bh:t.6;bh.0.000;th.0.000&cat=streaming&cmt=0.037:0.000,0.139:0.000,10.008:0.000&bat=0.139:1:1,10.008:1:1&vis=0.139:0&bh=0.139:0.000,10.008:0.000&qclc=ChAxWnJITlppNzVtWFdpQmRyEAE #804e069ed04ca8a2",
 		"POST https://www.youtube-nocookie.com/api/stats/qoe?cpn=2mw9hZfKCik9g4s8&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C6258%2C16948%2C35402%2C34393%2C30907%2C15105%2C25059%2C4174%2C15862%2C14584%2C18706%2C26008%2C13016%2C14665%2C1422%2C6621%2C2783%2C23826%2C9500%2C1840%2C53631%2C41207%2C20588%2C4199%2C30114%2C9181%2C52983%2C6032%2C1168%2C8131%2C30205%2C4115%2C11462%2C41922%2C4366%2C9717%2C3613%2C11888%2C14651%2C3844%2C18498%2C24514%2C6975%2C12384%2C22089%2C2417%2C2%2C17954%2C3465%2C8965%2C2959%2C9177%2C8039%2C1655%2C13875%2C3639%2C3175%2C2150%2C2266%2C4783%2C8892%2C7881%2C2855%2C1504%2C12165%2C8899%2C5235%2C4269%2C165%2C286%2C3618%2C491%2C449%2C9663%2C734%2C2779%2C61%2C2100%2C3382%2C7216%2C11474%2C552%2C3088&cl=1002748652&seq=1&event=streamingstats&docid=_An9EsKPhp0&cbr=HeadlessChrome&cbrver=156.0.8078.4&c=WEB_EMBEDDED_PLAYER&cver=2.20261020.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.026:B,10.011:B&ctmp=dttg:t.0;dtt.1;gl.0;tm.0,user_intent_bh:t.5;bh.0.000;th.0.000&cat=streaming&cmt=0.026:0.000,0.099:0.000,10.011:0.000&bat=0.099:1:1,10.011:1:1&vis=0.099:0&bh=0.099:0.000,10.011:0.000&qclc=ChAybXc5aFpmS0NpazlnNHM4EAE #34b97833319b3724",
 		"POST https://www.youtube-nocookie.com/api/stats/qoe?cpn=4WboIRIJyuhVdmGm&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C6258%2C16948%2C35402%2C34393%2C30907%2C15105%2C25059%2C4174%2C15862%2C14584%2C18706%2C26008%2C13016%2C14665%2C1422%2C6621%2C2783%2C23826%2C9500%2C1840%2C53631%2C41207%2C20588%2C4199%2C30114%2C9181%2C52983%2C6032%2C1168%2C8131%2C30205%2C4115%2C11462%2C41922%2C4366%2C9717%2C3613%2C11888%2C14651%2C3844%2C18498%2C24514%2C6975%2C12384%2C22089%2C2417%2C2%2C17954%2C3465%2C8965%2C2959%2C9177%2C8039%2C1655%2C13875%2C3639%2C3175%2C2150%2C2266%2C4783%2C8892%2C7881%2C2855%2C1504%2C12165%2C8899%2C5235%2C4269%2C165%2C286%2C3618%2C491%2C449%2C9663%2C734%2C2779%2C61%2C2100%2C3382%2C7216%2C11474%2C552%2C3088&cl=1002748652&seq=1&event=streamingstats&docid=_An9EsKPhp0&cbr=HeadlessChrome&cbrver=156.0.8078.4&c=WEB_EMBEDDED_PLAYER&cver=2.20261020.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.021:B,10.012:B&ctmp=dttg:t.0;dtt.1;gl.0;tm.0,user_intent_bh:t.5;bh.0.000;th.0.000&cat=streaming&cmt=0.021:0.000,0.093:0.000,10.012:0.000&bat=0.093:1:1,10.012:1:1&vis=0.093:0&bh=0.093:0.000,10.012:0.000&qclc=ChA0V2JvSVJJSnl1aFZkbUdtEAE #d332d0e9f4a3a3e1",
 		"POST https://www.youtube-nocookie.com/api/stats/qoe?cpn=5_4c1l3FJirVEuX9&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C6258%2C16948%2C35402%2C34393%2C30907%2C15105%2C25059%2C4174%2C15862%2C14584%2C18706%2C26008%2C13016%2C14665%2C1422%2C6621%2C2783%2C23826%2C9500%2C1840%2C53631%2C41207%2C20588%2C4199%2C30114%2C9181%2C52983%2C6032%2C1168%2C8131%2C30205%2C4115%2C11462%2C41922%2C4366%2C9717%2C3613%2C11888%2C14651%2C3844%2C18498%2C24514%2C6975%2C12384%2C22089%2C2417%2C2%2C17954%2C3465%2C8965%2C2959%2C9177%2C8039%2C1655%2C13875%2C3639%2C3175%2C2150%2C2266%2C4783%2C8892%2C7881%2C2855%2C1504%2C12165%2C8899%2C5235%2C4269%2C165%2C286%2C3618%2C491%2C449%2C9663%2C734%2C2779%2C61%2C2100%2C3382%2C7216%2C11474%2C552%2C3088&cl=1002748652&seq=1&event=streamingstats&docid=_An9EsKPhp0&cbr=HeadlessChrome&cbrver=156.0.8078.4&c=WEB_EMBEDDED_PLAYER&cver=2.20261020.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.027:B,10.010:B&ctmp=dttg:t.0;dtt.1;gl.0;tm.0,user_intent_bh:t.6;bh.0.000;th.0.000&cat=streaming&cmt=0.027:0.000,0.101:0.000,10.010:0.000&bat=0.101:1:1,10.010:1:1&vis=0.101:0&bh=0.101:0.000,10.010:0.000&qclc=ChA1XzRjMWwzRkppclZFdVg5EAE #f83500a68d8728f7",
@@ -2158,7 +1770,9 @@
 		"POST https://www.youtube-nocookie.com/api/stats/qoe?cpn=E3Q8gQwu3MSpNDyL&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C6258%2C16948%2C35402%2C34393%2C30907%2C15105%2C25059%2C4174%2C15862%2C14584%2C18706%2C26008%2C13016%2C14665%2C1422%2C6621%2C2783%2C23826%2C9500%2C1840%2C53631%2C41207%2C20588%2C4199%2C30114%2C9181%2C52983%2C6032%2C1168%2C8131%2C30205%2C4115%2C11462%2C41922%2C4366%2C9717%2C3613%2C11888%2C14651%2C3844%2C18498%2C24514%2C6975%2C12384%2C22089%2C2417%2C2%2C17954%2C3465%2C8965%2C2959%2C9177%2C8039%2C1655%2C13875%2C3639%2C3175%2C2150%2C2266%2C4783%2C8892%2C7881%2C2855%2C1504%2C12165%2C8899%2C5235%2C4269%2C165%2C286%2C3618%2C491%2C449%2C9663%2C734%2C2779%2C61%2C2100%2C3382%2C7216%2C11474%2C552%2C3088&cl=1002748652&seq=1&event=streamingstats&docid=_An9EsKPhp0&cbr=HeadlessChrome&cbrver=156.0.8078.4&c=WEB_EMBEDDED_PLAYER&cver=2.20261020.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.024:B,10.011:B&ctmp=dttg:t.0;dtt.1;gl.0;tm.0,user_intent_bh:t.5;bh.0.000;th.0.000&cat=streaming&cmt=0.024:0.000,0.088:0.000,10.011:0.000&bat=0.088:1:1,10.011:1:1&vis=0.088:0&bh=0.088:0.000,10.011:0.000&qclc=ChBFM1E4Z1F3dTNNU3BORHlMEAE #f527f89f396d5b36",
 		"POST https://www.youtube-nocookie.com/api/stats/qoe?cpn=FerzRmGWaCUIsT2Y&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C6258%2C16948%2C35402%2C34393%2C30907%2C15105%2C25059%2C4174%2C15862%2C14584%2C18706%2C26008%2C13016%2C14665%2C1422%2C6621%2C2783%2C23826%2C9500%2C1840%2C53631%2C41207%2C20588%2C4199%2C30114%2C9181%2C52983%2C6032%2C1168%2C8131%2C30205%2C4115%2C11462%2C41922%2C4366%2C9717%2C3613%2C11888%2C14651%2C3844%2C18498%2C24514%2C6975%2C12384%2C22089%2C2417%2C2%2C17954%2C3465%2C8965%2C2959%2C9177%2C8039%2C1655%2C13875%2C3639%2C3175%2C2150%2C2266%2C4783%2C8892%2C7881%2C2855%2C1504%2C12165%2C8899%2C5235%2C4269%2C165%2C286%2C3618%2C491%2C449%2C9663%2C734%2C2779%2C61%2C2100%2C3382%2C7216%2C11474%2C552%2C3088&cl=1002748652&seq=1&event=streamingstats&docid=_An9EsKPhp0&cbr=HeadlessChrome&cbrver=156.0.8078.4&c=WEB_EMBEDDED_PLAYER&cver=2.20261020.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.023:B,10.005:B&ctmp=dttg:t.0;dtt.1;gl.0;tm.0,user_intent_bh:t.4;bh.0.000;th.0.000&cat=streaming&cmt=0.023:0.000,0.086:0.000,10.005:0.000&bat=0.086:1:1,10.005:1:1&vis=0.086:0&bh=0.086:0.000,10.005:0.000&qclc=ChBGZXJ6Um1HV2FDVUlzVDJZEAE #0399cf19bba34b21",
 		"POST https://www.youtube-nocookie.com/api/stats/qoe?cpn=JKDUVc50LiXU0Fus&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C6258%2C16948%2C35402%2C34393%2C30907%2C15105%2C25059%2C4174%2C15862%2C14584%2C18706%2C26008%2C13016%2C14665%2C1422%2C6621%2C2783%2C23826%2C9500%2C1840%2C53631%2C41207%2C20588%2C4199%2C30114%2C9181%2C52983%2C6032%2C1168%2C8131%2C30205%2C4115%2C11462%2C41922%2C4366%2C9717%2C3613%2C11888%2C14651%2C3844%2C18498%2C24514%2C6975%2C12384%2C22089%2C2417%2C2%2C17954%2C3465%2C8965%2C2959%2C9177%2C8039%2C1655%2C13875%2C3639%2C3175%2C2150%2C2266%2C4783%2C8892%2C7881%2C2855%2C1504%2C12165%2C8899%2C5235%2C4269%2C165%2C286%2C3618%2C491%2C449%2C9663%2C734%2C2779%2C61%2C2100%2C3382%2C7216%2C11474%2C552%2C3088&cl=1002748652&seq=1&event=streamingstats&docid=_An9EsKPhp0&cbr=HeadlessChrome&cbrver=156.0.8078.4&c=WEB_EMBEDDED_PLAYER&cver=2.20261020.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.026:B,10.011:B&ctmp=dttg:t.0;dtt.1;gl.0;tm.0,user_intent_bh:t.5;bh.0.000;th.0.000&cat=streaming&cmt=0.026:0.000,0.106:0.000,10.011:0.000&bat=0.106:1:1,10.011:1:1&vis=0.106:0&bh=0.106:0.000,10.011:0.000&qclc=ChBKS0RVVmM1MExpWFUwRnVzEAE #0fc1320db8d55cff",
+		"POST https://www.youtube-nocookie.com/api/stats/qoe?cpn=NaVwjYR9J2xUeHax&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C6258%2C16948%2C35402%2C34393%2C30907%2C15105%2C25059%2C4174%2C15862%2C14584%2C18706%2C26008%2C13016%2C14665%2C1422%2C6621%2C2783%2C23826%2C9500%2C1840%2C53631%2C41207%2C20588%2C4199%2C30114%2C9181%2C52983%2C6032%2C1168%2C8131%2C30205%2C4115%2C11462%2C41922%2C4366%2C9717%2C3613%2C11888%2C14651%2C3844%2C18498%2C24514%2C6975%2C12384%2C22089%2C2417%2C2%2C17954%2C3465%2C8965%2C2959%2C9177%2C8039%2C1655%2C13875%2C3639%2C3175%2C2150%2C2266%2C4783%2C8892%2C7881%2C2855%2C1504%2C12165%2C8899%2C5235%2C4269%2C165%2C286%2C3618%2C491%2C449%2C9663%2C734%2C2779%2C61%2C2100%2C3382%2C7216%2C11474%2C552%2C3088&cl=1002748652&seq=1&event=streamingstats&docid=_An9EsKPhp0&cbr=HeadlessChrome&cbrver=156.0.8078.4&c=WEB_EMBEDDED_PLAYER&cver=2.20261020.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.037:B,10.007:B&ctmp=dttg:t.0;dtt.1;gl.0;tm.0,user_intent_bh:t.7;bh.0.000;th.0.000&cat=streaming&cmt=0.037:0.000,0.140:0.000,10.007:0.000&bat=0.140:1:1,10.007:1:1&vis=0.140:0&bh=0.140:0.000,10.007:0.000&qclc=ChBOYVZ3allSOUoyeFVlSGF4EAE #db2e308643f0a855",
 		"POST https://www.youtube-nocookie.com/api/stats/qoe?cpn=Ooge5pvfZdA4O0AP&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C6258%2C16948%2C35402%2C34393%2C30907%2C15105%2C25059%2C4174%2C15862%2C14584%2C18706%2C26008%2C13016%2C14665%2C1422%2C6621%2C2783%2C23826%2C9500%2C1840%2C53631%2C41207%2C20588%2C4199%2C30114%2C9181%2C52983%2C6032%2C1168%2C8131%2C30205%2C4115%2C11462%2C41922%2C4366%2C9717%2C3613%2C11888%2C14651%2C3844%2C18498%2C24514%2C6975%2C12384%2C22089%2C2417%2C2%2C17954%2C3465%2C8965%2C2959%2C9177%2C8039%2C1655%2C13875%2C3639%2C3175%2C2150%2C2266%2C4783%2C8892%2C7881%2C2855%2C1504%2C12165%2C8899%2C5235%2C4269%2C165%2C286%2C3618%2C491%2C449%2C9663%2C734%2C2779%2C61%2C2100%2C3382%2C7216%2C11474%2C552%2C3088&cl=1002748652&seq=1&event=streamingstats&docid=_An9EsKPhp0&cbr=HeadlessChrome&cbrver=156.0.8078.4&c=WEB_EMBEDDED_PLAYER&cver=2.20261020.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.025:B,10.013:B&ctmp=dttg:t.0;dtt.1;gl.0;tm.0,user_intent_bh:t.6;bh.0.000;th.0.000&cat=streaming&cmt=0.025:0.000,0.104:0.000,10.013:0.000&bat=0.104:1:1,10.013:1:1&vis=0.104:0&bh=0.104:0.000,10.013:0.000&qclc=ChBPb2dlNXB2ZlpkQTRPMEFQEAE #30bbf7261b50eb94",
+		"POST https://www.youtube-nocookie.com/api/stats/qoe?cpn=PjRtmjRLVqe4jW4_&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C6258%2C16948%2C35402%2C34393%2C30907%2C15105%2C25059%2C4174%2C15862%2C14584%2C18706%2C26008%2C13016%2C14665%2C1422%2C6621%2C2783%2C23826%2C9500%2C1840%2C53631%2C41207%2C20588%2C4199%2C30114%2C9181%2C52983%2C6032%2C1168%2C8131%2C30205%2C4115%2C11462%2C41922%2C4366%2C9717%2C3613%2C11888%2C14651%2C3844%2C18498%2C24514%2C6975%2C12384%2C22089%2C2417%2C2%2C17954%2C3465%2C8965%2C2959%2C9177%2C8039%2C1655%2C13875%2C3639%2C3175%2C2150%2C2266%2C4783%2C8892%2C7881%2C2855%2C1504%2C12165%2C8899%2C5235%2C4269%2C165%2C286%2C3618%2C491%2C449%2C9663%2C734%2C2779%2C61%2C2100%2C3382%2C7216%2C11474%2C552%2C3088&cl=1002748652&seq=1&event=streamingstats&docid=_An9EsKPhp0&cbr=HeadlessChrome&cbrver=156.0.8078.4&c=WEB_EMBEDDED_PLAYER&cver=2.20261020.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.035:B,10.008:B&ctmp=dttg:t.0;dtt.1;gl.0;tm.0,user_intent_bh:t.7;bh.0.000;th.0.000&cat=streaming&cmt=0.035:0.000,0.139:0.000,10.008:0.000&bat=0.139:1:1,10.008:1:1&vis=0.139:0&bh=0.139:0.000,10.008:0.000&qclc=ChBQalJ0bWpSTFZxZTRqVzRfEAE #804e069ed04ca8a2",
 		"POST https://www.youtube-nocookie.com/api/stats/qoe?cpn=Rbcdn5RDgODJ-kqi&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C6258%2C16948%2C35402%2C34393%2C30907%2C15105%2C25059%2C4174%2C15862%2C14584%2C18706%2C26008%2C13016%2C14665%2C1422%2C6621%2C2783%2C23826%2C9500%2C1840%2C53631%2C41207%2C20588%2C4199%2C30114%2C9181%2C52983%2C6032%2C1168%2C8131%2C30205%2C4115%2C11462%2C41922%2C4366%2C9717%2C3613%2C11888%2C14651%2C3844%2C18498%2C24514%2C6975%2C12384%2C22089%2C2417%2C2%2C17954%2C3465%2C8965%2C2959%2C9177%2C8039%2C1655%2C13875%2C3639%2C3175%2C2150%2C2266%2C4783%2C8892%2C7881%2C2855%2C1504%2C12165%2C8899%2C5235%2C4269%2C165%2C286%2C3618%2C491%2C449%2C9663%2C734%2C2779%2C61%2C2100%2C3382%2C7216%2C11474%2C552%2C3088&cl=1002748652&seq=1&event=streamingstats&docid=_An9EsKPhp0&cbr=HeadlessChrome&cbrver=156.0.8078.4&c=WEB_EMBEDDED_PLAYER&cver=2.20261020.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.025:B,10.012:B&ctmp=dttg:t.0;dtt.1;gl.0;tm.0,user_intent_bh:t.5;bh.0.000;th.0.000&cat=streaming&cmt=0.025:0.000,0.103:0.000,10.012:0.000&bat=0.103:1:1,10.012:1:1&vis=0.103:0&bh=0.103:0.000,10.012:0.000&qclc=ChBSYmNkbjVSRGdPREota3FpEAE #270db4f1999986c8",
 		"POST https://www.youtube-nocookie.com/api/stats/qoe?cpn=VlZ2or7dVvizixoB&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C6258%2C16948%2C35402%2C34393%2C30907%2C15105%2C25059%2C4174%2C15862%2C14584%2C18706%2C26008%2C13016%2C14665%2C1422%2C6621%2C2783%2C23826%2C9500%2C1840%2C53631%2C41207%2C20588%2C4199%2C30114%2C9181%2C52983%2C6032%2C1168%2C8131%2C30205%2C4115%2C11462%2C41922%2C4366%2C9717%2C3613%2C11888%2C14651%2C3844%2C18498%2C24514%2C6975%2C12384%2C22089%2C2417%2C2%2C17954%2C3465%2C8965%2C2959%2C9177%2C8039%2C1655%2C13875%2C3639%2C3175%2C2150%2C2266%2C4783%2C8892%2C7881%2C2855%2C1504%2C12165%2C8899%2C5235%2C4269%2C165%2C286%2C3618%2C491%2C449%2C9663%2C734%2C2779%2C61%2C2100%2C3382%2C7216%2C11474%2C552%2C3088&cl=1002748652&seq=1&event=streamingstats&docid=_An9EsKPhp0&cbr=HeadlessChrome&cbrver=156.0.8078.4&c=WEB_EMBEDDED_PLAYER&cver=2.20261020.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.028:B,10.007:B&ctmp=dttg:t.0;dtt.1;gl.0;tm.0,user_intent_bh:t.5;bh.0.000;th.0.000&cat=streaming&cmt=0.028:0.000,0.109:0.000,10.007:0.000&bat=0.109:1:1,10.007:1:1&vis=0.109:0&bh=0.109:0.000,10.007:0.000&qclc=ChBWbFoyb3I3ZFZ2aXppeG9CEAE #603b29dea4abbee5",
 		"POST https://www.youtube-nocookie.com/api/stats/qoe?cpn=W2rfheLszS8jB-s0&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C6258%2C16948%2C35402%2C34393%2C30907%2C15105%2C25059%2C4174%2C15862%2C14584%2C18706%2C26008%2C13016%2C14665%2C1422%2C6621%2C2783%2C23826%2C9500%2C1840%2C53631%2C41207%2C20588%2C4199%2C30114%2C9181%2C52983%2C6032%2C1168%2C8131%2C30205%2C4115%2C11462%2C41922%2C4366%2C9717%2C3613%2C11888%2C14651%2C3844%2C18498%2C24514%2C6975%2C12384%2C22089%2C2417%2C2%2C17954%2C3465%2C8965%2C2959%2C9177%2C8039%2C1655%2C13875%2C3639%2C3175%2C2150%2C2266%2C4783%2C8892%2C7881%2C2855%2C1504%2C12165%2C8899%2C5235%2C4269%2C165%2C286%2C3618%2C491%2C449%2C9663%2C734%2C2779%2C61%2C2100%2C3382%2C7216%2C11474%2C552%2C3088&cl=1002748652&seq=1&event=streamingstats&docid=_An9EsKPhp0&cbr=HeadlessChrome&cbrver=156.0.8078.4&c=WEB_EMBEDDED_PLAYER&cver=2.20261020.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.024:B,10.005:B&ctmp=dttg:t.0;dtt.1;gl.0;tm.0,user_intent_bh:t.4;bh.0.000;th.0.000&cat=streaming&cmt=0.024:0.000,0.088:0.000,10.005:0.000&bat=0.088:1:1,10.005:1:1&vis=0.088:0&bh=0.088:0.000,10.005:0.000&qclc=ChBXMnJmaGVMc3pTOGpCLXMwEAE #b3971cf231a99203",
@@ -2169,12 +1783,16 @@
 		"POST https://www.youtube-nocookie.com/api/stats/qoe?cpn=ZVJturVOakNJRRIP&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C6258%2C16948%2C35402%2C34393%2C30907%2C15105%2C25059%2C4174%2C15862%2C14584%2C18706%2C26008%2C13016%2C14665%2C1422%2C6621%2C2783%2C23826%2C9500%2C1840%2C53631%2C41207%2C20588%2C4199%2C30114%2C9181%2C52983%2C6032%2C1168%2C8131%2C30205%2C4115%2C11462%2C41922%2C4366%2C9717%2C3613%2C11888%2C14651%2C3844%2C18498%2C24514%2C6975%2C12384%2C22089%2C2417%2C2%2C17954%2C3465%2C8965%2C2959%2C9177%2C8039%2C1655%2C13875%2C3639%2C3175%2C2150%2C2266%2C4783%2C8892%2C7881%2C2855%2C1504%2C12165%2C8899%2C5235%2C4269%2C165%2C286%2C3618%2C491%2C449%2C9663%2C734%2C2779%2C61%2C2100%2C3382%2C7216%2C11474%2C552%2C3088&cl=1002748652&seq=1&event=streamingstats&docid=_An9EsKPhp0&cbr=HeadlessChrome&cbrver=156.0.8078.4&c=WEB_EMBEDDED_PLAYER&cver=2.20261020.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.027:B,10.012:B&ctmp=dttg:t.0;dtt.1;gl.0;tm.0,user_intent_bh:t.5;bh.0.000;th.0.000&cat=streaming&cmt=0.027:0.000,0.106:0.000,10.012:0.000&bat=0.106:1:1,10.012:1:1&vis=0.106:0&bh=0.106:0.000,10.012:0.000&qclc=ChBaVkp0dXJWT2FrTkpSUklQEAE #76c094cd10e70aaa",
 		"POST https://www.youtube-nocookie.com/api/stats/qoe?cpn=_b2kKcgQjmTgXzK7&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C6258%2C16948%2C35402%2C34393%2C30907%2C15105%2C25059%2C4174%2C15862%2C14584%2C18706%2C26008%2C13016%2C14665%2C1422%2C6621%2C2783%2C23826%2C9500%2C1840%2C53631%2C41207%2C20588%2C4199%2C30114%2C9181%2C52983%2C6032%2C1168%2C8131%2C30205%2C4115%2C11462%2C41922%2C4366%2C9717%2C3613%2C11888%2C14651%2C3844%2C18498%2C24514%2C6975%2C12384%2C22089%2C2417%2C2%2C17954%2C3465%2C8965%2C2959%2C9177%2C8039%2C1655%2C13875%2C3639%2C3175%2C2150%2C2266%2C4783%2C8892%2C7881%2C2855%2C1504%2C12165%2C8899%2C5235%2C4269%2C165%2C286%2C3618%2C491%2C449%2C9663%2C734%2C2779%2C61%2C2100%2C3382%2C7216%2C11474%2C552%2C3088&cl=1002748652&seq=1&event=streamingstats&docid=_An9EsKPhp0&cbr=HeadlessChrome&cbrver=156.0.8078.4&c=WEB_EMBEDDED_PLAYER&cver=2.20261020.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.029:B,10.011:B&ctmp=dttg:t.0;dtt.1;gl.0;tm.0,user_intent_bh:t.5;bh.0.000;th.0.000&cat=streaming&cmt=0.029:0.000,0.109:0.000,10.011:0.000&bat=0.109:1:1,10.011:1:1&vis=0.109:0&bh=0.109:0.000,10.011:0.000&qclc=ChBfYjJrS2NnUWptVGdYeks3EAE #bf5eff99f25849d2",
 		"POST https://www.youtube-nocookie.com/api/stats/qoe?cpn=bGvluwYEeYYD6C42&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C6258%2C16948%2C35402%2C34393%2C30907%2C15105%2C25059%2C4174%2C15862%2C14584%2C18706%2C26008%2C13016%2C14665%2C1422%2C6621%2C2783%2C23826%2C9500%2C1840%2C53631%2C41207%2C20588%2C4199%2C30114%2C9181%2C52983%2C6032%2C1168%2C8131%2C30205%2C4115%2C11462%2C41922%2C4366%2C9717%2C3613%2C11888%2C14651%2C3844%2C18498%2C24514%2C6975%2C12384%2C22089%2C2417%2C2%2C17954%2C3465%2C8965%2C2959%2C9177%2C8039%2C1655%2C13875%2C3639%2C3175%2C2150%2C2266%2C4783%2C8892%2C7881%2C2855%2C1504%2C12165%2C8899%2C5235%2C4269%2C165%2C286%2C3618%2C491%2C449%2C9663%2C734%2C2779%2C61%2C2100%2C3382%2C7216%2C11474%2C552%2C3088&cl=1002748652&seq=1&event=streamingstats&docid=_An9EsKPhp0&cbr=HeadlessChrome&cbrver=156.0.8078.4&c=WEB_EMBEDDED_PLAYER&cver=2.20261020.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.027:B,10.009:B&ctmp=dttg:t.0;dtt.1;gl.0;tm.0,user_intent_bh:t.6;bh.0.000;th.0.000&cat=streaming&cmt=0.027:0.000,0.102:0.000,10.009:0.000&bat=0.102:1:1,10.009:1:1&vis=0.102:0&bh=0.102:0.000,10.009:0.000&qclc=ChBiR3ZsdXdZRWVZWUQ2QzQyEAE #428a66acb8b4bbb1",
+		"POST https://www.youtube-nocookie.com/api/stats/qoe?cpn=d2yDUcRUO0Af4r_C&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C6258%2C16948%2C35402%2C34393%2C30907%2C15105%2C25059%2C4174%2C15862%2C14584%2C18706%2C26008%2C13016%2C14665%2C1422%2C6621%2C2783%2C23826%2C9500%2C1840%2C53631%2C41207%2C20588%2C4199%2C30114%2C9181%2C52983%2C6032%2C1168%2C8131%2C30205%2C4115%2C11462%2C41922%2C4366%2C9717%2C3613%2C11888%2C14651%2C3844%2C18498%2C24514%2C6975%2C12384%2C22089%2C2417%2C2%2C17954%2C3465%2C8965%2C2959%2C9177%2C8039%2C1655%2C13875%2C3639%2C3175%2C2150%2C2266%2C4783%2C8892%2C7881%2C2855%2C1504%2C12165%2C8899%2C5235%2C4269%2C165%2C286%2C3618%2C491%2C449%2C9663%2C734%2C2779%2C61%2C2100%2C3382%2C7216%2C11474%2C552%2C3088&cl=1002748652&seq=1&event=streamingstats&docid=_An9EsKPhp0&cbr=HeadlessChrome&cbrver=156.0.8078.4&c=WEB_EMBEDDED_PLAYER&cver=2.20261020.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.033:B,10.008:B&ctmp=dttg:t.0;dtt.1;gl.0;tm.0,user_intent_bh:t.7;bh.0.000;th.0.000&cat=streaming&cmt=0.033:0.000,0.136:0.000,10.008:0.000&bat=0.136:1:1,10.008:1:1&vis=0.136:0&bh=0.136:0.000,10.008:0.000&qclc=ChBkMnlEVWNSVU8wQWY0cl9DEAE #02fe2524f27e66c4",
+		"POST https://www.youtube-nocookie.com/api/stats/qoe?cpn=f83z2fj9OLpXXjBj&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C6258%2C16948%2C35402%2C34393%2C30907%2C15105%2C25059%2C4174%2C15862%2C14584%2C18706%2C26008%2C13016%2C14665%2C1422%2C6621%2C2783%2C23826%2C9500%2C1840%2C53631%2C41207%2C20588%2C4199%2C30114%2C9181%2C52983%2C6032%2C1168%2C8131%2C30205%2C4115%2C11462%2C41922%2C4366%2C9717%2C3613%2C11888%2C14651%2C3844%2C18498%2C24514%2C6975%2C12384%2C22089%2C2417%2C2%2C17954%2C3465%2C8965%2C2959%2C9177%2C8039%2C1655%2C13875%2C3639%2C3175%2C2150%2C2266%2C4783%2C8892%2C7881%2C2855%2C1504%2C12165%2C8899%2C5235%2C4269%2C165%2C286%2C3618%2C491%2C449%2C9663%2C734%2C2779%2C61%2C2100%2C3382%2C7216%2C11474%2C552%2C3088&cl=1002748652&seq=1&event=streamingstats&docid=_An9EsKPhp0&cbr=HeadlessChrome&cbrver=156.0.8078.4&c=WEB_EMBEDDED_PLAYER&cver=2.20261020.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.037:B,10.007:B&ctmp=dttg:t.0;dtt.1;gl.0;tm.0,user_intent_bh:t.6;bh.0.000;th.0.000&cat=streaming&cmt=0.037:0.000,0.143:0.000,10.007:0.000&bat=0.143:1:1,10.007:1:1&vis=0.143:0&bh=0.143:0.000,10.007:0.000&qclc=ChBmODN6MmZqOU9McFhYakJqEAE #b53a823c68759bb9",
 		"POST https://www.youtube-nocookie.com/api/stats/qoe?cpn=fhGnuge5TEtrn3lL&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C6258%2C16948%2C35402%2C34393%2C30907%2C15105%2C25059%2C4174%2C15862%2C14584%2C18706%2C26008%2C13016%2C14665%2C1422%2C6621%2C2783%2C23826%2C9500%2C1840%2C53631%2C41207%2C20588%2C4199%2C30114%2C9181%2C52983%2C6032%2C1168%2C8131%2C30205%2C4115%2C11462%2C41922%2C4366%2C9717%2C3613%2C11888%2C14651%2C3844%2C18498%2C24514%2C6975%2C12384%2C22089%2C2417%2C2%2C17954%2C3465%2C8965%2C2959%2C9177%2C8039%2C1655%2C13875%2C3639%2C3175%2C2150%2C2266%2C4783%2C8892%2C7881%2C2855%2C1504%2C12165%2C8899%2C5235%2C4269%2C165%2C286%2C3618%2C491%2C449%2C9663%2C734%2C2779%2C61%2C2100%2C3382%2C7216%2C11474%2C552%2C3088&cl=1002748652&seq=1&event=streamingstats&docid=_An9EsKPhp0&cbr=HeadlessChrome&cbrver=156.0.8078.4&c=WEB_EMBEDDED_PLAYER&cver=2.20261020.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.027:B,10.009:B&ctmp=dttg:t.0;dtt.1;gl.0;tm.0,user_intent_bh:t.5;bh.0.000;th.0.000&cat=streaming&cmt=0.027:0.000,0.142:0.000,10.009:0.000&bat=0.142:1:1,10.009:1:1&vis=0.142:0&bh=0.142:0.000,10.009:0.000&qclc=ChBmaEdudWdlNVRFdHJuM2xMEAE #86a7c25f51f704de",
 		"POST https://www.youtube-nocookie.com/api/stats/qoe?cpn=gB1R7ukAS0u51ncE&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C6258%2C16948%2C35402%2C34393%2C30907%2C15105%2C25059%2C4174%2C15862%2C14584%2C18706%2C26008%2C13016%2C14665%2C1422%2C6621%2C2783%2C23826%2C9500%2C1840%2C53631%2C41207%2C20588%2C4199%2C30114%2C9181%2C52983%2C6032%2C1168%2C8131%2C30205%2C4115%2C11462%2C41922%2C4366%2C9717%2C3613%2C11888%2C14651%2C3844%2C18498%2C24514%2C6975%2C12384%2C22089%2C2417%2C2%2C17954%2C3465%2C8965%2C2959%2C9177%2C8039%2C1655%2C13875%2C3639%2C3175%2C2150%2C2266%2C4783%2C8892%2C7881%2C2855%2C1504%2C12165%2C8899%2C5235%2C4269%2C165%2C286%2C3618%2C491%2C449%2C9663%2C734%2C2779%2C61%2C2100%2C3382%2C7216%2C11474%2C552%2C3088&cl=1002748652&seq=1&event=streamingstats&docid=_An9EsKPhp0&cbr=HeadlessChrome&cbrver=156.0.8078.4&c=WEB_EMBEDDED_PLAYER&cver=2.20261020.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.026:B,10.009:B&ctmp=dttg:t.0;dtt.1;gl.0;tm.0,user_intent_bh:t.5;bh.0.000;th.0.000&cat=streaming&cmt=0.026:0.000,0.101:0.000,10.009:0.000&bat=0.101:1:1,10.009:1:1&vis=0.101:0&bh=0.101:0.000,10.009:0.000&qclc=ChBnQjFSN3VrQVMwdTUxbmNFEAE #d2e2a6df8b08eee4",
+		"POST https://www.youtube-nocookie.com/api/stats/qoe?cpn=hAk1T3eTfZvLSG-y&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C6258%2C16948%2C35402%2C34393%2C30907%2C15105%2C25059%2C4174%2C15862%2C14584%2C18706%2C26008%2C13016%2C14665%2C1422%2C6621%2C2783%2C23826%2C9500%2C1840%2C53631%2C41207%2C20588%2C4199%2C30114%2C9181%2C52983%2C6032%2C1168%2C8131%2C30205%2C4115%2C11462%2C41922%2C4366%2C9717%2C3613%2C11888%2C14651%2C3844%2C18498%2C24514%2C6975%2C12384%2C22089%2C2417%2C2%2C17954%2C3465%2C8965%2C2959%2C9177%2C8039%2C1655%2C13875%2C3639%2C3175%2C2150%2C2266%2C4783%2C8892%2C7881%2C2855%2C1504%2C12165%2C8899%2C5235%2C4269%2C165%2C286%2C3618%2C491%2C449%2C9663%2C734%2C2779%2C61%2C2100%2C3382%2C7216%2C11474%2C552%2C3088&cl=1002748652&seq=1&event=streamingstats&docid=_An9EsKPhp0&cbr=HeadlessChrome&cbrver=156.0.8078.4&c=WEB_EMBEDDED_PLAYER&cver=2.20261020.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.032:B,10.007:B&ctmp=dttg:t.0;dtt.1;gl.0;tm.0,user_intent_bh:t.6;bh.0.000;th.0.000&cat=streaming&cmt=0.032:0.000,0.137:0.000,10.007:0.000&bat=0.137:1:1,10.007:1:1&vis=0.137:0&bh=0.137:0.000,10.007:0.000&qclc=ChBoQWsxVDNlVGZadkxTRy15EAE #b7fdae04fcb87cdd",
 		"POST https://www.youtube-nocookie.com/api/stats/qoe?cpn=i29gdOEfezG-9tk8&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C6258%2C16948%2C35402%2C34393%2C30907%2C15105%2C25059%2C4174%2C15862%2C14584%2C18706%2C26008%2C13016%2C14665%2C1422%2C6621%2C2783%2C23826%2C9500%2C1840%2C53631%2C41207%2C20588%2C4199%2C30114%2C9181%2C52983%2C6032%2C1168%2C8131%2C30205%2C4115%2C11462%2C41922%2C4366%2C9717%2C3613%2C11888%2C14651%2C3844%2C18498%2C24514%2C6975%2C12384%2C22089%2C2417%2C2%2C17954%2C3465%2C8965%2C2959%2C9177%2C8039%2C1655%2C13875%2C3639%2C3175%2C2150%2C2266%2C4783%2C8892%2C7881%2C2855%2C1504%2C12165%2C8899%2C5235%2C4269%2C165%2C286%2C3618%2C491%2C449%2C9663%2C734%2C2779%2C61%2C2100%2C3382%2C7216%2C11474%2C552%2C3088&cl=1002748652&seq=1&event=streamingstats&docid=_An9EsKPhp0&cbr=HeadlessChrome&cbrver=156.0.8078.4&c=WEB_EMBEDDED_PLAYER&cver=2.20261020.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.027:B,10.013:B&ctmp=dttg:t.0;dtt.1;gl.0;tm.0,user_intent_bh:t.6;bh.0.000;th.0.000&cat=streaming&cmt=0.027:0.000,0.103:0.000,10.013:0.000&bat=0.103:1:1,10.013:1:1&vis=0.103:0&bh=0.103:0.000,10.013:0.000&qclc=ChBpMjlnZE9FZmV6Ry05dGs4EAE #52a61469eeaba3ae",
 		"POST https://www.youtube-nocookie.com/api/stats/qoe?cpn=jH90OiIUErZar2sQ&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C6258%2C16948%2C35402%2C34393%2C30907%2C15105%2C25059%2C4174%2C15862%2C14584%2C18706%2C26008%2C13016%2C14665%2C1422%2C6621%2C2783%2C23826%2C9500%2C1840%2C53631%2C41207%2C20588%2C4199%2C30114%2C9181%2C52983%2C6032%2C1168%2C8131%2C30205%2C4115%2C11462%2C41922%2C4366%2C9717%2C3613%2C11888%2C14651%2C3844%2C18498%2C24514%2C6975%2C12384%2C22089%2C2417%2C2%2C17954%2C3465%2C8965%2C2959%2C9177%2C8039%2C1655%2C13875%2C3639%2C3175%2C2150%2C2266%2C4783%2C8892%2C7881%2C2855%2C1504%2C12165%2C8899%2C5235%2C4269%2C165%2C286%2C3618%2C491%2C449%2C9663%2C734%2C2779%2C61%2C2100%2C3382%2C7216%2C11474%2C552%2C3088&cl=1002748652&seq=1&event=streamingstats&docid=_An9EsKPhp0&cbr=HeadlessChrome&cbrver=156.0.8078.4&c=WEB_EMBEDDED_PLAYER&cver=2.20261020.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.023:B,10.013:B&ctmp=dttg:t.0;dtt.1;gl.0;tm.0,user_intent_bh:t.5;bh.0.000;th.0.000&cat=streaming&cmt=0.023:0.000,0.093:0.000,10.013:0.000&bat=0.093:1:1,10.013:1:1&vis=0.093:0&bh=0.093:0.000,10.013:0.000&qclc=ChBqSDkwT2lJVUVyWmFyMnNREAE #39ba3cf3af4c4797",
 		"POST https://www.youtube-nocookie.com/api/stats/qoe?cpn=m4GUm_JvoDvYyrvu&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C6258%2C16948%2C35402%2C34393%2C30907%2C15105%2C25059%2C4174%2C15862%2C14584%2C18706%2C26008%2C13016%2C14665%2C1422%2C6621%2C2783%2C23826%2C9500%2C1840%2C53631%2C41207%2C20588%2C4199%2C30114%2C9181%2C52983%2C6032%2C1168%2C8131%2C30205%2C4115%2C11462%2C41922%2C4366%2C9717%2C3613%2C11888%2C14651%2C3844%2C18498%2C24514%2C6975%2C12384%2C22089%2C2417%2C2%2C17954%2C3465%2C8965%2C2959%2C9177%2C8039%2C1655%2C13875%2C3639%2C3175%2C2150%2C2266%2C4783%2C8892%2C7881%2C2855%2C1504%2C12165%2C8899%2C5235%2C4269%2C165%2C286%2C3618%2C491%2C449%2C9663%2C734%2C2779%2C61%2C2100%2C3382%2C7216%2C11474%2C552%2C3088&cl=1002748652&seq=1&event=streamingstats&docid=_An9EsKPhp0&cbr=HeadlessChrome&cbrver=156.0.8078.4&c=WEB_EMBEDDED_PLAYER&cver=2.20261020.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.019:B,10.005:B&ctmp=dttg:t.0;dtt.1;gl.0;tm.0,user_intent_bh:t.4;bh.0.000;th.0.000&cat=streaming&cmt=0.019:0.000,0.082:0.000,10.005:0.000&bat=0.082:1:1,10.005:1:1&vis=0.082:0&bh=0.082:0.000,10.005:0.000&qclc=ChBtNEdVbV9Kdm9Edll5cnZ1EAE #80ed864769c9f110",
 		"POST https://www.youtube-nocookie.com/api/stats/qoe?cpn=mbTzHLPquaon9lqA&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C6258%2C16948%2C35402%2C34393%2C30907%2C15105%2C25059%2C4174%2C15862%2C14584%2C18706%2C26008%2C13016%2C14665%2C1422%2C6621%2C2783%2C23826%2C9500%2C1840%2C53631%2C41207%2C20588%2C4199%2C30114%2C9181%2C52983%2C6032%2C1168%2C8131%2C30205%2C4115%2C11462%2C41922%2C4366%2C9717%2C3613%2C11888%2C14651%2C3844%2C18498%2C24514%2C6975%2C12384%2C22089%2C2417%2C2%2C17954%2C3465%2C8965%2C2959%2C9177%2C8039%2C1655%2C13875%2C3639%2C3175%2C2150%2C2266%2C4783%2C8892%2C7881%2C2855%2C1504%2C12165%2C8899%2C5235%2C4269%2C165%2C286%2C3618%2C491%2C449%2C9663%2C734%2C2779%2C61%2C2100%2C3382%2C7216%2C11474%2C552%2C3088&cl=1002748652&seq=1&event=streamingstats&docid=_An9EsKPhp0&cbr=HeadlessChrome&cbrver=156.0.8078.4&c=WEB_EMBEDDED_PLAYER&cver=2.20261020.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.030:B,10.009:B&ctmp=dttg:t.0;dtt.1;gl.0;tm.0,user_intent_bh:t.6;bh.0.000;th.0.000&cat=streaming&cmt=0.030:0.000,0.130:0.000,10.009:0.000&bat=0.130:1:1,10.009:1:1&vis=0.130:0&bh=0.130:0.000,10.009:0.000&qclc=ChBtYlR6SExQcXVhb245bHFBEAE #202cac31c0682895",
+		"POST https://www.youtube-nocookie.com/api/stats/qoe?cpn=mdqD3jjpYCOl7FcQ&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C6258%2C16948%2C35402%2C34393%2C30907%2C15105%2C25059%2C4174%2C15862%2C14584%2C18706%2C26008%2C13016%2C14665%2C1422%2C6621%2C2783%2C23826%2C9500%2C1840%2C53631%2C41207%2C20588%2C4199%2C30114%2C9181%2C52983%2C6032%2C1168%2C8131%2C30205%2C4115%2C11462%2C41922%2C4366%2C9717%2C3613%2C11888%2C14651%2C3844%2C18498%2C24514%2C6975%2C12384%2C22089%2C2417%2C2%2C17954%2C3465%2C8965%2C2959%2C9177%2C8039%2C1655%2C13875%2C3639%2C3175%2C2150%2C2266%2C4783%2C8892%2C7881%2C2855%2C1504%2C12165%2C8899%2C5235%2C4269%2C165%2C286%2C3618%2C491%2C449%2C9663%2C734%2C2779%2C61%2C2100%2C3382%2C7216%2C11474%2C552%2C3088&cl=1002748652&seq=1&event=streamingstats&docid=_An9EsKPhp0&cbr=HeadlessChrome&cbrver=156.0.8078.4&c=WEB_EMBEDDED_PLAYER&cver=2.20261020.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.031:B,10.007:B&ctmp=dttg:t.0;dtt.1;gl.0;tm.0,user_intent_bh:t.6;bh.0.000;th.0.000&cat=streaming&cmt=0.031:0.000,0.138:0.000,10.007:0.000&bat=0.138:1:1,10.007:1:1&vis=0.138:0&bh=0.138:0.000,10.007:0.000&qclc=ChBtZHFEM2pqcFlDT2w3RmNREAE #d8fef7e7b4dc2bb8",
 		"POST https://www.youtube-nocookie.com/api/stats/qoe?cpn=mxtreeAP61BM6zx4&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C6258%2C16948%2C35402%2C34393%2C30907%2C15105%2C25059%2C4174%2C15862%2C14584%2C18706%2C26008%2C13016%2C14665%2C1422%2C6621%2C2783%2C23826%2C9500%2C1840%2C53631%2C41207%2C20588%2C4199%2C30114%2C9181%2C52983%2C6032%2C1168%2C8131%2C30205%2C4115%2C11462%2C41922%2C4366%2C9717%2C3613%2C11888%2C14651%2C3844%2C18498%2C24514%2C6975%2C12384%2C22089%2C2417%2C2%2C17954%2C3465%2C8965%2C2959%2C9177%2C8039%2C1655%2C13875%2C3639%2C3175%2C2150%2C2266%2C4783%2C8892%2C7881%2C2855%2C1504%2C12165%2C8899%2C5235%2C4269%2C165%2C286%2C3618%2C491%2C449%2C9663%2C734%2C2779%2C61%2C2100%2C3382%2C7216%2C11474%2C552%2C3088&cl=1002748652&seq=1&event=streamingstats&docid=_An9EsKPhp0&cbr=HeadlessChrome&cbrver=156.0.8078.4&c=WEB_EMBEDDED_PLAYER&cver=2.20261020.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.035:B,10.009:B&ctmp=dttg:t.0;dtt.1;gl.0;tm.0,user_intent_bh:t.6;bh.0.000;th.0.000&cat=streaming&cmt=0.035:0.000,0.137:0.000,10.009:0.000&bat=0.137:1:1,10.009:1:1&vis=0.137:0&bh=0.137:0.000,10.009:0.000&qclc=ChBteHRyZWVBUDYxQk02eng0EAE #71a3d6ed000cce1d",
 		"POST https://www.youtube-nocookie.com/api/stats/qoe?cpn=o7KBIUytDepqCdAI&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C6258%2C16948%2C35402%2C34393%2C30907%2C15105%2C25059%2C4174%2C15862%2C14584%2C18706%2C26008%2C13016%2C14665%2C1422%2C6621%2C2783%2C23826%2C9500%2C1840%2C53631%2C41207%2C20588%2C4199%2C30114%2C9181%2C52983%2C6032%2C1168%2C8131%2C30205%2C4115%2C11462%2C41922%2C4366%2C9717%2C3613%2C11888%2C14651%2C3844%2C18498%2C24514%2C6975%2C12384%2C22089%2C2417%2C2%2C17954%2C3465%2C8965%2C2959%2C9177%2C8039%2C1655%2C13875%2C3639%2C3175%2C2150%2C2266%2C4783%2C8892%2C7881%2C2855%2C1504%2C12165%2C8899%2C5235%2C4269%2C165%2C286%2C3618%2C491%2C449%2C9663%2C734%2C2779%2C61%2C2100%2C3382%2C7216%2C11474%2C552%2C3088&cl=1002748652&seq=1&event=streamingstats&docid=_An9EsKPhp0&cbr=HeadlessChrome&cbrver=156.0.8078.4&c=WEB_EMBEDDED_PLAYER&cver=2.20261020.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.036:B,10.007:B&ctmp=dttg:t.0;dtt.1;gl.0;tm.0,user_intent_bh:t.6;bh.0.000;th.0.000&cat=streaming&cmt=0.036:0.000,0.137:0.000,10.007:0.000&bat=0.137:1:1,10.007:1:1&vis=0.137:0&bh=0.137:0.000,10.007:0.000&qclc=ChBvN0tCSVV5dERlcHFDZEFJEAE #8e3928a936664bc0",
 		"POST https://www.youtube-nocookie.com/api/stats/qoe?cpn=pNAc1sqAf0LnQTzS&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C6258%2C16948%2C35402%2C34393%2C30907%2C15105%2C25059%2C4174%2C15862%2C14584%2C18706%2C26008%2C13016%2C14665%2C1422%2C6621%2C2783%2C23826%2C9500%2C1840%2C53631%2C41207%2C20588%2C4199%2C30114%2C9181%2C52983%2C6032%2C1168%2C8131%2C30205%2C4115%2C11462%2C41922%2C4366%2C9717%2C3613%2C11888%2C14651%2C3844%2C18498%2C24514%2C6975%2C12384%2C22089%2C2417%2C2%2C17954%2C3465%2C8965%2C2959%2C9177%2C8039%2C1655%2C13875%2C3639%2C3175%2C2150%2C2266%2C4783%2C8892%2C7881%2C2855%2C1504%2C12165%2C8899%2C5235%2C4269%2C165%2C286%2C3618%2C491%2C449%2C9663%2C734%2C2779%2C61%2C2100%2C3382%2C7216%2C11474%2C552%2C3088&cl=1002748652&seq=1&event=streamingstats&docid=_An9EsKPhp0&cbr=HeadlessChrome&cbrver=156.0.8078.4&c=WEB_EMBEDDED_PLAYER&cver=2.20261020.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.026:B,10.012:B&ctmp=dttg:t.0;dtt.1;gl.0;tm.0,user_intent_bh:t.5;bh.0.000;th.0.000&cat=streaming&cmt=0.026:0.000,0.103:0.000,10.012:0.000&bat=0.103:1:1,10.012:1:1&vis=0.103:0&bh=0.103:0.000,10.012:0.000&qclc=ChBwTkFjMXNxQWYwTG5RVHpTEAE #1fd99ab8382f90b3",
@@ -2187,9 +1805,12 @@
 		"POST https://www.youtube-nocookie.com/api/stats/qoe?cpn=y3vSqWHXk5m3aXDB&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C6258%2C16948%2C35402%2C34393%2C30907%2C15105%2C25059%2C4174%2C15862%2C14584%2C18706%2C26008%2C13016%2C14665%2C1422%2C6621%2C2783%2C23826%2C9500%2C1840%2C53631%2C41207%2C20588%2C4199%2C30114%2C9181%2C52983%2C6032%2C1168%2C8131%2C30205%2C4115%2C11462%2C41922%2C4366%2C9717%2C3613%2C11888%2C14651%2C3844%2C18498%2C24514%2C6975%2C12384%2C22089%2C2417%2C2%2C17954%2C3465%2C8965%2C2959%2C9177%2C8039%2C1655%2C13875%2C3639%2C3175%2C2150%2C2266%2C4783%2C8892%2C7881%2C2855%2C1504%2C12165%2C8899%2C5235%2C4269%2C165%2C286%2C3618%2C491%2C449%2C9663%2C734%2C2779%2C61%2C2100%2C3382%2C7216%2C11474%2C552%2C3088&cl=1002748652&seq=1&event=streamingstats&docid=_An9EsKPhp0&cbr=HeadlessChrome&cbrver=156.0.8078.4&c=WEB_EMBEDDED_PLAYER&cver=2.20261020.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.027:B,10.010:B&ctmp=dttg:t.0;dtt.1;gl.0;tm.0,user_intent_bh:t.5;bh.0.000;th.0.000&cat=streaming&cmt=0.027:0.000,0.101:0.000,10.010:0.000&bat=0.101:1:1,10.010:1:1&vis=0.101:0&bh=0.101:0.000,10.010:0.000&qclc=ChB5M3ZTcVdIWGs1bTNhWERCEAE #e70422f7686a800f",
 		"POST https://www.youtube-nocookie.com/api/stats/qoe?cpn=z5IhU4zq56urc7L4&el=embedded&ns=yt&fexp=v1%2C100673025%2C-76668381%2C27058999%2C34656%2C124674%2C117689%2C9252%2C16509%2C6258%2C16948%2C35402%2C34393%2C30907%2C15105%2C25059%2C4174%2C15862%2C14584%2C18706%2C26008%2C13016%2C14665%2C1422%2C6621%2C2783%2C23826%2C9500%2C1840%2C53631%2C41207%2C20588%2C4199%2C30114%2C9181%2C52983%2C6032%2C1168%2C8131%2C30205%2C4115%2C11462%2C41922%2C4366%2C9717%2C3613%2C11888%2C14651%2C3844%2C18498%2C24514%2C6975%2C12384%2C22089%2C2417%2C2%2C17954%2C3465%2C8965%2C2959%2C9177%2C8039%2C1655%2C13875%2C3639%2C3175%2C2150%2C2266%2C4783%2C8892%2C7881%2C2855%2C1504%2C12165%2C8899%2C5235%2C4269%2C165%2C286%2C3618%2C491%2C449%2C9663%2C734%2C2779%2C61%2C2100%2C3382%2C7216%2C11474%2C552%2C3088&cl=1002748652&seq=1&event=streamingstats&docid=_An9EsKPhp0&cbr=HeadlessChrome&cbrver=156.0.8078.4&c=WEB_EMBEDDED_PLAYER&cver=2.20261020.01.00&cplayer=UNIPLAYER&cos=X11&cplatform=DESKTOP&vps=0.000:N,0.022:B,10.005:B&ctmp=dttg:t.0;dtt.1;gl.0;tm.0,user_intent_bh:t.4;bh.0.000;th.0.000&cat=streaming&cmt=0.022:0.000,0.087:0.000,10.005:0.000&bat=0.087:1:1,10.005:1:1&vis=0.087:0&bh=0.087:0.000,10.005:0.000&qclc=ChB6NUloVTR6cTU2dXJjN0w0EAE #3dfab0560fb0a1e3",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #01f5e5a9bb4b5e03",
+		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #08abe0e585f0157c",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #0fa946c8de3d5d43",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #156c35f708a15ae7",
+		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #2065f0a554ac9c6a",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #2366b60b19a9a2cb",
+		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #28eebe75f3c2a9b7",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #2ca399025b7453f1",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #2dd41ddb22945c97",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #358a9cd4d8464189",
@@ -2198,6 +1819,7 @@
 		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #41c8d3613d497fd5",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #4225e67e6d96ad7d",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #4c90a5f1590a6ec4",
+		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #62ca4c247004a87a",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #6f354ce77a10289f",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #729698e28618512a",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #797c09d9dd4f8c4b",
@@ -2205,6 +1827,7 @@
 		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #81005bee15147a1c",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #81743afab62b1290",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #848f7b1abaf9cf54",
+		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #85245572345c189c",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #854b206a7b46db1d",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #8e746dfd1b79898f",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #94e59f8c9918fe2f",
@@ -2213,15 +1836,18 @@
 		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #b8e69018a75a15fe",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #bfa098449abb674f",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #c41a94a59ab3cade",
+		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #c5affcb5338753fe",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #c682ed3a79d6b7c9",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #c98808b14b81abce",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #cb485c729684dcda",
+		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #ce651b21079fc4fa",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #cee5b3264d9edaaf",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #d1a4d0bbb6677dc3",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #d2a37e7479d536fe",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #d531d90ddf091bcc",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #dc44ed6ce028e573",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #de57b352c4adbb51",
+		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #e7cae88f2048d5ea",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #ea1123a1419c3447",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #f56a0908119080e0",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/att/get?prettyPrint=false #fcf7b52a28eae5d1",
@@ -2231,6 +1857,7 @@
 		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #10f6ecf276fd2c05",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #13b979441fab16e4",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #16d15df7a4ac2d39",
+		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #20dcd487706a1c53",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #2e9e3e41b185a464",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #301a0f3e527aa555",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #33293bb08fa454ee",
@@ -2242,20 +1869,26 @@
 		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #5d4e35d9bfb081e2",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #66e730c29f7351ab",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #673726f69a053af7",
+		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #6b07bc74b8b8105f",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #718fcff06bcfae0a",
+		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #75eab10d6044ca83",
+		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #7d054f4758b82231",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #83dcb84ae4e09bd6",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #84f68daf983e6cd3",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #8618033853ad5c4e",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #895f6e74d4568f13",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #985c1a437ad371f7",
+		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #9deed760b24c5baf",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #9f2f9e0681bc5e1a",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #a7ca294c2d4a904e",
+		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #add51f23e5a65d35",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #ae539a1dc1d4229c",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #b0317c81fb3c0ad1",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #b2591a7769f7b2f2",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #b6718550b8ad7bcc",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #bce887a314e53381",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #bd27f41f9701d059",
+		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #bf7bbe3e2112dc6e",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #c9483b784386c098",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #d038537570e3a74c",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #d06bbfdf1e96d8f3",
@@ -2265,12 +1898,14 @@
 		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #e951b5b470e85e64",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #e95f3498852db074",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #f6c34485d1570ae8",
+		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #fb7c5d75c0376608",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json #fd76e97787da7759",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #01943f01a5000cca",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #045dbabc52afad0f",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #127ea074b215a8c1",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #1b819864610c914f",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #1cab316c9146b535",
+		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #1e745086d30ec8a1",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #2268021b4040b95c",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #31e23960cda6d410",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #33ebd1af4d20c8bb",
@@ -2281,13 +1916,17 @@
 		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #4d79e0751a06ea7c",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #4f9730826d6e51a4",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #50b2bf7ac3042881",
+		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #54c8a63adff92aa7",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #613f329d84f45f2e",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #673426d0c6f769bd",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #67a020678691f8cf",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #6b58bd00aeb45ce8",
+		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #6d5cc56c571b2491",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #7037a8c61e04abc8",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #7e8a2345304c839c",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #827fccc52da73161",
+		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #85fbb5e396412ea2",
+		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #87caf652e0cba78f",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #8d5c0ecbce6e5bdd",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #8ff9cc793c73b6cd",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #9c2bf695a53e4a02",
@@ -2301,14 +1940,20 @@
 		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #beb0a9a4a6ad2703",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #bfc2dd90c0b5afc0",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #c5952edeef8896dd",
+		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #c7cd1fc3873c3abc",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #c8d7a577681e885c",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #de95d1eb81a3b0b5",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #df8c482be182cbc8",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #e2fec4ec850f6f56",
+		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #ee864e0e4ae1b089",
+		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #fac2b8bce3a3ad48",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/next?prettyPrint=false #fcdd1f2f59e7aab4",
+		"POST https://www.youtube-nocookie.com/youtubei/v1/player?prettyPrint=false #06b3dee5d49ec81c",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/player?prettyPrint=false #2085c354a67c1eef",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/player?prettyPrint=false #2d96a17e69ab54b0",
+		"POST https://www.youtube-nocookie.com/youtubei/v1/player?prettyPrint=false #30b215b6db757320",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/player?prettyPrint=false #358c2506f8626379",
+		"POST https://www.youtube-nocookie.com/youtubei/v1/player?prettyPrint=false #456aa1c9821299ff",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/player?prettyPrint=false #47b2d6c5e2bc172d",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/player?prettyPrint=false #4f181f83c66567ec",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/player?prettyPrint=false #51f687c03763674b",
@@ -2332,11 +1977,14 @@
 		"POST https://www.youtube-nocookie.com/youtubei/v1/player?prettyPrint=false #a4dc63201b5c34fb",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/player?prettyPrint=false #a74c32541b5e2590",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/player?prettyPrint=false #a918c148eeb48ab9",
+		"POST https://www.youtube-nocookie.com/youtubei/v1/player?prettyPrint=false #aa5a6ac5b40bc45f",
+		"POST https://www.youtube-nocookie.com/youtubei/v1/player?prettyPrint=false #b56a33464e5bf426",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/player?prettyPrint=false #bbdd3f2d8b22b871",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/player?prettyPrint=false #bc3b27a8a070a590",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/player?prettyPrint=false #c2234c6050b6ae90",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/player?prettyPrint=false #c354ace24f0936c0",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/player?prettyPrint=false #ca1520473ba35583",
+		"POST https://www.youtube-nocookie.com/youtubei/v1/player?prettyPrint=false #cab3ed37e932fffc",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/player?prettyPrint=false #ccc8affcaa31969e",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/player?prettyPrint=false #d0b7f5e762d48263",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/player?prettyPrint=false #d8a3a778096563c7",
@@ -2345,6 +1993,8 @@
 		"POST https://www.youtube-nocookie.com/youtubei/v1/player?prettyPrint=false #e7de3af00f3bca27",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/player?prettyPrint=false #e8dfd17216b4620a",
 		"POST https://www.youtube-nocookie.com/youtubei/v1/player?prettyPrint=false #e8e3f71a8e810cb9",
-		"POST https://www.youtube-nocookie.com/youtubei/v1/player?prettyPrint=false #f1efff9749551ab0"
+		"POST https://www.youtube-nocookie.com/youtubei/v1/player?prettyPrint=false #f05726caa229b51e",
+		"POST https://www.youtube-nocookie.com/youtubei/v1/player?prettyPrint=false #f1efff9749551ab0",
+		"POST https://www.youtube-nocookie.com/youtubei/v1/player?prettyPrint=false #f47d30cd4eea3cfe"
 	]
 }
