@@ -1,11 +1,25 @@
-import type { Suite } from '../src/types.ts';
-import full from './routes/docusaurus.json' with { type: 'json' };
+import type { SampleRoute, Suite } from '../src/types.ts';
+
+const ROUTES: readonly SampleRoute[] = [
+	{ route: '/', covers: ['theme class', 'menu', 'idle or visible handler'] },
+	{ route: '/docs', covers: ['big page', 'in-place navigation', 'theme class'] },
+	{ route: '/docs/installation', covers: ['in-place navigation', 'dialog'] },
+	{ route: '/docs/configuration', covers: ['big page', 'in-place navigation'] },
+	{ route: '/blog', covers: ['keyed list', 'in-place navigation'] },
+	{ route: '/blog/releases/3.10', covers: ['big page'] },
+	{ route: '/changelog', covers: ['keyed list'] },
+	{ route: '/showcase', covers: ['keyed list', 'big page'] },
+	{ route: '/community/support', covers: ['in-place navigation'] },
+];
 
 export default {
 	name: 'docusaurus',
 	app: 'examples/docusaurus-markless',
 	old: 'https://mm-docusaurus-old.vercel.app',
 	owner: 'markless-migrate docusaurus port (thejackshelton)',
+	migrateRef: '35a783ef83f81ce049ecfc096dd8fc37fa2bb72c',
+	// The port has all 484 routes; this builds the ones the lanes check, which fit a standard runner (the whole site is checked by markless-migrate's own check.yml).
+	prepare: [['node', 'scripts/keep-routes.mjs', ...ROUTES.map((r) => r.route)]],
 	quarantine: [
 		{
 			route: "*",
@@ -33,11 +47,7 @@ export default {
 		},
 	],
 	routes: {
-		sample: [
-			{ route: '/', covers: ['theme class', 'menu', 'idle or visible handler'] },
-			{ route: '/docs', covers: ['big page', 'in-place navigation', 'theme class'] },
-			{ route: '/docs/installation', covers: ['in-place navigation', 'dialog'] },
-		],
-		full,
+		sample: ROUTES.slice(0, 3),
+		full: ROUTES.map((r) => r.route),
 	},
 } satisfies Suite;
