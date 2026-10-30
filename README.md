@@ -74,8 +74,9 @@ Measured on GitHub's `ubuntu-latest` runners on 2026-10-21:
   remix-notes and next-dashboard 3 to 4, realworld 4, docusaurus 5 to 10, alpinejs-dev 6 to 10, ag-grid 8,
   shadcn-admin 10 to 16, vite-dev 14 to 19. With the jobs in parallel, a run takes 20 to 25 minutes from start to
   the table, about 150 runner minutes in total.
-- The nightly full lane: 45 jobs of up to 25 routes, with the checker's own journey budget. docusaurus alone is 23
-  of them, because it has 571 routes.
+- The nightly full lane: jobs of up to 25 routes, with the checker's own journey budget. docusaurus checks the same 8
+  routes in both lanes: its whole 484-page build needs about 30 GB of heap, more than a runner has, so its prepare
+  step removes every other page before the build.
 - Captures: 26 MB for the eight suites, each body stored once and brotli-compressed.
 
 The checker is memory-heavy (two Chromium contexts per route, two routes at once), so a job runs one suite shard and
@@ -137,7 +138,7 @@ One file per site in `suites/`, with its route lists in `suites/routes/`. A suit
 | --- | --- | --- | --- |
 | ag-grid | https://mm-ag-grid-old.vercel.app | big page, keyed list, menu, onIdle, theme class | runs |
 | alpinejs-dev | https://alpinejs.dev | big pages, page scripts, dialog, menu, keyed lists, onIdle, in-place navigation | runs |
-| docusaurus | https://mm-docusaurus-old.vercel.app | theme class, menus, dialog, big page, in-place navigation | runs |
+| docusaurus | https://mm-docusaurus-old.vercel.app | theme class, menus, dialog, big page, in-place navigation, keyed list (8 of 484 pages built) | runs |
 | htmx-org | https://htmx.org | big page, page scripts, menu | runs |
 | next-dashboard | https://mm-next-dashboard-old.vercel.app | streaming, keyed lists, in-place navigation, signed-in role | runs |
 | realworld | https://mm-realworld-old.vercel.app | in-place navigation, onIdle, keyed list | runs |
