@@ -1,11 +1,25 @@
-import type { Suite } from '../src/types.ts';
-import full from './routes/docusaurus.json' with { type: 'json' };
+import type { Suite, SampleRoute } from '../src/types.ts';
+
+// docusaurus.io: 8 of the port's 484 pages, one per page type. The whole port needs about 30 GB of heap to build, more
+// than a runner has, so prepare removes every other page before the build (scripts/keep-routes.mjs).
+const routes: SampleRoute[] = [
+	{ route: '/', covers: ['theme class', 'menu', 'idle or visible handler'] },
+	{ route: '/docs', covers: ['big page', 'in-place navigation', 'theme class'] },
+	{ route: '/docs/installation', covers: ['in-place navigation', 'dialog'] },
+	{ route: '/docs/category/getting-started', covers: ['in-place navigation'] },
+	{ route: '/blog', covers: ['big page', 'in-place navigation'] },
+	{ route: '/blog/releases/3.10', covers: ['big page', 'in-place navigation'] },
+	{ route: '/changelog', covers: ['big page', 'in-place navigation'] },
+	{ route: '/showcase', covers: ['keyed list', 'big page'] },
+];
 
 export default {
 	name: 'docusaurus',
 	app: 'examples/docusaurus-markless',
 	old: 'https://mm-docusaurus-old.vercel.app',
 	owner: 'markless-migrate docusaurus port (thejackshelton)',
+	migrateRef: '7a5706a605309c10003f0435befdc7412d1204c3',
+	prepare: [['node', 'scripts/keep-routes.mjs', ...routes.map((r) => r.route)]],
 	quarantine: [
 		{
 			route: "*",
@@ -32,12 +46,5 @@ export default {
 			until: "2026-11-04",
 		},
 	],
-	routes: {
-		sample: [
-			{ route: '/', covers: ['theme class', 'menu', 'idle or visible handler'] },
-			{ route: '/docs', covers: ['big page', 'in-place navigation', 'theme class'] },
-			{ route: '/docs/installation', covers: ['in-place navigation', 'dialog'] },
-		],
-		full,
-	},
+	routes: { sample: routes, full: routes.map((r) => r.route) },
 } satisfies Suite;
