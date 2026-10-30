@@ -19,6 +19,12 @@ export default {
 	old: 'https://mm-docusaurus-old.vercel.app',
 	owner: 'markless-migrate docusaurus port (thejackshelton)',
 	migrateRef: '7a5706a605309c10003f0435befdc7412d1204c3',
+	// The importer copies the old site's static files and the assets its pages reference into public/, which the app
+	// does not commit; without them every image on the port was broken (nightly run 41125479602).
+	snapshot: {
+		url: 'https://github.com/compiled-run/markless-migrate/releases/download/docusaurus-imported-35a783ef/docusaurus-markless-imported.tar.gz',
+		sha256: '071abe08244f35b59a281a00868be0ed55bb2fd86a329fd356649ab11c980559',
+	},
 	prepare: [['node', 'scripts/keep-routes.mjs', ...routes.map((r) => r.route)]],
 	// The other suites' checker (migrate.json's pin) has no slow-network step; this one measures it in Chromium, Firefox
 	// and WebKit, and a runner here installs Chromium only, so the check refused to start (record run 41104185267).
