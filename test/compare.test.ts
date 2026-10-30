@@ -191,5 +191,10 @@ describe('the journey-choice quarantine (compiled-run/markless-migrate#108)', ()
 		]);
 		assert.equal(motion.quarantined.length, 1);
 		assert.equal(motion.regressions.length, 1);
+		const showcase = hold(docusaurus, [
+			{ route: '/showcase', detail: 'rendered (mobile): accessibility tree; expected       - img "Svix", got       - img' },
+			{ route: '/showcase', detail: 'rendered (desktop): accessibility tree; expected       - img "Svix", got       - img' },
+		]);
+		assert.deepEqual(showcase.regressions.map((r) => r.detail), ['rendered (desktop): accessibility tree; expected       - img "Svix", got       - img']);
 	});
 });

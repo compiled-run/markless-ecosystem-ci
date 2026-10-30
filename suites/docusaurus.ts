@@ -31,6 +31,38 @@ export default {
 	check: ['--no-slow-network'],
 	quarantine: [
 		{
+			route: '/showcase',
+			dimension: "rendered (mobile)",
+			check: "accessibility tree",
+			reason: "in one of two replays of one build in record run 41134796137, 8 showcase card images near the bottom of the 85,000 px mobile page had no name yet (the lazy image had not swapped in); the other replay matched",
+			owner: 'markless-migrate checker (thejackshelton)',
+			until: '2026-11-13',
+		},
+		{
+			route: '/showcase',
+			dimension: "css (mobile)",
+			check: "computed style of generic (main>list>listitem/div)",
+			reason: "in one of two replays of one build in record run 41134796137, 8 showcase cards near the bottom still had the lazy image's blurred placeholder as background-image; the other replay matched",
+			owner: 'markless-migrate checker (thejackshelton)',
+			until: '2026-11-13',
+		},
+		{
+			route: '/showcase',
+			dimension: "assets (mobile)",
+			check: "image #",
+			reason: "in one of two replays of one build in record run 41134796137, 4 showcase images near the bottom of the mobile page had not loaded when the checker read them; the other replay matched",
+			owner: 'markless-migrate checker (thejackshelton)',
+			until: '2026-11-13',
+		},
+		{
+			route: '/showcase',
+			dimension: "visual (mobile)",
+			check: "screenshot",
+			reason: "in one of two replays of one build in record run 41134796137, 77442 pixels (0.22%) differed around those cards at y=75655..85192; the other replay matched",
+			owner: 'markless-migrate checker (thejackshelton)',
+			until: '2026-11-13',
+		},
+		{
 			route: '/blog',
 			dimension: 'navigation',
 			check: 'in place from /',
