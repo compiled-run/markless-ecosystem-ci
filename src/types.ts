@@ -58,7 +58,7 @@ export interface Suite {
 export interface Quarantine {
 	/** The route, or `*` for every route. */
 	readonly route: string;
-	/** A checker dimension, `*` for every check on the route (weight included), or `capture` for requests missing from the capture. */
+	/** A checker dimension, `*` for every check on the route (weight included), `weight` for a weight row (check: `JavaScript executed` or `JavaScript downloaded`), or `capture` for requests missing from the capture. */
 	readonly dimension: string;
 	/** The start of the failure's check text; for `capture`, part of the missing request's URL. */
 	readonly check: string;
