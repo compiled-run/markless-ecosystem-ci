@@ -259,6 +259,7 @@ export function applyQuarantine(comparison: Omit<SuiteComparison, 'quarantined'>
 		live.some((q) => {
 			if (q.dimension === 'capture') return r.kind === 'capture' && r.detail.includes(q.check);
 			if ((q.route !== '*' && q.route !== r.route) || (r.kind !== 'failure' && r.kind !== 'weight')) return false;
+			if (q.dimension === 'weight') return r.kind === 'weight' && r.detail.startsWith(q.check);
 			if (q.dimension === '*') return true;
 			return r.kind === 'failure' && r.detail.startsWith(q.dimension) && r.detail.includes(`: ${q.check}`);
 		});

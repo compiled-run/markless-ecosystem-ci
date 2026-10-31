@@ -55,7 +55,8 @@ failures one by one, not only pass or fail.
    a console error still counts), a motion's duration (not its shape), and a control the checker gave up on after its own 1.5 s timeout. A source map the checker fetches to
    name a source line is not a capture miss. A check that still varied after that is quarantined in its suite
    (`quarantine`, with the measured reason, an owner and an expiry at most two weeks out); an expired entry fails
-   every run. `scripts/stability.ts` compares two replays the way `compare` does, and the record workflow runs it.
+   every run. A weight row is held by dimension `weight` and a check of `JavaScript executed` or `JavaScript downloaded`,
+   so the other stays counted. `scripts/stability.ts` compares two replays the way `compare` does, and the record workflow runs it.
 
 ## Lanes
 

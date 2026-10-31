@@ -196,5 +196,10 @@ describe('the journey-choice quarantine (compiled-run/markless-migrate#108)', ()
 			{ route: '/showcase', detail: 'rendered (desktop): accessibility tree; expected       - img "Svix", got       - img' },
 		]);
 		assert.deepEqual(showcase.regressions.map((r) => r.detail), ['rendered (desktop): accessibility tree; expected       - img "Svix", got       - img']);
+		const weight = applyQuarantine({ suite: docusaurus, regressions: [
+			{ kind: 'weight' as const, route: '/blog/releases/3.10', detail: 'JavaScript executed at load 106167 bytes, main 97437' },
+			{ kind: 'weight' as const, route: '/blog/releases/3.10', detail: 'JavaScript downloaded at load 186167 bytes, main 177437' },
+		], timing: [], fixed: [], knownReds: [] } as never, new Date('2026-10-31T00:00:00Z'));
+		assert.deepEqual(weight.regressions.map((r) => r.detail), ['JavaScript downloaded at load 186167 bytes, main 177437']);
 	});
 });

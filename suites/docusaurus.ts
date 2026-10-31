@@ -33,6 +33,14 @@ export default {
 	check: ['--no-slow-network', '--timeout', '3000'],
 	quarantine: [
 		{
+			route: '*',
+			dimension: 'weight',
+			check: 'JavaScript executed',
+			reason: "code run at load moved by up to about 9 kB between loads of one build (98413 vs 106607 bytes on / in record run 41109495577, 97437 vs 106167 on /blog/releases/3.10 against main in run compiled-run/markless 41155469182). Locally at 6x CPU, 2 of 10 loads of /blog/releases/3.10 dispatch the site's onVisible/onIdle boot through the runtime's full event path (3.2 kB more), and a full-page screenshot inside the coverage window wakes below-the-fold onVisible code (5.1 kB more). Downloaded JavaScript stays counted",
+			owner: 'Markless runtime (thejackshelton)',
+			until: '2026-11-13',
+		},
+		{
 			route: '/showcase',
 			dimension: "rendered (mobile)",
 			check: "accessibility tree",
