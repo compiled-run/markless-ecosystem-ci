@@ -33,6 +33,22 @@ export default {
 	check: ['--no-slow-network', '--timeout', '3000'],
 	quarantine: [
 		{
+			route: "*",
+			dimension: "a11y",
+			check: "menu button keys on button",
+			reason: "the navbar's Canary 🚧 and English menu-button keyboard journeys are red on main, but which route reports them, and at which step, moved between runs of one Markless commit: / and /docs/category/getting-started at steps 3 and 6 in record run 41109495577, / and /blog at step 5 in nightly run 41152042165, /, /blog, /docs/category/getting-started and /showcase at steps 1 and 6 in compiled-run/markless run 41159890776. A shared-layout control is exercised by the first route of a job that has it and the others carry its result",
+			owner: "markless-migrate checker (thejackshelton)",
+			until: '2026-11-13',
+		},
+		{
+			route: "*",
+			dimension: "motion",
+			check: "click button \"Switch between dark and light mode (currently system mode)\"",
+			reason: "the theme toggle's kbd Ctrl colour motion, red on / on main, was reported on /blog/releases/3.10 (in the layout shared with /docs) in compiled-run/markless run 41159890776: the route that carries a shared-layout control's result moves between runs",
+			owner: "markless-migrate checker (thejackshelton)",
+			until: '2026-11-13',
+		},
+		{
 			route: '*',
 			dimension: 'weight',
 			check: 'JavaScript executed',
