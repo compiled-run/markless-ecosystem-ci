@@ -2,14 +2,14 @@
 	"suite": "remix-notes",
 	"lane": "sample",
 	"markless": {
-		"sha": "767d4f7e9dcd3f6e445c1e2cf76771a72c4646f2",
+		"sha": "f302ffadf2da31ca4c4e3a756951d5ebdd2af113",
 		"version": "0.9.0",
 		"ref": "main"
 	},
 	"migrate": {
 		"sha": "b55adac69098299b8b638de1b79d50454f8c5b68"
 	},
-	"recordedAt": "2026-10-30T10:00:22.378Z",
+	"recordedAt": "2026-10-31T11:01:51.891Z",
 	"steps": {
 		"install": "pass",
 		"build": "pass",
@@ -31,7 +31,7 @@
 			"failures": [],
 			"weight": {
 				"downloaded": 70147,
-				"executed": 10484
+				"executed": 10591
 			}
 		},
 		"/notes": {
@@ -39,7 +39,7 @@
 			"failures": [],
 			"weight": {
 				"downloaded": 66993,
-				"executed": 40623
+				"executed": 40400
 			}
 		},
 		"/notes as signed-in": {
@@ -49,19 +49,19 @@
 					"id": "9269030c02",
 					"dimension": "a11y",
 					"check": "press Enter on button \"Logout\"",
-					"lastSeen": "2026-10-30T10:00:22.378Z"
+					"lastSeen": "2026-10-31T11:01:51.891Z"
 				},
 				{
 					"id": "75b816b410",
 					"dimension": "responsiveness",
 					"check": "navigation from link \"Notes\" (4x CPU, mobile)",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-30T10:00:22.378Z"
+					"lastSeen": "2026-10-31T11:01:51.891Z"
 				}
 			],
 			"weight": {
 				"downloaded": 78485,
-				"executed": 11596
+				"executed": 11373
 			},
 			"owner": "markless-migrate remix-notes port (thejackshelton)"
 		},
@@ -70,7 +70,7 @@
 			"failures": [],
 			"weight": {
 				"downloaded": 66993,
-				"executed": 40623
+				"executed": 40400
 			}
 		},
 		"/notes/cmvcee9oe0002ag8afyyiylz8 as signed-in": {
@@ -80,20 +80,20 @@
 					"id": "7f6b17fe56",
 					"dimension": "a11y",
 					"check": "press Enter on button \"Logout\"",
-					"lastSeen": "2026-10-30T10:00:22.378Z"
+					"lastSeen": "2026-10-31T11:01:51.891Z"
 				},
 				{
 					"id": "de1a7cd72c",
 					"dimension": "a11y",
 					"check": "press Enter on button \"Delete\"",
-					"lastSeen": "2026-10-30T10:00:22.378Z"
+					"lastSeen": "2026-10-31T11:01:51.891Z"
 				},
 				{
 					"id": "913dee19c1",
 					"dimension": "responsiveness",
 					"check": "navigation from link \"📝 My first note\" (4x CPU, mobile)",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-30T10:00:22.378Z"
+					"lastSeen": "2026-10-31T11:01:51.891Z"
 				}
 			],
 			"weight": {
