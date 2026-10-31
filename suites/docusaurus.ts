@@ -33,6 +33,14 @@ export default {
 	check: ['--no-slow-network', '--timeout', '3000'],
 	quarantine: [
 		{
+			route: '*',
+			dimension: 'capture',
+			check: 'https://github.githubassets.com/',
+			reason: "GitHub's own page assets, asked for only when a step reaches github.com from the page; the set differed between runs of one Markless commit (primer CSS and relative-time-element in nightly run 41152042165, react-reconciler in compiled-run/markless run 41172808607), as on htmx-org",
+			owner: 'markless-migrate docusaurus port (thejackshelton)',
+			until: '2026-11-13',
+		},
+		{
 			route: "*",
 			dimension: "a11y",
 			check: "menu button keys on button",
