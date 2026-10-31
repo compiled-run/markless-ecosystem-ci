@@ -67,8 +67,8 @@ export default {
 		{
 			route: '/showcase',
 			dimension: "css (mobile)",
-			check: "computed style of generic (main>list>listitem/div)",
-			reason: "in one of two replays of one build in record run 41134796137, 8 showcase cards near the bottom still had the lazy image's blurred placeholder as background-image; the other replay matched",
+			check: "computed style",
+			reason: "in one of two replays of one build in record run 41134796137, 8 showcase cards near the bottom still had the lazy image's blurred placeholder as background-image; the other replay matched. The row that counts them (computed styles: 8 more elements differ) varied the same way in compiled-run/markless run 41163002333",
 			owner: 'markless-migrate checker (thejackshelton)',
 			until: '2026-11-13',
 		},
