@@ -28,7 +28,9 @@ export default {
 	prepare: [['node', 'scripts/keep-routes.mjs', ...routes.map((r) => r.route)]],
 	// The other suites' checker (migrate.json's pin) has no slow-network step; this one measures it in Chromium, Firefox
 	// and WebKit, and a runner here installs Chromium only, so the check refused to start (record run 41104185267).
-	check: ['--no-slow-network'],
+	// /showcase (545 kB of HTML, over 260 images) ran past the default 1800 s per route in nightly run 41146912409;
+	// its shard with /changelog took 1991 to 2106 s in record run 41134796137.
+	check: ['--no-slow-network', '--timeout', '3000'],
 	quarantine: [
 		{
 			route: '/showcase',
@@ -81,16 +83,8 @@ export default {
 		{
 			route: '/blog/releases/3.10',
 			dimension: 'css',
-			check: 'computed style in :hover on .close',
-			reason: "in one of two replays of one build in record run 41109495577, the hovered element's margins read 70px instead of 0px; the other replay matched",
-			owner: 'markless-migrate checker (thejackshelton)',
-			until: '2026-11-13',
-		},
-		{
-			route: '/blog/releases/3.10',
-			dimension: 'css',
-			check: 'computed style in :hover on .footer__link-item',
-			reason: "in one of two replays of one build in record run 41109495577, the hovered element's margins read 70px instead of 0px; the other replay matched",
+			check: 'computed style in :hover on',
+			reason: "the margins of a generic body/div read 70px in one replay and 0px in the other while hovering .close and .footer__link-item (record run 41109495577), and .table-of-contents__link the other way round (nightly run 41146912409)",
 			owner: 'markless-migrate checker (thejackshelton)',
 			until: '2026-11-13',
 		},
