@@ -2,14 +2,14 @@
 	"suite": "docusaurus",
 	"lane": "sample",
 	"markless": {
-		"sha": "587f11549e83849f691c4f8982bfa5218cf02f34",
+		"sha": "521698ac7e995d2de45924d60a30fe6fe304fb26",
 		"version": "0.9.0",
 		"ref": "main"
 	},
 	"migrate": {
 		"sha": "7a5706a605309c10003f0435befdc7412d1204c3"
 	},
-	"recordedAt": "2026-10-30T21:14:44.413Z",
+	"recordedAt": "2026-10-30T23:54:41.608Z",
 	"steps": {
 		"install": "pass",
 		"build": "pass",
@@ -21,6 +21,120 @@
 		"/": {
 			"ok": false,
 			"failures": [
+				{
+					"id": "2078805a75",
+					"dimension": "behaviour",
+					"check": "click button \"Search (Control+k)\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "aabd887f79",
+					"dimension": "behaviour",
+					"check": "click button \"Search (Control+k)\", then follow link \"Docusaurus\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "989b10feb8",
+					"dimension": "behaviour",
+					"check": "click button \"Search (Control+k)\", then click button \"Cancel\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "3b9fb5e196",
+					"dimension": "behaviour",
+					"check": "click button \"Search (Control+k)\", then type \"coffee\" into searchbox \"Search\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "586f540dfb",
+					"dimension": "behaviour",
+					"check": "click button \"Search (Control+k)\", then click button \"Search\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "5ee38b71fd",
+					"dimension": "behaviour",
+					"check": "click button \"Search (Control+k)\", then click button \"Cancel\", then click clickable <div> #94 in main (no name: matched by structure and position) (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "447324b4c9",
+					"dimension": "behaviour",
+					"check": "move the pointer across surface <div> #1 (no name: matched by structure and position), after arriving from /docs by link \"Docusaurus\" (step 2)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "e10a5558ed",
+					"dimension": "behaviour",
+					"check": "click button \"Search (Control+k)\", then type \"coffee\" into searchbox \"Search\", after arriving from /docs by link \"Docusaurus\" (step 2)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "791cebe7a3",
+					"dimension": "behaviour",
+					"check": "click button \"Search (Control+k)\", then click button \"Cancel\", then click clickable <div> #94 in main (no name: matched by structure and position), after arriving from /docs by link \"Docusaurus\" (step 2)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "22ce6cfa06",
+					"dimension": "behaviour",
+					"check": "not exercised: button",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "851bd5f713",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Clear the query\" (after click button \"Search (Control+k)\", then type \"coffee\" into searchbox \"Search\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "cc06d37859",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"See all {count} results\" (after click button \"Search (Control+k)\", then type \"coffee\" into searchbox \"Search\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "520d559afd",
+					"dimension": "behaviour",
+					"check": "not exercised: 42 keyboard journeys",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "b1edeee3f1",
+					"dimension": "behaviour",
+					"check": "not exercised: 1 repeated-use or closing sequence",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "2590b8b9cf",
+					"dimension": "a11y",
+					"check": "modality probe of button \"Watch Explain Like I'm 5: Docusaurus\": focus ring after a click, then Escape and Tab (step 1 of 4: click it)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "4297dbbffa",
+					"dimension": "a11y",
+					"check": "modality probe of button \"Canary 🚧\": focus ring after a click, then Escape and Tab (step 1 of 4: click it)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "a1e1703ca6",
+					"dimension": "behaviour",
+					"check": "popup probe of button \"Canary 🚧\": open by pointer, point along its items and away, close by a click outside, reopen, choose by pointer, reopen, close by Escape and its close button (step 1 of 12: click it)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "227c368d15",
+					"dimension": "behaviour",
+					"check": "popup probe of button \"Canary 🚧\": open by pointer, move with ArrowDown, type the first letter of each item, close, reopen and Tab (step 1 of 10: click it)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "d27399e496",
+					"dimension": "behaviour",
+					"check": "hover probe of button \"Canary 🚧\": pointer resting on it, leaving and coming back (step 4 of 5: click it)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
 				{
 					"id": "4927f1a0ef",
 					"dimension": "rendered",
@@ -697,51 +811,9 @@
 					"lastSeen": "2026-10-30T21:14:44.413Z"
 				},
 				{
-					"id": "d11a41f089",
-					"dimension": "behaviour",
-					"check": "click button \"Search (Control+k)\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "86f9846a1d",
-					"dimension": "behaviour",
-					"check": "click button \"Search (Control+k)\", then follow link \"Docusaurus\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "3e77e6e16d",
-					"dimension": "behaviour",
-					"check": "click button \"Search (Control+k)\", then click button \"Cancel\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "1b10b21cce",
-					"dimension": "behaviour",
-					"check": "click button \"Search (Control+k)\", then type \"coffee\" into searchbox \"Search\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
 					"id": "501947047b",
 					"dimension": "behaviour",
 					"check": "click clickable <div> #84 in main (no name: matched by structure and position), after arriving from /docs by link \"Docusaurus\" (step 2)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "447324b4c9",
-					"dimension": "behaviour",
-					"check": "move the pointer across surface <div> #1 (no name: matched by structure and position), after arriving from /docs by link \"Docusaurus\" (step 2)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "5d9e432a68",
-					"dimension": "behaviour",
-					"check": "click button \"Search (Control+k)\", then type \"coffee\" into searchbox \"Search\", after arriving from /docs by link \"Docusaurus\" (step 2)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "22ce6cfa06",
-					"dimension": "behaviour",
-					"check": "not exercised: button",
 					"lastSeen": "2026-10-30T21:14:44.413Z"
 				},
 				{
@@ -757,63 +829,9 @@
 					"lastSeen": "2026-10-30T21:14:44.413Z"
 				},
 				{
-					"id": "851bd5f713",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Clear the query\" (after click button \"Search (Control+k)\", then type \"coffee\" into searchbox \"Search\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "cc06d37859",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"See all {count} results\" (after click button \"Search (Control+k)\", then type \"coffee\" into searchbox \"Search\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "520d559afd",
-					"dimension": "behaviour",
-					"check": "not exercised: 42 keyboard journeys",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "b1edeee3f1",
-					"dimension": "behaviour",
-					"check": "not exercised: 1 repeated-use or closing sequence",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "fe537a1f0b",
-					"dimension": "a11y",
-					"check": "modality probe of button \"Watch Explain Like I'm 5: Docusaurus\": focus ring after a click, then Escape and Tab (step 1 of 4: click it)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
 					"id": "75fd7a6677",
 					"dimension": "a11y",
 					"check": "modality probe of button \"Watch Explain Like I'm 5: Docusaurus\": focus ring after Tab, then the pointer moving and Tab (step 4 of 5: press Tab)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "4297dbbffa",
-					"dimension": "a11y",
-					"check": "modality probe of button \"Canary 🚧\": focus ring after a click, then Escape and Tab (step 1 of 4: click it)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "a1e1703ca6",
-					"dimension": "behaviour",
-					"check": "popup probe of button \"Canary 🚧\": open by pointer, point along its items and away, close by a click outside, reopen, choose by pointer, reopen, close by Escape and its close button (step 1 of 12: click it)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "227c368d15",
-					"dimension": "behaviour",
-					"check": "popup probe of button \"Canary 🚧\": open by pointer, move with ArrowDown, type the first letter of each item, close, reopen and Tab (step 1 of 10: click it)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "d27399e496",
-					"dimension": "behaviour",
-					"check": "hover probe of button \"Canary 🚧\": pointer resting on it, leaving and coming back (step 4 of 5: click it)",
 					"lastSeen": "2026-10-30T21:14:44.413Z"
 				},
 				{
@@ -971,12 +989,6 @@
 					"id": "fa31247a4c",
 					"dimension": "behaviour",
 					"check": "click button \"Close\", then follow link \"Docusaurus\" (step 3 of 3: reload after use 1, on the page it led to)",
-					"lastSeen": "2026-10-30T10:00:37.694Z"
-				},
-				{
-					"id": "5da8ca6fe1",
-					"dimension": "behaviour",
-					"check": "click button \"Search (Control+k)\", then click button \"Search\" (step 1)",
 					"lastSeen": "2026-10-30T10:00:37.694Z"
 				},
 				{
@@ -1208,12 +1220,6 @@
 					"lastSeen": "2026-10-28T11:52:15.046Z"
 				},
 				{
-					"id": "99d3989f3e",
-					"dimension": "behaviour",
-					"check": "click button \"Search (Control+k)\", then click button \"Cancel\", then click clickable <div> #94 in main (no name: matched by structure and position) (step 1)",
-					"lastSeen": "2026-10-27T09:07:55.128Z"
-				},
-				{
 					"id": "78542bb959",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Skip to main content\"",
@@ -1248,13 +1254,97 @@
 			],
 			"weight": {
 				"downloaded": 180645,
-				"executed": 98413
+				"executed": 98238
 			},
 			"owner": "markless-migrate docusaurus port (thejackshelton)"
 		},
 		"/blog": {
 			"ok": false,
 			"failures": [
+				{
+					"id": "c9b1daf539",
+					"dimension": "behaviour",
+					"check": "click link \"Docusaurus 3.3\", after arriving from /blog/releases/3.10 by link \"Blog\" (step 2)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "2a1fb98650",
+					"dimension": "behaviour",
+					"check": "click link \"Docusaurus 3.2\", after arriving from /blog/releases/3.10 by link \"Blog\" (step 2)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "947b980fc5",
+					"dimension": "behaviour",
+					"check": "click link \"Docusaurus 2.4\", after arriving from /blog/releases/3.10 by link \"Blog\" (step 2)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "99ecc358c7",
+					"dimension": "behaviour",
+					"check": "not exercised: 27 keyboard journeys",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "38ffe336fe",
+					"dimension": "a11y",
+					"check": "modality probe of button \"Canary 🚧\": focus ring after a click, then Escape and Tab (step 1 of 4: click it)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "df81b26e07",
+					"dimension": "behaviour",
+					"check": "popup probe of button \"Canary 🚧\": open by pointer, point along its items and away, close by a click outside, reopen, choose by pointer, reopen, close by Escape and its close button (step 1 of 12: click it)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "981d9f40f4",
+					"dimension": "behaviour",
+					"check": "popup probe of button \"Canary 🚧\": open by pointer, move with ArrowDown, type the first letter of each item, close, reopen and Tab (step 1 of 10: click it)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "930f6d9f4e",
+					"dimension": "behaviour",
+					"check": "hover probe of button \"Canary 🚧\": pointer resting on it, leaving and coming back (step 4 of 5: click it)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "0df830ffd2",
+					"dimension": "behaviour",
+					"check": "click button \"Search (Control+k)\", in the layout shared with /",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "1f09c05202",
+					"dimension": "behaviour",
+					"check": "click button \"Search (Control+k)\", then follow link \"Docusaurus\", in the layout shared with /",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "a0e248e888",
+					"dimension": "behaviour",
+					"check": "click button \"Search (Control+k)\", then click button \"Cancel\" (step 1), in the layout shared with /",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "82e2f1ece6",
+					"dimension": "behaviour",
+					"check": "click button \"Search (Control+k)\", then type \"coffee\" into searchbox \"Search\" (step 1), in the layout shared with /",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "1ab440a9eb",
+					"dimension": "behaviour",
+					"check": "click button \"Search (Control+k)\", then click button \"Search\" (step 1), in the layout shared with /",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "3d00a57958",
+					"dimension": "behaviour",
+					"check": "click button \"Search (Control+k)\", then click button \"Cancel\", then click clickable <div> #94 in main (no name: matched by structure and position) (step 1), in the layout shared with /",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
 				{
 					"id": "dd46ec41a4",
 					"dimension": "visual",
@@ -1653,30 +1743,6 @@
 					"lastSeen": "2026-10-30T21:14:44.413Z"
 				},
 				{
-					"id": "38ffe336fe",
-					"dimension": "a11y",
-					"check": "modality probe of button \"Canary 🚧\": focus ring after a click, then Escape and Tab (step 1 of 4: click it)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "df81b26e07",
-					"dimension": "behaviour",
-					"check": "popup probe of button \"Canary 🚧\": open by pointer, point along its items and away, close by a click outside, reopen, choose by pointer, reopen, close by Escape and its close button (step 1 of 12: click it)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "981d9f40f4",
-					"dimension": "behaviour",
-					"check": "popup probe of button \"Canary 🚧\": open by pointer, move with ArrowDown, type the first letter of each item, close, reopen and Tab (step 1 of 10: click it)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "930f6d9f4e",
-					"dimension": "behaviour",
-					"check": "hover probe of button \"Canary 🚧\": pointer resting on it, leaving and coming back (step 4 of 5: click it)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
 					"id": "0bdc4484a6",
 					"dimension": "a11y",
 					"check": "modality probe of link \"Introduction\": focus ring after Tab, then the pointer moving and Tab (step 1 of 5: Tab to it from the control before it)",
@@ -1940,30 +2006,6 @@
 					"lastSeen": "2026-10-30T21:14:44.413Z"
 				},
 				{
-					"id": "a260fb5d70",
-					"dimension": "behaviour",
-					"check": "click button \"Search (Control+k)\", in the layout shared with /",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "e2a9cbbbe9",
-					"dimension": "behaviour",
-					"check": "click button \"Search (Control+k)\", then follow link \"Docusaurus\", in the layout shared with /",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "98be8aa41b",
-					"dimension": "behaviour",
-					"check": "click button \"Search (Control+k)\", then click button \"Cancel\" (step 1), in the layout shared with /",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "50b4a44e41",
-					"dimension": "behaviour",
-					"check": "click button \"Search (Control+k)\", then type \"coffee\" into searchbox \"Search\" (step 1), in the layout shared with /",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
 					"id": "5ee493a1f9",
 					"dimension": "navigation",
 					"check": "in place from /: layout during the swap",
@@ -1973,13 +2015,153 @@
 			],
 			"weight": {
 				"downloaded": 176663,
-				"executed": 101250
+				"executed": 101254
 			},
 			"owner": "markless-migrate docusaurus port (thejackshelton)"
 		},
 		"/blog/releases/3.10": {
 			"ok": false,
 			"failures": [
+				{
+					"id": "84eaacf96c",
+					"dimension": "css",
+					"check": "computed style in :hover on .table-of-contents__link: generic (body/div)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "525da0125e",
+					"dimension": "css",
+					"check": "computed style in :hover on .footer__link-item: generic (body/div)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "2336f57894",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code to clipboard\" #3",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "ea13bfed61",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code to clipboard\" #4",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "28a98ff9e7",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code to clipboard\" #5",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "58678518c5",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code to clipboard\" #6",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "b921927ebf",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code to clipboard\" #7",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "cb347c7f8b",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code to clipboard\" #8",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "b091005d26",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code to clipboard\" #9",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "a1814d9361",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code to clipboard\" #10",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "e3d754f82c",
+					"dimension": "behaviour",
+					"check": "not exercised: link",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "af8b87e747",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Feature Requests\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "329513f7b9",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Help\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "a632790f48",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Blog\" #2",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "cb8dc612a9",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Changelog\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "e6092fc9de",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Preparing your site for Docusaurus v3\" (after click button \"Copy code to clipboard\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "915e88a13a",
+					"dimension": "behaviour",
+					"check": "not exercised: 49 keyboard journeys",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "2d461a0235",
+					"dimension": "a11y",
+					"check": "modality probe of button \"Canary 🚧\": focus ring after a click, then Escape and Tab (step 1 of 4: click it)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "ed86adc86f",
+					"dimension": "behaviour",
+					"check": "popup probe of button \"Canary 🚧\": open by pointer, point along its items and away, close by a click outside, reopen, choose by pointer, reopen, close by Escape and its close button (step 1 of 12: click it)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "73068fad7b",
+					"dimension": "behaviour",
+					"check": "popup probe of button \"Canary 🚧\": open by pointer, move with ArrowDown, type the first letter of each item, close, reopen and Tab (step 1 of 10: click it)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "e9b21e9662",
+					"dimension": "behaviour",
+					"check": "hover probe of button \"Canary 🚧\": pointer resting on it, leaving and coming back (step 4 of 5: click it)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "eaf6137e57",
+					"dimension": "navigation",
+					"check": "in place from /docs after button \"Switch between dark and light mode (currently system mode)\" (through a link the checker added: no page links here): computed styles of main a",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "0fb7ac61d1",
+					"dimension": "navigation",
+					"check": "forward to /blog/releases/3.10 after going back to /docs: computed styles of main a",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
 				{
 					"id": "5e59fcde26",
 					"dimension": "visual",
@@ -2294,13 +2476,6 @@
 					"lastSeen": "2026-10-30T21:14:44.413Z"
 				},
 				{
-					"id": "3f3b9fb099",
-					"dimension": "css",
-					"check": "computed style in :hover on .footer__link-item: generic (body/div)",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
 					"id": "fc405cb072",
 					"dimension": "visual",
 					"check": "screenshot in :hover on .footer__link-item",
@@ -2315,105 +2490,9 @@
 					"lastSeen": "2026-10-30T21:14:44.413Z"
 				},
 				{
-					"id": "2336f57894",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Copy code to clipboard\" #3",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "ea13bfed61",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Copy code to clipboard\" #4",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "28a98ff9e7",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Copy code to clipboard\" #5",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "58678518c5",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Copy code to clipboard\" #6",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "b921927ebf",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Copy code to clipboard\" #7",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "cb347c7f8b",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Copy code to clipboard\" #8",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "b091005d26",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Copy code to clipboard\" #9",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "a1814d9361",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Copy code to clipboard\" #10",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "af8b87e747",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Feature Requests\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "329513f7b9",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Help\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "a632790f48",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Blog\" #2",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "cb8dc612a9",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Changelog\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
 					"id": "29e33ee3a8",
 					"dimension": "behaviour",
 					"check": "not exercised: 48 keyboard journeys",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "2d461a0235",
-					"dimension": "a11y",
-					"check": "modality probe of button \"Canary 🚧\": focus ring after a click, then Escape and Tab (step 1 of 4: click it)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "ed86adc86f",
-					"dimension": "behaviour",
-					"check": "popup probe of button \"Canary 🚧\": open by pointer, point along its items and away, close by a click outside, reopen, choose by pointer, reopen, close by Escape and its close button (step 1 of 12: click it)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "73068fad7b",
-					"dimension": "behaviour",
-					"check": "popup probe of button \"Canary 🚧\": open by pointer, move with ArrowDown, type the first letter of each item, close, reopen and Tab (step 1 of 10: click it)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "e9b21e9662",
-					"dimension": "behaviour",
-					"check": "hover probe of button \"Canary 🚧\": pointer resting on it, leaving and coming back (step 4 of 5: click it)",
 					"lastSeen": "2026-10-30T21:14:44.413Z"
 				},
 				{
@@ -2554,22 +2633,10 @@
 					"lastSeen": "2026-10-30T21:14:44.413Z"
 				},
 				{
-					"id": "eaf6137e57",
-					"dimension": "navigation",
-					"check": "in place from /docs after button \"Switch between dark and light mode (currently system mode)\" (through a link the checker added: no page links here): computed styles of main a",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
 					"id": "287fb90d7c",
 					"dimension": "navigation",
 					"check": "in place from /docs after button \"Switch between dark and light mode (currently system mode)\" (through a link the checker added: no page links here): layout during the swap",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "0fb7ac61d1",
-					"dimension": "navigation",
-					"check": "forward to /blog/releases/3.10 after going back to /docs: computed styles of main a",
 					"lastSeen": "2026-10-30T21:14:44.413Z"
 				}
 			],
@@ -2582,6 +2649,828 @@
 		"/changelog": {
 			"ok": false,
 			"failures": [
+				{
+					"id": "594a4caf3b",
+					"dimension": "visual",
+					"check": "screenshot",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "3082834ab7",
+					"dimension": "assets",
+					"check": "image #47 https://github.com/hichemfantar.png",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "fbc223a215",
+					"dimension": "assets",
+					"check": "image #54 https://github.com/hichemfantar.png",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "66146e0603",
+					"dimension": "assets",
+					"check": "image #92 https://github.com/franzd1.png",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "b0c653e761",
+					"dimension": "visual",
+					"check": "screenshot",
+					"viewport": "mobile",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "a1aba5a40e",
+					"dimension": "assets",
+					"check": "image #48 https://github.com/hichemfantar.png",
+					"viewport": "mobile",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "d5af324abc",
+					"dimension": "assets",
+					"check": "image #55 https://github.com/hichemfantar.png",
+					"viewport": "mobile",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "7866aa46fa",
+					"dimension": "assets",
+					"check": "image #93 https://github.com/franzd1.png",
+					"viewport": "mobile",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "6496b130b6",
+					"dimension": "visual",
+					"check": "screenshot in :focus on .close",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "f3c7f6f763",
+					"dimension": "visual",
+					"check": "screenshot in :hover on .dropdown--hoverable",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "fce4b04cec",
+					"dimension": "visual",
+					"check": "screenshot in :hover on .footer__link-item",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "b0e958ff5b",
+					"dimension": "visual",
+					"check": "screenshot in :hover on .navbar__brand",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "d9ae6480ab",
+					"dimension": "behaviour",
+					"check": "click button \"expand\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "02e49ec50c",
+					"dimension": "behaviour",
+					"check": "click link \"RSS feeds\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "45adfd2288",
+					"dimension": "behaviour",
+					"check": "click link \"3.10.2\" #2, after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "94d9b051e2",
+					"dimension": "behaviour",
+					"check": "click link \"Skip to main content\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "e0d4e15679",
+					"dimension": "behaviour",
+					"check": "click link \"3.10.1\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "ed337fcebb",
+					"dimension": "behaviour",
+					"check": "click link \"3.10.0\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "e1879424dc",
+					"dimension": "behaviour",
+					"check": "click link \"3.9.2\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "1bf427bb11",
+					"dimension": "behaviour",
+					"check": "click link \"3.9.1\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "e890ae4388",
+					"dimension": "behaviour",
+					"check": "click link \"3.9.0\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "f278fd2db2",
+					"dimension": "behaviour",
+					"check": "click link \"3.8.1\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "0bde36e708",
+					"dimension": "behaviour",
+					"check": "click link \"3.8.0\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "2956430309",
+					"dimension": "behaviour",
+					"check": "click link \"3.7.0\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "6bd948c8c2",
+					"dimension": "behaviour",
+					"check": "click link \"3.6.3\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "ed82fa4bea",
+					"dimension": "behaviour",
+					"check": "click link \"3.6.2\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "a5e9e1b636",
+					"dimension": "behaviour",
+					"check": "click link \"3.6.1\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "489d0ac43a",
+					"dimension": "behaviour",
+					"check": "click link \"3.6.0\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "fb20320100",
+					"dimension": "behaviour",
+					"check": "click link \"3.5.2\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "298e19be58",
+					"dimension": "behaviour",
+					"check": "click link \"3.5.1\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "229a24c2e9",
+					"dimension": "behaviour",
+					"check": "click link \"3.5.0\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "0a50868c20",
+					"dimension": "behaviour",
+					"check": "click link \"3.4.0\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "4771a2126f",
+					"dimension": "behaviour",
+					"check": "click link \"3.3.2\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "78b58b78bf",
+					"dimension": "behaviour",
+					"check": "click link \"3.3.1\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "c11107fdba",
+					"dimension": "behaviour",
+					"check": "click link \"3.3.0\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "4c6771a5db",
+					"dimension": "behaviour",
+					"check": "click link \"3.2.1\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "58b46be1ca",
+					"dimension": "behaviour",
+					"check": "click link \"3.2.0\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "b66af168e4",
+					"dimension": "behaviour",
+					"check": "click link \"3.1.1\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "7c5ea14da6",
+					"dimension": "behaviour",
+					"check": "click link \"3.1.0\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "09f6220914",
+					"dimension": "behaviour",
+					"check": "click link \"3.0.1\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "d6c7621536",
+					"dimension": "behaviour",
+					"check": "click link \"3.0.0\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "0028a103cf",
+					"dimension": "behaviour",
+					"check": "click link \"2.4.3\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "b21b8bd682",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"expand\" #3",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "b0c841b68e",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"expand\" #4",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "687496f124",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"expand\" #5",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "64a857eef2",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"expand\" #6",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "941b3eaad2",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"expand\" #7",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "07777d0886",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"expand\" #8",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "167fc6efe4",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "e1a32e4f03",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-rc.1\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "1689772204",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-beta.22\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "4047ab1642",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-beta.21\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "61d49d6330",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-beta.20\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "7489c5c717",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-beta.19\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "cab1dcd7ff",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-beta.18\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "b0e7c4c8c0",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-beta.17\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "219c1d3ef5",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-beta.16\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "e9b354a0cd",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-beta.15\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "d796b319a3",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-beta.14\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "b48612c068",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-beta.13\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "8b03ed4beb",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-beta.12\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "ede814eebd",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-beta.11\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "93c4ccde05",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-beta.10\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "62d4f3c1ee",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-beta.9\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "01ae23144f",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-beta.8\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "60003eea14",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-beta.7\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "8f4c98af8b",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-beta.6\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "212f7f6474",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-beta.5\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "8fd4e5b769",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-beta.4\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "ee4c717315",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-beta.3\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "5011dd6206",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-beta.2\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "4ee779aeea",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-beta.1\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "8e206c445c",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-beta.0\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "a6ca50af1c",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.75\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "6706d78292",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.74\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "8931f3c935",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.73\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "02a737d0f2",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.72\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "b7f211e666",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.71\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "4c7b29880d",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.70\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "74a1d83ed8",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.69\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "ccc00fc655",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.68\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "936d9dc5d9",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.67\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "c439e13f1d",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.66\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "17eb3b9be6",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.65\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "22748437a5",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.64\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "78cc5c4e9e",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.63\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "c0233bdd56",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.62\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "01e406949f",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.61\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "c0df359997",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.60\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "c06ee426df",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.59\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "ae031c56dd",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.58\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "c2c420bc83",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.57\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "357ab57c90",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.56\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "3cfb53b32e",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.55\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "ca508a52d8",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.54\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "b0be630fe4",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.53\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "4c1e58a835",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.51\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "b664946eb8",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.50\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "241324c908",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.49\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "e82ce885aa",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.48\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "6af390fe99",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.44\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "b5c591acef",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.43\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "f5f6cc8a6d",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.41\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "950aabf609",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.40\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "cb23c13e43",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.39\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "91aeda4ea0",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.38\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "62e1010658",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.37\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "5ce4095582",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.36\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "b543d7aa10",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.35\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "37830ffe86",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.34\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "5dfba1ff90",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.33\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "a323e3c362",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.32\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "260ee5e4da",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.31\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "449c38e252",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.30\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "f6bf14215d",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.29\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "57ee755075",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.28\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "46bbde9899",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.27\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "993513a5f0",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.26\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "327714c737",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.25\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "18d1b30eb3",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.24\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "f38b76303c",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.23\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "8933d225ac",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.22\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "64eb43aeb0",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.21\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "8dc93f2516",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.20\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "c3a9af3b13",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"2.0.0-alpha.19\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "7b0312433c",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Introduction\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "b18deef864",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Installation\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "7c0c2c7590",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Upgrading\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "d359e2b1c8",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Feature Requests\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "cc5e758085",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Help\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "135a293965",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Blog\" #2",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "950ca80042",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Changelog\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "cf1240d8b1",
+					"dimension": "behaviour",
+					"check": "not exercised: 128 keyboard journeys",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "bd1ce58f43",
+					"dimension": "a11y",
+					"check": "modality probe of button \"expand\": focus ring after a click, then Escape and Tab (step 1 of 4: click it)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "5ba9411334",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Community\", shared with /docs/installation",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
 				{
 					"id": "387a119ced",
 					"dimension": "visual",
@@ -2621,27 +3510,6 @@
 					"id": "f9fd8aaf94",
 					"dimension": "assets",
 					"check": "image #1 /img/docusaurus.svg",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "3082834ab7",
-					"dimension": "assets",
-					"check": "image #47 https://github.com/hichemfantar.png",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "fbc223a215",
-					"dimension": "assets",
-					"check": "image #54 https://github.com/hichemfantar.png",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "66146e0603",
-					"dimension": "assets",
-					"check": "image #92 https://github.com/franzd1.png",
 					"viewport": "desktop",
 					"lastSeen": "2026-10-30T21:14:44.413Z"
 				},
@@ -2716,27 +3584,6 @@
 					"lastSeen": "2026-10-30T21:14:44.413Z"
 				},
 				{
-					"id": "a1aba5a40e",
-					"dimension": "assets",
-					"check": "image #48 https://github.com/hichemfantar.png",
-					"viewport": "mobile",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "d5af324abc",
-					"dimension": "assets",
-					"check": "image #55 https://github.com/hichemfantar.png",
-					"viewport": "mobile",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "7866aa46fa",
-					"dimension": "assets",
-					"check": "image #93 https://github.com/franzd1.png",
-					"viewport": "mobile",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
 					"id": "e1eb4f9bb6",
 					"dimension": "assets",
 					"check": "image #116 /img/footer/badge-netlify.svg",
@@ -2794,751 +3641,9 @@
 					"lastSeen": "2026-10-30T21:14:44.413Z"
 				},
 				{
-					"id": "0f72a5dff2",
-					"dimension": "visual",
-					"check": "screenshot in :focus on .close",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "d45fba378f",
-					"dimension": "visual",
-					"check": "screenshot in :hover on .dropdown--hoverable",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "55354d0c41",
-					"dimension": "visual",
-					"check": "screenshot in :hover on .footer__link-item",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "090cd84bea",
-					"dimension": "visual",
-					"check": "screenshot in :hover on .navbar__brand",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "d9ae6480ab",
-					"dimension": "behaviour",
-					"check": "click button \"expand\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "02e49ec50c",
-					"dimension": "behaviour",
-					"check": "click link \"RSS feeds\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "45adfd2288",
-					"dimension": "behaviour",
-					"check": "click link \"3.10.2\" #2, after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "94d9b051e2",
-					"dimension": "behaviour",
-					"check": "click link \"Skip to main content\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "e0d4e15679",
-					"dimension": "behaviour",
-					"check": "click link \"3.10.1\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "ed337fcebb",
-					"dimension": "behaviour",
-					"check": "click link \"3.10.0\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "e1879424dc",
-					"dimension": "behaviour",
-					"check": "click link \"3.9.2\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "1bf427bb11",
-					"dimension": "behaviour",
-					"check": "click link \"3.9.1\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "e890ae4388",
-					"dimension": "behaviour",
-					"check": "click link \"3.9.0\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "f278fd2db2",
-					"dimension": "behaviour",
-					"check": "click link \"3.8.1\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "0bde36e708",
-					"dimension": "behaviour",
-					"check": "click link \"3.8.0\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "2956430309",
-					"dimension": "behaviour",
-					"check": "click link \"3.7.0\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "6bd948c8c2",
-					"dimension": "behaviour",
-					"check": "click link \"3.6.3\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "ed82fa4bea",
-					"dimension": "behaviour",
-					"check": "click link \"3.6.2\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "a5e9e1b636",
-					"dimension": "behaviour",
-					"check": "click link \"3.6.1\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "489d0ac43a",
-					"dimension": "behaviour",
-					"check": "click link \"3.6.0\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "fb20320100",
-					"dimension": "behaviour",
-					"check": "click link \"3.5.2\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "298e19be58",
-					"dimension": "behaviour",
-					"check": "click link \"3.5.1\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "229a24c2e9",
-					"dimension": "behaviour",
-					"check": "click link \"3.5.0\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "0a50868c20",
-					"dimension": "behaviour",
-					"check": "click link \"3.4.0\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "4771a2126f",
-					"dimension": "behaviour",
-					"check": "click link \"3.3.2\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "78b58b78bf",
-					"dimension": "behaviour",
-					"check": "click link \"3.3.1\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "c11107fdba",
-					"dimension": "behaviour",
-					"check": "click link \"3.3.0\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "4c6771a5db",
-					"dimension": "behaviour",
-					"check": "click link \"3.2.1\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "58b46be1ca",
-					"dimension": "behaviour",
-					"check": "click link \"3.2.0\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "b66af168e4",
-					"dimension": "behaviour",
-					"check": "click link \"3.1.1\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "7c5ea14da6",
-					"dimension": "behaviour",
-					"check": "click link \"3.1.0\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "09f6220914",
-					"dimension": "behaviour",
-					"check": "click link \"3.0.1\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "d6c7621536",
-					"dimension": "behaviour",
-					"check": "click link \"3.0.0\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "0028a103cf",
-					"dimension": "behaviour",
-					"check": "click link \"2.4.3\", after arriving from /changelog/3.10.2 by link \"← Back to index page\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "b21b8bd682",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"expand\" #3",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "b0c841b68e",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"expand\" #4",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "687496f124",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"expand\" #5",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "64a857eef2",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"expand\" #6",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "941b3eaad2",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"expand\" #7",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "07777d0886",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"expand\" #8",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "167fc6efe4",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "e1a32e4f03",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-rc.1\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "1689772204",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-beta.22\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "4047ab1642",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-beta.21\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "61d49d6330",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-beta.20\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "7489c5c717",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-beta.19\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "cab1dcd7ff",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-beta.18\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "b0e7c4c8c0",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-beta.17\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "219c1d3ef5",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-beta.16\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "e9b354a0cd",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-beta.15\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "d796b319a3",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-beta.14\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "b48612c068",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-beta.13\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "8b03ed4beb",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-beta.12\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "ede814eebd",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-beta.11\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "93c4ccde05",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-beta.10\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "62d4f3c1ee",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-beta.9\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "01ae23144f",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-beta.8\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "60003eea14",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-beta.7\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "8f4c98af8b",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-beta.6\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
 					"id": "7f6fd94372",
 					"dimension": "behaviour",
 					"check": "not exercised: link",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "8fd4e5b769",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-beta.4\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "ee4c717315",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-beta.3\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "5011dd6206",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-beta.2\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "4ee779aeea",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-beta.1\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "8e206c445c",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-beta.0\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "a6ca50af1c",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.75\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "6706d78292",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.74\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "8931f3c935",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.73\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "02a737d0f2",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.72\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "b7f211e666",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.71\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "4c7b29880d",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.70\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "74a1d83ed8",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.69\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "ccc00fc655",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.68\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "936d9dc5d9",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.67\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "c439e13f1d",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.66\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "17eb3b9be6",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.65\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "22748437a5",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.64\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "78cc5c4e9e",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.63\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "c0233bdd56",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.62\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "01e406949f",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.61\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "c0df359997",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.60\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "c06ee426df",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.59\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "ae031c56dd",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.58\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "c2c420bc83",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.57\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "357ab57c90",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.56\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "3cfb53b32e",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.55\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "ca508a52d8",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.54\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "b0be630fe4",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.53\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "4c1e58a835",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.51\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "b664946eb8",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.50\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "241324c908",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.49\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "e82ce885aa",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.48\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "6af390fe99",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.44\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "b5c591acef",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.43\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "f5f6cc8a6d",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.41\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "950aabf609",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.40\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "cb23c13e43",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.39\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "91aeda4ea0",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.38\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "62e1010658",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.37\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "5ce4095582",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.36\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "b543d7aa10",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.35\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "37830ffe86",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.34\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "5dfba1ff90",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.33\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "a323e3c362",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.32\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "260ee5e4da",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.31\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "449c38e252",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.30\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "f6bf14215d",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.29\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "57ee755075",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.28\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "46bbde9899",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.27\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "993513a5f0",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.26\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "327714c737",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.25\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "18d1b30eb3",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.24\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "f38b76303c",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.23\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "8933d225ac",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.22\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "64eb43aeb0",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.21\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "8dc93f2516",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.20\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "c3a9af3b13",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"2.0.0-alpha.19\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "7b0312433c",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Introduction\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "b18deef864",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Installation\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "7c0c2c7590",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Upgrading\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "d359e2b1c8",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Feature Requests\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "cc5e758085",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Help\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "135a293965",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Blog\" #2",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "950ca80042",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Changelog\"",
 					"lastSeen": "2026-10-30T21:14:44.413Z"
 				},
 				{
@@ -3551,12 +3656,6 @@
 					"id": "b6f5face3f",
 					"dimension": "behaviour",
 					"check": "not exercised: 129 keyboard journeys",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "bd1ce58f43",
-					"dimension": "a11y",
-					"check": "modality probe of button \"expand\": focus ring after a click, then Escape and Tab (step 1 of 4: click it)",
 					"lastSeen": "2026-10-30T21:14:44.413Z"
 				},
 				{
@@ -3631,13 +3730,362 @@
 			],
 			"weight": {
 				"downloaded": 176658,
-				"executed": 101355
+				"executed": 101357
 			},
 			"owner": "markless-migrate docusaurus port (thejackshelton)"
 		},
 		"/docs": {
 			"ok": false,
 			"failures": [
+				{
+					"id": "e413578e85",
+					"dimension": "behaviour",
+					"check": "click link \"best Docusaurus sites\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "64d15e2198",
+					"dimension": "behaviour",
+					"check": "click link \"best Docusaurus sites\", after arriving from /docs/cli by link \"Docs\" (step 2)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "ad3c329810",
+					"dimension": "behaviour",
+					"check": "not exercised: button",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "e32fa2404d",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Playground\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "d416d0c64e",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"TypeScript Support\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "bba99de6d0",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Guides\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "6846404d8a",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Advanced Guides\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "fdfb67d050",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Upgrading\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "996166b775",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Canary 🚧\" (after click button \"Canary 🚧\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "e7579b4ed9",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"All versions\" (after click button \"Canary 🚧\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "8f2c165f4f",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"English\" (after click button \"English\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "ceb8b8c756",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Français\" (after click button \"English\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "3e2cc8a70c",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Português (Brasil)\" (after click button \"English\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "ba768f761a",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"한국어\" (after click button \"English\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "252f532f10",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"中文（中国）\" (after click button \"English\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "c99f7b324a",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Search\" (after click button \"Search (Control+k)\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "15e75aa8eb",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Cancel\" (after click button \"Search (Control+k)\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "eecebecd19",
+					"dimension": "behaviour",
+					"check": "not exercised: searchbox \"Search\" (after click button \"Search (Control+k)\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "c15c69adde",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Expand sidebar category 'Getting Started'\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "342df0718b",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Expand sidebar category 'Docs'\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "64e6bd0cb7",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Expand sidebar category 'Markdown Features'\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "a71e71f25e",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Expand sidebar category 'Deployment'\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "f3829f1fa5",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Expand sidebar category 'Internationalization'\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "40b660e24b",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Pages\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "5199df8dce",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Docs\" #2 (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "fa469b3013",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Markdown Features\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "fbf89cbebe",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Styling and Layout\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "881a29fb06",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Swizzling\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "eba023def9",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Static Assets\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "2b53b31dc9",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Search\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "e418879dcd",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Browser support\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "0dca62257f",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"SEO\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "30e3444f1c",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Using Plugins\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "37ac491bdc",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Deployment\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "7672f3817e",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Internationalization\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "a55dba47a5",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"What's next?\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "1aba12df4b",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Blog\" #4 (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "9d8212da86",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Architecture\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "0e971ec345",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Plugins\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "19245c3875",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Routing\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "5cac4cfeee",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Static site generation\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "6c2839ba0b",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Client architecture\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "4d18c50a84",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"To Docusaurus v3\" (after click button \"Expand sidebar category 'Upgrading'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "b2dd946c47",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Expand sidebar\" (after click button \"Collapse sidebar\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "027b68d07c",
+					"dimension": "behaviour",
+					"check": "not exercised: 104 keyboard journeys",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "b1483f79bb",
+					"dimension": "behaviour",
+					"check": "not exercised: 3 repeated-use or closing sequences",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "eec372f691",
+					"dimension": "a11y",
+					"check": "modality probe of button \"Collapse sidebar\": focus ring after a click, then Escape and Tab (step 4 of 4: press Shift+Tab)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "23e2acfe3c",
+					"dimension": "a11y",
+					"check": "modality probe of button \"Watch Docusaurus: Documentation Made Easy\": focus ring after a click, then Escape and Tab (step 1 of 4: click it)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "c550e2a3cc",
+					"dimension": "a11y",
+					"check": "modality probe of button \"Canary 🚧\": focus ring after a click, then Escape and Tab (step 1 of 4: click it)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "ae4e93a571",
+					"dimension": "behaviour",
+					"check": "popup probe of button \"Canary 🚧\": open by pointer, point along its items and away, close by a click outside, reopen, choose by pointer, reopen, close by Escape and its close button (step 1 of 12: click it)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "338ceca8b8",
+					"dimension": "behaviour",
+					"check": "popup probe of button \"Canary 🚧\": open by pointer, move with ArrowDown, type the first letter of each item, close, reopen and Tab (step 1 of 10: click it)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "bf162895b4",
+					"dimension": "behaviour",
+					"check": "hover probe of button \"Canary 🚧\": pointer resting on it, leaving and coming back (step 4 of 5: click it)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "7544beb69b",
+					"dimension": "motion",
+					"check": "click button \"Collapse sidebar\": motion of link \"Direct link to Fast Track ⏱️\" (main>article>heading>link/a)",
+					"viewport": "desktop",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "7bc59ee7f7",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Feature Requests\", shared with /blog/releases/3.10",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "c1e7af4121",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Help\", shared with /blog/releases/3.10",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "5457eb735a",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Blog\" #3, shared with /blog/releases/3.10",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "b9b44d96e0",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Changelog\", shared with /blog/releases/3.10",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "af0438098a",
+					"dimension": "navigation",
+					"check": "back to /docs after going in place from /docs (through a link the checker added: no page links here) to /blog/releases/3.10: computed styles of html",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
 				{
 					"id": "c4534e77d7",
 					"dimension": "visual",
@@ -3882,318 +4330,6 @@
 					"lastSeen": "2026-10-30T21:14:44.413Z"
 				},
 				{
-					"id": "eb877283b9",
-					"dimension": "behaviour",
-					"check": "click link \"best Docusaurus sites\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "81f50cfb65",
-					"dimension": "behaviour",
-					"check": "click link \"best Docusaurus sites\", after arriving from /docs/cli by link \"Docs\" (step 2)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "ad3c329810",
-					"dimension": "behaviour",
-					"check": "not exercised: button",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "e32fa2404d",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Playground\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "d416d0c64e",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"TypeScript Support\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "bba99de6d0",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Guides\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "6846404d8a",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Advanced Guides\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "fdfb67d050",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Upgrading\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "996166b775",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Canary 🚧\" (after click button \"Canary 🚧\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "e7579b4ed9",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"All versions\" (after click button \"Canary 🚧\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "8f2c165f4f",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"English\" (after click button \"English\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "ceb8b8c756",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Français\" (after click button \"English\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "3e2cc8a70c",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Português (Brasil)\" (after click button \"English\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "ba768f761a",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"한국어\" (after click button \"English\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "252f532f10",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"中文（中国）\" (after click button \"English\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "c99f7b324a",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Search\" (after click button \"Search (Control+k)\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "15e75aa8eb",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Cancel\" (after click button \"Search (Control+k)\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "eecebecd19",
-					"dimension": "behaviour",
-					"check": "not exercised: searchbox \"Search\" (after click button \"Search (Control+k)\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "c15c69adde",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Expand sidebar category 'Getting Started'\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "342df0718b",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Expand sidebar category 'Docs'\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "64e6bd0cb7",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Expand sidebar category 'Markdown Features'\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "a71e71f25e",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Expand sidebar category 'Deployment'\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "f3829f1fa5",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Expand sidebar category 'Internationalization'\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "40b660e24b",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Pages\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "5199df8dce",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Docs\" #2 (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "fa469b3013",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Markdown Features\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "fbf89cbebe",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Styling and Layout\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "881a29fb06",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Swizzling\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "eba023def9",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Static Assets\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "2b53b31dc9",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Search\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "e418879dcd",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Browser support\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "0dca62257f",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"SEO\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "30e3444f1c",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Using Plugins\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "37ac491bdc",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Deployment\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "7672f3817e",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Internationalization\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "a55dba47a5",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"What's next?\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "1aba12df4b",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Blog\" #4 (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "9d8212da86",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Architecture\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "0e971ec345",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Plugins\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "19245c3875",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Routing\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "5cac4cfeee",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Static site generation\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "6c2839ba0b",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Client architecture\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "4d18c50a84",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"To Docusaurus v3\" (after click button \"Expand sidebar category 'Upgrading'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "b2dd946c47",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Expand sidebar\" (after click button \"Collapse sidebar\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "027b68d07c",
-					"dimension": "behaviour",
-					"check": "not exercised: 104 keyboard journeys",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "b1483f79bb",
-					"dimension": "behaviour",
-					"check": "not exercised: 3 repeated-use or closing sequences",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "eec372f691",
-					"dimension": "a11y",
-					"check": "modality probe of button \"Collapse sidebar\": focus ring after a click, then Escape and Tab (step 4 of 4: press Shift+Tab)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "23e2acfe3c",
-					"dimension": "a11y",
-					"check": "modality probe of button \"Watch Docusaurus: Documentation Made Easy\": focus ring after a click, then Escape and Tab (step 1 of 4: click it)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "c550e2a3cc",
-					"dimension": "a11y",
-					"check": "modality probe of button \"Canary 🚧\": focus ring after a click, then Escape and Tab (step 1 of 4: click it)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "ae4e93a571",
-					"dimension": "behaviour",
-					"check": "popup probe of button \"Canary 🚧\": open by pointer, point along its items and away, close by a click outside, reopen, choose by pointer, reopen, close by Escape and its close button (step 1 of 12: click it)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "338ceca8b8",
-					"dimension": "behaviour",
-					"check": "popup probe of button \"Canary 🚧\": open by pointer, move with ArrowDown, type the first letter of each item, close, reopen and Tab (step 1 of 10: click it)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "bf162895b4",
-					"dimension": "behaviour",
-					"check": "hover probe of button \"Canary 🚧\": pointer resting on it, leaving and coming back (step 4 of 5: click it)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
 					"id": "6b08043fb8",
 					"dimension": "a11y",
 					"check": "modality probe of link \"Introduction\": focus ring after Tab, then the pointer moving and Tab (step 1 of 5: Tab to it from the control before it)",
@@ -4393,36 +4529,6 @@
 					"dimension": "visual",
 					"check": "embed youtube-article dark focus",
 					"viewport": "mobile",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "7bc59ee7f7",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Feature Requests\", shared with /blog/releases/3.10",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "c1e7af4121",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Help\", shared with /blog/releases/3.10",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "5457eb735a",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Blog\" #3, shared with /blog/releases/3.10",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "b9b44d96e0",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Changelog\", shared with /blog/releases/3.10",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "af0438098a",
-					"dimension": "navigation",
-					"check": "back to /docs after going in place from /docs (through a link the checker added: no page links here) to /blog/releases/3.10: computed styles of html",
 					"lastSeen": "2026-10-30T21:14:44.413Z"
 				},
 				{
@@ -4809,13 +4915,427 @@
 			],
 			"weight": {
 				"downloaded": 178650,
-				"executed": 98194
+				"executed": 102319
 			},
 			"owner": "markless-migrate docusaurus port (thejackshelton)"
 		},
 		"/docs/category/getting-started": {
 			"ok": false,
 			"failures": [
+				{
+					"id": "0814f451e6",
+					"dimension": "behaviour",
+					"check": "click link \"Home page\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "7fe8011be8",
+					"dimension": "behaviour",
+					"check": "click link \"📄️ Installation How to install Docusaurus locally, and start a Docusaurus site in no time.\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "be0c8b0665",
+					"dimension": "behaviour",
+					"check": "click link \"Skip to main content\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "6e14389676",
+					"dimension": "behaviour",
+					"check": "click button \"Canary 🚧\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "faee1e845e",
+					"dimension": "behaviour",
+					"check": "click button \"English\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "ea10b4bf1e",
+					"dimension": "behaviour",
+					"check": "click button \"Collapse sidebar category 'Getting Started'\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "dd59d97b36",
+					"dimension": "behaviour",
+					"check": "click button \"Expand sidebar category 'Guides'\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "d7228acf9f",
+					"dimension": "behaviour",
+					"check": "click button \"Expand sidebar category 'Advanced Guides'\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "afabd9e086",
+					"dimension": "behaviour",
+					"check": "click button \"Expand sidebar category 'Upgrading'\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "ddcd581889",
+					"dimension": "behaviour",
+					"check": "click button \"Collapse sidebar\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "36c80c1d9b",
+					"dimension": "behaviour",
+					"check": "click link \"Docusaurus\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "0692d5d5a7",
+					"dimension": "behaviour",
+					"check": "click link \"Docs\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "ec8b1ec292",
+					"dimension": "behaviour",
+					"check": "click link \"API\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "2fb8aca882",
+					"dimension": "behaviour",
+					"check": "click link \"Blog\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "7f0c106aab",
+					"dimension": "behaviour",
+					"check": "click link \"Showcase\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "75a52b22d6",
+					"dimension": "behaviour",
+					"check": "click link \"Community\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "3aed24522e",
+					"dimension": "behaviour",
+					"check": "click link \"Introduction\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "fbea78798c",
+					"dimension": "behaviour",
+					"check": "click link \"Getting Started\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "a25df02639",
+					"dimension": "behaviour",
+					"check": "click link \"Installation\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "141b6c485b",
+					"dimension": "behaviour",
+					"check": "click link \"Configuration\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "338dc2cb24",
+					"dimension": "behaviour",
+					"check": "click link \"Playground\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "2cfa31143f",
+					"dimension": "behaviour",
+					"check": "click link \"TypeScript Support\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "e766607ee1",
+					"dimension": "behaviour",
+					"check": "click link \"Guides\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "4f377ad9fc",
+					"dimension": "behaviour",
+					"check": "click link \"Advanced Guides\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "ce6bfa90fc",
+					"dimension": "behaviour",
+					"check": "click link \"Upgrading\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "5a5393a7a4",
+					"dimension": "behaviour",
+					"check": "click link \"Feature Requests\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "a369e1c39d",
+					"dimension": "behaviour",
+					"check": "click link \"Help\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "0744d5063d",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Blog\" #2",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "ece0918883",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Changelog\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "e2e1de7222",
+					"dimension": "behaviour",
+					"check": "not exercised: link (after click button \"Canary 🚧\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "d70e75994e",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"All versions\" (after click button \"Canary 🚧\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "ecb85c9927",
+					"dimension": "behaviour",
+					"check": "not exercised: button (after click button \"English\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "a2ab343afd",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"English\" (after click button \"English\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "cc5fcf80dc",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Français\" (after click button \"English\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "9276228020",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Português (Brasil)\" (after click button \"English\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "2efdc50538",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"한국어\" (after click button \"English\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "6f2e3649c0",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"中文（中国）\" (after click button \"English\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "a1cc83d225",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Search\" (after click button \"Search (Control+k)\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "510396853f",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Cancel\" (after click button \"Search (Control+k)\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "5e29c8bc48",
+					"dimension": "behaviour",
+					"check": "not exercised: searchbox \"Search\" (after click button \"Search (Control+k)\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "00f4be6a4d",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Expand sidebar category 'Getting Started'\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "9b2bdb2a5a",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Expand sidebar category 'Docs'\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "ad6f9b32a7",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Expand sidebar category 'Markdown Features'\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "84d2c382ed",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Expand sidebar category 'Deployment'\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "84e8304a54",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Expand sidebar category 'Internationalization'\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "6534207e47",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Pages\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "68ad491343",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Docs\" #2 (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "b2e10c9e8c",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Markdown Features\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "e8cfd9cd5f",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Styling and Layout\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "dd758abf10",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Swizzling\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "5d8e83e968",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Static Assets\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "7f949c40de",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Search\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "82d59308f6",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Browser support\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "1bb327a8f0",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"SEO\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "753f43c6b9",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Using Plugins\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "39d970e013",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Deployment\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "986760a9ef",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Internationalization\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "5b1c4b67b3",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"What's next?\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "e023aa8d73",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Blog\" #3 (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "fcfc9a7738",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Architecture\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "d61f1e5bd2",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Plugins\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "8e90bdb018",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Routing\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "522bbd70a5",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Static site generation\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "19970ffd66",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Client architecture\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "6d5e98f586",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"To Docusaurus v3\" (after click button \"Expand sidebar category 'Upgrading'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "30d7a4019b",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Expand sidebar\" (after click button \"Collapse sidebar\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "0402f51d27",
+					"dimension": "behaviour",
+					"check": "not exercised: 93 keyboard journeys",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "11241685d6",
+					"dimension": "behaviour",
+					"check": "not exercised: 2 repeated-use or closing sequences",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "6a6976d922",
+					"dimension": "a11y",
+					"check": "modality probe of button \"Collapse sidebar\": focus ring after a click, then Escape and Tab (step 4 of 4: press Shift+Tab)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
 				{
 					"id": "118ac1e39f",
 					"dimension": "visual",
@@ -5047,180 +5567,6 @@
 					"lastSeen": "2026-10-30T21:14:44.413Z"
 				},
 				{
-					"id": "55ac3b53e6",
-					"dimension": "behaviour",
-					"check": "click link \"Home page\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "7fe8011be8",
-					"dimension": "behaviour",
-					"check": "click link \"📄️ Installation How to install Docusaurus locally, and start a Docusaurus site in no time.\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "be0c8b0665",
-					"dimension": "behaviour",
-					"check": "click link \"Skip to main content\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "6e14389676",
-					"dimension": "behaviour",
-					"check": "click button \"Canary 🚧\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "faee1e845e",
-					"dimension": "behaviour",
-					"check": "click button \"English\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "ea10b4bf1e",
-					"dimension": "behaviour",
-					"check": "click button \"Collapse sidebar category 'Getting Started'\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "796f8abe62",
-					"dimension": "behaviour",
-					"check": "click button \"Expand sidebar category 'Guides'\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "d7228acf9f",
-					"dimension": "behaviour",
-					"check": "click button \"Expand sidebar category 'Advanced Guides'\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "afabd9e086",
-					"dimension": "behaviour",
-					"check": "click button \"Expand sidebar category 'Upgrading'\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "ddcd581889",
-					"dimension": "behaviour",
-					"check": "click button \"Collapse sidebar\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "36c80c1d9b",
-					"dimension": "behaviour",
-					"check": "click link \"Docusaurus\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "0692d5d5a7",
-					"dimension": "behaviour",
-					"check": "click link \"Docs\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "ec8b1ec292",
-					"dimension": "behaviour",
-					"check": "click link \"API\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "2fb8aca882",
-					"dimension": "behaviour",
-					"check": "click link \"Blog\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "7f0c106aab",
-					"dimension": "behaviour",
-					"check": "click link \"Showcase\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "75a52b22d6",
-					"dimension": "behaviour",
-					"check": "click link \"Community\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "3aed24522e",
-					"dimension": "behaviour",
-					"check": "click link \"Introduction\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "fbea78798c",
-					"dimension": "behaviour",
-					"check": "click link \"Getting Started\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "a25df02639",
-					"dimension": "behaviour",
-					"check": "click link \"Installation\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "141b6c485b",
-					"dimension": "behaviour",
-					"check": "click link \"Configuration\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "338dc2cb24",
-					"dimension": "behaviour",
-					"check": "click link \"Playground\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "2cfa31143f",
-					"dimension": "behaviour",
-					"check": "click link \"TypeScript Support\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "e766607ee1",
-					"dimension": "behaviour",
-					"check": "click link \"Guides\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "4f377ad9fc",
-					"dimension": "behaviour",
-					"check": "click link \"Advanced Guides\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "ce6bfa90fc",
-					"dimension": "behaviour",
-					"check": "click link \"Upgrading\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "5a5393a7a4",
-					"dimension": "behaviour",
-					"check": "click link \"Feature Requests\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "a369e1c39d",
-					"dimension": "behaviour",
-					"check": "click link \"Help\", after arriving from /docs/category/guides by link \"Getting Started\" (step 1)",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "0744d5063d",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Blog\" #2",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "ece0918883",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Changelog\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
 					"id": "17cdc37cab",
 					"dimension": "behaviour",
 					"check": "not exercised: link (after click button \"Close\")",
@@ -5233,231 +5579,9 @@
 					"lastSeen": "2026-10-30T21:14:44.413Z"
 				},
 				{
-					"id": "d70e75994e",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"All versions\" (after click button \"Canary 🚧\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "a2ab343afd",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"English\" (after click button \"English\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "cc5fcf80dc",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Français\" (after click button \"English\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "9276228020",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Português (Brasil)\" (after click button \"English\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "2efdc50538",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"한국어\" (after click button \"English\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "6f2e3649c0",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"中文（中国）\" (after click button \"English\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "a1cc83d225",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Search\" (after click button \"Search (Control+k)\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "510396853f",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Cancel\" (after click button \"Search (Control+k)\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "5e29c8bc48",
-					"dimension": "behaviour",
-					"check": "not exercised: searchbox \"Search\" (after click button \"Search (Control+k)\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "00f4be6a4d",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Expand sidebar category 'Getting Started'\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "9b2bdb2a5a",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Expand sidebar category 'Docs'\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "ad6f9b32a7",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Expand sidebar category 'Markdown Features'\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "84d2c382ed",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Expand sidebar category 'Deployment'\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "84e8304a54",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Expand sidebar category 'Internationalization'\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "6534207e47",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Pages\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "68ad491343",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Docs\" #2 (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "b2e10c9e8c",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Markdown Features\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "e8cfd9cd5f",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Styling and Layout\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "dd758abf10",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Swizzling\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "5d8e83e968",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Static Assets\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "7f949c40de",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Search\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "82d59308f6",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Browser support\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "1bb327a8f0",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"SEO\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "753f43c6b9",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Using Plugins\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "39d970e013",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Deployment\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "986760a9ef",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Internationalization\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "5b1c4b67b3",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"What's next?\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "e023aa8d73",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Blog\" #3 (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "fcfc9a7738",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Architecture\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "d61f1e5bd2",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Plugins\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "8e90bdb018",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Routing\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "522bbd70a5",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Static site generation\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "19970ffd66",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Client architecture\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "6d5e98f586",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"To Docusaurus v3\" (after click button \"Expand sidebar category 'Upgrading'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "30d7a4019b",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Expand sidebar\" (after click button \"Collapse sidebar\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
 					"id": "4b4035752c",
 					"dimension": "behaviour",
 					"check": "not exercised: 92 keyboard journeys",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "11241685d6",
-					"dimension": "behaviour",
-					"check": "not exercised: 2 repeated-use or closing sequences",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "6a6976d922",
-					"dimension": "a11y",
-					"check": "modality probe of button \"Collapse sidebar\": focus ring after a click, then Escape and Tab (step 4 of 4: press Shift+Tab)",
 					"lastSeen": "2026-10-30T21:14:44.413Z"
 				},
 				{
@@ -5532,13 +5656,511 @@
 			],
 			"weight": {
 				"downloaded": 180641,
-				"executed": 101022
+				"executed": 96693
 			},
 			"owner": "markless-migrate docusaurus port (thejackshelton)"
 		},
 		"/docs/installation": {
 			"ok": false,
 			"failures": [
+				{
+					"id": "d2641f4f3b",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code to clipboard\" #3",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "9565926f41",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code to clipboard\" #4",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "1cd57c7c41",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code to clipboard\" #5",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "ffb8d8fbbb",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code to clipboard\" #6",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "0c69396b3c",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code to clipboard\" #7",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "47f45ea013",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code to clipboard\" #8",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "399df4459d",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code to clipboard\" #9",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "6a51cd513e",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code to clipboard\" #10",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "788572477b",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code to clipboard\" #11",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "348180c618",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Community\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "aa75bf8f03",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Docusaurus\" #2",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "b8841c31c4",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Introduction\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "e21fc0008f",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Getting Started\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "5e7862b96f",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Installation\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "ce7a377f94",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Configuration\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "7bd1bcb5de",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Playground\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "b3f00d9783",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"TypeScript Support\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "ea648fb971",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Guides\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "100e38db0c",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Advanced Guides\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "a47e41c988",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Upgrading\"",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "3e59f81993",
+					"dimension": "behaviour",
+					"check": "not exercised: tab \"npm\" #3",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "840c8a23b6",
+					"dimension": "behaviour",
+					"check": "not exercised: tab \"Yarn\" #3",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "d288aa83ba",
+					"dimension": "behaviour",
+					"check": "not exercised: tab \"pnpm\" #3",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "5183a0be15",
+					"dimension": "behaviour",
+					"check": "not exercised: tab \"Bun\" #3",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "9cbecdb1bb",
+					"dimension": "behaviour",
+					"check": "not exercised: tab \"npm\" #4",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "59840d3adb",
+					"dimension": "behaviour",
+					"check": "not exercised: tab \"Yarn\" #4",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "5aac79259e",
+					"dimension": "behaviour",
+					"check": "not exercised: tab \"pnpm\" #4",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "97e63159e5",
+					"dimension": "behaviour",
+					"check": "not exercised: tab \"Bun\" #4",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "3ef1996b32",
+					"dimension": "behaviour",
+					"check": "not exercised: tab \"npm\" #5",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "8ba5340cce",
+					"dimension": "behaviour",
+					"check": "not exercised: tab \"Yarn\" #5",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "171678c1b6",
+					"dimension": "behaviour",
+					"check": "not exercised: tab \"pnpm\" #5",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "ba1dadcf9c",
+					"dimension": "behaviour",
+					"check": "not exercised: tab \"Bun\" #5",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "6107fd8246",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code to clipboard\" #12 (after click summary \"Alternative installation commands\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "7fa2a53858",
+					"dimension": "behaviour",
+					"check": "not exercised: tab \"npm\" #6 (after click summary \"Alternative installation commands\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "92ba5878d0",
+					"dimension": "behaviour",
+					"check": "not exercised: tab \"Yarn\" #6 (after click summary \"Alternative installation commands\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "59c49bbcbd",
+					"dimension": "behaviour",
+					"check": "not exercised: tab \"pnpm\" #6 (after click summary \"Alternative installation commands\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "7ca351fea4",
+					"dimension": "behaviour",
+					"check": "not exercised: tab \"Bun\" #6 (after click summary \"Alternative installation commands\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "7fd6975e8e",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Canary 🚧\" (after click button \"Canary 🚧\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "4691abb3c6",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"All versions\" (after click button \"Canary 🚧\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "6ed1ec074d",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"English\" (after click button \"English\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "f34eda543f",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Français\" (after click button \"English\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "57be52eeed",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Português (Brasil)\" (after click button \"English\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "b5e19c8b91",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"한국어\" (after click button \"English\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "bed28acdee",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"中文（中国）\" (after click button \"English\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "c2992bbce3",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Search\" (after click button \"Search (Control+k)\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "8abcf8ee17",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Cancel\" (after click button \"Search (Control+k)\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "d4b0be4f33",
+					"dimension": "behaviour",
+					"check": "not exercised: searchbox \"Search\" (after click button \"Search (Control+k)\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "c727f6ed34",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Expand sidebar category 'Getting Started'\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "b9bed1adb0",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Expand sidebar category 'Docs'\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "81a907661e",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Expand sidebar category 'Markdown Features'\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "ed799923e1",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Expand sidebar category 'Deployment'\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "56f1c263b7",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Expand sidebar category 'Internationalization'\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "c6c67652cc",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Pages\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "48bf25bc57",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Docs\" #2 (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "b3649f08c7",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Markdown Features\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "4f7dbb7edb",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Styling and Layout\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "4b8cfec184",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Swizzling\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "98d6a0d3ae",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Static Assets\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "f245ee621b",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Search\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "830e2e32af",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Browser support\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "b4c921efc4",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"SEO\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "ef9e2d41c1",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Using Plugins\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "d1ae6459c6",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Deployment\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "32c98d093c",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Internationalization\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "10c930e359",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"What's next?\" (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "b0639f388c",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Blog\" #3 (after click button \"Expand sidebar category 'Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "3229558a0d",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Architecture\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "0209400488",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Plugins\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "67d7d0aa12",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Routing\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "208f4c04b9",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Static site generation\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "ed9ff85347",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Client architecture\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "f8af0c57c5",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"To Docusaurus v3\" (after click button \"Expand sidebar category 'Upgrading'\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "ffb2fff321",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Expand sidebar\" (after click button \"Collapse sidebar\")",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "adeccd5f76",
+					"dimension": "behaviour",
+					"check": "not exercised: 116 keyboard journeys",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "294d862f7a",
+					"dimension": "behaviour",
+					"check": "not exercised: 5 repeated-use or closing sequences",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "02acc006e2",
+					"dimension": "a11y",
+					"check": "modality probe of button \"Collapse sidebar\": focus ring after a click, then Escape and Tab (step 4 of 4: press Shift+Tab)",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "3f69ddfb63",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Introduction\" #2, shared with /changelog",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "5b15dee4f9",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Installation\" #2, shared with /changelog",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "e6d8ee9f2c",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Upgrading\" #2, shared with /changelog",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "787cd0ad1c",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Feature Requests\", shared with /changelog",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "8dcbb28ace",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Help\", shared with /changelog",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "8f4694c25f",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Blog\" #2, shared with /changelog",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
+					"id": "5c5f68d2d7",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Changelog\", shared with /changelog",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
 				{
 					"id": "27cf92cac0",
 					"dimension": "visual",
@@ -5765,192 +6387,6 @@
 					"lastSeen": "2026-10-30T21:14:44.413Z"
 				},
 				{
-					"id": "d2641f4f3b",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Copy code to clipboard\" #3",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "9565926f41",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Copy code to clipboard\" #4",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "1cd57c7c41",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Copy code to clipboard\" #5",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "ffb8d8fbbb",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Copy code to clipboard\" #6",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "0c69396b3c",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Copy code to clipboard\" #7",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "47f45ea013",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Copy code to clipboard\" #8",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "399df4459d",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Copy code to clipboard\" #9",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "6a51cd513e",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Copy code to clipboard\" #10",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "788572477b",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Copy code to clipboard\" #11",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "aa75bf8f03",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Docusaurus\" #2",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "b8841c31c4",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Introduction\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "e21fc0008f",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Getting Started\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "5e7862b96f",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Installation\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "ce7a377f94",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Configuration\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "7bd1bcb5de",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Playground\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "b3f00d9783",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"TypeScript Support\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "ea648fb971",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Guides\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "100e38db0c",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Advanced Guides\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "a47e41c988",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Upgrading\"",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "3e59f81993",
-					"dimension": "behaviour",
-					"check": "not exercised: tab \"npm\" #3",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "840c8a23b6",
-					"dimension": "behaviour",
-					"check": "not exercised: tab \"Yarn\" #3",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "d288aa83ba",
-					"dimension": "behaviour",
-					"check": "not exercised: tab \"pnpm\" #3",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "5183a0be15",
-					"dimension": "behaviour",
-					"check": "not exercised: tab \"Bun\" #3",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "9cbecdb1bb",
-					"dimension": "behaviour",
-					"check": "not exercised: tab \"npm\" #4",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "59840d3adb",
-					"dimension": "behaviour",
-					"check": "not exercised: tab \"Yarn\" #4",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "5aac79259e",
-					"dimension": "behaviour",
-					"check": "not exercised: tab \"pnpm\" #4",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "97e63159e5",
-					"dimension": "behaviour",
-					"check": "not exercised: tab \"Bun\" #4",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "3ef1996b32",
-					"dimension": "behaviour",
-					"check": "not exercised: tab \"npm\" #5",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "8ba5340cce",
-					"dimension": "behaviour",
-					"check": "not exercised: tab \"Yarn\" #5",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "171678c1b6",
-					"dimension": "behaviour",
-					"check": "not exercised: tab \"pnpm\" #5",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "ba1dadcf9c",
-					"dimension": "behaviour",
-					"check": "not exercised: tab \"Bun\" #5",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
 					"id": "e2f1161141",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"Search (Control+k)\" (after click button \"Copy code to clipboard\")",
@@ -5963,249 +6399,9 @@
 					"lastSeen": "2026-10-30T21:14:44.413Z"
 				},
 				{
-					"id": "6107fd8246",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Copy code to clipboard\" #12 (after click summary \"Alternative installation commands\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "7fa2a53858",
-					"dimension": "behaviour",
-					"check": "not exercised: tab \"npm\" #6 (after click summary \"Alternative installation commands\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "92ba5878d0",
-					"dimension": "behaviour",
-					"check": "not exercised: tab \"Yarn\" #6 (after click summary \"Alternative installation commands\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "59c49bbcbd",
-					"dimension": "behaviour",
-					"check": "not exercised: tab \"pnpm\" #6 (after click summary \"Alternative installation commands\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "7ca351fea4",
-					"dimension": "behaviour",
-					"check": "not exercised: tab \"Bun\" #6 (after click summary \"Alternative installation commands\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "7fd6975e8e",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Canary 🚧\" (after click button \"Canary 🚧\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "4691abb3c6",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"All versions\" (after click button \"Canary 🚧\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "6ed1ec074d",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"English\" (after click button \"English\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "f34eda543f",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Français\" (after click button \"English\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "57be52eeed",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Português (Brasil)\" (after click button \"English\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "b5e19c8b91",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"한국어\" (after click button \"English\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "bed28acdee",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"中文（中国）\" (after click button \"English\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "c727f6ed34",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Expand sidebar category 'Getting Started'\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "b9bed1adb0",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Expand sidebar category 'Docs'\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "81a907661e",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Expand sidebar category 'Markdown Features'\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "ed799923e1",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Expand sidebar category 'Deployment'\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "56f1c263b7",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Expand sidebar category 'Internationalization'\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "c6c67652cc",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Pages\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "48bf25bc57",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Docs\" #2 (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "b3649f08c7",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Markdown Features\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "4f7dbb7edb",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Styling and Layout\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "4b8cfec184",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Swizzling\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "98d6a0d3ae",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Static Assets\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "f245ee621b",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Search\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "830e2e32af",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Browser support\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "b4c921efc4",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"SEO\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "ef9e2d41c1",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Using Plugins\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "d1ae6459c6",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Deployment\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "32c98d093c",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Internationalization\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "10c930e359",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"What's next?\" (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "b0639f388c",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Blog\" #3 (after click button \"Expand sidebar category 'Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "3229558a0d",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Architecture\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "0209400488",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Plugins\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "67d7d0aa12",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Routing\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "208f4c04b9",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Static site generation\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "ed9ff85347",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Client architecture\" (after click button \"Expand sidebar category 'Advanced Guides'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "f8af0c57c5",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"To Docusaurus v3\" (after click button \"Expand sidebar category 'Upgrading'\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "ffb2fff321",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Expand sidebar\" (after click button \"Collapse sidebar\")",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
 					"id": "91abcc73d4",
 					"dimension": "behaviour",
 					"check": "not exercised: 113 keyboard journeys",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "294d862f7a",
-					"dimension": "behaviour",
-					"check": "not exercised: 5 repeated-use or closing sequences",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "02acc006e2",
-					"dimension": "a11y",
-					"check": "modality probe of button \"Collapse sidebar\": focus ring after a click, then Escape and Tab (step 4 of 4: press Shift+Tab)",
 					"lastSeen": "2026-10-30T21:14:44.413Z"
 				},
 				{
@@ -6269,42 +6465,6 @@
 					"dimension": "motion",
 					"check": "click button \"Switch between dark and light mode (currently system mode)\" (step 3 of 5: use 3): frame of link \"Deploys by Netlify\" (contentinfo>list>listitem>link/a) and 1 more element alike",
 					"viewport": "desktop",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "3f69ddfb63",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Introduction\" #2, shared with /changelog",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "e6d8ee9f2c",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Upgrading\" #2, shared with /changelog",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "787cd0ad1c",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Feature Requests\", shared with /changelog",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "8dcbb28ace",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Help\", shared with /changelog",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "8f4694c25f",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Blog\" #2, shared with /changelog",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
-				},
-				{
-					"id": "5c5f68d2d7",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Changelog\", shared with /changelog",
 					"lastSeen": "2026-10-30T21:14:44.413Z"
 				},
 				{
@@ -6887,7 +7047,7 @@
 			],
 			"weight": {
 				"downloaded": 178650,
-				"executed": 102560
+				"executed": 102579
 			},
 			"owner": "markless-migrate docusaurus port (thejackshelton)"
 		},
@@ -6895,23 +7055,28 @@
 			"ok": false,
 			"failures": [
 				{
+					"id": "31a3cfdb27",
+					"dimension": "http",
+					"check": "the check of this route",
+					"lastSeen": "2026-10-30T23:54:41.608Z"
+				},
+				{
 					"id": "f54da799e9",
 					"dimension": "navigation",
 					"check": "back to /showcase after going in place from /showcase (through a link the checker added: no page links here) to /docs/category/getting-started: computed styles of html, main a",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
+					"lastSeen": "2026-10-30T23:54:41.608Z"
 				},
 				{
 					"id": "4c8a5909cb",
 					"dimension": "navigation",
 					"check": "back to /showcase after going in place from /showcase after button \"Switch between dark and light mode (currently system mode)\" (through a link the checker added: no page links here) to /docs/category/getting-started: computed styles of main a",
-					"lastSeen": "2026-10-30T21:14:44.413Z"
+					"lastSeen": "2026-10-30T23:54:41.608Z"
 				}
 			],
 			"weight": {
 				"downloaded": 0,
 				"executed": 0
 			},
-			"infrastructure": "the check of /showcase did not finish within 1800 s (--timeout), so it was stopped: a server that stops answering part way through does this",
 			"owner": "markless-migrate docusaurus port (thejackshelton)"
 		}
 	},
