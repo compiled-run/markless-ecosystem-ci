@@ -2,14 +2,14 @@
 	"suite": "remix-notes",
 	"lane": "sample",
 	"markless": {
-		"sha": "2ec91d8bbea7946c7ef6b8541f4449ce23267516",
+		"sha": "6533cee363337ebf763682d561ec8a056e76d7d2",
 		"version": "0.11.0",
 		"ref": "main"
 	},
 	"migrate": {
 		"sha": "b55adac69098299b8b638de1b79d50454f8c5b68"
 	},
-	"recordedAt": "2026-11-02T11:08:32.503Z",
+	"recordedAt": "2026-11-03T11:29:57.642Z",
 	"steps": {
 		"install": "pass",
 		"build": "pass",
@@ -22,24 +22,24 @@
 			"ok": true,
 			"failures": [],
 			"weight": {
-				"downloaded": 72888,
-				"executed": 10601
+				"downloaded": 73262,
+				"executed": 10738
 			}
 		},
 		"/ as signed-in": {
 			"ok": true,
 			"failures": [],
 			"weight": {
-				"downloaded": 71492,
-				"executed": 10679
+				"downloaded": 71867,
+				"executed": 10816
 			}
 		},
 		"/notes": {
 			"ok": true,
 			"failures": [],
 			"weight": {
-				"downloaded": 68360,
-				"executed": 40681
+				"downloaded": 68732,
+				"executed": 41140
 			}
 		},
 		"/notes as signed-in": {
@@ -49,7 +49,7 @@
 					"id": "9269030c02",
 					"dimension": "a11y",
 					"check": "press Enter on button \"Logout\"",
-					"lastSeen": "2026-11-02T11:08:32.503Z"
+					"lastSeen": "2026-11-03T11:29:57.642Z"
 				},
 				{
 					"id": "75b816b410",
@@ -60,8 +60,8 @@
 				}
 			],
 			"weight": {
-				"downloaded": 79793,
-				"executed": 11086
+				"downloaded": 80164,
+				"executed": 11598
 			},
 			"owner": "markless-migrate remix-notes port (thejackshelton)"
 		},
@@ -69,8 +69,8 @@
 			"ok": true,
 			"failures": [],
 			"weight": {
-				"downloaded": 68360,
-				"executed": 40661
+				"downloaded": 68732,
+				"executed": 41120
 			}
 		},
 		"/notes/cmvcee9oe0002ag8afyyiylz8 as signed-in": {
@@ -80,13 +80,13 @@
 					"id": "7f6b17fe56",
 					"dimension": "a11y",
 					"check": "press Enter on button \"Logout\"",
-					"lastSeen": "2026-11-02T11:08:32.503Z"
+					"lastSeen": "2026-11-03T11:29:57.642Z"
 				},
 				{
 					"id": "de1a7cd72c",
 					"dimension": "a11y",
 					"check": "press Enter on button \"Delete\"",
-					"lastSeen": "2026-11-02T11:08:32.503Z"
+					"lastSeen": "2026-11-03T11:29:57.642Z"
 				},
 				{
 					"id": "913dee19c1",
@@ -97,8 +97,8 @@
 				}
 			],
 			"weight": {
-				"downloaded": 79793,
-				"executed": 11452
+				"downloaded": 80164,
+				"executed": 11589
 			},
 			"owner": "markless-migrate remix-notes port (thejackshelton)"
 		}
