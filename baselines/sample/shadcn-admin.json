@@ -2,14 +2,14 @@
 	"suite": "shadcn-admin",
 	"lane": "sample",
 	"markless": {
-		"sha": "78d3f2623e22eba2fd1e108656d1fbb417d9df91",
+		"sha": "5d9a4859d8556bed1f7615e63adc4d6643178add",
 		"version": "0.11.0",
 		"ref": "main"
 	},
 	"migrate": {
 		"sha": "b55adac69098299b8b638de1b79d50454f8c5b68"
 	},
-	"recordedAt": "2026-11-04T11:41:48.986Z",
+	"recordedAt": "2026-11-05T10:54:48.349Z",
 	"steps": {
 		"install": "pass",
 		"build": "fail",
