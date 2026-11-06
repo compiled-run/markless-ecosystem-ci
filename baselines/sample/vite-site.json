@@ -2,14 +2,14 @@
 	"suite": "vite-site",
 	"lane": "sample",
 	"markless": {
-		"sha": "5d9a4859d8556bed1f7615e63adc4d6643178add",
+		"sha": "a467b04ed3dc382e525028892ed4f1780b55c71e",
 		"version": "0.11.0",
 		"ref": "main"
 	},
 	"migrate": {
 		"sha": "b55adac69098299b8b638de1b79d50454f8c5b68"
 	},
-	"recordedAt": "2026-11-05T10:55:54.055Z",
+	"recordedAt": "2026-11-06T10:52:00.523Z",
 	"steps": {
 		"install": "pass",
 		"build": "pass",
@@ -22,46 +22,33 @@
 			"ok": false,
 			"failures": [
 				{
-					"id": "4e53d25db0",
+					"id": "339b1fe085",
 					"dimension": "weight",
 					"check": "JavaScript downloaded",
-					"lastSeen": "2026-11-05T10:55:54.055Z"
+					"lastSeen": "2026-11-06T10:52:00.523Z"
 				},
 				{
-					"id": "f57628fb81",
+					"id": "54c2e62021",
 					"dimension": "weight",
 					"check": "JavaScript run at load",
-					"lastSeen": "2026-11-05T10:55:54.055Z"
+					"lastSeen": "2026-11-06T10:52:00.523Z"
 				},
 				{
 					"id": "473677deb5",
 					"dimension": "navigation",
 					"check": "in place from /ar/: DOM",
-					"lastSeen": "2026-11-05T10:55:54.055Z"
+					"lastSeen": "2026-11-06T10:52:00.523Z"
 				},
 				{
 					"id": "a00e2acb06",
 					"dimension": "navigation",
 					"check": "in place from /ar/, then clicking button \"Book a walk\": DOM",
-					"lastSeen": "2026-11-05T10:55:54.055Z"
-				},
-				{
-					"id": "eedbbbab88",
-					"dimension": "navigation",
-					"check": "back to / after going in place from / to /ar/: DOM",
-					"lastSeen": "2026-10-30T10:00:44.420Z"
-				},
-				{
-					"id": "2c74b56dfe",
-					"dimension": "navigation",
-					"check": "back to / after going in place from / to /ar/: screenshot",
-					"viewport": "desktop",
-					"lastSeen": "2026-10-30T10:00:44.420Z"
+					"lastSeen": "2026-11-06T10:52:00.523Z"
 				}
 			],
 			"weight": {
-				"downloaded": 66412,
-				"executed": 52149
+				"downloaded": 67180,
+				"executed": 52437
 			},
 			"owner": "markless-migrate vite-site port (thejackshelton)"
 		},
@@ -69,21 +56,21 @@
 			"ok": false,
 			"failures": [
 				{
-					"id": "f315b2dc41",
+					"id": "d717dfa309",
 					"dimension": "weight",
 					"check": "JavaScript downloaded",
-					"lastSeen": "2026-11-05T10:55:54.055Z"
+					"lastSeen": "2026-11-06T10:52:00.523Z"
 				},
 				{
-					"id": "8c26ad7a78",
+					"id": "d1cd0bbfac",
 					"dimension": "weight",
 					"check": "JavaScript run at load",
-					"lastSeen": "2026-11-05T10:55:54.055Z"
+					"lastSeen": "2026-11-06T10:52:00.523Z"
 				}
 			],
 			"weight": {
-				"downloaded": 66062,
-				"executed": 23258
+				"downloaded": 66828,
+				"executed": 23549
 			},
 			"owner": "markless-migrate vite-site port (thejackshelton)"
 		},
@@ -91,21 +78,21 @@
 			"ok": false,
 			"failures": [
 				{
-					"id": "fccb813249",
+					"id": "1bc4b3584e",
 					"dimension": "weight",
 					"check": "JavaScript downloaded",
-					"lastSeen": "2026-11-05T10:55:54.055Z"
+					"lastSeen": "2026-11-06T10:52:00.523Z"
 				},
 				{
-					"id": "9a79b8b9e6",
+					"id": "5322ca59ef",
 					"dimension": "weight",
 					"check": "JavaScript run at load",
-					"lastSeen": "2026-11-05T10:55:54.055Z"
+					"lastSeen": "2026-11-06T10:52:00.523Z"
 				}
 			],
 			"weight": {
-				"downloaded": 57777,
-				"executed": 39771
+				"downloaded": 58518,
+				"executed": 39996
 			},
 			"owner": "markless-migrate vite-site port (thejackshelton)"
 		},
@@ -113,21 +100,21 @@
 			"ok": false,
 			"failures": [
 				{
-					"id": "155845e409",
+					"id": "d15011389b",
 					"dimension": "weight",
 					"check": "JavaScript downloaded",
-					"lastSeen": "2026-11-05T10:55:54.055Z"
+					"lastSeen": "2026-11-06T10:52:00.523Z"
 				},
 				{
-					"id": "69109595ab",
+					"id": "106d145adc",
 					"dimension": "weight",
 					"check": "JavaScript run at load",
-					"lastSeen": "2026-11-05T10:55:54.055Z"
+					"lastSeen": "2026-11-06T10:52:00.523Z"
 				}
 			],
 			"weight": {
-				"downloaded": 57776,
-				"executed": 39771
+				"downloaded": 58517,
+				"executed": 39996
 			},
 			"owner": "markless-migrate vite-site port (thejackshelton)"
 		}

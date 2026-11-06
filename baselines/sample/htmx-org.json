@@ -2,14 +2,14 @@
 	"suite": "htmx-org",
 	"lane": "sample",
 	"markless": {
-		"sha": "5d9a4859d8556bed1f7615e63adc4d6643178add",
+		"sha": "a467b04ed3dc382e525028892ed4f1780b55c71e",
 		"version": "0.11.0",
 		"ref": "main"
 	},
 	"migrate": {
 		"sha": "b55adac69098299b8b638de1b79d50454f8c5b68"
 	},
-	"recordedAt": "2026-11-05T10:56:08.778Z",
+	"recordedAt": "2026-11-06T10:52:09.519Z",
 	"steps": {
 		"install": "pass",
 		"build": "fail",
