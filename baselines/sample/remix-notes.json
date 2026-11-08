@@ -2,14 +2,14 @@
 	"suite": "remix-notes",
 	"lane": "sample",
 	"markless": {
-		"sha": "1c254806089c9d3556b6ebc270210d39a246da44",
+		"sha": "635f5275eacc605b3857f1812119c178ccecf43a",
 		"version": "0.13.0",
 		"ref": "main"
 	},
 	"migrate": {
 		"sha": "b55adac69098299b8b638de1b79d50454f8c5b68"
 	},
-	"recordedAt": "2026-11-07T10:06:28.641Z",
+	"recordedAt": "2026-11-08T10:20:35.122Z",
 	"steps": {
 		"install": "pass",
 		"build": "pass",
@@ -23,7 +23,7 @@
 			"failures": [],
 			"weight": {
 				"downloaded": 74801,
-				"executed": 10779
+				"executed": 10886
 			}
 		},
 		"/ as signed-in": {
@@ -31,7 +31,7 @@
 			"failures": [],
 			"weight": {
 				"downloaded": 73412,
-				"executed": 10851
+				"executed": 10857
 			}
 		},
 		"/notes": {
@@ -39,7 +39,7 @@
 			"failures": [],
 			"weight": {
 				"downloaded": 70256,
-				"executed": 41551
+				"executed": 41774
 			}
 		},
 		"/notes as signed-in": {
@@ -49,7 +49,7 @@
 					"id": "9269030c02",
 					"dimension": "a11y",
 					"check": "press Enter on button \"Logout\"",
-					"lastSeen": "2026-11-07T10:06:28.641Z"
+					"lastSeen": "2026-11-08T10:20:35.122Z"
 				},
 				{
 					"id": "75b816b410",
@@ -61,7 +61,7 @@
 			],
 			"weight": {
 				"downloaded": 81746,
-				"executed": 11639
+				"executed": 11862
 			},
 			"owner": "markless-migrate remix-notes port (thejackshelton)"
 		},
@@ -70,7 +70,7 @@
 			"failures": [],
 			"weight": {
 				"downloaded": 70256,
-				"executed": 11454
+				"executed": 41577
 			}
 		},
 		"/notes/cmvcee9oe0002ag8afyyiylz8 as signed-in": {
@@ -80,13 +80,13 @@
 					"id": "7f6b17fe56",
 					"dimension": "a11y",
 					"check": "press Enter on button \"Logout\"",
-					"lastSeen": "2026-11-07T10:06:28.641Z"
+					"lastSeen": "2026-11-08T10:20:35.122Z"
 				},
 				{
 					"id": "de1a7cd72c",
 					"dimension": "a11y",
 					"check": "press Enter on button \"Delete\"",
-					"lastSeen": "2026-11-07T10:06:28.641Z"
+					"lastSeen": "2026-11-08T10:20:35.122Z"
 				},
 				{
 					"id": "913dee19c1",
