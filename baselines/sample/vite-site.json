@@ -2,14 +2,14 @@
 	"suite": "vite-site",
 	"lane": "sample",
 	"markless": {
-		"sha": "5ac3b19344ff19bb1a3c0423bccb13e82a046dea",
+		"sha": "e9d194d823fe105913ed9d2763b49b743334d668",
 		"version": "0.14.0",
 		"ref": "main"
 	},
 	"migrate": {
 		"sha": "b55adac69098299b8b638de1b79d50454f8c5b68"
 	},
-	"recordedAt": "2026-11-15T10:52:10.113Z",
+	"recordedAt": "2026-11-16T11:15:37.559Z",
 	"steps": {
 		"install": "pass",
 		"build": "pass",
@@ -22,33 +22,33 @@
 			"ok": false,
 			"failures": [
 				{
-					"id": "6ad70324b3",
+					"id": "c374d7ea87",
 					"dimension": "weight",
 					"check": "JavaScript downloaded",
-					"lastSeen": "2026-11-15T10:52:10.113Z"
+					"lastSeen": "2026-11-16T11:15:37.559Z"
 				},
 				{
-					"id": "31c09b56be",
+					"id": "df165d86b5",
 					"dimension": "weight",
 					"check": "JavaScript run at load",
-					"lastSeen": "2026-11-15T10:52:10.113Z"
+					"lastSeen": "2026-11-16T11:15:37.559Z"
 				},
 				{
 					"id": "473677deb5",
 					"dimension": "navigation",
 					"check": "in place from /ar/: DOM",
-					"lastSeen": "2026-11-15T10:52:10.113Z"
+					"lastSeen": "2026-11-16T11:15:37.559Z"
 				},
 				{
 					"id": "a00e2acb06",
 					"dimension": "navigation",
 					"check": "in place from /ar/, then clicking button \"Book a walk\": DOM",
-					"lastSeen": "2026-11-15T10:52:10.113Z"
+					"lastSeen": "2026-11-16T11:15:37.559Z"
 				}
 			],
 			"weight": {
-				"downloaded": 74363,
-				"executed": 54179
+				"downloaded": 74367,
+				"executed": 54177
 			},
 			"owner": "markless-migrate vite-site port (thejackshelton)"
 		},
@@ -56,21 +56,21 @@
 			"ok": false,
 			"failures": [
 				{
-					"id": "646f98f1b8",
+					"id": "47bc349a57",
 					"dimension": "weight",
 					"check": "JavaScript downloaded",
-					"lastSeen": "2026-11-15T10:52:10.113Z"
+					"lastSeen": "2026-11-16T11:15:37.559Z"
 				},
 				{
-					"id": "fc5fdfdeae",
+					"id": "552be88d15",
 					"dimension": "weight",
 					"check": "JavaScript run at load",
-					"lastSeen": "2026-11-15T10:52:10.113Z"
+					"lastSeen": "2026-11-16T11:15:37.559Z"
 				}
 			],
 			"weight": {
-				"downloaded": 74767,
-				"executed": 24248
+				"downloaded": 74771,
+				"executed": 24139
 			},
 			"owner": "markless-migrate vite-site port (thejackshelton)"
 		},
@@ -78,21 +78,21 @@
 			"ok": false,
 			"failures": [
 				{
-					"id": "41fbf9d71e",
+					"id": "57202caf03",
 					"dimension": "weight",
 					"check": "JavaScript downloaded",
-					"lastSeen": "2026-11-15T10:52:10.113Z"
+					"lastSeen": "2026-11-16T11:15:37.559Z"
 				},
 				{
-					"id": "c4b36a520a",
+					"id": "c2ef176af1",
 					"dimension": "weight",
 					"check": "JavaScript run at load",
-					"lastSeen": "2026-11-15T10:52:10.113Z"
+					"lastSeen": "2026-11-16T11:15:37.559Z"
 				}
 			],
 			"weight": {
-				"downloaded": 67627,
-				"executed": 42513
+				"downloaded": 67631,
+				"executed": 42735
 			},
 			"owner": "markless-migrate vite-site port (thejackshelton)"
 		},
@@ -100,21 +100,21 @@
 			"ok": false,
 			"failures": [
 				{
-					"id": "2a40702ce9",
+					"id": "e022d56e61",
 					"dimension": "weight",
 					"check": "JavaScript downloaded",
-					"lastSeen": "2026-11-15T10:52:10.113Z"
+					"lastSeen": "2026-11-16T11:15:37.559Z"
 				},
 				{
-					"id": "de0ac5b9c1",
+					"id": "696e386403",
 					"dimension": "weight",
 					"check": "JavaScript run at load",
-					"lastSeen": "2026-11-15T10:52:10.113Z"
+					"lastSeen": "2026-11-16T11:15:37.559Z"
 				}
 			],
 			"weight": {
-				"downloaded": 67628,
-				"executed": 42513
+				"downloaded": 67632,
+				"executed": 42511
 			},
 			"owner": "markless-migrate vite-site port (thejackshelton)"
 		}
