@@ -2,14 +2,14 @@
 	"suite": "remix-notes",
 	"lane": "sample",
 	"markless": {
-		"sha": "e9d194d823fe105913ed9d2763b49b743334d668",
+		"sha": "ae49000eaecd4740602d80a3a104dc050b84233d",
 		"version": "0.14.0",
 		"ref": "main"
 	},
 	"migrate": {
 		"sha": "b55adac69098299b8b638de1b79d50454f8c5b68"
 	},
-	"recordedAt": "2026-11-16T11:15:43.453Z",
+	"recordedAt": "2026-11-17T11:51:12.591Z",
 	"steps": {
 		"install": "pass",
 		"build": "pass",
@@ -22,24 +22,24 @@
 			"ok": true,
 			"failures": [],
 			"weight": {
-				"downloaded": 90051,
-				"executed": 11528
+				"downloaded": 90428,
+				"executed": 11421
 			}
 		},
 		"/ as signed-in": {
 			"ok": true,
 			"failures": [],
 			"weight": {
-				"downloaded": 88968,
-				"executed": 11392
+				"downloaded": 89416,
+				"executed": 11499
 			}
 		},
 		"/notes": {
 			"ok": true,
 			"failures": [],
 			"weight": {
-				"downloaded": 78218,
-				"executed": 43041
+				"downloaded": 78438,
+				"executed": 43124
 			}
 		},
 		"/notes as signed-in": {
@@ -49,11 +49,11 @@
 					"id": "9269030c02",
 					"dimension": "a11y",
 					"check": "press Enter on button \"Logout\"",
-					"lastSeen": "2026-11-16T11:15:43.453Z"
+					"lastSeen": "2026-11-17T11:51:12.591Z"
 				}
 			],
 			"weight": {
-				"downloaded": 97370,
+				"downloaded": 97901,
 				"executed": 12293
 			},
 			"owner": "markless-migrate remix-notes port (thejackshelton)"
@@ -62,8 +62,8 @@
 			"ok": true,
 			"failures": [],
 			"weight": {
-				"downloaded": 78218,
-				"executed": 42704
+				"downloaded": 78438,
+				"executed": 43124
 			}
 		},
 		"/notes/cmvcee9oe0002ag8afyyiylz8 as signed-in": {
@@ -73,18 +73,18 @@
 					"id": "7f6b17fe56",
 					"dimension": "a11y",
 					"check": "press Enter on button \"Logout\"",
-					"lastSeen": "2026-11-16T11:15:43.453Z"
+					"lastSeen": "2026-11-17T11:51:12.591Z"
 				},
 				{
 					"id": "de1a7cd72c",
 					"dimension": "a11y",
 					"check": "press Enter on button \"Delete\"",
-					"lastSeen": "2026-11-16T11:15:43.453Z"
+					"lastSeen": "2026-11-17T11:51:12.591Z"
 				}
 			],
 			"weight": {
-				"downloaded": 97370,
-				"executed": 12284
+				"downloaded": 97901,
+				"executed": 12508
 			},
 			"owner": "markless-migrate remix-notes port (thejackshelton)"
 		}
