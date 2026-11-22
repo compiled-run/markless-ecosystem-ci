@@ -2,14 +2,14 @@
 	"suite": "alpinejs-dev",
 	"lane": "sample",
 	"markless": {
-		"sha": "7b645ffd3fdf230b4bc79cd447816d562e957dd0",
+		"sha": "1654f9c00619bfe3d35d98b44961b84e9e8bcca6",
 		"version": "0.14.0",
 		"ref": "main"
 	},
 	"migrate": {
 		"sha": "b55adac69098299b8b638de1b79d50454f8c5b68"
 	},
-	"recordedAt": "2026-11-21T11:00:24.829Z",
+	"recordedAt": "2026-11-22T11:22:54.181Z",
 	"steps": {
 		"install": "pass",
 		"build": "pass",
@@ -26,76 +26,150 @@
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "b9e8c29f38",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "bd51056067",
 					"dimension": "a11y",
 					"check": "axe region: All page content should be contained by landmarks",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "6b78016c3a",
 					"dimension": "assets",
 					"check": "image #1 /img/caleb.png",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "edb5e213f3",
 					"dimension": "assets",
 					"check": "image #2 /img/eric.jpg",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "2ebf4edd08",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "c027684b30",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "c509b40c59",
 					"dimension": "visual",
 					"check": "screenshot",
 					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "40ec6df9e5",
 					"dimension": "assets",
 					"check": "image #1 /img/caleb.png",
 					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "473f12dc31",
 					"dimension": "assets",
 					"check": "image #2 /img/eric.jpg",
 					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "b497430380",
 					"dimension": "behaviour",
 					"check": "browser storage after the page loads",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "9534501206",
+					"dimension": "weight",
+					"check": "JavaScript run at load",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "09abde585d",
+					"dimension": "a11y",
+					"check": "press Enter on button \"Get Access\"",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "40b8f106be",
+					"dimension": "a11y",
+					"check": "press Space on button \"Get Access\"",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "323a6d60f9",
+					"dimension": "motion",
+					"check": "press Enter on button \"Get Access\": extra motion of generic (dialog/div)",
+					"viewport": "desktop",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "1de52bcafa",
+					"dimension": "motion",
+					"check": "press Enter on button \"Get Access\": extra motion of generic (dialog/div)",
+					"viewport": "desktop",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "48033e31c3",
+					"dimension": "motion",
+					"check": "press Enter on button \"Get Access\", with prefers-reduced-motion: reduce: extra motion of generic (dialog/div)",
+					"viewport": "desktop",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "9f51dc981d",
+					"dimension": "motion",
+					"check": "press Enter on button \"Get Access\", with prefers-reduced-motion: reduce: extra motion of generic (dialog/div)",
+					"viewport": "desktop",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "81b4a128e4",
+					"dimension": "motion",
+					"check": "press Space on button \"Get Access\": extra motion of generic (dialog/div)",
+					"viewport": "desktop",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "a03fa555ae",
+					"dimension": "motion",
+					"check": "press Space on button \"Get Access\": extra motion of generic (dialog/div)",
+					"viewport": "desktop",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "7858cf4534",
+					"dimension": "motion",
+					"check": "press Space on button \"Get Access\", with prefers-reduced-motion: reduce: extra motion of generic (dialog/div)",
+					"viewport": "desktop",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "0280bd90df",
+					"dimension": "motion",
+					"check": "press Space on button \"Get Access\", with prefers-reduced-motion: reduce: extra motion of generic (dialog/div)",
+					"viewport": "desktop",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "d57a119ac5",
@@ -149,18 +223,6 @@
 					"id": "ee17e6bc5a",
 					"dimension": "behaviour",
 					"check": "click button \"Get Access\", closed by Escape",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "28847df361",
-					"dimension": "a11y",
-					"check": "press Enter on button \"Get Access\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "6bba30e3d3",
-					"dimension": "a11y",
-					"check": "press Space on button \"Get Access\"",
 					"lastSeen": "2026-11-21T11:00:24.829Z"
 				},
 				{
@@ -243,29 +305,11 @@
 					"check": "click button \"Get Access\", then click button \"Already registered?\", then press Enter on button \"Login\", with prefers-reduced-motion: reduce: motion of button \"Register Login\" (dialog>form>button/button)",
 					"viewport": "desktop",
 					"lastSeen": "2026-11-18T11:40:40.995Z"
-				},
-				{
-					"id": "b544af35f1",
-					"dimension": "behaviour",
-					"check": "click button \"Get Access\", then type \"ada@example.com\" into textbox \"Email\", then click button (step 1)",
-					"lastSeen": "2026-11-15T10:52:15.598Z"
-				},
-				{
-					"id": "70f865fe08",
-					"dimension": "behaviour",
-					"check": "click button \"Get Access\", then type \"ada@example.com\" into textbox \"Email\", then press Enter on button (step 1)",
-					"lastSeen": "2026-11-15T10:52:15.598Z"
-				},
-				{
-					"id": "b8d0be1216",
-					"dimension": "behaviour",
-					"check": "click button \"Get Access\", then type \"ada@example.com\" into textbox \"Email\", then press Space on button (step 1)",
-					"lastSeen": "2026-11-15T10:52:15.598Z"
 				}
 			],
 			"weight": {
-				"downloaded": 343328,
-				"executed": 61065
+				"downloaded": 210180,
+				"executed": 55298
 			},
 			"owner": "markless-migrate alpinejs-dev port (thejackshelton)"
 		},
@@ -277,245 +321,444 @@
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "ba7627b5a9",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "58b17f7a67",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "bc5810cdcd",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "2b2b76eb55",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "ddac30c9b0",
 					"dimension": "rendered",
 					"check": "visible text",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "620ca0f24b",
 					"dimension": "visual",
 					"check": "screenshot",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "9999093812",
 					"dimension": "a11y",
 					"check": "focus order (Tab), first difference at stop 2",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "f82716b6c6",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
-					"id": "32f0e518c6",
+					"id": "b74db418fb",
 					"dimension": "visual",
 					"check": "page size",
 					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "92a18a61ea",
 					"dimension": "behaviour",
 					"check": "browser storage after the page loads",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "b366bbbf92",
 					"dimension": "visual",
 					"check": "screenshot in viewport width 768px",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "755619efcb",
 					"dimension": "visual",
 					"check": "screenshot in viewport width 769px",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "776f2a418d",
 					"dimension": "behaviour",
 					"check": "click button \"Search (Ctrl+K)\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "66407bc01f",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"CSP\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "1cebb827bf",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Extending\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "3a4484b8f1",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Text inputs\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "efeda41eba",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Textarea inputs\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "337e7edec5",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Checkbox inputs\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "ddca62a4b4",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Single checkbox with boolean\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "7111d37407",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Multiple checkboxes bound to array\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "72b6bb83db",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Radio inputs\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "e5e47444b6",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Select inputs\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "f784146066",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Single select\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "aafcd5fb80",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Single select with placeholder\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "9c427a409a",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Multiple select\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "266ba006cc",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Dynamically populated Select Options\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "baa576c4dd",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Range inputs\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "dadd0a202e",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Modifiers\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "887d668e7d",
 					"dimension": "behaviour",
 					"check": "not exercised: link \".lazy\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "e14d393c65",
+					"dimension": "behaviour",
+					"check": "not exercised: link \".change\"",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "444b6695f6",
 					"dimension": "behaviour",
 					"check": "not exercised: link \".blur\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "4a800d7190",
 					"dimension": "behaviour",
 					"check": "not exercised: link \".enter\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "02011e958a",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Combining Event Modifiers\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "cb6e4904a4",
 					"dimension": "behaviour",
 					"check": "not exercised: link \".number\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "9b80579d0b",
 					"dimension": "behaviour",
 					"check": "not exercised: link \".boolean\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "f70eca37a1",
 					"dimension": "behaviour",
 					"check": "not exercised: link \".debounce\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "c17e25dcf0",
 					"dimension": "behaviour",
 					"check": "not exercised: link \".throttle\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "1ffcdfc8a6",
 					"dimension": "behaviour",
 					"check": "not exercised: link \".fill\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "2937da5fce",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Programmatic access\"",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "47b73ae5f5",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"x-for\" (after click checkbox)",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "2949d21647",
+					"dimension": "behaviour",
+					"check": "not exercised: combobox #2 (after click checkbox)",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "c96badead3",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Search\" (after click button \"Search (Ctrl+K)\")",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "d231d4084b",
+					"dimension": "behaviour",
+					"check": "not exercised: searchbox \"Search\" (after click button \"Search (Ctrl+K)\")",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "7fe8205f00",
+					"dimension": "responsiveness",
+					"check": "first interaction with checkbox (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "61edda01df",
+					"dimension": "responsiveness",
+					"check": "first interaction with checkbox #2 (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "a00455f7a8",
+					"dimension": "responsiveness",
+					"check": "first interaction with checkbox #3 (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "6675569bd8",
+					"dimension": "responsiveness",
+					"check": "first interaction with checkbox #4 (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "927e31d1b5",
+					"dimension": "responsiveness",
+					"check": "first interaction with radio (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "a98fe14766",
+					"dimension": "responsiveness",
+					"check": "first interaction with radio #2 (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "630c9b9700",
+					"dimension": "responsiveness",
+					"check": "first interaction with textbox \"Type message...\" (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "33b0f8fd7a",
+					"dimension": "responsiveness",
+					"check": "first interaction with textbox \"Type message...\" #2 (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "8a3efd2d18",
+					"dimension": "responsiveness",
+					"check": "first interaction with textbox \"Type message\" (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "d0d86c5c34",
+					"dimension": "responsiveness",
+					"check": "first interaction with textbox \"Type message\" #2 (desktop)",
+					"viewport": "desktop",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "48687d5068",
+					"dimension": "responsiveness",
+					"check": "first interaction with textbox \"Type message\" #2 (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "bd7f1093d1",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Modal\", shared with /plugins/persist",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "7d83bbab90",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"x-init\", shared with /plugins/persist",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "1c11bf9bc1",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"x-show\", shared with /plugins/persist",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "bac9d42228",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"$watch\", shared with /plugins/persist",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "74a8ce0d9f",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Alpine.data()\", shared with /plugins/persist",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "b8e1d6407a",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Focus\", shared with /plugins/persist",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "e3f3165322",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Anchor\", shared with /plugins/persist",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "0175a06aeb",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Sort\", shared with /plugins/persist",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "55d9e2f730",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Reactivity\", shared with /plugins/persist",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "046c0ebe70",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Async\", shared with /plugins/persist",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "0625ebfcad",
+					"dimension": "navigation",
+					"check": "in place from /plugins/persist: DOM",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "42290ce610",
+					"dimension": "navigation",
+					"check": "in place from /plugins/persist, then clicking button \"Change Message\": DOM",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "d86a8bb8c5",
+					"dimension": "navigation",
+					"check": "in place from /plugins/persist, then clicking button \"Change Message\": screenshot",
+					"viewport": "desktop",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "a652179987",
+					"dimension": "navigation",
+					"check": "back to /directives/model after going in place from /directives/model to /plugins/persist: DOM",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "43632dec6e",
+					"dimension": "navigation",
+					"check": "back to /directives/model after going in place from /directives/model to /plugins/persist: screenshot",
+					"viewport": "desktop",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "66407bc01f",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"CSP\"",
 					"lastSeen": "2026-11-21T11:00:24.829Z"
 				},
 				{
@@ -531,104 +774,10 @@
 					"lastSeen": "2026-11-21T11:00:24.829Z"
 				},
 				{
-					"id": "c96badead3",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Search\" (after click button \"Search (Ctrl+K)\")",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "d231d4084b",
-					"dimension": "behaviour",
-					"check": "not exercised: searchbox \"Search\" (after click button \"Search (Ctrl+K)\")",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "7fe8205f00",
-					"dimension": "responsiveness",
-					"check": "first interaction with checkbox (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "61edda01df",
-					"dimension": "responsiveness",
-					"check": "first interaction with checkbox #2 (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "a00455f7a8",
-					"dimension": "responsiveness",
-					"check": "first interaction with checkbox #3 (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "6675569bd8",
-					"dimension": "responsiveness",
-					"check": "first interaction with checkbox #4 (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "927e31d1b5",
-					"dimension": "responsiveness",
-					"check": "first interaction with radio (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "a98fe14766",
-					"dimension": "responsiveness",
-					"check": "first interaction with radio #2 (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
 					"id": "658b51ce34",
 					"dimension": "responsiveness",
 					"check": "first interaction with textbox \"Type message...\" (desktop)",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "abce31bd90",
-					"dimension": "responsiveness",
-					"check": "first interaction with textbox \"Type message...\" (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "33b0f8fd7a",
-					"dimension": "responsiveness",
-					"check": "first interaction with textbox \"Type message...\" #2 (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "b7ca097ebd",
-					"dimension": "responsiveness",
-					"check": "first interaction with textbox \"Type message\" (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "d0d86c5c34",
-					"dimension": "responsiveness",
-					"check": "first interaction with textbox \"Type message\" #2 (desktop)",
-					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "bd7f1093d1",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Modal\", shared with /plugins/persist",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "1c11bf9bc1",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"x-show\", shared with /plugins/persist",
 					"lastSeen": "2026-11-21T11:00:24.829Z"
 				},
 				{
@@ -656,55 +805,6 @@
 					"lastSeen": "2026-11-21T11:00:24.829Z"
 				},
 				{
-					"id": "e3f3165322",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Anchor\", shared with /plugins/persist",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "0175a06aeb",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Sort\", shared with /plugins/persist",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "046c0ebe70",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Async\", shared with /plugins/persist",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "0625ebfcad",
-					"dimension": "navigation",
-					"check": "in place from /plugins/persist: DOM",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "42290ce610",
-					"dimension": "navigation",
-					"check": "in place from /plugins/persist, then clicking button \"Change Message\": DOM",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "a652179987",
-					"dimension": "navigation",
-					"check": "back to /directives/model after going in place from /directives/model to /plugins/persist: DOM",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "43632dec6e",
-					"dimension": "navigation",
-					"check": "back to /directives/model after going in place from /directives/model to /plugins/persist: screenshot",
-					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "e14d393c65",
-					"dimension": "behaviour",
-					"check": "not exercised: link \".change\"",
-					"lastSeen": "2026-11-20T12:13:57.110Z"
-				},
-				{
 					"id": "48810f526c",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"x-data\", shared with /plugins/persist",
@@ -723,47 +823,15 @@
 					"lastSeen": "2026-11-20T12:13:57.110Z"
 				},
 				{
-					"id": "b8e1d6407a",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Focus\", shared with /plugins/persist",
-					"lastSeen": "2026-11-20T12:13:57.110Z"
-				},
-				{
-					"id": "55d9e2f730",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Reactivity\", shared with /plugins/persist",
-					"lastSeen": "2026-11-20T12:13:57.110Z"
-				},
-				{
 					"id": "51f8f0f9b7",
 					"dimension": "behaviour",
 					"check": "not exercised: link #4 (after click checkbox)",
 					"lastSeen": "2026-11-19T12:04:53.262Z"
 				},
 				{
-					"id": "48687d5068",
-					"dimension": "responsiveness",
-					"check": "first interaction with textbox \"Type message\" #2 (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-11-19T12:04:53.262Z"
-				},
-				{
-					"id": "7d83bbab90",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"x-init\", shared with /plugins/persist",
-					"lastSeen": "2026-11-19T12:04:53.262Z"
-				},
-				{
 					"id": "d52707cc1a",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"x-transition\", shared with /plugins/persist",
-					"lastSeen": "2026-11-19T12:04:53.262Z"
-				},
-				{
-					"id": "264ae94ca3",
-					"dimension": "navigation",
-					"check": "in place from /plugins/persist, then clicking button \"Change Message\": screenshot",
-					"viewport": "desktop",
 					"lastSeen": "2026-11-19T12:04:53.262Z"
 				},
 				{
@@ -796,23 +864,11 @@
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Alpine.store()\", shared with /plugins/persist",
 					"lastSeen": "2026-11-16T11:15:41.708Z"
-				},
-				{
-					"id": "f1ad527ef0",
-					"dimension": "behaviour",
-					"check": "click link \"x-html\", in the layout shared with /plugins/persist",
-					"lastSeen": "2026-11-15T10:52:15.598Z"
-				},
-				{
-					"id": "9ed068e965",
-					"dimension": "behaviour",
-					"check": "click link \"x-effect\", in the layout shared with /plugins/persist",
-					"lastSeen": "2026-11-15T10:52:15.598Z"
 				}
 			],
 			"weight": {
-				"downloaded": 443986,
-				"executed": 33441
+				"downloaded": 444176,
+				"executed": 33464
 			},
 			"owner": "markless-migrate alpinejs-dev port (thejackshelton)"
 		},
@@ -824,132 +880,236 @@
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "f1bcfd0ee3",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "286045a863",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "80e88e10f3",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "ef1f7535ae",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "2a8e63cc44",
 					"dimension": "rendered",
 					"check": "visible text",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "e8a69509d3",
 					"dimension": "visual",
 					"check": "screenshot",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "e4c07f2e6d",
 					"dimension": "a11y",
 					"check": "focus order (Tab), first difference at stop 2",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "35394b6163",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "557fef4f1e",
 					"dimension": "visual",
 					"check": "page size",
 					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "2898c2ed22",
 					"dimension": "behaviour",
 					"check": "browser storage after the page loads",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "3e91006f06",
 					"dimension": "visual",
 					"check": "screenshot in viewport width 768px",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "25f4cee804",
 					"dimension": "visual",
 					"check": "screenshot in viewport width 769px",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "2ac660cedc",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"x-if\" #2",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "c4089b88db",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Toggling with transitions\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "720a11b81e",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Transition helpers\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "0594afec28",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Transition classes\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "715eba6473",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Binding attributes\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "cde16c5461",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Looping elements\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "261ed60090",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Inner HTML\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "e3123471dd",
+					"dimension": "behaviour",
+					"check": "not exercised: link #4 (after click button \"Expand\")",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "3b8263506e",
+					"dimension": "behaviour",
+					"check": "not exercised: link #5 (after click button \"Expand\" #2)",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "b40951065d",
+					"dimension": "responsiveness",
+					"check": "first interaction with button \"Expand\" (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "38004774b9",
+					"dimension": "responsiveness",
+					"check": "first interaction with button \"Expand\" #2 (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "67cf31b7a7",
+					"dimension": "responsiveness",
+					"check": "first interaction with button \"Expands\" (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "51b70c2061",
+					"dimension": "responsiveness",
+					"check": "first interaction with button \"Expands\" #2 (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "3bc34d4edf",
+					"dimension": "responsiveness",
+					"check": "first interaction with button \"Expands\" #3 (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "51e95a562d",
+					"dimension": "responsiveness",
+					"check": "first interaction with button \"Expands\" #4 (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "f96f15d936",
+					"dimension": "responsiveness",
+					"check": "first interaction with button \"Expands\" #5 (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "433a62bd2c",
+					"dimension": "responsiveness",
+					"check": "first interaction with button \"Toggle Red\" (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "00f831b027",
+					"dimension": "behaviour",
+					"check": "click button \"Search (Ctrl+K)\", in the layout shared with /start-here",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "1144bb550f",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Dropdown\", shared with /start-here",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "e1c1f87be5",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Modal\", shared with /start-here",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "568feb82d8",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"x-effect\", shared with /start-here",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "64a01b003a",
+					"dimension": "navigation",
+					"check": "in place from /start-here: DOM",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "99cb275794",
+					"dimension": "navigation",
+					"check": "in place from /start-here, then clicking button \"Expand\": DOM",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "d32c3dd135",
@@ -961,59 +1121,6 @@
 					"id": "75e2176c9e",
 					"dimension": "behaviour",
 					"check": "not exercised: link #4 (after click button \"Expands\" #4)",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "263badc6ce",
-					"dimension": "responsiveness",
-					"check": "first interaction with button \"Expand\" (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "5461d83ffe",
-					"dimension": "responsiveness",
-					"check": "first interaction with button \"Expands\" (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "51b70c2061",
-					"dimension": "responsiveness",
-					"check": "first interaction with button \"Expands\" #2 (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "ed61416079",
-					"dimension": "responsiveness",
-					"check": "first interaction with button \"Expands\" #3 (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "433a62bd2c",
-					"dimension": "responsiveness",
-					"check": "first interaction with button \"Toggle Red\" (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "00f831b027",
-					"dimension": "behaviour",
-					"check": "click button \"Search (Ctrl+K)\", in the layout shared with /start-here",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "1144bb550f",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Dropdown\", shared with /start-here",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "e1c1f87be5",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Modal\", shared with /start-here",
 					"lastSeen": "2026-11-21T11:00:24.829Z"
 				},
 				{
@@ -1041,25 +1148,6 @@
 					"lastSeen": "2026-11-21T11:00:24.829Z"
 				},
 				{
-					"id": "64a01b003a",
-					"dimension": "navigation",
-					"check": "in place from /start-here: DOM",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "99cb275794",
-					"dimension": "navigation",
-					"check": "in place from /start-here, then clicking button \"Expand\": DOM",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "bdade587ce",
-					"dimension": "responsiveness",
-					"check": "first interaction with button \"Expand\" #2 (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-11-20T12:13:57.110Z"
-				},
-				{
 					"id": "97f95bf526",
 					"dimension": "behaviour",
 					"check": "not exercised: link #2 (after click button \"Expands\")",
@@ -1070,13 +1158,6 @@
 					"dimension": "behaviour",
 					"check": "not exercised: link \"UI Components\", shared with /start-here",
 					"lastSeen": "2026-11-19T12:04:53.262Z"
-				},
-				{
-					"id": "0808159c96",
-					"dimension": "responsiveness",
-					"check": "first interaction with button \"Expands\" #4 (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-11-18T11:40:40.995Z"
 				},
 				{
 					"id": "bad5dcdbff",
@@ -1107,24 +1188,11 @@
 					"dimension": "behaviour",
 					"check": "not exercised: link #4 (after click button \"Toggle Red\")",
 					"lastSeen": "2026-11-16T11:15:41.708Z"
-				},
-				{
-					"id": "37ed0b4be7",
-					"dimension": "responsiveness",
-					"check": "first interaction with button \"Expands\" #5 (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-11-16T11:15:41.708Z"
-				},
-				{
-					"id": "0f182b4224",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"x-init\", shared with /start-here",
-					"lastSeen": "2026-11-15T10:52:15.598Z"
 				}
 			],
 			"weight": {
-				"downloaded": 443986,
-				"executed": 33411
+				"downloaded": 444176,
+				"executed": 33410
 			},
 			"owner": "markless-migrate alpinejs-dev port (thejackshelton)"
 		},
@@ -1136,305 +1204,399 @@
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "7edc2c361c",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "9200df1715",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "9bb83c1700",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "3303b3e780",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "d7eb93dbd3",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "5389ff7d90",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "d09bd10b5e",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "7f562af8b4",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "5651f4c345",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "eb9e12bd56",
 					"dimension": "rendered",
 					"check": "visible text",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "c368e2d8e0",
 					"dimension": "rendered",
 					"check": "visible text",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "e8608cafd5",
 					"dimension": "rendered",
 					"check": "visible text",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "d553814632",
 					"dimension": "visual",
 					"check": "screenshot",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "7c64483f57",
 					"dimension": "a11y",
 					"check": "focus order (Tab), first difference at stop 2",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "321a172c44",
 					"dimension": "assets",
 					"check": "image #4 /images/sponsors/postmark-light.svg",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "017ec7aeee",
 					"dimension": "assets",
 					"check": "image #5 /images/sponsors/postmark-light.svg",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "85f7eb3b08",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "1d954f842f",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "7abba42027",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "c6caa5833c",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "468b244558",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "0f302727b6",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "fe60506c67",
 					"dimension": "rendered",
 					"check": "visible text",
 					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "37327bd1ff",
 					"dimension": "rendered",
 					"check": "visible text",
 					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
-					"id": "31491554b4",
+					"id": "d623502d9b",
 					"dimension": "visual",
 					"check": "page size",
 					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "39dc0ddcf7",
 					"dimension": "assets",
 					"check": "image #4 /images/sponsors/postmark-light.svg",
 					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "407333f555",
 					"dimension": "assets",
 					"check": "image #5 /images/sponsors/postmark-light.svg",
 					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "2ef00ccccc",
 					"dimension": "seo",
 					"check": "meta:og:image",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "dbbd409cee",
 					"dimension": "assets",
 					"check": "image /images/sponsors/postmark-light.svg",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "aeba711d6b",
 					"dimension": "behaviour",
 					"check": "browser storage after the page loads",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "a509b00b86",
 					"dimension": "visual",
 					"check": "screenshot in viewport width 768px",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "3b6148c2d3",
 					"dimension": "visual",
 					"check": "screenshot in viewport width 769px",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
-					"id": "53d228f17e",
+					"id": "6fa7abbe0b",
 					"dimension": "behaviour",
-					"check": "click button \"Increment\" #2, then follow link \"Persist\" (step 3 of 4: use 2, on the page it led to)",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"check": "click button \"Increment\" #2, then follow link \"Persist\" (step 2 of 4: follow link \"Persist\" after use 1)",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "8a6df98427",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Focus\"",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "83436627b8",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Anchor\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "85e083fabb",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Sort\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "ddf2bd364d",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Reactivity\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "fe6ca632ec",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Async\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "a0ee7243d1",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Installation\" #2",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "19d7e914dd",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Via CDN\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "c8b9c96053",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Via NPM\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "4493b69eaf",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"$persist\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "a25ca634b9",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"How does it work?\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "ce541e0aad",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Setting a custom key\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "468ba28872",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Using a custom storage\"",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "f2f4ddd6a6",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Using $persist with Alpine.data\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "5b5128dd36",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Using the Alpine.$persist global\"",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "8647dbd175",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"State\" (after click button \"Increment\")",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "ccecabd44d",
+					"dimension": "behaviour",
+					"check": "not exercised: link #4 (after click button \"Increment\" #2)",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "d311fdcdfc",
+					"dimension": "responsiveness",
+					"check": "navigation from link \"Focus →\" (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "b52af8793b",
+					"dimension": "behaviour",
+					"check": "click button \"Search (Ctrl+K)\", in the layout shared with /directives/model",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "9966e78955",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Dropdown\", shared with /directives/model",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "23dadd8195",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Extending\", shared with /directives/model",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "166c23eae9",
+					"dimension": "navigation",
+					"check": "back to /plugins/persist after going in place from /plugins/persist to /directives/model: DOM",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "04c4d0f48d",
+					"dimension": "navigation",
+					"check": "in place from /directives/model: DOM",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "0ce4da772c",
+					"dimension": "navigation",
+					"check": "in place from /directives/model: screenshot",
+					"viewport": "desktop",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "b691f17432",
+					"dimension": "navigation",
+					"check": "in place from /directives/model: layout during the swap",
+					"viewport": "desktop",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "7e66322245",
+					"dimension": "navigation",
+					"check": "in place from /directives/model, then clicking button \"Increment\": DOM",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "421ea1f6be",
+					"dimension": "navigation",
+					"check": "in place from /directives/model, then clicking button \"Increment\": screenshot",
+					"viewport": "desktop",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "53d228f17e",
+					"dimension": "behaviour",
+					"check": "click button \"Increment\" #2, then follow link \"Persist\" (step 3 of 4: use 2, on the page it led to)",
 					"lastSeen": "2026-11-21T11:00:24.829Z"
 				},
 				{
@@ -1456,79 +1618,10 @@
 					"lastSeen": "2026-11-21T11:00:24.829Z"
 				},
 				{
-					"id": "b52af8793b",
-					"dimension": "behaviour",
-					"check": "click button \"Search (Ctrl+K)\", in the layout shared with /directives/model",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "9966e78955",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Dropdown\", shared with /directives/model",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
 					"id": "d3d7047ed3",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"CSP\", shared with /directives/model",
 					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "23dadd8195",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Extending\", shared with /directives/model",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "166c23eae9",
-					"dimension": "navigation",
-					"check": "back to /plugins/persist after going in place from /plugins/persist to /directives/model: DOM",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "04c4d0f48d",
-					"dimension": "navigation",
-					"check": "in place from /directives/model: DOM",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "0ce4da772c",
-					"dimension": "navigation",
-					"check": "in place from /directives/model: screenshot",
-					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "9da918f1b3",
-					"dimension": "navigation",
-					"check": "in place from /directives/model: layout during the swap",
-					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "7e66322245",
-					"dimension": "navigation",
-					"check": "in place from /directives/model, then clicking button \"Increment\": DOM",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "ec0e2a7322",
-					"dimension": "navigation",
-					"check": "in place from /directives/model, then clicking button \"Increment\": screenshot",
-					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "8a6df98427",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Focus\"",
-					"lastSeen": "2026-11-20T12:13:57.110Z"
-				},
-				{
-					"id": "468ba28872",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Using a custom storage\"",
-					"lastSeen": "2026-11-20T12:13:57.110Z"
 				},
 				{
 					"id": "4177c4055e",
@@ -1578,23 +1671,11 @@
 					"check": "computed style in :disabled on *: link \"Via NPM\" (complementary>list>listitem>link/a)",
 					"viewport": "desktop",
 					"lastSeen": "2026-11-16T11:15:41.708Z"
-				},
-				{
-					"id": "8147c83e34",
-					"dimension": "behaviour",
-					"check": "click link \"x-html\"",
-					"lastSeen": "2026-11-15T10:52:15.598Z"
-				},
-				{
-					"id": "e28a145c9c",
-					"dimension": "behaviour",
-					"check": "click link \"x-effect\"",
-					"lastSeen": "2026-11-15T10:52:15.598Z"
 				}
 			],
 			"weight": {
-				"downloaded": 443986,
-				"executed": 78925
+				"downloaded": 444176,
+				"executed": 79054
 			},
 			"owner": "markless-migrate alpinejs-dev port (thejackshelton)"
 		},
@@ -1606,288 +1687,339 @@
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "5debb7da06",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "1d2c8584ec",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "29a1a05900",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "d0791cf191",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "0415447ff6",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "f5610333ea",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "9be37d358d",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "44bf2e4db7",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "0f265f4828",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "7ed529f332",
 					"dimension": "rendered",
 					"check": "visible text",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "2045fad41c",
 					"dimension": "rendered",
 					"check": "visible text",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "b3ea14e5c2",
 					"dimension": "rendered",
 					"check": "visible text",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "f0547f8a92",
 					"dimension": "visual",
 					"check": "screenshot",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "cf07f38e41",
 					"dimension": "a11y",
 					"check": "focus order (Tab), first difference at stop 2",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "1e6801bb84",
 					"dimension": "assets",
 					"check": "image #2 /images/sponsors/postmark-light.svg",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "9edb4089aa",
 					"dimension": "assets",
 					"check": "image #3 /images/sponsors/postmark-light.svg",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "90874bf47a",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "ea1d2d775d",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "54f667cfaa",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "690c19abe1",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "cfa5e61fe8",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "7c4376c2d0",
 					"dimension": "rendered",
 					"check": "accessibility tree",
 					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "c7b52ce9f7",
 					"dimension": "rendered",
 					"check": "visible text",
 					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "f1636a42f3",
 					"dimension": "rendered",
 					"check": "visible text",
 					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
-					"id": "851c607e7c",
+					"id": "7d65d6d4fd",
 					"dimension": "visual",
 					"check": "page size",
 					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "4095d33f62",
 					"dimension": "assets",
 					"check": "image #2 /images/sponsors/postmark-light.svg",
 					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "f97f52a0e6",
 					"dimension": "assets",
 					"check": "image #3 /images/sponsors/postmark-light.svg",
 					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "fefc2b6f8d",
 					"dimension": "assets",
 					"check": "image /images/sponsors/postmark-light.svg",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "29aceeed1c",
 					"dimension": "behaviour",
 					"check": "browser storage after the page loads",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "9b27b1a13a",
 					"dimension": "visual",
 					"check": "screenshot in viewport width 768px",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "6ad9203384",
 					"dimension": "visual",
 					"check": "screenshot in viewport width 769px",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "f47e74152b",
 					"dimension": "behaviour",
 					"check": "click button \"Search (Ctrl+K)\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "380c6741dc",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Reacting to changes\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "dc75576bfd",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Building a dropdown\" #2",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "8b566d6113",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Listening for a click outside\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "893ee7c392",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Building a search input\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "b1cad8610c",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Multi line formatting\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "c592390757",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Binding to inputs\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "f11d0698c3",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Computed properties using getters\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "d3c3529edf",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Recap\"",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "75beb85a5d",
+					"dimension": "behaviour",
+					"check": "not exercised: link #4 (after type \"Sample text from markless-migrate\" into textbox \"Search...\")",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "d120852a1f",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"Search\" (after click button \"Search (Ctrl+K)\")",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "88d3d42995",
+					"dimension": "behaviour",
+					"check": "not exercised: link #5 (after click button \"Search (Ctrl+K)\")",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "ccea4e361f",
 					"dimension": "behaviour",
 					"check": "not exercised: searchbox \"Search\" (after click button \"Search (Ctrl+K)\")",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "6448df8f17",
+					"dimension": "responsiveness",
+					"check": "first interaction with textbox \"Search...\" (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "ac0b651b4e",
+					"dimension": "responsiveness",
+					"check": "first interaction with button \"Increment\" (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "7541eef264",
+					"dimension": "responsiveness",
+					"check": "first interaction with button \"Toggle\" (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "73e9de3492",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Alpine.store()\", shared with /essentials/templating",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "1bbd3a4c1b",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Looping elements\", shared with /essentials/templating",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
+				},
+				{
+					"id": "1ef8341db2",
+					"dimension": "navigation",
+					"check": "back to /start-here after going in place from /start-here to /essentials/templating: DOM",
+					"lastSeen": "2026-11-22T11:22:54.181Z"
 				},
 				{
 					"id": "d77e3833e8",
@@ -1897,60 +2029,15 @@
 					"lastSeen": "2026-11-21T11:00:24.829Z"
 				},
 				{
-					"id": "4655cf9a7b",
-					"dimension": "responsiveness",
-					"check": "first interaction with textbox \"Search...\" (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "15027d3c23",
-					"dimension": "responsiveness",
-					"check": "first interaction with button \"Increment\" (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "7541eef264",
-					"dimension": "responsiveness",
-					"check": "first interaction with button \"Toggle\" (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "1bbd3a4c1b",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Looping elements\", shared with /essentials/templating",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
-					"id": "1ef8341db2",
-					"dimension": "navigation",
-					"check": "back to /start-here after going in place from /start-here to /essentials/templating: DOM",
-					"lastSeen": "2026-11-21T11:00:24.829Z"
-				},
-				{
 					"id": "ae429d996e",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"$refs\", shared with /essentials/templating",
 					"lastSeen": "2026-11-20T12:13:57.110Z"
 				},
 				{
-					"id": "75beb85a5d",
-					"dimension": "behaviour",
-					"check": "not exercised: link #4 (after type \"Sample text from markless-migrate\" into textbox \"Search...\")",
-					"lastSeen": "2026-11-19T12:04:53.262Z"
-				},
-				{
 					"id": "4029bb5277",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"$store\", shared with /essentials/templating",
-					"lastSeen": "2026-11-19T12:04:53.262Z"
-				},
-				{
-					"id": "b65ff38976",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Alpine.store()\", shared with /essentials/templating",
 					"lastSeen": "2026-11-19T12:04:53.262Z"
 				},
 				{
@@ -1970,17 +2057,11 @@
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Resize\", shared with /essentials/templating",
 					"lastSeen": "2026-11-17T11:50:59.390Z"
-				},
-				{
-					"id": "185ad8bc16",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Modal\"",
-					"lastSeen": "2026-11-15T10:52:15.598Z"
 				}
 			],
 			"weight": {
-				"downloaded": 443986,
-				"executed": 33837
+				"downloaded": 444176,
+				"executed": 33836
 			},
 			"owner": "markless-migrate alpinejs-dev port (thejackshelton)"
 		}
