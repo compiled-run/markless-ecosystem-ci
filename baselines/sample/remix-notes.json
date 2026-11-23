@@ -2,14 +2,14 @@
 	"suite": "remix-notes",
 	"lane": "sample",
 	"markless": {
-		"sha": "1654f9c00619bfe3d35d98b44961b84e9e8bcca6",
+		"sha": "e83b23b442010f1fdbf450e3f4a9af1328780cc8",
 		"version": "0.14.0",
 		"ref": "main"
 	},
 	"migrate": {
 		"sha": "b55adac69098299b8b638de1b79d50454f8c5b68"
 	},
-	"recordedAt": "2026-11-22T11:22:49.899Z",
+	"recordedAt": "2026-11-23T12:36:31.723Z",
 	"steps": {
 		"install": "pass",
 		"build": "pass",
@@ -23,7 +23,7 @@
 			"failures": [],
 			"weight": {
 				"downloaded": 94701,
-				"executed": 12504
+				"executed": 12611
 			}
 		},
 		"/ as signed-in": {
@@ -31,7 +31,7 @@
 			"failures": [],
 			"weight": {
 				"downloaded": 93747,
-				"executed": 12702
+				"executed": 12601
 			}
 		},
 		"/notes": {
@@ -39,7 +39,7 @@
 			"failures": [],
 			"weight": {
 				"downloaded": 82485,
-				"executed": 12808
+				"executed": 44912
 			}
 		},
 		"/notes as signed-in": {
@@ -49,7 +49,7 @@
 					"id": "9269030c02",
 					"dimension": "a11y",
 					"check": "press Enter on button \"Logout\"",
-					"lastSeen": "2026-11-22T11:22:49.899Z"
+					"lastSeen": "2026-11-23T12:36:31.723Z"
 				}
 			],
 			"weight": {
@@ -63,7 +63,7 @@
 			"failures": [],
 			"weight": {
 				"downloaded": 82485,
-				"executed": 44912
+				"executed": 45142
 			}
 		},
 		"/notes/cmvcee9oe0002ag8afyyiylz8 as signed-in": {
@@ -73,13 +73,13 @@
 					"id": "7f6b17fe56",
 					"dimension": "a11y",
 					"check": "press Enter on button \"Logout\"",
-					"lastSeen": "2026-11-22T11:22:49.899Z"
+					"lastSeen": "2026-11-23T12:36:31.723Z"
 				},
 				{
 					"id": "de1a7cd72c",
 					"dimension": "a11y",
 					"check": "press Enter on button \"Delete\"",
-					"lastSeen": "2026-11-22T11:22:49.899Z"
+					"lastSeen": "2026-11-23T12:36:31.723Z"
 				}
 			],
 			"weight": {

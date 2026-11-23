@@ -2,14 +2,14 @@
 	"suite": "next-dashboard",
 	"lane": "full",
 	"markless": {
-		"sha": "1654f9c00619bfe3d35d98b44961b84e9e8bcca6",
+		"sha": "e83b23b442010f1fdbf450e3f4a9af1328780cc8",
 		"version": "0.14.0",
 		"ref": "main"
 	},
 	"migrate": {
 		"sha": "b55adac69098299b8b638de1b79d50454f8c5b68"
 	},
-	"recordedAt": "2026-11-22T11:22:48.884Z",
+	"recordedAt": "2026-11-23T12:37:31.957Z",
 	"steps": {
 		"install": "pass",
 		"build": "fail",
