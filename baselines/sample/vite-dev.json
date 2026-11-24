@@ -2,14 +2,14 @@
 	"suite": "vite-dev",
 	"lane": "sample",
 	"markless": {
-		"sha": "e83b23b442010f1fdbf450e3f4a9af1328780cc8",
+		"sha": "6cc1ce09e085e751f9188ac248c22ba8f4be6038",
 		"version": "0.14.0",
 		"ref": "main"
 	},
 	"migrate": {
 		"sha": "b55adac69098299b8b638de1b79d50454f8c5b68"
 	},
-	"recordedAt": "2026-11-23T12:36:03.851Z",
+	"recordedAt": "2026-11-24T13:42:13.076Z",
 	"steps": {
 		"install": "pass",
 		"build": "pass",
@@ -26,63 +26,229 @@
 					"dimension": "css",
 					"check": "computed style of generic (body/div)",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "a498098a35",
 					"dimension": "css",
 					"check": "computed style of generic (body/div)",
 					"viewport": "mobile",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
-					"id": "bcd0384d68",
+					"id": "a5690bfa49",
+					"dimension": "visual",
+					"check": "screenshot in viewport width 767px",
+					"viewport": "desktop",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "50ca3b42db",
 					"dimension": "visual",
 					"check": "screenshot in viewport width 768px",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "15ffb48803",
 					"dimension": "css",
 					"check": "computed style in viewport width 639px: generic (body/div)",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "00eab69d11",
 					"dimension": "css",
 					"check": "computed style in viewport width 639px: generic (body/div)",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "c93bbefb23",
 					"dimension": "visual",
 					"check": "screenshot in viewport width 639px",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "1294dd3fe7",
 					"dimension": "visual",
 					"check": "screenshot in viewport width 640px",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
-					"id": "9c14fc7969",
+					"id": "15f1916a23",
+					"dimension": "visual",
+					"check": "screenshot in viewport width 1023px",
+					"viewport": "desktop",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "7e65c25121",
+					"dimension": "css",
+					"check": "computed style in viewport width 1024px: canvas (body/canvas)",
+					"viewport": "desktop",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "2d12f87d74",
+					"dimension": "css",
+					"check": "computed style in viewport width 1024px: canvas (body/canvas)",
+					"viewport": "desktop",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "4c7a9321b3",
+					"dimension": "visual",
+					"check": "screenshot in viewport width 1024px",
+					"viewport": "desktop",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "b67d080ab9",
+					"dimension": "css",
+					"check": "computed style in viewport width 1439px: generic (body/div)",
+					"viewport": "desktop",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "5011b7d136",
+					"dimension": "css",
+					"check": "computed style in viewport width 1439px: radio \"npm\" (radio/input)",
+					"viewport": "desktop",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "b8815aae7a",
+					"dimension": "css",
+					"check": "computed style in viewport width 1439px: radio \"Yarn\" (radio/input)",
+					"viewport": "desktop",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "84a3aec49e",
+					"dimension": "css",
+					"check": "computed style in viewport width 1439px: radio \"pnpm\" (radio/input)",
+					"viewport": "desktop",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "501bb1f157",
+					"dimension": "css",
+					"check": "computed style in viewport width 1439px: radio \"Bun\" (radio/input)",
+					"viewport": "desktop",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "ddb23a6e58",
+					"dimension": "css",
+					"check": "computed style in viewport width 1439px",
+					"viewport": "desktop",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "e7fc805bca",
 					"dimension": "visual",
 					"check": "screenshot in viewport width 1439px",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
-					"id": "b8d28441f3",
+					"id": "ce5f605201",
 					"dimension": "visual",
 					"check": "screenshot in viewport width 1440px",
 					"viewport": "desktop",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "e45d195c5c",
+					"dimension": "css",
+					"check": "computed style in viewport width 959px: generic (body/div)",
+					"viewport": "desktop",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "f6ad5c7f42",
+					"dimension": "css",
+					"check": "computed style in viewport width 959px: generic (body/div)",
+					"viewport": "desktop",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "bcbf35695c",
+					"dimension": "visual",
+					"check": "screenshot in viewport width 959px",
+					"viewport": "desktop",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "47ff668d5b",
+					"dimension": "css",
+					"check": "computed style in viewport width 960px: generic (body/div)",
+					"viewport": "desktop",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "088f050450",
+					"dimension": "css",
+					"check": "computed style in viewport width 960px: generic (body/div)",
+					"viewport": "desktop",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "cd3dac6994",
+					"dimension": "visual",
+					"check": "screenshot in viewport width 960px",
+					"viewport": "desktop",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "6b69e881fb",
+					"dimension": "visual",
+					"check": "screenshot in :hover on .link[data-v-fa76074b]",
+					"viewport": "desktop",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "1f2b16f339",
+					"dimension": "behaviour",
+					"check": "click link \"Team\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "c9f7d2e98b",
+					"dimension": "behaviour",
+					"check": "click radio \"npm\", then click button (step 1)",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "c95fb0925f",
+					"dimension": "motion",
+					"check": "click button \"Close banner\": extra motion of svg (link/svg)",
+					"viewport": "desktop",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "fae549b837",
+					"dimension": "motion",
+					"check": "click button \"Close banner\": extra motion of button \"Close banner\" (button/button)",
+					"viewport": "desktop",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "4e7bfa17ef",
+					"dimension": "responsiveness",
+					"check": "first interaction with button \"Search\" (desktop)",
+					"viewport": "desktop",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "1d08e55a51",
+					"dimension": "responsiveness",
+					"check": "first interaction with button \"Search\" (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "348f5b5d93",
@@ -100,34 +266,6 @@
 					"id": "8e270f5b0b",
 					"dimension": "behaviour",
 					"check": "not exercised: radio \"Deno\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "c95fb0925f",
-					"dimension": "motion",
-					"check": "click button \"Close banner\": extra motion of svg (link/svg)",
-					"viewport": "desktop",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "fae549b837",
-					"dimension": "motion",
-					"check": "click button \"Close banner\": extra motion of button \"Close banner\" (button/button)",
-					"viewport": "desktop",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "7fa1f7b073",
-					"dimension": "responsiveness",
-					"check": "first interaction with button \"Search\" (desktop)",
-					"viewport": "desktop",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "1d08e55a51",
-					"dimension": "responsiveness",
-					"check": "first interaction with button \"Search\" (4x CPU, mobile)",
-					"viewport": "mobile",
 					"lastSeen": "2026-11-23T12:36:03.851Z"
 				},
 				{
@@ -192,13 +330,6 @@
 					"lastSeen": "2026-11-22T11:22:49.115Z"
 				},
 				{
-					"id": "3bb6c227c0",
-					"dimension": "visual",
-					"check": "screenshot in viewport width 767px",
-					"viewport": "desktop",
-					"lastSeen": "2026-11-22T11:22:49.115Z"
-				},
-				{
 					"id": "1de3e8757d",
 					"dimension": "css",
 					"check": "computed style in viewport width 768px: canvas (body/canvas)",
@@ -248,20 +379,6 @@
 					"lastSeen": "2026-11-22T11:22:49.115Z"
 				},
 				{
-					"id": "db2bc7dd95",
-					"dimension": "visual",
-					"check": "screenshot in viewport width 1023px",
-					"viewport": "desktop",
-					"lastSeen": "2026-11-22T11:22:49.115Z"
-				},
-				{
-					"id": "422509fc66",
-					"dimension": "css",
-					"check": "computed style in viewport width 1024px: canvas (body/canvas)",
-					"viewport": "desktop",
-					"lastSeen": "2026-11-22T11:22:49.115Z"
-				},
-				{
 					"id": "aaab685ecb",
 					"dimension": "css",
 					"check": "computed style in viewport width 1439px: generic (body/section)",
@@ -276,44 +393,9 @@
 					"lastSeen": "2026-11-22T11:22:49.115Z"
 				},
 				{
-					"id": "e45d195c5c",
-					"dimension": "css",
-					"check": "computed style in viewport width 959px: generic (body/div)",
-					"viewport": "desktop",
-					"lastSeen": "2026-11-22T11:22:49.115Z"
-				},
-				{
-					"id": "f6ad5c7f42",
-					"dimension": "css",
-					"check": "computed style in viewport width 959px: generic (body/div)",
-					"viewport": "desktop",
-					"lastSeen": "2026-11-22T11:22:49.115Z"
-				},
-				{
-					"id": "5a51322498",
-					"dimension": "visual",
-					"check": "screenshot in viewport width 959px",
-					"viewport": "desktop",
-					"lastSeen": "2026-11-22T11:22:49.115Z"
-				},
-				{
-					"id": "ad440a9542",
-					"dimension": "visual",
-					"check": "screenshot in viewport width 960px",
-					"viewport": "desktop",
-					"lastSeen": "2026-11-22T11:22:49.115Z"
-				},
-				{
 					"id": "e06b2d76d7",
 					"dimension": "css",
 					"check": "computed style in :hover on .link[data-v-fa76074b]: canvas (body/canvas)",
-					"viewport": "desktop",
-					"lastSeen": "2026-11-22T11:22:49.115Z"
-				},
-				{
-					"id": "c1102ae043",
-					"dimension": "visual",
-					"check": "screenshot in :hover on .link[data-v-fa76074b]",
 					"viewport": "desktop",
 					"lastSeen": "2026-11-22T11:22:49.115Z"
 				},
@@ -425,20 +507,6 @@
 					"lastSeen": "2026-11-20T12:19:18.550Z"
 				},
 				{
-					"id": "47ff668d5b",
-					"dimension": "css",
-					"check": "computed style in viewport width 960px: generic (body/div)",
-					"viewport": "desktop",
-					"lastSeen": "2026-11-19T11:51:16.493Z"
-				},
-				{
-					"id": "088f050450",
-					"dimension": "css",
-					"check": "computed style in viewport width 960px: generic (body/div)",
-					"viewport": "desktop",
-					"lastSeen": "2026-11-19T11:51:16.493Z"
-				},
-				{
 					"id": "8ec553d14c",
 					"dimension": "behaviour",
 					"check": "click radio \"pnpm\"",
@@ -449,24 +517,11 @@
 					"dimension": "behaviour",
 					"check": "click link \"Guide\" #2",
 					"lastSeen": "2026-11-18T11:40:57.126Z"
-				},
-				{
-					"id": "d4acc8619f",
-					"dimension": "a11y",
-					"check": "motion under prefers-reduced-motion: reduce",
-					"viewport": "desktop",
-					"lastSeen": "2026-11-17T11:50:46.677Z"
-				},
-				{
-					"id": "70b9fe375f",
-					"dimension": "behaviour",
-					"check": "not exercised: radio \"pnpm\"",
-					"lastSeen": "2026-11-17T11:50:46.677Z"
 				}
 			],
 			"weight": {
 				"downloaded": 109867,
-				"executed": 118508
+				"executed": 118479
 			},
 			"owner": "markless-migrate vite-dev port (thejackshelton)"
 		},
@@ -474,10 +529,186 @@
 			"ok": false,
 			"failures": [
 				{
-					"id": "6fd06d66bd",
+					"id": "b6f72bb787",
 					"dimension": "behaviour",
 					"check": "click button \"Copy code\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "e38deefd65",
+					"dimension": "behaviour",
+					"check": "click button \"Copy code\" #3",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "262480d811",
+					"dimension": "behaviour",
+					"check": "click button \"Copy code\" #5",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "819458438f",
+					"dimension": "behaviour",
+					"check": "click button \"Copy code\" #6",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "aaec2bf302",
+					"dimension": "behaviour",
+					"check": "click button \"Copy code\" #7",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "4473690361",
+					"dimension": "behaviour",
+					"check": "click button \"Copy code\" #8",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "f65c0940f8",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.ssrManifest\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "cfaa724a5a",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.ssr\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "18dfadd6e6",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.emitAssets\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "e813c87b8e",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.ssrEmitAssets\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "a2e6784bb8",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.minify\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "28a6a640e9",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.terserOptions\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "848284f636",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.write\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "5d94010b0b",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.emptyOutDir\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "ce15bdca03",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.copyPublicDir\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "569282377b",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.reportCompressedSize\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "a8e9727bce",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.chunkSizeWarningLimit\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "e97282e9c2",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"build.watch\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "e4897cb390",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Previous page Server Options\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "cc07d1695b",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Next page Preview Options\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "60826376e8",
+					"dimension": "behaviour",
+					"check": "not exercised: switch \"Switch to dark theme\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "bcf9d9274a",
+					"dimension": "behaviour",
+					"check": "not exercised: button (after click button \"Copy code\")",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "ac58fff195",
+					"dimension": "behaviour",
+					"check": "not exercised: link (after click button \"Copy code\")",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "d1d98f97e5",
+					"dimension": "behaviour",
+					"check": "not exercised: link #2 (after click button \"Copy code\")",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "7b68b0426b",
+					"dimension": "responsiveness",
+					"check": "first interaction with button \"Copy code\" #2 (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "29dbf2ec74",
+					"dimension": "responsiveness",
+					"check": "first interaction with button \"Copy code\" #3 (4x CPU, mobile)",
+					"viewport": "mobile",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "da9d2a3498",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Resources\", shared with /",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "040fc2e977",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"v8.3.4\", shared with /",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "d9a1be381d",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Change language\", shared with /",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "6fb14ce0ce",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Plugins\", shared with /",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "b2bf617a77",
@@ -486,117 +717,9 @@
 					"lastSeen": "2026-11-23T12:36:03.851Z"
 				},
 				{
-					"id": "cfc3cee628",
-					"dimension": "behaviour",
-					"check": "click button \"Copy code\" #3",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "629958a832",
-					"dimension": "behaviour",
-					"check": "click button \"Copy code\" #5",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "2d4c7b91bf",
-					"dimension": "behaviour",
-					"check": "click button \"Copy code\" #6",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
 					"id": "ee9dd3140a",
 					"dimension": "behaviour",
 					"check": "click link \"build.cssTarget\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "f65c0940f8",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"build.ssrManifest\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "cfaa724a5a",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"build.ssr\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "18dfadd6e6",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"build.emitAssets\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "e813c87b8e",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"build.ssrEmitAssets\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "a2e6784bb8",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"build.minify\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "28a6a640e9",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"build.terserOptions\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "848284f636",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"build.write\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "5d94010b0b",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"build.emptyOutDir\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "ce15bdca03",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"build.copyPublicDir\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "569282377b",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"build.reportCompressedSize\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "a8e9727bce",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"build.chunkSizeWarningLimit\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "e97282e9c2",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"build.watch\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "e4897cb390",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Previous page Server Options\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "cc07d1695b",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Next page Preview Options\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "60826376e8",
-					"dimension": "behaviour",
-					"check": "not exercised: switch \"Switch to dark theme\"",
 					"lastSeen": "2026-11-23T12:36:03.851Z"
 				},
 				{
@@ -609,13 +732,6 @@
 					"id": "e29311af10",
 					"dimension": "responsiveness",
 					"check": "first interaction with button \"Copy code\" (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "083105608b",
-					"dimension": "responsiveness",
-					"check": "first interaction with button \"Copy code\" #2 (4x CPU, mobile)",
 					"viewport": "mobile",
 					"lastSeen": "2026-11-23T12:36:03.851Z"
 				},
@@ -674,27 +790,9 @@
 					"lastSeen": "2026-11-22T11:22:49.115Z"
 				},
 				{
-					"id": "da9d2a3498",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Resources\", shared with /",
-					"lastSeen": "2026-11-22T11:22:49.115Z"
-				},
-				{
 					"id": "88f81da675",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"Search\", shared with /",
-					"lastSeen": "2026-11-22T11:22:49.115Z"
-				},
-				{
-					"id": "d9a1be381d",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Change language\", shared with /",
-					"lastSeen": "2026-11-22T11:22:49.115Z"
-				},
-				{
-					"id": "b13e0e3a9f",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Plugins\", shared with /",
 					"lastSeen": "2026-11-22T11:22:49.115Z"
 				},
 				{
@@ -707,24 +805,6 @@
 					"id": "818d29f2a8",
 					"dimension": "behaviour",
 					"check": "click link \"Shared Options\"",
-					"lastSeen": "2026-11-21T11:14:29.359Z"
-				},
-				{
-					"id": "bcf9d9274a",
-					"dimension": "behaviour",
-					"check": "not exercised: button (after click button \"Copy code\")",
-					"lastSeen": "2026-11-21T11:14:29.359Z"
-				},
-				{
-					"id": "ac58fff195",
-					"dimension": "behaviour",
-					"check": "not exercised: link (after click button \"Copy code\")",
-					"lastSeen": "2026-11-21T11:14:29.359Z"
-				},
-				{
-					"id": "d1d98f97e5",
-					"dimension": "behaviour",
-					"check": "not exercised: link #2 (after click button \"Copy code\")",
 					"lastSeen": "2026-11-21T11:14:29.359Z"
 				},
 				{
@@ -803,22 +883,10 @@
 					"lastSeen": "2026-11-19T11:51:16.493Z"
 				},
 				{
-					"id": "7be5a82a85",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"v8.3.4\", shared with /",
-					"lastSeen": "2026-11-19T11:51:16.493Z"
-				},
-				{
 					"id": "820eb8b5b4",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"discord\", shared with /",
 					"lastSeen": "2026-11-19T11:51:16.493Z"
-				},
-				{
-					"id": "66a281604c",
-					"dimension": "behaviour",
-					"check": "click button \"Copy code\" #8",
-					"lastSeen": "2026-11-18T11:40:57.126Z"
 				},
 				{
 					"id": "7383a9ab0f",
@@ -849,37 +917,11 @@
 					"dimension": "behaviour",
 					"check": "not exercised: button (after click button \"Config\")",
 					"lastSeen": "2026-11-18T11:40:57.126Z"
-				},
-				{
-					"id": "53e362d4f2",
-					"dimension": "behaviour",
-					"check": "not exercised: link #3 (after click button \"Copy code\")",
-					"lastSeen": "2026-11-17T11:50:46.677Z"
-				},
-				{
-					"id": "a27e665d3a",
-					"dimension": "responsiveness",
-					"check": "first interaction with button \"Copy code\" #5 (desktop)",
-					"viewport": "desktop",
-					"lastSeen": "2026-11-17T11:50:46.677Z"
-				},
-				{
-					"id": "23d58a5b62",
-					"dimension": "responsiveness",
-					"check": "first interaction with button \"Copy code\" #6 (4x CPU, mobile)",
-					"viewport": "mobile",
-					"lastSeen": "2026-11-17T11:50:46.677Z"
-				},
-				{
-					"id": "c04f2bd260",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"mastodon\", shared with /",
-					"lastSeen": "2026-11-17T11:50:46.677Z"
 				}
 			],
 			"weight": {
 				"downloaded": 79135,
-				"executed": 21553
+				"executed": 21833
 			},
 			"owner": "markless-migrate vite-dev port (thejackshelton)"
 		},
@@ -887,327 +929,363 @@
 			"ok": false,
 			"failures": [
 				{
+					"id": "345710d0e6",
+					"dimension": "behaviour",
+					"check": "click button \"Copy code\" #6",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
 					"id": "bac47c9b8c",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"Guide\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "57f2d5c4b8",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"APIs\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "4d3af90430",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"Environment API\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "1e12121fbb",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Getting Started\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "b66bdd66ab",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Philosophy\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "1c72416ba5",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Why Vite\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "f44f0e6e8d",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Features\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "c69dcc3541",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"CLI\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "70031bd1e0",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Using Plugins\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "2f1ac32a4c",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Dependency Pre-Bundling\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "1cad3c5a67",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Static Asset Handling\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "3e5bae610f",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Building for Production\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "78d4422958",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Deploying a Static Site\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "2533438eaa",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Env Variables and Modes\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "665da031af",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Server-Side Rendering (SSR)\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "b596cebe58",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Backend Integration\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "45bcaccb78",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Troubleshooting\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "c5173fd1c5",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Performance\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "d2c0a3f554",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Migration from v7\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "a8982533d7",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Breaking Changes\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "ec2374c621",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Plugin API\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "dbad53753a",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"HMR API\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "41465efb59",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"JavaScript API\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "001b172143",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Config Reference\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "3e856d9083",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Introduction\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "502816a6b8",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Environment Instances\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "2c2c26b6f5",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Plugins\" #2",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "75e747bbba",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Frameworks\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "4f6a7613f1",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Runtimes\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "46a9450cba",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Overview\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
-					"id": "2d4c16a8eb",
+					"id": "2dcdda9e9f",
 					"dimension": "behaviour",
-					"check": "not exercised: link \"Browser Support\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"check": "not exercised: link",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "d07bff0cfc",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Trying Vite Online\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "2114501f34",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Scaffolding Your First Vite Project\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "088a1b6235",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Community Templates\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "c4c11cf472",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Manual Installation\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "3277faa0b3",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"index.html and Project Root\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "348dc72eb7",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Command Line Interface\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "ceaf15c271",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Using Unreleased Commits\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "66b01b5409",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Community\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "317eeb2270",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Next page Philosophy\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "e0289c61a0",
 					"dimension": "behaviour",
 					"check": "not exercised: switch \"Switch to dark theme\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "c0f8dfafea",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Browser Support\" (after click radio \"npm\")",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "a04d7d1f2f",
+					"dimension": "behaviour",
+					"check": "not exercised: radio (after click radio \"pnpm\" #3)",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "d699dd375b",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"Copy code\" #9 (after click summary \"Using create vite with command line options\")",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "e24fb50597",
 					"dimension": "behaviour",
 					"check": "not exercised: radio \"Deno\" #4 (after click summary \"Using create vite with command line options\")",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "84e2bc570d",
 					"dimension": "behaviour",
 					"check": "not exercised: radio \"npm\" #5 (after click summary \"Using create vite with command line options\")",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "336d435b73",
 					"dimension": "behaviour",
 					"check": "not exercised: radio \"Yarn\" #5 (after click summary \"Using create vite with command line options\")",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "c4ee341c56",
 					"dimension": "behaviour",
 					"check": "not exercised: radio \"pnpm\" #5 (after click summary \"Using create vite with command line options\")",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "144170e1bd",
 					"dimension": "behaviour",
 					"check": "not exercised: radio \"Bun\" #5 (after click summary \"Using create vite with command line options\")",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "1b1396ce44",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Team\" (after click button \"Resources\")",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "e482b77ff1",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Blog\" (after click button \"Resources\")",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "7f5da5a285",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Acknowledgements\" (after click button \"Resources\")",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "dfa27a4dd6",
 					"dimension": "behaviour",
 					"check": "not exercised: link \"Releases\" #2 (after click button \"Resources\")",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "6eb0f51d68",
 					"dimension": "behaviour",
 					"check": "not exercised: button (after click button \"Search\")",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "47d4bb5c57",
 					"dimension": "behaviour",
 					"check": "not exercised: button \"Display detailed list\" (after click button \"Search\")",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
+					"lastSeen": "2026-11-24T13:42:13.076Z"
 				},
 				{
 					"id": "01cb295544",
 					"dimension": "behaviour",
 					"check": "not exercised: searchbox (after click button \"Search\")",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "0653920a91",
+					"dimension": "a11y",
+					"check": "press Enter on link \"Config\", in the layout shared with /live",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "1817ac954b",
+					"dimension": "a11y",
+					"check": "press Enter on link \"Plugins\", in the layout shared with /live",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "2d4c16a8eb",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Browser Support\"",
 					"lastSeen": "2026-11-23T12:36:03.851Z"
 				},
 				{
@@ -1245,18 +1323,6 @@
 					"dimension": "behaviour",
 					"check": "not exercised: radio \"Deno\" #3",
 					"lastSeen": "2026-11-20T12:19:18.550Z"
-				},
-				{
-					"id": "345710d0e6",
-					"dimension": "behaviour",
-					"check": "click button \"Copy code\" #6",
-					"lastSeen": "2026-11-19T11:51:16.493Z"
-				},
-				{
-					"id": "2dcdda9e9f",
-					"dimension": "behaviour",
-					"check": "not exercised: link",
-					"lastSeen": "2026-11-19T11:51:16.493Z"
 				},
 				{
 					"id": "f6ba479230",
@@ -1305,6 +1371,678 @@
 			"ok": false,
 			"failures": [
 				{
+					"id": "298976cf76",
+					"dimension": "behaviour",
+					"check": "click button \"Copy code\" #15",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "98c16f7001",
+					"dimension": "behaviour",
+					"check": "click button \"Copy code\" #17",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "55842237e4",
+					"dimension": "behaviour",
+					"check": "click button \"Copy code\" #18",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "63a81e030a",
+					"dimension": "behaviour",
+					"check": "click button \"Copy code\" #19",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "d81c7fb515",
+					"dimension": "behaviour",
+					"check": "click button \"Copy code\" #21",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "9d11fc5f94",
+					"dimension": "behaviour",
+					"check": "click button \"Copy code\" #24",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "463085da88",
+					"dimension": "behaviour",
+					"check": "click button \"Copy code\" #34",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "d237fcec7a",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Close banner\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "2b30bff607",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Resources\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "488605d0b1",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"v8.3.4\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "1410fd896c",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Search\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "4a0d860329",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Change language\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "3a682560df",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Introduction\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "598ab625d8",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Guide\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "c3ebf294a9",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"APIs\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "ea7501761e",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Environment API\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "2931817d7d",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code\" #41",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "ed7f3d0369",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code\" #42",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "4b45f7bfc3",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code\" #43",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "b67bf88a97",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code\" #44",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "cf2b516889",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code\" #45",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "3fdf34c530",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code\" #46",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "22d71e2926",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code\" #47",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "a5323c8c28",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code\" #48",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "f4e924f48b",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code\" #49",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "495ec0a580",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code\" #50",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "12e0969ba1",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code\" #51",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "0ff2e8c54c",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code\" #52",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "9b6bec73de",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code\" #53",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "afe5c2771a",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code\" #54",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "4754a787ec",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code\" #55",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "c4d895d23a",
+					"dimension": "behaviour",
+					"check": "not exercised: button \"Copy code\" #56",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "6185426c57",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Skip to content\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "6f8bcf01ec",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Vite\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "b329cdfc43",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Guide\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "cb356a4195",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Config\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "37e0f024ef",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Plugins\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "83111eeded",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Getting Started\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "a2731e707f",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Philosophy\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "2305e4f67e",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Why Vite\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "b93cd56f5e",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Features\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "aae84a94dc",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"CLI\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "b039f11824",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Using Plugins\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "3457586614",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Dependency Pre-Bundling\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "6f152bb1bd",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Static Asset Handling\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "0b42da5a17",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Building for Production\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "6f6c17358d",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Deploying a Static Site\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "e468009aec",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Env Variables and Modes\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "74dfd16f10",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Server-Side Rendering (SSR)\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "197aa34eee",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Backend Integration\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "acf5029afd",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Troubleshooting\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "a68037f528",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Performance\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "92c069d8e2",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Migration from v7\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "df41d7fdf3",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Breaking Changes\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "bcb42c3aba",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Plugin API\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "098d05e078",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"HMR API\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "41d2221699",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"JavaScript API\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "f8bf13cad7",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Config Reference\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "5a2f7f682b",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Introduction\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "92797f8048",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Environment Instances\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "fca0f36d71",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Plugins\" #2",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "66ccffc07b",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Frameworks\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "c41ec0c3c8",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Runtimes\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "b43e455f1f",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"npm Dependency Resolving and Pre-Bundling\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "8b140f9e27",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Hot Module Replacement\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "160259b46a",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"TypeScript\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "6476e64616",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Transpile Only\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "88017ffeb0",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"TypeScript Compiler Options\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "ac88c47696",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Client Types\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "bb0f557624",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"HTML\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "cc7182b618",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Frameworks\" #2",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "c5e64c8d9f",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"JSX\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "5102ba7bf3",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"CSS\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "d1cddc1a3c",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"@import Inlining and Rebasing\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "adcd750837",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"PostCSS\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "73ef7958fa",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"CSS Modules\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "ded89ccba8",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"CSS Pre-processors\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "4a964a31c2",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Disabling CSS injection into the page\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "9b9cdfc4d7",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Lightning CSS\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "3d174945d0",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Static Assets\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "2328408f26",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"JSON\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "4f88c9cf8b",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Glob Import\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "b1680ad23b",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Multiple Patterns\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "9609502aed",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Negative Patterns\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "27cd0e53bf",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Glob Import Caveats\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "cda9b04f9c",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Dynamic Import\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "d2d2def160",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"WebAssembly\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "7628569cff",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"ESM Integration\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "e3c2175833",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Manual Initialization\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "ffbd9c1b4d",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Accessing the WebAssembly Module\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "8b93e0aec2",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Web Workers\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "abc4997134",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Import with Constructors\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "c4a71b3146",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Import with Query Suffixes\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "a4ae7fbfcd",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Content Security Policy (CSP)\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "4c183c0aa2",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"'nonce-{RANDOM}'\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "b22fc063e8",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"data:\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "29c39e0737",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"License\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "3412804558",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Build Optimizations\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "436c00d172",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"CSS Code Splitting\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "1f69e94ec2",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Preload Directives Generation\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "7f0dedaeb1",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Async Chunk Loading Optimization\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "0c48b6558d",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Chunk Import Map Optimization\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "4280627631",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “Features”\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "b38fecfaf3",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Permalink to “npm Dependency Resolving and Pre-Bundling”\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "e8b0361f4c",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Pre-bundle\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "d74691f633",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"here\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "4f2a6e316c",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Previous page Why Vite\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "a549d5f995",
+					"dimension": "behaviour",
+					"check": "not exercised: link \"Next page CLI\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "4a88fc353e",
+					"dimension": "behaviour",
+					"check": "not exercised: switch \"Switch to dark theme\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "7dccb1ae63",
+					"dimension": "behaviour",
+					"check": "not exercised: summary \"Using triple-slash directive\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "632255714b",
+					"dimension": "behaviour",
+					"check": "not exercised: button (after click button \"Copy code\")",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "d58dc80a83",
+					"dimension": "behaviour",
+					"check": "not exercised: link (after click button \"Copy code\" #7)",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
 					"id": "a426dc8359",
 					"dimension": "behaviour",
 					"check": "click button \"Copy code\" #12",
@@ -1323,642 +2061,6 @@
 					"lastSeen": "2026-11-23T12:36:03.851Z"
 				},
 				{
-					"id": "69f3b459bf",
-					"dimension": "behaviour",
-					"check": "click button \"Copy code\" #17",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "39684accd8",
-					"dimension": "behaviour",
-					"check": "click button \"Copy code\" #18",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "b16f0019ea",
-					"dimension": "behaviour",
-					"check": "click button \"Copy code\" #19",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "d237fcec7a",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Close banner\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "2b30bff607",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Resources\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "488605d0b1",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"v8.3.4\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "1410fd896c",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Search\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "4a0d860329",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Change language\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "3a682560df",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Introduction\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "598ab625d8",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Guide\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "c3ebf294a9",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"APIs\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "ea7501761e",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Environment API\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "2931817d7d",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Copy code\" #41",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "ed7f3d0369",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Copy code\" #42",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "4b45f7bfc3",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Copy code\" #43",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "b67bf88a97",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Copy code\" #44",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "cf2b516889",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Copy code\" #45",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "3fdf34c530",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Copy code\" #46",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "22d71e2926",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Copy code\" #47",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "a5323c8c28",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Copy code\" #48",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "f4e924f48b",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Copy code\" #49",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "495ec0a580",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Copy code\" #50",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "12e0969ba1",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Copy code\" #51",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "0ff2e8c54c",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Copy code\" #52",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "9b6bec73de",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Copy code\" #53",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "afe5c2771a",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Copy code\" #54",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "4754a787ec",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Copy code\" #55",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "c4d895d23a",
-					"dimension": "behaviour",
-					"check": "not exercised: button \"Copy code\" #56",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "6185426c57",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Skip to content\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "6f8bcf01ec",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Vite\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "b329cdfc43",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Guide\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "cb356a4195",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Config\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "37e0f024ef",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Plugins\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "83111eeded",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Getting Started\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "a2731e707f",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Philosophy\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "2305e4f67e",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Why Vite\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "b93cd56f5e",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Features\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "aae84a94dc",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"CLI\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "b039f11824",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Using Plugins\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "3457586614",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Dependency Pre-Bundling\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "6f152bb1bd",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Static Asset Handling\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "0b42da5a17",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Building for Production\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "6f6c17358d",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Deploying a Static Site\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "e468009aec",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Env Variables and Modes\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "74dfd16f10",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Server-Side Rendering (SSR)\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "197aa34eee",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Backend Integration\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "acf5029afd",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Troubleshooting\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "a68037f528",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Performance\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "92c069d8e2",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Migration from v7\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "df41d7fdf3",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Breaking Changes\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "bcb42c3aba",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Plugin API\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "098d05e078",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"HMR API\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "41d2221699",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"JavaScript API\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "f8bf13cad7",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Config Reference\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "5a2f7f682b",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Introduction\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "92797f8048",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Environment Instances\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "fca0f36d71",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Plugins\" #2",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "66ccffc07b",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Frameworks\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "c41ec0c3c8",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Runtimes\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "b43e455f1f",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"npm Dependency Resolving and Pre-Bundling\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "8b140f9e27",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Hot Module Replacement\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "160259b46a",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"TypeScript\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "6476e64616",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Transpile Only\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "88017ffeb0",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"TypeScript Compiler Options\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "ac88c47696",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Client Types\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "bb0f557624",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"HTML\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "cc7182b618",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Frameworks\" #2",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "c5e64c8d9f",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"JSX\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "5102ba7bf3",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"CSS\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "d1cddc1a3c",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"@import Inlining and Rebasing\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "adcd750837",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"PostCSS\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "73ef7958fa",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"CSS Modules\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "ded89ccba8",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"CSS Pre-processors\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "4a964a31c2",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Disabling CSS injection into the page\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "9b9cdfc4d7",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Lightning CSS\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "3d174945d0",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Static Assets\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "2328408f26",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"JSON\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "4f88c9cf8b",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Glob Import\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "b1680ad23b",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Multiple Patterns\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "9609502aed",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Negative Patterns\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "27cd0e53bf",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Glob Import Caveats\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "cda9b04f9c",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Dynamic Import\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "d2d2def160",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"WebAssembly\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "7628569cff",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"ESM Integration\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "e3c2175833",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Manual Initialization\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "ffbd9c1b4d",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Accessing the WebAssembly Module\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "8b93e0aec2",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Web Workers\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "abc4997134",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Import with Constructors\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "c4a71b3146",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Import with Query Suffixes\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "a4ae7fbfcd",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Content Security Policy (CSP)\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "4c183c0aa2",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"'nonce-{RANDOM}'\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "b22fc063e8",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"data:\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "29c39e0737",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"License\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "3412804558",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Build Optimizations\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "436c00d172",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"CSS Code Splitting\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "1f69e94ec2",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Preload Directives Generation\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "7f0dedaeb1",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Async Chunk Loading Optimization\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "0c48b6558d",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Chunk Import Map Optimization\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "4280627631",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Permalink to “Features”\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "b38fecfaf3",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Permalink to “npm Dependency Resolving and Pre-Bundling”\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "e8b0361f4c",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Pre-bundle\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "d74691f633",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"here\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "4f2a6e316c",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Previous page Why Vite\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "a549d5f995",
-					"dimension": "behaviour",
-					"check": "not exercised: link \"Next page CLI\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "4a88fc353e",
-					"dimension": "behaviour",
-					"check": "not exercised: switch \"Switch to dark theme\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "7dccb1ae63",
-					"dimension": "behaviour",
-					"check": "not exercised: summary \"Using triple-slash directive\"",
-					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
 					"id": "bc4354a2e3",
 					"dimension": "behaviour",
 					"check": "not exercised: button (after click button \"Copy code\" #2)",
@@ -1969,18 +2071,6 @@
 					"dimension": "behaviour",
 					"check": "not exercised: link (after click button \"Copy code\" #11)",
 					"lastSeen": "2026-11-23T12:36:03.851Z"
-				},
-				{
-					"id": "65da154107",
-					"dimension": "behaviour",
-					"check": "click button \"Copy code\" #21",
-					"lastSeen": "2026-11-21T11:14:29.359Z"
-				},
-				{
-					"id": "fa384ec3bc",
-					"dimension": "behaviour",
-					"check": "click button \"Copy code\" #24",
-					"lastSeen": "2026-11-21T11:14:29.359Z"
 				},
 				{
 					"id": "0566b0d90e",
@@ -2019,12 +2109,6 @@
 					"lastSeen": "2026-11-20T12:19:18.550Z"
 				},
 				{
-					"id": "632255714b",
-					"dimension": "behaviour",
-					"check": "not exercised: button (after click button \"Copy code\")",
-					"lastSeen": "2026-11-20T12:19:18.550Z"
-				},
-				{
 					"id": "4209f20a3b",
 					"dimension": "behaviour",
 					"check": "not exercised: button (after click button \"Copy code\" #25)",
@@ -2053,23 +2137,29 @@
 					"dimension": "behaviour",
 					"check": "not exercised: button (after click button \"Copy code\" #38)",
 					"lastSeen": "2026-11-18T11:40:57.126Z"
-				},
-				{
-					"id": "58869b5a1d",
-					"dimension": "behaviour",
-					"check": "click button \"Copy code\" #7",
-					"lastSeen": "2026-11-17T11:50:46.677Z"
 				}
 			],
 			"weight": {
 				"downloaded": 79135,
-				"executed": 21843
+				"executed": 21563
 			},
 			"owner": "markless-migrate vite-dev port (thejackshelton)"
 		},
 		"/live": {
-			"ok": true,
+			"ok": false,
 			"failures": [
+				{
+					"id": "4901f7e36d",
+					"dimension": "a11y",
+					"check": "press Enter on link \"Config\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
+				{
+					"id": "282dffe136",
+					"dimension": "a11y",
+					"check": "press Enter on link \"Plugins\"",
+					"lastSeen": "2026-11-24T13:42:13.076Z"
+				},
 				{
 					"id": "b5a57815c6",
 					"dimension": "behaviour",
@@ -2142,24 +2232,13 @@
 					"dimension": "behaviour",
 					"check": "click link \"Config\" #2",
 					"lastSeen": "2026-11-18T11:40:57.126Z"
-				},
-				{
-					"id": "10445dcaff",
-					"dimension": "behaviour",
-					"check": "click link \"Plugins\" #2",
-					"lastSeen": "2026-11-17T11:50:46.677Z"
-				},
-				{
-					"id": "380205d795",
-					"dimension": "behaviour",
-					"check": "click link \"Blog\"",
-					"lastSeen": "2026-11-17T11:50:46.677Z"
 				}
 			],
 			"weight": {
 				"downloaded": 79135,
-				"executed": 18018
-			}
+				"executed": 18036
+			},
+			"owner": "markless-migrate vite-dev port (thejackshelton)"
 		}
 	},
 	"misses": [
