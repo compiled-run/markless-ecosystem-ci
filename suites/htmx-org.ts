@@ -4,6 +4,8 @@ import full from './routes/htmx-org.json' with { type: 'json' };
 export default {
 	name: 'htmx-org',
 	app: 'examples/htmx-org-markless',
+	// The pin plus markless-migrate #768: its element() handles that may be missing say | undefined (Markless #1203).
+	migrateRef: '82eb9a02c1a06413e0bc29974a1a7c5580924a71',
 	old: 'https://htmx.org',
 	owner: 'markless-migrate htmx-org port (thejackshelton)',
 	quarantine: [
